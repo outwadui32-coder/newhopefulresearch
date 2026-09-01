@@ -3,13 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>OpenPosterDB & Direct Media Stream Engine | 100% Ad-Free Video API</title>
-  <meta name="description" content="Free open-source high-resolution movie dataset, rating poster database, and 100% direct media stream engine (Zero Ads, No Embeds) powered by GitHub and jsDelivr CDN." />
+  <title>OpenPosterDB & Redflix Stream Data Source | High-Res Movie & Video API</title>
+  <meta name="description" content="Free open-source high-resolution movie dataset, rating poster database, and multi-server streaming source powered by GitHub and jsDelivr CDN." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <!-- HLS.js for Native HTML5 Direct Video Playback -->
-  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <style>
     :root {
       --bg-primary: #0a0c10;
@@ -51,7 +49,6 @@
       font-family: 'Outfit', sans-serif;
     }
 
-    /* Ambient Glow */
     .ambient-glow {
       position: fixed;
       top: -20%;
@@ -59,7 +56,7 @@
       transform: translateX(-50%);
       width: 800px;
       height: 450px;
-      background: radial-gradient(circle, rgba(229, 9, 20, 0.15) 0%, rgba(16, 185, 129, 0.08) 50%, transparent 80%);
+      background: radial-gradient(circle, rgba(229, 9, 20, 0.15) 0%, rgba(56, 189, 248, 0.05) 50%, transparent 80%);
       filter: blur(80px);
       z-index: 0;
       pointer-events: none;
@@ -108,12 +105,12 @@
 
     .brand-tag {
       font-size: 0.7rem;
-      background: rgba(16, 185, 129, 0.2);
-      color: #34d399;
+      background: rgba(229, 9, 20, 0.2);
+      color: #ff6b6b;
       padding: 2px 8px;
       border-radius: 999px;
       font-weight: 600;
-      border: 1px solid rgba(16, 185, 129, 0.3);
+      border: 1px solid rgba(229, 9, 20, 0.3);
     }
 
     .nav-actions {
@@ -207,8 +204,8 @@
     }
 
     .badge-quality {
-      background: linear-gradient(135deg, #10b981, #059669);
-      color: #fff;
+      background: linear-gradient(135deg, #38bdf8, #0284c7);
+      color: #0f172a;
     }
 
     .badge-rating {
@@ -245,7 +242,7 @@
       gap: 1rem;
     }
 
-    /* Main Content */
+    /* Main Container */
     main {
       max-width: 1440px;
       margin: 0 auto;
@@ -371,7 +368,7 @@
     .movie-card:hover {
       transform: translateY(-6px);
       border-color: rgba(255, 255, 255, 0.2);
-      box-shadow: 0 12px 24px -10px rgba(0, 0, 0, 0.6), 0 0 20px rgba(16, 185, 129, 0.15);
+      box-shadow: 0 12px 24px -10px rgba(0, 0, 0, 0.6), 0 0 20px rgba(229, 9, 20, 0.15);
     }
 
     .poster-wrap {
@@ -420,13 +417,13 @@
     .play-circle {
       width: 48px;
       height: 48px;
-      background: var(--accent-emerald);
+      background: var(--accent-red);
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
       color: #fff;
-      box-shadow: 0 0 20px rgba(16, 185, 129, 0.4);
+      box-shadow: 0 0 20px var(--accent-glow);
       transform: scale(0.85);
       transition: var(--transition);
     }
@@ -590,7 +587,7 @@
       color: var(--text-muted);
     }
 
-    /* 100% Native Video Player (Zero Iframes, Zero Ads) */
+    /* Player Container */
     .player-container {
       background: #000;
       border-radius: var(--radius-md);
@@ -600,9 +597,9 @@
     }
 
     .player-header {
-      background: rgba(16, 185, 129, 0.15);
-      border-bottom: 1px solid rgba(16, 185, 129, 0.3);
-      color: #34d399;
+      background: rgba(229, 9, 20, 0.15);
+      border-bottom: 1px solid rgba(229, 9, 20, 0.3);
+      color: #ff6b6b;
       font-size: 0.8rem;
       font-weight: 700;
       padding: 0.6rem 1rem;
@@ -611,15 +608,15 @@
       justify-content: space-between;
     }
 
-    .native-video-element {
+    .player-frame {
       width: 100%;
       aspect-ratio: 16/9;
-      background: #000;
-      outline: none;
+      border: none;
       display: block;
+      background: #000;
     }
 
-    .quality-selector {
+    .server-selector {
       display: flex;
       gap: 0.5rem;
       padding: 0.75rem 1rem;
@@ -629,7 +626,7 @@
       align-items: center;
     }
 
-    .quality-btn {
+    .server-btn {
       background: rgba(255, 255, 255, 0.06);
       border: 1px solid var(--border-glass);
       color: var(--text-muted);
@@ -641,10 +638,10 @@
       white-space: nowrap;
     }
 
-    .quality-btn.active {
-      background: var(--accent-emerald);
+    .server-btn.active {
+      background: var(--accent-red);
       color: #fff;
-      border-color: var(--accent-emerald);
+      border-color: var(--accent-red);
     }
 
     .api-code-block {
@@ -654,7 +651,7 @@
       padding: 1rem;
       font-family: monospace;
       font-size: 0.825rem;
-      color: #34d399;
+      color: #38bdf8;
       overflow-x: auto;
       position: relative;
     }
@@ -691,15 +688,15 @@
   <!-- Header -->
   <header>
     <a href="#" class="brand">
-      <div class="brand-logo">▶</div>
+      <div class="brand-logo">R</div>
       <div>
-        <div class="brand-title">DirectMedia DB</div>
+        <div class="brand-title">OpenPosterDB</div>
       </div>
-      <span class="brand-tag">100% Direct Streams</span>
+      <span class="brand-tag">Redflix Architecture</span>
     </a>
     <div class="nav-actions">
       <a href="data/playlist.m3u" target="_blank" class="btn btn-outline" title="IPTV M3U Playlist for VLC, Kodi, TiviMate">
-        📺 Direct M3U
+        📺 M3U Playlist
       </a>
       <a href="data/movies.txt" target="_blank" class="btn btn-outline" title="Plaintext Dataset">
         📄 TXT
@@ -729,7 +726,7 @@
       <div class="hero-actions">
         <button class="btn btn-primary" id="heroPlayBtn">
           <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-          Direct Stream Play
+          Watch Now
         </button>
         <button class="btn btn-outline" id="heroDetailsBtn">More Details</button>
       </div>
@@ -742,7 +739,7 @@
       <div class="search-row">
         <div class="search-box">
           <svg class="search-icon" width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
-          <input type="text" id="searchInput" class="search-input" placeholder="Search direct movies by title, cast, or year..." />
+          <input type="text" id="searchInput" class="search-input" placeholder="Search by title, cast, or year..." />
         </div>
       </div>
 
@@ -761,14 +758,14 @@
 
     <div class="section-header">
       <h2 class="section-title" id="catalogTitle">Trending & Popular Movies</h2>
-      <span class="stats-count" id="statsCount">Loading direct stream database...</span>
+      <span class="stats-count" id="statsCount">Loading database...</span>
     </div>
 
     <!-- Movie Grid -->
     <div class="movie-grid" id="movieGrid"></div>
   </main>
 
-  <!-- Modal Native HTML5 Player / Details -->
+  <!-- Modal Player / Details -->
   <div class="modal-overlay" id="movieModal">
     <div class="modal-content">
       <button class="modal-close" id="modalClose">&times;</button>
@@ -792,27 +789,27 @@
 
         <p class="hero-overview" id="modalOverview" style="display: block; color: var(--text-main); font-size: 0.95rem;"></p>
 
-        <!-- 100% Native Video Player (Zero Embeds / Zero Iframes / Zero Ads) -->
+        <!-- Multi-Server Stream Player -->
         <div class="player-container">
           <div class="player-header">
-            <span>🎬 100% Native Direct Media Player (Zero Iframes, Zero Popup Ads)</span>
-            <span style="background: rgba(16, 185, 129, 0.25); padding: 2px 8px; border-radius: 4px; color: #34d399;">Direct HLS / MP4</span>
+            <span>⚡ Redflix Live Streaming Gateway (Multi-Server)</span>
+            <span style="background: rgba(229, 9, 20, 0.2); padding: 2px 8px; border-radius: 4px; color: #ff6b6b;">HD 1080p / 4K</span>
           </div>
           
-          <video id="nativeVideoPlayer" class="native-video-element" controls playsinline preload="auto" poster=""></video>
+          <iframe id="videoPlayerFrame" class="player-frame" src="" allowfullscreen allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
           
-          <div class="quality-selector" id="qualitySelector">
-            <span style="font-size: 0.8rem; color: var(--text-muted); margin-right: 0.5rem;">Stream Source:</span>
-            <!-- Quality Buttons dynamically inserted -->
+          <div class="server-selector" id="serverSelector">
+            <span style="font-size: 0.8rem; color: var(--text-muted); margin-right: 0.5rem;">Servers:</span>
+            <!-- Server Buttons dynamically inserted -->
           </div>
         </div>
 
-        <!-- Direct Stream API Info -->
+        <!-- Stream API Info -->
         <div>
-          <h4 style="margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--text-muted);">Direct Media Stream URL (Zero Ads):</h4>
+          <h4 style="margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--text-muted);">Active Stream Gateway URL:</h4>
           <div class="api-code-block">
-            <button class="copy-btn" id="copyApiBtn">Copy URL</button>
-            <span id="apiEndpointText">Direct Stream URL</span>
+            <button class="copy-btn" id="copyApiBtn">Copy Stream URL</button>
+            <span id="apiEndpointText">Stream Gateway URL</span>
           </div>
         </div>
       </div>
@@ -822,7 +819,6 @@
   <script>
     let allMovies = [];
     let currentMovie = null;
-    let hlsInstance = null;
 
     async function init() {
       try {
@@ -863,7 +859,7 @@
     function renderMovies(movies) {
       const grid = document.getElementById('movieGrid');
       const countEl = document.getElementById('statsCount');
-      countEl.textContent = `Showing ${movies.length} items (Direct Media Ready)`;
+      countEl.textContent = `Showing ${movies.length} items`;
 
       if (movies.length === 0) {
         grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 4rem; color: var(--text-dim);">No movies found matching criteria.</div>';
@@ -901,38 +897,6 @@
       }).join('');
     }
 
-    function loadDirectVideo(streamUrl, posterUrl) {
-      const video = document.getElementById('nativeVideoPlayer');
-      video.poster = posterUrl || '';
-      
-      document.getElementById('apiEndpointText').textContent = streamUrl;
-
-      if (hlsInstance) {
-        hlsInstance.destroy();
-        hlsInstance = null;
-      }
-
-      // Check if HLS.js is supported
-      if (Hls.isSupported()) {
-        hlsInstance = new Hls({
-          debug: false,
-          enableWorker: true,
-          lowLatencyMode: true
-        });
-        hlsInstance.loadSource(streamUrl);
-        hlsInstance.attachMedia(video);
-        hlsInstance.on(Hls.Events.MANIFEST_PARSED, function() {
-          video.play().catch(() => {});
-        });
-      } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-        // Native HLS support (Safari, iOS)
-        video.src = streamUrl;
-        video.play().catch(() => {});
-      } else {
-        video.src = streamUrl;
-      }
-    }
-
     function openModal(movie) {
       currentMovie = movie;
       const modal = document.getElementById('movieModal');
@@ -947,55 +911,42 @@
       document.getElementById('modalRuntime').textContent = movie.runtime_formatted || (movie.type === 'tv' ? 'TV Series' : '1080p');
       document.getElementById('modalOverview').textContent = movie.overview || 'No overview available.';
 
-      // Genres
       const genresEl = document.getElementById('modalGenres');
       genresEl.innerHTML = (movie.genres || []).map(g => `<span class="genre-tag">${g}</span>`).join('');
 
-      // Build Direct Stream Quality Buttons
-      const selector = document.getElementById('qualitySelector');
-      const sources = movie.stream_sources?.qualities || {};
-      const primaryUrl = movie.direct_stream_url || movie.stream_sources?.primary_hls_stream;
-      const keys = Object.keys(sources);
+      // Build Multi-Server buttons
+      const selector = document.getElementById('serverSelector');
+      const servers = movie.stream_servers || {};
+      const serverKeys = Object.keys(servers);
+      const primaryUrl = movie.primary_stream_url || (serverKeys.length > 0 ? servers[serverKeys[0]] : '');
 
-      let buttonsHtml = `
-        <button class="quality-btn active" onclick="switchQuality('${primaryUrl}', this)">
-          ⚡ Master Direct Stream
-        </button>
-      `;
-
-      keys.forEach(k => {
-        buttonsHtml += `
-          <button class="quality-btn" onclick="switchQuality('${sources[k]}', this)">
-            ${k}
+      if (serverKeys.length > 0) {
+        selector.innerHTML = '<span style="font-size: 0.8rem; color: var(--text-muted); margin-right: 0.5rem;">Servers:</span>' + serverKeys.map((k, idx) => `
+          <button class="server-btn ${idx === 0 ? 'active' : ''}" onclick="switchServer('${servers[k]}', this)">
+            ⚡ ${k.toUpperCase()}
           </button>
-        `;
-      });
+        `).join('');
+      } else {
+        selector.innerHTML = '';
+      }
 
-      selector.innerHTML = buttonsHtml;
-
-      // Play direct stream in Native HTML5 Video Player
-      loadDirectVideo(primaryUrl, backdrop || poster);
+      document.getElementById('videoPlayerFrame').src = primaryUrl;
+      document.getElementById('apiEndpointText').textContent = primaryUrl;
 
       modal.classList.add('active');
     }
 
-    window.switchQuality = function(url, btn) {
-      document.querySelectorAll('.quality-btn').forEach(b => b.classList.remove('active'));
+    window.switchServer = function(url, btn) {
+      document.querySelectorAll('.server-btn').forEach(b => b.classList.remove('active'));
       if (btn) btn.classList.add('active');
-      loadDirectVideo(url, currentMovie?.backdrop?.original || currentMovie?.poster?.original);
+      document.getElementById('videoPlayerFrame').src = url;
+      document.getElementById('apiEndpointText').textContent = url;
     };
 
     function setupEventListeners() {
-      // Close modal & stop video playback
       const closeModal = () => {
         document.getElementById('movieModal').classList.remove('active');
-        const video = document.getElementById('nativeVideoPlayer');
-        video.pause();
-        video.src = '';
-        if (hlsInstance) {
-          hlsInstance.destroy();
-          hlsInstance = null;
-        }
+        document.getElementById('videoPlayerFrame').src = '';
       };
 
       document.getElementById('modalClose').onclick = closeModal;
@@ -1003,7 +954,6 @@
         if (e.target.id === 'movieModal') closeModal();
       };
 
-      // Search
       document.getElementById('searchInput').addEventListener('input', (e) => {
         const query = e.target.value.toLowerCase().trim();
         const filtered = allMovies.filter(m => {
@@ -1015,7 +965,6 @@
         renderMovies(filtered);
       });
 
-      // Filter pills
       document.querySelectorAll('.filter-pill').forEach(btn => {
         btn.addEventListener('click', () => {
           document.querySelectorAll('.filter-pill').forEach(b => b.classList.remove('active'));
@@ -1032,12 +981,11 @@
         });
       });
 
-      // Copy Direct Stream API
       document.getElementById('copyApiBtn').onclick = () => {
         const text = document.getElementById('apiEndpointText').textContent;
         navigator.clipboard.writeText(text);
         document.getElementById('copyApiBtn').textContent = 'Copied!';
-        setTimeout(() => document.getElementById('copyApiBtn').textContent = 'Copy URL', 2000);
+        setTimeout(() => document.getElementById('copyApiBtn').textContent = 'Copy Stream URL', 2000);
       };
     }
 

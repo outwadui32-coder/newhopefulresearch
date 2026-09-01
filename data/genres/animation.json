@@ -38,16 +38,16 @@
       "720p HD",
       "480p SD"
     ],
-    "stream_type": "direct_hls_media",
-    "direct_stream_url": "https://multiembed.mov/directstream.php?video_id=1744462&tmdb=1",
-    "stream_sources": {
-      "primary_hls_stream": "https://multiembed.mov/directstream.php?video_id=1744462&tmdb=1",
-      "backup_hls_stream": "https://autoembed.co/movie/tmdb/1744462",
-      "qualities": {
-        "4K Ultra HD": "https://multiembed.mov/directstream.php?video_id=1744462&tmdb=1&res=4k",
-        "1080p Full HD": "https://multiembed.mov/directstream.php?video_id=1744462&tmdb=1&res=1080",
-        "720p HD": "https://multiembed.mov/directstream.php?video_id=1744462&tmdb=1&res=720"
-      }
+    "primary_stream_url": "https://vidbolt.xyz/movie/1744462",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/1744462",
+      "vidlink": "https://vidlink.pro/movie/1744462",
+      "videasy": "https://player.videasy.to/movie/1744462",
+      "autoembed": "https://player.autoembed.cc/embed/movie/1744462",
+      "vidfast": "https://vidfast.vc/movie/1744462",
+      "vidcore": "https://vidcore.net/movie/1744462",
+      "vidsrc": "https://vidsrc.to/embed/movie/1744462",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=1744462&tmdb=1"
     },
     "health_status": "online",
     "updated_at": "2026-09-01T10:37:47.742506+00:00"
@@ -97,16 +97,16 @@
       "720p HD",
       "480p SD"
     ],
-    "stream_type": "direct_hls_media",
-    "direct_stream_url": "https://multiembed.mov/directstream.php?video_id=1084244&tmdb=1",
-    "stream_sources": {
-      "primary_hls_stream": "https://multiembed.mov/directstream.php?video_id=1084244&tmdb=1",
-      "backup_hls_stream": "https://autoembed.co/movie/tmdb/1084244",
-      "qualities": {
-        "4K Ultra HD": "https://multiembed.mov/directstream.php?video_id=1084244&tmdb=1&res=4k",
-        "1080p Full HD": "https://multiembed.mov/directstream.php?video_id=1084244&tmdb=1&res=1080",
-        "720p HD": "https://multiembed.mov/directstream.php?video_id=1084244&tmdb=1&res=720"
-      }
+    "primary_stream_url": "https://vidbolt.xyz/movie/1084244",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/1084244",
+      "vidlink": "https://vidlink.pro/movie/1084244",
+      "videasy": "https://player.videasy.to/movie/1084244",
+      "autoembed": "https://player.autoembed.cc/embed/movie/1084244",
+      "vidfast": "https://vidfast.vc/movie/1084244",
+      "vidcore": "https://vidcore.net/movie/1084244",
+      "vidsrc": "https://vidsrc.to/embed/movie/1084244",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=1084244&tmdb=1"
     },
     "health_status": "online",
     "updated_at": "2026-09-01T10:37:47.589243+00:00"
@@ -157,16 +157,16 @@
       "720p HD",
       "480p SD"
     ],
-    "stream_type": "direct_hls_media",
-    "direct_stream_url": "https://multiembed.mov/directstream.php?video_id=1315772&tmdb=1",
-    "stream_sources": {
-      "primary_hls_stream": "https://multiembed.mov/directstream.php?video_id=1315772&tmdb=1",
-      "backup_hls_stream": "https://autoembed.co/movie/tmdb/1315772",
-      "qualities": {
-        "4K Ultra HD": "https://multiembed.mov/directstream.php?video_id=1315772&tmdb=1&res=4k",
-        "1080p Full HD": "https://multiembed.mov/directstream.php?video_id=1315772&tmdb=1&res=1080",
-        "720p HD": "https://multiembed.mov/directstream.php?video_id=1315772&tmdb=1&res=720"
-      }
+    "primary_stream_url": "https://vidbolt.xyz/movie/1315772",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/1315772",
+      "vidlink": "https://vidlink.pro/movie/1315772",
+      "videasy": "https://player.videasy.to/movie/1315772",
+      "autoembed": "https://player.autoembed.cc/embed/movie/1315772",
+      "vidfast": "https://vidfast.vc/movie/1315772",
+      "vidcore": "https://vidcore.net/movie/1315772",
+      "vidsrc": "https://vidsrc.to/embed/movie/1315772",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=1315772&tmdb=1"
     },
     "health_status": "online",
     "updated_at": "2026-09-01T10:37:47.589253+00:00"
@@ -218,16 +218,16 @@
       "720p HD",
       "480p SD"
     ],
-    "stream_type": "direct_hls_media",
-    "direct_stream_url": "https://multiembed.mov/directstream.php?video_id=1560520&tmdb=1",
-    "stream_sources": {
-      "primary_hls_stream": "https://multiembed.mov/directstream.php?video_id=1560520&tmdb=1",
-      "backup_hls_stream": "https://autoembed.co/movie/tmdb/1560520",
-      "qualities": {
-        "4K Ultra HD": "https://multiembed.mov/directstream.php?video_id=1560520&tmdb=1&res=4k",
-        "1080p Full HD": "https://multiembed.mov/directstream.php?video_id=1560520&tmdb=1&res=1080",
-        "720p HD": "https://multiembed.mov/directstream.php?video_id=1560520&tmdb=1&res=720"
-      }
+    "primary_stream_url": "https://vidbolt.xyz/movie/1560520",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/1560520",
+      "vidlink": "https://vidlink.pro/movie/1560520",
+      "videasy": "https://player.videasy.to/movie/1560520",
+      "autoembed": "https://player.autoembed.cc/embed/movie/1560520",
+      "vidfast": "https://vidfast.vc/movie/1560520",
+      "vidcore": "https://vidcore.net/movie/1560520",
+      "vidsrc": "https://vidsrc.to/embed/movie/1560520",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=1560520&tmdb=1"
     },
     "health_status": "online",
     "updated_at": "2026-09-01T10:37:47.742597+00:00"
@@ -271,16 +271,16 @@
       "720p HD",
       "480p SD"
     ],
-    "stream_type": "direct_hls_media",
-    "direct_stream_url": "https://multiembed.mov/directstream.php?video_id=980431&tmdb=1",
-    "stream_sources": {
-      "primary_hls_stream": "https://multiembed.mov/directstream.php?video_id=980431&tmdb=1",
-      "backup_hls_stream": "https://autoembed.co/movie/tmdb/980431",
-      "qualities": {
-        "4K Ultra HD": "https://multiembed.mov/directstream.php?video_id=980431&tmdb=1&res=4k",
-        "1080p Full HD": "https://multiembed.mov/directstream.php?video_id=980431&tmdb=1&res=1080",
-        "720p HD": "https://multiembed.mov/directstream.php?video_id=980431&tmdb=1&res=720"
-      }
+    "primary_stream_url": "https://vidbolt.xyz/movie/980431",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/980431",
+      "vidlink": "https://vidlink.pro/movie/980431",
+      "videasy": "https://player.videasy.to/movie/980431",
+      "autoembed": "https://player.autoembed.cc/embed/movie/980431",
+      "vidfast": "https://vidfast.vc/movie/980431",
+      "vidcore": "https://vidcore.net/movie/980431",
+      "vidsrc": "https://vidsrc.to/embed/movie/980431",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=980431&tmdb=1"
     },
     "health_status": "online",
     "updated_at": "2026-09-01T10:37:48.129385+00:00"
@@ -329,19 +329,19 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=1729723&type=movie",
+    "primary_stream_url": "https://vidbolt.xyz/movie/1729723",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/1729723",
       "vidlink": "https://vidlink.pro/movie/1729723",
       "videasy": "https://player.videasy.to/movie/1729723",
+      "autoembed": "https://player.autoembed.cc/embed/movie/1729723",
       "vidfast": "https://vidfast.vc/movie/1729723",
       "vidcore": "https://vidcore.net/movie/1729723",
-      "vidnest": "https://vidnest.fun/movie/1729723"
+      "vidsrc": "https://vidsrc.to/embed/movie/1729723",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=1729723&tmdb=1"
     },
-    "updated_at": "2026-09-01T09:40:23.768891Z",
-    "primary_stream_url": "https://vidbolt.xyz/movie/1729723",
     "health_status": "online",
-    "last_health_check": "2026-09-01T10:07:23.528756+00:00"
+    "updated_at": "2026-09-01T10:41:58.130387+00:00"
   },
   {
     "id": 1007757,
@@ -553,16 +553,16 @@
       "720p HD",
       "480p SD"
     ],
-    "stream_type": "direct_hls_media",
-    "direct_stream_url": "https://multiembed.mov/directstream.php?video_id=1311031&tmdb=1",
-    "stream_sources": {
-      "primary_hls_stream": "https://multiembed.mov/directstream.php?video_id=1311031&tmdb=1",
-      "backup_hls_stream": "https://autoembed.co/movie/tmdb/1311031",
-      "qualities": {
-        "4K Ultra HD": "https://multiembed.mov/directstream.php?video_id=1311031&tmdb=1&res=4k",
-        "1080p Full HD": "https://multiembed.mov/directstream.php?video_id=1311031&tmdb=1&res=1080",
-        "720p HD": "https://multiembed.mov/directstream.php?video_id=1311031&tmdb=1&res=720"
-      }
+    "primary_stream_url": "https://vidbolt.xyz/movie/1311031",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/1311031",
+      "vidlink": "https://vidlink.pro/movie/1311031",
+      "videasy": "https://player.videasy.to/movie/1311031",
+      "autoembed": "https://player.autoembed.cc/embed/movie/1311031",
+      "vidfast": "https://vidfast.vc/movie/1311031",
+      "vidcore": "https://vidcore.net/movie/1311031",
+      "vidsrc": "https://vidsrc.to/embed/movie/1311031",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=1311031&tmdb=1"
     },
     "health_status": "online",
     "updated_at": "2026-09-01T10:37:48.129312+00:00"
@@ -607,16 +607,16 @@
       "720p HD",
       "480p SD"
     ],
-    "stream_type": "direct_hls_media",
-    "direct_stream_url": "https://multiembed.mov/directstream.php?video_id=1084242&tmdb=1",
-    "stream_sources": {
-      "primary_hls_stream": "https://multiembed.mov/directstream.php?video_id=1084242&tmdb=1",
-      "backup_hls_stream": "https://autoembed.co/movie/tmdb/1084242",
-      "qualities": {
-        "4K Ultra HD": "https://multiembed.mov/directstream.php?video_id=1084242&tmdb=1&res=4k",
-        "1080p Full HD": "https://multiembed.mov/directstream.php?video_id=1084242&tmdb=1&res=1080",
-        "720p HD": "https://multiembed.mov/directstream.php?video_id=1084242&tmdb=1&res=720"
-      }
+    "primary_stream_url": "https://vidbolt.xyz/movie/1084242",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/1084242",
+      "vidlink": "https://vidlink.pro/movie/1084242",
+      "videasy": "https://player.videasy.to/movie/1084242",
+      "autoembed": "https://player.autoembed.cc/embed/movie/1084242",
+      "vidfast": "https://vidfast.vc/movie/1084242",
+      "vidcore": "https://vidcore.net/movie/1084242",
+      "vidsrc": "https://vidsrc.to/embed/movie/1084242",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=1084242&tmdb=1"
     },
     "health_status": "online",
     "updated_at": "2026-09-01T10:37:48.129488+00:00"
@@ -660,16 +660,16 @@
       "720p HD",
       "480p SD"
     ],
-    "stream_type": "direct_hls_media",
-    "direct_stream_url": "https://multiembed.mov/directstream.php?video_id=1218925&tmdb=1",
-    "stream_sources": {
-      "primary_hls_stream": "https://multiembed.mov/directstream.php?video_id=1218925&tmdb=1",
-      "backup_hls_stream": "https://autoembed.co/movie/tmdb/1218925",
-      "qualities": {
-        "4K Ultra HD": "https://multiembed.mov/directstream.php?video_id=1218925&tmdb=1&res=4k",
-        "1080p Full HD": "https://multiembed.mov/directstream.php?video_id=1218925&tmdb=1&res=1080",
-        "720p HD": "https://multiembed.mov/directstream.php?video_id=1218925&tmdb=1&res=720"
-      }
+    "primary_stream_url": "https://vidbolt.xyz/movie/1218925",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/1218925",
+      "vidlink": "https://vidlink.pro/movie/1218925",
+      "videasy": "https://player.videasy.to/movie/1218925",
+      "autoembed": "https://player.autoembed.cc/embed/movie/1218925",
+      "vidfast": "https://vidfast.vc/movie/1218925",
+      "vidcore": "https://vidcore.net/movie/1218925",
+      "vidsrc": "https://vidsrc.to/embed/movie/1218925",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=1218925&tmdb=1"
     },
     "health_status": "online",
     "updated_at": "2026-09-01T10:37:48.182403+00:00"
@@ -713,16 +713,16 @@
       "720p HD",
       "480p SD"
     ],
-    "stream_type": "direct_hls_media",
-    "direct_stream_url": "https://multiembed.mov/directstream.php?video_id=569094&tmdb=1",
-    "stream_sources": {
-      "primary_hls_stream": "https://multiembed.mov/directstream.php?video_id=569094&tmdb=1",
-      "backup_hls_stream": "https://autoembed.co/movie/tmdb/569094",
-      "qualities": {
-        "4K Ultra HD": "https://multiembed.mov/directstream.php?video_id=569094&tmdb=1&res=4k",
-        "1080p Full HD": "https://multiembed.mov/directstream.php?video_id=569094&tmdb=1&res=1080",
-        "720p HD": "https://multiembed.mov/directstream.php?video_id=569094&tmdb=1&res=720"
-      }
+    "primary_stream_url": "https://vidbolt.xyz/movie/569094",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/569094",
+      "vidlink": "https://vidlink.pro/movie/569094",
+      "videasy": "https://player.videasy.to/movie/569094",
+      "autoembed": "https://player.autoembed.cc/embed/movie/569094",
+      "vidfast": "https://vidfast.vc/movie/569094",
+      "vidcore": "https://vidcore.net/movie/569094",
+      "vidsrc": "https://vidsrc.to/embed/movie/569094",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=569094&tmdb=1"
     },
     "health_status": "online",
     "updated_at": "2026-09-01T10:37:48.129471+00:00"
@@ -765,16 +765,16 @@
       "720p HD",
       "480p SD"
     ],
-    "stream_type": "direct_hls_media",
-    "direct_stream_url": "https://multiembed.mov/directstream.php?video_id=620249&tmdb=1",
-    "stream_sources": {
-      "primary_hls_stream": "https://multiembed.mov/directstream.php?video_id=620249&tmdb=1",
-      "backup_hls_stream": "https://autoembed.co/movie/tmdb/620249",
-      "qualities": {
-        "4K Ultra HD": "https://multiembed.mov/directstream.php?video_id=620249&tmdb=1&res=4k",
-        "1080p Full HD": "https://multiembed.mov/directstream.php?video_id=620249&tmdb=1&res=1080",
-        "720p HD": "https://multiembed.mov/directstream.php?video_id=620249&tmdb=1&res=720"
-      }
+    "primary_stream_url": "https://vidbolt.xyz/movie/620249",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/620249",
+      "vidlink": "https://vidlink.pro/movie/620249",
+      "videasy": "https://player.videasy.to/movie/620249",
+      "autoembed": "https://player.autoembed.cc/embed/movie/620249",
+      "vidfast": "https://vidfast.vc/movie/620249",
+      "vidcore": "https://vidcore.net/movie/620249",
+      "vidsrc": "https://vidsrc.to/embed/movie/620249",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=620249&tmdb=1"
     },
     "health_status": "online",
     "updated_at": "2026-09-01T10:37:48.238165+00:00"
@@ -817,16 +817,16 @@
       "720p HD",
       "480p SD"
     ],
-    "stream_type": "direct_hls_media",
-    "direct_stream_url": "https://multiembed.mov/directstream.php?video_id=372058&tmdb=1",
-    "stream_sources": {
-      "primary_hls_stream": "https://multiembed.mov/directstream.php?video_id=372058&tmdb=1",
-      "backup_hls_stream": "https://autoembed.co/movie/tmdb/372058",
-      "qualities": {
-        "4K Ultra HD": "https://multiembed.mov/directstream.php?video_id=372058&tmdb=1&res=4k",
-        "1080p Full HD": "https://multiembed.mov/directstream.php?video_id=372058&tmdb=1&res=1080",
-        "720p HD": "https://multiembed.mov/directstream.php?video_id=372058&tmdb=1&res=720"
-      }
+    "primary_stream_url": "https://vidbolt.xyz/movie/372058",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/372058",
+      "vidlink": "https://vidlink.pro/movie/372058",
+      "videasy": "https://player.videasy.to/movie/372058",
+      "autoembed": "https://player.autoembed.cc/embed/movie/372058",
+      "vidfast": "https://vidfast.vc/movie/372058",
+      "vidcore": "https://vidcore.net/movie/372058",
+      "vidsrc": "https://vidsrc.to/embed/movie/372058",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=372058&tmdb=1"
     },
     "health_status": "online",
     "updated_at": "2026-09-01T10:37:48.237945+00:00"
@@ -869,16 +869,16 @@
       "720p HD",
       "480p SD"
     ],
-    "stream_type": "direct_hls_media",
-    "direct_stream_url": "https://multiembed.mov/directstream.php?video_id=129&tmdb=1",
-    "stream_sources": {
-      "primary_hls_stream": "https://multiembed.mov/directstream.php?video_id=129&tmdb=1",
-      "backup_hls_stream": "https://autoembed.co/movie/tmdb/129",
-      "qualities": {
-        "4K Ultra HD": "https://multiembed.mov/directstream.php?video_id=129&tmdb=1&res=4k",
-        "1080p Full HD": "https://multiembed.mov/directstream.php?video_id=129&tmdb=1&res=1080",
-        "720p HD": "https://multiembed.mov/directstream.php?video_id=129&tmdb=1&res=720"
-      }
+    "primary_stream_url": "https://vidbolt.xyz/movie/129",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/129",
+      "vidlink": "https://vidlink.pro/movie/129",
+      "videasy": "https://player.videasy.to/movie/129",
+      "autoembed": "https://player.autoembed.cc/embed/movie/129",
+      "vidfast": "https://vidfast.vc/movie/129",
+      "vidcore": "https://vidcore.net/movie/129",
+      "vidsrc": "https://vidsrc.to/embed/movie/129",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=129&tmdb=1"
     },
     "health_status": "online",
     "updated_at": "2026-09-01T10:37:48.182417+00:00"
@@ -921,16 +921,16 @@
       "720p HD",
       "480p SD"
     ],
-    "stream_type": "direct_hls_media",
-    "direct_stream_url": "https://multiembed.mov/directstream.php?video_id=12477&tmdb=1",
-    "stream_sources": {
-      "primary_hls_stream": "https://multiembed.mov/directstream.php?video_id=12477&tmdb=1",
-      "backup_hls_stream": "https://autoembed.co/movie/tmdb/12477",
-      "qualities": {
-        "4K Ultra HD": "https://multiembed.mov/directstream.php?video_id=12477&tmdb=1&res=4k",
-        "1080p Full HD": "https://multiembed.mov/directstream.php?video_id=12477&tmdb=1&res=1080",
-        "720p HD": "https://multiembed.mov/directstream.php?video_id=12477&tmdb=1&res=720"
-      }
+    "primary_stream_url": "https://vidbolt.xyz/movie/12477",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/12477",
+      "vidlink": "https://vidlink.pro/movie/12477",
+      "videasy": "https://player.videasy.to/movie/12477",
+      "autoembed": "https://player.autoembed.cc/embed/movie/12477",
+      "vidfast": "https://vidfast.vc/movie/12477",
+      "vidcore": "https://vidcore.net/movie/12477",
+      "vidsrc": "https://vidsrc.to/embed/movie/12477",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=12477&tmdb=1"
     },
     "health_status": "online",
     "updated_at": "2026-09-01T10:37:48.238060+00:00"

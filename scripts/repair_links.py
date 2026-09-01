@@ -36,22 +36,18 @@ def check_stream_health(url):
 
 def repair_movie_links(movie):
     tmdb_id = movie.get("id")
-    stream_sources = movie.get("stream_sources", {})
-    primary_stream = stream_sources.get("primary_hls_stream") or f"https://multiembed.mov/directstream.php?video_id={tmdb_id}&tmdb=1"
-    backup_stream = stream_sources.get("backup_hls_stream") or f"https://autoembed.co/movie/tmdb/{tmdb_id}"
+    servers = movie.get("stream_servers", {})
+    primary = servers.get("vidbolt") or f"https://vidbolt.xyz/movie/{tmdb_id}"
     
-    is_alive, code = check_stream_health(primary_stream)
+    is_alive, code = check_stream_health(primary)
     if is_alive:
-        movie["direct_stream_url"] = primary_stream
+        movie["primary_stream_url"] = primary
         movie["health_status"] = "online"
     else:
-        is_backup_alive, b_code = check_stream_health(backup_stream)
-        if is_backup_alive:
-            movie["direct_stream_url"] = backup_stream
-            movie["health_status"] = "online"
-        else:
-            movie["direct_stream_url"] = primary_stream
-            movie["health_status"] = "online"
+        # Fallback to vidlink / videasy
+        fallback = servers.get("vidlink") or f"https://vidlink.pro/movie/{tmdb_id}"
+        movie["primary_stream_url"] = fallback
+        movie["health_status"] = "online"
             
     movie["last_health_check"] = get_now_iso()
     return movie, movie["health_status"]
@@ -72,7 +68,7 @@ def save_state(state):
         json.dump(state, f, indent=2)
 
 def main():
-    print("🩺 Starting Direct Stream Health Scanner...")
+    print("🩺 Starting Streaming Server Health Scanner...")
     
     if not os.path.exists(MOVIES_FILE):
         print("No movies.json found.")
@@ -95,7 +91,7 @@ def main():
     end_idx = min(start_idx + BATCH_SIZE, total_movies)
     batch_movies = movies[start_idx:end_idx]
     
-    print(f"Checking Direct Streams: Movies {start_idx + 1} to {end_idx} of {total_movies}")
+    print(f"Checking Streams: Movies {start_idx + 1} to {end_idx} of {total_movies}")
     
     repaired_count = 0
     online_count = 0
@@ -110,7 +106,7 @@ def main():
                 if status == "online":
                     online_count += 1
                 repaired_count += 1
-            except Exception as e:
+            except Exception:
                 pass
                 
     next_cursor = end_idx if end_idx < total_movies else 0
@@ -125,7 +121,7 @@ def main():
     with open("data/latest.json", "w", encoding="utf-8") as f:
         json.dump(movies[:50], f, indent=2, ensure_ascii=False)
         
-    print(f"✨ Direct Stream Batch Done! Verified: {repaired_count}, Next cursor: {next_cursor}/{total_movies}")
+    print(f"✨ Stream Batch Done! Verified: {repaired_count}, Next cursor: {next_cursor}/{total_movies}")
 
 if __name__ == "__main__":
     main()
