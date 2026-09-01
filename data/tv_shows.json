@@ -7,7 +7,7 @@
     "release_year": 2026,
     "first_air_date": "2026-08-16",
     "rating": 8.3,
-    "vote_count": 230,
+    "vote_count": 232,
     "genres": [
       "Drama",
       "Mystery",
@@ -23,68 +23,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/mdbWfpbWhvxgG3k5MHpo90UgAUe.jpg",
       "original": "https://image.tmdb.org/t/p/original/mdbWfpbWhvxgG3k5MHpo90UgAUe.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/95350/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/95350/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/95350/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/95350/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/95350/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/95350/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/95350/1/1",
-      "cinezo": "https://player.cinezo.live/tv/95350/1/1",
-      "premium_vidup": "https://vidup.to/tv/95350/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/95350/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/95350/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/95350/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/95350/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/95350/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_95350_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.236456+00:00"
-  },
-  {
-    "id": 125988,
-    "type": "tv",
-    "title": "Silo",
-    "original_title": "Silo",
-    "release_year": 2023,
-    "first_air_date": "2023-05-04",
-    "rating": 8.2,
-    "vote_count": 2534,
-    "genres": [
-      "Sci-Fi & Fantasy",
-      "Drama"
-    ],
-    "overview": "In a ruined and toxic future, thousands live in a giant silo deep underground. After its sheriff breaks a cardinal rule and residents die mysteriously, engineer Juliette starts to uncover shocking secrets and the truth about the silo.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/gMYZZvnkVNTqSVnVCphWbPXwWwb.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/gMYZZvnkVNTqSVnVCphWbPXwWwb.jpg",
-      "original": "https://image.tmdb.org/t/p/original/gMYZZvnkVNTqSVnVCphWbPXwWwb.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/uTWhbLc7Bj4qNSdW3ZvZKL8cOHv.jpg",
-      "original": "https://image.tmdb.org/t/p/original/uTWhbLc7Bj4qNSdW3ZvZKL8cOHv.jpg"
-    },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/125988/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/125988/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/125988/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/125988/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/125988/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/125988/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/125988/1/1",
-      "cinezo": "https://player.cinezo.live/tv/125988/1/1",
-      "premium_vidup": "https://vidup.to/tv/125988/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/125988/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/125988/1/1"
-    },
-    "updated_at": "2026-09-01T10:56:57.236471+00:00"
+    "updated_at": "2026-09-01T11:39:41.915946+00:00"
   },
   {
     "id": 30984,
@@ -110,25 +56,46 @@
       "medium": "https://image.tmdb.org/t/p/w780/o0NsbcIvsllg6CJX0FBFY8wWbsn.jpg",
       "original": "https://image.tmdb.org/t/p/original/o0NsbcIvsllg6CJX0FBFY8wWbsn.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/30984/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/30984/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/30984/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/30984/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/30984/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/30984/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/30984/1/1",
-      "cinezo": "https://player.cinezo.live/tv/30984/1/1",
-      "premium_vidup": "https://vidup.to/tv/30984/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/30984/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/30984/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/30984/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/30984/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/30984/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_30984_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.236482+00:00"
+    "updated_at": "2026-09-01T11:39:41.915946+00:00"
+  },
+  {
+    "id": 125988,
+    "type": "tv",
+    "title": "Silo",
+    "original_title": "Silo",
+    "release_year": 2023,
+    "first_air_date": "2023-05-04",
+    "rating": 8.2,
+    "vote_count": 2536,
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama"
+    ],
+    "overview": "In a ruined and toxic future, thousands live in a giant silo deep underground. After its sheriff breaks a cardinal rule and residents die mysteriously, engineer Juliette starts to uncover shocking secrets and the truth about the silo.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/gMYZZvnkVNTqSVnVCphWbPXwWwb.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/gMYZZvnkVNTqSVnVCphWbPXwWwb.jpg",
+      "original": "https://image.tmdb.org/t/p/original/gMYZZvnkVNTqSVnVCphWbPXwWwb.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/uTWhbLc7Bj4qNSdW3ZvZKL8cOHv.jpg",
+      "original": "https://image.tmdb.org/t/p/original/uTWhbLc7Bj4qNSdW3ZvZKL8cOHv.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/125988/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/125988/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/125988/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_125988_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-01T11:39:41.915946+00:00"
   },
   {
     "id": 196322,
@@ -138,7 +105,7 @@
     "release_year": 2024,
     "first_air_date": "2024-05-07",
     "rating": 7.8,
-    "vote_count": 744,
+    "vote_count": 745,
     "genres": [
       "Sci-Fi & Fantasy",
       "Drama"
@@ -153,68 +120,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/lcyaTfX6KEMpWNnzPoGPKp7LwwC.jpg",
       "original": "https://image.tmdb.org/t/p/original/lcyaTfX6KEMpWNnzPoGPKp7LwwC.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/196322/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/196322/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/196322/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/196322/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/196322/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/196322/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/196322/1/1",
-      "cinezo": "https://player.cinezo.live/tv/196322/1/1",
-      "premium_vidup": "https://vidup.to/tv/196322/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/196322/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/196322/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/196322/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/196322/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/196322/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_196322_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.236492+00:00"
-  },
-  {
-    "id": 108978,
-    "type": "tv",
-    "title": "Reacher",
-    "original_title": "Reacher",
-    "release_year": 2022,
-    "first_air_date": "2022-02-03",
-    "rating": 8.1,
-    "vote_count": 3186,
-    "genres": [
-      "Action & Adventure",
-      "Crime"
-    ],
-    "overview": "Jack Reacher, a veteran military police investigator, has just recently entered civilian life. Reacher is a drifter, carrying no phone and the barest of essentials as he travels the country and explores the nation he once served.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
-      "original": "https://image.tmdb.org/t/p/original/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/pF0qkRsrHkdYadPWY9AMeFZfcwk.jpg",
-      "original": "https://image.tmdb.org/t/p/original/pF0qkRsrHkdYadPWY9AMeFZfcwk.jpg"
-    },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/108978/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/108978/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/108978/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/108978/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/108978/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/108978/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/108978/1/1",
-      "cinezo": "https://player.cinezo.live/tv/108978/1/1",
-      "premium_vidup": "https://vidup.to/tv/108978/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/108978/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/108978/1/1"
-    },
-    "updated_at": "2026-09-01T10:56:57.236501+00:00"
+    "updated_at": "2026-09-01T11:39:41.915946+00:00"
   },
   {
     "id": 290193,
@@ -240,25 +153,46 @@
       "medium": "https://image.tmdb.org/t/p/w780/3bHz9dYSZ5XDxY0zDaBpYgUOhE2.jpg",
       "original": "https://image.tmdb.org/t/p/original/3bHz9dYSZ5XDxY0zDaBpYgUOhE2.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/290193/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/290193/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/290193/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/290193/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/290193/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/290193/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/290193/1/1",
-      "cinezo": "https://player.cinezo.live/tv/290193/1/1",
-      "premium_vidup": "https://vidup.to/tv/290193/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/290193/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/290193/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/290193/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/290193/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/290193/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_290193_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.236509+00:00"
+    "updated_at": "2026-09-01T11:39:41.915946+00:00"
+  },
+  {
+    "id": 108978,
+    "type": "tv",
+    "title": "Reacher",
+    "original_title": "Reacher",
+    "release_year": 2022,
+    "first_air_date": "2022-02-03",
+    "rating": 8.1,
+    "vote_count": 3187,
+    "genres": [
+      "Action & Adventure",
+      "Crime"
+    ],
+    "overview": "Jack Reacher, a veteran military police investigator, has just recently entered civilian life. Reacher is a drifter, carrying no phone and the barest of essentials as he travels the country and explores the nation he once served.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
+      "original": "https://image.tmdb.org/t/p/original/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/pF0qkRsrHkdYadPWY9AMeFZfcwk.jpg",
+      "original": "https://image.tmdb.org/t/p/original/pF0qkRsrHkdYadPWY9AMeFZfcwk.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/108978/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/108978/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/108978/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_108978_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-01T11:39:41.915946+00:00"
   },
   {
     "id": 113962,
@@ -268,7 +202,7 @@
     "release_year": 2023,
     "first_air_date": "2023-07-23",
     "rating": 8.1,
-    "vote_count": 1445,
+    "vote_count": 1446,
     "genres": [
       "Drama",
       "War & Politics"
@@ -283,25 +217,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/4NBYDOnEjAzyuP7CMkD5s7fs44K.jpg",
       "original": "https://image.tmdb.org/t/p/original/4NBYDOnEjAzyuP7CMkD5s7fs44K.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/113962/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/113962/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/113962/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/113962/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/113962/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/113962/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/113962/1/1",
-      "cinezo": "https://player.cinezo.live/tv/113962/1/1",
-      "premium_vidup": "https://vidup.to/tv/113962/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/113962/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/113962/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/113962/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/113962/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/113962/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_113962_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.236518+00:00"
+    "updated_at": "2026-09-01T11:39:41.915946+00:00"
   },
   {
     "id": 615,
@@ -327,68 +250,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/4xKG4S1IyLIglHbCYGJDsptgQNh.jpg",
       "original": "https://image.tmdb.org/t/p/original/4xKG4S1IyLIglHbCYGJDsptgQNh.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/615/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/615/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/615/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/615/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/615/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/615/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/615/1/1",
-      "cinezo": "https://player.cinezo.live/tv/615/1/1",
-      "premium_vidup": "https://vidup.to/tv/615/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/615/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/615/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/615/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/615/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/615/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_615_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.236530+00:00"
-  },
-  {
-    "id": 287238,
-    "type": "tv",
-    "title": "Furious",
-    "original_title": "Furious",
-    "release_year": 2026,
-    "first_air_date": "2026-07-27",
-    "rating": 7.0,
-    "vote_count": 74,
-    "genres": [
-      "Drama",
-      "Crime"
-    ],
-    "overview": "FBI agent Alice Black is on the hunt for a mysterious and calculating female serial killer. Both walk their own paths toward justice, and as their lives start to intertwine, the line between right and wrong begins to blur.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/xnxxrEKtBaIcI1ewq50pLkOMU6u.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/xnxxrEKtBaIcI1ewq50pLkOMU6u.jpg",
-      "original": "https://image.tmdb.org/t/p/original/xnxxrEKtBaIcI1ewq50pLkOMU6u.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/iAOPgUlh7inOebFrUFHAjnFRCGS.jpg",
-      "original": "https://image.tmdb.org/t/p/original/iAOPgUlh7inOebFrUFHAjnFRCGS.jpg"
-    },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/287238/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/287238/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/287238/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/287238/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/287238/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/287238/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/287238/1/1",
-      "cinezo": "https://player.cinezo.live/tv/287238/1/1",
-      "premium_vidup": "https://vidup.to/tv/287238/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/287238/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/287238/1/1"
-    },
-    "updated_at": "2026-09-01T10:56:57.236543+00:00"
+    "updated_at": "2026-09-01T11:39:41.915946+00:00"
   },
   {
     "id": 37854,
@@ -414,25 +283,46 @@
       "medium": "https://image.tmdb.org/t/p/w780/2rmK7mnchw9Xr3XdiTFSxTTLXqv.jpg",
       "original": "https://image.tmdb.org/t/p/original/2rmK7mnchw9Xr3XdiTFSxTTLXqv.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/37854/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/37854/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/37854/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/37854/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/37854/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/37854/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/37854/1/1",
-      "cinezo": "https://player.cinezo.live/tv/37854/1/1",
-      "premium_vidup": "https://vidup.to/tv/37854/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/37854/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/37854/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/37854/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/37854/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/37854/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_37854_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.236552+00:00"
+    "updated_at": "2026-09-01T11:39:41.915946+00:00"
+  },
+  {
+    "id": 287238,
+    "type": "tv",
+    "title": "Furious",
+    "original_title": "Furious",
+    "release_year": 2026,
+    "first_air_date": "2026-07-27",
+    "rating": 7.0,
+    "vote_count": 74,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "overview": "FBI agent Alice Black is on the hunt for a mysterious and calculating female serial killer. Both walk their own paths toward justice, and as their lives start to intertwine, the line between right and wrong begins to blur.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/xnxxrEKtBaIcI1ewq50pLkOMU6u.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/xnxxrEKtBaIcI1ewq50pLkOMU6u.jpg",
+      "original": "https://image.tmdb.org/t/p/original/xnxxrEKtBaIcI1ewq50pLkOMU6u.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/iAOPgUlh7inOebFrUFHAjnFRCGS.jpg",
+      "original": "https://image.tmdb.org/t/p/original/iAOPgUlh7inOebFrUFHAjnFRCGS.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/287238/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/287238/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/287238/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_287238_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-01T11:39:41.915946+00:00"
   },
   {
     "id": 97546,
@@ -457,25 +347,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/nE94ejEbzNCU48bW1oju0dqBONz.jpg",
       "original": "https://image.tmdb.org/t/p/original/nE94ejEbzNCU48bW1oju0dqBONz.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/97546/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/97546/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/97546/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/97546/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/97546/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/97546/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/97546/1/1",
-      "cinezo": "https://player.cinezo.live/tv/97546/1/1",
-      "premium_vidup": "https://vidup.to/tv/97546/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/97546/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/97546/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/97546/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/97546/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/97546/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_97546_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.236560+00:00"
+    "updated_at": "2026-09-01T11:39:41.915946+00:00"
   },
   {
     "id": 299952,
@@ -499,25 +378,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/oUFUvEMCBP80e4eYsfVfxC8n7ih.jpg",
       "original": "https://image.tmdb.org/t/p/original/oUFUvEMCBP80e4eYsfVfxC8n7ih.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/299952/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/299952/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/299952/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/299952/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/299952/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/299952/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/299952/1/1",
-      "cinezo": "https://player.cinezo.live/tv/299952/1/1",
-      "premium_vidup": "https://vidup.to/tv/299952/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/299952/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/299952/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/299952/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/299952/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/299952/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_299952_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.236570+00:00"
+    "updated_at": "2026-09-01T11:39:41.915946+00:00"
   },
   {
     "id": 246246,
@@ -541,154 +409,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/ywJcUIMTCjstPLvvyIiPWP3G3m3.jpg",
       "original": "https://image.tmdb.org/t/p/original/ywJcUIMTCjstPLvvyIiPWP3G3m3.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/246246/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/246246/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/246246/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/246246/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/246246/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/246246/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/246246/1/1",
-      "cinezo": "https://player.cinezo.live/tv/246246/1/1",
-      "premium_vidup": "https://vidup.to/tv/246246/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/246246/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/246246/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/246246/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/246246/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/246246/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_246246_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.236578+00:00"
-  },
-  {
-    "id": 260458,
-    "type": "tv",
-    "title": "Adults",
-    "original_title": "Adults",
-    "release_year": 2025,
-    "first_air_date": "2025-05-28",
-    "rating": 6.0,
-    "vote_count": 79,
-    "genres": [
-      "Comedy"
-    ],
-    "overview": "A group of twenty-somethings in New York trying to be good people, despite being neither \"good\" nor \"people\" yet.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/oJUoRlVXGl3MJb62Ugi1G08GPbx.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/oJUoRlVXGl3MJb62Ugi1G08GPbx.jpg",
-      "original": "https://image.tmdb.org/t/p/original/oJUoRlVXGl3MJb62Ugi1G08GPbx.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/6skot5l7gcJd6hO6qlKDGGY6LBJ.jpg",
-      "original": "https://image.tmdb.org/t/p/original/6skot5l7gcJd6hO6qlKDGGY6LBJ.jpg"
-    },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/260458/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/260458/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/260458/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/260458/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/260458/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/260458/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/260458/1/1",
-      "cinezo": "https://player.cinezo.live/tv/260458/1/1",
-      "premium_vidup": "https://vidup.to/tv/260458/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/260458/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/260458/1/1"
-    },
-    "updated_at": "2026-09-01T10:56:57.236587+00:00"
-  },
-  {
-    "id": 94664,
-    "type": "tv",
-    "title": "Mushoku Tensei: Jobless Reincarnation",
-    "original_title": "無職転生 ～異世界行ったら本気だす～",
-    "release_year": 2021,
-    "first_air_date": "2021-01-11",
-    "rating": 8.4,
-    "vote_count": 1692,
-    "genres": [
-      "Action & Adventure",
-      "Animation",
-      "Sci-Fi & Fantasy"
-    ],
-    "overview": "When a 34-year-old underachiever gets run over by a truck, his story doesn't end there. Reincarnated in a new world as an infant, Rudy will seize every opportunity to live the life he's always wanted. Armed with new friends, some freshly acquired magical abilities, and the courage to do the things he's always dreamed of, he's embarking on an epic adventure—with all of his past experience intact!",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/gLKOYIMyKlUHW0SVdskhgf9C0yy.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/gLKOYIMyKlUHW0SVdskhgf9C0yy.jpg",
-      "original": "https://image.tmdb.org/t/p/original/gLKOYIMyKlUHW0SVdskhgf9C0yy.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/j9fRIimor0AMFJR9kjZubXcABzZ.jpg",
-      "original": "https://image.tmdb.org/t/p/original/j9fRIimor0AMFJR9kjZubXcABzZ.jpg"
-    },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/94664/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/94664/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/94664/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/94664/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/94664/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/94664/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/94664/1/1",
-      "cinezo": "https://player.cinezo.live/tv/94664/1/1",
-      "premium_vidup": "https://vidup.to/tv/94664/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/94664/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/94664/1/1"
-    },
-    "updated_at": "2026-09-01T10:56:57.236595+00:00"
-  },
-  {
-    "id": 278624,
-    "type": "tv",
-    "title": "Lucky",
-    "original_title": "Lucky",
-    "release_year": 2026,
-    "first_air_date": "2026-07-14",
-    "rating": 7.3,
-    "vote_count": 230,
-    "genres": [
-      "Drama",
-      "Crime"
-    ],
-    "overview": "When a multi-million-dollar heist goes sideways, con artist Lucky is forced to go on the run. Pursued by both the FBI and a ruthless crime boss, Lucky must fight for her life—and a way out.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/xsrkiXg8EuNNtbPtbmvCxg95gK7.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/xsrkiXg8EuNNtbPtbmvCxg95gK7.jpg",
-      "original": "https://image.tmdb.org/t/p/original/xsrkiXg8EuNNtbPtbmvCxg95gK7.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/hKXMOOvQwXiL01hfYG5nrkH0tEP.jpg",
-      "original": "https://image.tmdb.org/t/p/original/hKXMOOvQwXiL01hfYG5nrkH0tEP.jpg"
-    },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/278624/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/278624/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/278624/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/278624/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/278624/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/278624/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/278624/1/1",
-      "cinezo": "https://player.cinezo.live/tv/278624/1/1",
-      "premium_vidup": "https://vidup.to/tv/278624/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/278624/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/278624/1/1"
-    },
-    "updated_at": "2026-09-01T10:56:57.236606+00:00"
+    "updated_at": "2026-09-01T11:39:41.915946+00:00"
   },
   {
     "id": 456,
@@ -713,67 +441,109 @@
       "medium": "https://image.tmdb.org/t/p/w780/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg",
       "original": "https://image.tmdb.org/t/p/original/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/456/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/456/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/456/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/456/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/456/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/456/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/456/1/1",
-      "cinezo": "https://player.cinezo.live/tv/456/1/1",
-      "premium_vidup": "https://vidup.to/tv/456/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/456/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/456/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/456/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/456/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/456/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_456_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.236616+00:00"
+    "updated_at": "2026-09-01T11:39:41.915946+00:00"
   },
   {
-    "id": 305644,
+    "id": 100757,
     "type": "tv",
-    "title": "Four Hands, Two Sonatas",
-    "original_title": "포핸즈",
-    "release_year": 2026,
-    "first_air_date": "2026-08-29",
-    "rating": 9.5,
-    "vote_count": 6,
+    "title": "Outer Banks",
+    "original_title": "Outer Banks",
+    "release_year": 2020,
+    "first_air_date": "2020-04-15",
+    "rating": 8.2,
+    "vote_count": 1252,
     "genres": [
-      "Drama"
+      "Action & Adventure",
+      "Mystery"
     ],
-    "overview": "When two young pianists from completely different worlds meet at an elite music high school, the melodies of their lives become intimately intertwined.",
+    "overview": "On a North Carolina island of haves and have-nots, John B and his tight-knit crew of friends find mystery and adventure while hunting for lost treasure.",
     "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/a7p6htiJKx68USDAcilJ5rzKAWB.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/a7p6htiJKx68USDAcilJ5rzKAWB.jpg",
-      "original": "https://image.tmdb.org/t/p/original/a7p6htiJKx68USDAcilJ5rzKAWB.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w185/ovDgO2LPfwdVRfvScAqo9aMiIW.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/ovDgO2LPfwdVRfvScAqo9aMiIW.jpg",
+      "original": "https://image.tmdb.org/t/p/original/ovDgO2LPfwdVRfvScAqo9aMiIW.jpg"
     },
     "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/fYL4I6cezb06BHhQlrNjNhy7jhf.jpg",
-      "original": "https://image.tmdb.org/t/p/original/fYL4I6cezb06BHhQlrNjNhy7jhf.jpg"
+      "medium": "https://image.tmdb.org/t/p/w780/fjJ0aqDeDXFzmFXXJ4CF3ryB19b.jpg",
+      "original": "https://image.tmdb.org/t/p/original/fjJ0aqDeDXFzmFXXJ4CF3ryB19b.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/100757/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/100757/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/100757/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_100757_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-01T11:39:41.915946+00:00"
+  },
+  {
+    "id": 278624,
+    "type": "tv",
+    "title": "Lucky",
+    "original_title": "Lucky",
+    "release_year": 2026,
+    "first_air_date": "2026-07-14",
+    "rating": 7.3,
+    "vote_count": 230,
+    "genres": [
+      "Drama",
+      "Crime"
     ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/305644/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/305644/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/305644/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/305644/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/305644/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/305644/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/305644/1/1",
-      "cinezo": "https://player.cinezo.live/tv/305644/1/1",
-      "premium_vidup": "https://vidup.to/tv/305644/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/305644/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/305644/1/1"
+    "overview": "When a multi-million-dollar heist goes sideways, con artist Lucky is forced to go on the run. Pursued by both the FBI and a ruthless crime boss, Lucky must fight for her life—and a way out.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/xsrkiXg8EuNNtbPtbmvCxg95gK7.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/xsrkiXg8EuNNtbPtbmvCxg95gK7.jpg",
+      "original": "https://image.tmdb.org/t/p/original/xsrkiXg8EuNNtbPtbmvCxg95gK7.jpg"
     },
-    "updated_at": "2026-09-01T10:56:57.236625+00:00"
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/hKXMOOvQwXiL01hfYG5nrkH0tEP.jpg",
+      "original": "https://image.tmdb.org/t/p/original/hKXMOOvQwXiL01hfYG5nrkH0tEP.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/278624/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/278624/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/278624/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_278624_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-01T11:39:41.915946+00:00"
+  },
+  {
+    "id": 260458,
+    "type": "tv",
+    "title": "Adults",
+    "original_title": "Adults",
+    "release_year": 2025,
+    "first_air_date": "2025-05-28",
+    "rating": 6.0,
+    "vote_count": 79,
+    "genres": [
+      "Comedy"
+    ],
+    "overview": "A group of twenty-somethings in New York trying to be good people, despite being neither \"good\" nor \"people\" yet.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/oJUoRlVXGl3MJb62Ugi1G08GPbx.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/oJUoRlVXGl3MJb62Ugi1G08GPbx.jpg",
+      "original": "https://image.tmdb.org/t/p/original/oJUoRlVXGl3MJb62Ugi1G08GPbx.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/6skot5l7gcJd6hO6qlKDGGY6LBJ.jpg",
+      "original": "https://image.tmdb.org/t/p/original/6skot5l7gcJd6hO6qlKDGGY6LBJ.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/260458/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/260458/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/260458/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_260458_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-01T11:39:41.915946+00:00"
   },
   {
     "id": 94997,
@@ -799,68 +569,79 @@
       "medium": "https://image.tmdb.org/t/p/w780/577eXC8wFQT0eUrJcgznSiFPRmk.jpg",
       "original": "https://image.tmdb.org/t/p/original/577eXC8wFQT0eUrJcgznSiFPRmk.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/94997/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/94997/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/94997/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/94997/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/94997/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/94997/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/94997/1/1",
-      "cinezo": "https://player.cinezo.live/tv/94997/1/1",
-      "premium_vidup": "https://vidup.to/tv/94997/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/94997/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/94997/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/94997/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/94997/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/94997/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_94997_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.236635+00:00"
+    "updated_at": "2026-09-01T11:39:41.915946+00:00"
   },
   {
-    "id": 100757,
+    "id": 94664,
     "type": "tv",
-    "title": "Outer Banks",
-    "original_title": "Outer Banks",
-    "release_year": 2020,
-    "first_air_date": "2020-04-15",
-    "rating": 8.2,
-    "vote_count": 1252,
+    "title": "Mushoku Tensei: Jobless Reincarnation",
+    "original_title": "無職転生 ～異世界行ったら本気だす～",
+    "release_year": 2021,
+    "first_air_date": "2021-01-11",
+    "rating": 8.4,
+    "vote_count": 1692,
     "genres": [
       "Action & Adventure",
-      "Mystery"
+      "Animation",
+      "Sci-Fi & Fantasy"
     ],
-    "overview": "On a North Carolina island of haves and have-nots, John B and his tight-knit crew of friends find mystery and adventure while hunting for lost treasure.",
+    "overview": "When a 34-year-old underachiever gets run over by a truck, his story doesn't end there. Reincarnated in a new world as an infant, Rudy will seize every opportunity to live the life he's always wanted. Armed with new friends, some freshly acquired magical abilities, and the courage to do the things he's always dreamed of, he's embarking on an epic adventure—with all of his past experience intact!",
     "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/ovDgO2LPfwdVRfvScAqo9aMiIW.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/ovDgO2LPfwdVRfvScAqo9aMiIW.jpg",
-      "original": "https://image.tmdb.org/t/p/original/ovDgO2LPfwdVRfvScAqo9aMiIW.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w185/gLKOYIMyKlUHW0SVdskhgf9C0yy.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/gLKOYIMyKlUHW0SVdskhgf9C0yy.jpg",
+      "original": "https://image.tmdb.org/t/p/original/gLKOYIMyKlUHW0SVdskhgf9C0yy.jpg"
     },
     "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/fjJ0aqDeDXFzmFXXJ4CF3ryB19b.jpg",
-      "original": "https://image.tmdb.org/t/p/original/fjJ0aqDeDXFzmFXXJ4CF3ryB19b.jpg"
+      "medium": "https://image.tmdb.org/t/p/w780/j9fRIimor0AMFJR9kjZubXcABzZ.jpg",
+      "original": "https://image.tmdb.org/t/p/original/j9fRIimor0AMFJR9kjZubXcABzZ.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/94664/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/94664/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/94664/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_94664_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-01T11:39:41.915946+00:00"
+  },
+  {
+    "id": 207333,
+    "type": "tv",
+    "title": "One Hundred Years of Solitude",
+    "original_title": "Cien años de soledad",
+    "release_year": 2024,
+    "first_air_date": "2024-12-11",
+    "rating": 8.0,
+    "vote_count": 254,
+    "genres": [
+      "Drama",
+      "Sci-Fi & Fantasy"
     ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/100757/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/100757/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/100757/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/100757/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/100757/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/100757/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/100757/1/1",
-      "cinezo": "https://player.cinezo.live/tv/100757/1/1",
-      "premium_vidup": "https://vidup.to/tv/100757/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/100757/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/100757/1/1"
+    "overview": "In the mythical town Macondo, seven generations of the Buendía family navigate love, oblivion and the inescapability of their past — and their fate.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/9zrvktj9JYQwQxZD4lAySfcYlmI.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/9zrvktj9JYQwQxZD4lAySfcYlmI.jpg",
+      "original": "https://image.tmdb.org/t/p/original/9zrvktj9JYQwQxZD4lAySfcYlmI.jpg"
     },
-    "updated_at": "2026-09-01T10:56:57.236643+00:00"
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/5mcc7J07f680Q88xeLClf5SIZtt.jpg",
+      "original": "https://image.tmdb.org/t/p/original/5mcc7J07f680Q88xeLClf5SIZtt.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/207333/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/207333/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/207333/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_207333_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-01T11:39:41.915946+00:00"
   },
   {
     "id": 305644,
@@ -884,25 +665,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/fYL4I6cezb06BHhQlrNjNhy7jhf.jpg",
       "original": "https://image.tmdb.org/t/p/original/fYL4I6cezb06BHhQlrNjNhy7jhf.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/305644/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/305644/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/305644/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/305644/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/305644/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/305644/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/305644/1/1",
-      "cinezo": "https://player.cinezo.live/tv/305644/1/1",
-      "premium_vidup": "https://vidup.to/tv/305644/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/305644/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/305644/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/305644/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/305644/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/305644/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_305644_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.361353+00:00"
+    "updated_at": "2026-09-01T11:39:42.768222+00:00"
   },
   {
     "id": 194583,
@@ -928,25 +698,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/vV5LKWmuysEe5wsuZJGbdiL5XJ2.jpg",
       "original": "https://image.tmdb.org/t/p/original/vV5LKWmuysEe5wsuZJGbdiL5XJ2.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/194583/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/194583/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/194583/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/194583/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/194583/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/194583/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/194583/1/1",
-      "cinezo": "https://player.cinezo.live/tv/194583/1/1",
-      "premium_vidup": "https://vidup.to/tv/194583/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/194583/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/194583/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/194583/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/194583/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/194583/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_194583_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.361371+00:00"
+    "updated_at": "2026-09-01T11:39:42.768222+00:00"
   },
   {
     "id": 65942,
@@ -973,25 +732,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/7ZruEnSnHD6Jx5mF0hBt1E306Vt.jpg",
       "original": "https://image.tmdb.org/t/p/original/7ZruEnSnHD6Jx5mF0hBt1E306Vt.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/65942/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/65942/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/65942/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/65942/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/65942/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/65942/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/65942/1/1",
-      "cinezo": "https://player.cinezo.live/tv/65942/1/1",
-      "premium_vidup": "https://vidup.to/tv/65942/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/65942/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/65942/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/65942/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/65942/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/65942/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_65942_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.361381+00:00"
+    "updated_at": "2026-09-01T11:39:42.768222+00:00"
   },
   {
     "id": 387,
@@ -1017,25 +765,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/3MY7hMWrJ13Xtb1Y4jd7tztyPaZ.jpg",
       "original": "https://image.tmdb.org/t/p/original/3MY7hMWrJ13Xtb1Y4jd7tztyPaZ.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/387/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/387/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/387/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/387/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/387/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/387/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/387/1/1",
-      "cinezo": "https://player.cinezo.live/tv/387/1/1",
-      "premium_vidup": "https://vidup.to/tv/387/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/387/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/387/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/387/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/387/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/387/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_387_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.361393+00:00"
+    "updated_at": "2026-09-01T11:39:42.768222+00:00"
   },
   {
     "id": 287620,
@@ -1060,25 +797,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/nW7oUFiJrIWwll4mZ8tYays7XRm.jpg",
       "original": "https://image.tmdb.org/t/p/original/nW7oUFiJrIWwll4mZ8tYays7XRm.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/287620/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/287620/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/287620/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/287620/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/287620/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/287620/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/287620/1/1",
-      "cinezo": "https://player.cinezo.live/tv/287620/1/1",
-      "premium_vidup": "https://vidup.to/tv/287620/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/287620/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/287620/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/287620/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/287620/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/287620/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_287620_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.361401+00:00"
+    "updated_at": "2026-09-01T11:39:42.768222+00:00"
   },
   {
     "id": 236235,
@@ -1104,25 +830,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/PqIW7PA74YBURz5slZkxc0K5Pl.jpg",
       "original": "https://image.tmdb.org/t/p/original/PqIW7PA74YBURz5slZkxc0K5Pl.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/236235/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/236235/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/236235/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/236235/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/236235/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/236235/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/236235/1/1",
-      "cinezo": "https://player.cinezo.live/tv/236235/1/1",
-      "premium_vidup": "https://vidup.to/tv/236235/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/236235/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/236235/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/236235/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/236235/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/236235/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_236235_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.361410+00:00"
+    "updated_at": "2026-09-01T11:39:42.768222+00:00"
   },
   {
     "id": 283297,
@@ -1147,25 +862,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/nOWU1NSYQEOXRXcdfZbtJshwRGK.jpg",
       "original": "https://image.tmdb.org/t/p/original/nOWU1NSYQEOXRXcdfZbtJshwRGK.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/283297/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/283297/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/283297/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/283297/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/283297/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/283297/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/283297/1/1",
-      "cinezo": "https://player.cinezo.live/tv/283297/1/1",
-      "premium_vidup": "https://vidup.to/tv/283297/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/283297/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/283297/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/283297/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/283297/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/283297/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_283297_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.361420+00:00"
+    "updated_at": "2026-09-01T11:39:42.768222+00:00"
   },
   {
     "id": 103516,
@@ -1190,25 +894,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/fZJs6xgU9dqIg9phIXjZAZOInzy.jpg",
       "original": "https://image.tmdb.org/t/p/original/fZJs6xgU9dqIg9phIXjZAZOInzy.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/103516/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/103516/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/103516/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/103516/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/103516/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/103516/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/103516/1/1",
-      "cinezo": "https://player.cinezo.live/tv/103516/1/1",
-      "premium_vidup": "https://vidup.to/tv/103516/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/103516/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/103516/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/103516/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/103516/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/103516/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_103516_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.361428+00:00"
+    "updated_at": "2026-09-01T11:39:42.768222+00:00"
   },
   {
     "id": 292558,
@@ -1233,25 +926,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/h3QvZs2bqRmN2hfVd1FZ9XrCZDm.jpg",
       "original": "https://image.tmdb.org/t/p/original/h3QvZs2bqRmN2hfVd1FZ9XrCZDm.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/292558/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/292558/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/292558/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/292558/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/292558/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/292558/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/292558/1/1",
-      "cinezo": "https://player.cinezo.live/tv/292558/1/1",
-      "premium_vidup": "https://vidup.to/tv/292558/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/292558/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/292558/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/292558/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/292558/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/292558/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_292558_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.361436+00:00"
+    "updated_at": "2026-09-01T11:39:42.768222+00:00"
   },
   {
     "id": 294487,
@@ -1275,25 +957,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/xirWeEiatY915u837oq1l2t4oPP.jpg",
       "original": "https://image.tmdb.org/t/p/original/xirWeEiatY915u837oq1l2t4oPP.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/294487/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/294487/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/294487/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/294487/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/294487/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/294487/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/294487/1/1",
-      "cinezo": "https://player.cinezo.live/tv/294487/1/1",
-      "premium_vidup": "https://vidup.to/tv/294487/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/294487/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/294487/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/294487/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/294487/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/294487/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_294487_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.361444+00:00"
+    "updated_at": "2026-09-01T11:39:42.768222+00:00"
   },
   {
     "id": 331616,
@@ -1318,25 +989,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/gXX5VDz1jh0Adqo8a8QPHJthiEl.jpg",
       "original": "https://image.tmdb.org/t/p/original/gXX5VDz1jh0Adqo8a8QPHJthiEl.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/331616/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/331616/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/331616/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/331616/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/331616/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/331616/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/331616/1/1",
-      "cinezo": "https://player.cinezo.live/tv/331616/1/1",
-      "premium_vidup": "https://vidup.to/tv/331616/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/331616/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/331616/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/331616/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/331616/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/331616/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_331616_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.361454+00:00"
+    "updated_at": "2026-09-01T11:39:42.768222+00:00"
   },
   {
     "id": 303351,
@@ -1362,25 +1022,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/z6mnJhvFbAgM1UTL87NWjJLhK26.jpg",
       "original": "https://image.tmdb.org/t/p/original/z6mnJhvFbAgM1UTL87NWjJLhK26.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/303351/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/303351/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/303351/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/303351/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/303351/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/303351/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/303351/1/1",
-      "cinezo": "https://player.cinezo.live/tv/303351/1/1",
-      "premium_vidup": "https://vidup.to/tv/303351/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/303351/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/303351/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/303351/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/303351/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/303351/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_303351_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.361462+00:00"
+    "updated_at": "2026-09-01T11:39:42.768222+00:00"
   },
   {
     "id": 126167,
@@ -1405,25 +1054,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/bfL7ZRhYJn5rYq9DYZL4Wf5qboL.jpg",
       "original": "https://image.tmdb.org/t/p/original/bfL7ZRhYJn5rYq9DYZL4Wf5qboL.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/126167/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/126167/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/126167/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/126167/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/126167/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/126167/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/126167/1/1",
-      "cinezo": "https://player.cinezo.live/tv/126167/1/1",
-      "premium_vidup": "https://vidup.to/tv/126167/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/126167/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/126167/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/126167/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/126167/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/126167/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_126167_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.361473+00:00"
+    "updated_at": "2026-09-01T11:39:42.768222+00:00"
   },
   {
     "id": 106449,
@@ -1449,25 +1087,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/8NIvQY34tNPc4txNeym2zEYk9ek.jpg",
       "original": "https://image.tmdb.org/t/p/original/8NIvQY34tNPc4txNeym2zEYk9ek.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/106449/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/106449/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/106449/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/106449/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/106449/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/106449/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/106449/1/1",
-      "cinezo": "https://player.cinezo.live/tv/106449/1/1",
-      "premium_vidup": "https://vidup.to/tv/106449/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/106449/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/106449/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/106449/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/106449/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/106449/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_106449_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.361482+00:00"
+    "updated_at": "2026-09-01T11:39:42.768222+00:00"
   },
   {
     "id": 60625,
@@ -1494,25 +1121,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/iFOkrSrJRwE27PwbyQeYLlMJXzw.jpg",
       "original": "https://image.tmdb.org/t/p/original/iFOkrSrJRwE27PwbyQeYLlMJXzw.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/60625/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/60625/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/60625/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/60625/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/60625/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/60625/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/60625/1/1",
-      "cinezo": "https://player.cinezo.live/tv/60625/1/1",
-      "premium_vidup": "https://vidup.to/tv/60625/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/60625/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/60625/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/60625/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/60625/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/60625/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_60625_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.361490+00:00"
+    "updated_at": "2026-09-01T11:39:42.768222+00:00"
   },
   {
     "id": 286988,
@@ -1537,25 +1153,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/aYtWVJ5mUkPRFghrCHbc3I2v4WE.jpg",
       "original": "https://image.tmdb.org/t/p/original/aYtWVJ5mUkPRFghrCHbc3I2v4WE.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/286988/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/286988/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/286988/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/286988/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/286988/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/286988/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/286988/1/1",
-      "cinezo": "https://player.cinezo.live/tv/286988/1/1",
-      "premium_vidup": "https://vidup.to/tv/286988/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/286988/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/286988/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/286988/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/286988/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/286988/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_286988_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.361503+00:00"
+    "updated_at": "2026-09-01T11:39:42.768222+00:00"
   },
   {
     "id": 298168,
@@ -1580,25 +1185,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/AhzF2bkYYybcCT4PnqpoagRGBWJ.jpg",
       "original": "https://image.tmdb.org/t/p/original/AhzF2bkYYybcCT4PnqpoagRGBWJ.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/298168/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/298168/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/298168/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/298168/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/298168/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/298168/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/298168/1/1",
-      "cinezo": "https://player.cinezo.live/tv/298168/1/1",
-      "premium_vidup": "https://vidup.to/tv/298168/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/298168/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/298168/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/298168/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/298168/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/298168/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_298168_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.361511+00:00"
+    "updated_at": "2026-09-01T11:39:42.768222+00:00"
   },
   {
     "id": 90521,
@@ -1622,25 +1216,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/m0TiLZ79RR19Zz0AZruQSBeH39x.jpg",
       "original": "https://image.tmdb.org/t/p/original/m0TiLZ79RR19Zz0AZruQSBeH39x.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/90521/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/90521/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/90521/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/90521/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/90521/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/90521/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/90521/1/1",
-      "cinezo": "https://player.cinezo.live/tv/90521/1/1",
-      "premium_vidup": "https://vidup.to/tv/90521/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/90521/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/90521/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/90521/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/90521/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/90521/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_90521_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.361519+00:00"
+    "updated_at": "2026-09-01T11:39:42.768222+00:00"
   },
   {
     "id": 286709,
@@ -1665,25 +1248,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/tT2MwxaST3Fx1Dg4u9v82sDrIu.jpg",
       "original": "https://image.tmdb.org/t/p/original/tT2MwxaST3Fx1Dg4u9v82sDrIu.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/286709/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/286709/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/286709/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/286709/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/286709/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/286709/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/286709/1/1",
-      "cinezo": "https://player.cinezo.live/tv/286709/1/1",
-      "premium_vidup": "https://vidup.to/tv/286709/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/286709/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/286709/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/286709/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/286709/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/286709/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_286709_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.361527+00:00"
+    "updated_at": "2026-09-01T11:39:42.768222+00:00"
   },
   {
     "id": 296756,
@@ -1708,25 +1280,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/yoTP91XZZjSvE2gZgGvwNxVW96w.jpg",
       "original": "https://image.tmdb.org/t/p/original/yoTP91XZZjSvE2gZgGvwNxVW96w.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/296756/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/296756/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/296756/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/296756/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/296756/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/296756/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/296756/1/1",
-      "cinezo": "https://player.cinezo.live/tv/296756/1/1",
-      "premium_vidup": "https://vidup.to/tv/296756/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/296756/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/296756/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/296756/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/296756/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/296756/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_296756_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.361536+00:00"
+    "updated_at": "2026-09-01T11:39:42.768222+00:00"
   },
   {
     "id": 95479,
@@ -1752,25 +1313,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/qpin8cASXEVtwhzNsprHYFiOAGk.jpg",
       "original": "https://image.tmdb.org/t/p/original/qpin8cASXEVtwhzNsprHYFiOAGk.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/95479/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/95479/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/95479/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/95479/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/95479/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/95479/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/95479/1/1",
-      "cinezo": "https://player.cinezo.live/tv/95479/1/1",
-      "premium_vidup": "https://vidup.to/tv/95479/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/95479/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/95479/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/95479/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/95479/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/95479/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_95479_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.486403+00:00"
+    "updated_at": "2026-09-01T11:39:43.570427+00:00"
   },
   {
     "id": 287496,
@@ -1794,25 +1344,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/zyAFGC97834c2Ld4xPY02uacdQk.jpg",
       "original": "https://image.tmdb.org/t/p/original/zyAFGC97834c2Ld4xPY02uacdQk.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/287496/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/287496/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/287496/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/287496/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/287496/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/287496/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/287496/1/1",
-      "cinezo": "https://player.cinezo.live/tv/287496/1/1",
-      "premium_vidup": "https://vidup.to/tv/287496/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/287496/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/287496/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/287496/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/287496/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/287496/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_287496_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.486418+00:00"
+    "updated_at": "2026-09-01T11:39:43.570427+00:00"
   },
   {
     "id": 30983,
@@ -1839,25 +1378,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/z67lpMtm8YGykJO4p89meuNMvj8.jpg",
       "original": "https://image.tmdb.org/t/p/original/z67lpMtm8YGykJO4p89meuNMvj8.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/30983/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/30983/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/30983/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/30983/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/30983/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/30983/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/30983/1/1",
-      "cinezo": "https://player.cinezo.live/tv/30983/1/1",
-      "premium_vidup": "https://vidup.to/tv/30983/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/30983/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/30983/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/30983/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/30983/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/30983/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_30983_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.486427+00:00"
+    "updated_at": "2026-09-01T11:39:43.570427+00:00"
   },
   {
     "id": 215072,
@@ -1883,25 +1411,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/mWVeYmtCfA3zvSeZtW5bN2Khe01.jpg",
       "original": "https://image.tmdb.org/t/p/original/mWVeYmtCfA3zvSeZtW5bN2Khe01.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/215072/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/215072/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/215072/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/215072/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/215072/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/215072/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/215072/1/1",
-      "cinezo": "https://player.cinezo.live/tv/215072/1/1",
-      "premium_vidup": "https://vidup.to/tv/215072/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/215072/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/215072/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/215072/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/215072/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/215072/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_215072_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.486435+00:00"
+    "updated_at": "2026-09-01T11:39:43.570427+00:00"
   },
   {
     "id": 298610,
@@ -1927,25 +1444,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/p9tpGftvG18M5y5wsBmPrQpVBsd.jpg",
       "original": "https://image.tmdb.org/t/p/original/p9tpGftvG18M5y5wsBmPrQpVBsd.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/298610/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/298610/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/298610/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/298610/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/298610/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/298610/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/298610/1/1",
-      "cinezo": "https://player.cinezo.live/tv/298610/1/1",
-      "premium_vidup": "https://vidup.to/tv/298610/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/298610/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/298610/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/298610/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/298610/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/298610/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_298610_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.486443+00:00"
+    "updated_at": "2026-09-01T11:39:43.570427+00:00"
   },
   {
     "id": 252751,
@@ -1969,25 +1475,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/2HuHGBzavbM7YTizGabBGpP0Spv.jpg",
       "original": "https://image.tmdb.org/t/p/original/2HuHGBzavbM7YTizGabBGpP0Spv.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/252751/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/252751/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/252751/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/252751/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/252751/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/252751/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/252751/1/1",
-      "cinezo": "https://player.cinezo.live/tv/252751/1/1",
-      "premium_vidup": "https://vidup.to/tv/252751/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/252751/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/252751/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/252751/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/252751/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/252751/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_252751_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.486450+00:00"
+    "updated_at": "2026-09-01T11:39:43.570427+00:00"
   },
   {
     "id": 57532,
@@ -2012,25 +1507,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/7OrV2aAH5Yp7hA9zCCvUloLvZtl.jpg",
       "original": "https://image.tmdb.org/t/p/original/7OrV2aAH5Yp7hA9zCCvUloLvZtl.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/57532/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/57532/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/57532/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/57532/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/57532/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/57532/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/57532/1/1",
-      "cinezo": "https://player.cinezo.live/tv/57532/1/1",
-      "premium_vidup": "https://vidup.to/tv/57532/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/57532/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/57532/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/57532/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/57532/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/57532/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_57532_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.486464+00:00"
+    "updated_at": "2026-09-01T11:39:43.570427+00:00"
   },
   {
     "id": 312949,
@@ -2056,25 +1540,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/4ei68OmZr0XHnN82OjiV8GBqfyN.jpg",
       "original": "https://image.tmdb.org/t/p/original/4ei68OmZr0XHnN82OjiV8GBqfyN.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/312949/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/312949/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/312949/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/312949/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/312949/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/312949/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/312949/1/1",
-      "cinezo": "https://player.cinezo.live/tv/312949/1/1",
-      "premium_vidup": "https://vidup.to/tv/312949/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/312949/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/312949/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/312949/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/312949/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/312949/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_312949_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.486471+00:00"
+    "updated_at": "2026-09-01T11:39:43.570427+00:00"
   },
   {
     "id": 1434,
@@ -2099,25 +1572,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/l7wShoIdIUwaDIbsHno9pO5MZXT.jpg",
       "original": "https://image.tmdb.org/t/p/original/l7wShoIdIUwaDIbsHno9pO5MZXT.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/1434/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/1434/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/1434/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/1434/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/1434/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/1434/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/1434/1/1",
-      "cinezo": "https://player.cinezo.live/tv/1434/1/1",
-      "premium_vidup": "https://vidup.to/tv/1434/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/1434/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/1434/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/1434/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/1434/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/1434/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1434_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.486480+00:00"
+    "updated_at": "2026-09-01T11:39:43.570427+00:00"
   },
   {
     "id": 82684,
@@ -2144,25 +1606,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/eJOy7YWAHgOS3V477sdTsq4v9jp.jpg",
       "original": "https://image.tmdb.org/t/p/original/eJOy7YWAHgOS3V477sdTsq4v9jp.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/82684/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/82684/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/82684/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/82684/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/82684/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/82684/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/82684/1/1",
-      "cinezo": "https://player.cinezo.live/tv/82684/1/1",
-      "premium_vidup": "https://vidup.to/tv/82684/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/82684/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/82684/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/82684/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/82684/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/82684/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_82684_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.486487+00:00"
+    "updated_at": "2026-09-01T11:39:43.570427+00:00"
   },
   {
     "id": 280133,
@@ -2187,25 +1638,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/iHShzy0Fa1WDbjFMJqxZV5nLwOQ.jpg",
       "original": "https://image.tmdb.org/t/p/original/iHShzy0Fa1WDbjFMJqxZV5nLwOQ.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/280133/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/280133/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/280133/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/280133/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/280133/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/280133/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/280133/1/1",
-      "cinezo": "https://player.cinezo.live/tv/280133/1/1",
-      "premium_vidup": "https://vidup.to/tv/280133/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/280133/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/280133/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/280133/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/280133/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/280133/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_280133_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.486494+00:00"
+    "updated_at": "2026-09-01T11:39:43.570427+00:00"
   },
   {
     "id": 66732,
@@ -2231,25 +1671,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
       "original": "https://image.tmdb.org/t/p/original/56v2KjBlU4XaOv9rVYEQypROD7P.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/66732/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/66732/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/66732/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/66732/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/66732/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/66732/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/66732/1/1",
-      "cinezo": "https://player.cinezo.live/tv/66732/1/1",
-      "premium_vidup": "https://vidup.to/tv/66732/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/66732/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/66732/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/66732/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/66732/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/66732/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_66732_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.486504+00:00"
+    "updated_at": "2026-09-01T11:39:43.570427+00:00"
   },
   {
     "id": 76479,
@@ -2274,25 +1703,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/n6vVs6z8obNbExdD3QHTr4Utu1Z.jpg",
       "original": "https://image.tmdb.org/t/p/original/n6vVs6z8obNbExdD3QHTr4Utu1Z.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/76479/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/76479/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/76479/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/76479/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/76479/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/76479/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/76479/1/1",
-      "cinezo": "https://player.cinezo.live/tv/76479/1/1",
-      "premium_vidup": "https://vidup.to/tv/76479/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/76479/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/76479/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/76479/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/76479/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/76479/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_76479_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.486511+00:00"
+    "updated_at": "2026-09-01T11:39:43.570427+00:00"
   },
   {
     "id": 330540,
@@ -2316,25 +1734,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/8Ye9jv4Ibo5xK6GgWihsec8M94A.jpg",
       "original": "https://image.tmdb.org/t/p/original/8Ye9jv4Ibo5xK6GgWihsec8M94A.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/330540/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/330540/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/330540/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/330540/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/330540/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/330540/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/330540/1/1",
-      "cinezo": "https://player.cinezo.live/tv/330540/1/1",
-      "premium_vidup": "https://vidup.to/tv/330540/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/330540/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/330540/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/330540/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/330540/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/330540/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_330540_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.486518+00:00"
+    "updated_at": "2026-09-01T11:39:43.570427+00:00"
   },
   {
     "id": 204255,
@@ -2360,25 +1767,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/g9Qn9LBk9fKKgxHtPFqkKnglsm8.jpg",
       "original": "https://image.tmdb.org/t/p/original/g9Qn9LBk9fKKgxHtPFqkKnglsm8.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/204255/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/204255/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/204255/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/204255/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/204255/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/204255/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/204255/1/1",
-      "cinezo": "https://player.cinezo.live/tv/204255/1/1",
-      "premium_vidup": "https://vidup.to/tv/204255/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/204255/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/204255/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/204255/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/204255/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/204255/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_204255_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.486526+00:00"
+    "updated_at": "2026-09-01T11:39:43.570427+00:00"
   },
   {
     "id": 124364,
@@ -2404,25 +1800,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/xLdw1xdHocKYFFvx7w41NchXMfJ.jpg",
       "original": "https://image.tmdb.org/t/p/original/xLdw1xdHocKYFFvx7w41NchXMfJ.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/124364/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/124364/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/124364/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/124364/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/124364/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/124364/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/124364/1/1",
-      "cinezo": "https://player.cinezo.live/tv/124364/1/1",
-      "premium_vidup": "https://vidup.to/tv/124364/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/124364/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/124364/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/124364/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/124364/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/124364/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_124364_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.486535+00:00"
+    "updated_at": "2026-09-01T11:39:43.570427+00:00"
   },
   {
     "id": 319659,
@@ -2447,25 +1832,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/oF1HUvtlr1o8ndAj2cZBIKAn3gg.jpg",
       "original": "https://image.tmdb.org/t/p/original/oF1HUvtlr1o8ndAj2cZBIKAn3gg.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/319659/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/319659/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/319659/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/319659/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/319659/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/319659/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/319659/1/1",
-      "cinezo": "https://player.cinezo.live/tv/319659/1/1",
-      "premium_vidup": "https://vidup.to/tv/319659/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/319659/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/319659/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/319659/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/319659/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/319659/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_319659_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.486549+00:00"
+    "updated_at": "2026-09-01T11:39:43.570427+00:00"
   },
   {
     "id": 197083,
@@ -2490,25 +1864,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/c4LRGwNi3nOft0U9bxEHg9kEj2N.jpg",
       "original": "https://image.tmdb.org/t/p/original/c4LRGwNi3nOft0U9bxEHg9kEj2N.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/197083/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/197083/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/197083/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/197083/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/197083/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/197083/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/197083/1/1",
-      "cinezo": "https://player.cinezo.live/tv/197083/1/1",
-      "premium_vidup": "https://vidup.to/tv/197083/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/197083/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/197083/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/197083/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/197083/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/197083/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_197083_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.486556+00:00"
+    "updated_at": "2026-09-01T11:39:43.570427+00:00"
   },
   {
     "id": 272938,
@@ -2534,25 +1897,14 @@
       "medium": "https://image.tmdb.org/t/p/w780/8zsKL8gDjv7NI7HHk4POIBMl2jE.jpg",
       "original": "https://image.tmdb.org/t/p/original/8zsKL8gDjv7NI7HHk4POIBMl2jE.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/272938/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/272938/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/272938/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/272938/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/272938/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/272938/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/272938/1/1",
-      "cinezo": "https://player.cinezo.live/tv/272938/1/1",
-      "premium_vidup": "https://vidup.to/tv/272938/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/272938/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/272938/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/272938/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/272938/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/272938/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_272938_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.486565+00:00"
+    "updated_at": "2026-09-01T11:39:43.570427+00:00"
   },
   {
     "id": 2710,
@@ -2576,24 +1928,13 @@
       "medium": "https://image.tmdb.org/t/p/w780/265v8OtLO4h8XgJu5eDRpJdf9e0.jpg",
       "original": "https://image.tmdb.org/t/p/original/265v8OtLO4h8XgJu5eDRpJdf9e0.jpg"
     },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/tv/2710/1/1",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/tv/2710/1/1",
-      "bolt_filmu": "https://embed.filmu.in/tv/2710/1/1",
-      "nova_vidlink": "https://vidlink.pro/tv/2710/1/1",
-      "mega_videasy": "https://player.videasy.to/tv/2710/1/1",
-      "alpha_vidfast": "https://vidfast.vc/tv/2710/1/1",
-      "orion_vidcore": "https://vidcore.net/tv/2710/1/1",
-      "cinezo": "https://player.cinezo.live/tv/2710/1/1",
-      "premium_vidup": "https://vidup.to/tv/2710/1/1",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/tv/2710/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/2710/1/1"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/2710/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/2710/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/2710/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_2710_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-01T10:56:57.486572+00:00"
+    "updated_at": "2026-09-01T11:39:43.570427+00:00"
   }
 ]

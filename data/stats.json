@@ -1,5 +1,5 @@
 {
-  "total_movies": 135,
+  "total_movies": 136,
   "total_tv_shows": 60,
   "total_genres": 19,
   "years_covered": [
@@ -34,29 +34,18 @@
     1957,
     1954
   ],
-  "last_updated": "2026-09-01T10:56:57.535843+00:00",
-  "extracted_from": "Redflix Live Engine (8a2cbec7dea88403.js)",
-  "total_servers_per_title": 14,
-  "servers_list": [
-    "VidBolt (Redflix)",
-    "Filmu (Bolt)",
-    "VidLink (Nova)",
-    "Videasy (Mega)",
-    "VidFast (Alpha)",
-    "VidCore (Orion)",
-    "Cinezo",
-    "VidUp (Premium)",
-    "ZXCStream (Vidgod)",
-    "ScreenScape (Hindi)",
-    "ReelsDownload (Hindi New)",
-    "Peachify (Hindi Mirror)",
-    "ModiPlay (Hindi 2)",
-    "AutoEmbed"
+  "last_updated": "2026-09-01T11:39:43.649024+00:00",
+  "stream_architecture": "100% Pure Direct .m3u8 Streams (Zero Embeds / Zero Ads)",
+  "streams_available": [
+    "StreamRip 1080p Video Main (.m3u8)",
+    "StreamRip Hindi Audio Stream (.m3u8)",
+    "PeakStorm 1080p Master HLS (.m3u8)",
+    "Kucwn 720p HLS Stream (.m3u8)"
   ],
   "formats_available": [
     "JSON",
     "M3U",
     "TXT"
   ],
-  "api_schema_version": "3.0.0"
+  "api_schema_version": "4.0.0"
 }

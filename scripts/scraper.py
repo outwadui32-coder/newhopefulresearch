@@ -12,7 +12,6 @@ if hasattr(sys.stdout, 'reconfigure'):
 TMDB_API_KEY = os.getenv("TMDB_API_KEY", "9a4681358a20ad3919ee10d23d15a80f")
 TMDB_READ_TOKEN = os.getenv("TMDB_READ_TOKEN", "")
 OMDB_API_KEY = os.getenv("OMDB_API_KEY", "bcfcab00")
-MAIN_SOURCE_URL = os.getenv("MAIN_SOURCE_URL", os.getenv("SOURCE_SITE_URL", "https://redflix.co")).rstrip("/")
 
 BASE_URL = "https://api.themoviedb.org/3"
 IMAGE_BASE = "https://image.tmdb.org/t/p"
@@ -38,7 +37,7 @@ def get_now_iso():
 
 def get_headers():
     headers = {
-        "User-Agent": "MoviePosterDB-Scraper/1.0",
+        "User-Agent": "MoviePosterDB-DirectStreamScraper/1.0",
         "Accept": "application/json"
     }
     if TMDB_READ_TOKEN:
@@ -88,39 +87,22 @@ def get_movie_details(tmdb_id):
         "cast": cast
     }
 
-def get_all_redflix_servers(tmdb_id, media_type="movie", season=1, episode=1):
+def get_pure_direct_m3u8_streams(tmdb_id, media_type="movie", season=1, episode=1):
     """
-    Extracted directly from Redflix's official JavaScript engine (8a2cbec7dea88403.js).
+    100% PURE DIRECT .M3U8 / HLS STREAMS (ZERO EMBED PAGES / ZERO IFRAMES / ZERO ADS)
     """
     if media_type == "movie":
         return {
-            "redflix_primary": f"https://vidbolt.xyz/movie/{tmdb_id}",
-            "bolt_filmu": f"https://embed.filmu.in/movie/{tmdb_id}",
-            "nova_vidlink": f"https://vidlink.pro/movie/{tmdb_id}",
-            "mega_videasy": f"https://player.videasy.to/movie/{tmdb_id}",
-            "alpha_vidfast": f"https://vidfast.vc/movie/{tmdb_id}",
-            "orion_vidcore": f"https://vidcore.net/movie/{tmdb_id}",
-            "cinezo": f"https://player.cinezo.live/movie/{tmdb_id}",
-            "premium_vidup": f"https://vidup.to/movie/{tmdb_id}",
-            "vidgod_zxcstream": f"https://api.zxcstream.xyz/movie/{tmdb_id}",
-            "hindi_screenscape": f"https://screenscape.me/movie/{tmdb_id}",
-            "hindi_new": f"https://embed.reelsdownload.online/movie/{tmdb_id}",
-            "hindi_mirror_peachify": f"https://peachify.top/movie/{tmdb_id}",
-            "hindi_2_modiplay": f"https://rozgarlelo.modiplay.xyz/movie/{tmdb_id}",
-            "autoembed": f"https://player.autoembed.cc/embed/movie/{tmdb_id}"
+            "streamrip_1080p_video": f"https://movie.streamrip.fun/movies/{tmdb_id}/video_main.m3u8",
+            "streamrip_hindi_audio": f"https://movie.streamrip.fun/movies/{tmdb_id}/audio_hindi.m3u8",
+            "peakstorm_1080p_master": f"https://moon.peakstorm.top/vd/tmdb_{tmdb_id}/index-s1080p-v1-a1.m3u8",
+            "kucwn_720p_stream": f"https://img1.kucwn.com/hls_mps/{tmdb_id}/720/index_308.m3u8"
         }
     else:
         return {
-            "redflix_primary": f"https://vidbolt.xyz/tv/{tmdb_id}/{season}/{episode}",
-            "bolt_filmu": f"https://embed.filmu.in/tv/{tmdb_id}/{season}/{episode}",
-            "nova_vidlink": f"https://vidlink.pro/tv/{tmdb_id}/{season}/{episode}",
-            "mega_videasy": f"https://player.videasy.to/tv/{tmdb_id}/{season}/{episode}",
-            "alpha_vidfast": f"https://vidfast.vc/tv/{tmdb_id}/{season}/{episode}",
-            "orion_vidcore": f"https://vidcore.net/tv/{tmdb_id}/{season}/{episode}",
-            "cinezo": f"https://player.cinezo.live/tv/{tmdb_id}/{season}/{episode}",
-            "premium_vidup": f"https://vidup.to/tv/{tmdb_id}/{season}/{episode}",
-            "vidgod_zxcstream": f"https://api.zxcstream.xyz/tv/{tmdb_id}/{season}/{episode}",
-            "autoembed": f"https://player.autoembed.cc/embed/tv/{tmdb_id}/{season}/{episode}"
+            "streamrip_1080p_video": f"https://movie.streamrip.fun/tv/{tmdb_id}/{season}/{episode}/video_main.m3u8",
+            "streamrip_hindi_audio": f"https://movie.streamrip.fun/tv/{tmdb_id}/{season}/{episode}/audio_hindi.m3u8",
+            "peakstorm_1080p_master": f"https://moon.peakstorm.top/vd/tmdb_{tmdb_id}_s{season}_e{episode}/index-s1080p-v1-a1.m3u8"
         }
 
 def format_movie(item, is_detailed=False, existing_record=None):
@@ -152,8 +134,8 @@ def format_movie(item, is_detailed=False, existing_record=None):
     runtime_min = extra.get("runtime") or item.get("runtime")
     runtime_formatted = f"{runtime_min // 60}h {runtime_min % 60}m" if runtime_min else None
     
-    stream_servers = get_all_redflix_servers(tmdb_id, "movie")
-    primary_stream = stream_servers["redflix_primary"]
+    direct_streams = get_pure_direct_m3u8_streams(tmdb_id, "movie")
+    primary_m3u8 = direct_streams["streamrip_1080p_video"]
     health_status = existing_record.get("health_status", "online") if existing_record else "online"
     
     return {
@@ -184,9 +166,9 @@ def format_movie(item, is_detailed=False, existing_record=None):
             "medium": f"{IMAGE_BASE}/w780{backdrop_path}" if backdrop_path else None,
             "original": f"{IMAGE_BASE}/original{backdrop_path}" if backdrop_path else None,
         },
-        "quality_supported": ["4K Ultra HD", "1080p FHD", "720p HD", "480p SD"],
-        "primary_stream_url": primary_stream,
-        "stream_servers": stream_servers,
+        "stream_format": "direct_m3u8_hls",
+        "direct_m3u8_url": primary_m3u8,
+        "direct_m3u8_streams": direct_streams,
         "health_status": health_status,
         "updated_at": get_now_iso()
     }
@@ -200,7 +182,7 @@ def format_tv(item, existing_record=None):
     backdrop_path = item.get("backdrop_path")
     
     genres = [TV_GENRE_MAP.get(gid, "Other") for gid in item.get("genre_ids", [])]
-    stream_servers = get_all_redflix_servers(tmdb_id, "tv", season=1, episode=1)
+    direct_streams = get_pure_direct_m3u8_streams(tmdb_id, "tv", season=1, episode=1)
 
     return {
         "id": tmdb_id,
@@ -222,9 +204,9 @@ def format_tv(item, existing_record=None):
             "medium": f"{IMAGE_BASE}/w780{backdrop_path}" if backdrop_path else None,
             "original": f"{IMAGE_BASE}/original{backdrop_path}" if backdrop_path else None,
         },
-        "quality_supported": ["1080p FHD", "720p HD", "480p SD"],
-        "primary_stream_url": stream_servers["redflix_primary"],
-        "stream_servers": stream_servers,
+        "stream_format": "direct_m3u8_hls",
+        "direct_m3u8_url": direct_streams["streamrip_1080p_video"],
+        "direct_m3u8_streams": direct_streams,
         "updated_at": get_now_iso()
     }
 
@@ -236,7 +218,7 @@ def export_m3u(items, filename):
         year = item.get("release_year") or ""
         genres = ", ".join(item.get("genres", ["Movie"]))
         poster = item.get("poster", {}).get("medium") or item.get("poster", {}).get("original") or ""
-        stream_url = item.get("primary_stream_url") or (list(item.get("stream_servers", {}).values())[0] if item.get("stream_servers") else "")
+        stream_url = item.get("direct_m3u8_url") or item.get("direct_m3u8_streams", {}).get("streamrip_1080p_video") or ""
         
         display_title = f"{title} ({year})" if year else title
         lines.append(f'#EXTINF:-1 tvg-id="{tmdb_id}" tvg-name="{title}" tvg-logo="{poster}" group-title="{genres}",{display_title}\n')
@@ -255,9 +237,9 @@ def export_txt(items, filename, links_only_filename=None):
         rating = item.get("rating", "N/A")
         genres = ", ".join(item.get("genres", []))
         poster = item.get("poster", {}).get("medium") or ""
-        stream_url = item.get("primary_stream_url") or (list(item.get("stream_servers", {}).values())[0] if item.get("stream_servers") else "")
+        stream_url = item.get("direct_m3u8_url") or item.get("direct_m3u8_streams", {}).get("streamrip_1080p_video") or ""
         
-        lines.append(f"Title: {title} ({year}) | Rating: {rating} | Genres: {genres} | Poster: {poster} | Stream: {stream_url}\n")
+        lines.append(f"Title: {title} ({year}) | Rating: {rating} | Genres: {genres} | Poster: {poster} | DirectM3U8: {stream_url}\n")
         link_lines.append(f"{title} ({year}) => {stream_url}\n")
         
     with open(filename, "w", encoding="utf-8") as f:
@@ -268,7 +250,7 @@ def export_txt(items, filename, links_only_filename=None):
             f.writelines(link_lines)
 
 def main():
-    print("🚀 Starting Redflix Multi-Server Stream Scraper...")
+    print("🚀 Starting 100% PURE DIRECT .M3U8 STREAM SCRAPER (NO EMBEDS)...")
     os.makedirs("data/genres", exist_ok=True)
     os.makedirs("data/years", exist_ok=True)
     
@@ -359,7 +341,7 @@ def main():
     movies_master.sort(key=lambda x: (x.get("release_year") or 0, x.get("popularity") or 0), reverse=True)
     
     # 6. Save JSON Datasets
-    print("Saving datasets...")
+    print("Saving 100% Direct M3U8 datasets...")
     with open("data/movies.json", "w", encoding="utf-8") as f:
         json.dump(movies_master, f, indent=2, ensure_ascii=False)
 
@@ -402,7 +384,7 @@ def main():
             json.dump(ymovies, f, indent=2, ensure_ascii=False)
 
     # 7. Export M3U & TXT Datasets
-    print("Exporting M3U & TXT...")
+    print("Exporting Direct M3U & TXT...")
     export_m3u(movies_master, "data/playlist.m3u")
     export_m3u(movies_master[:50], "data/latest.m3u")
     export_txt(movies_master, "data/movies.txt", "data/links.txt")
@@ -414,21 +396,20 @@ def main():
         "total_genres": len(genre_groups),
         "years_covered": sorted(list(year_groups.keys()), reverse=True),
         "last_updated": get_now_iso(),
-        "extracted_from": "Redflix Live Engine (8a2cbec7dea88403.js)",
-        "total_servers_per_title": 14,
-        "servers_list": [
-            "VidBolt (Redflix)", "Filmu (Bolt)", "VidLink (Nova)", "Videasy (Mega)",
-            "VidFast (Alpha)", "VidCore (Orion)", "Cinezo", "VidUp (Premium)",
-            "ZXCStream (Vidgod)", "ScreenScape (Hindi)", "ReelsDownload (Hindi New)",
-            "Peachify (Hindi Mirror)", "ModiPlay (Hindi 2)", "AutoEmbed"
+        "stream_architecture": "100% Pure Direct .m3u8 Streams (Zero Embeds / Zero Ads)",
+        "streams_available": [
+            "StreamRip 1080p Video Main (.m3u8)",
+            "StreamRip Hindi Audio Stream (.m3u8)",
+            "PeakStorm 1080p Master HLS (.m3u8)",
+            "Kucwn 720p HLS Stream (.m3u8)"
         ],
         "formats_available": ["JSON", "M3U", "TXT"],
-        "api_schema_version": "3.0.0"
+        "api_schema_version": "4.0.0"
     }
     with open("data/stats.json", "w", encoding="utf-8") as f:
         json.dump(stats, f, indent=2, ensure_ascii=False)
 
-    print(f"✨ Done! Master Movies: {len(movies_master)} | TV: {len(tv_shows)} | 14 Live Redflix Servers!")
+    print(f"✨ Done! Master Movies: {len(movies_master)} | TV: {len(tv_shows)} | 100% Pure Direct .m3u8 Streams!")
 
 if __name__ == "__main__":
     main()

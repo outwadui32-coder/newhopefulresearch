@@ -20,7 +20,7 @@ HEADERS = {
 def get_now_iso():
     return datetime.now(timezone.utc).isoformat()
 
-def check_stream_health(url):
+def check_m3u8_health(url):
     if not url:
         return False, 0
     try:
@@ -34,19 +34,18 @@ def check_stream_health(url):
     except Exception:
         return False, 0
 
-def repair_movie_links(movie):
+def repair_movie_m3u8(movie):
     tmdb_id = movie.get("id")
-    servers = movie.get("stream_servers", {})
-    primary = servers.get("redflix_primary") or f"https://vidbolt.xyz/movie/{tmdb_id}"
+    streams = movie.get("direct_m3u8_streams", {})
+    primary = streams.get("streamrip_1080p_video") or f"https://movie.streamrip.fun/movies/{tmdb_id}/video_main.m3u8"
     
-    is_alive, code = check_stream_health(primary)
+    is_alive, code = check_m3u8_health(primary)
     if is_alive:
-        movie["primary_stream_url"] = primary
+        movie["direct_m3u8_url"] = primary
         movie["health_status"] = "online"
     else:
-        # Fallback to nova_vidlink or mega_videasy
-        fallback = servers.get("nova_vidlink") or f"https://vidlink.pro/movie/{tmdb_id}"
-        movie["primary_stream_url"] = fallback
+        fallback = streams.get("peakstorm_1080p_master") or f"https://moon.peakstorm.top/vd/tmdb_{tmdb_id}/index-s1080p-v1-a1.m3u8"
+        movie["direct_m3u8_url"] = fallback
         movie["health_status"] = "online"
             
     movie["last_health_check"] = get_now_iso()
@@ -68,7 +67,7 @@ def save_state(state):
         json.dump(state, f, indent=2)
 
 def main():
-    print("🩺 Starting Redflix Live Server Health Scanner...")
+    print("🩺 Starting Pure Direct .M3U8 Stream Health Scanner...")
     
     if not os.path.exists(MOVIES_FILE):
         print("No movies.json found.")
@@ -91,13 +90,13 @@ def main():
     end_idx = min(start_idx + BATCH_SIZE, total_movies)
     batch_movies = movies[start_idx:end_idx]
     
-    print(f"Checking 14-Server Array: Movies {start_idx + 1} to {end_idx} of {total_movies}")
+    print(f"Checking Direct .M3U8: Movies {start_idx + 1} to {end_idx} of {total_movies}")
     
     repaired_count = 0
     online_count = 0
     
     with ThreadPoolExecutor(max_workers=8) as executor:
-        future_to_idx = {executor.submit(repair_movie_links, movie): (start_idx + i) for i, movie in enumerate(batch_movies)}
+        future_to_idx = {executor.submit(repair_movie_m3u8, movie): (start_idx + i) for i, movie in enumerate(batch_movies)}
         for future in as_completed(future_to_idx):
             idx = future_to_idx[future]
             try:
@@ -121,7 +120,7 @@ def main():
     with open("data/latest.json", "w", encoding="utf-8") as f:
         json.dump(movies[:50], f, indent=2, ensure_ascii=False)
         
-    print(f"✨ Redflix Batch Done! Verified: {repaired_count}, Next cursor: {next_cursor}/{total_movies}")
+    print(f"✨ Direct .M3U8 Batch Done! Verified: {repaired_count}, Next cursor: {next_cursor}/{total_movies}")
 
 if __name__ == "__main__":
     main()

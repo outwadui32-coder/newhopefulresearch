@@ -9,7 +9,7 @@
     "release_year": 2026,
     "release_date": "2026-05-13",
     "rating": 8.2,
-    "vote_count": 5211,
+    "vote_count": 5214,
     "popularity": 232.2,
     "runtime_minutes": 109,
     "runtime_formatted": "1h 49m",
@@ -36,31 +36,16 @@
       "medium": "https://image.tmdb.org/t/p/w780/rZfmzpixLKLR3Hg2u0WgC7XLFl8.jpg",
       "original": "https://image.tmdb.org/t/p/original/rZfmzpixLKLR3Hg2u0WgC7XLFl8.jpg"
     },
-    "quality_supported": [
-      "4K Ultra HD",
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/movie/1339713",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/movie/1339713",
-      "bolt_filmu": "https://embed.filmu.in/movie/1339713",
-      "nova_vidlink": "https://vidlink.pro/movie/1339713",
-      "mega_videasy": "https://player.videasy.to/movie/1339713",
-      "alpha_vidfast": "https://vidfast.vc/movie/1339713",
-      "orion_vidcore": "https://vidcore.net/movie/1339713",
-      "cinezo": "https://player.cinezo.live/movie/1339713",
-      "premium_vidup": "https://vidup.to/movie/1339713",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/movie/1339713",
-      "hindi_screenscape": "https://screenscape.me/movie/1339713",
-      "hindi_new": "https://embed.reelsdownload.online/movie/1339713",
-      "hindi_mirror_peachify": "https://peachify.top/movie/1339713",
-      "hindi_2_modiplay": "https://rozgarlelo.modiplay.xyz/movie/1339713",
-      "autoembed": "https://player.autoembed.cc/embed/movie/1339713"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1339713/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1339713/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1339713/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1339713/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1339713/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T10:56:56.218873+00:00"
+    "updated_at": "2026-09-01T11:39:31.131326+00:00"
   },
   {
     "id": 1232569,
@@ -100,31 +85,16 @@
       "medium": "https://image.tmdb.org/t/p/w780/dNKFETDDujxm2PUN873Jwiw5VML.jpg",
       "original": "https://image.tmdb.org/t/p/original/dNKFETDDujxm2PUN873Jwiw5VML.jpg"
     },
-    "quality_supported": [
-      "4K Ultra HD",
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/movie/1232569",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/movie/1232569",
-      "bolt_filmu": "https://embed.filmu.in/movie/1232569",
-      "nova_vidlink": "https://vidlink.pro/movie/1232569",
-      "mega_videasy": "https://player.videasy.to/movie/1232569",
-      "alpha_vidfast": "https://vidfast.vc/movie/1232569",
-      "orion_vidcore": "https://vidcore.net/movie/1232569",
-      "cinezo": "https://player.cinezo.live/movie/1232569",
-      "premium_vidup": "https://vidup.to/movie/1232569",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/movie/1232569",
-      "hindi_screenscape": "https://screenscape.me/movie/1232569",
-      "hindi_new": "https://embed.reelsdownload.online/movie/1232569",
-      "hindi_mirror_peachify": "https://peachify.top/movie/1232569",
-      "hindi_2_modiplay": "https://rozgarlelo.modiplay.xyz/movie/1232569",
-      "autoembed": "https://player.autoembed.cc/embed/movie/1232569"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1232569/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1232569/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1232569/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1232569/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1232569/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T10:56:56.557031+00:00"
+    "updated_at": "2026-09-01T11:39:33.688057+00:00"
   },
   {
     "id": 1375646,
@@ -136,7 +106,7 @@
     "release_year": 2026,
     "release_date": "2026-05-21",
     "rating": 8.1,
-    "vote_count": 657,
+    "vote_count": 659,
     "popularity": 176.5,
     "runtime_minutes": 123,
     "runtime_formatted": "2h 3m",
@@ -164,31 +134,16 @@
       "medium": "https://image.tmdb.org/t/p/w780/bC2Ho27PQDAVVVmFe285ClOEyGm.jpg",
       "original": "https://image.tmdb.org/t/p/original/bC2Ho27PQDAVVVmFe285ClOEyGm.jpg"
     },
-    "quality_supported": [
-      "4K Ultra HD",
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/movie/1375646",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/movie/1375646",
-      "bolt_filmu": "https://embed.filmu.in/movie/1375646",
-      "nova_vidlink": "https://vidlink.pro/movie/1375646",
-      "mega_videasy": "https://player.videasy.to/movie/1375646",
-      "alpha_vidfast": "https://vidfast.vc/movie/1375646",
-      "orion_vidcore": "https://vidcore.net/movie/1375646",
-      "cinezo": "https://player.cinezo.live/movie/1375646",
-      "premium_vidup": "https://vidup.to/movie/1375646",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/movie/1375646",
-      "hindi_screenscape": "https://screenscape.me/movie/1375646",
-      "hindi_new": "https://embed.reelsdownload.online/movie/1375646",
-      "hindi_mirror_peachify": "https://peachify.top/movie/1375646",
-      "hindi_2_modiplay": "https://rozgarlelo.modiplay.xyz/movie/1375646",
-      "autoembed": "https://player.autoembed.cc/embed/movie/1375646"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1375646/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1375646/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1375646/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1375646/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1375646/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T10:56:56.437569+00:00"
+    "updated_at": "2026-09-01T11:39:32.887442+00:00"
   },
   {
     "id": 1393326,
@@ -222,31 +177,16 @@
       "medium": "https://image.tmdb.org/t/p/w780/tK3QdOOrX4qEkmSlvrmc8cK7iOU.jpg",
       "original": "https://image.tmdb.org/t/p/original/tK3QdOOrX4qEkmSlvrmc8cK7iOU.jpg"
     },
-    "quality_supported": [
-      "4K Ultra HD",
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/movie/1393326",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/movie/1393326",
-      "bolt_filmu": "https://embed.filmu.in/movie/1393326",
-      "nova_vidlink": "https://vidlink.pro/movie/1393326",
-      "mega_videasy": "https://player.videasy.to/movie/1393326",
-      "alpha_vidfast": "https://vidfast.vc/movie/1393326",
-      "orion_vidcore": "https://vidcore.net/movie/1393326",
-      "cinezo": "https://player.cinezo.live/movie/1393326",
-      "premium_vidup": "https://vidup.to/movie/1393326",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/movie/1393326",
-      "hindi_screenscape": "https://screenscape.me/movie/1393326",
-      "hindi_new": "https://embed.reelsdownload.online/movie/1393326",
-      "hindi_mirror_peachify": "https://peachify.top/movie/1393326",
-      "hindi_2_modiplay": "https://rozgarlelo.modiplay.xyz/movie/1393326",
-      "autoembed": "https://player.autoembed.cc/embed/movie/1393326"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1393326/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1393326/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1393326/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1393326/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1393326/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T10:56:56.931260+00:00"
+    "updated_at": "2026-09-01T11:39:38.053451+00:00"
   },
   {
     "id": 1514682,
@@ -287,31 +227,16 @@
       "medium": "https://image.tmdb.org/t/p/w780/lSd6nEnlaeQkswLLUgHC5gyuXyU.jpg",
       "original": "https://image.tmdb.org/t/p/original/lSd6nEnlaeQkswLLUgHC5gyuXyU.jpg"
     },
-    "quality_supported": [
-      "4K Ultra HD",
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/movie/1514682",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/movie/1514682",
-      "bolt_filmu": "https://embed.filmu.in/movie/1514682",
-      "nova_vidlink": "https://vidlink.pro/movie/1514682",
-      "mega_videasy": "https://player.videasy.to/movie/1514682",
-      "alpha_vidfast": "https://vidfast.vc/movie/1514682",
-      "orion_vidcore": "https://vidcore.net/movie/1514682",
-      "cinezo": "https://player.cinezo.live/movie/1514682",
-      "premium_vidup": "https://vidup.to/movie/1514682",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/movie/1514682",
-      "hindi_screenscape": "https://screenscape.me/movie/1514682",
-      "hindi_new": "https://embed.reelsdownload.online/movie/1514682",
-      "hindi_mirror_peachify": "https://peachify.top/movie/1514682",
-      "hindi_2_modiplay": "https://rozgarlelo.modiplay.xyz/movie/1514682",
-      "autoembed": "https://player.autoembed.cc/embed/movie/1514682"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1514682/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1514682/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1514682/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1514682/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1514682/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T10:56:56.884510+00:00"
+    "updated_at": "2026-09-01T11:39:37.371349+00:00"
   },
   {
     "id": 1083381,
@@ -351,31 +276,16 @@
       "medium": "https://image.tmdb.org/t/p/w780/dqmMWNWfLnExDRpMtIMqI97GQFR.jpg",
       "original": "https://image.tmdb.org/t/p/original/dqmMWNWfLnExDRpMtIMqI97GQFR.jpg"
     },
-    "quality_supported": [
-      "4K Ultra HD",
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/movie/1083381",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/movie/1083381",
-      "bolt_filmu": "https://embed.filmu.in/movie/1083381",
-      "nova_vidlink": "https://vidlink.pro/movie/1083381",
-      "mega_videasy": "https://player.videasy.to/movie/1083381",
-      "alpha_vidfast": "https://vidfast.vc/movie/1083381",
-      "orion_vidcore": "https://vidcore.net/movie/1083381",
-      "cinezo": "https://player.cinezo.live/movie/1083381",
-      "premium_vidup": "https://vidup.to/movie/1083381",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/movie/1083381",
-      "hindi_screenscape": "https://screenscape.me/movie/1083381",
-      "hindi_new": "https://embed.reelsdownload.online/movie/1083381",
-      "hindi_mirror_peachify": "https://peachify.top/movie/1083381",
-      "hindi_2_modiplay": "https://rozgarlelo.modiplay.xyz/movie/1083381",
-      "autoembed": "https://player.autoembed.cc/embed/movie/1083381"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1083381/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1083381/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1083381/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1083381/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1083381/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T10:56:56.218973+00:00"
+    "updated_at": "2026-09-01T11:39:31.131326+00:00"
   },
   {
     "id": 1432706,
@@ -408,31 +318,16 @@
       "medium": "https://image.tmdb.org/t/p/w780/lWVnUBYG7nIb84gxa3tSeP8CghA.jpg",
       "original": "https://image.tmdb.org/t/p/original/lWVnUBYG7nIb84gxa3tSeP8CghA.jpg"
     },
-    "quality_supported": [
-      "4K Ultra HD",
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/movie/1432706",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/movie/1432706",
-      "bolt_filmu": "https://embed.filmu.in/movie/1432706",
-      "nova_vidlink": "https://vidlink.pro/movie/1432706",
-      "mega_videasy": "https://player.videasy.to/movie/1432706",
-      "alpha_vidfast": "https://vidfast.vc/movie/1432706",
-      "orion_vidcore": "https://vidcore.net/movie/1432706",
-      "cinezo": "https://player.cinezo.live/movie/1432706",
-      "premium_vidup": "https://vidup.to/movie/1432706",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/movie/1432706",
-      "hindi_screenscape": "https://screenscape.me/movie/1432706",
-      "hindi_new": "https://embed.reelsdownload.online/movie/1432706",
-      "hindi_mirror_peachify": "https://peachify.top/movie/1432706",
-      "hindi_2_modiplay": "https://rozgarlelo.modiplay.xyz/movie/1432706",
-      "autoembed": "https://player.autoembed.cc/embed/movie/1432706"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1432706/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1432706/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1432706/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1432706/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1432706/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T10:56:56.977039+00:00"
+    "updated_at": "2026-09-01T11:39:38.756688+00:00"
   },
   {
     "id": 1212461,
@@ -466,31 +361,16 @@
       "medium": "https://image.tmdb.org/t/p/w780/77aCeoWOA5toCWk67lTAzrfW92Y.jpg",
       "original": "https://image.tmdb.org/t/p/original/77aCeoWOA5toCWk67lTAzrfW92Y.jpg"
     },
-    "quality_supported": [
-      "4K Ultra HD",
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/movie/1212461",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/movie/1212461",
-      "bolt_filmu": "https://embed.filmu.in/movie/1212461",
-      "nova_vidlink": "https://vidlink.pro/movie/1212461",
-      "mega_videasy": "https://player.videasy.to/movie/1212461",
-      "alpha_vidfast": "https://vidfast.vc/movie/1212461",
-      "orion_vidcore": "https://vidcore.net/movie/1212461",
-      "cinezo": "https://player.cinezo.live/movie/1212461",
-      "premium_vidup": "https://vidup.to/movie/1212461",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/movie/1212461",
-      "hindi_screenscape": "https://screenscape.me/movie/1212461",
-      "hindi_new": "https://embed.reelsdownload.online/movie/1212461",
-      "hindi_mirror_peachify": "https://peachify.top/movie/1212461",
-      "hindi_2_modiplay": "https://rozgarlelo.modiplay.xyz/movie/1212461",
-      "autoembed": "https://player.autoembed.cc/embed/movie/1212461"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1212461/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1212461/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1212461/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1212461/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1212461/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T10:56:57.025382+00:00"
+    "updated_at": "2026-09-01T11:39:39.464529+00:00"
   },
   {
     "id": 1212763,
@@ -528,31 +408,16 @@
       "medium": "https://image.tmdb.org/t/p/w780/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg",
       "original": "https://image.tmdb.org/t/p/original/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg"
     },
-    "quality_supported": [
-      "4K Ultra HD",
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/movie/1212763",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/movie/1212763",
-      "bolt_filmu": "https://embed.filmu.in/movie/1212763",
-      "nova_vidlink": "https://vidlink.pro/movie/1212763",
-      "mega_videasy": "https://player.videasy.to/movie/1212763",
-      "alpha_vidfast": "https://vidfast.vc/movie/1212763",
-      "orion_vidcore": "https://vidcore.net/movie/1212763",
-      "cinezo": "https://player.cinezo.live/movie/1212763",
-      "premium_vidup": "https://vidup.to/movie/1212763",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/movie/1212763",
-      "hindi_screenscape": "https://screenscape.me/movie/1212763",
-      "hindi_new": "https://embed.reelsdownload.online/movie/1212763",
-      "hindi_mirror_peachify": "https://peachify.top/movie/1212763",
-      "hindi_2_modiplay": "https://rozgarlelo.modiplay.xyz/movie/1212763",
-      "autoembed": "https://player.autoembed.cc/embed/movie/1212763"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1212763/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1212763/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1212763/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1212763/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1212763/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T10:56:56.328372+00:00"
+    "updated_at": "2026-09-01T11:39:32.126818+00:00"
   },
   {
     "id": 1284041,
@@ -564,7 +429,7 @@
     "release_year": 2026,
     "release_date": "2026-08-06",
     "rating": 6.9,
-    "vote_count": 1183,
+    "vote_count": 1184,
     "popularity": 82.9,
     "runtime_minutes": 110,
     "runtime_formatted": "1h 50m",
@@ -592,31 +457,16 @@
       "medium": "https://image.tmdb.org/t/p/w780/1RhfevWmWCVHtEqxWBEjPOC5KG1.jpg",
       "original": "https://image.tmdb.org/t/p/original/1RhfevWmWCVHtEqxWBEjPOC5KG1.jpg"
     },
-    "quality_supported": [
-      "4K Ultra HD",
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/movie/1284041",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/movie/1284041",
-      "bolt_filmu": "https://embed.filmu.in/movie/1284041",
-      "nova_vidlink": "https://vidlink.pro/movie/1284041",
-      "mega_videasy": "https://player.videasy.to/movie/1284041",
-      "alpha_vidfast": "https://vidfast.vc/movie/1284041",
-      "orion_vidcore": "https://vidcore.net/movie/1284041",
-      "cinezo": "https://player.cinezo.live/movie/1284041",
-      "premium_vidup": "https://vidup.to/movie/1284041",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/movie/1284041",
-      "hindi_screenscape": "https://screenscape.me/movie/1284041",
-      "hindi_new": "https://embed.reelsdownload.online/movie/1284041",
-      "hindi_mirror_peachify": "https://peachify.top/movie/1284041",
-      "hindi_2_modiplay": "https://rozgarlelo.modiplay.xyz/movie/1284041",
-      "autoembed": "https://player.autoembed.cc/embed/movie/1284041"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1284041/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1284041/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1284041/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1284041/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1284041/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T10:56:56.557203+00:00"
+    "updated_at": "2026-09-01T11:39:33.688057+00:00"
   },
   {
     "id": 1127384,
@@ -649,31 +499,16 @@
       "medium": "https://image.tmdb.org/t/p/w780/szKv713FcUXx6hcfdY369vtkmzr.jpg",
       "original": "https://image.tmdb.org/t/p/original/szKv713FcUXx6hcfdY369vtkmzr.jpg"
     },
-    "quality_supported": [
-      "4K Ultra HD",
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/movie/1127384",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/movie/1127384",
-      "bolt_filmu": "https://embed.filmu.in/movie/1127384",
-      "nova_vidlink": "https://vidlink.pro/movie/1127384",
-      "mega_videasy": "https://player.videasy.to/movie/1127384",
-      "alpha_vidfast": "https://vidfast.vc/movie/1127384",
-      "orion_vidcore": "https://vidcore.net/movie/1127384",
-      "cinezo": "https://player.cinezo.live/movie/1127384",
-      "premium_vidup": "https://vidup.to/movie/1127384",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/movie/1127384",
-      "hindi_screenscape": "https://screenscape.me/movie/1127384",
-      "hindi_new": "https://embed.reelsdownload.online/movie/1127384",
-      "hindi_mirror_peachify": "https://peachify.top/movie/1127384",
-      "hindi_2_modiplay": "https://rozgarlelo.modiplay.xyz/movie/1127384",
-      "autoembed": "https://player.autoembed.cc/embed/movie/1127384"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1127384/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1127384/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1127384/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1127384/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1127384/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T10:56:56.977314+00:00"
+    "updated_at": "2026-09-01T11:39:38.756688+00:00"
   },
   {
     "id": 1291595,
@@ -685,7 +520,7 @@
     "release_year": 2026,
     "release_date": "2026-08-19",
     "rating": 6.6,
-    "vote_count": 92,
+    "vote_count": 93,
     "popularity": 73.4,
     "runtime_minutes": 106,
     "runtime_formatted": "1h 46m",
@@ -712,31 +547,16 @@
       "medium": "https://image.tmdb.org/t/p/w780/hD8y787ciNWQ2bn396YrSsOIzdN.jpg",
       "original": "https://image.tmdb.org/t/p/original/hD8y787ciNWQ2bn396YrSsOIzdN.jpg"
     },
-    "quality_supported": [
-      "4K Ultra HD",
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/movie/1291595",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/movie/1291595",
-      "bolt_filmu": "https://embed.filmu.in/movie/1291595",
-      "nova_vidlink": "https://vidlink.pro/movie/1291595",
-      "mega_videasy": "https://player.videasy.to/movie/1291595",
-      "alpha_vidfast": "https://vidfast.vc/movie/1291595",
-      "orion_vidcore": "https://vidcore.net/movie/1291595",
-      "cinezo": "https://player.cinezo.live/movie/1291595",
-      "premium_vidup": "https://vidup.to/movie/1291595",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/movie/1291595",
-      "hindi_screenscape": "https://screenscape.me/movie/1291595",
-      "hindi_new": "https://embed.reelsdownload.online/movie/1291595",
-      "hindi_mirror_peachify": "https://peachify.top/movie/1291595",
-      "hindi_2_modiplay": "https://rozgarlelo.modiplay.xyz/movie/1291595",
-      "autoembed": "https://player.autoembed.cc/embed/movie/1291595"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1291595/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1291595/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1291595/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1291595/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1291595/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T10:56:56.328361+00:00"
+    "updated_at": "2026-09-01T11:39:32.126818+00:00"
   },
   {
     "id": 964849,
@@ -768,31 +588,16 @@
       "medium": "https://image.tmdb.org/t/p/w780/jVeYae744cR2ogx9ShQ3qXOcRiZ.jpg",
       "original": "https://image.tmdb.org/t/p/original/jVeYae744cR2ogx9ShQ3qXOcRiZ.jpg"
     },
-    "quality_supported": [
-      "4K Ultra HD",
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/movie/964849",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/movie/964849",
-      "bolt_filmu": "https://embed.filmu.in/movie/964849",
-      "nova_vidlink": "https://vidlink.pro/movie/964849",
-      "mega_videasy": "https://player.videasy.to/movie/964849",
-      "alpha_vidfast": "https://vidfast.vc/movie/964849",
-      "orion_vidcore": "https://vidcore.net/movie/964849",
-      "cinezo": "https://player.cinezo.live/movie/964849",
-      "premium_vidup": "https://vidup.to/movie/964849",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/movie/964849",
-      "hindi_screenscape": "https://screenscape.me/movie/964849",
-      "hindi_new": "https://embed.reelsdownload.online/movie/964849",
-      "hindi_mirror_peachify": "https://peachify.top/movie/964849",
-      "hindi_2_modiplay": "https://rozgarlelo.modiplay.xyz/movie/964849",
-      "autoembed": "https://player.autoembed.cc/embed/movie/964849"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/964849/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/964849/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/964849/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_964849/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/964849/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T10:56:57.025432+00:00"
+    "updated_at": "2026-09-01T11:39:39.464529+00:00"
   },
   {
     "id": 1314826,
@@ -824,31 +629,16 @@
       "medium": "https://image.tmdb.org/t/p/w780/x9aPgQNnMYp7S0cJ24pJ0ck0sqw.jpg",
       "original": "https://image.tmdb.org/t/p/original/x9aPgQNnMYp7S0cJ24pJ0ck0sqw.jpg"
     },
-    "quality_supported": [
-      "4K Ultra HD",
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/movie/1314826",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/movie/1314826",
-      "bolt_filmu": "https://embed.filmu.in/movie/1314826",
-      "nova_vidlink": "https://vidlink.pro/movie/1314826",
-      "mega_videasy": "https://player.videasy.to/movie/1314826",
-      "alpha_vidfast": "https://vidfast.vc/movie/1314826",
-      "orion_vidcore": "https://vidcore.net/movie/1314826",
-      "cinezo": "https://player.cinezo.live/movie/1314826",
-      "premium_vidup": "https://vidup.to/movie/1314826",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/movie/1314826",
-      "hindi_screenscape": "https://screenscape.me/movie/1314826",
-      "hindi_new": "https://embed.reelsdownload.online/movie/1314826",
-      "hindi_mirror_peachify": "https://peachify.top/movie/1314826",
-      "hindi_2_modiplay": "https://rozgarlelo.modiplay.xyz/movie/1314826",
-      "autoembed": "https://player.autoembed.cc/embed/movie/1314826"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1314826/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1314826/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1314826/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1314826/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1314826/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T10:56:57.025491+00:00"
+    "updated_at": "2026-09-01T11:39:39.464529+00:00"
   },
   {
     "id": 1514026,
@@ -887,31 +677,16 @@
       "medium": "https://image.tmdb.org/t/p/w780/ytoLEl5yDaxB8AtZ52uKWjaQ9ql.jpg",
       "original": "https://image.tmdb.org/t/p/original/ytoLEl5yDaxB8AtZ52uKWjaQ9ql.jpg"
     },
-    "quality_supported": [
-      "4K Ultra HD",
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/movie/1514026",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/movie/1514026",
-      "bolt_filmu": "https://embed.filmu.in/movie/1514026",
-      "nova_vidlink": "https://vidlink.pro/movie/1514026",
-      "mega_videasy": "https://player.videasy.to/movie/1514026",
-      "alpha_vidfast": "https://vidfast.vc/movie/1514026",
-      "orion_vidcore": "https://vidcore.net/movie/1514026",
-      "cinezo": "https://player.cinezo.live/movie/1514026",
-      "premium_vidup": "https://vidup.to/movie/1514026",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/movie/1514026",
-      "hindi_screenscape": "https://screenscape.me/movie/1514026",
-      "hindi_new": "https://embed.reelsdownload.online/movie/1514026",
-      "hindi_mirror_peachify": "https://peachify.top/movie/1514026",
-      "hindi_2_modiplay": "https://rozgarlelo.modiplay.xyz/movie/1514026",
-      "autoembed": "https://player.autoembed.cc/embed/movie/1514026"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1514026/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1514026/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1514026/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1514026/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1514026/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T10:56:56.218948+00:00"
+    "updated_at": "2026-09-01T11:39:31.131326+00:00"
   },
   {
     "id": 1240889,
@@ -923,7 +698,7 @@
     "release_year": 2026,
     "release_date": "2026-08-06",
     "rating": 6.7,
-    "vote_count": 82,
+    "vote_count": 83,
     "popularity": 24.7,
     "runtime_minutes": 112,
     "runtime_formatted": "1h 52m",
@@ -951,31 +726,16 @@
       "medium": "https://image.tmdb.org/t/p/w780/qIYpBVW114AShXorGvnEUZGgueS.jpg",
       "original": "https://image.tmdb.org/t/p/original/qIYpBVW114AShXorGvnEUZGgueS.jpg"
     },
-    "quality_supported": [
-      "4K Ultra HD",
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/movie/1240889",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/movie/1240889",
-      "bolt_filmu": "https://embed.filmu.in/movie/1240889",
-      "nova_vidlink": "https://vidlink.pro/movie/1240889",
-      "mega_videasy": "https://player.videasy.to/movie/1240889",
-      "alpha_vidfast": "https://vidfast.vc/movie/1240889",
-      "orion_vidcore": "https://vidcore.net/movie/1240889",
-      "cinezo": "https://player.cinezo.live/movie/1240889",
-      "premium_vidup": "https://vidup.to/movie/1240889",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/movie/1240889",
-      "hindi_screenscape": "https://screenscape.me/movie/1240889",
-      "hindi_new": "https://embed.reelsdownload.online/movie/1240889",
-      "hindi_mirror_peachify": "https://peachify.top/movie/1240889",
-      "hindi_2_modiplay": "https://rozgarlelo.modiplay.xyz/movie/1240889",
-      "autoembed": "https://player.autoembed.cc/embed/movie/1240889"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1240889/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1240889/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1240889/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1240889/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1240889/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T10:56:56.884549+00:00"
+    "updated_at": "2026-09-01T11:39:34.687083+00:00"
   },
   {
     "id": 1423191,
@@ -1014,31 +774,16 @@
       "medium": "https://image.tmdb.org/t/p/w780/mRM28tIIm8y0gKy9GKYGwotxuPM.jpg",
       "original": "https://image.tmdb.org/t/p/original/mRM28tIIm8y0gKy9GKYGwotxuPM.jpg"
     },
-    "quality_supported": [
-      "4K Ultra HD",
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/movie/1423191",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/movie/1423191",
-      "bolt_filmu": "https://embed.filmu.in/movie/1423191",
-      "nova_vidlink": "https://vidlink.pro/movie/1423191",
-      "mega_videasy": "https://player.videasy.to/movie/1423191",
-      "alpha_vidfast": "https://vidfast.vc/movie/1423191",
-      "orion_vidcore": "https://vidcore.net/movie/1423191",
-      "cinezo": "https://player.cinezo.live/movie/1423191",
-      "premium_vidup": "https://vidup.to/movie/1423191",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/movie/1423191",
-      "hindi_screenscape": "https://screenscape.me/movie/1423191",
-      "hindi_new": "https://embed.reelsdownload.online/movie/1423191",
-      "hindi_mirror_peachify": "https://peachify.top/movie/1423191",
-      "hindi_2_modiplay": "https://rozgarlelo.modiplay.xyz/movie/1423191",
-      "autoembed": "https://player.autoembed.cc/embed/movie/1423191"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1423191/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1423191/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1423191/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1423191/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1423191/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T10:56:56.219185+00:00"
+    "updated_at": "2026-09-01T11:39:31.131326+00:00"
   },
   {
     "id": 1284046,
@@ -1078,31 +823,16 @@
       "medium": "https://image.tmdb.org/t/p/w780/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
       "original": "https://image.tmdb.org/t/p/original/pmPXXniQlb4EdYY0gVZO90rf54F.jpg"
     },
-    "quality_supported": [
-      "4K Ultra HD",
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/movie/1284046",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/movie/1284046",
-      "bolt_filmu": "https://embed.filmu.in/movie/1284046",
-      "nova_vidlink": "https://vidlink.pro/movie/1284046",
-      "mega_videasy": "https://player.videasy.to/movie/1284046",
-      "alpha_vidfast": "https://vidfast.vc/movie/1284046",
-      "orion_vidcore": "https://vidcore.net/movie/1284046",
-      "cinezo": "https://player.cinezo.live/movie/1284046",
-      "premium_vidup": "https://vidup.to/movie/1284046",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/movie/1284046",
-      "hindi_screenscape": "https://screenscape.me/movie/1284046",
-      "hindi_new": "https://embed.reelsdownload.online/movie/1284046",
-      "hindi_mirror_peachify": "https://peachify.top/movie/1284046",
-      "hindi_2_modiplay": "https://rozgarlelo.modiplay.xyz/movie/1284046",
-      "autoembed": "https://player.autoembed.cc/embed/movie/1284046"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1284046/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1284046/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1284046/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1284046/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1284046/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T10:56:56.437581+00:00"
+    "updated_at": "2026-09-01T11:39:33.688057+00:00"
   },
   {
     "id": 1462861,
@@ -1141,31 +871,16 @@
       "medium": "https://image.tmdb.org/t/p/w780/5JfVDRXXWw9iF1UERjd4QTdlCow.jpg",
       "original": "https://image.tmdb.org/t/p/original/5JfVDRXXWw9iF1UERjd4QTdlCow.jpg"
     },
-    "quality_supported": [
-      "4K Ultra HD",
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/movie/1462861",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/movie/1462861",
-      "bolt_filmu": "https://embed.filmu.in/movie/1462861",
-      "nova_vidlink": "https://vidlink.pro/movie/1462861",
-      "mega_videasy": "https://player.videasy.to/movie/1462861",
-      "alpha_vidfast": "https://vidfast.vc/movie/1462861",
-      "orion_vidcore": "https://vidcore.net/movie/1462861",
-      "cinezo": "https://player.cinezo.live/movie/1462861",
-      "premium_vidup": "https://vidup.to/movie/1462861",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/movie/1462861",
-      "hindi_screenscape": "https://screenscape.me/movie/1462861",
-      "hindi_new": "https://embed.reelsdownload.online/movie/1462861",
-      "hindi_mirror_peachify": "https://peachify.top/movie/1462861",
-      "hindi_2_modiplay": "https://rozgarlelo.modiplay.xyz/movie/1462861",
-      "autoembed": "https://player.autoembed.cc/embed/movie/1462861"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1462861/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1462861/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1462861/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1462861/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1462861/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T10:56:56.557046+00:00"
+    "updated_at": "2026-09-01T11:39:32.887442+00:00"
   },
   {
     "id": 1742458,
@@ -1204,30 +919,15 @@
       "medium": "https://image.tmdb.org/t/p/w780/xQbHmeJdT95pSDMzP92CrvjceBh.jpg",
       "original": "https://image.tmdb.org/t/p/original/xQbHmeJdT95pSDMzP92CrvjceBh.jpg"
     },
-    "quality_supported": [
-      "4K Ultra HD",
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/movie/1742458",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/movie/1742458",
-      "bolt_filmu": "https://embed.filmu.in/movie/1742458",
-      "nova_vidlink": "https://vidlink.pro/movie/1742458",
-      "mega_videasy": "https://player.videasy.to/movie/1742458",
-      "alpha_vidfast": "https://vidfast.vc/movie/1742458",
-      "orion_vidcore": "https://vidcore.net/movie/1742458",
-      "cinezo": "https://player.cinezo.live/movie/1742458",
-      "premium_vidup": "https://vidup.to/movie/1742458",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/movie/1742458",
-      "hindi_screenscape": "https://screenscape.me/movie/1742458",
-      "hindi_new": "https://embed.reelsdownload.online/movie/1742458",
-      "hindi_mirror_peachify": "https://peachify.top/movie/1742458",
-      "hindi_2_modiplay": "https://rozgarlelo.modiplay.xyz/movie/1742458",
-      "autoembed": "https://player.autoembed.cc/embed/movie/1742458"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1742458/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1742458/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1742458/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1742458/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1742458/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T10:56:56.437419+00:00"
+    "updated_at": "2026-09-01T11:39:32.126818+00:00"
   }
 ]
