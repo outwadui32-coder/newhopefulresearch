@@ -1,0 +1,53 @@
+[
+  {
+    "id": 82023,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "Hotel Desire",
+    "original_title": "Hotel Desire",
+    "tagline": "",
+    "release_year": 2011,
+    "release_date": "2011-12-07",
+    "rating": 6.2,
+    "vote_count": 162,
+    "popularity": 112.9,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "overview": "Antonia is a single mother who works as a hotel maid in Berlin. A normal hot summer day takes a dramatic turn when she crosses paths with a particular guest of the hotel, famous blind portrait painter Julius Pass.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/47XRWH95ATv4szxdWHl723guWXP.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/47XRWH95ATv4szxdWHl723guWXP.jpg",
+      "original": "https://image.tmdb.org/t/p/original/47XRWH95ATv4szxdWHl723guWXP.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/wcUohmHc9oDZXarXDp905TYVui4.jpg",
+      "original": "https://image.tmdb.org/t/p/original/wcUohmHc9oDZXarXDp905TYVui4.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=82023&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/82023",
+      "vidlink": "https://vidlink.pro/movie/82023",
+      "videasy": "https://player.videasy.to/movie/82023",
+      "vidfast": "https://vidfast.vc/movie/82023",
+      "vidcore": "https://vidcore.net/movie/82023",
+      "vidnest": "https://vidnest.fun/movie/82023",
+      "autoembed": "https://player.autoembed.cc/embed/movie/82023",
+      "vidsrc": "https://vidsrc.to/embed/movie/82023",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=82023&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:33.057674Z"
+  }
+]

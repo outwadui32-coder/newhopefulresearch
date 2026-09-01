@@ -1,0 +1,54 @@
+[
+  {
+    "id": 24428,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "The Avengers",
+    "original_title": "The Avengers",
+    "tagline": "",
+    "release_year": 2012,
+    "release_date": "2012-04-25",
+    "rating": 8.1,
+    "vote_count": 39532,
+    "popularity": 67.8,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Sci-Fi",
+      "Action",
+      "Adventure"
+    ],
+    "overview": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+      "original": "https://image.tmdb.org/t/p/original/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/gHLs7Fy3DzLmLsD4lmfqL55KGcl.jpg",
+      "original": "https://image.tmdb.org/t/p/original/gHLs7Fy3DzLmLsD4lmfqL55KGcl.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=24428&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/24428",
+      "vidlink": "https://vidlink.pro/movie/24428",
+      "videasy": "https://player.videasy.to/movie/24428",
+      "vidfast": "https://vidfast.vc/movie/24428",
+      "vidcore": "https://vidcore.net/movie/24428",
+      "vidnest": "https://vidnest.fun/movie/24428",
+      "autoembed": "https://player.autoembed.cc/embed/movie/24428",
+      "vidsrc": "https://vidsrc.to/embed/movie/24428",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=24428&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:33.910370Z"
+  }
+]

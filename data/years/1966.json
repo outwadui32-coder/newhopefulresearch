@@ -1,0 +1,52 @@
+[
+  {
+    "id": 429,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "The Good, the Bad and the Ugly",
+    "original_title": "Il buono, il brutto, il cattivo",
+    "tagline": "",
+    "release_year": 1966,
+    "release_date": "1966-12-23",
+    "rating": 8.5,
+    "vote_count": 9893,
+    "popularity": 23.7,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Western"
+    ],
+    "overview": "While the Civil War rages on between the Union and the Confederacy, three men – a quiet loner, a ruthless hitman, and a Mexican bandit – comb the American Southwest in search of a strongbox containing $200,000 in stolen gold.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/bX2xnavhMYjWDoZp1VM6VnU1xwe.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/bX2xnavhMYjWDoZp1VM6VnU1xwe.jpg",
+      "original": "https://image.tmdb.org/t/p/original/bX2xnavhMYjWDoZp1VM6VnU1xwe.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/x4biAVdPVCghBlsVIzB6NmbghIz.jpg",
+      "original": "https://image.tmdb.org/t/p/original/x4biAVdPVCghBlsVIzB6NmbghIz.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=429&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/429",
+      "vidlink": "https://vidlink.pro/movie/429",
+      "videasy": "https://player.videasy.to/movie/429",
+      "vidfast": "https://vidfast.vc/movie/429",
+      "vidcore": "https://vidcore.net/movie/429",
+      "vidnest": "https://vidnest.fun/movie/429",
+      "autoembed": "https://player.autoembed.cc/embed/movie/429",
+      "vidsrc": "https://vidsrc.to/embed/movie/429",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=429&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:35.551044Z"
+  }
+]

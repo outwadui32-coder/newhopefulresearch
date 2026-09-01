@@ -1,0 +1,53 @@
+[
+  {
+    "id": 240,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "The Godfather Part II",
+    "original_title": "The Godfather Part II",
+    "tagline": "",
+    "release_year": 1974,
+    "release_date": "1974-12-20",
+    "rating": 8.6,
+    "vote_count": 14260,
+    "popularity": 36.4,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "overview": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg",
+      "original": "https://image.tmdb.org/t/p/original/sSuQTCZwqKrNBNIsksO9IAUoWP9.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/pGzqRKrYeK4LogoysNro0vG8d8N.jpg",
+      "original": "https://image.tmdb.org/t/p/original/pGzqRKrYeK4LogoysNro0vG8d8N.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=240&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/240",
+      "vidlink": "https://vidlink.pro/movie/240",
+      "videasy": "https://player.videasy.to/movie/240",
+      "vidfast": "https://vidfast.vc/movie/240",
+      "vidcore": "https://vidcore.net/movie/240",
+      "vidnest": "https://vidnest.fun/movie/240",
+      "autoembed": "https://player.autoembed.cc/embed/movie/240",
+      "vidsrc": "https://vidsrc.to/embed/movie/240",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=240&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:34.735794Z"
+  }
+]

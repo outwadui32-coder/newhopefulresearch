@@ -1,0 +1,54 @@
+[
+  {
+    "id": 372058,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "Your Name.",
+    "original_title": "君の名は。",
+    "tagline": "",
+    "release_year": 2016,
+    "release_date": "2016-07-01",
+    "rating": 8.5,
+    "vote_count": 12925,
+    "popularity": 27.2,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Animation",
+      "Romance",
+      "Drama"
+    ],
+    "overview": "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/vfJFJPepRKapMd5G2ro7klIRysq.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/vfJFJPepRKapMd5G2ro7klIRysq.jpg",
+      "original": "https://image.tmdb.org/t/p/original/vfJFJPepRKapMd5G2ro7klIRysq.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/8x9iKH8kWA0zdkgNdpAew7OstYe.jpg",
+      "original": "https://image.tmdb.org/t/p/original/8x9iKH8kWA0zdkgNdpAew7OstYe.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=372058&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/372058",
+      "vidlink": "https://vidlink.pro/movie/372058",
+      "videasy": "https://player.videasy.to/movie/372058",
+      "vidfast": "https://vidfast.vc/movie/372058",
+      "vidcore": "https://vidcore.net/movie/372058",
+      "vidnest": "https://vidnest.fun/movie/372058",
+      "autoembed": "https://player.autoembed.cc/embed/movie/372058",
+      "vidsrc": "https://vidsrc.to/embed/movie/372058",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=372058&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:35.551044Z"
+  }
+]

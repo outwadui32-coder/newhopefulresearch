@@ -1,0 +1,53 @@
+[
+  {
+    "id": 346,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "Seven Samurai",
+    "original_title": "七人の侍",
+    "tagline": "",
+    "release_year": 1954,
+    "release_date": "1954-04-26",
+    "rating": 8.5,
+    "vote_count": 4344,
+    "popularity": 15.2,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "overview": "A samurai answers a village's request for protection after he falls on hard times. The town needs protection from bandits, so the samurai gathers six others to help him teach the people how to defend themselves, and the villagers provide the soldiers with food.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/lOMGc8bnSwQhS4XyE1S99uH8NXf.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/lOMGc8bnSwQhS4XyE1S99uH8NXf.jpg",
+      "original": "https://image.tmdb.org/t/p/original/lOMGc8bnSwQhS4XyE1S99uH8NXf.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/qvZ91FwMq6O47VViAr8vZNQz3WI.jpg",
+      "original": "https://image.tmdb.org/t/p/original/qvZ91FwMq6O47VViAr8vZNQz3WI.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=346&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/346",
+      "vidlink": "https://vidlink.pro/movie/346",
+      "videasy": "https://player.videasy.to/movie/346",
+      "vidfast": "https://vidfast.vc/movie/346",
+      "vidcore": "https://vidcore.net/movie/346",
+      "vidnest": "https://vidnest.fun/movie/346",
+      "autoembed": "https://player.autoembed.cc/embed/movie/346",
+      "vidsrc": "https://vidsrc.to/embed/movie/346",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=346&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:35.551044Z"
+  }
+]

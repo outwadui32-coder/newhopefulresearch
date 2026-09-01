@@ -1,0 +1,59 @@
+[
+  {
+    "id": 936075,
+    "imdb_id": "tt11378946",
+    "type": "movie",
+    "title": "Michael",
+    "original_title": "Michael",
+    "tagline": "Discover the making of a king.",
+    "release_year": 2026,
+    "release_date": "2026-04-22",
+    "rating": 8.7,
+    "vote_count": 4228,
+    "popularity": 73.9,
+    "runtime_minutes": 128,
+    "runtime_formatted": "2h 8m",
+    "genres": [
+      "Music",
+      "Drama"
+    ],
+    "overview": "The story of Michael Jackson, one of the most influential artists the world has ever known, and his life beyond the music. His journey from the discovery of his extraordinary talent as the lead of the Jackson Five, to the visionary artist whose creative ambition fueled a relentless pursuit to become the biggest entertainer in the world, highlighting both his life off-stage and some of the most iconic performances from his early solo career.",
+    "cast": [
+      "Jaafar Jackson",
+      "Colman Domingo",
+      "Nia Long",
+      "Juliano Krue Valdi",
+      "KeiLyn Durrel Jones"
+    ],
+    "trailer_url": "https://www.youtube.com/watch?v=9h7-znnwxeA",
+    "trailer_youtube_id": "9h7-znnwxeA",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/dueFqKLvjftnELZaGYwY7xinfaI.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/dueFqKLvjftnELZaGYwY7xinfaI.jpg",
+      "original": "https://image.tmdb.org/t/p/original/dueFqKLvjftnELZaGYwY7xinfaI.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/ufSwlnECLoUbBjPrFqEQcWBzHwc.jpg",
+      "original": "https://image.tmdb.org/t/p/original/ufSwlnECLoUbBjPrFqEQcWBzHwc.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=936075&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/936075",
+      "vidlink": "https://vidlink.pro/movie/936075",
+      "videasy": "https://player.videasy.to/movie/936075",
+      "vidfast": "https://vidfast.vc/movie/936075",
+      "vidcore": "https://vidcore.net/movie/936075",
+      "vidnest": "https://vidnest.fun/movie/936075",
+      "autoembed": "https://player.autoembed.cc/embed/movie/936075",
+      "vidsrc": "https://vidsrc.to/embed/movie/936075",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=936075&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:18.442777Z"
+  }
+]

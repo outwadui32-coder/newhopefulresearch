@@ -1,0 +1,53 @@
+[
+  {
+    "id": 441168,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "From Straight A's to XXX",
+    "original_title": "From Straight A's to XXX",
+    "tagline": "",
+    "release_year": 2017,
+    "release_date": "2017-02-11",
+    "rating": 5.9,
+    "vote_count": 171,
+    "popularity": 68.2,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Drama",
+      "TV Movie"
+    ],
+    "overview": "When a change of circumstances leaves Miriam unable to pay her college tuition, she makes a surprising decision: to start performing in adult films, using the pseudonym Belle Knox. Miriam lies to her family and her friends at school, keeping her double life a secret. But soon rumours spread and Miriam becomes the subject of vicious online attacks and unwanted attention. Miriam fights back: she talks to the media, saying her new line of work empowers her as a feminist. But her confident stand has unintended consequences. Miriam is shunned by her conservative family and her colleagues in the adult film world. One impulsive decision has quickly spiralled out of control - and Miriam's problems are just beginning.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/7o7qmymPy1D9mASODsrOHq41Fye.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/7o7qmymPy1D9mASODsrOHq41Fye.jpg",
+      "original": "https://image.tmdb.org/t/p/original/7o7qmymPy1D9mASODsrOHq41Fye.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/8gBOpyW6iTDGZJR93YuF3L7dDuI.jpg",
+      "original": "https://image.tmdb.org/t/p/original/8gBOpyW6iTDGZJR93YuF3L7dDuI.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=441168&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/441168",
+      "vidlink": "https://vidlink.pro/movie/441168",
+      "videasy": "https://player.videasy.to/movie/441168",
+      "vidfast": "https://vidfast.vc/movie/441168",
+      "vidcore": "https://vidcore.net/movie/441168",
+      "vidnest": "https://vidnest.fun/movie/441168",
+      "autoembed": "https://player.autoembed.cc/embed/movie/441168",
+      "vidsrc": "https://vidsrc.to/embed/movie/441168",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=441168&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:33.910370Z"
+  }
+]

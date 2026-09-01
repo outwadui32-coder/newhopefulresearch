@@ -1,0 +1,105 @@
+[
+  {
+    "id": 11216,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "Cinema Paradiso",
+    "original_title": "Nuovo Cinema Paradiso",
+    "tagline": "",
+    "release_year": 1988,
+    "release_date": "1988-11-17",
+    "rating": 8.4,
+    "vote_count": 4954,
+    "popularity": 15.8,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "overview": "A filmmaker recalls his childhood, when he fell in love with the movies at his village's theater and formed a deep friendship with the theater's projectionist.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/9JhfVOveaY00o8njQu2Xrp4YWud.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/9JhfVOveaY00o8njQu2Xrp4YWud.jpg",
+      "original": "https://image.tmdb.org/t/p/original/9JhfVOveaY00o8njQu2Xrp4YWud.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/zoVeIgKzGJzpdG6Gwnr7iOYfIMU.jpg",
+      "original": "https://image.tmdb.org/t/p/original/zoVeIgKzGJzpdG6Gwnr7iOYfIMU.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=11216&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/11216",
+      "vidlink": "https://vidlink.pro/movie/11216",
+      "videasy": "https://player.videasy.to/movie/11216",
+      "vidfast": "https://vidfast.vc/movie/11216",
+      "vidcore": "https://vidcore.net/movie/11216",
+      "vidnest": "https://vidnest.fun/movie/11216",
+      "autoembed": "https://player.autoembed.cc/embed/movie/11216",
+      "vidsrc": "https://vidsrc.to/embed/movie/11216",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=11216&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:35.551044Z"
+  },
+  {
+    "id": 12477,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "Grave of the Fireflies",
+    "original_title": "火垂るの墓",
+    "tagline": "",
+    "release_year": 1988,
+    "release_date": "1988-04-16",
+    "rating": 8.4,
+    "vote_count": 6736,
+    "popularity": 0.0,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Animation",
+      "Drama",
+      "War"
+    ],
+    "overview": "In the final months of World War II, 14-year-old Seita and his sister Setsuko are orphaned when their mother is killed during an air raid in Kobe, Japan. After a falling out with their aunt, they move into an abandoned bomb shelter. With no surviving relatives and their emergency rations depleted, Seita and Setsuko struggle to survive.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/k9tv1rXZbOhH7eiCk378x61kNQ1.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/k9tv1rXZbOhH7eiCk378x61kNQ1.jpg",
+      "original": "https://image.tmdb.org/t/p/original/k9tv1rXZbOhH7eiCk378x61kNQ1.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/aHaqZpOL7UyVu0nKqp3SMz0o2E1.jpg",
+      "original": "https://image.tmdb.org/t/p/original/aHaqZpOL7UyVu0nKqp3SMz0o2E1.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=12477&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/12477",
+      "vidlink": "https://vidlink.pro/movie/12477",
+      "videasy": "https://player.videasy.to/movie/12477",
+      "vidfast": "https://vidfast.vc/movie/12477",
+      "vidcore": "https://vidcore.net/movie/12477",
+      "vidnest": "https://vidnest.fun/movie/12477",
+      "autoembed": "https://player.autoembed.cc/embed/movie/12477",
+      "vidsrc": "https://vidsrc.to/embed/movie/12477",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=12477&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:35.551044Z"
+  }
+]

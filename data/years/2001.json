@@ -1,0 +1,106 @@
+[
+  {
+    "id": 120,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "original_title": "The Lord of the Rings: The Fellowship of the Ring",
+    "tagline": "",
+    "release_year": 2001,
+    "release_date": "2001-12-18",
+    "rating": 8.4,
+    "vote_count": 28241,
+    "popularity": 45.8,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Action"
+    ],
+    "overview": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+      "original": "https://image.tmdb.org/t/p/original/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/oiwc338EoBgS4sEI2ixAny4KQKg.jpg",
+      "original": "https://image.tmdb.org/t/p/original/oiwc338EoBgS4sEI2ixAny4KQKg.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=120&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/120",
+      "vidlink": "https://vidlink.pro/movie/120",
+      "videasy": "https://player.videasy.to/movie/120",
+      "vidfast": "https://vidfast.vc/movie/120",
+      "vidcore": "https://vidcore.net/movie/120",
+      "vidnest": "https://vidnest.fun/movie/120",
+      "autoembed": "https://player.autoembed.cc/embed/movie/120",
+      "vidsrc": "https://vidsrc.to/embed/movie/120",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=120&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:35.551044Z"
+  },
+  {
+    "id": 129,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "Spirited Away",
+    "original_title": "千と千尋の神隠し",
+    "tagline": "",
+    "release_year": 2001,
+    "release_date": "2001-07-20",
+    "rating": 8.5,
+    "vote_count": 18799,
+    "popularity": 42.8,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Animation",
+      "Family",
+      "Fantasy"
+    ],
+    "overview": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+      "original": "https://image.tmdb.org/t/p/original/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/dyJvKsNs2KP8qQnAXbRwDjblViy.jpg",
+      "original": "https://image.tmdb.org/t/p/original/dyJvKsNs2KP8qQnAXbRwDjblViy.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=129&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/129",
+      "vidlink": "https://vidlink.pro/movie/129",
+      "videasy": "https://player.videasy.to/movie/129",
+      "vidfast": "https://vidfast.vc/movie/129",
+      "vidcore": "https://vidcore.net/movie/129",
+      "vidnest": "https://vidnest.fun/movie/129",
+      "autoembed": "https://player.autoembed.cc/embed/movie/129",
+      "vidsrc": "https://vidsrc.to/embed/movie/129",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=129&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:34.735794Z"
+  }
+]

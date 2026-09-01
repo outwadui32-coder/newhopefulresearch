@@ -1,0 +1,54 @@
+[
+  {
+    "id": 634649,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "Spider-Man: No Way Home",
+    "original_title": "Spider-Man: No Way Home",
+    "tagline": "",
+    "release_year": 2021,
+    "release_date": "2021-12-15",
+    "rating": 7.9,
+    "vote_count": 22941,
+    "popularity": 135.8,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "overview": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+      "original": "https://image.tmdb.org/t/p/original/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/uyrOU4BDm2kbVxFsMiDFIHDhc4d.jpg",
+      "original": "https://image.tmdb.org/t/p/original/uyrOU4BDm2kbVxFsMiDFIHDhc4d.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=634649&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/634649",
+      "vidlink": "https://vidlink.pro/movie/634649",
+      "videasy": "https://player.videasy.to/movie/634649",
+      "vidfast": "https://vidfast.vc/movie/634649",
+      "vidcore": "https://vidcore.net/movie/634649",
+      "vidnest": "https://vidnest.fun/movie/634649",
+      "autoembed": "https://player.autoembed.cc/embed/movie/634649",
+      "vidsrc": "https://vidsrc.to/embed/movie/634649",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=634649&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:32.217468Z"
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": 19404,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "Dilwale Dulhania Le Jayenge",
+    "original_title": "दिलवाले दुल्हनिया ले जायेंगे",
+    "tagline": "",
+    "release_year": 1995,
+    "release_date": "1995-10-20",
+    "rating": 8.5,
+    "vote_count": 4617,
+    "popularity": 16.7,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "overview": "Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/lfRkUr7DYdHldAqi3PwdQGBRBPM.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/lfRkUr7DYdHldAqi3PwdQGBRBPM.jpg",
+      "original": "https://image.tmdb.org/t/p/original/lfRkUr7DYdHldAqi3PwdQGBRBPM.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/84beTJf26mfhoasUlKSOiNSutyS.jpg",
+      "original": "https://image.tmdb.org/t/p/original/84beTJf26mfhoasUlKSOiNSutyS.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=19404&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/19404",
+      "vidlink": "https://vidlink.pro/movie/19404",
+      "videasy": "https://player.videasy.to/movie/19404",
+      "vidfast": "https://vidfast.vc/movie/19404",
+      "vidcore": "https://vidcore.net/movie/19404",
+      "vidnest": "https://vidnest.fun/movie/19404",
+      "autoembed": "https://player.autoembed.cc/embed/movie/19404",
+      "vidsrc": "https://vidsrc.to/embed/movie/19404",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=19404&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:34.735794Z"
+  }
+]

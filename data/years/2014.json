@@ -1,0 +1,54 @@
+[
+  {
+    "id": 157336,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "Interstellar",
+    "original_title": "Interstellar",
+    "tagline": "",
+    "release_year": 2014,
+    "release_date": "2014-11-05",
+    "rating": 8.5,
+    "vote_count": 40979,
+    "popularity": 62.7,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "overview": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/yQvGrMoipbRoddT0ZR8tPoR7NfX.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/yQvGrMoipbRoddT0ZR8tPoR7NfX.jpg",
+      "original": "https://image.tmdb.org/t/p/original/yQvGrMoipbRoddT0ZR8tPoR7NfX.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/5XNQBqnBwPA9yT0jZ0p3s8bbLh0.jpg",
+      "original": "https://image.tmdb.org/t/p/original/5XNQBqnBwPA9yT0jZ0p3s8bbLh0.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=157336&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/157336",
+      "vidlink": "https://vidlink.pro/movie/157336",
+      "videasy": "https://player.videasy.to/movie/157336",
+      "vidfast": "https://vidfast.vc/movie/157336",
+      "vidcore": "https://vidcore.net/movie/157336",
+      "vidnest": "https://vidnest.fun/movie/157336",
+      "autoembed": "https://player.autoembed.cc/embed/movie/157336",
+      "vidsrc": "https://vidsrc.to/embed/movie/157336",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=157336&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:35.551044Z"
+  }
+]

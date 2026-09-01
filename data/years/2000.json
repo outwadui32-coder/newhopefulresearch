@@ -1,0 +1,55 @@
+[
+  {
+    "id": 40096,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "A Dog's Will",
+    "original_title": "O Auto da Compadecida",
+    "tagline": "",
+    "release_year": 2000,
+    "release_date": "2000-09-15",
+    "rating": 8.4,
+    "vote_count": 1238,
+    "popularity": 6.3,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Fantasy",
+      "Romance"
+    ],
+    "overview": "The lively João Grilo and the sly Chicó are poor guys living in the hinterland who cheat a bunch of people in a small town in Northeastern Brazil. When they die, they have to be judged by Christ, the Devil and the Virgin Mary before they are admitted to paradise.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/z9Au9XtK0ARzkKGsZCzMkmKgMPf.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/z9Au9XtK0ARzkKGsZCzMkmKgMPf.jpg",
+      "original": "https://image.tmdb.org/t/p/original/z9Au9XtK0ARzkKGsZCzMkmKgMPf.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/alQqTpmEkxSLgajfEYTsTH6nAKB.jpg",
+      "original": "https://image.tmdb.org/t/p/original/alQqTpmEkxSLgajfEYTsTH6nAKB.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=40096&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/40096",
+      "vidlink": "https://vidlink.pro/movie/40096",
+      "videasy": "https://player.videasy.to/movie/40096",
+      "vidfast": "https://vidfast.vc/movie/40096",
+      "vidcore": "https://vidcore.net/movie/40096",
+      "vidnest": "https://vidnest.fun/movie/40096",
+      "autoembed": "https://player.autoembed.cc/embed/movie/40096",
+      "vidsrc": "https://vidsrc.to/embed/movie/40096",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=40096&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:35.551044Z"
+  }
+]

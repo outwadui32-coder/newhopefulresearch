@@ -1,0 +1,54 @@
+[
+  {
+    "id": 299536,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "Avengers: Infinity War",
+    "original_title": "Avengers: Infinity War",
+    "tagline": "",
+    "release_year": 2018,
+    "release_date": "2018-04-25",
+    "rating": 8.2,
+    "vote_count": 32763,
+    "popularity": 90.4,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Adventure",
+      "Action",
+      "Sci-Fi"
+    ],
+    "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+      "original": "https://image.tmdb.org/t/p/original/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
+      "original": "https://image.tmdb.org/t/p/original/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=299536&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/299536",
+      "vidlink": "https://vidlink.pro/movie/299536",
+      "videasy": "https://player.videasy.to/movie/299536",
+      "vidfast": "https://vidfast.vc/movie/299536",
+      "vidcore": "https://vidcore.net/movie/299536",
+      "vidnest": "https://vidnest.fun/movie/299536",
+      "autoembed": "https://player.autoembed.cc/embed/movie/299536",
+      "vidsrc": "https://vidsrc.to/embed/movie/299536",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=299536&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:33.057674Z"
+  }
+]

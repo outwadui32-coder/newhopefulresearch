@@ -1,0 +1,332 @@
+[
+  {
+    "id": 1594914,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "Lucky Strike",
+    "original_title": "Lucky Strike",
+    "tagline": "",
+    "release_year": 2026,
+    "release_date": "2026-06-26",
+    "rating": 7.0,
+    "vote_count": 37,
+    "popularity": 86.5,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Action",
+      "War"
+    ],
+    "overview": "A wounded American soldier fights to survive behind enemy lines during WWII's Battle of the Bulge against the Germans, relying on his instinct, spy craft and a hand-radio to evade capture and find his way back to his unit.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/7AEBdyGYXumXWmMFeynE8227KeZ.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/7AEBdyGYXumXWmMFeynE8227KeZ.jpg",
+      "original": "https://image.tmdb.org/t/p/original/7AEBdyGYXumXWmMFeynE8227KeZ.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/1ebY06Gc1eUZcCoO7IoD4tWCFxm.jpg",
+      "original": "https://image.tmdb.org/t/p/original/1ebY06Gc1eUZcCoO7IoD4tWCFxm.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=1594914&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/1594914",
+      "vidlink": "https://vidlink.pro/movie/1594914",
+      "videasy": "https://player.videasy.to/movie/1594914",
+      "vidfast": "https://vidfast.vc/movie/1594914",
+      "vidcore": "https://vidcore.net/movie/1594914",
+      "vidnest": "https://vidnest.fun/movie/1594914",
+      "autoembed": "https://player.autoembed.cc/embed/movie/1594914",
+      "vidsrc": "https://vidsrc.to/embed/movie/1594914",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=1594914&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:33.057674Z"
+  },
+  {
+    "id": 1391021,
+    "imdb_id": "tt34386754",
+    "type": "movie",
+    "title": "Once Upon a Time in the Middle East",
+    "original_title": "欢迎来龙餐馆",
+    "tagline": "",
+    "release_year": 2026,
+    "release_date": "2026-08-08",
+    "rating": 9.1,
+    "vote_count": 22,
+    "popularity": 16.6,
+    "runtime_minutes": 140,
+    "runtime_formatted": "2h 20m",
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "overview": "Xu Fu travels to the Middle East to work as a chef in a Chinese restaurant to pay off family debts, where he meets floor manager Ma Junsheng. Their Dragon Restaurant rises to fame, attracting crowds with authentic‑tasting Chinese food. But war breaks out, and local conditions take a drastic turn for the worse. No one can remain unaffected. What lies ahead for them? And how will the Dragon Restaurant hold on amid the war?",
+    "cast": [
+      "Shen Teng",
+      "Jiang Qiming",
+      "Omar Sherif",
+      "Aarif Rahman",
+      "Sherif Sabry"
+    ],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/wAuGgXjA7GV8NrKfmUKl2AP8vqG.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/wAuGgXjA7GV8NrKfmUKl2AP8vqG.jpg",
+      "original": "https://image.tmdb.org/t/p/original/wAuGgXjA7GV8NrKfmUKl2AP8vqG.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/zr7om0GOLOcLo7SXMmNEG5rz6de.jpg",
+      "original": "https://image.tmdb.org/t/p/original/zr7om0GOLOcLo7SXMmNEG5rz6de.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=1391021&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/1391021",
+      "vidlink": "https://vidlink.pro/movie/1391021",
+      "videasy": "https://player.videasy.to/movie/1391021",
+      "vidfast": "https://vidfast.vc/movie/1391021",
+      "vidcore": "https://vidcore.net/movie/1391021",
+      "vidnest": "https://vidnest.fun/movie/1391021",
+      "autoembed": "https://player.autoembed.cc/embed/movie/1391021",
+      "vidsrc": "https://vidsrc.to/embed/movie/1391021",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=1391021&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:39:34.757352Z"
+  },
+  {
+    "id": 910850,
+    "imdb_id": "tt32915652",
+    "type": "movie",
+    "title": "MOBILE SUIT GUNDAM HATHAWAY The Sorcery of Nymph Circe",
+    "original_title": "機動戦士ガンダム  閃光のハサウェイ キルケーの魔女",
+    "tagline": "",
+    "release_year": 2026,
+    "release_date": "2026-01-30",
+    "rating": 6.8,
+    "vote_count": 16,
+    "popularity": 13.5,
+    "runtime_minutes": 115,
+    "runtime_formatted": "1h 55m",
+    "genres": [
+      "Animation",
+      "Sci-Fi",
+      "War",
+      "Drama"
+    ],
+    "overview": "Haunted by past trauma, Hathaway Noa is drawn to a mysterious girl named Gigi Andalucia, whose strange powers stir memories within him. While swayed by her cryptic words, he continues preparing for Mafty's mission -- the attack on the Adelaide Conference. Meanwhile, Kenneth Sleg of the Earth Federation Forces prepares a defense operation for the Adelaide Conference and a plan to eliminate Mafty and is approached by Handley Yoxon of the Criminal Police Organization with a secret proposal. As Hathaway and Kenneth pursue their respective goals, Gigi also sets off for Hong Kong to fulfill her own role.",
+    "cast": [
+      "Kensho Ono",
+      "Reina Ueda",
+      "Junichi Suwabe",
+      "Soma Saito",
+      "Kenjiro Tsuda"
+    ],
+    "trailer_url": "https://www.youtube.com/watch?v=pD7eBqTy__E",
+    "trailer_youtube_id": "pD7eBqTy__E",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/6YkVpc9Dn1L2FHNlLOybpSKeGc7.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/6YkVpc9Dn1L2FHNlLOybpSKeGc7.jpg",
+      "original": "https://image.tmdb.org/t/p/original/6YkVpc9Dn1L2FHNlLOybpSKeGc7.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/4ZTD67RhUOcI8WVP1Kmd1LFFc7d.jpg",
+      "original": "https://image.tmdb.org/t/p/original/4ZTD67RhUOcI8WVP1Kmd1LFFc7d.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=910850&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/910850",
+      "vidlink": "https://vidlink.pro/movie/910850",
+      "videasy": "https://player.videasy.to/movie/910850",
+      "vidfast": "https://vidfast.vc/movie/910850",
+      "vidcore": "https://vidcore.net/movie/910850",
+      "vidnest": "https://vidnest.fun/movie/910850",
+      "autoembed": "https://player.autoembed.cc/embed/movie/910850",
+      "vidsrc": "https://vidsrc.to/embed/movie/910850",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=910850&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:39:43.829230Z"
+  },
+  {
+    "id": 192139,
+    "imdb_id": "tt33070884",
+    "type": "movie",
+    "title": "The Brink of War",
+    "original_title": "The Brink of War",
+    "tagline": "Not all battles are fought with bullets.",
+    "release_year": 2026,
+    "release_date": "2026-08-14",
+    "rating": 8.0,
+    "vote_count": 7,
+    "popularity": 9.7,
+    "runtime_minutes": 117,
+    "runtime_formatted": "1h 57m",
+    "genres": [
+      "Drama",
+      "History",
+      "Thriller",
+      "War"
+    ],
+    "overview": "President Ronald Reagan races against time to salvage a deal with Soviet leader Mikhail Gorbachev that could dismantle nuclear arsenals—or ignite disaster. With pressure mounting on all sides, every word spoken brings the world closer to peace... or destruction.",
+    "cast": [
+      "Jeff Daniels",
+      "Jared Harris",
+      "J.K. Simmons",
+      "Hope Davis",
+      "Branka Katić"
+    ],
+    "trailer_url": "https://www.youtube.com/watch?v=mOmU9rmjETg",
+    "trailer_youtube_id": "mOmU9rmjETg",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/hFborW6HmffKL05GIWlkTFdvVpN.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/hFborW6HmffKL05GIWlkTFdvVpN.jpg",
+      "original": "https://image.tmdb.org/t/p/original/hFborW6HmffKL05GIWlkTFdvVpN.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/pyOVG32JevYR0mltVlDvWwDL88F.jpg",
+      "original": "https://image.tmdb.org/t/p/original/pyOVG32JevYR0mltVlDvWwDL88F.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=192139&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/192139",
+      "vidlink": "https://vidlink.pro/movie/192139",
+      "videasy": "https://player.videasy.to/movie/192139",
+      "vidfast": "https://vidfast.vc/movie/192139",
+      "vidcore": "https://vidcore.net/movie/192139",
+      "vidnest": "https://vidnest.fun/movie/192139",
+      "autoembed": "https://player.autoembed.cc/embed/movie/192139",
+      "vidsrc": "https://vidsrc.to/embed/movie/192139",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=192139&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:39:58.892374Z"
+  },
+  {
+    "id": 424,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "Schindler's List",
+    "original_title": "Schindler's List",
+    "tagline": "",
+    "release_year": 1993,
+    "release_date": "1993-12-15",
+    "rating": 8.6,
+    "vote_count": 17831,
+    "popularity": 32.8,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Drama",
+      "History",
+      "War"
+    ],
+    "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
+      "original": "https://image.tmdb.org/t/p/original/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/zb6fM1CX41D9rF9hdgclu0peUmy.jpg",
+      "original": "https://image.tmdb.org/t/p/original/zb6fM1CX41D9rF9hdgclu0peUmy.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=424&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/424",
+      "vidlink": "https://vidlink.pro/movie/424",
+      "videasy": "https://player.videasy.to/movie/424",
+      "vidfast": "https://vidfast.vc/movie/424",
+      "vidcore": "https://vidcore.net/movie/424",
+      "vidnest": "https://vidnest.fun/movie/424",
+      "autoembed": "https://player.autoembed.cc/embed/movie/424",
+      "vidsrc": "https://vidsrc.to/embed/movie/424",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=424&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:34.735794Z"
+  },
+  {
+    "id": 12477,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "Grave of the Fireflies",
+    "original_title": "火垂るの墓",
+    "tagline": "",
+    "release_year": 1988,
+    "release_date": "1988-04-16",
+    "rating": 8.4,
+    "vote_count": 6736,
+    "popularity": 0.0,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Animation",
+      "Drama",
+      "War"
+    ],
+    "overview": "In the final months of World War II, 14-year-old Seita and his sister Setsuko are orphaned when their mother is killed during an air raid in Kobe, Japan. After a falling out with their aunt, they move into an abandoned bomb shelter. With no surviving relatives and their emergency rations depleted, Seita and Setsuko struggle to survive.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/k9tv1rXZbOhH7eiCk378x61kNQ1.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/k9tv1rXZbOhH7eiCk378x61kNQ1.jpg",
+      "original": "https://image.tmdb.org/t/p/original/k9tv1rXZbOhH7eiCk378x61kNQ1.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/aHaqZpOL7UyVu0nKqp3SMz0o2E1.jpg",
+      "original": "https://image.tmdb.org/t/p/original/aHaqZpOL7UyVu0nKqp3SMz0o2E1.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=12477&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/12477",
+      "vidlink": "https://vidlink.pro/movie/12477",
+      "videasy": "https://player.videasy.to/movie/12477",
+      "vidfast": "https://vidfast.vc/movie/12477",
+      "vidcore": "https://vidcore.net/movie/12477",
+      "vidnest": "https://vidnest.fun/movie/12477",
+      "autoembed": "https://player.autoembed.cc/embed/movie/12477",
+      "vidsrc": "https://vidsrc.to/embed/movie/12477",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=12477&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:35.551044Z"
+  }
+]

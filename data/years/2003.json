@@ -1,0 +1,54 @@
+[
+  {
+    "id": 122,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "The Lord of the Rings: The Return of the King",
+    "original_title": "The Lord of the Rings: The Return of the King",
+    "tagline": "",
+    "release_year": 2003,
+    "release_date": "2003-12-17",
+    "rating": 8.5,
+    "vote_count": 27225,
+    "popularity": 49.7,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Action"
+    ],
+    "overview": "As armies mass for a final battle that will decide the fate of the world--and powerful, ancient forces of Light and Dark compete to determine the outcome--one member of the Fellowship of the Ring is revealed as the noble heir to the throne of the Kings of Men. Yet, the sole hope for triumph over evil lies with a brave hobbit, Frodo, who, accompanied by his loyal friend Sam and the hideous, wretched Gollum, ventures deep into the very dark heart of Mordor on his seemingly impossible quest to destroy the Ring of Power.​",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+      "original": "https://image.tmdb.org/t/p/original/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/ctiw6FZK4N36LmkjSklWEbuvlq9.jpg",
+      "original": "https://image.tmdb.org/t/p/original/ctiw6FZK4N36LmkjSklWEbuvlq9.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=122&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/122",
+      "vidlink": "https://vidlink.pro/movie/122",
+      "videasy": "https://player.videasy.to/movie/122",
+      "vidfast": "https://vidfast.vc/movie/122",
+      "vidcore": "https://vidcore.net/movie/122",
+      "vidnest": "https://vidnest.fun/movie/122",
+      "autoembed": "https://player.autoembed.cc/embed/movie/122",
+      "vidsrc": "https://vidsrc.to/embed/movie/122",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=122&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:34.735794Z"
+  }
+]

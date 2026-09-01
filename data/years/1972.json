@@ -1,0 +1,53 @@
+[
+  {
+    "id": 238,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "The Godfather",
+    "original_title": "The Godfather",
+    "tagline": "",
+    "release_year": 1972,
+    "release_date": "1972-03-14",
+    "rating": 8.7,
+    "vote_count": 23455,
+    "popularity": 58.3,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+      "original": "https://image.tmdb.org/t/p/original/3bhkrj58Vtu7enYsRolD1fZdja1.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/ejdD20cdHNFAYAN2DlqPToXKyzx.jpg",
+      "original": "https://image.tmdb.org/t/p/original/ejdD20cdHNFAYAN2DlqPToXKyzx.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=238&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/238",
+      "vidlink": "https://vidlink.pro/movie/238",
+      "videasy": "https://player.videasy.to/movie/238",
+      "vidfast": "https://vidfast.vc/movie/238",
+      "vidcore": "https://vidcore.net/movie/238",
+      "vidnest": "https://vidnest.fun/movie/238",
+      "autoembed": "https://player.autoembed.cc/embed/movie/238",
+      "vidsrc": "https://vidsrc.to/embed/movie/238",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=238&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:34.735794Z"
+  }
+]

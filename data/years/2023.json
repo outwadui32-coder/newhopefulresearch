@@ -1,0 +1,106 @@
+[
+  {
+    "id": 569094,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "Spider-Man: Across the Spider-Verse",
+    "original_title": "Spider-Man: Across the Spider-Verse",
+    "tagline": "",
+    "release_year": 2023,
+    "release_date": "2023-05-31",
+    "rating": 8.3,
+    "vote_count": 9149,
+    "popularity": 71.4,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "overview": "After reuniting with Gwen Stacy, Brooklyn’s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse's very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must set out on his own to save those he loves most.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+      "original": "https://image.tmdb.org/t/p/original/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/kVd3a9YeLGkoeR50jGEXM6EqseS.jpg",
+      "original": "https://image.tmdb.org/t/p/original/kVd3a9YeLGkoeR50jGEXM6EqseS.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=569094&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/569094",
+      "vidlink": "https://vidlink.pro/movie/569094",
+      "videasy": "https://player.videasy.to/movie/569094",
+      "vidfast": "https://vidfast.vc/movie/569094",
+      "vidcore": "https://vidcore.net/movie/569094",
+      "vidnest": "https://vidnest.fun/movie/569094",
+      "autoembed": "https://player.autoembed.cc/embed/movie/569094",
+      "vidsrc": "https://vidsrc.to/embed/movie/569094",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=569094&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:33.910370Z"
+  },
+  {
+    "id": 1181678,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "¿Quieres ser mi hijo?",
+    "original_title": "¿Quieres ser mi hijo?",
+    "tagline": "",
+    "release_year": 2023,
+    "release_date": "2023-09-21",
+    "rating": 8.5,
+    "vote_count": 367,
+    "popularity": 7.1,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "overview": "Lu, a conformist woman in her forties, learns that her 15-year partner has been having extramarital affairs. Starting from scratch, she gets involved in an unexpected relationship with a young womanizer.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/6PQJsmuvSMZQMmlJfTpjIkrizUh.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/6PQJsmuvSMZQMmlJfTpjIkrizUh.jpg",
+      "original": "https://image.tmdb.org/t/p/original/6PQJsmuvSMZQMmlJfTpjIkrizUh.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/xyWKrni8WrYzqn7ztvI5nIY0h62.jpg",
+      "original": "https://image.tmdb.org/t/p/original/xyWKrni8WrYzqn7ztvI5nIY0h62.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=1181678&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/1181678",
+      "vidlink": "https://vidlink.pro/movie/1181678",
+      "videasy": "https://player.videasy.to/movie/1181678",
+      "vidfast": "https://vidfast.vc/movie/1181678",
+      "vidcore": "https://vidcore.net/movie/1181678",
+      "vidnest": "https://vidnest.fun/movie/1181678",
+      "autoembed": "https://player.autoembed.cc/embed/movie/1181678",
+      "vidsrc": "https://vidsrc.to/embed/movie/1181678",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=1181678&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:35.551044Z"
+  }
+]

@@ -1,0 +1,264 @@
+[
+  {
+    "id": 755898,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "War of the Worlds",
+    "original_title": "War of the Worlds",
+    "tagline": "",
+    "release_year": 2025,
+    "release_date": "2025-07-29",
+    "rating": 4.0,
+    "vote_count": 1113,
+    "popularity": 97.8,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "overview": "Will Radford is a top analyst for Homeland Security who tracks potential threats through a mass surveillance program, until one day an attack by an unknown entity leads him to question whether the government is hiding something from him... and from the rest of the world.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/yvirUYrva23IudARHn3mMGVxWqM.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/yvirUYrva23IudARHn3mMGVxWqM.jpg",
+      "original": "https://image.tmdb.org/t/p/original/yvirUYrva23IudARHn3mMGVxWqM.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/iZLqwEwUViJdSkGVjePGhxYzbDb.jpg",
+      "original": "https://image.tmdb.org/t/p/original/iZLqwEwUViJdSkGVjePGhxYzbDb.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=755898&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/755898",
+      "vidlink": "https://vidlink.pro/movie/755898",
+      "videasy": "https://player.videasy.to/movie/755898",
+      "vidfast": "https://vidfast.vc/movie/755898",
+      "vidcore": "https://vidcore.net/movie/755898",
+      "vidnest": "https://vidnest.fun/movie/755898",
+      "autoembed": "https://player.autoembed.cc/embed/movie/755898",
+      "vidsrc": "https://vidsrc.to/embed/movie/755898",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=755898&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:33.057674Z"
+  },
+  {
+    "id": 1311031,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+    "original_title": "劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来",
+    "tagline": "",
+    "release_year": 2025,
+    "release_date": "2025-07-18",
+    "rating": 8.8,
+    "vote_count": 2031,
+    "popularity": 83.1,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Animation",
+      "Action",
+      "Fantasy"
+    ],
+    "overview": "The Demon Slayer Corps are drawn into the Infinity Castle, where Tanjiro, Nezuko, and the Hashira face terrifying Upper Rank demons in a desperate fight as the final battle against Muzan Kibutsuji begins.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/fWVSwgjpT2D78VUh6X8UBd2rorW.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/fWVSwgjpT2D78VUh6X8UBd2rorW.jpg",
+      "original": "https://image.tmdb.org/t/p/original/fWVSwgjpT2D78VUh6X8UBd2rorW.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/1RgPyOhN4DRs225BGTlHJqCudII.jpg",
+      "original": "https://image.tmdb.org/t/p/original/1RgPyOhN4DRs225BGTlHJqCudII.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=1311031&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/1311031",
+      "vidlink": "https://vidlink.pro/movie/1311031",
+      "videasy": "https://player.videasy.to/movie/1311031",
+      "vidfast": "https://vidfast.vc/movie/1311031",
+      "vidcore": "https://vidcore.net/movie/1311031",
+      "vidnest": "https://vidnest.fun/movie/1311031",
+      "autoembed": "https://player.autoembed.cc/embed/movie/1311031",
+      "vidsrc": "https://vidsrc.to/embed/movie/1311031",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=1311031&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:33.910370Z"
+  },
+  {
+    "id": 83533,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "Avatar: Fire and Ash",
+    "original_title": "Avatar: Fire and Ash",
+    "tagline": "",
+    "release_year": 2025,
+    "release_date": "2025-12-17",
+    "rating": 7.7,
+    "vote_count": 4240,
+    "popularity": 78.8,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Sci-Fi",
+      "Adventure",
+      "Fantasy"
+    ],
+    "overview": "In the wake of the devastating war against the RDA and the loss of their eldest son, Jake Sully and Neytiri face a new threat on Pandora: the Ash People, a violent and power-hungry Na'vi tribe led by the ruthless Varang. Jake's family must fight for their survival and the future of Pandora in a conflict that pushes them to their emotional and physical limits.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg",
+      "original": "https://image.tmdb.org/t/p/original/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/sdZSjtGUTSN8B3al5o0f2WoQfQQ.jpg",
+      "original": "https://image.tmdb.org/t/p/original/sdZSjtGUTSN8B3al5o0f2WoQfQQ.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=83533&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/83533",
+      "vidlink": "https://vidlink.pro/movie/83533",
+      "videasy": "https://player.videasy.to/movie/83533",
+      "vidfast": "https://vidfast.vc/movie/83533",
+      "vidcore": "https://vidcore.net/movie/83533",
+      "vidnest": "https://vidnest.fun/movie/83533",
+      "autoembed": "https://player.autoembed.cc/embed/movie/83533",
+      "vidsrc": "https://vidsrc.to/embed/movie/83533",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=83533&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:33.910370Z"
+  },
+  {
+    "id": 1084242,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "Zootopia 2",
+    "original_title": "Zootopia 2",
+    "tagline": "",
+    "release_year": 2025,
+    "release_date": "2025-11-26",
+    "rating": 7.7,
+    "vote_count": 3362,
+    "popularity": 74.6,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Mystery",
+      "Family"
+    ],
+    "overview": "After cracking the biggest case in Zootopia's history, rookie cops Judy Hopps and Nick Wilde find themselves on the twisting trail of a great mystery when Gary De'Snake arrives and turns the animal metropolis upside down. To crack the case, Judy and Nick must go undercover to unexpected new parts of town, where their growing partnership is tested like never before.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg",
+      "original": "https://image.tmdb.org/t/p/original/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/lgotja3xMoJZbynwHfcQcJAEMWH.jpg",
+      "original": "https://image.tmdb.org/t/p/original/lgotja3xMoJZbynwHfcQcJAEMWH.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=1084242&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/1084242",
+      "vidlink": "https://vidlink.pro/movie/1084242",
+      "videasy": "https://player.videasy.to/movie/1084242",
+      "vidfast": "https://vidfast.vc/movie/1084242",
+      "vidcore": "https://vidcore.net/movie/1084242",
+      "vidnest": "https://vidnest.fun/movie/1084242",
+      "autoembed": "https://player.autoembed.cc/embed/movie/1084242",
+      "vidsrc": "https://vidsrc.to/embed/movie/1084242",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=1084242&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:33.910370Z"
+  },
+  {
+    "id": 1218925,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "Chainsaw Man - The Movie: Reze Arc",
+    "original_title": "劇場版 チェンソーマン レゼ篇",
+    "tagline": "",
+    "release_year": 2025,
+    "release_date": "2025-09-19",
+    "rating": 8.5,
+    "vote_count": 1146,
+    "popularity": 36.1,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Animation",
+      "Action",
+      "Romance",
+      "Fantasy"
+    ],
+    "overview": "In a brutal war between devils, hunters, and secret enemies, a mysterious girl named Reze has stepped into Denji's world, and he faces his deadliest battle yet, fueled by love in a world where survival knows no rules.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/pHyxb2RV5wLlboAwm9ZJ9qTVEDw.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/pHyxb2RV5wLlboAwm9ZJ9qTVEDw.jpg",
+      "original": "https://image.tmdb.org/t/p/original/pHyxb2RV5wLlboAwm9ZJ9qTVEDw.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/gqTz24ZRsCP6AKjARmEivY7m0cK.jpg",
+      "original": "https://image.tmdb.org/t/p/original/gqTz24ZRsCP6AKjARmEivY7m0cK.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=1218925&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/1218925",
+      "vidlink": "https://vidlink.pro/movie/1218925",
+      "videasy": "https://player.videasy.to/movie/1218925",
+      "vidfast": "https://vidfast.vc/movie/1218925",
+      "vidcore": "https://vidcore.net/movie/1218925",
+      "vidnest": "https://vidnest.fun/movie/1218925",
+      "autoembed": "https://player.autoembed.cc/embed/movie/1218925",
+      "vidsrc": "https://vidsrc.to/embed/movie/1218925",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=1218925&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:34.735794Z"
+  }
+]

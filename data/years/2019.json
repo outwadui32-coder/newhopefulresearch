@@ -1,0 +1,106 @@
+[
+  {
+    "id": 496243,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "Parasite",
+    "original_title": "기생충",
+    "tagline": "",
+    "release_year": 2019,
+    "release_date": "2019-05-30",
+    "rating": 8.5,
+    "vote_count": 21210,
+    "popularity": 35.5,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Comedy",
+      "Thriller",
+      "Drama"
+    ],
+    "overview": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+      "original": "https://image.tmdb.org/t/p/original/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg",
+      "original": "https://image.tmdb.org/t/p/original/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=496243&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/496243",
+      "vidlink": "https://vidlink.pro/movie/496243",
+      "videasy": "https://player.videasy.to/movie/496243",
+      "vidfast": "https://vidfast.vc/movie/496243",
+      "vidcore": "https://vidcore.net/movie/496243",
+      "vidnest": "https://vidnest.fun/movie/496243",
+      "autoembed": "https://player.autoembed.cc/embed/movie/496243",
+      "vidsrc": "https://vidsrc.to/embed/movie/496243",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=496243&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:34.735794Z"
+  },
+  {
+    "id": 620249,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "The Legend of Hei",
+    "original_title": "罗小黑战记",
+    "tagline": "",
+    "release_year": 2019,
+    "release_date": "2019-08-27",
+    "rating": 8.4,
+    "vote_count": 541,
+    "popularity": 11.8,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Animation",
+      "Fantasy",
+      "Action"
+    ],
+    "overview": "When cat spirit Luo Xiaohei's home is deforested by humans, he must find a new one. He runs into a group of other spirit creatures who take him under their wing with dreams of reconquering the land they say is rightfully theirs. However, they run into a human known as Wuxian who separates Luo Xiaohei from the other spirits and the two go on a journey, with the cat spirit learning to control his abilities as well as forming his own thoughts on whether or not he should ally with the spirits or the humans.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/nWdES36hGwADWWBGzvgT1Z3Xn86.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/nWdES36hGwADWWBGzvgT1Z3Xn86.jpg",
+      "original": "https://image.tmdb.org/t/p/original/nWdES36hGwADWWBGzvgT1Z3Xn86.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/aVFx1VtlOxR3v0ADEatalXOvwbu.jpg",
+      "original": "https://image.tmdb.org/t/p/original/aVFx1VtlOxR3v0ADEatalXOvwbu.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=620249&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/620249",
+      "vidlink": "https://vidlink.pro/movie/620249",
+      "videasy": "https://player.videasy.to/movie/620249",
+      "vidfast": "https://vidfast.vc/movie/620249",
+      "vidcore": "https://vidcore.net/movie/620249",
+      "vidnest": "https://vidnest.fun/movie/620249",
+      "autoembed": "https://player.autoembed.cc/embed/movie/620249",
+      "vidsrc": "https://vidsrc.to/embed/movie/620249",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=620249&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:35.551044Z"
+  }
+]

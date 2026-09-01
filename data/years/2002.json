@@ -1,0 +1,156 @@
+[
+  {
+    "id": 557,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "Spider-Man",
+    "original_title": "Spider-Man",
+    "tagline": "",
+    "release_year": 2002,
+    "release_date": "2002-05-01",
+    "rating": 7.4,
+    "vote_count": 21304,
+    "popularity": 68.6,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "overview": "After being bitten by a genetically altered spider at Oscorp, nerdy but endearing high school student Peter Parker is endowed with amazing powers to become the superhero known as Spider-Man.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/or6XJBVpcEbIkma0V9zshnbEtx4.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/or6XJBVpcEbIkma0V9zshnbEtx4.jpg",
+      "original": "https://image.tmdb.org/t/p/original/or6XJBVpcEbIkma0V9zshnbEtx4.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/zQ8AxTPiCiS5nnwXpwTBPBHSaa5.jpg",
+      "original": "https://image.tmdb.org/t/p/original/zQ8AxTPiCiS5nnwXpwTBPBHSaa5.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=557&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/557",
+      "vidlink": "https://vidlink.pro/movie/557",
+      "videasy": "https://player.videasy.to/movie/557",
+      "vidfast": "https://vidfast.vc/movie/557",
+      "vidcore": "https://vidcore.net/movie/557",
+      "vidnest": "https://vidnest.fun/movie/557",
+      "autoembed": "https://player.autoembed.cc/embed/movie/557",
+      "vidsrc": "https://vidsrc.to/embed/movie/557",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=557&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:33.910370Z"
+  },
+  {
+    "id": 121,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "The Lord of the Rings: The Two Towers",
+    "original_title": "The Lord of the Rings: The Two Towers",
+    "tagline": "",
+    "release_year": 2002,
+    "release_date": "2002-12-18",
+    "rating": 8.4,
+    "vote_count": 24468,
+    "popularity": 33.8,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Action"
+    ],
+    "overview": "Frodo Baggins and the other members of the Fellowship continue on their sacred quest to destroy the One Ring--but on separate paths. Their destinies lie at two towers--Orthanc Tower in Isengard, where the corrupt wizard Saruman awaits, and Sauron's fortress at Barad-dur, deep within the dark lands of Mordor.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
+      "original": "https://image.tmdb.org/t/p/original/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/6G73mNyooWAEQTpckPSnFxFoNmc.jpg",
+      "original": "https://image.tmdb.org/t/p/original/6G73mNyooWAEQTpckPSnFxFoNmc.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=121&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/121",
+      "vidlink": "https://vidlink.pro/movie/121",
+      "videasy": "https://player.videasy.to/movie/121",
+      "vidfast": "https://vidfast.vc/movie/121",
+      "vidcore": "https://vidcore.net/movie/121",
+      "vidnest": "https://vidnest.fun/movie/121",
+      "autoembed": "https://player.autoembed.cc/embed/movie/121",
+      "vidsrc": "https://vidsrc.to/embed/movie/121",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=121&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:35.551044Z"
+  },
+  {
+    "id": 598,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "City of God",
+    "original_title": "Cidade de Deus",
+    "tagline": "",
+    "release_year": 2002,
+    "release_date": "2002-08-30",
+    "rating": 8.4,
+    "vote_count": 8394,
+    "popularity": 19.9,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "overview": "In the poverty-stricken favelas of Rio de Janeiro in the 1970s, two young men choose different paths. Rocket is a budding photographer who documents the increasing drug-related violence of his neighborhood, while José “Zé” Pequeno is an ambitious drug dealer diving into a dangerous life of crime.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/k7eYdWvhYQyRQoU2TB2A2Xu2TfD.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/k7eYdWvhYQyRQoU2TB2A2Xu2TfD.jpg",
+      "original": "https://image.tmdb.org/t/p/original/k7eYdWvhYQyRQoU2TB2A2Xu2TfD.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/uvitbjFU4JqvMwIkMWHp69bmUzG.jpg",
+      "original": "https://image.tmdb.org/t/p/original/uvitbjFU4JqvMwIkMWHp69bmUzG.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=598&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/598",
+      "vidlink": "https://vidlink.pro/movie/598",
+      "videasy": "https://player.videasy.to/movie/598",
+      "vidfast": "https://vidfast.vc/movie/598",
+      "vidcore": "https://vidcore.net/movie/598",
+      "vidnest": "https://vidnest.fun/movie/598",
+      "autoembed": "https://player.autoembed.cc/embed/movie/598",
+      "vidsrc": "https://vidsrc.to/embed/movie/598",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=598&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:35.551044Z"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": 389,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "12 Angry Men",
+    "original_title": "12 Angry Men",
+    "tagline": "",
+    "release_year": 1957,
+    "release_date": "1957-04-10",
+    "rating": 8.6,
+    "vote_count": 10303,
+    "popularity": 32.4,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Drama"
+    ],
+    "overview": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/ppd84D2i9W8jXmsyInGyihiSyqz.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/ppd84D2i9W8jXmsyInGyihiSyqz.jpg",
+      "original": "https://image.tmdb.org/t/p/original/ppd84D2i9W8jXmsyInGyihiSyqz.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/qqHQsStV6exghCM7zbObuYBiYxw.jpg",
+      "original": "https://image.tmdb.org/t/p/original/qqHQsStV6exghCM7zbObuYBiYxw.jpg"
+    },
+    "quality_supported": [
+      "4K Ultra HD",
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "redflix_play_url": "https://redflix.co/play?id=389&type=movie",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/movie/389",
+      "vidlink": "https://vidlink.pro/movie/389",
+      "videasy": "https://player.videasy.to/movie/389",
+      "vidfast": "https://vidfast.vc/movie/389",
+      "vidcore": "https://vidcore.net/movie/389",
+      "vidnest": "https://vidnest.fun/movie/389",
+      "autoembed": "https://player.autoembed.cc/embed/movie/389",
+      "vidsrc": "https://vidsrc.to/embed/movie/389",
+      "multiembed": "https://multiembed.mov/directstream.php?video_id=389&tmdb=1"
+    },
+    "updated_at": "2026-09-01T09:40:34.735794Z"
+  }
+]
