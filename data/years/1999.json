@@ -39,7 +39,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/550/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:40.985882+00:00"
+    "updated_at": "2026-09-01T12:02:14.917408+00:00"
   },
   {
     "id": 497,
@@ -82,6 +82,6 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/497/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:40.306931+00:00"
+    "updated_at": "2026-09-01T12:02:14.891497+00:00"
   }
 ]

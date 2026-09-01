@@ -39,7 +39,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1594914/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:38.756688+00:00"
+    "updated_at": "2026-09-01T12:02:14.837736+00:00"
   },
   {
     "id": 1391021,
@@ -87,7 +87,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1391021/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:31.131326+00:00"
+    "updated_at": "2026-09-01T12:02:14.095528+00:00"
   },
   {
     "id": 910850,
@@ -137,7 +137,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/910850/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:32.126818+00:00"
+    "updated_at": "2026-09-01T12:02:14.208992+00:00"
   },
   {
     "id": 192139,
@@ -187,7 +187,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/192139/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:32.126818+00:00"
+    "updated_at": "2026-09-01T12:02:14.209231+00:00"
   },
   {
     "id": 424,
@@ -230,7 +230,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/424/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:40.306931+00:00"
+    "updated_at": "2026-09-01T12:02:14.891257+00:00"
   },
   {
     "id": 12477,
@@ -273,6 +273,6 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/12477/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:40.985882+00:00"
+    "updated_at": "2026-09-01T12:02:14.917385+00:00"
   }
 ]

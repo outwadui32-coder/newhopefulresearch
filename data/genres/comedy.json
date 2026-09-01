@@ -47,7 +47,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1084244/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:31.131326+00:00"
+    "updated_at": "2026-09-01T12:02:14.095726+00:00"
   },
   {
     "id": 1108427,
@@ -97,7 +97,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1108427/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:33.688057+00:00"
+    "updated_at": "2026-09-01T12:02:14.395810+00:00"
   },
   {
     "id": 1315772,
@@ -148,7 +148,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1315772/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:31.131326+00:00"
+    "updated_at": "2026-09-01T12:02:14.095520+00:00"
   },
   {
     "id": 1204680,
@@ -197,7 +197,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1204680/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:31.131326+00:00"
+    "updated_at": "2026-09-01T12:02:14.095359+00:00"
   },
   {
     "id": 1393326,
@@ -240,7 +240,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1393326/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:38.053451+00:00"
+    "updated_at": "2026-09-01T12:02:14.811224+00:00"
   },
   {
     "id": 1130948,
@@ -283,7 +283,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1130948/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:38.756688+00:00"
+    "updated_at": "2026-09-01T12:02:14.837456+00:00"
   },
   {
     "id": 1273221,
@@ -324,7 +324,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1273221/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:38.756688+00:00"
+    "updated_at": "2026-09-01T12:02:14.837727+00:00"
   },
   {
     "id": 1599993,
@@ -366,7 +366,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1599993/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:39.464529+00:00"
+    "updated_at": "2026-09-01T12:02:14.864324+00:00"
   },
   {
     "id": 1612018,
@@ -409,7 +409,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1612018/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:39.464529+00:00"
+    "updated_at": "2026-09-01T12:02:14.864300+00:00"
   },
   {
     "id": 1314481,
@@ -451,7 +451,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1314481/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:39.464529+00:00"
+    "updated_at": "2026-09-01T12:02:14.864374+00:00"
   },
   {
     "id": 1729723,
@@ -500,7 +500,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1729723/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:37.371349+00:00"
+    "updated_at": "2026-09-01T12:02:14.783283+00:00"
   },
   {
     "id": 950028,
@@ -549,7 +549,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/950028/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:32.126818+00:00"
+    "updated_at": "2026-09-01T12:02:14.209080+00:00"
   },
   {
     "id": 1301421,
@@ -561,7 +561,7 @@
     "release_year": 2026,
     "release_date": "2026-04-30",
     "rating": 7.9,
-    "vote_count": 1561,
+    "vote_count": 1563,
     "popularity": 52.9,
     "runtime_minutes": 109,
     "runtime_formatted": "1h 49m",
@@ -589,27 +589,16 @@
       "medium": "https://image.tmdb.org/t/p/w780/a8uQvrplTkhGJQog6GZ6CqF8An6.jpg",
       "original": "https://image.tmdb.org/t/p/original/a8uQvrplTkhGJQog6GZ6CqF8An6.jpg"
     },
-    "quality_supported": [
-      "4K Ultra HD",
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "stream_type": "direct_hls_media",
-    "direct_stream_url": "https://multiembed.mov/directstream.php?video_id=1301421&tmdb=1",
-    "stream_sources": {
-      "primary_hls_stream": "https://multiembed.mov/directstream.php?video_id=1301421&tmdb=1",
-      "backup_hls_stream": "https://autoembed.co/movie/tmdb/1301421",
-      "qualities": {
-        "4K Ultra HD": "https://multiembed.mov/directstream.php?video_id=1301421&tmdb=1&res=4k",
-        "1080p Full HD": "https://multiembed.mov/directstream.php?video_id=1301421&tmdb=1&res=1080",
-        "720p HD": "https://multiembed.mov/directstream.php?video_id=1301421&tmdb=1&res=720"
-      }
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1301421/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1301421/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1301421/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1301421/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1301421/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T10:37:47.965665+00:00",
-    "primary_stream_url": "https://vidbolt.xyz/movie/1301421",
-    "last_health_check": "2026-09-01T10:56:58.533677+00:00"
+    "updated_at": "2026-09-01T12:02:14.783234+00:00"
   },
   {
     "id": 1514026,
@@ -657,7 +646,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1514026/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:31.131326+00:00"
+    "updated_at": "2026-09-01T12:02:14.095510+00:00"
   },
   {
     "id": 1325734,
@@ -706,7 +695,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1325734/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:37.371349+00:00"
+    "updated_at": "2026-09-01T12:02:14.783203+00:00"
   },
   {
     "id": 1433367,
@@ -754,7 +743,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1433367/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:33.688057+00:00"
+    "updated_at": "2026-09-01T12:02:14.395759+00:00"
   },
   {
     "id": 1240889,
@@ -803,7 +792,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1240889/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:34.687083+00:00"
+    "updated_at": "2026-09-01T12:02:14.395857+00:00"
   },
   {
     "id": 1632181,
@@ -845,7 +834,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1632181/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:40.306931+00:00"
+    "updated_at": "2026-09-01T12:02:14.891177+00:00"
   },
   {
     "id": 1302904,
@@ -894,7 +883,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1302904/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:31.131326+00:00"
+    "updated_at": "2026-09-01T12:02:14.095550+00:00"
   },
   {
     "id": 1671548,
@@ -943,7 +932,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1671548/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:32.126818+00:00"
+    "updated_at": "2026-09-01T12:02:14.209112+00:00"
   },
   {
     "id": 1288059,
@@ -990,7 +979,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1288059/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:31.131326+00:00"
+    "updated_at": "2026-09-01T12:02:14.095413+00:00"
   },
   {
     "id": 1465063,
@@ -1041,7 +1030,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1465063/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:33.688057+00:00"
+    "updated_at": "2026-09-01T12:02:14.395780+00:00"
   },
   {
     "id": 445466,
@@ -1089,7 +1078,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/445466/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:33.688057+00:00"
+    "updated_at": "2026-09-01T12:02:14.395713+00:00"
   },
   {
     "id": 1602727,
@@ -1128,25 +1117,16 @@
       "medium": "https://image.tmdb.org/t/p/w780/i9ptnJUIQkMqAe2XBDiFYDYEHn7.jpg",
       "original": "https://image.tmdb.org/t/p/original/i9ptnJUIQkMqAe2XBDiFYDYEHn7.jpg"
     },
-    "quality_supported": [
-      "4K Ultra HD",
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "stream_type": "direct_hls_media",
-    "direct_stream_url": "https://multiembed.mov/directstream.php?video_id=1602727&tmdb=1",
-    "stream_sources": {
-      "primary_hls_stream": "https://multiembed.mov/directstream.php?video_id=1602727&tmdb=1",
-      "backup_hls_stream": "https://autoembed.co/movie/tmdb/1602727",
-      "qualities": {
-        "4K Ultra HD": "https://multiembed.mov/directstream.php?video_id=1602727&tmdb=1&res=4k",
-        "1080p Full HD": "https://multiembed.mov/directstream.php?video_id=1602727&tmdb=1&res=1080",
-        "720p HD": "https://multiembed.mov/directstream.php?video_id=1602727&tmdb=1&res=720"
-      }
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1602727/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1602727/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1602727/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1602727/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1602727/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T10:37:47.965610+00:00"
+    "updated_at": "2026-09-01T12:02:14.783309+00:00"
   },
   {
     "id": 1248832,
@@ -1193,7 +1173,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1248832/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:34.687083+00:00"
+    "updated_at": "2026-09-01T12:02:14.395848+00:00"
   },
   {
     "id": 1479537,
@@ -1255,7 +1235,9 @@
       "autoembed": "https://player.autoembed.cc/embed/movie/1479537"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T10:56:56.557182+00:00"
+    "updated_at": "2026-09-01T10:56:56.557182+00:00",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1479537/index-s1080p-v1-a1.m3u8",
+    "last_health_check": "2026-09-01T11:39:45.128684+00:00"
   },
   {
     "id": 1462861,
@@ -1303,7 +1285,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1462861/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:32.887442+00:00"
+    "updated_at": "2026-09-01T12:02:14.278413+00:00"
   },
   {
     "id": 1226699,
@@ -1352,7 +1334,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1226699/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:31.131326+00:00"
+    "updated_at": "2026-09-01T12:02:14.095483+00:00"
   },
   {
     "id": 1084242,
@@ -1397,7 +1379,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1084242/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:39.464529+00:00"
+    "updated_at": "2026-09-01T12:02:14.864413+00:00"
   },
   {
     "id": 1181678,
@@ -1439,7 +1421,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1181678/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:40.984883+00:00"
+    "updated_at": "2026-09-01T12:02:14.917318+00:00"
   },
   {
     "id": 496243,
@@ -1482,7 +1464,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/496243/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:40.306931+00:00"
+    "updated_at": "2026-09-01T12:02:14.891529+00:00"
   },
   {
     "id": 40096,
@@ -1526,7 +1508,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/40096/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:40.985882+00:00"
+    "updated_at": "2026-09-01T12:02:14.917575+00:00"
   },
   {
     "id": 637,
@@ -1568,7 +1550,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/637/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:40.985882+00:00"
+    "updated_at": "2026-09-01T12:02:14.917401+00:00"
   },
   {
     "id": 19404,
@@ -1611,7 +1593,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/19404/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:40.306931+00:00"
+    "updated_at": "2026-09-01T12:02:14.891516+00:00"
   },
   {
     "id": 13,
@@ -1654,7 +1636,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/13/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:40.985882+00:00"
+    "updated_at": "2026-09-01T12:02:14.917354+00:00"
   },
   {
     "id": 680,
@@ -1697,6 +1679,6 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/680/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T11:39:40.984883+00:00"
+    "updated_at": "2026-09-01T12:02:14.917307+00:00"
   }
 ]
