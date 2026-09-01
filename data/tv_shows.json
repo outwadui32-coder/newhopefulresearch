@@ -28,7 +28,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=95350&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=95350&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/95350/1/1",
       "vidlink": "https://vidlink.pro/tv/95350/1/1",
@@ -36,7 +37,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/95350/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/95350/1/1"
     },
-    "updated_at": "2026-09-01T09:40:36.383082Z"
+    "updated_at": "2026-09-01T10:02:38.642385+00:00"
   },
   {
     "id": 125988,
@@ -46,7 +47,7 @@
     "release_year": 2023,
     "first_air_date": "2023-05-04",
     "rating": 8.2,
-    "vote_count": 2533,
+    "vote_count": 2534,
     "genres": [
       "Sci-Fi & Fantasy",
       "Drama"
@@ -66,7 +67,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=125988&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=125988&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/125988/1/1",
       "vidlink": "https://vidlink.pro/tv/125988/1/1",
@@ -74,7 +76,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/125988/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/125988/1/1"
     },
-    "updated_at": "2026-09-01T09:40:36.383082Z"
+    "updated_at": "2026-09-01T10:02:38.642385+00:00"
   },
   {
     "id": 30984,
@@ -105,7 +107,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=30984&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=30984&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/30984/1/1",
       "vidlink": "https://vidlink.pro/tv/30984/1/1",
@@ -113,45 +116,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/30984/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/30984/1/1"
     },
-    "updated_at": "2026-09-01T09:40:36.383082Z"
-  },
-  {
-    "id": 108978,
-    "type": "tv",
-    "title": "Reacher",
-    "original_title": "Reacher",
-    "release_year": 2022,
-    "first_air_date": "2022-02-03",
-    "rating": 8.1,
-    "vote_count": 3185,
-    "genres": [
-      "Action & Adventure",
-      "Crime"
-    ],
-    "overview": "Jack Reacher, a veteran military police investigator, has just recently entered civilian life. Reacher is a drifter, carrying no phone and the barest of essentials as he travels the country and explores the nation he once served.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
-      "original": "https://image.tmdb.org/t/p/original/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/pF0qkRsrHkdYadPWY9AMeFZfcwk.jpg",
-      "original": "https://image.tmdb.org/t/p/original/pF0qkRsrHkdYadPWY9AMeFZfcwk.jpg"
-    },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "redflix_play_url": "https://redflix.co/play?id=108978&type=tv&season=1&episode=1",
-    "stream_servers": {
-      "vidbolt": "https://vidbolt.xyz/tv/108978/1/1",
-      "vidlink": "https://vidlink.pro/tv/108978/1/1",
-      "videasy": "https://player.videasy.to/tv/108978/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/108978/1/1",
-      "vidsrc": "https://vidsrc.to/embed/tv/108978/1/1"
-    },
-    "updated_at": "2026-09-01T09:40:36.383082Z"
+    "updated_at": "2026-09-01T10:02:38.642385+00:00"
   },
   {
     "id": 196322,
@@ -181,7 +146,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=196322&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=196322&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/196322/1/1",
       "vidlink": "https://vidlink.pro/tv/196322/1/1",
@@ -189,7 +155,46 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/196322/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/196322/1/1"
     },
-    "updated_at": "2026-09-01T09:40:36.383082Z"
+    "updated_at": "2026-09-01T10:02:38.642385+00:00"
+  },
+  {
+    "id": 108978,
+    "type": "tv",
+    "title": "Reacher",
+    "original_title": "Reacher",
+    "release_year": 2022,
+    "first_air_date": "2022-02-03",
+    "rating": 8.1,
+    "vote_count": 3186,
+    "genres": [
+      "Action & Adventure",
+      "Crime"
+    ],
+    "overview": "Jack Reacher, a veteran military police investigator, has just recently entered civilian life. Reacher is a drifter, carrying no phone and the barest of essentials as he travels the country and explores the nation he once served.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
+      "original": "https://image.tmdb.org/t/p/original/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/pF0qkRsrHkdYadPWY9AMeFZfcwk.jpg",
+      "original": "https://image.tmdb.org/t/p/original/pF0qkRsrHkdYadPWY9AMeFZfcwk.jpg"
+    },
+    "quality_supported": [
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "source_play_url": "https://redflix.co/play?id=108978&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/tv/108978/1/1",
+      "vidlink": "https://vidlink.pro/tv/108978/1/1",
+      "videasy": "https://player.videasy.to/tv/108978/1/1",
+      "autoembed": "https://player.autoembed.cc/embed/tv/108978/1/1",
+      "vidsrc": "https://vidsrc.to/embed/tv/108978/1/1"
+    },
+    "updated_at": "2026-09-01T10:02:38.642385+00:00"
   },
   {
     "id": 290193,
@@ -220,7 +225,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=290193&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=290193&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/290193/1/1",
       "vidlink": "https://vidlink.pro/tv/290193/1/1",
@@ -228,7 +234,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/290193/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/290193/1/1"
     },
-    "updated_at": "2026-09-01T09:40:36.383082Z"
+    "updated_at": "2026-09-01T10:02:38.642385+00:00"
   },
   {
     "id": 113962,
@@ -258,7 +264,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=113962&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=113962&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/113962/1/1",
       "vidlink": "https://vidlink.pro/tv/113962/1/1",
@@ -266,45 +273,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/113962/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/113962/1/1"
     },
-    "updated_at": "2026-09-01T09:40:36.383082Z"
-  },
-  {
-    "id": 97546,
-    "type": "tv",
-    "title": "Ted Lasso",
-    "original_title": "Ted Lasso",
-    "release_year": 2020,
-    "first_air_date": "2020-08-14",
-    "rating": 8.4,
-    "vote_count": 2606,
-    "genres": [
-      "Drama",
-      "Comedy"
-    ],
-    "overview": "Ted Lasso, an American football coach, moves to England when he's hired to manage a soccer team—despite having no experience. With cynical players and a doubtful town, will he get them to see the Ted Lasso Way?",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
-      "original": "https://image.tmdb.org/t/p/original/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/nE94ejEbzNCU48bW1oju0dqBONz.jpg",
-      "original": "https://image.tmdb.org/t/p/original/nE94ejEbzNCU48bW1oju0dqBONz.jpg"
-    },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "redflix_play_url": "https://redflix.co/play?id=97546&type=tv&season=1&episode=1",
-    "stream_servers": {
-      "vidbolt": "https://vidbolt.xyz/tv/97546/1/1",
-      "vidlink": "https://vidlink.pro/tv/97546/1/1",
-      "videasy": "https://player.videasy.to/tv/97546/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/97546/1/1",
-      "vidsrc": "https://vidsrc.to/embed/tv/97546/1/1"
-    },
-    "updated_at": "2026-09-01T09:40:36.383082Z"
+    "updated_at": "2026-09-01T10:02:38.642385+00:00"
   },
   {
     "id": 615,
@@ -335,7 +304,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=615&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=615&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/615/1/1",
       "vidlink": "https://vidlink.pro/tv/615/1/1",
@@ -343,7 +313,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/615/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/615/1/1"
     },
-    "updated_at": "2026-09-01T09:40:36.383082Z"
+    "updated_at": "2026-09-01T10:02:38.642385+00:00"
   },
   {
     "id": 287238,
@@ -353,7 +323,7 @@
     "release_year": 2026,
     "first_air_date": "2026-07-27",
     "rating": 7.0,
-    "vote_count": 73,
+    "vote_count": 74,
     "genres": [
       "Drama",
       "Crime"
@@ -373,7 +343,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=287238&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=287238&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/287238/1/1",
       "vidlink": "https://vidlink.pro/tv/287238/1/1",
@@ -381,7 +352,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/287238/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/287238/1/1"
     },
-    "updated_at": "2026-09-01T09:40:36.383082Z"
+    "updated_at": "2026-09-01T10:02:38.642385+00:00"
   },
   {
     "id": 37854,
@@ -412,7 +383,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=37854&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=37854&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/37854/1/1",
       "vidlink": "https://vidlink.pro/tv/37854/1/1",
@@ -420,81 +392,46 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/37854/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/37854/1/1"
     },
-    "updated_at": "2026-09-01T09:40:36.383082Z"
+    "updated_at": "2026-09-01T10:02:38.642385+00:00"
   },
   {
-    "id": 260458,
+    "id": 97546,
     "type": "tv",
-    "title": "Adults",
-    "original_title": "Adults",
-    "release_year": 2025,
-    "first_air_date": "2025-05-28",
-    "rating": 6.0,
-    "vote_count": 79,
+    "title": "Ted Lasso",
+    "original_title": "Ted Lasso",
+    "release_year": 2020,
+    "first_air_date": "2020-08-14",
+    "rating": 8.4,
+    "vote_count": 2607,
     "genres": [
+      "Drama",
       "Comedy"
     ],
-    "overview": "A group of twenty-somethings in New York trying to be good people, despite being neither \"good\" nor \"people\" yet.",
+    "overview": "Ted Lasso, an American football coach, moves to England when he's hired to manage a soccer team—despite having no experience. With cynical players and a doubtful town, will he get them to see the Ted Lasso Way?",
     "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/oJUoRlVXGl3MJb62Ugi1G08GPbx.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/oJUoRlVXGl3MJb62Ugi1G08GPbx.jpg",
-      "original": "https://image.tmdb.org/t/p/original/oJUoRlVXGl3MJb62Ugi1G08GPbx.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w185/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
+      "original": "https://image.tmdb.org/t/p/original/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg"
     },
     "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/6skot5l7gcJd6hO6qlKDGGY6LBJ.jpg",
-      "original": "https://image.tmdb.org/t/p/original/6skot5l7gcJd6hO6qlKDGGY6LBJ.jpg"
+      "medium": "https://image.tmdb.org/t/p/w780/nE94ejEbzNCU48bW1oju0dqBONz.jpg",
+      "original": "https://image.tmdb.org/t/p/original/nE94ejEbzNCU48bW1oju0dqBONz.jpg"
     },
     "quality_supported": [
       "1080p FHD",
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=260458&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=97546&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
-      "vidbolt": "https://vidbolt.xyz/tv/260458/1/1",
-      "vidlink": "https://vidlink.pro/tv/260458/1/1",
-      "videasy": "https://player.videasy.to/tv/260458/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/260458/1/1",
-      "vidsrc": "https://vidsrc.to/embed/tv/260458/1/1"
+      "vidbolt": "https://vidbolt.xyz/tv/97546/1/1",
+      "vidlink": "https://vidlink.pro/tv/97546/1/1",
+      "videasy": "https://player.videasy.to/tv/97546/1/1",
+      "autoembed": "https://player.autoembed.cc/embed/tv/97546/1/1",
+      "vidsrc": "https://vidsrc.to/embed/tv/97546/1/1"
     },
-    "updated_at": "2026-09-01T09:40:36.385436Z"
-  },
-  {
-    "id": 246246,
-    "type": "tv",
-    "title": "Beauty in Black",
-    "original_title": "Beauty in Black",
-    "release_year": 2024,
-    "first_air_date": "2024-10-24",
-    "rating": 8.3,
-    "vote_count": 281,
-    "genres": [
-      "Drama"
-    ],
-    "overview": "A stripper's fate takes a turn when she crosses paths with the wealthy, dysfunctional family behind a cosmetics dynasty and a devious trafficking scheme.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/xKk4bFCCpZ9tvjUykvvMYLSBnjo.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/xKk4bFCCpZ9tvjUykvvMYLSBnjo.jpg",
-      "original": "https://image.tmdb.org/t/p/original/xKk4bFCCpZ9tvjUykvvMYLSBnjo.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/ywJcUIMTCjstPLvvyIiPWP3G3m3.jpg",
-      "original": "https://image.tmdb.org/t/p/original/ywJcUIMTCjstPLvvyIiPWP3G3m3.jpg"
-    },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "redflix_play_url": "https://redflix.co/play?id=246246&type=tv&season=1&episode=1",
-    "stream_servers": {
-      "vidbolt": "https://vidbolt.xyz/tv/246246/1/1",
-      "vidlink": "https://vidlink.pro/tv/246246/1/1",
-      "videasy": "https://player.videasy.to/tv/246246/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/246246/1/1",
-      "vidsrc": "https://vidsrc.to/embed/tv/246246/1/1"
-    },
-    "updated_at": "2026-09-01T09:40:36.385436Z"
+    "updated_at": "2026-09-01T10:02:38.642385+00:00"
   },
   {
     "id": 299952,
@@ -523,7 +460,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=299952&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=299952&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/299952/1/1",
       "vidlink": "https://vidlink.pro/tv/299952/1/1",
@@ -531,7 +469,123 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/299952/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/299952/1/1"
     },
-    "updated_at": "2026-09-01T09:40:36.385436Z"
+    "updated_at": "2026-09-01T10:02:38.642385+00:00"
+  },
+  {
+    "id": 246246,
+    "type": "tv",
+    "title": "Beauty in Black",
+    "original_title": "Beauty in Black",
+    "release_year": 2024,
+    "first_air_date": "2024-10-24",
+    "rating": 8.3,
+    "vote_count": 281,
+    "genres": [
+      "Drama"
+    ],
+    "overview": "A stripper's fate takes a turn when she crosses paths with the wealthy, dysfunctional family behind a cosmetics dynasty and a devious trafficking scheme.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/xKk4bFCCpZ9tvjUykvvMYLSBnjo.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/xKk4bFCCpZ9tvjUykvvMYLSBnjo.jpg",
+      "original": "https://image.tmdb.org/t/p/original/xKk4bFCCpZ9tvjUykvvMYLSBnjo.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/ywJcUIMTCjstPLvvyIiPWP3G3m3.jpg",
+      "original": "https://image.tmdb.org/t/p/original/ywJcUIMTCjstPLvvyIiPWP3G3m3.jpg"
+    },
+    "quality_supported": [
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "source_play_url": "https://redflix.co/play?id=246246&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/tv/246246/1/1",
+      "vidlink": "https://vidlink.pro/tv/246246/1/1",
+      "videasy": "https://player.videasy.to/tv/246246/1/1",
+      "autoembed": "https://player.autoembed.cc/embed/tv/246246/1/1",
+      "vidsrc": "https://vidsrc.to/embed/tv/246246/1/1"
+    },
+    "updated_at": "2026-09-01T10:02:38.642385+00:00"
+  },
+  {
+    "id": 260458,
+    "type": "tv",
+    "title": "Adults",
+    "original_title": "Adults",
+    "release_year": 2025,
+    "first_air_date": "2025-05-28",
+    "rating": 6.0,
+    "vote_count": 79,
+    "genres": [
+      "Comedy"
+    ],
+    "overview": "A group of twenty-somethings in New York trying to be good people, despite being neither \"good\" nor \"people\" yet.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/oJUoRlVXGl3MJb62Ugi1G08GPbx.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/oJUoRlVXGl3MJb62Ugi1G08GPbx.jpg",
+      "original": "https://image.tmdb.org/t/p/original/oJUoRlVXGl3MJb62Ugi1G08GPbx.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/6skot5l7gcJd6hO6qlKDGGY6LBJ.jpg",
+      "original": "https://image.tmdb.org/t/p/original/6skot5l7gcJd6hO6qlKDGGY6LBJ.jpg"
+    },
+    "quality_supported": [
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "source_play_url": "https://redflix.co/play?id=260458&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/tv/260458/1/1",
+      "vidlink": "https://vidlink.pro/tv/260458/1/1",
+      "videasy": "https://player.videasy.to/tv/260458/1/1",
+      "autoembed": "https://player.autoembed.cc/embed/tv/260458/1/1",
+      "vidsrc": "https://vidsrc.to/embed/tv/260458/1/1"
+    },
+    "updated_at": "2026-09-01T10:02:38.642385+00:00"
+  },
+  {
+    "id": 94664,
+    "type": "tv",
+    "title": "Mushoku Tensei: Jobless Reincarnation",
+    "original_title": "無職転生 ～異世界行ったら本気だす～",
+    "release_year": 2021,
+    "first_air_date": "2021-01-11",
+    "rating": 8.4,
+    "vote_count": 1692,
+    "genres": [
+      "Action & Adventure",
+      "Animation",
+      "Sci-Fi & Fantasy"
+    ],
+    "overview": "When a 34-year-old underachiever gets run over by a truck, his story doesn't end there. Reincarnated in a new world as an infant, Rudy will seize every opportunity to live the life he's always wanted. Armed with new friends, some freshly acquired magical abilities, and the courage to do the things he's always dreamed of, he's embarking on an epic adventure—with all of his past experience intact!",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/gLKOYIMyKlUHW0SVdskhgf9C0yy.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/gLKOYIMyKlUHW0SVdskhgf9C0yy.jpg",
+      "original": "https://image.tmdb.org/t/p/original/gLKOYIMyKlUHW0SVdskhgf9C0yy.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/j9fRIimor0AMFJR9kjZubXcABzZ.jpg",
+      "original": "https://image.tmdb.org/t/p/original/j9fRIimor0AMFJR9kjZubXcABzZ.jpg"
+    },
+    "quality_supported": [
+      "1080p FHD",
+      "720p HD",
+      "480p SD"
+    ],
+    "source_play_url": "https://redflix.co/play?id=94664&type=tv&season=1&episode=1",
+    "primary_stream_url": "https://vidbolt.xyz/tv/94664/1/1",
+    "stream_servers": {
+      "vidbolt": "https://vidbolt.xyz/tv/94664/1/1",
+      "vidlink": "https://vidlink.pro/tv/94664/1/1",
+      "videasy": "https://player.videasy.to/tv/94664/1/1",
+      "autoembed": "https://player.autoembed.cc/embed/tv/94664/1/1",
+      "vidsrc": "https://vidsrc.to/embed/tv/94664/1/1"
+    },
+    "updated_at": "2026-09-01T10:02:38.642385+00:00"
   },
   {
     "id": 278624,
@@ -561,7 +615,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=278624&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=278624&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/278624/1/1",
       "vidlink": "https://vidlink.pro/tv/278624/1/1",
@@ -569,7 +624,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/278624/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/278624/1/1"
     },
-    "updated_at": "2026-09-01T09:40:36.385436Z"
+    "updated_at": "2026-09-01T10:02:38.642385+00:00"
   },
   {
     "id": 456,
@@ -599,7 +654,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=456&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=456&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/456/1/1",
       "vidlink": "https://vidlink.pro/tv/456/1/1",
@@ -607,7 +663,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/456/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/456/1/1"
     },
-    "updated_at": "2026-09-01T09:40:36.385436Z"
+    "updated_at": "2026-09-01T10:02:38.642385+00:00"
   },
   {
     "id": 305644,
@@ -636,7 +692,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=305644&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=305644&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/305644/1/1",
       "vidlink": "https://vidlink.pro/tv/305644/1/1",
@@ -644,7 +701,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/305644/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/305644/1/1"
     },
-    "updated_at": "2026-09-01T09:40:36.385436Z"
+    "updated_at": "2026-09-01T10:02:38.642385+00:00"
   },
   {
     "id": 94997,
@@ -675,7 +732,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=94997&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=94997&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/94997/1/1",
       "vidlink": "https://vidlink.pro/tv/94997/1/1",
@@ -683,7 +741,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/94997/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/94997/1/1"
     },
-    "updated_at": "2026-09-01T09:40:36.385436Z"
+    "updated_at": "2026-09-01T10:02:38.642385+00:00"
   },
   {
     "id": 100757,
@@ -713,7 +771,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=100757&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=100757&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/100757/1/1",
       "vidlink": "https://vidlink.pro/tv/100757/1/1",
@@ -721,7 +780,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/100757/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/100757/1/1"
     },
-    "updated_at": "2026-09-01T09:40:36.385436Z"
+    "updated_at": "2026-09-01T10:02:38.642385+00:00"
   },
   {
     "id": 65942,
@@ -753,7 +812,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=65942&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=65942&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/65942/1/1",
       "vidlink": "https://vidlink.pro/tv/65942/1/1",
@@ -761,47 +821,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/65942/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/65942/1/1"
     },
-    "updated_at": "2026-09-01T09:40:36.385436Z"
-  },
-  {
-    "id": 65942,
-    "type": "tv",
-    "title": "Re:ZERO -Starting Life in Another World-",
-    "original_title": "Re:ゼロから始める異世界生活",
-    "release_year": 2016,
-    "first_air_date": "2016-04-04",
-    "rating": 8.1,
-    "vote_count": 761,
-    "genres": [
-      "Animation",
-      "Mystery",
-      "Action & Adventure",
-      "Sci-Fi & Fantasy"
-    ],
-    "overview": "Natsuki Subaru, an ordinary high school  student, is on his way home from the convenience store when he finds  himself transported to another world. As he's lost and confused in a new  world where he doesn't even know left from right, the only person to  reach out to him was a beautiful girl with silver hair. Determined to  repay her somehow for saving him from his own despair, Subaru agrees to  help the girl find something she's looking for.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/oHqYrPAsIiTD5m4DuxumV4er8BU.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/oHqYrPAsIiTD5m4DuxumV4er8BU.jpg",
-      "original": "https://image.tmdb.org/t/p/original/oHqYrPAsIiTD5m4DuxumV4er8BU.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/7ZruEnSnHD6Jx5mF0hBt1E306Vt.jpg",
-      "original": "https://image.tmdb.org/t/p/original/7ZruEnSnHD6Jx5mF0hBt1E306Vt.jpg"
-    },
-    "quality_supported": [
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "redflix_play_url": "https://redflix.co/play?id=65942&type=tv&season=1&episode=1",
-    "stream_servers": {
-      "vidbolt": "https://vidbolt.xyz/tv/65942/1/1",
-      "vidlink": "https://vidlink.pro/tv/65942/1/1",
-      "videasy": "https://player.videasy.to/tv/65942/1/1",
-      "autoembed": "https://player.autoembed.cc/embed/tv/65942/1/1",
-      "vidsrc": "https://vidsrc.to/embed/tv/65942/1/1"
-    },
-    "updated_at": "2026-09-01T09:40:37.159767Z"
+    "updated_at": "2026-09-01T10:02:39.604976+00:00"
   },
   {
     "id": 207333,
@@ -831,7 +851,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=207333&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=207333&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/207333/1/1",
       "vidlink": "https://vidlink.pro/tv/207333/1/1",
@@ -839,7 +860,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/207333/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/207333/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.159767Z"
+    "updated_at": "2026-09-01T10:02:39.604976+00:00"
   },
   {
     "id": 194583,
@@ -870,7 +891,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=194583&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=194583&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/194583/1/1",
       "vidlink": "https://vidlink.pro/tv/194583/1/1",
@@ -878,7 +900,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/194583/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/194583/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.159767Z"
+    "updated_at": "2026-09-01T10:02:39.604976+00:00"
   },
   {
     "id": 287620,
@@ -908,7 +930,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=287620&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=287620&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/287620/1/1",
       "vidlink": "https://vidlink.pro/tv/287620/1/1",
@@ -916,7 +939,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/287620/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/287620/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.159767Z"
+    "updated_at": "2026-09-01T10:02:39.604976+00:00"
   },
   {
     "id": 103516,
@@ -946,7 +969,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=103516&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=103516&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/103516/1/1",
       "vidlink": "https://vidlink.pro/tv/103516/1/1",
@@ -954,7 +978,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/103516/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/103516/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.159767Z"
+    "updated_at": "2026-09-01T10:02:39.604976+00:00"
   },
   {
     "id": 283297,
@@ -984,7 +1008,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=283297&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=283297&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/283297/1/1",
       "vidlink": "https://vidlink.pro/tv/283297/1/1",
@@ -992,7 +1017,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/283297/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/283297/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.159767Z"
+    "updated_at": "2026-09-01T10:02:39.604976+00:00"
   },
   {
     "id": 236235,
@@ -1023,7 +1048,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=236235&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=236235&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/236235/1/1",
       "vidlink": "https://vidlink.pro/tv/236235/1/1",
@@ -1031,7 +1057,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/236235/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/236235/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.159767Z"
+    "updated_at": "2026-09-01T10:02:39.604976+00:00"
   },
   {
     "id": 387,
@@ -1062,7 +1088,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=387&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=387&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/387/1/1",
       "vidlink": "https://vidlink.pro/tv/387/1/1",
@@ -1070,7 +1097,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/387/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/387/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.159767Z"
+    "updated_at": "2026-09-01T10:02:39.604976+00:00"
   },
   {
     "id": 60625,
@@ -1102,7 +1129,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=60625&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=60625&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/60625/1/1",
       "vidlink": "https://vidlink.pro/tv/60625/1/1",
@@ -1110,7 +1138,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/60625/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/60625/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.159767Z"
+    "updated_at": "2026-09-01T10:02:39.604976+00:00"
   },
   {
     "id": 292558,
@@ -1140,7 +1168,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=292558&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=292558&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/292558/1/1",
       "vidlink": "https://vidlink.pro/tv/292558/1/1",
@@ -1148,7 +1177,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/292558/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/292558/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.159767Z"
+    "updated_at": "2026-09-01T10:02:39.604976+00:00"
   },
   {
     "id": 126167,
@@ -1178,7 +1207,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=126167&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=126167&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/126167/1/1",
       "vidlink": "https://vidlink.pro/tv/126167/1/1",
@@ -1186,7 +1216,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/126167/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/126167/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.159767Z"
+    "updated_at": "2026-09-01T10:02:39.604976+00:00"
   },
   {
     "id": 331616,
@@ -1216,7 +1246,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=331616&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=331616&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/331616/1/1",
       "vidlink": "https://vidlink.pro/tv/331616/1/1",
@@ -1224,7 +1255,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/331616/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/331616/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.159767Z"
+    "updated_at": "2026-09-01T10:02:39.604976+00:00"
   },
   {
     "id": 298168,
@@ -1254,7 +1285,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=298168&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=298168&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/298168/1/1",
       "vidlink": "https://vidlink.pro/tv/298168/1/1",
@@ -1262,7 +1294,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/298168/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/298168/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.159767Z"
+    "updated_at": "2026-09-01T10:02:39.604976+00:00"
   },
   {
     "id": 106449,
@@ -1293,7 +1325,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=106449&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=106449&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/106449/1/1",
       "vidlink": "https://vidlink.pro/tv/106449/1/1",
@@ -1301,7 +1334,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/106449/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/106449/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.159767Z"
+    "updated_at": "2026-09-01T10:02:39.604976+00:00"
   },
   {
     "id": 303351,
@@ -1332,7 +1365,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=303351&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=303351&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/303351/1/1",
       "vidlink": "https://vidlink.pro/tv/303351/1/1",
@@ -1340,7 +1374,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/303351/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/303351/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.159767Z"
+    "updated_at": "2026-09-01T10:02:39.604976+00:00"
   },
   {
     "id": 294487,
@@ -1369,7 +1403,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=294487&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=294487&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/294487/1/1",
       "vidlink": "https://vidlink.pro/tv/294487/1/1",
@@ -1377,7 +1412,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/294487/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/294487/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.159767Z"
+    "updated_at": "2026-09-01T10:02:39.604976+00:00"
   },
   {
     "id": 286988,
@@ -1407,7 +1442,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=286988&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=286988&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/286988/1/1",
       "vidlink": "https://vidlink.pro/tv/286988/1/1",
@@ -1415,7 +1451,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/286988/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/286988/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.159767Z"
+    "updated_at": "2026-09-01T10:02:39.604976+00:00"
   },
   {
     "id": 296756,
@@ -1445,7 +1481,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=296756&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=296756&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/296756/1/1",
       "vidlink": "https://vidlink.pro/tv/296756/1/1",
@@ -1453,7 +1490,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/296756/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/296756/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.159767Z"
+    "updated_at": "2026-09-01T10:02:39.604976+00:00"
   },
   {
     "id": 95479,
@@ -1484,7 +1521,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=95479&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=95479&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/95479/1/1",
       "vidlink": "https://vidlink.pro/tv/95479/1/1",
@@ -1492,7 +1530,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/95479/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/95479/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.159767Z"
+    "updated_at": "2026-09-01T10:02:39.604976+00:00"
   },
   {
     "id": 252751,
@@ -1521,7 +1559,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=252751&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=252751&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/252751/1/1",
       "vidlink": "https://vidlink.pro/tv/252751/1/1",
@@ -1529,7 +1568,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/252751/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/252751/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.159767Z"
+    "updated_at": "2026-09-01T10:02:39.604976+00:00"
   },
   {
     "id": 287496,
@@ -1558,7 +1597,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=287496&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=287496&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/287496/1/1",
       "vidlink": "https://vidlink.pro/tv/287496/1/1",
@@ -1566,7 +1606,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/287496/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/287496/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.977181Z"
+    "updated_at": "2026-09-01T10:02:40.539716+00:00"
   },
   {
     "id": 286709,
@@ -1596,7 +1636,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=286709&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=286709&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/286709/1/1",
       "vidlink": "https://vidlink.pro/tv/286709/1/1",
@@ -1604,7 +1645,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/286709/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/286709/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.977181Z"
+    "updated_at": "2026-09-01T10:02:40.539716+00:00"
   },
   {
     "id": 30983,
@@ -1636,7 +1677,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=30983&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=30983&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/30983/1/1",
       "vidlink": "https://vidlink.pro/tv/30983/1/1",
@@ -1644,7 +1686,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/30983/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/30983/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.977181Z"
+    "updated_at": "2026-09-01T10:02:40.539716+00:00"
   },
   {
     "id": 90521,
@@ -1673,7 +1715,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=90521&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=90521&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/90521/1/1",
       "vidlink": "https://vidlink.pro/tv/90521/1/1",
@@ -1681,7 +1724,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/90521/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/90521/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.977181Z"
+    "updated_at": "2026-09-01T10:02:40.539716+00:00"
   },
   {
     "id": 76479,
@@ -1711,7 +1754,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=76479&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=76479&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/76479/1/1",
       "vidlink": "https://vidlink.pro/tv/76479/1/1",
@@ -1719,7 +1763,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/76479/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/76479/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.977181Z"
+    "updated_at": "2026-09-01T10:02:40.539716+00:00"
   },
   {
     "id": 312949,
@@ -1750,7 +1794,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=312949&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=312949&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/312949/1/1",
       "vidlink": "https://vidlink.pro/tv/312949/1/1",
@@ -1758,7 +1803,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/312949/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/312949/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.977181Z"
+    "updated_at": "2026-09-01T10:02:40.539716+00:00"
   },
   {
     "id": 82684,
@@ -1790,7 +1835,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=82684&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=82684&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/82684/1/1",
       "vidlink": "https://vidlink.pro/tv/82684/1/1",
@@ -1798,7 +1844,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/82684/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/82684/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.977181Z"
+    "updated_at": "2026-09-01T10:02:40.539716+00:00"
   },
   {
     "id": 298610,
@@ -1829,7 +1875,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=298610&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=298610&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/298610/1/1",
       "vidlink": "https://vidlink.pro/tv/298610/1/1",
@@ -1837,7 +1884,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/298610/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/298610/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.977181Z"
+    "updated_at": "2026-09-01T10:02:40.539716+00:00"
   },
   {
     "id": 285250,
@@ -1866,7 +1913,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=285250&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=285250&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/285250/1/1",
       "vidlink": "https://vidlink.pro/tv/285250/1/1",
@@ -1874,7 +1922,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/285250/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/285250/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.977181Z"
+    "updated_at": "2026-09-01T10:02:40.539716+00:00"
   },
   {
     "id": 2190,
@@ -1904,7 +1952,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=2190&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=2190&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/2190/1/1",
       "vidlink": "https://vidlink.pro/tv/2190/1/1",
@@ -1912,7 +1961,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/2190/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/2190/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.977181Z"
+    "updated_at": "2026-09-01T10:02:40.539716+00:00"
   },
   {
     "id": 330540,
@@ -1941,7 +1990,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=330540&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=330540&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/330540/1/1",
       "vidlink": "https://vidlink.pro/tv/330540/1/1",
@@ -1949,7 +1999,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/330540/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/330540/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.977181Z"
+    "updated_at": "2026-09-01T10:02:40.539716+00:00"
   },
   {
     "id": 66732,
@@ -1980,7 +2030,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=66732&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=66732&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/66732/1/1",
       "vidlink": "https://vidlink.pro/tv/66732/1/1",
@@ -1988,7 +2039,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/66732/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/66732/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.977181Z"
+    "updated_at": "2026-09-01T10:02:40.539716+00:00"
   },
   {
     "id": 138502,
@@ -2019,7 +2070,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=138502&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=138502&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/138502/1/1",
       "vidlink": "https://vidlink.pro/tv/138502/1/1",
@@ -2027,7 +2079,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/138502/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/138502/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.977181Z"
+    "updated_at": "2026-09-01T10:02:40.539716+00:00"
   },
   {
     "id": 57532,
@@ -2057,7 +2109,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=57532&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=57532&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/57532/1/1",
       "vidlink": "https://vidlink.pro/tv/57532/1/1",
@@ -2065,7 +2118,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/57532/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/57532/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.977181Z"
+    "updated_at": "2026-09-01T10:02:40.539716+00:00"
   },
   {
     "id": 124364,
@@ -2096,7 +2149,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=124364&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=124364&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/124364/1/1",
       "vidlink": "https://vidlink.pro/tv/124364/1/1",
@@ -2104,7 +2158,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/124364/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/124364/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.977181Z"
+    "updated_at": "2026-09-01T10:02:40.539716+00:00"
   },
   {
     "id": 84773,
@@ -2135,7 +2189,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=84773&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=84773&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/84773/1/1",
       "vidlink": "https://vidlink.pro/tv/84773/1/1",
@@ -2143,7 +2198,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/84773/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/84773/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.977181Z"
+    "updated_at": "2026-09-01T10:02:40.539716+00:00"
   },
   {
     "id": 215072,
@@ -2174,7 +2229,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=215072&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=215072&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/215072/1/1",
       "vidlink": "https://vidlink.pro/tv/215072/1/1",
@@ -2182,7 +2238,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/215072/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/215072/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.977181Z"
+    "updated_at": "2026-09-01T10:02:40.539716+00:00"
   },
   {
     "id": 318729,
@@ -2209,7 +2265,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=318729&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=318729&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/318729/1/1",
       "vidlink": "https://vidlink.pro/tv/318729/1/1",
@@ -2217,7 +2274,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/318729/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/318729/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.977181Z"
+    "updated_at": "2026-09-01T10:02:40.539716+00:00"
   },
   {
     "id": 280133,
@@ -2247,7 +2304,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=280133&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=280133&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/280133/1/1",
       "vidlink": "https://vidlink.pro/tv/280133/1/1",
@@ -2255,7 +2313,7 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/280133/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/280133/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.977181Z"
+    "updated_at": "2026-09-01T10:02:40.539716+00:00"
   },
   {
     "id": 272938,
@@ -2286,7 +2344,8 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=272938&type=tv&season=1&episode=1",
+    "source_play_url": "https://redflix.co/play?id=272938&type=tv&season=1&episode=1",
+    "primary_stream_url": null,
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/tv/272938/1/1",
       "vidlink": "https://vidlink.pro/tv/272938/1/1",
@@ -2294,6 +2353,6 @@
       "autoembed": "https://player.autoembed.cc/embed/tv/272938/1/1",
       "vidsrc": "https://vidsrc.to/embed/tv/272938/1/1"
     },
-    "updated_at": "2026-09-01T09:40:37.977181Z"
+    "updated_at": "2026-09-01T10:02:40.539716+00:00"
   }
 ]

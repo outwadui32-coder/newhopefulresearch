@@ -37,7 +37,9 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=1612018&type=movie",
+    "source_play_url": "https://redflix.co/play?id=1612018&type=movie",
+    "primary_stream_url": null,
+    "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/1612018",
       "vidlink": "https://vidlink.pro/movie/1612018",
@@ -49,6 +51,6 @@
       "vidsrc": "https://vidsrc.to/embed/movie/1612018",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=1612018&tmdb=1"
     },
-    "updated_at": "2026-09-01T09:40:33.910370Z"
+    "updated_at": "2026-09-01T10:02:36.144742+00:00"
   }
 ]

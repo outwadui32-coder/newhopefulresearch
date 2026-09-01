@@ -38,7 +38,9 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=1744462&type=movie",
+    "source_play_url": "https://redflix.co/play?id=1744462&type=movie",
+    "primary_stream_url": null,
+    "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/1744462",
       "vidlink": "https://vidlink.pro/movie/1744462",
@@ -50,7 +52,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/1744462",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=1744462&tmdb=1"
     },
-    "updated_at": "2026-09-01T09:39:50.667633Z"
+    "updated_at": "2026-09-01T10:02:30.293454+00:00"
   },
   {
     "id": 1084244,
@@ -97,7 +99,9 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=1084244&type=movie",
+    "source_play_url": "https://redflix.co/play?id=1084244&type=movie",
+    "primary_stream_url": null,
+    "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/1084244",
       "vidlink": "https://vidlink.pro/movie/1084244",
@@ -109,7 +113,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/1084244",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=1084244&tmdb=1"
     },
-    "updated_at": "2026-09-01T09:39:40.331543Z"
+    "updated_at": "2026-09-01T10:02:28.535810+00:00"
   },
   {
     "id": 1315772,
@@ -157,7 +161,9 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=1315772&type=movie",
+    "source_play_url": "https://redflix.co/play?id=1315772&type=movie",
+    "primary_stream_url": null,
+    "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/1315772",
       "vidlink": "https://vidlink.pro/movie/1315772",
@@ -169,7 +175,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/1315772",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=1315772&tmdb=1"
     },
-    "updated_at": "2026-09-01T09:39:42.094897Z"
+    "updated_at": "2026-09-01T10:02:28.535810+00:00"
   },
   {
     "id": 1560520,
@@ -218,7 +224,9 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=1560520&type=movie",
+    "source_play_url": "https://redflix.co/play?id=1560520&type=movie",
+    "primary_stream_url": null,
+    "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/1560520",
       "vidlink": "https://vidlink.pro/movie/1560520",
@@ -230,7 +238,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/1560520",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=1560520&tmdb=1"
     },
-    "updated_at": "2026-09-01T09:39:53.368067Z"
+    "updated_at": "2026-09-01T10:02:30.293454+00:00"
   },
   {
     "id": 980431,
@@ -271,7 +279,9 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=980431&type=movie",
+    "source_play_url": "https://redflix.co/play?id=980431&type=movie",
+    "primary_stream_url": null,
+    "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/980431",
       "vidlink": "https://vidlink.pro/movie/980431",
@@ -283,7 +293,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/980431",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=980431&tmdb=1"
     },
-    "updated_at": "2026-09-01T09:40:33.910370Z"
+    "updated_at": "2026-09-01T10:02:36.144742+00:00"
   },
   {
     "id": 1729723,
@@ -382,7 +392,9 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=1007757&type=movie",
+    "source_play_url": "https://redflix.co/play?id=1007757&type=movie",
+    "primary_stream_url": null,
+    "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/1007757",
       "vidlink": "https://vidlink.pro/movie/1007757",
@@ -394,7 +406,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/1007757",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=1007757&tmdb=1"
     },
-    "updated_at": "2026-09-01T09:40:34.735794Z"
+    "updated_at": "2026-09-01T10:02:37.120701+00:00"
   },
   {
     "id": 1465063,
@@ -442,7 +454,9 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=1465063&type=movie",
+    "source_play_url": "https://redflix.co/play?id=1465063&type=movie",
+    "primary_stream_url": null,
+    "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/1465063",
       "vidlink": "https://vidlink.pro/movie/1465063",
@@ -454,7 +468,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/1465063",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=1465063&tmdb=1"
     },
-    "updated_at": "2026-09-01T09:40:11.637763Z"
+    "updated_at": "2026-09-01T10:02:31.129371+00:00"
   },
   {
     "id": 910850,
@@ -501,7 +515,9 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=910850&type=movie",
+    "source_play_url": "https://redflix.co/play?id=910850&type=movie",
+    "primary_stream_url": null,
+    "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/910850",
       "vidlink": "https://vidlink.pro/movie/910850",
@@ -513,7 +529,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/910850",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=910850&tmdb=1"
     },
-    "updated_at": "2026-09-01T09:39:43.829230Z"
+    "updated_at": "2026-09-01T10:02:29.497567+00:00"
   },
   {
     "id": 1311031,
@@ -553,7 +569,9 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=1311031&type=movie",
+    "source_play_url": "https://redflix.co/play?id=1311031&type=movie",
+    "primary_stream_url": null,
+    "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/1311031",
       "vidlink": "https://vidlink.pro/movie/1311031",
@@ -565,7 +583,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/1311031",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=1311031&tmdb=1"
     },
-    "updated_at": "2026-09-01T09:40:33.910370Z"
+    "updated_at": "2026-09-01T10:02:36.144742+00:00"
   },
   {
     "id": 1084242,
@@ -607,7 +625,9 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=1084242&type=movie",
+    "source_play_url": "https://redflix.co/play?id=1084242&type=movie",
+    "primary_stream_url": null,
+    "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/1084242",
       "vidlink": "https://vidlink.pro/movie/1084242",
@@ -619,7 +639,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/1084242",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=1084242&tmdb=1"
     },
-    "updated_at": "2026-09-01T09:40:33.910370Z"
+    "updated_at": "2026-09-01T10:02:36.144742+00:00"
   },
   {
     "id": 1218925,
@@ -660,7 +680,9 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=1218925&type=movie",
+    "source_play_url": "https://redflix.co/play?id=1218925&type=movie",
+    "primary_stream_url": null,
+    "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/1218925",
       "vidlink": "https://vidlink.pro/movie/1218925",
@@ -672,7 +694,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/1218925",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=1218925&tmdb=1"
     },
-    "updated_at": "2026-09-01T09:40:34.735794Z"
+    "updated_at": "2026-09-01T10:02:37.120701+00:00"
   },
   {
     "id": 569094,
@@ -713,7 +735,9 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=569094&type=movie",
+    "source_play_url": "https://redflix.co/play?id=569094&type=movie",
+    "primary_stream_url": null,
+    "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/569094",
       "vidlink": "https://vidlink.pro/movie/569094",
@@ -725,7 +749,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/569094",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=569094&tmdb=1"
     },
-    "updated_at": "2026-09-01T09:40:33.910370Z"
+    "updated_at": "2026-09-01T10:02:36.144742+00:00"
   },
   {
     "id": 620249,
@@ -765,7 +789,9 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=620249&type=movie",
+    "source_play_url": "https://redflix.co/play?id=620249&type=movie",
+    "primary_stream_url": null,
+    "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/620249",
       "vidlink": "https://vidlink.pro/movie/620249",
@@ -777,7 +803,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/620249",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=620249&tmdb=1"
     },
-    "updated_at": "2026-09-01T09:40:35.551044Z"
+    "updated_at": "2026-09-01T10:02:37.856071+00:00"
   },
   {
     "id": 372058,
@@ -817,7 +843,9 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=372058&type=movie",
+    "source_play_url": "https://redflix.co/play?id=372058&type=movie",
+    "primary_stream_url": null,
+    "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/372058",
       "vidlink": "https://vidlink.pro/movie/372058",
@@ -829,7 +857,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/372058",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=372058&tmdb=1"
     },
-    "updated_at": "2026-09-01T09:40:35.551044Z"
+    "updated_at": "2026-09-01T10:02:37.856071+00:00"
   },
   {
     "id": 129,
@@ -869,7 +897,9 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=129&type=movie",
+    "source_play_url": "https://redflix.co/play?id=129&type=movie",
+    "primary_stream_url": null,
+    "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/129",
       "vidlink": "https://vidlink.pro/movie/129",
@@ -881,7 +911,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/129",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=129&tmdb=1"
     },
-    "updated_at": "2026-09-01T09:40:34.735794Z"
+    "updated_at": "2026-09-01T10:02:37.120701+00:00"
   },
   {
     "id": 12477,
@@ -921,7 +951,9 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=12477&type=movie",
+    "source_play_url": "https://redflix.co/play?id=12477&type=movie",
+    "primary_stream_url": null,
+    "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/12477",
       "vidlink": "https://vidlink.pro/movie/12477",
@@ -933,6 +965,6 @@
       "vidsrc": "https://vidsrc.to/embed/movie/12477",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=12477&tmdb=1"
     },
-    "updated_at": "2026-09-01T09:40:35.551044Z"
+    "updated_at": "2026-09-01T10:02:37.856071+00:00"
   }
 ]

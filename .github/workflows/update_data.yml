@@ -1,15 +1,15 @@
-name: Auto Update Movie Database
+name: Auto Sync & Health Repair Engine
 
 on:
   schedule:
-    - cron: '0 */12 * * *' # Runs automatically every 12 hours
+    - cron: '0 */6 * * *' # Runs automatically every 6 hours
   workflow_dispatch:        # Allows manual run from GitHub Actions tab
 
 permissions:
   contents: write
 
 jobs:
-  update-database:
+  sync-and-repair:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,7 +26,7 @@ jobs:
         run: |
           pip install -r scripts/requirements.txt
 
-      - name: Run Movie & Poster Scraper
+      - name: Step 1 - Smart Incremental Ingestion & Multi-Format Export
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
@@ -35,9 +35,13 @@ jobs:
         run: |
           python scripts/scraper.py
 
-      - name: Commit and Push Updated Data
+      - name: Step 2 - Chunked Dead Link Health Check & Auto-Repair
+        run: |
+          python scripts/repair_links.py
+
+      - name: Commit and Push Updated Datasets & Playlists
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update movie database & stream sources [skip ci]" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-sync (6h cycle): Incremental ingestion, M3U/TXT export & health check repair [skip ci]" && git push)

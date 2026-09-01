@@ -36,7 +36,9 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=1594914&type=movie",
+    "source_play_url": "https://redflix.co/play?id=1594914&type=movie",
+    "primary_stream_url": null,
+    "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/1594914",
       "vidlink": "https://vidlink.pro/movie/1594914",
@@ -48,7 +50,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/1594914",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=1594914&tmdb=1"
     },
-    "updated_at": "2026-09-01T09:40:33.057674Z"
+    "updated_at": "2026-09-01T10:02:35.472478+00:00"
   },
   {
     "id": 1391021,
@@ -93,7 +95,9 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=1391021&type=movie",
+    "source_play_url": "https://redflix.co/play?id=1391021&type=movie",
+    "primary_stream_url": null,
+    "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/1391021",
       "vidlink": "https://vidlink.pro/movie/1391021",
@@ -105,7 +109,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/1391021",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=1391021&tmdb=1"
     },
-    "updated_at": "2026-09-01T09:39:34.757352Z"
+    "updated_at": "2026-09-01T10:02:28.535810+00:00"
   },
   {
     "id": 910850,
@@ -152,7 +156,9 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=910850&type=movie",
+    "source_play_url": "https://redflix.co/play?id=910850&type=movie",
+    "primary_stream_url": null,
+    "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/910850",
       "vidlink": "https://vidlink.pro/movie/910850",
@@ -164,7 +170,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/910850",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=910850&tmdb=1"
     },
-    "updated_at": "2026-09-01T09:39:43.829230Z"
+    "updated_at": "2026-09-01T10:02:29.497567+00:00"
   },
   {
     "id": 192139,
@@ -211,7 +217,9 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=192139&type=movie",
+    "source_play_url": "https://redflix.co/play?id=192139&type=movie",
+    "primary_stream_url": null,
+    "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/192139",
       "vidlink": "https://vidlink.pro/movie/192139",
@@ -223,7 +231,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/192139",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=192139&tmdb=1"
     },
-    "updated_at": "2026-09-01T09:39:58.892374Z"
+    "updated_at": "2026-09-01T10:02:30.293454+00:00"
   },
   {
     "id": 424,
@@ -263,7 +271,9 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=424&type=movie",
+    "source_play_url": "https://redflix.co/play?id=424&type=movie",
+    "primary_stream_url": null,
+    "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/424",
       "vidlink": "https://vidlink.pro/movie/424",
@@ -275,7 +285,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/424",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=424&tmdb=1"
     },
-    "updated_at": "2026-09-01T09:40:34.735794Z"
+    "updated_at": "2026-09-01T10:02:37.120701+00:00"
   },
   {
     "id": 12477,
@@ -315,7 +325,9 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=12477&type=movie",
+    "source_play_url": "https://redflix.co/play?id=12477&type=movie",
+    "primary_stream_url": null,
+    "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/12477",
       "vidlink": "https://vidlink.pro/movie/12477",
@@ -327,6 +339,6 @@
       "vidsrc": "https://vidsrc.to/embed/movie/12477",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=12477&tmdb=1"
     },
-    "updated_at": "2026-09-01T09:40:35.551044Z"
+    "updated_at": "2026-09-01T10:02:37.856071+00:00"
   }
 ]

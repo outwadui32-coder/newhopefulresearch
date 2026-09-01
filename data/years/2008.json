@@ -37,7 +37,9 @@
       "720p HD",
       "480p SD"
     ],
-    "redflix_play_url": "https://redflix.co/play?id=155&type=movie",
+    "source_play_url": "https://redflix.co/play?id=155&type=movie",
+    "primary_stream_url": null,
+    "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/155",
       "vidlink": "https://vidlink.pro/movie/155",
@@ -49,6 +51,6 @@
       "vidsrc": "https://vidsrc.to/embed/movie/155",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=155&tmdb=1"
     },
-    "updated_at": "2026-09-01T09:40:34.735794Z"
+    "updated_at": "2026-09-01T10:02:37.120701+00:00"
   }
 ]
