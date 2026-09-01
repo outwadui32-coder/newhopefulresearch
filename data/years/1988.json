@@ -36,19 +36,16 @@
       "720p HD",
       "480p SD"
     ],
-    "source_play_url": "https://redflix.co/play?id=11216&type=movie",
-    "primary_stream_url": null,
-    "health_status": "online",
-    "stream_servers": {
-      "vidbolt": "https://vidbolt.xyz/movie/11216",
-      "vidlink": "https://vidlink.pro/movie/11216",
-      "videasy": "https://player.videasy.to/movie/11216",
-      "vidfast": "https://vidfast.vc/movie/11216",
-      "vidcore": "https://vidcore.net/movie/11216",
-      "vidnest": "https://vidnest.fun/movie/11216",
-      "autoembed": "https://player.autoembed.cc/embed/movie/11216",
-      "vidsrc": "https://vidsrc.to/embed/movie/11216",
-      "multiembed": "https://multiembed.mov/directstream.php?video_id=11216&tmdb=1"
+    "stream_type": "direct_hls_media",
+    "direct_stream_url": "https://multiembed.mov/directstream.php?video_id=11216&tmdb=1",
+    "stream_sources": {
+      "primary_hls_stream": "https://multiembed.mov/directstream.php?video_id=11216&tmdb=1",
+      "backup_hls_stream": "https://autoembed.co/movie/tmdb/11216",
+      "qualities": {
+        "4K Ultra HD": "https://multiembed.mov/directstream.php?video_id=11216&tmdb=1&res=4k",
+        "1080p Full HD": "https://multiembed.mov/directstream.php?video_id=11216&tmdb=1&res=1080",
+        "720p HD": "https://multiembed.mov/directstream.php?video_id=11216&tmdb=1&res=720"
+      }
     },
     "updated_at": "2026-09-01T10:31:08.172639+00:00"
   },
@@ -90,19 +87,16 @@
       "720p HD",
       "480p SD"
     ],
-    "source_play_url": "https://redflix.co/play?id=12477&type=movie",
-    "primary_stream_url": null,
-    "health_status": "online",
-    "stream_servers": {
-      "vidbolt": "https://vidbolt.xyz/movie/12477",
-      "vidlink": "https://vidlink.pro/movie/12477",
-      "videasy": "https://player.videasy.to/movie/12477",
-      "vidfast": "https://vidfast.vc/movie/12477",
-      "vidcore": "https://vidcore.net/movie/12477",
-      "vidnest": "https://vidnest.fun/movie/12477",
-      "autoembed": "https://player.autoembed.cc/embed/movie/12477",
-      "vidsrc": "https://vidsrc.to/embed/movie/12477",
-      "multiembed": "https://multiembed.mov/directstream.php?video_id=12477&tmdb=1"
+    "stream_type": "direct_hls_media",
+    "direct_stream_url": "https://multiembed.mov/directstream.php?video_id=12477&tmdb=1",
+    "stream_sources": {
+      "primary_hls_stream": "https://multiembed.mov/directstream.php?video_id=12477&tmdb=1",
+      "backup_hls_stream": "https://autoembed.co/movie/tmdb/12477",
+      "qualities": {
+        "4K Ultra HD": "https://multiembed.mov/directstream.php?video_id=12477&tmdb=1&res=4k",
+        "1080p Full HD": "https://multiembed.mov/directstream.php?video_id=12477&tmdb=1&res=1080",
+        "720p HD": "https://multiembed.mov/directstream.php?video_id=12477&tmdb=1&res=720"
+      }
     },
     "updated_at": "2026-09-01T10:31:08.172603+00:00"
   }

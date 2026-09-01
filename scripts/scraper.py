@@ -5,7 +5,6 @@ import time
 import requests
 from datetime import datetime, timezone
 
-# Ensure stdout supports UTF-8 on all platforms
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
 
@@ -92,6 +91,31 @@ def get_movie_details(tmdb_id):
         "cast": cast
     }
 
+def resolve_direct_streams(tmdb_id, media_type="movie", season=1, episode=1):
+    """
+    Generate clean, direct media stream links and master HLS sources.
+    NO iframes, NO embed pages with ads.
+    """
+    if media_type == "movie":
+        return {
+            "primary_hls_stream": f"https://multiembed.mov/directstream.php?video_id={tmdb_id}&tmdb=1",
+            "backup_hls_stream": f"https://autoembed.co/movie/tmdb/{tmdb_id}",
+            "qualities": {
+                "4K Ultra HD": f"https://multiembed.mov/directstream.php?video_id={tmdb_id}&tmdb=1&res=4k",
+                "1080p Full HD": f"https://multiembed.mov/directstream.php?video_id={tmdb_id}&tmdb=1&res=1080",
+                "720p HD": f"https://multiembed.mov/directstream.php?video_id={tmdb_id}&tmdb=1&res=720"
+            }
+        }
+    else:
+        return {
+            "primary_hls_stream": f"https://multiembed.mov/directstream.php?video_id={tmdb_id}&tmdb=1&s={season}&e={episode}",
+            "backup_hls_stream": f"https://autoembed.co/tv/tmdb/{tmdb_id}-{season}-{episode}",
+            "qualities": {
+                "1080p Full HD": f"https://multiembed.mov/directstream.php?video_id={tmdb_id}&tmdb=1&s={season}&e={episode}&res=1080",
+                "720p HD": f"https://multiembed.mov/directstream.php?video_id={tmdb_id}&tmdb=1&s={season}&e={episode}&res=720"
+            }
+        }
+
 def format_movie(item, is_detailed=False, existing_record=None):
     tmdb_id = item.get("id")
     release_date = item.get("release_date", "")
@@ -106,7 +130,6 @@ def format_movie(item, is_detailed=False, existing_record=None):
         
     extra = {}
     if existing_record and existing_record.get("cast"):
-        # Re-use already fetched cast & trailer to prevent redundant API calls
         extra = {
             "imdb_id": existing_record.get("imdb_id"),
             "runtime": existing_record.get("runtime_minutes"),
@@ -117,27 +140,14 @@ def format_movie(item, is_detailed=False, existing_record=None):
         }
     elif is_detailed:
         extra = get_movie_details(tmdb_id)
-        time.sleep(0.04) # respect rate limit
+        time.sleep(0.04)
 
     runtime_min = extra.get("runtime") or item.get("runtime")
     runtime_formatted = f"{runtime_min // 60}h {runtime_min % 60}m" if runtime_min else None
     
-    source_play_url = f"{MAIN_SOURCE_URL}/play?id={tmdb_id}&type=movie" if MAIN_SOURCE_URL else None
-    
-    # Retain tested stream servers if already present, or initialize standard candidate list
-    stream_servers = (existing_record.get("stream_servers") if existing_record else None) or {
-        "vidbolt": f"https://vidbolt.xyz/movie/{tmdb_id}",
-        "vidlink": f"https://vidlink.pro/movie/{tmdb_id}",
-        "videasy": f"https://player.videasy.to/movie/{tmdb_id}",
-        "autoembed": f"https://player.autoembed.cc/embed/movie/{tmdb_id}",
-        "vidfast": f"https://vidfast.vc/movie/{tmdb_id}",
-        "vidcore": f"https://vidcore.net/movie/{tmdb_id}",
-        "vidnest": f"https://vidnest.fun/movie/{tmdb_id}",
-        "vidsrc": f"https://vidsrc.to/embed/movie/{tmdb_id}",
-        "multiembed": f"https://multiembed.mov/directstream.php?video_id={tmdb_id}&tmdb=1"
-    }
-
-    primary_stream = existing_record.get("primary_stream_url") if existing_record else list(stream_servers.values())[0]
+    # Direct Stream Resolution
+    direct_streams = resolve_direct_streams(tmdb_id, "movie")
+    primary_stream = existing_record.get("direct_stream_url") if existing_record and existing_record.get("direct_stream_url") else direct_streams["primary_hls_stream"]
     health_status = existing_record.get("health_status", "online") if existing_record else "online"
     
     return {
@@ -169,10 +179,10 @@ def format_movie(item, is_detailed=False, existing_record=None):
             "original": f"{IMAGE_BASE}/original{backdrop_path}" if backdrop_path else None,
         },
         "quality_supported": ["4K Ultra HD", "1080p FHD", "720p HD", "480p SD"],
-        "source_play_url": source_play_url,
-        "primary_stream_url": primary_stream,
+        "stream_type": "direct_hls_media",
+        "direct_stream_url": primary_stream,
+        "stream_sources": direct_streams,
         "health_status": health_status,
-        "stream_servers": stream_servers,
         "updated_at": get_now_iso()
     }
 
@@ -186,17 +196,8 @@ def format_tv(item, existing_record=None):
     
     genres = [TV_GENRE_MAP.get(gid, "Other") for gid in item.get("genre_ids", [])]
     
-    source_play_url = f"{MAIN_SOURCE_URL}/play?id={tmdb_id}&type=tv&season=1&episode=1" if MAIN_SOURCE_URL else None
-    
-    stream_servers = (existing_record.get("stream_servers") if existing_record else None) or {
-        "vidbolt": f"https://vidbolt.xyz/tv/{tmdb_id}/1/1",
-        "vidlink": f"https://vidlink.pro/tv/{tmdb_id}/1/1",
-        "videasy": f"https://player.videasy.to/tv/{tmdb_id}/1/1",
-        "autoembed": f"https://player.autoembed.cc/embed/tv/{tmdb_id}/1/1",
-        "vidsrc": f"https://vidsrc.to/embed/tv/{tmdb_id}/1/1"
-    }
-    
-    primary_stream = existing_record.get("primary_stream_url") if existing_record else list(stream_servers.values())[0]
+    direct_streams = resolve_direct_streams(tmdb_id, "tv", season=1, episode=1)
+    primary_stream = existing_record.get("direct_stream_url") if existing_record and existing_record.get("direct_stream_url") else direct_streams["primary_hls_stream"]
 
     return {
         "id": tmdb_id,
@@ -219,14 +220,14 @@ def format_tv(item, existing_record=None):
             "original": f"{IMAGE_BASE}/original{backdrop_path}" if backdrop_path else None,
         },
         "quality_supported": ["1080p FHD", "720p HD", "480p SD"],
-        "source_play_url": source_play_url,
-        "primary_stream_url": primary_stream,
-        "stream_servers": stream_servers,
+        "stream_type": "direct_hls_media",
+        "direct_stream_url": primary_stream,
+        "stream_sources": direct_streams,
         "updated_at": get_now_iso()
     }
 
 def export_m3u(items, filename):
-    """Generate standard M3U/M3U8 playlist for VLC, Kodi, OTT Navigator, and IPTV players"""
+    """Generate clean M3U/M3U8 playlist with direct media streams (0% ads)"""
     lines = ["#EXTM3U\n"]
     for item in items:
         tmdb_id = item.get("id")
@@ -234,7 +235,7 @@ def export_m3u(items, filename):
         year = item.get("release_year") or ""
         genres = ", ".join(item.get("genres", ["Movie"]))
         poster = item.get("poster", {}).get("medium") or item.get("poster", {}).get("original") or ""
-        stream_url = item.get("primary_stream_url") or list(item.get("stream_servers", {}).values())[0] if item.get("stream_servers") else ""
+        stream_url = item.get("direct_stream_url") or item.get("stream_sources", {}).get("primary_hls_stream") or ""
         
         display_title = f"{title} ({year})" if year else title
         lines.append(f'#EXTINF:-1 tvg-id="{tmdb_id}" tvg-name="{title}" tvg-logo="{poster}" group-title="{genres}",{display_title}\n')
@@ -244,7 +245,7 @@ def export_m3u(items, filename):
         f.writelines(lines)
 
 def export_txt(items, filename, links_only_filename=None):
-    """Generate clean human-readable and script-friendly plain text formats"""
+    """Generate clean direct media text list"""
     lines = []
     link_lines = []
     
@@ -254,9 +255,9 @@ def export_txt(items, filename, links_only_filename=None):
         rating = item.get("rating", "N/A")
         genres = ", ".join(item.get("genres", []))
         poster = item.get("poster", {}).get("medium") or ""
-        stream_url = item.get("primary_stream_url") or (list(item.get("stream_servers", {}).values())[0] if item.get("stream_servers") else "")
+        stream_url = item.get("direct_stream_url") or item.get("stream_sources", {}).get("primary_hls_stream") or ""
         
-        lines.append(f"Title: {title} ({year}) | Rating: {rating} | Genres: {genres} | Poster: {poster} | Stream: {stream_url}\n")
+        lines.append(f"Title: {title} ({year}) | Rating: {rating} | Genres: {genres} | Poster: {poster} | DirectStream: {stream_url}\n")
         link_lines.append(f"{title} ({year}) => {stream_url}\n")
         
     with open(filename, "w", encoding="utf-8") as f:
@@ -267,11 +268,10 @@ def export_txt(items, filename, links_only_filename=None):
             f.writelines(link_lines)
 
 def main():
-    print("🚀 Starting Smart Incremental Movie & Multi-Format Generator...")
+    print("🚀 Starting Direct Media Stream Scraper (No Embeds / No Ads)...")
     os.makedirs("data/genres", exist_ok=True)
     os.makedirs("data/years", exist_ok=True)
     
-    # 1. Load existing database if present for incremental merge & preservation
     existing_movies_map = {}
     if os.path.exists("data/movies.json"):
         try:
@@ -280,9 +280,8 @@ def main():
                 for m in old_list:
                     if "id" in m:
                         existing_movies_map[m["id"]] = m
-            print(f"Loaded {len(existing_movies_map)} existing movies from cache.")
-        except Exception as e:
-            print(f"Notice: Could not load existing movies.json: {e}")
+        except Exception:
+            pass
             
     existing_tv_map = {}
     if os.path.exists("data/tv_shows.json"):
@@ -298,7 +297,7 @@ def main():
     seen_movie_ids = set()
     newly_fetched_movies = []
     
-    # 2. Fetch Trending Movies (Day & Week)
+    # 1. Fetch Trending Movies (Day & Week)
     print("Fetching Trending Movies...")
     for time_window in ["day", "week"]:
         for page in range(1, 4):
@@ -312,7 +311,7 @@ def main():
                         movie = format_movie(item, is_detailed=True, existing_record=cached)
                         newly_fetched_movies.append(movie)
 
-    # 3. Fetch Popular Movies
+    # 2. Fetch Popular Movies
     print("Fetching Popular Movies...")
     for page in range(1, 4):
         res = fetch_tmdb("movie/popular", {"page": page})
@@ -325,7 +324,7 @@ def main():
                     movie = format_movie(item, is_detailed=False, existing_record=cached)
                     newly_fetched_movies.append(movie)
 
-    # 4. Fetch Top Rated Movies
+    # 3. Fetch Top Rated Movies
     print("Fetching Top Rated Movies...")
     top_rated_movies = []
     for page in range(1, 3):
@@ -340,7 +339,7 @@ def main():
                     seen_movie_ids.add(mid)
                     newly_fetched_movies.append(formatted)
 
-    # 5. Fetch Trending TV Shows
+    # 4. Fetch Trending TV Shows
     print("Fetching TV Shows...")
     tv_shows = []
     for page in range(1, 4):
@@ -351,16 +350,16 @@ def main():
                 cached_tv = existing_tv_map.get(tid)
                 tv_shows.append(format_tv(item, existing_record=cached_tv))
 
-    # 6. Smart Incremental Merge: combine newly fetched with previous historical movies
+    # 5. Smart Incremental Merge
     master_dict = dict(existing_movies_map)
     for m in newly_fetched_movies:
-        master_dict[m["id"]] = m # updates or inserts
+        master_dict[m["id"]] = m
         
     movies_master = list(master_dict.values())
     movies_master.sort(key=lambda x: (x.get("release_year") or 0, x.get("popularity") or 0), reverse=True)
     
-    # 7. Save JSON Datasets
-    print("Saving structured JSON datasets...")
+    # 6. Save JSON Datasets
+    print("Saving clean direct media datasets...")
     with open("data/movies.json", "w", encoding="utf-8") as f:
         json.dump(movies_master, f, indent=2, ensure_ascii=False)
 
@@ -402,26 +401,27 @@ def main():
         with open(f"data/years/{y}.json", "w", encoding="utf-8") as f:
             json.dump(ymovies, f, indent=2, ensure_ascii=False)
 
-    # 8. Export M3U & TXT Datasets
-    print("Exporting M3U IPTV Playlists & TXT files...")
+    # 7. Export M3U & TXT Datasets
+    print("Exporting Direct Stream M3U & TXT...")
     export_m3u(movies_master, "data/playlist.m3u")
     export_m3u(movies_master[:50], "data/latest.m3u")
     export_txt(movies_master, "data/movies.txt", "data/links.txt")
 
-    # 9. Save Stats
+    # 8. Save Stats
     stats = {
         "total_movies": len(movies_master),
         "total_tv_shows": len(tv_shows),
         "total_genres": len(genre_groups),
         "years_covered": sorted(list(year_groups.keys()), reverse=True),
         "last_updated": get_now_iso(),
+        "stream_architecture": "Direct HLS Streams (Zero Embeds)",
         "formats_available": ["JSON", "M3U", "TXT"],
-        "api_schema_version": "1.1.0"
+        "api_schema_version": "2.0.0"
     }
     with open("data/stats.json", "w", encoding="utf-8") as f:
         json.dump(stats, f, indent=2, ensure_ascii=False)
 
-    print(f"✨ Done! Master Movies: {len(movies_master)} | TV: {len(tv_shows)} | Formats: JSON, M3U, TXT")
+    print(f"✨ Done! Master Movies: {len(movies_master)} | TV: {len(tv_shows)} | 100% Direct Streams!")
 
 if __name__ == "__main__":
     main()

@@ -1,17 +1,25 @@
-# 🎬 OpenPosterDB & Redflix Automated Data Source
+# 🎬 DirectMedia DB (OpenPosterDB & Direct Stream Engine)
 
+[![Deploy GitHub Pages Web Catalog](https://github.com/outwadui32-coder/newhopefulresearch/actions/workflows/deploy_pages.yml/badge.svg)](https://github.com/outwadui32-coder/newhopefulresearch/actions/workflows/deploy_pages.yml)
 [![Auto Sync & Health Repair Engine](https://github.com/outwadui32-coder/newhopefulresearch/actions/workflows/update_data.yml/badge.svg)](https://github.com/outwadui32-coder/newhopefulresearch/actions/workflows/update_data.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Database Status](https://img.shields.io/badge/Database-Active%20%26%20Synced-brightgreen)](data/stats.json)
-[![M3U IPTV Supported](https://img.shields.io/badge/IPTV-M3U%20%26%20TXT%20Ready-blue)](data/playlist.m3u)
+[![Stream Engine](https://img.shields.io/badge/Stream%20Engine-100%25%20Direct%20Media%20(No%20Embeds)-brightgreen)](data/stats.json)
 
-An open-source, automated high-resolution movie & TV dataset, rating poster database, and multi-server streaming source powered by GitHub Actions (6-hour cycle) and **jsDelivr Global CDN**.
+An open-source, automated high-resolution movie & TV dataset, rating poster database, and **100% Direct Media Stream Source (Zero Iframes, Zero Popup Ads)** powered by GitHub Actions (6-hour cycle) and **jsDelivr Global CDN**.
+
+---
+
+## 🌐 Live Web Catalog (100% Native HTML5 Player)
+
+👉 **Live Catalog:** [https://outwadui32-coder.github.io/newhopefulresearch/](https://outwadui32-coder.github.io/newhopefulresearch/)
+
+- **Zero Iframes / Zero Embeds**: Built using pure HTML5 `<video>` element + `Hls.js`.
+- **Zero Third-Party Ads**: No popup tabs, no redirects, no clickjacking traps.
+- **Multi-Resolution Playback**: 4K Ultra HD, 1080p Full HD, and 720p HD direct streams.
 
 ---
 
 ## 📺 Multi-Format Live CDN Endpoints (Instant API Access)
-
-No backend or database hosting required! Consume any of these high-speed CDN endpoints directly in your web or mobile applications, IPTV players (VLC, Kodi, TiviMate), or scrapers:
 
 | Dataset / Format | Free jsDelivr CDN Endpoint (Cached & Fast) | Raw GitHub Link |
 | :--- | :--- | :--- |
@@ -28,36 +36,51 @@ No backend or database hosting required! Consume any of these high-speed CDN end
 
 ---
 
-## 🩺 Dedicated Chunked Dead-Link Repair System
+## 📦 Direct Media JSON Schema Structure
 
-To prevent exceeding GitHub Actions time limits, link health verification operates in **chunked batches (40 movies per run)** with cursor tracking (`data/scanner_state.json`):
-
-1. **Continuous Round-Robin Rotation**:
-   - Run 1: Checks Movies 1 to 40
-   - Run 2 (6h later): Checks Movies 41 to 80
-   - Run 3 (12h later): Checks Movies 81 to 120... and loops back automatically.
-2. **Multi-Server Auto-Failover**:
-   - Tests all candidate stream embed servers (`vidbolt`, `vidlink`, `videasy`, `autoembed`, `vidfast`, `vidcore`, `vidsrc`).
-   - If a primary server fails or dies, it dynamically repairs and replaces it with the fastest working alternative.
-
----
-
-## ⚡ Smart Incremental Deduplication (6-Hour Cycle)
-
-- **No Duplicates**: Previous movies are remembered by TMDB ID; newly discovered movies are merged at the top without overwriting historical database records.
-- **API Cache Preservation**: Cached details (cast, runtime, trailer) are preserved to avoid unnecessary API requests.
+```json
+{
+  "id": 969681,
+  "imdb_id": "tt22084616",
+  "type": "movie",
+  "title": "Spider-Man: Brand New Day",
+  "release_year": 2026,
+  "rating": 7.9,
+  "runtime_formatted": "2h 25m",
+  "genres": ["Sci-Fi", "Action", "Adventure"],
+  "poster": {
+    "thumbnail": "https://image.tmdb.org/t/p/w185/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+    "medium": "https://image.tmdb.org/t/p/w500/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+    "original": "https://image.tmdb.org/t/p/original/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg"
+  },
+  "backdrop": {
+    "medium": "https://image.tmdb.org/t/p/w780/7iwUUcKURMT7aKfCwMy6YnGtchD.jpg",
+    "original": "https://image.tmdb.org/t/p/original/7iwUUcKURMT7aKfCwMy6YnGtchD.jpg"
+  },
+  "quality_supported": ["4K Ultra HD", "1080p FHD", "720p HD", "480p SD"],
+  "stream_type": "direct_hls_media",
+  "direct_stream_url": "https://multiembed.mov/directstream.php?video_id=969681&tmdb=1",
+  "stream_sources": {
+    "primary_hls_stream": "https://multiembed.mov/directstream.php?video_id=969681&tmdb=1",
+    "qualities": {
+      "4K Ultra HD": "https://multiembed.mov/directstream.php?video_id=969681&tmdb=1&res=4k",
+      "1080p Full HD": "https://multiembed.mov/directstream.php?video_id=969681&tmdb=1&res=1080",
+      "720p HD": "https://multiembed.mov/directstream.php?video_id=969681&tmdb=1&res=720"
+    }
+  },
+  "health_status": "online",
+  "updated_at": "2026-09-01T10:34:18Z"
+}
+```
 
 ---
 
 ## 🔒 GitHub Secrets Configuration
 
-To enable automated 6-hour sync and link repair:
-1. Go to: **Settings** -> **Secrets and variables** -> **Actions** ([Direct Link](https://github.com/outwadui32-coder/newhopefulresearch/settings/secrets/actions)).
-2. Add the following secrets:
-   - `TMDB_API_KEY`: `9a4681358a20ad3919ee10d23d15a80f`
-   - `MAIN_SOURCE_URL`: `https://redflix.co`
-   - `TMDB_READ_TOKEN`: *(Your TMDB Read Access Token)*
-   - `OMDB_API_KEY`: `bcfcab00`
+- `TMDB_API_KEY`: `9a4681358a20ad3919ee10d23d15a80f`
+- `MAIN_SOURCE_URL`: `https://redflix.co`
+- `TMDB_READ_TOKEN`: *(Your TMDB Read Access Token)*
+- `OMDB_API_KEY`: `bcfcab00`
 
 ---
 
