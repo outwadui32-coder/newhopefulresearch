@@ -34,12 +34,29 @@
     1957,
     1954
   ],
-  "last_updated": "2026-09-01T10:37:48.456952+00:00",
-  "stream_architecture": "Direct HLS Streams (Zero Embeds)",
+  "last_updated": "2026-09-01T10:53:36.709837+00:00",
+  "extracted_from": "Redflix Live Engine (8a2cbec7dea88403.js)",
+  "total_servers_per_title": 14,
+  "servers_list": [
+    "VidBolt (Redflix)",
+    "Filmu (Bolt)",
+    "VidLink (Nova)",
+    "Videasy (Mega)",
+    "VidFast (Alpha)",
+    "VidCore (Orion)",
+    "Cinezo",
+    "VidUp (Premium)",
+    "ZXCStream (Vidgod)",
+    "ScreenScape (Hindi)",
+    "ReelsDownload (Hindi New)",
+    "Peachify (Hindi Mirror)",
+    "ModiPlay (Hindi 2)",
+    "AutoEmbed"
+  ],
   "formats_available": [
     "JSON",
     "M3U",
     "TXT"
   ],
-  "api_schema_version": "2.1.0"
+  "api_schema_version": "3.0.0"
 }

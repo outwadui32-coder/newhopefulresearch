@@ -37,15 +37,15 @@ def check_stream_health(url):
 def repair_movie_links(movie):
     tmdb_id = movie.get("id")
     servers = movie.get("stream_servers", {})
-    primary = servers.get("vidbolt") or f"https://vidbolt.xyz/movie/{tmdb_id}"
+    primary = servers.get("redflix_primary") or f"https://vidbolt.xyz/movie/{tmdb_id}"
     
     is_alive, code = check_stream_health(primary)
     if is_alive:
         movie["primary_stream_url"] = primary
         movie["health_status"] = "online"
     else:
-        # Fallback to vidlink / videasy
-        fallback = servers.get("vidlink") or f"https://vidlink.pro/movie/{tmdb_id}"
+        # Fallback to nova_vidlink or mega_videasy
+        fallback = servers.get("nova_vidlink") or f"https://vidlink.pro/movie/{tmdb_id}"
         movie["primary_stream_url"] = fallback
         movie["health_status"] = "online"
             
@@ -68,7 +68,7 @@ def save_state(state):
         json.dump(state, f, indent=2)
 
 def main():
-    print("🩺 Starting Streaming Server Health Scanner...")
+    print("🩺 Starting Redflix Live Server Health Scanner...")
     
     if not os.path.exists(MOVIES_FILE):
         print("No movies.json found.")
@@ -91,7 +91,7 @@ def main():
     end_idx = min(start_idx + BATCH_SIZE, total_movies)
     batch_movies = movies[start_idx:end_idx]
     
-    print(f"Checking Streams: Movies {start_idx + 1} to {end_idx} of {total_movies}")
+    print(f"Checking 14-Server Array: Movies {start_idx + 1} to {end_idx} of {total_movies}")
     
     repaired_count = 0
     online_count = 0
@@ -121,7 +121,7 @@ def main():
     with open("data/latest.json", "w", encoding="utf-8") as f:
         json.dump(movies[:50], f, indent=2, ensure_ascii=False)
         
-    print(f"✨ Stream Batch Done! Verified: {repaired_count}, Next cursor: {next_cursor}/{total_movies}")
+    print(f"✨ Redflix Batch Done! Verified: {repaired_count}, Next cursor: {next_cursor}/{total_movies}")
 
 if __name__ == "__main__":
     main()

@@ -37,18 +37,24 @@
       "720p HD",
       "480p SD"
     ],
-    "stream_type": "direct_hls_media",
-    "direct_stream_url": "https://multiembed.mov/directstream.php?video_id=1612018&tmdb=1",
-    "stream_sources": {
-      "primary_hls_stream": "https://multiembed.mov/directstream.php?video_id=1612018&tmdb=1",
-      "backup_hls_stream": "https://autoembed.co/movie/tmdb/1612018",
-      "qualities": {
-        "4K Ultra HD": "https://multiembed.mov/directstream.php?video_id=1612018&tmdb=1&res=4k",
-        "1080p Full HD": "https://multiembed.mov/directstream.php?video_id=1612018&tmdb=1&res=1080",
-        "720p HD": "https://multiembed.mov/directstream.php?video_id=1612018&tmdb=1&res=720"
-      }
+    "primary_stream_url": "https://vidbolt.xyz/movie/1612018",
+    "stream_servers": {
+      "redflix_primary": "https://vidbolt.xyz/movie/1612018",
+      "bolt_filmu": "https://embed.filmu.in/movie/1612018",
+      "nova_vidlink": "https://vidlink.pro/movie/1612018",
+      "mega_videasy": "https://player.videasy.to/movie/1612018",
+      "alpha_vidfast": "https://vidfast.vc/movie/1612018",
+      "orion_vidcore": "https://vidcore.net/movie/1612018",
+      "cinezo": "https://player.cinezo.live/movie/1612018",
+      "premium_vidup": "https://vidup.to/movie/1612018",
+      "vidgod_zxcstream": "https://api.zxcstream.xyz/movie/1612018",
+      "hindi_screenscape": "https://screenscape.me/movie/1612018",
+      "hindi_new": "https://embed.reelsdownload.online/movie/1612018",
+      "hindi_mirror_peachify": "https://peachify.top/movie/1612018",
+      "hindi_2_modiplay": "https://rozgarlelo.modiplay.xyz/movie/1612018",
+      "autoembed": "https://player.autoembed.cc/embed/movie/1612018"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T10:37:48.129342+00:00"
+    "updated_at": "2026-09-01T10:53:32.873164+00:00"
   }
 ]
