@@ -31,6 +31,7 @@ jobs:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
           OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
+          MAIN_SOURCE_URL: ${{ secrets.MAIN_SOURCE_URL }}
         run: |
           python scripts/scraper.py
 

@@ -34,67 +34,28 @@ No backend or database hosting required! Consume any of these high-speed CDN end
 
 ---
 
-## 📦 JSON Schema Structure
+## 🔒 GitHub Secrets Configuration (For Actions & Automation)
 
-Each movie object contains rich metadata, high-res posters, trailers, and multi-server stream embeds:
-
-```json
-{
-  "id": 969681,
-  "imdb_id": "tt22084616",
-  "type": "movie",
-  "title": "Spider-Man: Brand New Day",
-  "original_title": "Spider-Man: Brand New Day",
-  "tagline": "A brand new day starts now.",
-  "release_year": 2026,
-  "release_date": "2026-07-29",
-  "rating": 7.9,
-  "vote_count": 2325,
-  "popularity": 1028.0,
-  "runtime_minutes": 145,
-  "runtime_formatted": "2h 25m",
-  "genres": ["Sci-Fi", "Action", "Adventure"],
-  "overview": "Fighting crime full-time as Spider-Man in a world that doesn't remember him...",
-  "cast": ["Tom Holland", "Zendaya", "Mark Ruffalo", "Jon Bernthal"],
-  "trailer_url": "https://www.youtube.com/watch?v=PGL_1onLHlg",
-  "trailer_youtube_id": "PGL_1onLHlg",
-  "poster": {
-    "thumbnail": "https://image.tmdb.org/t/p/w185/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
-    "medium": "https://image.tmdb.org/t/p/w500/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
-    "original": "https://image.tmdb.org/t/p/original/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg"
-  },
-  "backdrop": {
-    "medium": "https://image.tmdb.org/t/p/w780/7iwUUcKURMT7aKfCwMy6YnGtchD.jpg",
-    "original": "https://image.tmdb.org/t/p/original/7iwUUcKURMT7aKfCwMy6YnGtchD.jpg"
-  },
-  "quality_supported": ["4K Ultra HD", "1080p FHD", "720p HD", "480p SD"],
-  "redflix_play_url": "https://redflix.co/play?id=969681&type=movie",
-  "stream_servers": {
-    "vidbolt": "https://vidbolt.xyz/movie/969681",
-    "vidlink": "https://vidlink.pro/movie/969681",
-    "videasy": "https://player.videasy.to/movie/969681",
-    "vidfast": "https://vidfast.vc/movie/969681",
-    "vidcore": "https://vidcore.net/movie/969681",
-    "vidnest": "https://vidnest.fun/movie/969681",
-    "autoembed": "https://player.autoembed.cc/embed/movie/969681",
-    "vidsrc": "https://vidsrc.to/embed/movie/969681",
-    "multiembed": "https://multiembed.mov/directstream.php?video_id=969681&tmdb=1"
-  },
-  "updated_at": "2026-09-01T09:40:38Z"
-}
-```
+To allow GitHub Actions to run automatically in your repo with full security:
+1. Go to your repo: **Settings** -> **Secrets and variables** -> **Actions** ([Link](https://github.com/outwadui32-coder/newhopefulresearch/settings/secrets/actions)).
+2. Click **New repository secret**.
+3. Add the following secrets:
+   - `TMDB_API_KEY`: Your TMDB API Key (`9a4681358a20ad3919ee10d23d15a80f`)
+   - `MAIN_SOURCE_URL`: Main source site base URL (`https://redflix.co`)
+   - `TMDB_READ_TOKEN`: (Optional) TMDB Read Access Token
+   - `OMDB_API_KEY`: (Optional) OMDb API Key (`bcfcab00`)
 
 ---
 
 ## ⚙️ How It Works (Automation Engine)
 
 1. **GitHub Actions (`.github/workflows/update_data.yml`)**:
-   - Executes every 12 hours via cron schedule.
+   - Executes every 12 hours via cron schedule or manual trigger.
    - Runs `scripts/scraper.py` using secure GitHub Repository Secrets.
    - Automatically commits and pushes new datasets if changes are detected.
 
 2. **Secrets Protection**:
-   - All API keys and source tokens are strictly kept in **GitHub Secrets** (`TMDB_API_KEY`, `TMDB_READ_TOKEN`, `OMDB_API_KEY`).
+   - All API keys, source site URLs, and tokens are strictly kept in **GitHub Secrets** (`TMDB_API_KEY`, `MAIN_SOURCE_URL`, etc.).
    - No sensitive credentials are exposed in public code.
 
 ---
@@ -117,7 +78,7 @@ Each movie object contains rich metadata, high-res posters, trailers, and multi-
 3. **Set your API keys**:
    ```bash
    cp .env.example .env
-   # Edit .env and enter your TMDB and OMDb API keys
+   # Edit .env and enter your TMDB and MAIN_SOURCE_URL values
    ```
 
 4. **Run the scraper**:
@@ -127,18 +88,6 @@ Each movie object contains rich metadata, high-res posters, trailers, and multi-
 
 5. **Preview the Web Catalog**:
    Open `index.html` in any web browser.
-
----
-
-## 🔒 Adding GitHub Secrets for GitHub Actions
-
-To allow GitHub Actions to run automatically in your repo:
-1. Go to your repo: **Settings** -> **Secrets and variables** -> **Actions**.
-2. Click **New repository secret**.
-3. Add the following secrets:
-   - `TMDB_API_KEY`: Your TMDB API Key
-   - `TMDB_READ_TOKEN`: (Optional) Read Access Token
-   - `OMDB_API_KEY`: (Optional) OMDb Key
 
 ---
 

@@ -3,16 +3,17 @@ import sys
 import json
 import time
 import requests
-from datetime import datetime
+from datetime import datetime, timezone
 
 # Ensure stdout supports UTF-8 on all platforms
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
 
-# Configuration from Environment Variables (Protected & Secret)
+# Configuration from Environment Variables / GitHub Secrets
 TMDB_API_KEY = os.getenv("TMDB_API_KEY", "9a4681358a20ad3919ee10d23d15a80f")
 TMDB_READ_TOKEN = os.getenv("TMDB_READ_TOKEN", "")
 OMDB_API_KEY = os.getenv("OMDB_API_KEY", "bcfcab00")
+MAIN_SOURCE_URL = os.getenv("MAIN_SOURCE_URL", os.getenv("SOURCE_SITE_URL", "https://redflix.co")).rstrip("/")
 
 BASE_URL = "https://api.themoviedb.org/3"
 IMAGE_BASE = "https://image.tmdb.org/t/p"
@@ -32,6 +33,9 @@ TV_GENRE_MAP = {
     10765: "Sci-Fi & Fantasy", 10766: "Soap", 10767: "Talk",
     10768: "War & Politics", 37: "Western"
 }
+
+def get_now_iso():
+    return datetime.now(timezone.utc).isoformat()
 
 def get_headers():
     headers = {
@@ -108,6 +112,9 @@ def format_movie(item, is_detailed=False):
     runtime_min = extra.get("runtime") or item.get("runtime")
     runtime_formatted = f"{runtime_min // 60}h {runtime_min % 60}m" if runtime_min else None
     
+    # Build play url with secret source url
+    source_play_url = f"{MAIN_SOURCE_URL}/play?id={tmdb_id}&type=movie" if MAIN_SOURCE_URL else None
+    
     return {
         "id": tmdb_id,
         "imdb_id": extra.get("imdb_id") or item.get("imdb_id"),
@@ -137,7 +144,7 @@ def format_movie(item, is_detailed=False):
             "original": f"{IMAGE_BASE}/original{backdrop_path}" if backdrop_path else None,
         },
         "quality_supported": ["4K Ultra HD", "1080p FHD", "720p HD", "480p SD"],
-        "redflix_play_url": f"https://redflix.co/play?id={tmdb_id}&type=movie",
+        "source_play_url": source_play_url,
         "stream_servers": {
             "vidbolt": f"https://vidbolt.xyz/movie/{tmdb_id}",
             "vidlink": f"https://vidlink.pro/movie/{tmdb_id}",
@@ -149,7 +156,7 @@ def format_movie(item, is_detailed=False):
             "vidsrc": f"https://vidsrc.to/embed/movie/{tmdb_id}",
             "multiembed": f"https://multiembed.mov/directstream.php?video_id={tmdb_id}&tmdb=1"
         },
-        "updated_at": datetime.utcnow().isoformat() + "Z"
+        "updated_at": get_now_iso()
     }
 
 def format_tv(item):
@@ -161,6 +168,8 @@ def format_tv(item):
     backdrop_path = item.get("backdrop_path")
     
     genres = [TV_GENRE_MAP.get(gid, "Other") for gid in item.get("genre_ids", [])]
+    
+    source_play_url = f"{MAIN_SOURCE_URL}/play?id={tmdb_id}&type=tv&season=1&episode=1" if MAIN_SOURCE_URL else None
     
     return {
         "id": tmdb_id,
@@ -183,7 +192,7 @@ def format_tv(item):
             "original": f"{IMAGE_BASE}/original{backdrop_path}" if backdrop_path else None,
         },
         "quality_supported": ["1080p FHD", "720p HD", "480p SD"],
-        "redflix_play_url": f"https://redflix.co/play?id={tmdb_id}&type=tv&season=1&episode=1",
+        "source_play_url": source_play_url,
         "stream_servers": {
             "vidbolt": f"https://vidbolt.xyz/tv/{tmdb_id}/1/1",
             "vidlink": f"https://vidlink.pro/tv/{tmdb_id}/1/1",
@@ -191,7 +200,7 @@ def format_tv(item):
             "autoembed": f"https://player.autoembed.cc/embed/tv/{tmdb_id}/1/1",
             "vidsrc": f"https://vidsrc.to/embed/tv/{tmdb_id}/1/1"
         },
-        "updated_at": datetime.utcnow().isoformat() + "Z"
+        "updated_at": get_now_iso()
     }
 
 def main():
@@ -301,7 +310,7 @@ def main():
         "total_tv_shows": len(tv_shows),
         "total_genres": len(genre_groups),
         "years_covered": sorted(list(year_groups.keys()), reverse=True),
-        "last_updated": datetime.utcnow().isoformat() + "Z",
+        "last_updated": get_now_iso(),
         "api_schema_version": "1.0.0"
     }
     with open("data/stats.json", "w", encoding="utf-8") as f:
