@@ -1,5 +1,5 @@
 {
-  "total_movies": 132,
+  "total_movies": 133,
   "total_tv_shows": 60,
   "total_genres": 19,
   "years_covered": [
@@ -34,7 +34,7 @@
     1957,
     1954
   ],
-  "last_updated": "2026-09-01T10:07:17.442430+00:00",
+  "last_updated": "2026-09-01T10:31:08.544859+00:00",
   "formats_available": [
     "JSON",
     "M3U",

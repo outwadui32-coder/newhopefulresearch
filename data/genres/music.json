@@ -9,7 +9,7 @@
     "release_year": 2026,
     "release_date": "2026-04-22",
     "rating": 8.7,
-    "vote_count": 4228,
+    "vote_count": 4227,
     "popularity": 73.9,
     "runtime_minutes": 128,
     "runtime_formatted": "2h 8m",
@@ -43,7 +43,7 @@
       "480p SD"
     ],
     "source_play_url": "https://redflix.co/play?id=936075&type=movie",
-    "primary_stream_url": null,
+    "primary_stream_url": "https://vidbolt.xyz/movie/936075",
     "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/936075",
@@ -51,11 +51,8 @@
       "videasy": "https://player.videasy.to/movie/936075",
       "vidfast": "https://vidfast.vc/movie/936075",
       "vidcore": "https://vidcore.net/movie/936075",
-      "vidnest": "https://vidnest.fun/movie/936075",
-      "autoembed": "https://player.autoembed.cc/embed/movie/936075",
-      "vidsrc": "https://vidsrc.to/embed/movie/936075",
-      "multiembed": "https://multiembed.mov/directstream.php?video_id=936075&tmdb=1"
+      "vidnest": "https://vidnest.fun/movie/936075"
     },
-    "updated_at": "2026-09-01T10:07:16.107280+00:00"
+    "updated_at": "2026-09-01T10:31:08.032340+00:00"
   }
 ]

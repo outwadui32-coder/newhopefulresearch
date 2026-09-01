@@ -38,7 +38,7 @@
       "480p SD"
     ],
     "source_play_url": "https://redflix.co/play?id=1612018&type=movie",
-    "primary_stream_url": null,
+    "primary_stream_url": "https://vidbolt.xyz/movie/1612018",
     "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/1612018",
@@ -46,11 +46,8 @@
       "videasy": "https://player.videasy.to/movie/1612018",
       "vidfast": "https://vidfast.vc/movie/1612018",
       "vidcore": "https://vidcore.net/movie/1612018",
-      "vidnest": "https://vidnest.fun/movie/1612018",
-      "autoembed": "https://player.autoembed.cc/embed/movie/1612018",
-      "vidsrc": "https://vidsrc.to/embed/movie/1612018",
-      "multiembed": "https://multiembed.mov/directstream.php?video_id=1612018&tmdb=1"
+      "vidnest": "https://vidnest.fun/movie/1612018"
     },
-    "updated_at": "2026-09-01T10:07:16.832266+00:00"
+    "updated_at": "2026-09-01T10:31:08.032252+00:00"
   }
 ]

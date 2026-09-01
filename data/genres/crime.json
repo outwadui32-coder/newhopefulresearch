@@ -9,7 +9,7 @@
     "release_year": 2026,
     "release_date": "2026-08-27",
     "rating": 8.9,
-    "vote_count": 291,
+    "vote_count": 292,
     "popularity": 318.6,
     "runtime_minutes": 27,
     "runtime_formatted": "0h 27m",
@@ -50,7 +50,7 @@
       "vidnest": "https://vidnest.fun/movie/1744462",
       "vidsrc": "https://vidsrc.to/embed/movie/1744462"
     },
-    "updated_at": "2026-09-01T10:07:15.994947+00:00"
+    "updated_at": "2026-09-01T10:31:07.250269+00:00"
   },
   {
     "id": 1621552,
@@ -62,7 +62,7 @@
     "release_year": 2026,
     "release_date": "2026-08-21",
     "rating": 8.9,
-    "vote_count": 432,
+    "vote_count": 433,
     "popularity": 306.4,
     "runtime_minutes": 91,
     "runtime_formatted": "1h 31m",
@@ -108,7 +108,7 @@
       "vidnest": "https://vidnest.fun/movie/1621552",
       "vidsrc": "https://vidsrc.to/embed/movie/1621552"
     },
-    "updated_at": "2026-09-01T10:07:15.995156+00:00"
+    "updated_at": "2026-09-01T10:31:07.357334+00:00"
   },
   {
     "id": 1213243,
@@ -166,7 +166,7 @@
       "vidnest": "https://vidnest.fun/movie/1213243",
       "vidsrc": "https://vidsrc.to/embed/movie/1213243"
     },
-    "updated_at": "2026-09-01T10:07:16.396404+00:00"
+    "updated_at": "2026-09-01T10:31:07.357490+00:00"
   },
   {
     "id": 860508,
@@ -224,7 +224,7 @@
       "vidnest": "https://vidnest.fun/movie/860508",
       "vidsrc": "https://vidsrc.to/embed/movie/860508"
     },
-    "updated_at": "2026-09-01T10:07:15.729213+00:00"
+    "updated_at": "2026-09-01T10:31:07.053328+00:00"
   },
   {
     "id": 1560520,
@@ -285,7 +285,7 @@
       "vidnest": "https://vidnest.fun/movie/1560520",
       "vidsrc": "https://vidsrc.to/embed/movie/1560520"
     },
-    "updated_at": "2026-09-01T10:07:15.995022+00:00"
+    "updated_at": "2026-09-01T10:31:07.250453+00:00"
   },
   {
     "id": 1514682,
@@ -344,7 +344,7 @@
       "vidnest": "https://vidnest.fun/movie/1514682",
       "vidsrc": "https://vidsrc.to/embed/movie/1514682"
     },
-    "updated_at": "2026-09-01T10:07:16.513051+00:00"
+    "updated_at": "2026-09-01T10:31:07.881703+00:00"
   },
   {
     "id": 87513,
@@ -402,7 +402,7 @@
       "vidnest": "https://vidnest.fun/movie/87513",
       "vidsrc": "https://vidsrc.to/embed/movie/87513"
     },
-    "updated_at": "2026-09-01T10:07:15.840922+00:00"
+    "updated_at": "2026-09-01T10:31:07.161505+00:00"
   },
   {
     "id": 1242332,
@@ -450,7 +450,7 @@
       "480p SD"
     ],
     "source_play_url": "https://redflix.co/play?id=1242332&type=movie",
-    "primary_stream_url": null,
+    "primary_stream_url": "https://vidbolt.xyz/movie/1242332",
     "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/1242332",
@@ -458,12 +458,9 @@
       "videasy": "https://player.videasy.to/movie/1242332",
       "vidfast": "https://vidfast.vc/movie/1242332",
       "vidcore": "https://vidcore.net/movie/1242332",
-      "vidnest": "https://vidnest.fun/movie/1242332",
-      "autoembed": "https://player.autoembed.cc/embed/movie/1242332",
-      "vidsrc": "https://vidsrc.to/embed/movie/1242332",
-      "multiembed": "https://multiembed.mov/directstream.php?video_id=1242332&tmdb=1"
+      "vidnest": "https://vidnest.fun/movie/1242332"
     },
-    "updated_at": "2026-09-01T10:07:16.513071+00:00"
+    "updated_at": "2026-09-01T10:31:07.881721+00:00"
   },
   {
     "id": 445466,
@@ -509,7 +506,7 @@
       "480p SD"
     ],
     "source_play_url": "https://redflix.co/play?id=445466&type=movie",
-    "primary_stream_url": null,
+    "primary_stream_url": "https://vidbolt.xyz/movie/445466",
     "health_status": "online",
     "stream_servers": {
       "vidbolt": "https://vidbolt.xyz/movie/445466",
@@ -517,12 +514,9 @@
       "videasy": "https://player.videasy.to/movie/445466",
       "vidfast": "https://vidfast.vc/movie/445466",
       "vidcore": "https://vidcore.net/movie/445466",
-      "vidnest": "https://vidnest.fun/movie/445466",
-      "autoembed": "https://player.autoembed.cc/embed/movie/445466",
-      "vidsrc": "https://vidsrc.to/embed/movie/445466",
-      "multiembed": "https://multiembed.mov/directstream.php?video_id=445466&tmdb=1"
+      "vidnest": "https://vidnest.fun/movie/445466"
     },
-    "updated_at": "2026-09-01T10:07:16.107120+00:00"
+    "updated_at": "2026-09-01T10:31:07.357458+00:00"
   },
   {
     "id": 1480574,
@@ -581,7 +575,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/1480574",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=1480574&tmdb=1"
     },
-    "updated_at": "2026-09-01T10:07:15.729313+00:00"
+    "updated_at": "2026-09-01T10:31:07.053402+00:00"
   },
   {
     "id": 1433583,
@@ -641,7 +635,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/1433583",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=1433583&tmdb=1"
     },
-    "updated_at": "2026-09-01T10:07:16.107131+00:00"
+    "updated_at": "2026-09-01T10:31:07.250485+00:00"
   },
   {
     "id": 1226699,
@@ -701,7 +695,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/1226699",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=1226699&tmdb=1"
     },
-    "updated_at": "2026-09-01T10:07:15.729384+00:00"
+    "updated_at": "2026-09-01T10:31:07.053473+00:00"
   },
   {
     "id": 155,
@@ -755,7 +749,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/155",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=155&tmdb=1"
     },
-    "updated_at": "2026-09-01T10:07:16.938851+00:00"
+    "updated_at": "2026-09-01T10:31:08.121371+00:00"
   },
   {
     "id": 598,
@@ -808,7 +802,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/598",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=598&tmdb=1"
     },
-    "updated_at": "2026-09-01T10:07:17.054543+00:00"
+    "updated_at": "2026-09-01T10:31:08.172663+00:00"
   },
   {
     "id": 497,
@@ -862,7 +856,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/497",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=497&tmdb=1"
     },
-    "updated_at": "2026-09-01T10:07:16.938868+00:00"
+    "updated_at": "2026-09-01T10:31:08.121608+00:00"
   },
   {
     "id": 278,
@@ -915,7 +909,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/278",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=278&tmdb=1"
     },
-    "updated_at": "2026-09-01T10:07:16.721801+00:00"
+    "updated_at": "2026-09-01T10:31:07.982163+00:00"
   },
   {
     "id": 680,
@@ -969,7 +963,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/680",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=680&tmdb=1"
     },
-    "updated_at": "2026-09-01T10:07:17.054404+00:00"
+    "updated_at": "2026-09-01T10:31:08.172524+00:00"
   },
   {
     "id": 769,
@@ -1022,7 +1016,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/769",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=769&tmdb=1"
     },
-    "updated_at": "2026-09-01T10:07:17.054468+00:00"
+    "updated_at": "2026-09-01T10:31:08.172595+00:00"
   },
   {
     "id": 240,
@@ -1075,7 +1069,7 @@
       "vidsrc": "https://vidsrc.to/embed/movie/240",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=240&tmdb=1"
     },
-    "updated_at": "2026-09-01T10:07:16.938816+00:00"
+    "updated_at": "2026-09-01T10:31:08.121336+00:00"
   },
   {
     "id": 238,
@@ -1128,6 +1122,6 @@
       "vidsrc": "https://vidsrc.to/embed/movie/238",
       "multiembed": "https://multiembed.mov/directstream.php?video_id=238&tmdb=1"
     },
-    "updated_at": "2026-09-01T10:07:16.938793+00:00"
+    "updated_at": "2026-09-01T10:31:08.121311+00:00"
   }
 ]
