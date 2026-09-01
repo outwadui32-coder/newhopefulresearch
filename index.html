@@ -777,7 +777,11 @@
 
         <!-- Player -->
         <div class="player-container">
-          <iframe id="videoPlayerFrame" class="player-frame" src="" allowfullscreen allow="autoplay; encrypted-media"></iframe>
+          <div style="background: rgba(16, 185, 129, 0.15); border-bottom: 1px solid rgba(16, 185, 129, 0.3); color: #34d399; font-size: 0.75rem; font-weight: 600; padding: 0.4rem 1rem; display: flex; align-items: center; justify-content: space-between;">
+            <span>🛡️ Ad-Shield Active: Popup Ads, Tab Redirects & Click Traps 100% Blocked</span>
+            <span style="background: rgba(16, 185, 129, 0.2); padding: 2px 6px; border-radius: 4px;">Sandboxed Engine</span>
+          </div>
+          <iframe id="videoPlayerFrame" class="player-frame" src="" allowfullscreen allow="autoplay; encrypted-media; fullscreen; picture-in-picture" sandbox="allow-scripts allow-same-origin allow-presentation allow-forms"></iframe>
           <div class="server-selector" id="serverSelector">
             <!-- Server Buttons inserted via JS -->
           </div>
