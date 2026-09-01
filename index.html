@@ -8,6 +8,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    // 🛡️ Global Ad-Shield: Block 100% of external popup tabs & redirects
+    window.open = function() {
+      console.warn("🛡️ [Ad-Shield] External popup blocked.");
+      return null;
+    };
+  </script>
   <style>
     :root {
       --bg-primary: #0a0c10;
@@ -792,11 +799,11 @@
         <!-- Multi-Server Stream Player -->
         <div class="player-container">
           <div class="player-header">
-            <span>⚡ Redflix Live Streaming Gateway (Multi-Server)</span>
-            <span style="background: rgba(229, 9, 20, 0.2); padding: 2px 8px; border-radius: 4px; color: #ff6b6b;">HD 1080p / 4K</span>
+            <span>🛡️ Redflix Stream Gateway (Ad-Shield Active: Popups Blocked)</span>
+            <span style="background: rgba(16, 185, 129, 0.2); padding: 2px 8px; border-radius: 4px; color: #34d399;">1080p / 4K</span>
           </div>
           
-          <iframe id="videoPlayerFrame" class="player-frame" src="" allowfullscreen allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
+          <iframe id="videoPlayerFrame" class="player-frame" src="" allowfullscreen allow="autoplay; encrypted-media; fullscreen; picture-in-picture" sandbox="allow-scripts allow-same-origin allow-presentation allow-forms"></iframe>
           
           <div class="server-selector" id="serverSelector">
             <span style="font-size: 0.8rem; color: var(--text-muted); margin-right: 0.5rem;">Servers:</span>
