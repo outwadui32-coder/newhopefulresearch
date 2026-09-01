@@ -9,7 +9,7 @@
     "release_year": 2026,
     "release_date": "2026-04-16",
     "rating": 7.3,
-    "vote_count": 538,
+    "vote_count": 539,
     "popularity": 30.2,
     "runtime_minutes": 91,
     "runtime_formatted": "1h 31m",
@@ -47,7 +47,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1242332/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.783244+00:00"
+    "updated_at": "2026-09-01T18:01:53.447942+00:00"
   },
   {
     "id": 429,
@@ -59,7 +59,7 @@
     "release_year": 1966,
     "release_date": "1966-12-23",
     "rating": 8.5,
-    "vote_count": 9893,
+    "vote_count": 9895,
     "popularity": 23.7,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -88,6 +88,6 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/429/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917345+00:00"
+    "updated_at": "2026-09-01T18:01:55.160034+00:00"
   }
 ]

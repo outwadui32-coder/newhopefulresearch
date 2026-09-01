@@ -9,7 +9,7 @@
     "release_year": 1972,
     "release_date": "1972-03-14",
     "rating": 8.7,
-    "vote_count": 23455,
+    "vote_count": 23458,
     "popularity": 58.3,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -39,6 +39,6 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/238/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.891209+00:00"
+    "updated_at": "2026-09-01T18:01:55.037344+00:00"
   }
 ]

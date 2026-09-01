@@ -91,6 +91,8 @@ https://movie.streamrip.fun/movies/1291595/video_main.m3u8
 https://movie.streamrip.fun/movies/1314481/video_main.m3u8
 #EXTINF:-1 tvg-id="964849" tvg-name="Nightborn" tvg-logo="https://image.tmdb.org/t/p/w500/e9ALgOANOJbcFpw84MbafK3xvD2.jpg" group-title="Horror",Nightborn (2026)
 https://movie.streamrip.fun/movies/964849/video_main.m3u8
+#EXTINF:-1 tvg-id="1226863" tvg-name="The Super Mario Galaxy Movie" tvg-logo="https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg" group-title="Family, Comedy, Adventure, Fantasy, Animation",The Super Mario Galaxy Movie (2026)
+https://movie.streamrip.fun/movies/1226863/video_main.m3u8
 #EXTINF:-1 tvg-id="1727780" tvg-name="Borderline" tvg-logo="https://image.tmdb.org/t/p/w500/sAA2mjpYJFAKydtzG4P4aHC4mZk.jpg" group-title="Thriller",Borderline (2026)
 https://movie.streamrip.fun/movies/1727780/video_main.m3u8
 #EXTINF:-1 tvg-id="1228710" tvg-name="The Mandalorian and Grogu" tvg-logo="https://image.tmdb.org/t/p/w500/7GV5rrUJf0BRUhoh2cyFoeNthlQ.jpg" group-title="Action, Adventure, Sci-Fi",The Mandalorian and Grogu (2026)
@@ -113,6 +115,8 @@ https://movie.streamrip.fun/movies/1007757/video_main.m3u8
 https://movie.streamrip.fun/movies/1514026/video_main.m3u8
 #EXTINF:-1 tvg-id="1122573" tvg-name="In the Grey" tvg-logo="https://image.tmdb.org/t/p/w500/dQgIcW6Th08kMRf2HBoYWoFE6OD.jpg" group-title="Action, Thriller",In the Grey (2026)
 https://movie.streamrip.fun/movies/1122573/video_main.m3u8
+#EXTINF:-1 tvg-id="1471168" tvg-name="Barreda" tvg-logo="https://image.tmdb.org/t/p/w500/hnr0QkZSDLlrJTvU2ecco65wcHo.jpg" group-title="Drama, Crime, History",Barreda (2026)
+https://movie.streamrip.fun/movies/1471168/video_main.m3u8
 #EXTINF:-1 tvg-id="1325734" tvg-name="The Drama" tvg-logo="https://image.tmdb.org/t/p/w500/rnIOUhzwJDfgQakx8EjoNyItKgs.jpg" group-title="Romance, Comedy, Drama",The Drama (2026)
 https://movie.streamrip.fun/movies/1325734/video_main.m3u8
 #EXTINF:-1 tvg-id="1101412" tvg-name="Fall 2: Deadpoint" tvg-logo="https://image.tmdb.org/t/p/w500/p73G56bJGPa5y52cyqWscHR6NnN.jpg" group-title="Thriller",Fall 2: Deadpoint (2026)
@@ -133,6 +137,8 @@ https://movie.streamrip.fun/movies/1240889/video_main.m3u8
 https://movie.streamrip.fun/movies/1423191/video_main.m3u8
 #EXTINF:-1 tvg-id="1632181" tvg-name="Accidental Partners" tvg-logo="https://image.tmdb.org/t/p/w500/j0CIVzeR7hRAPBPGR54qDZoOQpp.jpg" group-title="Comedy, Romance",Accidental Partners (2026)
 https://movie.streamrip.fun/movies/1632181/video_main.m3u8
+#EXTINF:-1 tvg-id="1477712" tvg-name="Ice Cream Man" tvg-logo="https://image.tmdb.org/t/p/w500/c987gxFjXqYOxZEZKcTkS1ONTWH.jpg" group-title="Horror, Comedy",Ice Cream Man (2026)
+https://movie.streamrip.fun/movies/1477712/video_main.m3u8
 #EXTINF:-1 tvg-id="1330021" tvg-name="Remarkably Bright Creatures" tvg-logo="https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg" group-title="Drama, Mystery",Remarkably Bright Creatures (2026)
 https://movie.streamrip.fun/movies/1330021/video_main.m3u8
 #EXTINF:-1 tvg-id="1302904" tvg-name="Practical Magic 2" tvg-logo="https://image.tmdb.org/t/p/w500/2lSf1aoZA6UpTEBxVGqnJ7QayIP.jpg" group-title="Romance, Fantasy, Comedy",Practical Magic 2 (2026)
@@ -168,12 +174,20 @@ https://movie.streamrip.fun/movies/192139/video_main.m3u8
 #EXTINF:-1 tvg-id="1248832" tvg-name="Digger" tvg-logo="https://image.tmdb.org/t/p/w500/1ATXKrIPJyKNwnJ6lcG088Sa6zi.jpg" group-title="Comedy",Digger (2026)
 https://movie.streamrip.fun/movies/1248832/video_main.m3u8
 #EXTINF:-1 tvg-id="1380417" tvg-name="By Any Means" tvg-logo="https://image.tmdb.org/t/p/w500/f4hdIed8vh10O8TkQ1CkHS8MQ3G.jpg" group-title="Drama, Thriller, History",By Any Means (2026)
-https://moon.peakstorm.top/vd/tmdb_1380417/index-s1080p-v1-a1.m3u8
+https://movie.streamrip.fun/movies/1380417/video_main.m3u8
+#EXTINF:-1 tvg-id="1153576" tvg-name="Street Fighter" tvg-logo="https://image.tmdb.org/t/p/w500/wOnoOeDcsLSo72ON1UC6c1VHKk1.jpg" group-title="Action, Fantasy",Street Fighter (2026)
+https://movie.streamrip.fun/movies/1153576/video_main.m3u8
+#EXTINF:-1 tvg-id="1375441" tvg-name="Primetime" tvg-logo="https://image.tmdb.org/t/p/w500/lmrulvLbmaejTix1YaMxo1oGhH1.jpg" group-title="Crime, Drama, Thriller",Primetime (2026)
+https://movie.streamrip.fun/movies/1375441/video_main.m3u8
 #EXTINF:-1 tvg-id="1519320" tvg-name="AEW All In 2026: London" tvg-logo="https://image.tmdb.org/t/p/w500/rYumu3P6c4zzl91Jk1cVI3pt55s.jpg" group-title="",AEW All In 2026: London (2026)
 https://moon.peakstorm.top/vd/tmdb_1519320/index-s1080p-v1-a1.m3u8
+#EXTINF:-1 tvg-id="1386315" tvg-name="The Runner" tvg-logo="https://image.tmdb.org/t/p/w500/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg" group-title="Action, Thriller",The Runner (2026)
+https://movie.streamrip.fun/movies/1386315/video_main.m3u8
 #EXTINF:-1 tvg-id="1479537" tvg-name="Bad Counselors" tvg-logo="https://image.tmdb.org/t/p/w500/raWg26WVDQeqbTizRjdgJpCHssd.jpg" group-title="Comedy",Bad Counselors (2026)
 https://moon.peakstorm.top/vd/tmdb_1479537/index-s1080p-v1-a1.m3u8
-#EXTINF:-1 tvg-id="1480574" tvg-name="Just Play Dead" tvg-logo="https://image.tmdb.org/t/p/w500/wG0KDlzuUWE1KHaeJZcGdrJdZea.jpg" group-title="Thriller, Crime",Just Play Dead (2026)
+#EXTINF:-1 tvg-id="1422041" tvg-name="La Bola Negra" tvg-logo="https://image.tmdb.org/t/p/w500/ejdmZvrL5eqhQlV1gWWyZAIKDbY.jpg" group-title="Drama, War",La Bola Negra (2026)
+https://movie.streamrip.fun/movies/1422041/video_main.m3u8
+#EXTINF:-1 tvg-id="1480574" tvg-name="Just Play Dead" tvg-logo="https://image.tmdb.org/t/p/w500/glALx6QaIgw1u4joXsnfHTjWi6D.jpg" group-title="Thriller, Crime",Just Play Dead (2026)
 https://movie.streamrip.fun/movies/1480574/video_main.m3u8
 #EXTINF:-1 tvg-id="1462861" tvg-name="Spider Island" tvg-logo="https://image.tmdb.org/t/p/w500/eKw6aF7oNEaTnVvN396Q1is9R1n.jpg" group-title="Comedy, Horror",Spider Island (2026)
 https://movie.streamrip.fun/movies/1462861/video_main.m3u8
@@ -203,8 +217,12 @@ https://movie.streamrip.fun/movies/1232449/video_main.m3u8
 https://movie.streamrip.fun/movies/569094/video_main.m3u8
 #EXTINF:-1 tvg-id="1181678" tvg-name="¿Quieres ser mi hijo?" tvg-logo="https://image.tmdb.org/t/p/w500/6PQJsmuvSMZQMmlJfTpjIkrizUh.jpg" group-title="Comedy, Romance",¿Quieres ser mi hijo? (2023)
 https://movie.streamrip.fun/movies/1181678/video_main.m3u8
+#EXTINF:-1 tvg-id="967998" tvg-name="Fatal Conspiracy" tvg-logo="https://image.tmdb.org/t/p/w500/zpj3nNoc5xaUZTIdnuhwXwUcRag.jpg" group-title="Horror",Fatal Conspiracy (2022)
+https://movie.streamrip.fun/movies/967998/video_main.m3u8
 #EXTINF:-1 tvg-id="634649" tvg-name="Spider-Man: No Way Home" tvg-logo="https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg" group-title="Action, Adventure, Sci-Fi",Spider-Man: No Way Home (2021)
 https://movie.streamrip.fun/movies/634649/video_main.m3u8
+#EXTINF:-1 tvg-id="667257" tvg-name="Impossible Things" tvg-logo="https://image.tmdb.org/t/p/w500/t2Ew8NZ8Ci2kqmoecZUNQUFDJnQ.jpg" group-title="Family, Drama",Impossible Things (2021)
+https://movie.streamrip.fun/movies/667257/video_main.m3u8
 #EXTINF:-1 tvg-id="496243" tvg-name="Parasite" tvg-logo="https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg" group-title="Comedy, Thriller, Drama",Parasite (2019)
 https://movie.streamrip.fun/movies/496243/video_main.m3u8
 #EXTINF:-1 tvg-id="620249" tvg-name="The Legend of Hei" tvg-logo="https://image.tmdb.org/t/p/w500/nWdES36hGwADWWBGzvgT1Z3Xn86.jpg" group-title="Animation, Fantasy, Action",The Legend of Hei (2019)

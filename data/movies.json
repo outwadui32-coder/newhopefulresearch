@@ -9,7 +9,7 @@
     "release_year": 2026,
     "release_date": "2026-07-29",
     "rating": 7.9,
-    "vote_count": 2332,
+    "vote_count": 2338,
     "popularity": 1028.0,
     "runtime_minutes": 145,
     "runtime_formatted": "2h 25m",
@@ -34,11 +34,11 @@
       "original": "https://image.tmdb.org/t/p/original/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg"
     },
     "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/7iwUUcKURMT7aKfCwMy6YnGtchD.jpg",
-      "original": "https://image.tmdb.org/t/p/original/7iwUUcKURMT7aKfCwMy6YnGtchD.jpg"
+      "medium": "https://image.tmdb.org/t/p/w780/vjMvFSmGUxEtqVdaZgvFee9XkZl.jpg",
+      "original": "https://image.tmdb.org/t/p/original/vjMvFSmGUxEtqVdaZgvFee9XkZl.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/969681/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_969681/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/969681/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/969681/audio_hindi.m3u8",
@@ -46,7 +46,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/969681/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095403+00:00"
+    "updated_at": "2026-09-01T18:01:52.472309+00:00",
+    "last_health_check": "2026-09-01T18:01:56.481951+00:00"
   },
   {
     "id": 1368337,
@@ -58,7 +59,7 @@
     "release_year": 2026,
     "release_date": "2026-07-15",
     "rating": 8.0,
-    "vote_count": 3376,
+    "vote_count": 3380,
     "popularity": 585.9,
     "runtime_minutes": 173,
     "runtime_formatted": "2h 53m",
@@ -87,7 +88,7 @@
       "original": "https://image.tmdb.org/t/p/original/RMXG8myu1aGlNUsRjtxzmpdMK0.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1368337/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1368337/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1368337/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1368337/audio_hindi.m3u8",
@@ -95,7 +96,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1368337/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095316+00:00"
+    "updated_at": "2026-09-01T18:01:52.472278+00:00",
+    "last_health_check": "2026-09-01T18:01:56.478360+00:00"
   },
   {
     "id": 1288445,
@@ -106,8 +108,8 @@
     "tagline": "There's blood in the water.",
     "release_year": 2026,
     "release_date": "2026-08-19",
-    "rating": 6.3,
-    "vote_count": 245,
+    "rating": 6.4,
+    "vote_count": 247,
     "popularity": 413.2,
     "runtime_minutes": 95,
     "runtime_formatted": "1h 35m",
@@ -135,7 +137,7 @@
       "original": "https://image.tmdb.org/t/p/original/qDa0fqDqIBCovRp975RvtGPcuN3.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1288445/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1288445/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1288445/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1288445/audio_hindi.m3u8",
@@ -143,7 +145,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1288445/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095491+00:00"
+    "updated_at": "2026-09-01T18:01:52.472372+00:00",
+    "last_health_check": "2026-09-01T18:01:56.480187+00:00"
   },
   {
     "id": 1516698,
@@ -155,7 +158,7 @@
     "release_year": 2026,
     "release_date": "2026-08-26",
     "rating": 6.7,
-    "vote_count": 79,
+    "vote_count": 81,
     "popularity": 342.0,
     "runtime_minutes": 107,
     "runtime_formatted": "1h 47m",
@@ -183,7 +186,7 @@
       "original": "https://image.tmdb.org/t/p/original/zFCWfU2ViMIm38G1W8UsnSpqmWn.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1516698/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1516698/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1516698/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1516698/audio_hindi.m3u8",
@@ -191,7 +194,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1516698/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095542+00:00"
+    "updated_at": "2026-09-01T18:01:52.472398+00:00",
+    "last_health_check": "2026-09-01T18:01:56.471427+00:00"
   },
   {
     "id": 1744462,
@@ -203,7 +207,7 @@
     "release_year": 2026,
     "release_date": "2026-08-27",
     "rating": 8.9,
-    "vote_count": 293,
+    "vote_count": 294,
     "popularity": 318.6,
     "runtime_minutes": 27,
     "runtime_formatted": "0h 27m",
@@ -227,7 +231,7 @@
       "original": "https://image.tmdb.org/t/p/original/po0uFYwWNByHQzHLCVJ6FetkN4M.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1744462/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1744462/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1744462/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1744462/audio_hindi.m3u8",
@@ -235,7 +239,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1744462/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.278351+00:00"
+    "updated_at": "2026-09-01T18:01:52.795909+00:00",
+    "last_health_check": "2026-09-01T18:01:56.468756+00:00"
   },
   {
     "id": 1621552,
@@ -247,7 +252,7 @@
     "release_year": 2026,
     "release_date": "2026-08-21",
     "rating": 8.9,
-    "vote_count": 433,
+    "vote_count": 437,
     "popularity": 306.4,
     "runtime_minutes": 91,
     "runtime_formatted": "1h 31m",
@@ -276,7 +281,7 @@
       "original": "https://image.tmdb.org/t/p/original/c4U96GrPRfnNrS01mBtqnocvlLJ.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1621552/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1621552/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1621552/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1621552/audio_hindi.m3u8",
@@ -284,7 +289,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1621552/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.395678+00:00"
+    "updated_at": "2026-09-01T18:01:52.796101+00:00",
+    "last_health_check": "2026-09-01T18:01:56.473224+00:00"
   },
   {
     "id": 1213243,
@@ -325,7 +331,7 @@
       "original": "https://image.tmdb.org/t/p/original/tBRSSfgqOAq7YlG8udcoJIBm2FG.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1213243/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1213243/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1213243/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1213243/audio_hindi.m3u8",
@@ -333,7 +339,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1213243/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.395827+00:00"
+    "updated_at": "2026-09-01T18:01:54.680259+00:00",
+    "last_health_check": "2026-09-01T18:01:56.475472+00:00"
   },
   {
     "id": 1339713,
@@ -345,7 +352,7 @@
     "release_year": 2026,
     "release_date": "2026-05-13",
     "rating": 8.2,
-    "vote_count": 5214,
+    "vote_count": 5219,
     "popularity": 232.2,
     "runtime_minutes": 109,
     "runtime_formatted": "1h 49m",
@@ -373,7 +380,7 @@
       "original": "https://image.tmdb.org/t/p/original/rZfmzpixLKLR3Hg2u0WgC7XLFl8.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1339713/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1339713/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1339713/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1339713/audio_hindi.m3u8",
@@ -381,7 +388,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1339713/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095461+00:00"
+    "updated_at": "2026-09-01T18:01:52.472353+00:00",
+    "last_health_check": "2026-09-01T18:01:56.465230+00:00"
   },
   {
     "id": 1232569,
@@ -392,8 +400,8 @@
     "tagline": "He has no strings to hold him back now.",
     "release_year": 2026,
     "release_date": "2026-07-22",
-    "rating": 6.8,
-    "vote_count": 68,
+    "rating": 6.7,
+    "vote_count": 70,
     "popularity": 231.4,
     "runtime_minutes": 82,
     "runtime_formatted": "1h 22m",
@@ -422,7 +430,7 @@
       "original": "https://image.tmdb.org/t/p/original/dNKFETDDujxm2PUN873Jwiw5VML.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1232569/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1232569/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1232569/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1232569/audio_hindi.m3u8",
@@ -430,7 +438,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1232569/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.395742+00:00"
+    "updated_at": "2026-09-01T18:01:54.385741+00:00",
+    "last_health_check": "2026-09-01T18:01:57.235746+00:00"
   },
   {
     "id": 860508,
@@ -441,8 +450,8 @@
     "tagline": "If you leave the door half open, soon you'll hear the whispers spoken.",
     "release_year": 2026,
     "release_date": "2026-08-27",
-    "rating": 6.4,
-    "vote_count": 221,
+    "rating": 6.3,
+    "vote_count": 229,
     "popularity": 227.7,
     "runtime_minutes": 114,
     "runtime_formatted": "1h 54m",
@@ -471,7 +480,7 @@
       "original": "https://image.tmdb.org/t/p/original/xSJJQeAp9GBFmiKusysTRG6jQjt.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/860508/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_860508/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/860508/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/860508/audio_hindi.m3u8",
@@ -479,7 +488,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/860508/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095347+00:00"
+    "updated_at": "2026-09-01T18:01:52.472256+00:00",
+    "last_health_check": "2026-09-01T18:01:57.238243+00:00"
   },
   {
     "id": 1323244,
@@ -490,8 +500,8 @@
     "tagline": "",
     "release_year": 2026,
     "release_date": "2026-08-06",
-    "rating": 5.3,
-    "vote_count": 53,
+    "rating": 5.4,
+    "vote_count": 54,
     "popularity": 220.2,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -514,7 +524,7 @@
       "original": "https://image.tmdb.org/t/p/original/z7lZgL5tzefTfhyRtouThFhsuUS.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1323244/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1323244/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1323244/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1323244/audio_hindi.m3u8",
@@ -522,7 +532,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1323244/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.811188+00:00"
+    "updated_at": "2026-09-01T18:01:54.680280+00:00",
+    "last_health_check": "2026-09-01T18:01:57.220174+00:00"
   },
   {
     "id": 1084244,
@@ -534,7 +545,7 @@
     "release_year": 2026,
     "release_date": "2026-06-17",
     "rating": 8.3,
-    "vote_count": 1858,
+    "vote_count": 1864,
     "popularity": 213.4,
     "runtime_minutes": 102,
     "runtime_formatted": "1h 42m",
@@ -564,7 +575,7 @@
       "original": "https://image.tmdb.org/t/p/original/8sSKdEmlmqF4kJUd28SqthXC4yZ.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1084244/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1084244/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1084244/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1084244/audio_hindi.m3u8",
@@ -572,7 +583,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1084244/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095726+00:00"
+    "updated_at": "2026-09-01T18:01:52.472414+00:00",
+    "last_health_check": "2026-09-01T18:01:57.233373+00:00"
   },
   {
     "id": 1108427,
@@ -583,8 +595,8 @@
     "tagline": "The ocean chose her for a reason.",
     "release_year": 2026,
     "release_date": "2026-07-08",
-    "rating": 6.2,
-    "vote_count": 250,
+    "rating": 6.1,
+    "vote_count": 251,
     "popularity": 176.9,
     "runtime_minutes": 115,
     "runtime_formatted": "1h 55m",
@@ -614,7 +626,7 @@
       "original": "https://image.tmdb.org/t/p/original/c6BPbkO5Npt1OdwttAxCFo06wtH.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1108427/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1108427/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1108427/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1108427/audio_hindi.m3u8",
@@ -622,7 +634,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1108427/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.395810+00:00"
+    "updated_at": "2026-09-01T18:01:53.282969+00:00",
+    "last_health_check": "2026-09-01T18:01:57.229005+00:00"
   },
   {
     "id": 1375646,
@@ -663,7 +676,7 @@
       "original": "https://image.tmdb.org/t/p/original/bC2Ho27PQDAVVVmFe285ClOEyGm.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1375646/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1375646/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1375646/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1375646/audio_hindi.m3u8",
@@ -671,7 +684,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1375646/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.278508+00:00"
+    "updated_at": "2026-09-01T18:01:52.796023+00:00",
+    "last_health_check": "2026-09-01T18:01:57.240036+00:00"
   },
   {
     "id": 1315772,
@@ -683,7 +697,7 @@
     "release_year": 2026,
     "release_date": "2026-06-24",
     "rating": 7.6,
-    "vote_count": 965,
+    "vote_count": 968,
     "popularity": 176.4,
     "runtime_minutes": 90,
     "runtime_formatted": "1h 30m",
@@ -714,7 +728,7 @@
       "original": "https://image.tmdb.org/t/p/original/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1315772/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1315772/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1315772/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1315772/audio_hindi.m3u8",
@@ -722,7 +736,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1315772/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095520+00:00"
+    "updated_at": "2026-09-01T18:01:52.472389+00:00",
+    "last_health_check": "2026-09-01T18:01:57.223836+00:00"
   },
   {
     "id": 1204680,
@@ -734,7 +749,7 @@
     "release_year": 2026,
     "release_date": "2026-08-20",
     "rating": 7.9,
-    "vote_count": 65,
+    "vote_count": 67,
     "popularity": 173.5,
     "runtime_minutes": 103,
     "runtime_formatted": "1h 43m",
@@ -763,7 +778,7 @@
       "original": "https://image.tmdb.org/t/p/original/viZqGq9TNvQ5uXSD4ahg2RpRONT.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1204680/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1204680/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1204680/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1204680/audio_hindi.m3u8",
@@ -771,7 +786,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1204680/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095359+00:00"
+    "updated_at": "2026-09-01T18:01:52.472237+00:00",
+    "last_health_check": "2026-09-01T18:01:57.231329+00:00"
   },
   {
     "id": 1560520,
@@ -783,7 +799,7 @@
     "release_year": 2026,
     "release_date": "2026-06-23",
     "rating": 9.1,
-    "vote_count": 153,
+    "vote_count": 155,
     "popularity": 164.1,
     "runtime_minutes": 79,
     "runtime_formatted": "1h 19m",
@@ -815,7 +831,7 @@
       "original": "https://image.tmdb.org/t/p/original/caBIySpwuFi2i7ynvHIlnxJLOdN.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1560520/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1560520/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1560520/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1560520/audio_hindi.m3u8",
@@ -823,7 +839,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1560520/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.209159+00:00"
+    "updated_at": "2026-09-01T18:01:54.219309+00:00",
+    "last_health_check": "2026-09-01T18:01:57.748856+00:00"
   },
   {
     "id": 1393326,
@@ -858,7 +875,7 @@
       "original": "https://image.tmdb.org/t/p/original/tK3QdOOrX4qEkmSlvrmc8cK7iOU.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1393326/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1393326/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1393326/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1393326/audio_hindi.m3u8",
@@ -866,7 +883,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1393326/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.811224+00:00"
+    "updated_at": "2026-09-01T18:01:54.680309+00:00",
+    "last_health_check": "2026-09-01T18:01:57.751667+00:00"
   },
   {
     "id": 1514682,
@@ -908,7 +926,7 @@
       "original": "https://image.tmdb.org/t/p/original/lSd6nEnlaeQkswLLUgHC5gyuXyU.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1514682/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1514682/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1514682/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1514682/audio_hindi.m3u8",
@@ -916,7 +934,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1514682/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.811237+00:00"
+    "updated_at": "2026-09-01T18:01:54.680328+00:00",
+    "last_health_check": "2026-09-01T18:01:57.758211+00:00"
   },
   {
     "id": 1130948,
@@ -951,7 +970,7 @@
       "original": "https://image.tmdb.org/t/p/original/vcZ3UUVmFNk90DBSrTBlTKCdbbE.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1130948/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1130948/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1130948/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1130948/audio_hindi.m3u8",
@@ -959,7 +978,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1130948/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.837456+00:00"
+    "updated_at": "2026-09-01T18:01:54.797474+00:00",
+    "last_health_check": "2026-09-01T18:01:57.766445+00:00"
   },
   {
     "id": 1083381,
@@ -971,7 +991,7 @@
     "release_year": 2026,
     "release_date": "2026-05-27",
     "rating": 7.1,
-    "vote_count": 3065,
+    "vote_count": 3076,
     "popularity": 132.2,
     "runtime_minutes": 111,
     "runtime_formatted": "1h 51m",
@@ -1000,7 +1020,7 @@
       "original": "https://image.tmdb.org/t/p/original/dqmMWNWfLnExDRpMtIMqI97GQFR.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1083381/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1083381/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1083381/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1083381/audio_hindi.m3u8",
@@ -1008,7 +1028,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1083381/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095535+00:00"
+    "updated_at": "2026-09-01T18:01:52.472598+00:00",
+    "last_health_check": "2026-09-01T18:01:57.718912+00:00"
   },
   {
     "id": 1384216,
@@ -1019,8 +1040,8 @@
     "tagline": "At the end of the world, no one survives alone.",
     "release_year": 2026,
     "release_date": "2026-08-26",
-    "rating": 6.8,
-    "vote_count": 136,
+    "rating": 6.7,
+    "vote_count": 141,
     "popularity": 120.5,
     "runtime_minutes": 119,
     "runtime_formatted": "1h 59m",
@@ -1049,7 +1070,7 @@
       "original": "https://image.tmdb.org/t/p/original/joVtII9prX3MC4a2LfoKsiMWET3.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1384216/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1384216/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1384216/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1384216/audio_hindi.m3u8",
@@ -1057,7 +1078,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1384216/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095473+00:00"
+    "updated_at": "2026-09-01T18:01:52.472364+00:00",
+    "last_health_check": "2026-09-01T18:01:57.755550+00:00"
   },
   {
     "id": 1275779,
@@ -1069,7 +1091,7 @@
     "release_year": 2026,
     "release_date": "2026-06-10",
     "rating": 7.5,
-    "vote_count": 3137,
+    "vote_count": 3139,
     "popularity": 118.8,
     "runtime_minutes": 146,
     "runtime_formatted": "2h 26m",
@@ -1097,7 +1119,7 @@
       "original": "https://image.tmdb.org/t/p/original/flxau5Iu7bChQHsESqvGZ3FQRaI.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1275779/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1275779/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1275779/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1275779/audio_hindi.m3u8",
@@ -1105,7 +1127,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1275779/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.278401+00:00"
+    "updated_at": "2026-09-01T18:01:53.072250+00:00",
+    "last_health_check": "2026-09-01T18:01:57.759866+00:00"
   },
   {
     "id": 1284465,
@@ -1117,7 +1140,7 @@
     "release_year": 2026,
     "release_date": "2026-06-18",
     "rating": 6.3,
-    "vote_count": 260,
+    "vote_count": 261,
     "popularity": 110.4,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -1140,7 +1163,7 @@
       "original": "https://image.tmdb.org/t/p/original/lh3BDkmWJh998n4fQcHYcVi7dpm.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1284465/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1284465/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1284465/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1284465/audio_hindi.m3u8",
@@ -1148,7 +1171,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1284465/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.837704+00:00"
+    "updated_at": "2026-09-01T18:01:54.797681+00:00",
+    "last_health_check": "2026-09-01T18:01:57.762169+00:00"
   },
   {
     "id": 87513,
@@ -1160,7 +1184,7 @@
     "release_year": 2026,
     "release_date": "2026-07-23",
     "rating": 6.4,
-    "vote_count": 88,
+    "vote_count": 89,
     "popularity": 108.8,
     "runtime_minutes": 104,
     "runtime_formatted": "1h 44m",
@@ -1189,7 +1213,7 @@
       "original": "https://image.tmdb.org/t/p/original/l7asYmqOad01F2u0oCMM8nQjoEP.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/87513/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_87513/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/87513/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/87513/audio_hindi.m3u8",
@@ -1197,7 +1221,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/87513/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.209058+00:00"
+    "updated_at": "2026-09-01T18:01:52.591086+00:00",
+    "last_health_check": "2026-09-01T18:01:58.474566+00:00"
   },
   {
     "id": 687163,
@@ -1209,7 +1234,7 @@
     "release_year": 2026,
     "release_date": "2026-03-15",
     "rating": 8.6,
-    "vote_count": 7474,
+    "vote_count": 7476,
     "popularity": 103.0,
     "runtime_minutes": 157,
     "runtime_formatted": "2h 37m",
@@ -1237,7 +1262,7 @@
       "original": "https://image.tmdb.org/t/p/original/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/687163/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_687163/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/687163/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/687163/audio_hindi.m3u8",
@@ -1245,7 +1270,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/687163/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.278384+00:00"
+    "updated_at": "2026-09-01T18:01:52.796082+00:00",
+    "last_health_check": "2026-09-01T18:01:58.472794+00:00"
   },
   {
     "id": 1432706,
@@ -1279,7 +1305,7 @@
       "original": "https://image.tmdb.org/t/p/original/lWVnUBYG7nIb84gxa3tSeP8CghA.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1432706/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1432706/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1432706/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1432706/audio_hindi.m3u8",
@@ -1287,7 +1313,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1432706/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.837485+00:00"
+    "updated_at": "2026-09-01T18:01:54.797691+00:00",
+    "last_health_check": "2026-09-01T18:01:58.422685+00:00"
   },
   {
     "id": 1273221,
@@ -1299,7 +1326,7 @@
     "release_year": 2026,
     "release_date": "2026-06-03",
     "rating": 6.4,
-    "vote_count": 1768,
+    "vote_count": 1771,
     "popularity": 95.9,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -1320,7 +1347,7 @@
       "original": "https://image.tmdb.org/t/p/original/xWBiXclrRmTggQHMRsIn84YHavs.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1273221/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1273221/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1273221/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1273221/audio_hindi.m3u8",
@@ -1328,7 +1355,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1273221/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.837727+00:00"
+    "updated_at": "2026-09-01T18:01:54.797714+00:00",
+    "last_health_check": "2026-09-01T18:01:58.463476+00:00"
   },
   {
     "id": 1081003,
@@ -1340,7 +1368,7 @@
     "release_year": 2026,
     "release_date": "2026-06-24",
     "rating": 6.7,
-    "vote_count": 2119,
+    "vote_count": 2120,
     "popularity": 90.0,
     "runtime_minutes": 108,
     "runtime_formatted": "1h 48m",
@@ -1369,7 +1397,7 @@
       "original": "https://image.tmdb.org/t/p/original/54KIfdTEzOliHDKx0OkzYGqAICx.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1081003/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1081003/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1081003/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1081003/audio_hindi.m3u8",
@@ -1377,7 +1405,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1081003/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.278520+00:00"
+    "updated_at": "2026-09-01T18:01:52.912220+00:00",
+    "last_health_check": "2026-09-01T18:01:58.468068+00:00"
   },
   {
     "id": 1594914,
@@ -1411,7 +1440,7 @@
       "original": "https://image.tmdb.org/t/p/original/1ebY06Gc1eUZcCoO7IoD4tWCFxm.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1594914/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1594914/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1594914/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1594914/audio_hindi.m3u8",
@@ -1419,7 +1448,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1594914/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.837736+00:00"
+    "updated_at": "2026-09-01T18:01:54.797744+00:00",
+    "last_health_check": "2026-09-01T18:01:58.470265+00:00"
   },
   {
     "id": 1212461,
@@ -1454,7 +1484,7 @@
       "original": "https://image.tmdb.org/t/p/original/77aCeoWOA5toCWk67lTAzrfW92Y.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1212461/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1212461/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1212461/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1212461/audio_hindi.m3u8",
@@ -1462,7 +1492,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1212461/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.864316+00:00"
+    "updated_at": "2026-09-01T18:01:54.797751+00:00",
+    "last_health_check": "2026-09-01T18:01:58.465886+00:00"
   },
   {
     "id": 454639,
@@ -1474,7 +1505,7 @@
     "release_year": 2026,
     "release_date": "2026-06-03",
     "rating": 7.2,
-    "vote_count": 2015,
+    "vote_count": 2018,
     "popularity": 84.7,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -1497,7 +1528,7 @@
       "original": "https://image.tmdb.org/t/p/original/yQIdU11DYQQp0neGtGtGxbGfRer.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/454639/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_454639/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/454639/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/454639/audio_hindi.m3u8",
@@ -1505,7 +1536,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/454639/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.837746+00:00"
+    "updated_at": "2026-09-01T18:01:54.797758+00:00",
+    "last_health_check": "2026-09-01T18:01:58.391198+00:00"
   },
   {
     "id": 1212763,
@@ -1517,7 +1549,7 @@
     "release_year": 2026,
     "release_date": "2026-07-07",
     "rating": 7.8,
-    "vote_count": 1382,
+    "vote_count": 1383,
     "popularity": 84.2,
     "runtime_minutes": 110,
     "runtime_formatted": "1h 50m",
@@ -1544,7 +1576,7 @@
       "original": "https://image.tmdb.org/t/p/original/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1212763/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1212763/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1212763/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1212763/audio_hindi.m3u8",
@@ -1552,7 +1584,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1212763/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.209130+00:00"
+    "updated_at": "2026-09-01T18:01:52.591066+00:00",
+    "last_health_check": "2026-09-01T18:01:58.943247+00:00"
   },
   {
     "id": 1698863,
@@ -1593,7 +1626,7 @@
       "original": "https://image.tmdb.org/t/p/original/mPy1xSASQ9NYWJdAGx2C2sOsnNw.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1698863/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1698863/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1698863/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1698863/audio_hindi.m3u8",
@@ -1601,7 +1634,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1698863/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.395723+00:00"
+    "updated_at": "2026-09-01T18:01:53.611821+00:00",
+    "last_health_check": "2026-09-01T18:01:58.944615+00:00"
   },
   {
     "id": 1101383,
@@ -1642,7 +1676,7 @@
       "original": "https://image.tmdb.org/t/p/original/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1101383/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1101383/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1101383/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1101383/audio_hindi.m3u8",
@@ -1650,7 +1684,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1101383/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.209025+00:00"
+    "updated_at": "2026-09-01T18:01:52.591059+00:00",
+    "last_health_check": "2026-09-01T18:01:58.985058+00:00"
   },
   {
     "id": 1284041,
@@ -1662,7 +1697,7 @@
     "release_year": 2026,
     "release_date": "2026-08-06",
     "rating": 6.9,
-    "vote_count": 1184,
+    "vote_count": 1185,
     "popularity": 82.9,
     "runtime_minutes": 110,
     "runtime_formatted": "1h 50m",
@@ -1691,7 +1726,7 @@
       "original": "https://image.tmdb.org/t/p/original/1RhfevWmWCVHtEqxWBEjPOC5KG1.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1284041/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1284041/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1284041/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1284041/audio_hindi.m3u8",
@@ -1699,7 +1734,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1284041/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.395793+00:00"
+    "updated_at": "2026-09-01T18:01:54.917826+00:00",
+    "last_health_check": "2026-09-01T18:01:58.967931+00:00"
   },
   {
     "id": 980431,
@@ -1711,7 +1747,7 @@
     "release_year": 2026,
     "release_date": "2026-07-24",
     "rating": 9.2,
-    "vote_count": 1027,
+    "vote_count": 1029,
     "popularity": 82.3,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -1735,7 +1771,7 @@
       "original": "https://image.tmdb.org/t/p/original/ezbrL1dMymKQZw7mDEWa2ZTzN7d.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/980431/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_980431/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/980431/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/980431/audio_hindi.m3u8",
@@ -1743,7 +1779,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/980431/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.864331+00:00"
+    "updated_at": "2026-09-01T18:01:54.917836+00:00",
+    "last_health_check": "2026-09-01T18:01:58.963934+00:00"
   },
   {
     "id": 1127384,
@@ -1755,7 +1792,7 @@
     "release_year": 2026,
     "release_date": "2026-04-30",
     "rating": 7.1,
-    "vote_count": 450,
+    "vote_count": 451,
     "popularity": 81.2,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -1777,7 +1814,7 @@
       "original": "https://image.tmdb.org/t/p/original/szKv713FcUXx6hcfdY369vtkmzr.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1127384/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1127384/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1127384/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1127384/audio_hindi.m3u8",
@@ -1785,7 +1822,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1127384/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.837761+00:00"
+    "updated_at": "2026-09-01T18:01:54.917844+00:00",
+    "last_health_check": "2026-09-01T18:01:58.987260+00:00"
   },
   {
     "id": 1599993,
@@ -1819,7 +1857,7 @@
       "original": "https://image.tmdb.org/t/p/original/3jgATRIFenOrgNKEC9bFv5QqKGf.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1599993/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1599993/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1599993/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1599993/audio_hindi.m3u8",
@@ -1827,7 +1865,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1599993/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.864324+00:00"
+    "updated_at": "2026-09-01T18:01:54.917860+00:00",
+    "last_health_check": "2026-09-01T18:01:58.998025+00:00"
   },
   {
     "id": 1631807,
@@ -1838,8 +1877,8 @@
     "tagline": "",
     "release_year": 2026,
     "release_date": "2026-08-28",
-    "rating": 6.4,
-    "vote_count": 34,
+    "rating": 6.3,
+    "vote_count": 36,
     "popularity": 77.2,
     "runtime_minutes": 119,
     "runtime_formatted": "1h 59m",
@@ -1868,7 +1907,7 @@
       "original": "https://image.tmdb.org/t/p/original/ziOpmyZufqM7IusfThzBr1E9wqa.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1631807/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1631807/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1631807/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1631807/audio_hindi.m3u8",
@@ -1876,7 +1915,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1631807/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095500+00:00"
+    "updated_at": "2026-09-01T18:01:52.472422+00:00",
+    "last_health_check": "2026-09-01T18:01:58.955126+00:00"
   },
   {
     "id": 1612018,
@@ -1919,7 +1959,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1612018/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.864300+00:00"
+    "updated_at": "2026-09-01T18:01:54.917876+00:00"
   },
   {
     "id": 1523145,
@@ -1960,7 +2000,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1523145/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.864290+00:00"
+    "updated_at": "2026-09-01T18:01:54.917893+00:00"
   },
   {
     "id": 936075,
@@ -1972,7 +2012,7 @@
     "release_year": 2026,
     "release_date": "2026-04-22",
     "rating": 8.7,
-    "vote_count": 4228,
+    "vote_count": 4230,
     "popularity": 73.9,
     "runtime_minutes": 128,
     "runtime_formatted": "2h 8m",
@@ -2008,7 +2048,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/936075/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.649971+00:00"
+    "updated_at": "2026-09-01T18:01:54.385698+00:00"
   },
   {
     "id": 1291595,
@@ -2056,30 +2096,36 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1291595/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.209010+00:00"
+    "updated_at": "2026-09-01T18:01:52.591074+00:00"
   },
   {
     "id": 1314481,
-    "imdb_id": null,
+    "imdb_id": "tt33612209",
     "type": "movie",
     "title": "The Devil Wears Prada 2",
     "original_title": "The Devil Wears Prada 2",
-    "tagline": "",
+    "tagline": "Icons reign forever.",
     "release_year": 2026,
     "release_date": "2026-04-29",
     "rating": 7.1,
-    "vote_count": 2239,
+    "vote_count": 2241,
     "popularity": 72.5,
-    "runtime_minutes": null,
-    "runtime_formatted": null,
+    "runtime_minutes": 119,
+    "runtime_formatted": "1h 59m",
     "genres": [
       "Comedy",
       "Drama"
     ],
     "overview": "Andy Sachs returns to Runway as Miranda Priestly navigates a new media landscape and Runway's position within. The duo reconnect with former assistant Emily Charlton, now the head of a luxury brand that possesses funding which could ensure Runway's survival.",
-    "cast": [],
-    "trailer_url": null,
-    "trailer_youtube_id": null,
+    "cast": [
+      "Anne Hathaway",
+      "Meryl Streep",
+      "Emily Blunt",
+      "Stanley Tucci",
+      "Kenneth Branagh"
+    ],
+    "trailer_url": "https://www.youtube.com/watch?v=07XWnjwm_V4",
+    "trailer_youtube_id": "07XWnjwm_V4",
     "poster": {
       "thumbnail": "https://image.tmdb.org/t/p/w185/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
       "medium": "https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg",
@@ -2098,7 +2144,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1314481/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.864374+00:00"
+    "updated_at": "2026-09-01T18:01:54.562049+00:00"
   },
   {
     "id": 964849,
@@ -2109,8 +2155,8 @@
     "tagline": "",
     "release_year": 2026,
     "release_date": "2026-07-01",
-    "rating": 6.0,
-    "vote_count": 88,
+    "rating": 6.1,
+    "vote_count": 89,
     "popularity": 69.2,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -2139,7 +2185,52 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/964849/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.864359+00:00"
+    "updated_at": "2026-09-01T18:01:54.917916+00:00"
+  },
+  {
+    "id": 1226863,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "The Super Mario Galaxy Movie",
+    "original_title": "The Super Mario Galaxy Movie",
+    "tagline": "",
+    "release_year": 2026,
+    "release_date": "2026-04-01",
+    "rating": 8.2,
+    "vote_count": 3585,
+    "popularity": 67.6,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Family",
+      "Comedy",
+      "Adventure",
+      "Fantasy",
+      "Animation"
+    ],
+    "overview": "Having thwarted Bowser's previous plot to marry Princess Peach, Mario and Luigi now face a fresh threat in Bowser Jr., who is determined to liberate his father from captivity and restore the family legacy. Alongside companions new and old, the brothers travel across the stars to stop the young heir's crusade.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
+      "original": "https://image.tmdb.org/t/p/original/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg",
+      "original": "https://image.tmdb.org/t/p/original/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1226863/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1226863/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1226863/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1226863/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1226863/720/index_308.m3u8"
+    },
+    "health_status": "online",
+    "updated_at": "2026-09-01T18:01:54.917944+00:00"
   },
   {
     "id": 1727780,
@@ -2229,7 +2320,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1228710/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.783223+00:00"
+    "updated_at": "2026-09-01T18:01:54.385750+00:00"
   },
   {
     "id": 1003596,
@@ -2278,7 +2369,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1003596/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.209097+00:00"
+    "updated_at": "2026-09-01T18:01:52.795947+00:00"
   },
   {
     "id": 1314826,
@@ -2330,8 +2421,8 @@
     "tagline": "",
     "release_year": 2026,
     "release_date": "2026-08-26",
-    "rating": 8.0,
-    "vote_count": 29,
+    "rating": 7.9,
+    "vote_count": 31,
     "popularity": 57.4,
     "runtime_minutes": 27,
     "runtime_formatted": "0h 27m",
@@ -2368,7 +2459,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1729723/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.783283+00:00"
+    "updated_at": "2026-09-01T18:01:54.385721+00:00"
   },
   {
     "id": 950028,
@@ -2380,7 +2471,7 @@
     "release_year": 2026,
     "release_date": "2026-06-25",
     "rating": 7.3,
-    "vote_count": 400,
+    "vote_count": 401,
     "popularity": 56.0,
     "runtime_minutes": 107,
     "runtime_formatted": "1h 47m",
@@ -2417,7 +2508,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/950028/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.209080+00:00"
+    "updated_at": "2026-09-01T18:01:52.591041+00:00"
   },
   {
     "id": 1280738,
@@ -2466,7 +2557,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1280738/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.783261+00:00"
+    "updated_at": "2026-09-01T18:01:54.385759+00:00"
   },
   {
     "id": 1301421,
@@ -2527,7 +2618,7 @@
     "release_year": 2026,
     "release_date": "2026-05-01",
     "rating": 8.9,
-    "vote_count": 2146,
+    "vote_count": 2147,
     "popularity": 48.8,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -2559,7 +2650,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1007757/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.891167+00:00"
+    "updated_at": "2026-09-01T18:01:55.037288+00:00"
   },
   {
     "id": 1514026,
@@ -2570,8 +2661,8 @@
     "tagline": "It's Buddy!",
     "release_year": 2026,
     "release_date": "2026-08-27",
-    "rating": 8.3,
-    "vote_count": 19,
+    "rating": 8.5,
+    "vote_count": 22,
     "popularity": 48.4,
     "runtime_minutes": 95,
     "runtime_formatted": "1h 35m",
@@ -2607,7 +2698,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1514026/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095510+00:00"
+    "updated_at": "2026-09-01T18:01:52.472381+00:00"
   },
   {
     "id": 1122573,
@@ -2655,7 +2746,56 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1122573/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.395750+00:00"
+    "updated_at": "2026-09-01T18:01:52.796092+00:00"
+  },
+  {
+    "id": 1471168,
+    "imdb_id": "tt43706402",
+    "type": "movie",
+    "title": "Barreda",
+    "original_title": "Barreda",
+    "tagline": "El Asesino Que Dividió A Un País",
+    "release_year": 2026,
+    "release_date": "2026-08-28",
+    "rating": 6.7,
+    "vote_count": 30,
+    "popularity": 41.9,
+    "runtime_minutes": 105,
+    "runtime_formatted": "1h 45m",
+    "genres": [
+      "Drama",
+      "Crime",
+      "History"
+    ],
+    "overview": "A fictionalized drama film based on one of the most shocking crimes in Argentina's history. In 1992, Ricardo Barreda was an unassuming dentist, brutally murdered his wife, mother-in-law, and two adult daughters in their family home. Branding himself as a victim, Ricardo Barreda ignited a media storm and fueled a national scandal.",
+    "cast": [
+      "Luis Machín",
+      "Carla Peterson",
+      "Mercedes Morán",
+      "Maite Lanata",
+      "Margarita Páez"
+    ],
+    "trailer_url": "https://www.youtube.com/watch?v=6Otcjy6Vp3A",
+    "trailer_youtube_id": "6Otcjy6Vp3A",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/hnr0QkZSDLlrJTvU2ecco65wcHo.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/hnr0QkZSDLlrJTvU2ecco65wcHo.jpg",
+      "original": "https://image.tmdb.org/t/p/original/hnr0QkZSDLlrJTvU2ecco65wcHo.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/4pXBWLKMew7Xmtq3OgMQxTHp060.jpg",
+      "original": "https://image.tmdb.org/t/p/original/4pXBWLKMew7Xmtq3OgMQxTHp060.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1471168/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1471168/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1471168/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1471168/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1471168/720/index_308.m3u8"
+    },
+    "health_status": "online",
+    "updated_at": "2026-09-01T18:01:53.985598+00:00"
   },
   {
     "id": 1325734,
@@ -2667,7 +2807,7 @@
     "release_year": 2026,
     "release_date": "2026-04-01",
     "rating": 6.9,
-    "vote_count": 1684,
+    "vote_count": 1685,
     "popularity": 37.1,
     "runtime_minutes": 105,
     "runtime_formatted": "1h 45m",
@@ -2704,7 +2844,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1325734/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.783203+00:00"
+    "updated_at": "2026-09-01T18:01:54.385732+00:00"
   },
   {
     "id": 1101412,
@@ -2751,7 +2891,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1101412/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.209144+00:00"
+    "updated_at": "2026-09-01T18:01:52.591111+00:00"
   },
   {
     "id": 1122030,
@@ -2847,7 +2987,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1294189/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095393+00:00"
+    "updated_at": "2026-09-01T18:01:52.472329+00:00"
   },
   {
     "id": 1433367,
@@ -2859,7 +2999,7 @@
     "release_year": 2026,
     "release_date": "2026-07-28",
     "rating": 6.9,
-    "vote_count": 53,
+    "vote_count": 54,
     "popularity": 30.4,
     "runtime_minutes": 102,
     "runtime_formatted": "1h 42m",
@@ -2895,7 +3035,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1433367/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.395759+00:00"
+    "updated_at": "2026-09-01T18:01:53.447926+00:00"
   },
   {
     "id": 1242332,
@@ -2907,7 +3047,7 @@
     "release_year": 2026,
     "release_date": "2026-04-16",
     "rating": 7.3,
-    "vote_count": 538,
+    "vote_count": 539,
     "popularity": 30.2,
     "runtime_minutes": 91,
     "runtime_formatted": "1h 31m",
@@ -2945,7 +3085,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1242332/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.783244+00:00"
+    "updated_at": "2026-09-01T18:01:53.447942+00:00"
   },
   {
     "id": 1383731,
@@ -3005,7 +3145,7 @@
     "release_year": 2026,
     "release_date": "2026-08-06",
     "rating": 6.7,
-    "vote_count": 83,
+    "vote_count": 86,
     "popularity": 24.7,
     "runtime_minutes": 112,
     "runtime_formatted": "1h 52m",
@@ -3042,7 +3182,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1240889/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.395857+00:00"
+    "updated_at": "2026-09-01T18:01:53.611848+00:00"
   },
   {
     "id": 1423191,
@@ -3078,8 +3218,8 @@
       "original": "https://image.tmdb.org/t/p/original/guq5cJ43v0qcMtLqrYHe5P9fgFM.jpg"
     },
     "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/mRM28tIIm8y0gKy9GKYGwotxuPM.jpg",
-      "original": "https://image.tmdb.org/t/p/original/mRM28tIIm8y0gKy9GKYGwotxuPM.jpg"
+      "medium": "https://image.tmdb.org/t/p/w780/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
+      "original": "https://image.tmdb.org/t/p/original/3icyRAqgakNcQn6aDVz9libFmBA.jpg"
     },
     "stream_format": "direct_m3u8_hls",
     "direct_m3u8_url": "https://movie.streamrip.fun/movies/1423191/video_main.m3u8",
@@ -3090,7 +3230,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1423191/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095737+00:00"
+    "updated_at": "2026-09-01T18:01:52.472343+00:00"
   },
   {
     "id": 1632181,
@@ -3132,7 +3272,55 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1632181/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.891177+00:00"
+    "updated_at": "2026-09-01T18:01:55.037299+00:00"
+  },
+  {
+    "id": 1477712,
+    "imdb_id": "tt36893729",
+    "type": "movie",
+    "title": "Ice Cream Man",
+    "original_title": "Ice Cream Man",
+    "tagline": "We all scream.",
+    "release_year": 2026,
+    "release_date": "2026-08-03",
+    "rating": 4.8,
+    "vote_count": 48,
+    "popularity": 19.6,
+    "runtime_minutes": 86,
+    "runtime_formatted": "1h 26m",
+    "genres": [
+      "Horror",
+      "Comedy"
+    ],
+    "overview": "An idyllic summer town descends into madness when an ice cream man serves kids sweet delights with horrifying results.",
+    "cast": [
+      "Ari Millen",
+      "Charlie Zeltzer",
+      "Kole Parks",
+      "Shiloh O’Reilly",
+      "Kiori Mirza Waldman"
+    ],
+    "trailer_url": "https://www.youtube.com/watch?v=tTM-Yg6pGTI",
+    "trailer_youtube_id": "tTM-Yg6pGTI",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/c987gxFjXqYOxZEZKcTkS1ONTWH.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/c987gxFjXqYOxZEZKcTkS1ONTWH.jpg",
+      "original": "https://image.tmdb.org/t/p/original/c987gxFjXqYOxZEZKcTkS1ONTWH.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/75pK9Dj1CheZFItgld9TVvb2P4x.jpg",
+      "original": "https://image.tmdb.org/t/p/original/75pK9Dj1CheZFItgld9TVvb2P4x.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1477712/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1477712/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1477712/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1477712/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1477712/720/index_308.m3u8"
+    },
+    "health_status": "online",
+    "updated_at": "2026-09-01T18:01:53.778655+00:00"
   },
   {
     "id": 1330021,
@@ -3144,7 +3332,7 @@
     "release_year": 2026,
     "release_date": "2026-05-07",
     "rating": 8.4,
-    "vote_count": 877,
+    "vote_count": 878,
     "popularity": 19.4,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -3174,7 +3362,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1330021/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917414+00:00"
+    "updated_at": "2026-09-01T18:01:55.160117+00:00"
   },
   {
     "id": 1302904,
@@ -3223,7 +3411,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1302904/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095550+00:00"
+    "updated_at": "2026-09-01T18:01:52.472608+00:00"
   },
   {
     "id": 1305672,
@@ -3318,7 +3506,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1074074/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.278532+00:00"
+    "updated_at": "2026-09-01T18:01:53.283015+00:00"
   },
   {
     "id": 1391021,
@@ -3366,7 +3554,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1391021/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095528+00:00"
+    "updated_at": "2026-09-01T18:01:52.591029+00:00"
   },
   {
     "id": 1671548,
@@ -3415,7 +3603,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1671548/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.209112+00:00"
+    "updated_at": "2026-09-01T18:01:52.912242+00:00"
   },
   {
     "id": 1263337,
@@ -3461,7 +3649,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1263337/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.395801+00:00"
+    "updated_at": "2026-09-01T18:01:53.282953+00:00"
   },
   {
     "id": 1288059,
@@ -3472,8 +3660,8 @@
     "tagline": "Don't worry, you'll like it.",
     "release_year": 2026,
     "release_date": "2026-07-29",
-    "rating": 6.1,
-    "vote_count": 22,
+    "rating": 6.3,
+    "vote_count": 23,
     "popularity": 14.8,
     "runtime_minutes": 90,
     "runtime_formatted": "1h 30m",
@@ -3508,7 +3696,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1288059/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095413+00:00"
+    "updated_at": "2026-09-01T18:01:52.472289+00:00"
   },
   {
     "id": 1465063,
@@ -3559,7 +3747,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1465063/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.395780+00:00"
+    "updated_at": "2026-09-01T18:01:53.778709+00:00"
   },
   {
     "id": 1550338,
@@ -3607,7 +3795,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1550338/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.395698+00:00"
+    "updated_at": "2026-09-01T18:01:53.283003+00:00"
   },
   {
     "id": 910850,
@@ -3657,7 +3845,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/910850/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.208992+00:00"
+    "updated_at": "2026-09-01T18:01:52.795973+00:00"
   },
   {
     "id": 1439808,
@@ -3706,7 +3894,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1439808/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.783270+00:00"
+    "updated_at": "2026-09-01T18:01:54.385768+00:00"
   },
   {
     "id": 445466,
@@ -3754,7 +3942,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/445466/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.395713+00:00"
+    "updated_at": "2026-09-01T18:01:53.778693+00:00"
   },
   {
     "id": 1602727,
@@ -3851,7 +4039,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1284046/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.395733+00:00"
+    "updated_at": "2026-09-01T18:01:52.591097+00:00"
   },
   {
     "id": 192139,
@@ -3862,8 +4050,8 @@
     "tagline": "Not all battles are fought with bullets.",
     "release_year": 2026,
     "release_date": "2026-08-14",
-    "rating": 8.0,
-    "vote_count": 7,
+    "rating": 7.6,
+    "vote_count": 8,
     "popularity": 9.7,
     "runtime_minutes": 117,
     "runtime_formatted": "1h 57m",
@@ -3901,7 +4089,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/192139/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.209231+00:00"
+    "updated_at": "2026-09-01T18:01:52.591008+00:00"
   },
   {
     "id": 1248832,
@@ -3959,8 +4147,8 @@
     "tagline": "The FBI couldn't crack it. So they called in the mob.",
     "release_year": 2026,
     "release_date": "2026-09-02",
-    "rating": 0.0,
-    "vote_count": 0,
+    "rating": 10.0,
+    "vote_count": 1,
     "popularity": 9.0,
     "runtime_minutes": 107,
     "runtime_formatted": "1h 47m",
@@ -3988,33 +4176,113 @@
       "medium": "https://image.tmdb.org/t/p/w780/eAouIDoMDhLetm6CtmDKIGEaaCi.jpg",
       "original": "https://image.tmdb.org/t/p/original/eAouIDoMDhLetm6CtmDKIGEaaCi.jpg"
     },
-    "quality_supported": [
-      "4K Ultra HD",
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/movie/1380417",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/movie/1380417",
-      "bolt_filmu": "https://embed.filmu.in/movie/1380417",
-      "nova_vidlink": "https://vidlink.pro/movie/1380417",
-      "mega_videasy": "https://player.videasy.to/movie/1380417",
-      "alpha_vidfast": "https://vidfast.vc/movie/1380417",
-      "orion_vidcore": "https://vidcore.net/movie/1380417",
-      "cinezo": "https://player.cinezo.live/movie/1380417",
-      "premium_vidup": "https://vidup.to/movie/1380417",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/movie/1380417",
-      "hindi_screenscape": "https://screenscape.me/movie/1380417",
-      "hindi_new": "https://embed.reelsdownload.online/movie/1380417",
-      "hindi_mirror_peachify": "https://peachify.top/movie/1380417",
-      "hindi_2_modiplay": "https://rozgarlelo.modiplay.xyz/movie/1380417",
-      "autoembed": "https://player.autoembed.cc/embed/movie/1380417"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1380417/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1380417/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1380417/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1380417/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1380417/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T10:56:56.557089+00:00",
-    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1380417/index-s1080p-v1-a1.m3u8",
-    "last_health_check": "2026-09-01T11:39:45.189531+00:00"
+    "updated_at": "2026-09-01T18:01:52.796125+00:00"
+  },
+  {
+    "id": 1153576,
+    "imdb_id": "tt27419420",
+    "type": "movie",
+    "title": "Street Fighter",
+    "original_title": "Street Fighter",
+    "tagline": "Ready. Set. Fight.",
+    "release_year": 2026,
+    "release_date": "2026-10-14",
+    "rating": 0.0,
+    "vote_count": 0,
+    "popularity": 7.7,
+    "runtime_minutes": 125,
+    "runtime_formatted": "2h 5m",
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "overview": "In 1993, estranged Street Fighters Ryu and Ken Masters are thrown back into combat when the mysterious Chun-Li recruits them for the next World Warrior Tournament: a brutal clash of fists, fate, and fury. But behind this battle royale lies a deadly conspiracy that forces them to face off against each other and the demons of their past. And if they don't, it's GAME OVER!",
+    "cast": [
+      "Andrew Koji",
+      "Noah Centineo",
+      "Callina Liang",
+      "Joe Anoa'i",
+      "David Dastmalchian"
+    ],
+    "trailer_url": "https://www.youtube.com/watch?v=U6sbm1OaJb8",
+    "trailer_youtube_id": "U6sbm1OaJb8",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/wOnoOeDcsLSo72ON1UC6c1VHKk1.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/wOnoOeDcsLSo72ON1UC6c1VHKk1.jpg",
+      "original": "https://image.tmdb.org/t/p/original/wOnoOeDcsLSo72ON1UC6c1VHKk1.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/m45xBFqUT4EYpb8eIbamPGK3qea.jpg",
+      "original": "https://image.tmdb.org/t/p/original/m45xBFqUT4EYpb8eIbamPGK3qea.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1153576/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1153576/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1153576/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1153576/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1153576/720/index_308.m3u8"
+    },
+    "health_status": "online",
+    "updated_at": "2026-09-01T18:01:53.282916+00:00"
+  },
+  {
+    "id": 1375441,
+    "imdb_id": "tt34206385",
+    "type": "movie",
+    "title": "Primetime",
+    "original_title": "Primetime",
+    "tagline": "Are you ready to make television history?",
+    "release_year": 2026,
+    "release_date": "2026-09-11",
+    "rating": 0.0,
+    "vote_count": 0,
+    "popularity": 7.5,
+    "runtime_minutes": 110,
+    "runtime_formatted": "1h 50m",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "overview": "In 2006, To Catch a Predator host Chris Hansen sets out to make television history.",
+    "cast": [
+      "Robert Pattinson",
+      "Merritt Wever",
+      "Skyler Gisondo",
+      "Phoebe Bridgers",
+      "Matthew Maher"
+    ],
+    "trailer_url": "https://www.youtube.com/watch?v=5fHXyqQOKL8",
+    "trailer_youtube_id": "5fHXyqQOKL8",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
+      "original": "https://image.tmdb.org/t/p/original/lmrulvLbmaejTix1YaMxo1oGhH1.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
+      "original": "https://image.tmdb.org/t/p/original/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1375441/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1375441/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1375441/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1375441/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1375441/720/index_308.m3u8"
+    },
+    "health_status": "online",
+    "updated_at": "2026-09-01T18:01:53.447882+00:00"
   },
   {
     "id": 1519320,
@@ -4077,6 +4345,54 @@
     "updated_at": "2026-09-01T10:56:56.437532+00:00",
     "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1519320/index-s1080p-v1-a1.m3u8",
     "last_health_check": "2026-09-01T11:39:45.133671+00:00"
+  },
+  {
+    "id": 1386315,
+    "imdb_id": "tt34564059",
+    "type": "movie",
+    "title": "The Runner",
+    "original_title": "The Runner",
+    "tagline": "One hour. One chance to save her son.",
+    "release_year": 2026,
+    "release_date": "2026-09-03",
+    "rating": 0.0,
+    "vote_count": 0,
+    "popularity": 6.4,
+    "runtime_minutes": 84,
+    "runtime_formatted": "1h 24m",
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "overview": "A high-powered attorney must race through London, following the cryptic commands of a mysterious caller, as she fights against time to save her abducted son.",
+    "cast": [
+      "Gal Gadot",
+      "Damian Lewis",
+      "Kenton Lloyd Morgan",
+      "Aaron Gill",
+      "Pierre Bergman"
+    ],
+    "trailer_url": "https://www.youtube.com/watch?v=zz4rsZLcauY",
+    "trailer_youtube_id": "zz4rsZLcauY",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg",
+      "original": "https://image.tmdb.org/t/p/original/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/jzBWExXacS33rMQ2zLBrqIVweyG.jpg",
+      "original": "https://image.tmdb.org/t/p/original/jzBWExXacS33rMQ2zLBrqIVweyG.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1386315/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1386315/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1386315/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1386315/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1386315/720/index_308.m3u8"
+    },
+    "health_status": "online",
+    "updated_at": "2026-09-01T18:01:53.072210+00:00"
   },
   {
     "id": 1479537,
@@ -4143,6 +4459,54 @@
     "last_health_check": "2026-09-01T11:39:45.128684+00:00"
   },
   {
+    "id": 1422041,
+    "imdb_id": "tt35511966",
+    "type": "movie",
+    "title": "La Bola Negra",
+    "original_title": "La bola negra",
+    "tagline": "",
+    "release_year": 2026,
+    "release_date": "2026-09-25",
+    "rating": 0.0,
+    "vote_count": 0,
+    "popularity": 5.3,
+    "runtime_minutes": 155,
+    "runtime_formatted": "2h 35m",
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "overview": "Set across three timelines — Republican Spain in 1932, the Civil War in 1937, and contemporary Spain in 2017 — the film follows a constellation of interconnected lives centered on three young men, whose emotional and political echoes gradually reveal themselves.",
+    "cast": [
+      "Guitarricadelafuente",
+      "Miguel Bernardeau",
+      "Carlos González",
+      "Milo Quifes",
+      "Lola Dueñas"
+    ],
+    "trailer_url": "https://www.youtube.com/watch?v=IRHtqjHYPew",
+    "trailer_youtube_id": "IRHtqjHYPew",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/ejdmZvrL5eqhQlV1gWWyZAIKDbY.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/ejdmZvrL5eqhQlV1gWWyZAIKDbY.jpg",
+      "original": "https://image.tmdb.org/t/p/original/ejdmZvrL5eqhQlV1gWWyZAIKDbY.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/wM4LLukeBIfhjn7LcVP6VIced4p.jpg",
+      "original": "https://image.tmdb.org/t/p/original/wM4LLukeBIfhjn7LcVP6VIced4p.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1422041/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1422041/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1422041/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1422041/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1422041/720/index_308.m3u8"
+    },
+    "health_status": "online",
+    "updated_at": "2026-09-01T18:01:53.611784+00:00"
+  },
+  {
     "id": 1480574,
     "imdb_id": "tt36948232",
     "type": "movie",
@@ -4151,8 +4515,8 @@
     "tagline": "Til death do they part.",
     "release_year": 2026,
     "release_date": "2026-08-28",
-    "rating": 8.2,
-    "vote_count": 4,
+    "rating": 7.4,
+    "vote_count": 8,
     "popularity": 5.0,
     "runtime_minutes": 96,
     "runtime_formatted": "1h 36m",
@@ -4171,9 +4535,9 @@
     "trailer_url": "https://www.youtube.com/watch?v=LlAajeOoFBo",
     "trailer_youtube_id": "LlAajeOoFBo",
     "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/wG0KDlzuUWE1KHaeJZcGdrJdZea.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/wG0KDlzuUWE1KHaeJZcGdrJdZea.jpg",
-      "original": "https://image.tmdb.org/t/p/original/wG0KDlzuUWE1KHaeJZcGdrJdZea.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w185/glALx6QaIgw1u4joXsnfHTjWi6D.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/glALx6QaIgw1u4joXsnfHTjWi6D.jpg",
+      "original": "https://image.tmdb.org/t/p/original/glALx6QaIgw1u4joXsnfHTjWi6D.jpg"
     },
     "backdrop": {
       "medium": "https://image.tmdb.org/t/p/w780/tieojVpH6eW44JQOQEWnf8t4khG.jpg",
@@ -4188,7 +4552,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1480574/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095382+00:00"
+    "updated_at": "2026-09-01T18:01:52.472204+00:00"
   },
   {
     "id": 1462861,
@@ -4236,7 +4600,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1462861/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.278413+00:00"
+    "updated_at": "2026-09-01T18:01:52.591103+00:00"
   },
   {
     "id": 1433583,
@@ -4285,7 +4649,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1433583/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.278463+00:00"
+    "updated_at": "2026-09-01T18:01:52.796113+00:00"
   },
   {
     "id": 1226699,
@@ -4296,8 +4660,8 @@
     "tagline": "Best buds. Worst adults.",
     "release_year": 2026,
     "release_date": "2026-08-14",
-    "rating": 4.8,
-    "vote_count": 6,
+    "rating": 5.9,
+    "vote_count": 9,
     "popularity": 4.0,
     "runtime_minutes": 99,
     "runtime_formatted": "1h 39m",
@@ -4334,7 +4698,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1226699/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095483+00:00"
+    "updated_at": "2026-09-01T18:01:52.472299+00:00"
   },
   {
     "id": 1742458,
@@ -4345,8 +4709,8 @@
     "tagline": "",
     "release_year": 2026,
     "release_date": "2026-09-01",
-    "rating": 0.0,
-    "vote_count": 0,
+    "rating": 10.0,
+    "vote_count": 1,
     "popularity": 2.8,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -4382,7 +4746,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1742458/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.208963+00:00"
+    "updated_at": "2026-09-01T18:01:52.472406+00:00"
   },
   {
     "id": 1739202,
@@ -4425,7 +4789,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1739202/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.395837+00:00"
+    "updated_at": "2026-09-01T18:01:52.796012+00:00"
   },
   {
     "id": 755898,
@@ -4467,7 +4831,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/755898/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.837715+00:00"
+    "updated_at": "2026-09-01T18:01:54.797706+00:00"
   },
   {
     "id": 1311031,
@@ -4479,7 +4843,7 @@
     "release_year": 2025,
     "release_date": "2025-07-18",
     "rating": 8.8,
-    "vote_count": 2031,
+    "vote_count": 2032,
     "popularity": 83.1,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -4510,7 +4874,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1311031/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.864274+00:00"
+    "updated_at": "2026-09-01T18:01:54.917801+00:00"
   },
   {
     "id": 83533,
@@ -4522,7 +4886,7 @@
     "release_year": 2025,
     "release_date": "2025-12-17",
     "rating": 7.7,
-    "vote_count": 4240,
+    "vote_count": 4243,
     "popularity": 78.8,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -4553,7 +4917,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/83533/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.864344+00:00"
+    "updated_at": "2026-09-01T18:01:54.917869+00:00"
   },
   {
     "id": 1084242,
@@ -4565,7 +4929,7 @@
     "release_year": 2025,
     "release_date": "2025-11-26",
     "rating": 7.7,
-    "vote_count": 3362,
+    "vote_count": 3363,
     "popularity": 74.6,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -4598,7 +4962,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1084242/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.864413+00:00"
+    "updated_at": "2026-09-01T18:01:54.917885+00:00"
   },
   {
     "id": 1218925,
@@ -4642,7 +5006,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1218925/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.891283+00:00"
+    "updated_at": "2026-09-01T18:01:55.037400+00:00"
   },
   {
     "id": 1285366,
@@ -4683,7 +5047,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1285366/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.811205+00:00"
+    "updated_at": "2026-09-01T18:01:54.680292+00:00"
   },
   {
     "id": 1232449,
@@ -4725,7 +5089,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1232449/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.891274+00:00"
+    "updated_at": "2026-09-01T18:01:55.037393+00:00"
   },
   {
     "id": 569094,
@@ -4737,7 +5101,7 @@
     "release_year": 2023,
     "release_date": "2023-05-31",
     "rating": 8.3,
-    "vote_count": 9149,
+    "vote_count": 9152,
     "popularity": 71.4,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -4769,7 +5133,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/569094/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.864399+00:00"
+    "updated_at": "2026-09-01T18:01:54.917901+00:00"
   },
   {
     "id": 1181678,
@@ -4811,7 +5175,48 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1181678/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917318+00:00"
+    "updated_at": "2026-09-01T18:01:55.160027+00:00"
+  },
+  {
+    "id": 967998,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "Fatal Conspiracy",
+    "original_title": "Conspiração Fatal",
+    "tagline": "",
+    "release_year": 2022,
+    "release_date": "2022-05-26",
+    "rating": 6.4,
+    "vote_count": 5,
+    "popularity": 70.6,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Horror"
+    ],
+    "overview": "Davi Martins, a commercial director of a financial institution, and Juliana Martins, a personal trainer, are a couple trying to recover from a crisis. At work, Davi ends up getting involved in the investigation of a financial scandal, putting himself in the crosshairs of dangerous people. Little by little, Juliana discovers that her new home may not be a new beginning, but the stage for a real nightmare. Some secrets may end her life.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/zpj3nNoc5xaUZTIdnuhwXwUcRag.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/zpj3nNoc5xaUZTIdnuhwXwUcRag.jpg",
+      "original": "https://image.tmdb.org/t/p/original/zpj3nNoc5xaUZTIdnuhwXwUcRag.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/yQUTEvEb5pJi0BH3b1biQRpGvEx.jpg",
+      "original": "https://image.tmdb.org/t/p/original/yQUTEvEb5pJi0BH3b1biQRpGvEx.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/967998/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/967998/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/967998/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_967998/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/967998/720/index_308.m3u8"
+    },
+    "health_status": "online",
+    "updated_at": "2026-09-01T18:01:54.917908+00:00"
   },
   {
     "id": 634649,
@@ -4823,7 +5228,7 @@
     "release_year": 2021,
     "release_date": "2021-12-15",
     "rating": 7.9,
-    "vote_count": 22941,
+    "vote_count": 22950,
     "popularity": 135.8,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -4854,7 +5259,49 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/634649/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.811215+00:00"
+    "updated_at": "2026-09-01T18:01:54.680301+00:00"
+  },
+  {
+    "id": 667257,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "Impossible Things",
+    "original_title": "Cosas imposibles",
+    "tagline": "",
+    "release_year": 2021,
+    "release_date": "2021-06-17",
+    "rating": 8.4,
+    "vote_count": 432,
+    "popularity": 5.0,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Family",
+      "Drama"
+    ],
+    "overview": "After the death of her abusive husband, Matilde finds her new best friend in Miguel, her young, insecure, and disoriented neighbor.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/t2Ew8NZ8Ci2kqmoecZUNQUFDJnQ.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/t2Ew8NZ8Ci2kqmoecZUNQUFDJnQ.jpg",
+      "original": "https://image.tmdb.org/t/p/original/t2Ew8NZ8Ci2kqmoecZUNQUFDJnQ.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/bxSBOAD8AuMHYMdW3jso9npAkgt.jpg",
+      "original": "https://image.tmdb.org/t/p/original/bxSBOAD8AuMHYMdW3jso9npAkgt.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/667257/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/667257/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/667257/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_667257/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/667257/720/index_308.m3u8"
+    },
+    "health_status": "online",
+    "updated_at": "2026-09-01T18:01:55.160180+00:00"
   },
   {
     "id": 496243,
@@ -4866,7 +5313,7 @@
     "release_year": 2019,
     "release_date": "2019-05-30",
     "rating": 8.5,
-    "vote_count": 21210,
+    "vote_count": 21211,
     "popularity": 35.5,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -4897,7 +5344,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/496243/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.891529+00:00"
+    "updated_at": "2026-09-01T18:01:55.037633+00:00"
   },
   {
     "id": 620249,
@@ -4940,7 +5387,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/620249/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917581+00:00"
+    "updated_at": "2026-09-01T18:01:55.160173+00:00"
   },
   {
     "id": 299536,
@@ -4952,7 +5399,7 @@
     "release_year": 2018,
     "release_date": "2018-04-25",
     "rating": 8.2,
-    "vote_count": 32763,
+    "vote_count": 32768,
     "popularity": 90.4,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -4983,7 +5430,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/299536/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.837754+00:00"
+    "updated_at": "2026-09-01T18:01:54.797721+00:00"
   },
   {
     "id": 441168,
@@ -5025,7 +5472,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/441168/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.864367+00:00"
+    "updated_at": "2026-09-01T18:01:54.917930+00:00"
   },
   {
     "id": 372058,
@@ -5037,7 +5484,7 @@
     "release_year": 2016,
     "release_date": "2016-07-01",
     "rating": 8.5,
-    "vote_count": 12925,
+    "vote_count": 12929,
     "popularity": 27.2,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -5068,7 +5515,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/372058/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917296+00:00"
+    "updated_at": "2026-09-01T18:01:55.159975+00:00"
   },
   {
     "id": 157336,
@@ -5080,7 +5527,7 @@
     "release_year": 2014,
     "release_date": "2014-11-05",
     "rating": 8.5,
-    "vote_count": 40979,
+    "vote_count": 40989,
     "popularity": 62.7,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -5111,7 +5558,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/157336/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917245+00:00"
+    "updated_at": "2026-09-01T18:01:55.159953+00:00"
   },
   {
     "id": 24428,
@@ -5123,7 +5570,7 @@
     "release_year": 2012,
     "release_date": "2012-04-25",
     "rating": 8.1,
-    "vote_count": 39532,
+    "vote_count": 39540,
     "popularity": 67.8,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -5154,7 +5601,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/24428/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.864352+00:00"
+    "updated_at": "2026-09-01T18:01:54.917938+00:00"
   },
   {
     "id": 82023,
@@ -5196,7 +5643,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/82023/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.837474+00:00"
+    "updated_at": "2026-09-01T18:01:54.797497+00:00"
   },
   {
     "id": 155,
@@ -5208,7 +5655,7 @@
     "release_year": 2008,
     "release_date": "2008-07-16",
     "rating": 8.5,
-    "vote_count": 36553,
+    "vote_count": 36558,
     "popularity": 59.3,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -5239,7 +5686,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/155/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.891291+00:00"
+    "updated_at": "2026-09-01T18:01:55.037584+00:00"
   },
   {
     "id": 122,
@@ -5251,7 +5698,7 @@
     "release_year": 2003,
     "release_date": "2003-12-17",
     "rating": 8.5,
-    "vote_count": 27225,
+    "vote_count": 27228,
     "popularity": 49.7,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -5282,7 +5729,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/122/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.891505+00:00"
+    "updated_at": "2026-09-01T18:01:55.037607+00:00"
   },
   {
     "id": 557,
@@ -5294,7 +5741,7 @@
     "release_year": 2002,
     "release_date": "2002-05-01",
     "rating": 7.4,
-    "vote_count": 21304,
+    "vote_count": 21307,
     "popularity": 68.6,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -5324,7 +5771,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/557/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.864384+00:00"
+    "updated_at": "2026-09-01T18:01:54.917923+00:00"
   },
   {
     "id": 121,
@@ -5336,7 +5783,7 @@
     "release_year": 2002,
     "release_date": "2002-12-18",
     "rating": 8.4,
-    "vote_count": 24468,
+    "vote_count": 24474,
     "popularity": 33.8,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -5367,7 +5814,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/121/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917553+00:00"
+    "updated_at": "2026-09-01T18:01:55.160159+00:00"
   },
   {
     "id": 598,
@@ -5379,7 +5826,7 @@
     "release_year": 2002,
     "release_date": "2002-08-30",
     "rating": 8.4,
-    "vote_count": 8394,
+    "vote_count": 8396,
     "popularity": 19.9,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -5409,7 +5856,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/598/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917567+00:00"
+    "updated_at": "2026-09-01T18:01:55.160151+00:00"
   },
   {
     "id": 120,
@@ -5421,7 +5868,7 @@
     "release_year": 2001,
     "release_date": "2001-12-18",
     "rating": 8.4,
-    "vote_count": 28241,
+    "vote_count": 28248,
     "popularity": 45.8,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -5452,7 +5899,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/120/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917392+00:00"
+    "updated_at": "2026-09-01T18:01:55.160096+00:00"
   },
   {
     "id": 129,
@@ -5464,7 +5911,7 @@
     "release_year": 2001,
     "release_date": "2001-07-20",
     "rating": 8.5,
-    "vote_count": 18799,
+    "vote_count": 18801,
     "popularity": 42.8,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -5495,7 +5942,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/129/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.891484+00:00"
+    "updated_at": "2026-09-01T18:01:55.037592+00:00"
   },
   {
     "id": 40096,
@@ -5539,7 +5986,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/40096/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917575+00:00"
+    "updated_at": "2026-09-01T18:01:55.160166+00:00"
   },
   {
     "id": 550,
@@ -5551,7 +5998,7 @@
     "release_year": 1999,
     "release_date": "1999-10-15",
     "rating": 8.4,
-    "vote_count": 32749,
+    "vote_count": 32754,
     "popularity": 45.6,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -5581,7 +6028,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/550/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917408+00:00"
+    "updated_at": "2026-09-01T18:01:55.160110+00:00"
   },
   {
     "id": 497,
@@ -5593,7 +6040,7 @@
     "release_year": 1999,
     "release_date": "1999-12-10",
     "rating": 8.5,
-    "vote_count": 19712,
+    "vote_count": 19715,
     "popularity": 35.3,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -5616,7 +6063,7 @@
       "original": "https://image.tmdb.org/t/p/original/amZavErrjrdgDwhsIdpWxHNenIx.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_497/index-s1080p-v1-a1.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/497/video_main.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/497/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/497/audio_hindi.m3u8",
@@ -5624,8 +6071,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/497/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.891497+00:00",
-    "last_health_check": "2026-09-01T12:02:16.045189+00:00"
+    "updated_at": "2026-09-01T18:01:55.037599+00:00"
   },
   {
     "id": 637,
@@ -5637,7 +6083,7 @@
     "release_year": 1997,
     "release_date": "1997-12-20",
     "rating": 8.4,
-    "vote_count": 14200,
+    "vote_count": 14203,
     "popularity": 20.5,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -5659,7 +6105,7 @@
       "original": "https://image.tmdb.org/t/p/original/6aNKD81RHR1DqUUa8kOZ1TBY1Lp.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_637/index-s1080p-v1-a1.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/637/video_main.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/637/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/637/audio_hindi.m3u8",
@@ -5667,8 +6113,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/637/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917401+00:00",
-    "last_health_check": "2026-09-01T12:02:16.025582+00:00"
+    "updated_at": "2026-09-01T18:01:55.160103+00:00"
   },
   {
     "id": 19404,
@@ -5703,7 +6148,7 @@
       "original": "https://image.tmdb.org/t/p/original/84beTJf26mfhoasUlKSOiNSutyS.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_19404/index-s1080p-v1-a1.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/19404/video_main.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/19404/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/19404/audio_hindi.m3u8",
@@ -5711,8 +6156,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/19404/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.891516+00:00",
-    "last_health_check": "2026-09-01T12:02:16.019788+00:00"
+    "updated_at": "2026-09-01T18:01:55.037626+00:00"
   },
   {
     "id": 278,
@@ -5724,7 +6168,7 @@
     "release_year": 1994,
     "release_date": "1994-09-23",
     "rating": 8.7,
-    "vote_count": 31188,
+    "vote_count": 31194,
     "popularity": 101.1,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -5746,7 +6190,7 @@
       "original": "https://image.tmdb.org/t/p/original/pNjh59JSxChQktamG3LMp9ZoQzp.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_278/index-s1080p-v1-a1.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/278/video_main.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/278/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/278/audio_hindi.m3u8",
@@ -5754,8 +6198,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/278/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.837768+00:00",
-    "last_health_check": "2026-09-01T12:02:15.983799+00:00"
+    "updated_at": "2026-09-01T18:01:54.797698+00:00"
   },
   {
     "id": 13,
@@ -5767,7 +6210,7 @@
     "release_year": 1994,
     "release_date": "1994-06-23",
     "rating": 8.5,
-    "vote_count": 30338,
+    "vote_count": 30344,
     "popularity": 43.0,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -5790,7 +6233,7 @@
       "original": "https://image.tmdb.org/t/p/original/66Kn4XWhkuPkJxOJyPEx4U2CUfN.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_13/index-s1080p-v1-a1.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/13/video_main.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/13/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/13/audio_hindi.m3u8",
@@ -5798,8 +6241,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/13/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917354+00:00",
-    "last_health_check": "2026-09-01T12:02:16.014465+00:00"
+    "updated_at": "2026-09-01T18:01:55.160055+00:00"
   },
   {
     "id": 680,
@@ -5811,7 +6253,7 @@
     "release_year": 1994,
     "release_date": "1994-09-10",
     "rating": 8.5,
-    "vote_count": 30762,
+    "vote_count": 30768,
     "popularity": 38.6,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -5834,7 +6276,7 @@
       "original": "https://image.tmdb.org/t/p/original/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_680/index-s1080p-v1-a1.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/680/video_main.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/680/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/680/audio_hindi.m3u8",
@@ -5842,8 +6284,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/680/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917307+00:00",
-    "last_health_check": "2026-09-01T12:02:16.022387+00:00"
+    "updated_at": "2026-09-01T18:01:55.160014+00:00"
   },
   {
     "id": 424,
@@ -5855,7 +6296,7 @@
     "release_year": 1993,
     "release_date": "1993-12-15",
     "rating": 8.6,
-    "vote_count": 17831,
+    "vote_count": 17833,
     "popularity": 32.8,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -5878,7 +6319,7 @@
       "original": "https://image.tmdb.org/t/p/original/zb6fM1CX41D9rF9hdgclu0peUmy.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_424/index-s1080p-v1-a1.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/424/video_main.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/424/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/424/audio_hindi.m3u8",
@@ -5886,8 +6327,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/424/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.891257+00:00",
-    "last_health_check": "2026-09-01T12:02:15.977982+00:00"
+    "updated_at": "2026-09-01T18:01:55.037377+00:00"
   },
   {
     "id": 769,
@@ -5899,7 +6339,7 @@
     "release_year": 1990,
     "release_date": "1990-09-12",
     "rating": 8.5,
-    "vote_count": 14689,
+    "vote_count": 14691,
     "popularity": 28.2,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -5921,7 +6361,7 @@
       "original": "https://image.tmdb.org/t/p/original/gILte6Zd7m1YneIr6MVhh30S9pr.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_769/index-s1080p-v1-a1.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/769/video_main.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/769/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/769/audio_hindi.m3u8",
@@ -5929,8 +6369,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/769/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917378+00:00",
-    "last_health_check": "2026-09-01T12:02:16.016844+00:00"
+    "updated_at": "2026-09-01T18:01:55.160082+00:00"
   },
   {
     "id": 11216,
@@ -5942,7 +6381,7 @@
     "release_year": 1988,
     "release_date": "1988-11-17",
     "rating": 8.4,
-    "vote_count": 4954,
+    "vote_count": 4955,
     "popularity": 15.8,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -5964,7 +6403,7 @@
       "original": "https://image.tmdb.org/t/p/original/zoVeIgKzGJzpdG6Gwnr7iOYfIMU.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_11216/index-s1080p-v1-a1.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/11216/video_main.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/11216/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/11216/audio_hindi.m3u8",
@@ -5972,8 +6411,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/11216/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917449+00:00",
-    "last_health_check": "2026-09-01T12:02:16.477112+00:00"
+    "updated_at": "2026-09-01T18:01:55.160144+00:00"
   },
   {
     "id": 12477,
@@ -5985,7 +6423,7 @@
     "release_year": 1988,
     "release_date": "1988-04-16",
     "rating": 8.4,
-    "vote_count": 6736,
+    "vote_count": 6737,
     "popularity": 0.0,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -6008,7 +6446,7 @@
       "original": "https://image.tmdb.org/t/p/original/aHaqZpOL7UyVu0nKqp3SMz0o2E1.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_12477/index-s1080p-v1-a1.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/12477/video_main.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/12477/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/12477/audio_hindi.m3u8",
@@ -6016,8 +6454,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/12477/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917385+00:00",
-    "last_health_check": "2026-09-01T12:02:16.475953+00:00"
+    "updated_at": "2026-09-01T18:01:55.160089+00:00"
   },
   {
     "id": 240,
@@ -6029,7 +6466,7 @@
     "release_year": 1974,
     "release_date": "1974-12-20",
     "rating": 8.6,
-    "vote_count": 14260,
+    "vote_count": 14261,
     "popularity": 36.4,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -6051,7 +6488,7 @@
       "original": "https://image.tmdb.org/t/p/original/pGzqRKrYeK4LogoysNro0vG8d8N.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_240/index-s1080p-v1-a1.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/240/video_main.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/240/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/240/audio_hindi.m3u8",
@@ -6059,8 +6496,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/240/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.891250+00:00",
-    "last_health_check": "2026-09-01T12:02:16.579954+00:00"
+    "updated_at": "2026-09-01T18:01:55.037369+00:00"
   },
   {
     "id": 238,
@@ -6072,7 +6508,7 @@
     "release_year": 1972,
     "release_date": "1972-03-14",
     "rating": 8.7,
-    "vote_count": 23455,
+    "vote_count": 23458,
     "popularity": 58.3,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -6094,7 +6530,7 @@
       "original": "https://image.tmdb.org/t/p/original/ejdD20cdHNFAYAN2DlqPToXKyzx.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_238/index-s1080p-v1-a1.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/238/video_main.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/238/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/238/audio_hindi.m3u8",
@@ -6102,8 +6538,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/238/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.891209+00:00",
-    "last_health_check": "2026-09-01T12:02:16.706816+00:00"
+    "updated_at": "2026-09-01T18:01:55.037344+00:00"
   },
   {
     "id": 429,
@@ -6115,7 +6550,7 @@
     "release_year": 1966,
     "release_date": "1966-12-23",
     "rating": 8.5,
-    "vote_count": 9893,
+    "vote_count": 9895,
     "popularity": 23.7,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -6136,7 +6571,7 @@
       "original": "https://image.tmdb.org/t/p/original/x4biAVdPVCghBlsVIzB6NmbghIz.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_429/index-s1080p-v1-a1.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/429/video_main.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/429/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/429/audio_hindi.m3u8",
@@ -6144,8 +6579,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/429/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917345+00:00",
-    "last_health_check": "2026-09-01T12:02:16.688477+00:00"
+    "updated_at": "2026-09-01T18:01:55.160034+00:00"
   },
   {
     "id": 14537,
@@ -6180,7 +6614,7 @@
       "original": "https://image.tmdb.org/t/p/original/e3hG3uadtcP0pYdRa5ch4ysQW76.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_14537/index-s1080p-v1-a1.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/14537/video_main.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/14537/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/14537/audio_hindi.m3u8",
@@ -6188,8 +6622,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/14537/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917361+00:00",
-    "last_health_check": "2026-09-01T12:02:16.707886+00:00"
+    "updated_at": "2026-09-01T18:01:55.160063+00:00"
   },
   {
     "id": 389,
@@ -6201,7 +6634,7 @@
     "release_year": 1957,
     "release_date": "1957-04-10",
     "rating": 8.6,
-    "vote_count": 10303,
+    "vote_count": 10304,
     "popularity": 32.4,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -6222,7 +6655,7 @@
       "original": "https://image.tmdb.org/t/p/original/qqHQsStV6exghCM7zbObuYBiYxw.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_389/index-s1080p-v1-a1.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/389/video_main.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/389/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/389/audio_hindi.m3u8",
@@ -6230,8 +6663,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/389/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.891264+00:00",
-    "last_health_check": "2026-09-01T12:02:16.708889+00:00"
+    "updated_at": "2026-09-01T18:01:55.037385+00:00"
   },
   {
     "id": 346,
@@ -6243,7 +6675,7 @@
     "release_year": 1954,
     "release_date": "1954-04-26",
     "rating": 8.5,
-    "vote_count": 4344,
+    "vote_count": 4346,
     "popularity": 15.2,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -6265,7 +6697,7 @@
       "original": "https://image.tmdb.org/t/p/original/qvZ91FwMq6O47VViAr8vZNQz3WI.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_346/index-s1080p-v1-a1.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/346/video_main.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/346/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/346/audio_hindi.m3u8",
@@ -6273,7 +6705,6 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/346/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917368+00:00",
-    "last_health_check": "2026-09-01T12:02:16.568273+00:00"
+    "updated_at": "2026-09-01T18:01:55.160075+00:00"
   }
 ]

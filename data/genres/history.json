@@ -1,5 +1,54 @@
 [
   {
+    "id": 1471168,
+    "imdb_id": "tt43706402",
+    "type": "movie",
+    "title": "Barreda",
+    "original_title": "Barreda",
+    "tagline": "El Asesino Que Dividió A Un País",
+    "release_year": 2026,
+    "release_date": "2026-08-28",
+    "rating": 6.7,
+    "vote_count": 30,
+    "popularity": 41.9,
+    "runtime_minutes": 105,
+    "runtime_formatted": "1h 45m",
+    "genres": [
+      "Drama",
+      "Crime",
+      "History"
+    ],
+    "overview": "A fictionalized drama film based on one of the most shocking crimes in Argentina's history. In 1992, Ricardo Barreda was an unassuming dentist, brutally murdered his wife, mother-in-law, and two adult daughters in their family home. Branding himself as a victim, Ricardo Barreda ignited a media storm and fueled a national scandal.",
+    "cast": [
+      "Luis Machín",
+      "Carla Peterson",
+      "Mercedes Morán",
+      "Maite Lanata",
+      "Margarita Páez"
+    ],
+    "trailer_url": "https://www.youtube.com/watch?v=6Otcjy6Vp3A",
+    "trailer_youtube_id": "6Otcjy6Vp3A",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/hnr0QkZSDLlrJTvU2ecco65wcHo.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/hnr0QkZSDLlrJTvU2ecco65wcHo.jpg",
+      "original": "https://image.tmdb.org/t/p/original/hnr0QkZSDLlrJTvU2ecco65wcHo.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/4pXBWLKMew7Xmtq3OgMQxTHp060.jpg",
+      "original": "https://image.tmdb.org/t/p/original/4pXBWLKMew7Xmtq3OgMQxTHp060.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1471168/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1471168/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1471168/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1471168/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1471168/720/index_308.m3u8"
+    },
+    "health_status": "online",
+    "updated_at": "2026-09-01T18:01:53.985598+00:00"
+  },
+  {
     "id": 1305672,
     "imdb_id": "tt32634330",
     "type": "movie",
@@ -56,8 +105,8 @@
     "tagline": "Not all battles are fought with bullets.",
     "release_year": 2026,
     "release_date": "2026-08-14",
-    "rating": 8.0,
-    "vote_count": 7,
+    "rating": 7.6,
+    "vote_count": 8,
     "popularity": 9.7,
     "runtime_minutes": 117,
     "runtime_formatted": "1h 57m",
@@ -95,7 +144,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/192139/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.209231+00:00"
+    "updated_at": "2026-09-01T18:01:52.591008+00:00"
   },
   {
     "id": 1380417,
@@ -106,8 +155,8 @@
     "tagline": "The FBI couldn't crack it. So they called in the mob.",
     "release_year": 2026,
     "release_date": "2026-09-02",
-    "rating": 0.0,
-    "vote_count": 0,
+    "rating": 10.0,
+    "vote_count": 1,
     "popularity": 9.0,
     "runtime_minutes": 107,
     "runtime_formatted": "1h 47m",
@@ -135,33 +184,16 @@
       "medium": "https://image.tmdb.org/t/p/w780/eAouIDoMDhLetm6CtmDKIGEaaCi.jpg",
       "original": "https://image.tmdb.org/t/p/original/eAouIDoMDhLetm6CtmDKIGEaaCi.jpg"
     },
-    "quality_supported": [
-      "4K Ultra HD",
-      "1080p FHD",
-      "720p HD",
-      "480p SD"
-    ],
-    "primary_stream_url": "https://vidbolt.xyz/movie/1380417",
-    "stream_servers": {
-      "redflix_primary": "https://vidbolt.xyz/movie/1380417",
-      "bolt_filmu": "https://embed.filmu.in/movie/1380417",
-      "nova_vidlink": "https://vidlink.pro/movie/1380417",
-      "mega_videasy": "https://player.videasy.to/movie/1380417",
-      "alpha_vidfast": "https://vidfast.vc/movie/1380417",
-      "orion_vidcore": "https://vidcore.net/movie/1380417",
-      "cinezo": "https://player.cinezo.live/movie/1380417",
-      "premium_vidup": "https://vidup.to/movie/1380417",
-      "vidgod_zxcstream": "https://api.zxcstream.xyz/movie/1380417",
-      "hindi_screenscape": "https://screenscape.me/movie/1380417",
-      "hindi_new": "https://embed.reelsdownload.online/movie/1380417",
-      "hindi_mirror_peachify": "https://peachify.top/movie/1380417",
-      "hindi_2_modiplay": "https://rozgarlelo.modiplay.xyz/movie/1380417",
-      "autoembed": "https://player.autoembed.cc/embed/movie/1380417"
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1380417/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1380417/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1380417/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1380417/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1380417/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T10:56:56.557089+00:00",
-    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1380417/index-s1080p-v1-a1.m3u8",
-    "last_health_check": "2026-09-01T11:39:45.189531+00:00"
+    "updated_at": "2026-09-01T18:01:52.796125+00:00"
   },
   {
     "id": 424,
@@ -173,7 +205,7 @@
     "release_year": 1993,
     "release_date": "1993-12-15",
     "rating": 8.6,
-    "vote_count": 17831,
+    "vote_count": 17833,
     "popularity": 32.8,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -204,7 +236,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/424/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.891257+00:00"
+    "updated_at": "2026-09-01T18:01:55.037377+00:00"
   },
   {
     "id": 14537,
@@ -247,6 +279,6 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/14537/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917361+00:00"
+    "updated_at": "2026-09-01T18:01:55.160063+00:00"
   }
 ]

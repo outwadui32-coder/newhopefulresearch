@@ -9,7 +9,7 @@
     "release_year": 2026,
     "release_date": "2026-05-13",
     "rating": 8.2,
-    "vote_count": 5214,
+    "vote_count": 5219,
     "popularity": 232.2,
     "runtime_minutes": 109,
     "runtime_formatted": "1h 49m",
@@ -45,7 +45,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1339713/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095461+00:00"
+    "updated_at": "2026-09-01T18:01:52.472353+00:00"
   },
   {
     "id": 1232569,
@@ -56,8 +56,8 @@
     "tagline": "He has no strings to hold him back now.",
     "release_year": 2026,
     "release_date": "2026-07-22",
-    "rating": 6.8,
-    "vote_count": 68,
+    "rating": 6.7,
+    "vote_count": 70,
     "popularity": 231.4,
     "runtime_minutes": 82,
     "runtime_formatted": "1h 22m",
@@ -94,7 +94,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1232569/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.395742+00:00"
+    "updated_at": "2026-09-01T18:01:54.385741+00:00"
   },
   {
     "id": 1375646,
@@ -143,7 +143,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1375646/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.278508+00:00"
+    "updated_at": "2026-09-01T18:01:52.796023+00:00"
   },
   {
     "id": 1393326,
@@ -186,7 +186,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1393326/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.811224+00:00"
+    "updated_at": "2026-09-01T18:01:54.680309+00:00"
   },
   {
     "id": 1514682,
@@ -236,7 +236,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1514682/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.811237+00:00"
+    "updated_at": "2026-09-01T18:01:54.680328+00:00"
   },
   {
     "id": 1083381,
@@ -248,7 +248,7 @@
     "release_year": 2026,
     "release_date": "2026-05-27",
     "rating": 7.1,
-    "vote_count": 3065,
+    "vote_count": 3076,
     "popularity": 132.2,
     "runtime_minutes": 111,
     "runtime_formatted": "1h 51m",
@@ -285,7 +285,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1083381/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095535+00:00"
+    "updated_at": "2026-09-01T18:01:52.472598+00:00"
   },
   {
     "id": 1432706,
@@ -327,7 +327,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1432706/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.837485+00:00"
+    "updated_at": "2026-09-01T18:01:54.797691+00:00"
   },
   {
     "id": 1212461,
@@ -370,7 +370,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1212461/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.864316+00:00"
+    "updated_at": "2026-09-01T18:01:54.797751+00:00"
   },
   {
     "id": 1212763,
@@ -382,7 +382,7 @@
     "release_year": 2026,
     "release_date": "2026-07-07",
     "rating": 7.8,
-    "vote_count": 1382,
+    "vote_count": 1383,
     "popularity": 84.2,
     "runtime_minutes": 110,
     "runtime_formatted": "1h 50m",
@@ -417,7 +417,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1212763/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.209130+00:00"
+    "updated_at": "2026-09-01T18:01:52.591066+00:00"
   },
   {
     "id": 1284041,
@@ -429,7 +429,7 @@
     "release_year": 2026,
     "release_date": "2026-08-06",
     "rating": 6.9,
-    "vote_count": 1184,
+    "vote_count": 1185,
     "popularity": 82.9,
     "runtime_minutes": 110,
     "runtime_formatted": "1h 50m",
@@ -466,7 +466,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1284041/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.395793+00:00"
+    "updated_at": "2026-09-01T18:01:54.917826+00:00"
   },
   {
     "id": 1127384,
@@ -478,7 +478,7 @@
     "release_year": 2026,
     "release_date": "2026-04-30",
     "rating": 7.1,
-    "vote_count": 450,
+    "vote_count": 451,
     "popularity": 81.2,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -508,7 +508,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1127384/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.837761+00:00"
+    "updated_at": "2026-09-01T18:01:54.917844+00:00"
   },
   {
     "id": 1291595,
@@ -556,7 +556,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1291595/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.209010+00:00"
+    "updated_at": "2026-09-01T18:01:52.591074+00:00"
   },
   {
     "id": 964849,
@@ -567,8 +567,8 @@
     "tagline": "",
     "release_year": 2026,
     "release_date": "2026-07-01",
-    "rating": 6.0,
-    "vote_count": 88,
+    "rating": 6.1,
+    "vote_count": 89,
     "popularity": 69.2,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -597,7 +597,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/964849/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.864359+00:00"
+    "updated_at": "2026-09-01T18:01:54.917916+00:00"
   },
   {
     "id": 1314826,
@@ -649,8 +649,8 @@
     "tagline": "It's Buddy!",
     "release_year": 2026,
     "release_date": "2026-08-27",
-    "rating": 8.3,
-    "vote_count": 19,
+    "rating": 8.5,
+    "vote_count": 22,
     "popularity": 48.4,
     "runtime_minutes": 95,
     "runtime_formatted": "1h 35m",
@@ -686,7 +686,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1514026/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095510+00:00"
+    "updated_at": "2026-09-01T18:01:52.472381+00:00"
   },
   {
     "id": 1240889,
@@ -698,7 +698,7 @@
     "release_year": 2026,
     "release_date": "2026-08-06",
     "rating": 6.7,
-    "vote_count": 83,
+    "vote_count": 86,
     "popularity": 24.7,
     "runtime_minutes": 112,
     "runtime_formatted": "1h 52m",
@@ -735,7 +735,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1240889/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.395857+00:00"
+    "updated_at": "2026-09-01T18:01:53.611848+00:00"
   },
   {
     "id": 1423191,
@@ -771,8 +771,8 @@
       "original": "https://image.tmdb.org/t/p/original/guq5cJ43v0qcMtLqrYHe5P9fgFM.jpg"
     },
     "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/mRM28tIIm8y0gKy9GKYGwotxuPM.jpg",
-      "original": "https://image.tmdb.org/t/p/original/mRM28tIIm8y0gKy9GKYGwotxuPM.jpg"
+      "medium": "https://image.tmdb.org/t/p/w780/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
+      "original": "https://image.tmdb.org/t/p/original/3icyRAqgakNcQn6aDVz9libFmBA.jpg"
     },
     "stream_format": "direct_m3u8_hls",
     "direct_m3u8_url": "https://movie.streamrip.fun/movies/1423191/video_main.m3u8",
@@ -783,7 +783,55 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1423191/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095737+00:00"
+    "updated_at": "2026-09-01T18:01:52.472343+00:00"
+  },
+  {
+    "id": 1477712,
+    "imdb_id": "tt36893729",
+    "type": "movie",
+    "title": "Ice Cream Man",
+    "original_title": "Ice Cream Man",
+    "tagline": "We all scream.",
+    "release_year": 2026,
+    "release_date": "2026-08-03",
+    "rating": 4.8,
+    "vote_count": 48,
+    "popularity": 19.6,
+    "runtime_minutes": 86,
+    "runtime_formatted": "1h 26m",
+    "genres": [
+      "Horror",
+      "Comedy"
+    ],
+    "overview": "An idyllic summer town descends into madness when an ice cream man serves kids sweet delights with horrifying results.",
+    "cast": [
+      "Ari Millen",
+      "Charlie Zeltzer",
+      "Kole Parks",
+      "Shiloh O’Reilly",
+      "Kiori Mirza Waldman"
+    ],
+    "trailer_url": "https://www.youtube.com/watch?v=tTM-Yg6pGTI",
+    "trailer_youtube_id": "tTM-Yg6pGTI",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/c987gxFjXqYOxZEZKcTkS1ONTWH.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/c987gxFjXqYOxZEZKcTkS1ONTWH.jpg",
+      "original": "https://image.tmdb.org/t/p/original/c987gxFjXqYOxZEZKcTkS1ONTWH.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/75pK9Dj1CheZFItgld9TVvb2P4x.jpg",
+      "original": "https://image.tmdb.org/t/p/original/75pK9Dj1CheZFItgld9TVvb2P4x.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1477712/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1477712/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1477712/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1477712/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1477712/720/index_308.m3u8"
+    },
+    "health_status": "online",
+    "updated_at": "2026-09-01T18:01:53.778655+00:00"
   },
   {
     "id": 1284046,
@@ -832,7 +880,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1284046/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.395733+00:00"
+    "updated_at": "2026-09-01T18:01:52.591097+00:00"
   },
   {
     "id": 1462861,
@@ -880,7 +928,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1462861/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.278413+00:00"
+    "updated_at": "2026-09-01T18:01:52.591103+00:00"
   },
   {
     "id": 1742458,
@@ -891,8 +939,8 @@
     "tagline": "",
     "release_year": 2026,
     "release_date": "2026-09-01",
-    "rating": 0.0,
-    "vote_count": 0,
+    "rating": 10.0,
+    "vote_count": 1,
     "popularity": 2.8,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -928,6 +976,47 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1742458/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.208963+00:00"
+    "updated_at": "2026-09-01T18:01:52.472406+00:00"
+  },
+  {
+    "id": 967998,
+    "imdb_id": null,
+    "type": "movie",
+    "title": "Fatal Conspiracy",
+    "original_title": "Conspiração Fatal",
+    "tagline": "",
+    "release_year": 2022,
+    "release_date": "2022-05-26",
+    "rating": 6.4,
+    "vote_count": 5,
+    "popularity": 70.6,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Horror"
+    ],
+    "overview": "Davi Martins, a commercial director of a financial institution, and Juliana Martins, a personal trainer, are a couple trying to recover from a crisis. At work, Davi ends up getting involved in the investigation of a financial scandal, putting himself in the crosshairs of dangerous people. Little by little, Juliana discovers that her new home may not be a new beginning, but the stage for a real nightmare. Some secrets may end her life.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/zpj3nNoc5xaUZTIdnuhwXwUcRag.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/zpj3nNoc5xaUZTIdnuhwXwUcRag.jpg",
+      "original": "https://image.tmdb.org/t/p/original/zpj3nNoc5xaUZTIdnuhwXwUcRag.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/yQUTEvEb5pJi0BH3b1biQRpGvEx.jpg",
+      "original": "https://image.tmdb.org/t/p/original/yQUTEvEb5pJi0BH3b1biQRpGvEx.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/967998/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/967998/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/967998/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_967998/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/967998/720/index_308.m3u8"
+    },
+    "health_status": "online",
+    "updated_at": "2026-09-01T18:01:54.917908+00:00"
   }
 ]

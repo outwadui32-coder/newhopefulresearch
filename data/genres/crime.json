@@ -9,7 +9,7 @@
     "release_year": 2026,
     "release_date": "2026-08-27",
     "rating": 8.9,
-    "vote_count": 293,
+    "vote_count": 294,
     "popularity": 318.6,
     "runtime_minutes": 27,
     "runtime_formatted": "0h 27m",
@@ -41,7 +41,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1744462/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.278351+00:00"
+    "updated_at": "2026-09-01T18:01:52.795909+00:00"
   },
   {
     "id": 1621552,
@@ -53,7 +53,7 @@
     "release_year": 2026,
     "release_date": "2026-08-21",
     "rating": 8.9,
-    "vote_count": 433,
+    "vote_count": 437,
     "popularity": 306.4,
     "runtime_minutes": 91,
     "runtime_formatted": "1h 31m",
@@ -90,7 +90,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1621552/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.395678+00:00"
+    "updated_at": "2026-09-01T18:01:52.796101+00:00"
   },
   {
     "id": 1213243,
@@ -139,7 +139,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1213243/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.395827+00:00"
+    "updated_at": "2026-09-01T18:01:54.680259+00:00"
   },
   {
     "id": 860508,
@@ -150,8 +150,8 @@
     "tagline": "If you leave the door half open, soon you'll hear the whispers spoken.",
     "release_year": 2026,
     "release_date": "2026-08-27",
-    "rating": 6.4,
-    "vote_count": 221,
+    "rating": 6.3,
+    "vote_count": 229,
     "popularity": 227.7,
     "runtime_minutes": 114,
     "runtime_formatted": "1h 54m",
@@ -188,7 +188,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/860508/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095347+00:00"
+    "updated_at": "2026-09-01T18:01:52.472256+00:00"
   },
   {
     "id": 1560520,
@@ -200,7 +200,7 @@
     "release_year": 2026,
     "release_date": "2026-06-23",
     "rating": 9.1,
-    "vote_count": 153,
+    "vote_count": 155,
     "popularity": 164.1,
     "runtime_minutes": 79,
     "runtime_formatted": "1h 19m",
@@ -240,7 +240,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1560520/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.209159+00:00"
+    "updated_at": "2026-09-01T18:01:54.219309+00:00"
   },
   {
     "id": 1514682,
@@ -290,7 +290,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1514682/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.811237+00:00"
+    "updated_at": "2026-09-01T18:01:54.680328+00:00"
   },
   {
     "id": 87513,
@@ -302,7 +302,7 @@
     "release_year": 2026,
     "release_date": "2026-07-23",
     "rating": 6.4,
-    "vote_count": 88,
+    "vote_count": 89,
     "popularity": 108.8,
     "runtime_minutes": 104,
     "runtime_formatted": "1h 44m",
@@ -339,7 +339,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/87513/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.209058+00:00"
+    "updated_at": "2026-09-01T18:01:52.591086+00:00"
   },
   {
     "id": 1280738,
@@ -388,7 +388,56 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1280738/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.783261+00:00"
+    "updated_at": "2026-09-01T18:01:54.385759+00:00"
+  },
+  {
+    "id": 1471168,
+    "imdb_id": "tt43706402",
+    "type": "movie",
+    "title": "Barreda",
+    "original_title": "Barreda",
+    "tagline": "El Asesino Que Dividió A Un País",
+    "release_year": 2026,
+    "release_date": "2026-08-28",
+    "rating": 6.7,
+    "vote_count": 30,
+    "popularity": 41.9,
+    "runtime_minutes": 105,
+    "runtime_formatted": "1h 45m",
+    "genres": [
+      "Drama",
+      "Crime",
+      "History"
+    ],
+    "overview": "A fictionalized drama film based on one of the most shocking crimes in Argentina's history. In 1992, Ricardo Barreda was an unassuming dentist, brutally murdered his wife, mother-in-law, and two adult daughters in their family home. Branding himself as a victim, Ricardo Barreda ignited a media storm and fueled a national scandal.",
+    "cast": [
+      "Luis Machín",
+      "Carla Peterson",
+      "Mercedes Morán",
+      "Maite Lanata",
+      "Margarita Páez"
+    ],
+    "trailer_url": "https://www.youtube.com/watch?v=6Otcjy6Vp3A",
+    "trailer_youtube_id": "6Otcjy6Vp3A",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/hnr0QkZSDLlrJTvU2ecco65wcHo.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/hnr0QkZSDLlrJTvU2ecco65wcHo.jpg",
+      "original": "https://image.tmdb.org/t/p/original/hnr0QkZSDLlrJTvU2ecco65wcHo.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/4pXBWLKMew7Xmtq3OgMQxTHp060.jpg",
+      "original": "https://image.tmdb.org/t/p/original/4pXBWLKMew7Xmtq3OgMQxTHp060.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1471168/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1471168/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1471168/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1471168/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1471168/720/index_308.m3u8"
+    },
+    "health_status": "online",
+    "updated_at": "2026-09-01T18:01:53.985598+00:00"
   },
   {
     "id": 1242332,
@@ -400,7 +449,7 @@
     "release_year": 2026,
     "release_date": "2026-04-16",
     "rating": 7.3,
-    "vote_count": 538,
+    "vote_count": 539,
     "popularity": 30.2,
     "runtime_minutes": 91,
     "runtime_formatted": "1h 31m",
@@ -438,7 +487,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1242332/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.783244+00:00"
+    "updated_at": "2026-09-01T18:01:53.447942+00:00"
   },
   {
     "id": 445466,
@@ -486,7 +535,56 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/445466/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.395713+00:00"
+    "updated_at": "2026-09-01T18:01:53.778693+00:00"
+  },
+  {
+    "id": 1375441,
+    "imdb_id": "tt34206385",
+    "type": "movie",
+    "title": "Primetime",
+    "original_title": "Primetime",
+    "tagline": "Are you ready to make television history?",
+    "release_year": 2026,
+    "release_date": "2026-09-11",
+    "rating": 0.0,
+    "vote_count": 0,
+    "popularity": 7.5,
+    "runtime_minutes": 110,
+    "runtime_formatted": "1h 50m",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "overview": "In 2006, To Catch a Predator host Chris Hansen sets out to make television history.",
+    "cast": [
+      "Robert Pattinson",
+      "Merritt Wever",
+      "Skyler Gisondo",
+      "Phoebe Bridgers",
+      "Matthew Maher"
+    ],
+    "trailer_url": "https://www.youtube.com/watch?v=5fHXyqQOKL8",
+    "trailer_youtube_id": "5fHXyqQOKL8",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
+      "original": "https://image.tmdb.org/t/p/original/lmrulvLbmaejTix1YaMxo1oGhH1.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
+      "original": "https://image.tmdb.org/t/p/original/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1375441/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1375441/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1375441/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1375441/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1375441/720/index_308.m3u8"
+    },
+    "health_status": "online",
+    "updated_at": "2026-09-01T18:01:53.447882+00:00"
   },
   {
     "id": 1480574,
@@ -497,8 +595,8 @@
     "tagline": "Til death do they part.",
     "release_year": 2026,
     "release_date": "2026-08-28",
-    "rating": 8.2,
-    "vote_count": 4,
+    "rating": 7.4,
+    "vote_count": 8,
     "popularity": 5.0,
     "runtime_minutes": 96,
     "runtime_formatted": "1h 36m",
@@ -517,9 +615,9 @@
     "trailer_url": "https://www.youtube.com/watch?v=LlAajeOoFBo",
     "trailer_youtube_id": "LlAajeOoFBo",
     "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/wG0KDlzuUWE1KHaeJZcGdrJdZea.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/wG0KDlzuUWE1KHaeJZcGdrJdZea.jpg",
-      "original": "https://image.tmdb.org/t/p/original/wG0KDlzuUWE1KHaeJZcGdrJdZea.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w185/glALx6QaIgw1u4joXsnfHTjWi6D.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/glALx6QaIgw1u4joXsnfHTjWi6D.jpg",
+      "original": "https://image.tmdb.org/t/p/original/glALx6QaIgw1u4joXsnfHTjWi6D.jpg"
     },
     "backdrop": {
       "medium": "https://image.tmdb.org/t/p/w780/tieojVpH6eW44JQOQEWnf8t4khG.jpg",
@@ -534,7 +632,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1480574/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095382+00:00"
+    "updated_at": "2026-09-01T18:01:52.472204+00:00"
   },
   {
     "id": 1433583,
@@ -583,7 +681,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1433583/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.278463+00:00"
+    "updated_at": "2026-09-01T18:01:52.796113+00:00"
   },
   {
     "id": 1226699,
@@ -594,8 +692,8 @@
     "tagline": "Best buds. Worst adults.",
     "release_year": 2026,
     "release_date": "2026-08-14",
-    "rating": 4.8,
-    "vote_count": 6,
+    "rating": 5.9,
+    "vote_count": 9,
     "popularity": 4.0,
     "runtime_minutes": 99,
     "runtime_formatted": "1h 39m",
@@ -632,7 +730,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1226699/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.095483+00:00"
+    "updated_at": "2026-09-01T18:01:52.472299+00:00"
   },
   {
     "id": 155,
@@ -644,7 +742,7 @@
     "release_year": 2008,
     "release_date": "2008-07-16",
     "rating": 8.5,
-    "vote_count": 36553,
+    "vote_count": 36558,
     "popularity": 59.3,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -675,7 +773,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/155/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.891291+00:00"
+    "updated_at": "2026-09-01T18:01:55.037584+00:00"
   },
   {
     "id": 598,
@@ -687,7 +785,7 @@
     "release_year": 2002,
     "release_date": "2002-08-30",
     "rating": 8.4,
-    "vote_count": 8394,
+    "vote_count": 8396,
     "popularity": 19.9,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -717,7 +815,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/598/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917567+00:00"
+    "updated_at": "2026-09-01T18:01:55.160151+00:00"
   },
   {
     "id": 497,
@@ -729,7 +827,7 @@
     "release_year": 1999,
     "release_date": "1999-12-10",
     "rating": 8.5,
-    "vote_count": 19712,
+    "vote_count": 19715,
     "popularity": 35.3,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -760,7 +858,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/497/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.891497+00:00"
+    "updated_at": "2026-09-01T18:01:55.037599+00:00"
   },
   {
     "id": 278,
@@ -772,7 +870,7 @@
     "release_year": 1994,
     "release_date": "1994-09-23",
     "rating": 8.7,
-    "vote_count": 31188,
+    "vote_count": 31194,
     "popularity": 101.1,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -802,7 +900,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/278/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.837768+00:00"
+    "updated_at": "2026-09-01T18:01:54.797698+00:00"
   },
   {
     "id": 680,
@@ -814,7 +912,7 @@
     "release_year": 1994,
     "release_date": "1994-09-10",
     "rating": 8.5,
-    "vote_count": 30762,
+    "vote_count": 30768,
     "popularity": 38.6,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -845,7 +943,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/680/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917307+00:00"
+    "updated_at": "2026-09-01T18:01:55.160014+00:00"
   },
   {
     "id": 769,
@@ -857,7 +955,7 @@
     "release_year": 1990,
     "release_date": "1990-09-12",
     "rating": 8.5,
-    "vote_count": 14689,
+    "vote_count": 14691,
     "popularity": 28.2,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -887,7 +985,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/769/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917378+00:00"
+    "updated_at": "2026-09-01T18:01:55.160082+00:00"
   },
   {
     "id": 240,
@@ -899,7 +997,7 @@
     "release_year": 1974,
     "release_date": "1974-12-20",
     "rating": 8.6,
-    "vote_count": 14260,
+    "vote_count": 14261,
     "popularity": 36.4,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -929,7 +1027,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/240/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.891250+00:00"
+    "updated_at": "2026-09-01T18:01:55.037369+00:00"
   },
   {
     "id": 238,
@@ -941,7 +1039,7 @@
     "release_year": 1972,
     "release_date": "1972-03-14",
     "rating": 8.7,
-    "vote_count": 23455,
+    "vote_count": 23458,
     "popularity": 58.3,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -971,6 +1069,6 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/238/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.891209+00:00"
+    "updated_at": "2026-09-01T18:01:55.037344+00:00"
   }
 ]

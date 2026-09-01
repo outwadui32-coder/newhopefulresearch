@@ -9,7 +9,7 @@
     "release_year": 1994,
     "release_date": "1994-09-23",
     "rating": 8.7,
-    "vote_count": 31188,
+    "vote_count": 31194,
     "popularity": 101.1,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -39,7 +39,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/278/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.837768+00:00"
+    "updated_at": "2026-09-01T18:01:54.797698+00:00"
   },
   {
     "id": 13,
@@ -51,7 +51,7 @@
     "release_year": 1994,
     "release_date": "1994-06-23",
     "rating": 8.5,
-    "vote_count": 30338,
+    "vote_count": 30344,
     "popularity": 43.0,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -82,7 +82,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/13/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917354+00:00"
+    "updated_at": "2026-09-01T18:01:55.160055+00:00"
   },
   {
     "id": 680,
@@ -94,7 +94,7 @@
     "release_year": 1994,
     "release_date": "1994-09-10",
     "rating": 8.5,
-    "vote_count": 30762,
+    "vote_count": 30768,
     "popularity": 38.6,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -125,6 +125,6 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/680/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917307+00:00"
+    "updated_at": "2026-09-01T18:01:55.160014+00:00"
   }
 ]

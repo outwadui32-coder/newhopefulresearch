@@ -9,7 +9,7 @@
     "release_year": 2002,
     "release_date": "2002-05-01",
     "rating": 7.4,
-    "vote_count": 21304,
+    "vote_count": 21307,
     "popularity": 68.6,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -39,7 +39,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/557/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.864384+00:00"
+    "updated_at": "2026-09-01T18:01:54.917923+00:00"
   },
   {
     "id": 121,
@@ -51,7 +51,7 @@
     "release_year": 2002,
     "release_date": "2002-12-18",
     "rating": 8.4,
-    "vote_count": 24468,
+    "vote_count": 24474,
     "popularity": 33.8,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -82,7 +82,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/121/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917553+00:00"
+    "updated_at": "2026-09-01T18:01:55.160159+00:00"
   },
   {
     "id": 598,
@@ -94,7 +94,7 @@
     "release_year": 2002,
     "release_date": "2002-08-30",
     "rating": 8.4,
-    "vote_count": 8394,
+    "vote_count": 8396,
     "popularity": 19.9,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -124,6 +124,6 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/598/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.917567+00:00"
+    "updated_at": "2026-09-01T18:01:55.160151+00:00"
   }
 ]
