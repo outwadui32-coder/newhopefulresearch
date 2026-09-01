@@ -34,7 +34,8 @@
     1957,
     1954
   ],
-  "last_updated": "2026-09-01T10:31:08.544859+00:00",
+  "last_updated": "2026-09-01T10:37:48.456952+00:00",
+  "stream_architecture": "Direct HLS Streams (Zero Embeds)",
   "formats_available": [
     "JSON",
     "M3U",

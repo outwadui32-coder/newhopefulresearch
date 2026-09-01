@@ -49,7 +49,8 @@
         "720p HD": "https://multiembed.mov/directstream.php?video_id=1744462&tmdb=1&res=720"
       }
     },
-    "updated_at": "2026-09-01T10:31:07.250269+00:00"
+    "health_status": "online",
+    "updated_at": "2026-09-01T10:37:47.742506+00:00"
   },
   {
     "id": 1621552,
@@ -106,7 +107,8 @@
         "720p HD": "https://multiembed.mov/directstream.php?video_id=1621552&tmdb=1&res=720"
       }
     },
-    "updated_at": "2026-09-01T10:31:07.357334+00:00"
+    "health_status": "online",
+    "updated_at": "2026-09-01T10:37:47.804224+00:00"
   },
   {
     "id": 1213243,
@@ -163,7 +165,8 @@
         "720p HD": "https://multiembed.mov/directstream.php?video_id=1213243&tmdb=1&res=720"
       }
     },
-    "updated_at": "2026-09-01T10:31:07.357490+00:00"
+    "health_status": "online",
+    "updated_at": "2026-09-01T10:37:47.804376+00:00"
   },
   {
     "id": 860508,
@@ -220,7 +223,8 @@
         "720p HD": "https://multiembed.mov/directstream.php?video_id=860508&tmdb=1&res=720"
       }
     },
-    "updated_at": "2026-09-01T10:31:07.053328+00:00"
+    "health_status": "online",
+    "updated_at": "2026-09-01T10:37:47.589036+00:00"
   },
   {
     "id": 1560520,
@@ -280,7 +284,8 @@
         "720p HD": "https://multiembed.mov/directstream.php?video_id=1560520&tmdb=1&res=720"
       }
     },
-    "updated_at": "2026-09-01T10:31:07.250453+00:00"
+    "health_status": "online",
+    "updated_at": "2026-09-01T10:37:47.742597+00:00"
   },
   {
     "id": 1514682,
@@ -338,7 +343,8 @@
         "720p HD": "https://multiembed.mov/directstream.php?video_id=1514682&tmdb=1&res=720"
       }
     },
-    "updated_at": "2026-09-01T10:31:07.881703+00:00"
+    "health_status": "online",
+    "updated_at": "2026-09-01T10:37:47.965635+00:00"
   },
   {
     "id": 87513,
@@ -395,7 +401,8 @@
         "720p HD": "https://multiembed.mov/directstream.php?video_id=87513&tmdb=1&res=720"
       }
     },
-    "updated_at": "2026-09-01T10:31:07.161505+00:00"
+    "health_status": "online",
+    "updated_at": "2026-09-01T10:37:47.644631+00:00"
   },
   {
     "id": 1242332,
@@ -442,18 +449,19 @@
       "720p HD",
       "480p SD"
     ],
-    "source_play_url": "https://redflix.co/play?id=1242332&type=movie",
-    "primary_stream_url": "https://vidbolt.xyz/movie/1242332",
-    "health_status": "online",
-    "stream_servers": {
-      "vidbolt": "https://vidbolt.xyz/movie/1242332",
-      "vidlink": "https://vidlink.pro/movie/1242332",
-      "videasy": "https://player.videasy.to/movie/1242332",
-      "vidfast": "https://vidfast.vc/movie/1242332",
-      "vidcore": "https://vidcore.net/movie/1242332",
-      "vidnest": "https://vidnest.fun/movie/1242332"
+    "stream_type": "direct_hls_media",
+    "direct_stream_url": "https://multiembed.mov/directstream.php?video_id=1242332&tmdb=1",
+    "stream_sources": {
+      "primary_hls_stream": "https://multiembed.mov/directstream.php?video_id=1242332&tmdb=1",
+      "backup_hls_stream": "https://autoembed.co/movie/tmdb/1242332",
+      "qualities": {
+        "4K Ultra HD": "https://multiembed.mov/directstream.php?video_id=1242332&tmdb=1&res=4k",
+        "1080p Full HD": "https://multiembed.mov/directstream.php?video_id=1242332&tmdb=1&res=1080",
+        "720p HD": "https://multiembed.mov/directstream.php?video_id=1242332&tmdb=1&res=720"
+      }
     },
-    "updated_at": "2026-09-01T10:31:07.881721+00:00"
+    "health_status": "online",
+    "updated_at": "2026-09-01T10:37:47.965657+00:00"
   },
   {
     "id": 445466,
@@ -498,18 +506,19 @@
       "720p HD",
       "480p SD"
     ],
-    "source_play_url": "https://redflix.co/play?id=445466&type=movie",
-    "primary_stream_url": "https://vidbolt.xyz/movie/445466",
-    "health_status": "online",
-    "stream_servers": {
-      "vidbolt": "https://vidbolt.xyz/movie/445466",
-      "vidlink": "https://vidlink.pro/movie/445466",
-      "videasy": "https://player.videasy.to/movie/445466",
-      "vidfast": "https://vidfast.vc/movie/445466",
-      "vidcore": "https://vidcore.net/movie/445466",
-      "vidnest": "https://vidnest.fun/movie/445466"
+    "stream_type": "direct_hls_media",
+    "direct_stream_url": "https://multiembed.mov/directstream.php?video_id=445466&tmdb=1",
+    "stream_sources": {
+      "primary_hls_stream": "https://multiembed.mov/directstream.php?video_id=445466&tmdb=1",
+      "backup_hls_stream": "https://autoembed.co/movie/tmdb/445466",
+      "qualities": {
+        "4K Ultra HD": "https://multiembed.mov/directstream.php?video_id=445466&tmdb=1&res=4k",
+        "1080p Full HD": "https://multiembed.mov/directstream.php?video_id=445466&tmdb=1&res=1080",
+        "720p HD": "https://multiembed.mov/directstream.php?video_id=445466&tmdb=1&res=720"
+      }
     },
-    "updated_at": "2026-09-01T10:31:07.357458+00:00"
+    "health_status": "online",
+    "updated_at": "2026-09-01T10:37:47.804341+00:00"
   },
   {
     "id": 1480574,
@@ -565,7 +574,8 @@
         "720p HD": "https://multiembed.mov/directstream.php?video_id=1480574&tmdb=1&res=720"
       }
     },
-    "updated_at": "2026-09-01T10:31:07.053402+00:00"
+    "health_status": "online",
+    "updated_at": "2026-09-01T10:37:47.589113+00:00"
   },
   {
     "id": 1433583,
@@ -622,7 +632,8 @@
         "720p HD": "https://multiembed.mov/directstream.php?video_id=1433583&tmdb=1&res=720"
       }
     },
-    "updated_at": "2026-09-01T10:31:07.250485+00:00"
+    "health_status": "online",
+    "updated_at": "2026-09-01T10:37:47.742628+00:00"
   },
   {
     "id": 1226699,
@@ -679,7 +690,8 @@
         "720p HD": "https://multiembed.mov/directstream.php?video_id=1226699&tmdb=1&res=720"
       }
     },
-    "updated_at": "2026-09-01T10:31:07.053473+00:00"
+    "health_status": "online",
+    "updated_at": "2026-09-01T10:37:47.589187+00:00"
   },
   {
     "id": 155,
@@ -730,7 +742,8 @@
         "720p HD": "https://multiembed.mov/directstream.php?video_id=155&tmdb=1&res=720"
       }
     },
-    "updated_at": "2026-09-01T10:31:08.121371+00:00"
+    "health_status": "online",
+    "updated_at": "2026-09-01T10:37:48.182410+00:00"
   },
   {
     "id": 598,
@@ -780,7 +793,8 @@
         "720p HD": "https://multiembed.mov/directstream.php?video_id=598&tmdb=1&res=720"
       }
     },
-    "updated_at": "2026-09-01T10:31:08.172663+00:00"
+    "health_status": "online",
+    "updated_at": "2026-09-01T10:37:48.238144+00:00"
   },
   {
     "id": 497,
@@ -831,7 +845,8 @@
         "720p HD": "https://multiembed.mov/directstream.php?video_id=497&tmdb=1&res=720"
       }
     },
-    "updated_at": "2026-09-01T10:31:08.121608+00:00"
+    "health_status": "online",
+    "updated_at": "2026-09-01T10:37:48.182596+00:00"
   },
   {
     "id": 278,
@@ -881,7 +896,8 @@
         "720p HD": "https://multiembed.mov/directstream.php?video_id=278&tmdb=1&res=720"
       }
     },
-    "updated_at": "2026-09-01T10:31:07.982163+00:00"
+    "health_status": "online",
+    "updated_at": "2026-09-01T10:37:48.076952+00:00"
   },
   {
     "id": 680,
@@ -932,7 +948,8 @@
         "720p HD": "https://multiembed.mov/directstream.php?video_id=680&tmdb=1&res=720"
       }
     },
-    "updated_at": "2026-09-01T10:31:08.172524+00:00"
+    "health_status": "online",
+    "updated_at": "2026-09-01T10:37:48.237956+00:00"
   },
   {
     "id": 769,
@@ -982,7 +999,8 @@
         "720p HD": "https://multiembed.mov/directstream.php?video_id=769&tmdb=1&res=720"
       }
     },
-    "updated_at": "2026-09-01T10:31:08.172595+00:00"
+    "health_status": "online",
+    "updated_at": "2026-09-01T10:37:48.238052+00:00"
   },
   {
     "id": 240,
@@ -1032,7 +1050,8 @@
         "720p HD": "https://multiembed.mov/directstream.php?video_id=240&tmdb=1&res=720"
       }
     },
-    "updated_at": "2026-09-01T10:31:08.121336+00:00"
+    "health_status": "online",
+    "updated_at": "2026-09-01T10:37:48.182371+00:00"
   },
   {
     "id": 238,
@@ -1082,6 +1101,7 @@
         "720p HD": "https://multiembed.mov/directstream.php?video_id=238&tmdb=1&res=720"
       }
     },
-    "updated_at": "2026-09-01T10:31:08.121311+00:00"
+    "health_status": "online",
+    "updated_at": "2026-09-01T10:37:48.182340+00:00"
   }
 ]

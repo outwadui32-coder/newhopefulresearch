@@ -42,18 +42,19 @@
       "720p HD",
       "480p SD"
     ],
-    "source_play_url": "https://redflix.co/play?id=1305672&type=movie",
-    "primary_stream_url": "https://vidbolt.xyz/movie/1305672",
-    "health_status": "online",
-    "stream_servers": {
-      "vidbolt": "https://vidbolt.xyz/movie/1305672",
-      "vidlink": "https://vidlink.pro/movie/1305672",
-      "videasy": "https://player.videasy.to/movie/1305672",
-      "vidfast": "https://vidfast.vc/movie/1305672",
-      "vidcore": "https://vidcore.net/movie/1305672",
-      "vidnest": "https://vidnest.fun/movie/1305672"
+    "stream_type": "direct_hls_media",
+    "direct_stream_url": "https://multiembed.mov/directstream.php?video_id=1305672&tmdb=1",
+    "stream_sources": {
+      "primary_hls_stream": "https://multiembed.mov/directstream.php?video_id=1305672&tmdb=1",
+      "backup_hls_stream": "https://autoembed.co/movie/tmdb/1305672",
+      "qualities": {
+        "4K Ultra HD": "https://multiembed.mov/directstream.php?video_id=1305672&tmdb=1&res=4k",
+        "1080p Full HD": "https://multiembed.mov/directstream.php?video_id=1305672&tmdb=1&res=1080",
+        "720p HD": "https://multiembed.mov/directstream.php?video_id=1305672&tmdb=1&res=720"
+      }
     },
-    "updated_at": "2026-09-01T10:31:07.357416+00:00"
+    "health_status": "online",
+    "updated_at": "2026-09-01T10:37:47.804291+00:00"
   },
   {
     "id": 192139,
@@ -111,7 +112,8 @@
         "720p HD": "https://multiembed.mov/directstream.php?video_id=192139&tmdb=1&res=720"
       }
     },
-    "updated_at": "2026-09-01T10:31:07.250351+00:00"
+    "health_status": "online",
+    "updated_at": "2026-09-01T10:37:47.742553+00:00"
   },
   {
     "id": 1380417,
@@ -168,7 +170,8 @@
         "720p HD": "https://multiembed.mov/directstream.php?video_id=1380417&tmdb=1&res=720"
       }
     },
-    "updated_at": "2026-09-01T10:31:07.357426+00:00"
+    "health_status": "online",
+    "updated_at": "2026-09-01T10:37:47.804305+00:00"
   },
   {
     "id": 424,
@@ -219,7 +222,8 @@
         "720p HD": "https://multiembed.mov/directstream.php?video_id=424&tmdb=1&res=720"
       }
     },
-    "updated_at": "2026-09-01T10:31:08.121344+00:00"
+    "health_status": "online",
+    "updated_at": "2026-09-01T10:37:48.182379+00:00"
   },
   {
     "id": 14537,
@@ -270,6 +274,7 @@
         "720p HD": "https://multiembed.mov/directstream.php?video_id=14537&tmdb=1&res=720"
       }
     },
-    "updated_at": "2026-09-01T10:31:08.172580+00:00"
+    "health_status": "online",
+    "updated_at": "2026-09-01T10:37:48.238033+00:00"
   }
 ]
