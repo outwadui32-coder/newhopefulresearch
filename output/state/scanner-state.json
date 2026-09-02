@@ -3,7 +3,7 @@
   "scanner": "github-category-direct-stream-scanner",
   "sourceUrl": "https://redflix.co/",
   "createdAt": "2026-09-02T09:46:51.688Z",
-  "updatedAt": "2026-09-02T10:21:58.658Z",
+  "updatedAt": "2026-09-02T10:23:43.517Z",
   "categoryOrder": [
     {
       "id": "collection:home-home",
@@ -309,7 +309,9 @@
       "tv:5920:s01:e16"
     ],
     "collection:home-new-releases-in-united-states": [],
-    "collection:home-popular-movies": [],
+    "collection:home-popular-movies": [
+      "movie:860508"
+    ],
     "collection:home-trending-anime": [
       "movie:21"
     ],
@@ -777,7 +779,7 @@
       ],
       "canonicalId": "movie:860508",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:53:25.728Z"
+      "lastDiscoveredAt": "2026-09-02T10:23:43.458Z"
     },
     "movie:1204680": {
       "title": "Coyote vs. Acme, TMDB score 7.9",
@@ -894,7 +896,7 @@
       ],
       "canonicalId": "movie:969681",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:53:25.728Z"
+      "lastDiscoveredAt": "2026-09-02T10:23:43.459Z"
     },
     "tv:108978": {
       "title": "Reacher, TMDB score 8.1",
@@ -964,7 +966,7 @@
       "title": "The Odyssey, TMDB score 8",
       "url": "https://redflix.co/play?id=1368337&type=movie",
       "poster": "https://image.tmdb.org/t/p/w300/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
-      "heading": "Trending in United States",
+      "heading": "Top 10 Today",
       "categories": [
         {
           "id": "collection:home-trending-in-united-states",
@@ -1004,7 +1006,7 @@
       ],
       "canonicalId": "movie:1368337",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T10:10:24.976Z"
+      "lastDiscoveredAt": "2026-09-02T10:23:43.459Z"
     },
     "tv:5920": {
       "title": "The Mentalist, TMDB score 8.4",
@@ -1075,7 +1077,7 @@
       ],
       "canonicalId": "movie:1288445",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T10:10:24.976Z"
+      "lastDiscoveredAt": "2026-09-02T10:23:43.459Z"
     },
     "tv:113962": {
       "title": "Lioness, TMDB score 8.1",
@@ -1146,7 +1148,7 @@
       ],
       "canonicalId": "movie:1621552",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T10:10:24.976Z"
+      "lastDiscoveredAt": "2026-09-02T10:23:43.459Z"
     },
     "tv:125988": {
       "title": "Silo, TMDB score 8.2",
@@ -1231,7 +1233,7 @@
       ],
       "canonicalId": "movie:1339713",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T10:10:24.976Z"
+      "lastDiscoveredAt": "2026-09-02T10:23:43.459Z"
     },
     "tv:2734": {
       "title": "Law & Order: Special Victims Unit, TMDB score 8",
@@ -1302,7 +1304,7 @@
       ],
       "canonicalId": "movie:1084244",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T10:10:24.976Z"
+      "lastDiscoveredAt": "2026-09-02T10:23:43.459Z"
     },
     "tv:456": {
       "title": "The Simpsons, TMDB score 8",
@@ -1387,7 +1389,7 @@
       ],
       "canonicalId": "movie:1375646",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T10:10:24.976Z"
+      "lastDiscoveredAt": "2026-09-02T10:23:43.459Z"
     },
     "tv:1434": {
       "title": "Family Guy, TMDB score 7.4",
@@ -1451,7 +1453,7 @@
       ],
       "canonicalId": "movie:1108427",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T10:10:24.976Z"
+      "lastDiscoveredAt": "2026-09-02T10:23:43.459Z"
     },
     "tv:79744": {
       "title": "The Rookie, TMDB score 8.5",
@@ -1529,7 +1531,7 @@
       ],
       "canonicalId": "movie:1315772",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T10:10:24.976Z"
+      "lastDiscoveredAt": "2026-09-02T10:23:43.459Z"
     },
     "tv:4614": {
       "title": "NCIS, TMDB score 7.6",
@@ -1700,7 +1702,7 @@
       "title": "The Dog Stars, TMDB score 6.7",
       "url": "https://redflix.co/play?id=1384216&type=movie",
       "poster": "https://image.tmdb.org/t/p/w300/5O616X9vmRzQdB68PHzBewPittd.jpg",
-      "heading": "Movies",
+      "heading": "New Releases in United States",
       "categories": [
         {
           "id": "collection:home-new-releases-in-united-states",
@@ -1733,7 +1735,7 @@
       ],
       "canonicalId": "movie:1384216",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:23:43.459Z"
     },
     "tv:287238": {
       "title": "Poster for Furious",
@@ -1875,7 +1877,7 @@
       "title": "Batman: Knightfall Part 1: Knightfall, TMDB score 9",
       "url": "https://redflix.co/play?id=1560520&type=movie",
       "poster": "https://image.tmdb.org/t/p/w300/360qdtu2hLnqMu8SVHMywn420w1.jpg",
-      "heading": "Movies",
+      "heading": "Popular Movies",
       "categories": [
         {
           "id": "collection:home-popular-movies",
@@ -1915,13 +1917,13 @@
       ],
       "canonicalId": "movie:1560520",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:23:43.459Z"
     },
     "movie:634649": {
       "title": "Spider-Man: No Way Home, TMDB score 7.9",
       "url": "https://redflix.co/play?id=634649&type=movie",
       "poster": "https://image.tmdb.org/t/p/w300/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
-      "heading": "Movies",
+      "heading": "Popular Movies",
       "categories": [
         {
           "id": "collection:home-popular-movies",
@@ -1954,13 +1956,13 @@
       ],
       "canonicalId": "movie:634649",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:23:43.459Z"
     },
     "movie:1083381": {
       "title": "Backrooms, TMDB score 7.1",
       "url": "https://redflix.co/play?id=1083381&type=movie",
       "poster": "https://image.tmdb.org/t/p/w300/rhGx6E3qRNMgj3i5su2oukNHwIQ.jpg",
-      "heading": "Movies",
+      "heading": "Popular Movies",
       "categories": [
         {
           "id": "collection:home-popular-movies",
@@ -1993,13 +1995,13 @@
       ],
       "canonicalId": "movie:1083381",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:23:43.459Z"
     },
     "movie:1275779": {
       "title": "Disclosure Day, TMDB score 7.5",
       "url": "https://redflix.co/play?id=1275779&type=movie",
       "poster": "https://image.tmdb.org/t/p/w300/AnJ8IQJI23hNpYXVNaythu061Ru.jpg",
-      "heading": "Movies",
+      "heading": "Popular Movies",
       "categories": [
         {
           "id": "collection:home-popular-movies",
@@ -2025,13 +2027,13 @@
       ],
       "canonicalId": "movie:1275779",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:23:43.459Z"
     },
     "movie:82023": {
       "title": "Hotel Desire, TMDB score 6.2",
       "url": "https://redflix.co/play?id=82023&type=movie",
       "poster": "https://image.tmdb.org/t/p/w300/47XRWH95ATv4szxdWHl723guWXP.jpg",
-      "heading": "Movies",
+      "heading": "Popular Movies",
       "categories": [
         {
           "id": "collection:home-popular-movies",
@@ -2050,13 +2052,13 @@
       ],
       "canonicalId": "movie:82023",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:23:43.459Z"
     },
     "movie:1284465": {
       "title": "The Death of Robin Hood, TMDB score 6.3",
       "url": "https://redflix.co/play?id=1284465&type=movie",
       "poster": "https://image.tmdb.org/t/p/w300/13MmRwmG5NmaMfU8qNrtgGXisiD.jpg",
-      "heading": "Movies",
+      "heading": "Popular Movies",
       "categories": [
         {
           "id": "collection:home-popular-movies",
@@ -2082,13 +2084,13 @@
       ],
       "canonicalId": "movie:1284465",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:23:43.459Z"
     },
     "movie:687163": {
       "title": "Project Hail Mary, TMDB score 8.6",
       "url": "https://redflix.co/play?id=687163&type=movie",
       "poster": "https://image.tmdb.org/t/p/w300/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
-      "heading": "Movies",
+      "heading": "Popular Movies",
       "categories": [
         {
           "id": "collection:home-popular-movies",
@@ -2114,13 +2116,13 @@
       ],
       "canonicalId": "movie:687163",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:23:43.459Z"
     },
     "movie:278": {
       "title": "The Shawshank Redemption, TMDB score 8.7",
       "url": "https://redflix.co/play?id=278&type=movie",
       "poster": "https://image.tmdb.org/t/p/w300/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
-      "heading": "Movies",
+      "heading": "Popular Movies",
       "categories": [
         {
           "id": "collection:home-popular-movies",
@@ -2139,13 +2141,13 @@
       ],
       "canonicalId": "movie:278",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:23:43.459Z"
     },
     "movie:755898": {
       "title": "War of the Worlds, TMDB score 4",
       "url": "https://redflix.co/play?id=755898&type=movie",
       "poster": "https://image.tmdb.org/t/p/w300/yvirUYrva23IudARHn3mMGVxWqM.jpg",
-      "heading": "Movies",
+      "heading": "Popular Movies",
       "categories": [
         {
           "id": "collection:home-popular-movies",
@@ -2171,7 +2173,7 @@
       ],
       "canonicalId": "movie:755898",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:23:43.459Z"
     },
     "movie:21": {
       "title": "ONE PIECE, TMDB score 8.7",
@@ -48760,7 +48762,7 @@
       ],
       "canonicalId": "movie:860508",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:53:25.728Z",
+      "lastDiscoveredAt": "2026-09-02T10:23:43.458Z",
       "processed": true,
       "verified": true,
       "verifiedAt": "2026-09-02T09:55:53.935Z",
@@ -60035,33 +60037,33 @@
   },
   "activeBatch": null,
   "lastBatch": {
-    "id": "bf91a4e8-8ca5-4a1a-8b9b-b1f9e7a7a8fb",
-    "categoryId": "collection:home-trending-anime",
-    "categoryName": "Home: Trending Anime",
+    "id": "2510f221-b231-472e-8f13-6fc72ef160ef",
+    "categoryId": "collection:home-popular-movies",
+    "categoryName": "Home: Popular Movies",
     "items": [
-      "movie:21"
+      "movie:860508"
     ],
     "completedItems": [
-      "movie:21"
+      "movie:860508"
     ],
     "pendingItems": [],
-    "startedAt": "2026-09-02T10:21:54.147Z",
+    "startedAt": "2026-09-02T10:23:43.459Z",
     "discovered": 20,
     "newItemsFound": 20,
-    "browserScanned": 1,
-    "globallyReused": 0,
-    "successful": 0,
-    "failed": 1,
-    "approvedStreams": 0,
-    "rejectedStreams": 0,
+    "browserScanned": 0,
+    "globallyReused": 1,
+    "successful": 1,
+    "failed": 0,
+    "approvedStreams": 3,
+    "rejectedStreams": 9,
     "itemResults": {
-      "movie:21": {
-        "title": "ONE PIECE, TMDB score 8.7",
+      "movie:860508": {
+        "title": "The Whisper Man, TMDB score 6.4",
         "contentType": "movie",
-        "mode": "browser",
-        "success": false,
-        "approvedStreams": 0,
-        "rejectedStreams": 0
+        "mode": "reuse",
+        "success": true,
+        "approvedStreams": 3,
+        "rejectedStreams": 9
       }
     },
     "selectionMode": "manual",
@@ -60078,7 +60080,7 @@
       "series": 0,
       "episodes": 0
     },
-    "completedAt": "2026-09-02T10:21:58.632Z",
+    "completedAt": "2026-09-02T10:23:43.490Z",
     "categoryProcessedAfter": 1,
     "pointerAdvanced": false,
     "nextCategoryId": "collection:home-new-releases-in-united-states",
@@ -60086,7 +60088,7 @@
     "masterStreamsAfter": 48,
     "masterItemsAdded": 0,
     "masterStreamsAdded": 0,
-    "categoryOutput": "output/categories/collection-home-trending-anime/"
+    "categoryOutput": "output/categories/collection-home-popular-movies/"
   },
   "categoryLastBatch": {
     "collection:home-home": {
@@ -60306,6 +60308,60 @@
       "masterItemsAdded": 0,
       "masterStreamsAdded": 0,
       "categoryOutput": "output/categories/collection-home-trending-anime/"
+    },
+    "collection:home-popular-movies": {
+      "id": "2510f221-b231-472e-8f13-6fc72ef160ef",
+      "categoryId": "collection:home-popular-movies",
+      "categoryName": "Home: Popular Movies",
+      "items": [
+        "movie:860508"
+      ],
+      "completedItems": [
+        "movie:860508"
+      ],
+      "pendingItems": [],
+      "startedAt": "2026-09-02T10:23:43.459Z",
+      "discovered": 20,
+      "newItemsFound": 20,
+      "browserScanned": 0,
+      "globallyReused": 1,
+      "successful": 1,
+      "failed": 0,
+      "approvedStreams": 3,
+      "rejectedStreams": 9,
+      "itemResults": {
+        "movie:860508": {
+          "title": "The Whisper Man, TMDB score 6.4",
+          "contentType": "movie",
+          "mode": "reuse",
+          "success": true,
+          "approvedStreams": 3,
+          "rejectedStreams": 9
+        }
+      },
+      "selectionMode": "manual",
+      "categoryProcessedBefore": 0,
+      "masterItemsBefore": 17,
+      "masterStreamsBefore": 48,
+      "previousTypeCounts": {
+        "movies": 0,
+        "series": 0,
+        "episodes": 0
+      },
+      "batchTypeCounts": {
+        "movies": 1,
+        "series": 0,
+        "episodes": 0
+      },
+      "completedAt": "2026-09-02T10:23:43.490Z",
+      "categoryProcessedAfter": 1,
+      "pointerAdvanced": false,
+      "nextCategoryId": "collection:home-new-releases-in-united-states",
+      "masterItemsAfter": 17,
+      "masterStreamsAfter": 48,
+      "masterItemsAdded": 0,
+      "masterStreamsAdded": 0,
+      "categoryOutput": "output/categories/collection-home-popular-movies/"
     }
   },
   "migrations": {

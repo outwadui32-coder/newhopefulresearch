@@ -8,21 +8,21 @@
   },
   "summary": {
     "CATEGORY": "Home: Popular Movies",
-    "DISCOVERED": 0,
-    "PROCESSED": 0,
-    "SUCCESSFUL": 0,
+    "DISCOVERED": 20,
+    "PROCESSED": 1,
+    "SUCCESSFUL": 1,
     "FAILED": 0,
-    "MOVIES": 0,
+    "MOVIES": 1,
     "SERIES": 0,
     "EPISODES": 0,
-    "BATCH_SIZE": 0,
+    "BATCH_SIZE": 1,
     "BROWSER_SCANNED": 0,
-    "REUSED": 0,
+    "REUSED": 1,
     "STREAM_LINKS": 9,
     "UNIQUE_STREAM_URLS": 9,
-    "REMAINING_NEW_ITEMS": 0,
+    "REMAINING_NEW_ITEMS": 19,
     "NEXT_CATEGORY": "Home: New Releases in United States",
-    "LAST_UPDATED": "2026-09-02T10:21:58.632Z"
+    "LAST_UPDATED": "2026-09-02T10:23:43.490Z"
   },
   "items": [
     {

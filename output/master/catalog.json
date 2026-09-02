@@ -9,13 +9,13 @@
     "SERIES": 1,
     "EPISODES": 8,
     "BATCH_SIZE": 1,
-    "BROWSER_SCANNED": 1,
-    "REUSED": 0,
+    "BROWSER_SCANNED": 0,
+    "REUSED": 1,
     "STREAM_LINKS": 48,
     "UNIQUE_STREAM_URLS": 48,
     "REMAINING_NEW_ITEMS": 19,
     "NEXT_CATEGORY": "Home: New Releases in United States",
-    "LAST_UPDATED": "2026-09-02T10:21:58.632Z"
+    "LAST_UPDATED": "2026-09-02T10:23:43.490Z"
   },
   "categories": [
     {
