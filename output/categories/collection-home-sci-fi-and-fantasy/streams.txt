@@ -9,9 +9,39 @@ EPISODES: 0
 BATCH_SIZE: 0
 BROWSER_SCANNED: 0
 REUSED: 0
-STREAM_LINKS: 0
-UNIQUE_STREAM_URLS: 0
+STREAM_LINKS: 3
+UNIQUE_STREAM_URLS: 3
 REMAINING_NEW_ITEMS: 0
-NEXT_CATEGORY: Home: Top 10 Today
-LAST_UPDATED: 2026-09-02T09:52:03.556Z
+NEXT_CATEGORY: Home: Trending in United States
+LAST_UPDATED: 2026-09-02T10:01:46.768Z
+
+Title: Spider-Man: Brand New Day, TMDB score 7.9
+Canonical ID: movie:969681
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg
+Categories: Home: Top 10 Today, Home: Popular Movies, Home: Action & Adventure, Home: Sci-Fi & Fantasy, Movies: Movies, Browse: TRENDING NOW
+Server: PlayFast
+Resolution: 1920x800
+Type: hls
+URL: https://futureproofmarketing.site/WxX94jG5M/pl/H4sIAAAAAAAAAw3N3XaCIAAA4FdCtJa7yxY6PeDB.EnuEmzUxNhilj79eoDvfP0p1avN21mf4_Ua6igx6cac9apP0v6k4eZdAUspN6ECaYJdCIdxCzpR_rTOTjgfkm78gg30syq2C7mWpeQ.pxL9EiDUYcxKPgcm8uhB8kEQRzC9KoKj8qgHCuiCnHLorpD95IAI8mEdiTOGeVkIbh2TJWaARhSImce.anZByiOq.l2YSGwz4u4Jh3Zh8OlfNjfQ01qYVnJzowuZlbsBwwfVfYdLK02Nkdj3RRaborm1zNSqaCBB2V.d.6pDdmTOznqfTIQ_C3q5P8xgXvdqwtxGmlupoR.4bAGLPFDRYNUC0n.Qigh9QQEAAA--/master.m3u8
+
+Title: Spider-Man: Brand New Day, TMDB score 7.9
+Canonical ID: movie:969681
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg
+Categories: Home: Top 10 Today, Home: Popular Movies, Home: Action & Adventure, Home: Sci-Fi & Fantasy, Movies: Movies, Browse: TRENDING NOW
+Server: PlayFast
+Resolution: 1920x800
+Type: hls
+URL: https://futureproofmarketing.site/WxX94jG5M/pl/H4sIAAAAAAAAAw3M3XqCIAAA0FcS1H526YT6bLDxr9ypWCpYq1wrn347D3DWIEng1rWJSzfrYwMbECXQxVFzBHADwfFNnC83.7ovAqW5lhrXivpK2j3ZpUW7twsr21er8OojDj1FKm00g3zJCEEasykdPt83DwHp3S0n0EAAOgQC8WliTNhV0Ed0qh61ChdZZmWTU0mkniRwK2HA3HluucIH7n8XPszf9dhjU.KkQxGgQRs16pc4U8mi51V5fq3PTijob92YxcbTfRPjuS0zdIBWE2SHLg8Tl4VsIRidDjUX88Hm_RdZcFmNjrSmtwRxJBHQVeA5M4XWUwhM2.H_eApT_KiAdy4PlE3bgclo.wfrNAQAQQEAAA--/master.m3u8
+
+Title: Spider-Man: Brand New Day, TMDB score 7.9
+Canonical ID: movie:969681
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg
+Categories: Home: Top 10 Today, Home: Popular Movies, Home: Action & Adventure, Home: Sci-Fi & Fantasy, Movies: Movies, Browse: TRENDING NOW
+Server: PlayFast
+Resolution: 1920x800
+Type: hls
+URL: https://futureproofmarketing.site/WxX94jG5M/pl/H4sIAAAAAAAAAw3PW3KDIBQA0C2Jmjr2r2nAxFSMCJeGPxVSI2D6oBPj6tsNnJmjkbkY3WUo2wwmjy8oTVEypHG2SaNLhvpngehtkGUFmJy7ib2ZSUk9b4neqVmt7qnmpYW9O0l4WcED1xNZzF5z9fhZjpG.6yI_9iJ44TcrPILVERXt.3gFRHAn8ENzB.Y1kGE6JP.uaK9hd14VSKe88svcFuprwPSXWqiUDZQSdex9811zPTJXziLBSwNwavm2EuCKGsYtk6WT.LPo23wHMztor0t6zVlnXWIK1gjbpDV2Vs4Y0dUmgxWrsmNoUIWYILdGLlThQCSntJvKiVk4mb0DWqSLIvr_.XFnMcSCR_kf_wLuLUEBAAA-/master.m3u8
 

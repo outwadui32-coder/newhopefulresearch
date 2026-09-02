@@ -9,9 +9,39 @@ EPISODES: 0
 BATCH_SIZE: 0
 BROWSER_SCANNED: 0
 REUSED: 0
-STREAM_LINKS: 0
-UNIQUE_STREAM_URLS: 0
+STREAM_LINKS: 3
+UNIQUE_STREAM_URLS: 3
 REMAINING_NEW_ITEMS: 0
-NEXT_CATEGORY: Home: Top 10 Today
-LAST_UPDATED: 2026-09-02T09:52:03.556Z
+NEXT_CATEGORY: Home: Trending in United States
+LAST_UPDATED: 2026-09-02T10:01:46.768Z
+
+Title: Lanterns, TMDB score 8.3
+Canonical ID: tv:95350, tv:95350:s01:e01
+Content Type: series
+Poster: https://image.tmdb.org/t/p/w300/gpC7h43xPMEV3goYMQShfJbTtLq.jpg
+Categories: Home: Top 10 Today, Home: TV Shows, TV Shows: TV Shows, Browse: TRENDING NOW
+Server: PlayFast
+Resolution: 1920x960
+Type: hls
+URL: https://highperformancebrands.site/IgBCTApFy/pl/H4sIAAAAAAAAAw3K3W6CMBgA0FfqD5KxO5EWR7RKSz.gd5ViGFRGtBmRp9_O9SF3m2DSxbSjNtmh.0cU0SSmBLsoxgnuPuEQfgUKE7Bys9RMNUyRweZaZemqvFfVtJjTxnOVc3LT0bNvxBMeIrZsONhmT9tN.rpy7XmEuJ_gDWzRzrNV6UB67jc5c2pQEdTcIcWEPjMW3cahEXS59j6l_2fuclM7WISewrfzvLAgji6Xa6_l22V7bOsX0e8AqvKFOPKTyX3QSKOqDrEiRXTJJJd5aMScvjrOS6ndDLPU_WhGhb.wHAt60YU3aKF6HlrFf1Y4lqukywCPBCSwZ4mWHTQG.kykXQWDHSE1G0r.ANPUaZVBAQAA/master.m3u8
+
+Title: Lanterns, TMDB score 8.3
+Canonical ID: tv:95350, tv:95350:s01:e01
+Content Type: series
+Poster: https://image.tmdb.org/t/p/w300/gpC7h43xPMEV3goYMQShfJbTtLq.jpg
+Categories: Home: Top 10 Today, Home: TV Shows, TV Shows: TV Shows, Browse: TRENDING NOW
+Server: PlayFast
+Resolution: 1920x960
+Type: hls
+URL: https://highperformancebrands.site/IgBCTApFy/pl/H4sIAAAAAAAAAw3OQXKCMBQA0CuFAHborlpCS0UFkh.TXZIPYyUwSqkCp2_fCZ5rkbiANtZS82Jaalq32cQmcJY2SUyT15I7KurkV4tiKSnzpUxUNeCormpp3osHrgW1DEMlp8l6UMYz0P5g1JrfdTotcnCz6POtyeK1EnirV_XkwHbS6y_I5ohn1VVJz3lYjEV46ZqM7dT3xIB9EjegwPTGROaB0yiqerHalDxKj2fTzRvezfcyxJ0NPbH9T6B7VkvWjc1wOBWdVjINLgby4QjbGPlbDAM8UUx7I3MNK0Z6SBcIy9FQPAEtRkEOpPrQJ028MhlS1_tUny9KdzEIX67_nz3IdKmvSKuQHQUnyR8IRnSkQQEAAA--/master.m3u8
+
+Title: Lanterns, TMDB score 8.3
+Canonical ID: tv:95350, tv:95350:s01:e01
+Content Type: series
+Poster: https://image.tmdb.org/t/p/w300/gpC7h43xPMEV3goYMQShfJbTtLq.jpg
+Categories: Home: Top 10 Today, Home: TV Shows, TV Shows: TV Shows, Browse: TRENDING NOW
+Server: PlayFast
+Resolution: 1920x960
+Type: hls
+URL: https://highperformancebrands.site/IgBCTApFy/pl/H4sIAAAAAAAAAw3N0XqCIBgA0FeC0MxduiCzD5rKD8odiuZSy5WV6.m38wLHBRgFbdC2qF3XjU9q39u0YW03ZIOCVbX.yJnSmRpmiEuUUScd633TC6q2XaKHzte9m8pxECkREy_U5JC4Nfm8t7FbJI6Y.Zw14CsusbpbxjgUp1sNcwwFrJSKiII9yfqQKuojOSZxOk5PgR2udvNYwelVbaPO0s7LYEkcMveKCWxpmMKZfXHZvcqRLfYMz8NbPDjbv7nGUg9AanX6NXQxXJqfpuhRepluzWiOOVUdz.cEMF_sqvT.z1yeI09uOyFIQsuLsU5lYLRiBnCkQd2bQeygzx6p5C.zC68CD9_1ZTi6Nwr_ACbe_BlBAQAA/master.m3u8
 
