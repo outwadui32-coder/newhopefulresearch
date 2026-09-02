@@ -6,6 +6,8 @@ const { spawn } = require('node:child_process');
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const core = require('./lib/scanner-core');
+const DESKTOP_USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +
+  '(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
 
 puppeteer.use(StealthPlugin());
 
@@ -124,11 +126,15 @@ async function extractSurface(page, surface) {
 async function withBrowser(options, callback) {
   const browser = await puppeteer.launch({
     headless: options.headless, defaultViewport: { width: 1365, height: 900 },
-    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage',
+      '--disable-blink-features=AutomationControlled', '--window-size=1365,900']
   });
   try {
     const pages = await browser.pages();
-    return await callback(pages[0] || await browser.newPage());
+    const page = pages[0] || await browser.newPage();
+    await page.setUserAgent(DESKTOP_USER_AGENT);
+    await page.setExtraHTTPHeaders({ 'accept-language': 'en-US,en;q=0.9' });
+    return await callback(page);
   } finally {
     await browser.close();
   }
@@ -242,7 +248,8 @@ async function enrichPoster(item) {
 function runCollector(item, source, options, resultPath) {
   return new Promise((resolve) => {
     const args = [path.join(__dirname, 'collector.js'), '--url', item.url, '--source-origin', source.origin,
-      '--timeout', String(options.titleTimeout), '--output', resultPath, '--headless'];
+      '--timeout', String(options.titleTimeout), '--output', resultPath];
+    if (options.headless) args.push('--headless');
     const child = spawn(process.execPath, args, { cwd: __dirname, stdio: 'inherit' });
     child.on('error', (error) => resolve({ exitCode: -1, error: error.message, scan: null }));
     child.on('exit', (exitCode) => {

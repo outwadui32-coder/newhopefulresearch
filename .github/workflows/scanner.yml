@@ -67,18 +67,22 @@ jobs:
       - name: Run one selected-category batch
         id: scanner
         continue-on-error: true
-        run: npm run scan:github -- --max-items "$BATCH_SIZE" --workers 3 --title-timeout 90
+        run: xvfb-run -a npm run scan:github -- --max-items "$BATCH_SIZE" --workers 3 --title-timeout 90 --headed
 
       - name: Preserve valid unfinished state after a scanner failure
         if: steps.scanner.outcome == 'failure'
         shell: bash
         run: |
-          node -e "const fs=require('fs');const p='output/state/scanner-state.json';const s=JSON.parse(fs.readFileSync(p));if(!s.activeBatch)process.exit(2);if(s.activeBatch.items.length>20)process.exit(3);"
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/state/scanner-state.json output/history
-          git commit -m "scanner: preserve unfinished Action batch checkpoint" || true
-          git push
+          if [ -f output/state/scanner-state.json ]; then
+            node -e "const fs=require('fs');const p='output/state/scanner-state.json';const s=JSON.parse(fs.readFileSync(p));if(!s.activeBatch)process.exit(2);if(s.activeBatch.items.length>20)process.exit(3);"
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add output/state/scanner-state.json output/history
+            git commit -m "scanner: preserve unfinished Action batch checkpoint" || true
+            git push
+          else
+            echo "No valid active-batch checkpoint was created; nothing is safe to push."
+          fi
           exit 1
 
       - name: Validate generated state and every JSON TXT M3U output
