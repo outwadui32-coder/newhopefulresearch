@@ -8,21 +8,21 @@
   },
   "summary": {
     "CATEGORY": "Home: Popular Movies",
-    "DISCOVERED": 20,
+    "DISCOVERED": 0,
     "PROCESSED": 1,
-    "SUCCESSFUL": 1,
+    "SUCCESSFUL": 0,
     "FAILED": 0,
-    "MOVIES": 1,
+    "MOVIES": 0,
     "SERIES": 0,
     "EPISODES": 0,
-    "BATCH_SIZE": 1,
+    "BATCH_SIZE": 0,
     "BROWSER_SCANNED": 0,
-    "REUSED": 1,
+    "REUSED": 0,
     "STREAM_LINKS": 27,
     "UNIQUE_STREAM_URLS": 27,
-    "REMAINING_NEW_ITEMS": 19,
-    "NEXT_CATEGORY": "Home: Popular Movies",
-    "LAST_UPDATED": "2026-09-02T12:31:22.138Z"
+    "REMAINING_NEW_ITEMS": 0,
+    "NEXT_CATEGORY": "Home: Trending Anime",
+    "LAST_UPDATED": "2026-09-02T18:28:28.874Z"
   },
   "items": [
     {

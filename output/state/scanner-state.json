@@ -3,7 +3,7 @@
   "scanner": "github-category-direct-stream-scanner",
   "sourceUrl": "https://redflix.co/",
   "createdAt": "2026-09-02T09:46:51.688Z",
-  "updatedAt": "2026-09-02T12:31:22.185Z",
+  "updatedAt": "2026-09-02T18:28:28.918Z",
   "categoryOrder": [
     {
       "id": "collection:home-home",
@@ -258,7 +258,7 @@
       "url": "https://redflix.co/browse"
     }
   ],
-  "nextCategoryIndex": 5,
+  "nextCategoryIndex": 6,
   "categoryHistory": {
     "collection:home-home": [],
     "collection:home-the-runner": [
@@ -67919,13 +67919,13 @@
   },
   "activeBatch": null,
   "lastBatch": {
-    "id": "350ca86f-4f0b-445d-816e-66570f9a4126",
-    "categoryId": "collection:home-new-releases-in-united-states",
-    "categoryName": "Home: New Releases in United States",
+    "id": "5913ef46-d7a7-4332-b06e-b758c6a1c71e",
+    "categoryId": "collection:home-popular-movies",
+    "categoryName": "Home: Popular Movies",
     "items": [],
     "completedItems": [],
     "pendingItems": [],
-    "startedAt": "2026-09-02T12:31:22.120Z",
+    "startedAt": "2026-09-02T18:28:28.852Z",
     "discovered": 0,
     "newItemsFound": 0,
     "browserScanned": 0,
@@ -67936,11 +67936,11 @@
     "rejectedStreams": 0,
     "itemResults": {},
     "selectionMode": "automatic",
-    "categoryProcessedBefore": 0,
+    "categoryProcessedBefore": 1,
     "masterItemsBefore": 34,
     "masterStreamsBefore": 99,
     "previousTypeCounts": {
-      "movies": 0,
+      "movies": 1,
       "series": 0,
       "episodes": 0
     },
@@ -67949,15 +67949,15 @@
       "series": 0,
       "episodes": 0
     },
-    "completedAt": "2026-09-02T12:31:22.138Z",
-    "categoryProcessedAfter": 0,
+    "completedAt": "2026-09-02T18:28:28.874Z",
+    "categoryProcessedAfter": 1,
     "pointerAdvanced": true,
-    "nextCategoryId": "collection:home-popular-movies",
+    "nextCategoryId": "collection:home-trending-anime",
     "masterItemsAfter": 34,
     "masterStreamsAfter": 99,
     "masterItemsAdded": 0,
     "masterStreamsAdded": 0,
-    "categoryOutput": "output/categories/collection-home-new-releases-in-united-states/"
+    "categoryOutput": "output/categories/collection-home-popular-movies/"
   },
   "categoryLastBatch": {
     "collection:home-home": {
@@ -68179,55 +68179,42 @@
       "categoryOutput": "output/categories/collection-home-trending-anime/"
     },
     "collection:home-popular-movies": {
-      "id": "2510f221-b231-472e-8f13-6fc72ef160ef",
+      "id": "5913ef46-d7a7-4332-b06e-b758c6a1c71e",
       "categoryId": "collection:home-popular-movies",
       "categoryName": "Home: Popular Movies",
-      "items": [
-        "movie:860508"
-      ],
-      "completedItems": [
-        "movie:860508"
-      ],
+      "items": [],
+      "completedItems": [],
       "pendingItems": [],
-      "startedAt": "2026-09-02T10:23:43.459Z",
-      "discovered": 20,
-      "newItemsFound": 20,
+      "startedAt": "2026-09-02T18:28:28.852Z",
+      "discovered": 0,
+      "newItemsFound": 0,
       "browserScanned": 0,
-      "globallyReused": 1,
-      "successful": 1,
+      "globallyReused": 0,
+      "successful": 0,
       "failed": 0,
-      "approvedStreams": 3,
-      "rejectedStreams": 9,
-      "itemResults": {
-        "movie:860508": {
-          "title": "The Whisper Man, TMDB score 6.4",
-          "contentType": "movie",
-          "mode": "reuse",
-          "success": true,
-          "approvedStreams": 3,
-          "rejectedStreams": 9
-        }
-      },
-      "selectionMode": "manual",
-      "categoryProcessedBefore": 0,
-      "masterItemsBefore": 17,
-      "masterStreamsBefore": 48,
+      "approvedStreams": 0,
+      "rejectedStreams": 0,
+      "itemResults": {},
+      "selectionMode": "automatic",
+      "categoryProcessedBefore": 1,
+      "masterItemsBefore": 34,
+      "masterStreamsBefore": 99,
       "previousTypeCounts": {
-        "movies": 0,
-        "series": 0,
-        "episodes": 0
-      },
-      "batchTypeCounts": {
         "movies": 1,
         "series": 0,
         "episodes": 0
       },
-      "completedAt": "2026-09-02T10:23:43.490Z",
+      "batchTypeCounts": {
+        "movies": 0,
+        "series": 0,
+        "episodes": 0
+      },
+      "completedAt": "2026-09-02T18:28:28.874Z",
       "categoryProcessedAfter": 1,
-      "pointerAdvanced": false,
-      "nextCategoryId": "collection:home-new-releases-in-united-states",
-      "masterItemsAfter": 17,
-      "masterStreamsAfter": 48,
+      "pointerAdvanced": true,
+      "nextCategoryId": "collection:home-trending-anime",
+      "masterItemsAfter": 34,
+      "masterStreamsAfter": 99,
       "masterItemsAdded": 0,
       "masterStreamsAdded": 0,
       "categoryOutput": "output/categories/collection-home-popular-movies/"
