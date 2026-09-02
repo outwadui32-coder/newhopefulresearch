@@ -8,14 +8,14 @@
     "MOVIES": 25,
     "SERIES": 1,
     "EPISODES": 8,
-    "BATCH_SIZE": 20,
-    "BROWSER_SCANNED": 18,
-    "REUSED": 2,
+    "BATCH_SIZE": 0,
+    "BROWSER_SCANNED": 0,
+    "REUSED": 0,
     "STREAM_LINKS": 99,
     "UNIQUE_STREAM_URLS": 99,
     "REMAINING_NEW_ITEMS": 0,
-    "NEXT_CATEGORY": "Home: New Releases in United States",
-    "LAST_UPDATED": "2026-09-02T11:03:25.492Z"
+    "NEXT_CATEGORY": "Home: Popular Movies",
+    "LAST_UPDATED": "2026-09-02T12:31:22.138Z"
   },
   "categories": [
     {
