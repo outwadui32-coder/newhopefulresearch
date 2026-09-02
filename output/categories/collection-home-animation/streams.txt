@@ -9,9 +9,99 @@ EPISODES: 0
 BATCH_SIZE: 0
 BROWSER_SCANNED: 0
 REUSED: 0
-STREAM_LINKS: 0
-UNIQUE_STREAM_URLS: 0
+STREAM_LINKS: 9
+UNIQUE_STREAM_URLS: 9
 REMAINING_NEW_ITEMS: 0
 NEXT_CATEGORY: Home: New Releases in United States
-LAST_UPDATED: 2026-09-02T10:23:43.490Z
+LAST_UPDATED: 2026-09-02T11:03:25.492Z
+
+Title: Batman: Knightfall Part 1: Knightfall, TMDB score 9
+Canonical ID: movie:1560520
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/360qdtu2hLnqMu8SVHMywn420w1.jpg
+Categories: Home: Popular Movies, Home: Action & Adventure, Home: Sci-Fi & Fantasy, Home: Animation, Movies: Movies
+Server: PlayFast
+Resolution: 1920x1080
+Type: hls
+URL: https://automatedrevenuehub.site/SBzuCY2ts/pl/H4sIAAAAAAAAAw3OW3KCMBQA0C0loWmH_omCihA0L_D.QZIZCoTSkfrI6tuzgmMQIa2zxBAXR23UvRv64ahrKTZdZzv3qUW86kP2W6CnUHhK7AS5SS2CiUe8mbZ8BGY976GGxh02SDXZ_qp6BSj33ZSscuBjJ7OyFHFxinhQuxzXQ0pl2BCV8sx8rVimKVYYNNsvN0BUlvj7aT2r6hlCQZYACHam4T9MxC81L5VIGVL.EfGZaat0w3F_556.apkXUk.6UmOwg.a8zkEEdm73C7I79bwM4901x4eIEi1DGkzGCiH_T3N.udb6DWbmmc.hHvlqxhu2ERzluBBN2BZ0TxVa1hOiayXhXOKEQEDxH4uhabVBAQAA/master.m3u8
+
+Title: Batman: Knightfall Part 1: Knightfall, TMDB score 9
+Canonical ID: movie:1560520
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/360qdtu2hLnqMu8SVHMywn420w1.jpg
+Categories: Home: Popular Movies, Home: Action & Adventure, Home: Sci-Fi & Fantasy, Home: Animation, Movies: Movies
+Server: PlayFast
+Resolution: 1920x1080
+Type: hls
+URL: https://automatedrevenuehub.site/SBzuCY2ts/pl/H4sIAAAAAAAAAwXB0XqCIBgA0FcSlDZ3NxqSJbRQfso7BbaWWPblzPn0Owe3cUzSlxY7j2yCnI0TH2PivnxLfIr8m8nEcjLdsofhCR0hEtW9iEhy6GUPeDZFTD9lJVcW1Q1gMZ0WWhUR3JvFGalFpPg4F0tOZDQwpVNdBipFdy7LIBtxob8lVz8W58Rs6oeE4e7QuWjBqd3yjfXG3YUhGFjGK6CzD_JWaXIULN3a3s4W5M5Crcw6XQnDZhm_P2um5qbLpt3feKx4oCocJjDZs9GKG8jWsheJ_wi5DPRRmvHi2Hj0bNgrjooaba9Oh1xH2UUYxet.2wA7JKfrcAP9OgmgChi5WRRmYMB1FaX__tjF80EBAAA-/master.m3u8
+
+Title: Batman: Knightfall Part 1: Knightfall, TMDB score 9
+Canonical ID: movie:1560520
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/360qdtu2hLnqMu8SVHMywn420w1.jpg
+Categories: Home: Popular Movies, Home: Action & Adventure, Home: Sci-Fi & Fantasy, Home: Animation, Movies: Movies
+Server: PlayFast
+Resolution: 1920x1080
+Type: hls
+URL: https://automatedrevenuehub.site/SBzuCY2ts/pl/H4sIAAAAAAAAAwXBUW6DIAAA0CshotZ9dkqZBlsRUPmjUksUEzab1HL6vQdOd2QQOM1ohtAglGVplqIJzLPOoiSPv7rNWLPmNYUgvhbN2pVJ2fUoTLxM6NDgOlZSQhvfnXnpFaMHYXtXvv9MYLyF6lvAo.KYAgaOaNyUN9sYZKHSBxGJAjmWRZWK7UC69FdBsB4_r7cB4BhdVdLFVdOlwpy483SxRBLr5GdPOnLWdfhJRudVHTVSLc9jWp5xV5yhBrang2_MYlzbn.JxsCkNpmohu2lnBVvYbwtwr4HfW5hjvkZaEKspWAMVkR57WbKBre3qY8NVpECz90UTWikbfpmCdP6mwWsxhfKCg_wf4Hq8gkEBAAA-/master.m3u8
+
+Title: Demon Slayer: Kimetsu no Yaiba Infinity Castle, TMDB score 8.8
+Canonical ID: movie:1311031
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/fWVSwgjpT2D78VUh6X8UBd2rorW.jpg
+Categories: Home: Action & Adventure, Home: Animation, Movies: Movies
+Server: PlayFast
+Resolution: 1920x1080
+Type: hls
+URL: https://profitableaffiliatehub.site/BLWDuL7aS/pl/H4sIAAAAAAAAAw3M0VqDIBgA0FcCkzW7axNsNvUThF.5c0C5KVr7XKlPX.cBDkEuer58tCQIURuZALWhi8LAOYd3Ebb7l.yWEauYNiNFeUAKpQ6jocNRJ8sZgFVF0vFS_q5OzFL7AUyCE43yo4FpNbUqHf0MxcgBarPyfkFNv994pYbSd4m4qQLAMqBkreR8MkH0EJ4lEuFC.6gTWN415e8K8Xvj07bEr4vYTls75FBQvgOahRdkJ6fsj4vtV_bGpyJOp3Y83GBMsZbyiW_544zZd4n1Na9ZUnlODDDSVGoysW7.r6uo1XRGXJhez6Jf9IXqsgE7NzXPJOqQrA4xHydikQwtS33lUyS3DuyGoj.VrulMQQEAAA--/master.m3u8
+
+Title: Demon Slayer: Kimetsu no Yaiba Infinity Castle, TMDB score 8.8
+Canonical ID: movie:1311031
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/fWVSwgjpT2D78VUh6X8UBd2rorW.jpg
+Categories: Home: Action & Adventure, Home: Animation, Movies: Movies
+Server: PlayFast
+Resolution: 1920x1080
+Type: hls
+URL: https://profitableaffiliatehub.site/BLWDuL7aS/pl/H4sIAAAAAAAAAw3P226CMAAA0F.iFBzdm0HoRNqsd.gbWBaEumhExH799gMnOTCNB5Seocs.sh1IOpREMHO7n6zretR30afz9NbGIB_mMZfTcTMNB8TQuo.KpP9ym9Pac.ytmjQZJhvEBa3Mt4nw.ikVuhNINxKnJS39wublzSOO1UGvbSi_LfajnvSbxLqw_hiz4PI62loq0L0LNihQpSRfuvZ3FBRUD6MpFqoch6Z6MVMJBVw.KJvomT.dWaRo.MkZX.tpfMhoo2ZeFFVbcr4sTFxvp67I3gxyLM3C7GHkw2GfMIVGh4tV4nZVUleyVLAP.62_voJt_i1FYB0s00H_vwHR_jb18AhOYI6ZjNAfxIEb1kEBAAA-/master.m3u8
+
+Title: Demon Slayer: Kimetsu no Yaiba Infinity Castle, TMDB score 8.8
+Canonical ID: movie:1311031
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/fWVSwgjpT2D78VUh6X8UBd2rorW.jpg
+Categories: Home: Action & Adventure, Home: Animation, Movies: Movies
+Server: PlayFast
+Resolution: 1920x1080
+Type: hls
+URL: https://profitableaffiliatehub.site/BLWDuL7aS/pl/H4sIAAAAAAAAAw3Ky3KCMBQA0F9KgrGmS2vBiRImj3vB7CDooIFClXHQr2.3Z85G8JqteNisKQuUi_BBWL0WhG3Y5UIF.9SDTIHAAhm.WtJbG_kSaHfIiR9NglW.nw6YoGwBXnnmF0umOdjHylRbgjE9oJ2dqcICg1o7Zh64V1cT5x9zk7Z5q6cCGevoC2UF83s1hgHRo9Taee76aWyI_PY7Y3TS33OCvxoW00Q.nQYTWxKfsGunU2y7YzLePXRdO6ySE.srm3auKPup2SntU1n.mykrc7SgAOm2R9q7ACMPJH.eU5Rnh1.u0gsApy1uK8X8XABKE7lrhgcrM0HOt7SoCV7t._9n9O7fRPwBKTLBQkEBAAA-/master.m3u8
+
+Title: Spider-Man: Across the Spider-Verse, TMDB score 8.3
+Canonical ID: movie:569094
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg
+Categories: Home: Action & Adventure, Home: Sci-Fi & Fantasy, Home: Animation, Movies: Movies
+Server: PlayFast
+Resolution: 1920x804
+Type: hls
+URL: https://highperformancebrands.site/1BJf05vjs/pl/H4sIAAAAAAAAAwXB2XKCMBQA0F_Kgjr0McNeCWW5F8kbkCiaQJmOC_r1PWdHDOOMEG6G3vOGgbEz3R848ccDOe.o_2XcdNTObiNsv0WYM9NO9xyAl0SVQOSCsy.rRFCwmOlZJWMwOQX3viSbLZ39FKfppVn3RrKJId7W_nPh7aIE2vAz2ugKSflCwL_6JjGfsTORe.mgQsmUrBfscuumyqZcxdG7APIcOYqRVI_8JpImEDXQ9arZejWRcApT0oZyrlhGAfxJxTlHp459WN01n6wJ1PcYylYF6abpxevDdTWnaFdR8cit.lEsfaolexroaHfSTdu4oo5Vh7F7NEvqyTDbN4sO6limgHIHDfH_AbUKeuFBAQAA/master.m3u8
+
+Title: Spider-Man: Across the Spider-Verse, TMDB score 8.3
+Canonical ID: movie:569094
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg
+Categories: Home: Action & Adventure, Home: Sci-Fi & Fantasy, Home: Animation, Movies: Movies
+Server: PlayFast
+Resolution: 1920x804
+Type: hls
+URL: https://highperformancebrands.site/1BJf05vjs/pl/H4sIAAAAAAAAAwXB7XqCIBgA0FsClJb7t0opnJQIr8E_lX08iOaqlfPqd86K4nVHX0hMW0pRjNYE4yQi7Yq4Fnef3Wu7y2yVposAdy_Y_NCL3cKeMz3wRpP7XEKIGzTva81tlU2oQvaUIwe1dl4PUlWRmGuGQdXTTWDYVAz.zNLFH6N7lCTbOLC7aq.JIwIpL95FykPDkutRcSHhQsta_Mjz9AvMlQ5fiPb2WSj5MAFKqbkR_SFqA89FHw45EbSIoG_C5CXhixrhZLyjBqAqgjtr_LbYsVtsNh0siJ0cs7wbKDbRdyTTgh4VbOUoI40SofwXMSBvimEJQ3gaX2Lw_dWyQAGnT729Y61Q8g8c61uJQQEAAA--/master.m3u8
+
+Title: Spider-Man: Across the Spider-Verse, TMDB score 8.3
+Canonical ID: movie:569094
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg
+Categories: Home: Action & Adventure, Home: Sci-Fi & Fantasy, Home: Animation, Movies: Movies
+Server: PlayFast
+Resolution: 1920x804
+Type: hls
+URL: https://highperformancebrands.site/1BJf05vjs/pl/H4sIAAAAAAAAAwXB3XqCIAAA0FdCJJNd1kRlIVP5v0NtnzN0fatV.vQ7J.p2OEnScwrQOUn8HiEQwShCXQyQ38OvN1YcPnUxTkLejYTgZcOBO.NEb8pXvWLOsh_YxY6wcHVyKjcPQtUe8UVASlgURB83oJFV6ZemsptKVExdvWWvIcdTE6qVAfpkOUHn_B6x4NqKjN_VNCZDe1vtnD44IYrBYPyWPfsjbvqlMdwE1ukSSo1rq.ncLy4McwhOKspzPFa5up5idfgAI2uLPm4F8ep4Q0NOSaOHh5gz5AhNRH7_qyVRXUEs1zvULuFXCrVY6ZCV1xN_p8JDNfptWN0FF7UhfIhKoJUFQpc7KQD.B.QTB4NBAQAA/master.m3u8
 
