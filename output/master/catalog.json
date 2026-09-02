@@ -1,21 +1,21 @@
 {
   "summary": {
     "CATEGORY": "MASTER",
-    "DISCOVERED": 2481,
-    "PROCESSED": 20,
-    "SUCCESSFUL": 15,
-    "FAILED": 5,
-    "MOVIES": 7,
+    "DISCOVERED": 2499,
+    "PROCESSED": 40,
+    "SUCCESSFUL": 17,
+    "FAILED": 23,
+    "MOVIES": 8,
     "SERIES": 1,
-    "EPISODES": 7,
+    "EPISODES": 8,
     "BATCH_SIZE": 20,
-    "BROWSER_SCANNED": 19,
-    "REUSED": 1,
-    "STREAM_LINKS": 42,
-    "UNIQUE_STREAM_URLS": 42,
-    "REMAINING_NEW_ITEMS": 1,
-    "NEXT_CATEGORY": "Home: Trending in United States",
-    "LAST_UPDATED": "2026-09-02T10:01:46.768Z"
+    "BROWSER_SCANNED": 20,
+    "REUSED": 0,
+    "STREAM_LINKS": 48,
+    "UNIQUE_STREAM_URLS": 48,
+    "REMAINING_NEW_ITEMS": 14,
+    "NEXT_CATEGORY": "Home: New Releases in United States",
+    "LAST_UPDATED": "2026-09-02T10:18:42.707Z"
   },
   "categories": [
     {
@@ -809,6 +809,90 @@
         "https://startupmomentumengine.site/M0ejK42vI/pl/H4sIAAAAAAAAAw3M3XaCIAAA4FfiR5rtsiloCU4CNO4QbBWc5dlp6enpt.8BPhIynPvzG8wxDu6MAfJwzDxxGQmbaXLvtqAHH9d6Ks3D0LjaWwddJGWH64VjiSS2oqUX3LJ9xVH4lMPcmiK0IzZXUZZP8c1JA0J2ZGvFB3NXcYHda9d4zJG9pWyq5qovO2CZOTboQgSgSTEx.57ueLKs13co9P8DY2aVaU4qDJM2xKQLkihJrXPQR9Mc0IJVspuph7M7bmW4JSzU_iorc5JsAY4a0EUzOJ2yAPgSFP3lzK_dQO8dslolSUb0tfiiBurlf1pq5gDnh0_io9c1HGM4NGhmrtg9e2r1SGsYXmD7B0dAqwhBAQAA/master.m3u8",
         "https://startupmomentumengine.site/M0ejK42vI/pl/H4sIAAAAAAAAAw3LwUKDIAAA0F8CtDa7xRIXC0xQQG4qK6foajNTv77e_X2EaBc5tz8_oH0YOBg24Q4gUFePsNk9OvRUDv5bv7gf1TPAibqIAYRSYVV7T9mRludkGYWGF61pWhOMpbbv7v8IMJUu9nOpP6EaLeM5RfKIp8Zf57KjCVPUvKE4kB4nvIAH19sTH0SliBgLgxnvJ1ofIu_iaLN5K5qOmqqzKfdk4zpqa7CUqsM2K5qVJfdNKCoL71I9tiAv2qoOrms2ilYP90UaepKQ3BvzfKuPHDHoMkfsmhrf5uiLWMOCcycSrsmNQTzlMF4LtADZx3ODIpOhKHSasGpoxzK4zrl5nU.w_7UbiP4AcjKgi0EBAAA-/master.m3u8",
         "https://startupmomentumengine.site/M0ejK42vI/pl/H4sIAAAAAAAAAwXB0ZKCIBQA0F.CkDb30cJcd6DB4KK8EdcdK2zcrZnUr99zMrYlDOk2RMwj..E9izT74JdAdj3HHX4i1LdYNjaIOV3c9OerNJ8FzZT74lhN4fwQq0to7PE567ZeNEMNG09k5a9uxEJasoElD5KpK2xAgym1NZY2aXidwS4ARSVb5WKSM9rpZF2iYP3crcNTgyp7Cy.gaMG.l29Sl_Ex2EDARzE9ujt3J5ufzPVVG.ZlUxWHvgQeKR77_XNGFxd9K7Q6cuHbhkJKFI03QWhmCG18O0lnE_VMMe9yqkf.awlmUkxds.Is9zuO5E3xMBw6g6Nig.9FWfqUfLir0a8k_wcM1JXaQQEAAA--/master.m3u8"
+      ]
+    },
+    {
+      "canonicalId": "movie:1368337",
+      "contentType": "movie",
+      "title": "The Odyssey, TMDB score 8",
+      "sourceUrl": "https://redflix.co/play?id=1368337&type=movie",
+      "poster": "https://image.tmdb.org/t/p/w300/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
+      "seriesId": null,
+      "seriesTitle": null,
+      "seasonNumber": null,
+      "episodeNumber": null,
+      "episodeTitle": null,
+      "airDate": null,
+      "categories": [
+        {
+          "id": "collection:home-trending-in-united-states",
+          "name": "Home: Trending in United States",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        },
+        {
+          "id": "collection:home-popular-movies",
+          "name": "Home: Popular Movies",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        },
+        {
+          "id": "collection:home-action-and-adventure",
+          "name": "Home: Action & Adventure",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        },
+        {
+          "id": "collection:movies-movies",
+          "name": "Movies: Movies",
+          "type": "collection",
+          "surface": "Movies",
+          "url": "https://redflix.co/movies"
+        },
+        {
+          "id": "collection:browse-trending-now",
+          "name": "Browse: TRENDING NOW",
+          "type": "collection",
+          "surface": "Browse",
+          "url": "https://redflix.co/browse"
+        }
+      ],
+      "verifiedAt": "2026-09-02T10:11:43.765Z",
+      "streamUrls": [
+        "https://scalablecontentengine.site/WnVM9YFN1/pl/H4sIAAAAAAAAAw3OwXKCMBRA0V8KQRS7pEA62KAQkkB28BKLEpHWDChfX1d35qzuGQHa4s5g884O4OzvW4PDLfLAhBq2H8daZfktowKnrmH7oxyLl8J9ShOXt0RXFVYxt_rAYntqB4uaQR2YRD5PwhVsHzAZLmL8WfTIscZPn47lpauLQH6ltRbNXOC8By.lbOzndrURveq4sv31G3mqI94Tbq5U13wySTZXJIjefgIieuZPsSHuri_uwbkmkoQvhYqA1rC2Qvy2ssSAHytDdMOQvcu6POR4.eNxs3RDXui6zOjnPuIWPPCSp2QuMglsqptmFXKyG97_Ipr.Aeum.E4hAQAA/master.m3u8",
+        "https://scalablecontentengine.site/WnVM9YFN1/pl/H4sIAAAAAAAAAxXN0XaCIBgA4FdCxKW7qylmCz0SiHBH_JUTtTqnmevpt91.N18EZyCWoDhAZBUdo1O8eotjFx5tEp3..P0weWJbh7i4zDDye.OTWU2Q1j00VSuRzQYt8i61YxdUgv5oZO5N2D0dNYi9htJtS6P9UJ0mUDwrsMFsKVViD3k3awE344NPR2HLt.vQvhwykoS1GgbRly_ABbZt98XywR_GsjUZ1UywWUpOZVoTnrOZeboIHI31BKMWuxTUE1diTUwwGKXgQ7RQ2AD2Vft_LYXzj2.NH9jlV8LGpT8ig_chXFnPMKe7THrzBMkZp5zLFhrdN6mZNpVBl6gcgxunG8qxDmQGWS1Q8gv8aP0dQQEAAA--/master.m3u8",
+        "https://scalablecontentengine.site/WnVM9YFN1/pl/H4sIAAAAAAAAAwXB3ZKCIBgA0FcSsVb2shF0K5kR.GDjjvxoHX_acnOynn7PCQGTuPnI83i.bFrKtphiuLCM5KxNKcs.TaVoXXQLFt07utuKXBKsxj9rdqR5sWDNaY2glvotrlj63jh5DZMERdu3NErLAkvHReL4Q6rRfxsqS1P4uRmkl6bLNHw9tUFoS5HFoQuHdF3ObkxrenvGEaicCDmmdttWMOsJ.yPZV1GMRewVoOsWXezuOlmVF_Bsp58ZNTu5frfUKc9A2FmWt2ArPykYH9ERiFx44MNaV_LeTKw3fP9qhlUcku6IBn.lFUMw.61_sQMMxP4DcuzyVyEBAAA-/master.m3u8"
+      ]
+    },
+    {
+      "canonicalId": "tv:5920:s01:e02",
+      "contentType": "episode",
+      "title": "The Mentalist S01E02 - Red Hair and Silver Tape",
+      "sourceUrl": "https://redflix.co/play?id=5920&type=tv&season=1&episode=2",
+      "poster": "https://image.tmdb.org/t/p/original/qsf9RRhR3G3YsiE8tPwvvxuyupU.jpg",
+      "seriesId": "tv:5920",
+      "seriesTitle": "The Mentalist",
+      "seasonNumber": 1,
+      "episodeNumber": 2,
+      "episodeTitle": "Red Hair and Silver Tape",
+      "airDate": "2008-09-30",
+      "categories": [
+        {
+          "id": "collection:home-trending-in-united-states",
+          "name": "Home: Trending in United States",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        }
+      ],
+      "verifiedAt": "2026-09-02T10:13:03.472Z",
+      "streamUrls": [
+        "https://onlineempireblueprint.site/JXjuX4huO/pl/H4sIAAAAAAAAAwXB2XKDIBQA0F9iMYt9bDQmpuBA4Cq8oZgSwUymk7E2X99z.g0iu73HhNzckDuyd9mwHbcY3fajR7vbh0.BmUn.ef0SQ7nOw1QHM_FrU0jcAxyGLmgTk_WxZv6QV56I5QvxrE3JXfCZQpWfLYHGduBUy1mPQwAisSvtUVawqJIrmFPjyfNX6_jjCjupWNNWP7V9pK2Z10UjSGMZKg48QvKXayE2_ZwzhcOGUetYsp_uVFPe8YchNgGWBWuf9_H4JAZx6rVYx0qmfpIv_Q7Gzhn2pVh1lCcTj3ffDct48m9HRcZbUAxpaqGO11iX_M2juOdTo2sAsGYovv_6GKmisAiF8n9CxjO.QQEAAA--/master.m3u8",
+        "https://onlineempireblueprint.site/JXjuX4huO/pl/H4sIAAAAAAAAAwXB7XqCIBgA0Fvio1rt33zSnC6aKC_CP4E.BeesR51Xv3M22OKLIYRcVtRRY7dotz5vscHIrd_Qxr4DtVSFl5Cx7hscj4q4g6756CpHRcsHI_WLp8lGB.dNW0xs4XlZ97EOAAKySbSeCimohet8TPqpai2ygZVNyukZgCvvl6qLGsBqMMvHIv2VyNoNDWheiOef7bjM6RFzKZCUyd3EK8xTsdIp9LrLpMBuLuEWqXZGLCS_4uG1qJL1OTznL8T3qlaj6Vgu9u7EllsPPppz1Bfuvh2OpJgAZSf2iAh0V9pQxgDFI_O3A08zb2NfCuDfMvX7BiVg_Q9tcB805jnDn0gvaPcPYLGBZEEBAAA-/master.m3u8",
+        "https://onlineempireblueprint.site/JXjuX4huO/pl/H4sIAAAAAAAAAw3N0XaCIAAA0F9CEdM9ujRXR5aIgLyh1DCwnDqbff12f.Bew51udRhrFIIIoDa6.jsPAei3UehdwvatssZomHqUo5uC8sytoTQd31mOedfHXG7Rs8iTB67lXWXHXwWWFb_Ig9gP.FmjvvKXosuKtevnreRfE6UG6jydaI435cbvpg4COeiZMMfYXp4vQtOOg4AMCF3sceUpm04.nhtIpo65ofV0XYrsefK9tYRmrN24KGH2J2hhzRJCXXIoIF7pTR4oS3ouUtRAPVf2sRFhKLdxJTn4JYOeunsKS05.mCClHopAA6Qo13flyaB8Sdn4KMf_T2OzM3XOUN8t_JAVpWM9E40nXyD.AxUaEohBAQAA/master.m3u8"
       ]
     }
   ],
@@ -1965,6 +2049,204 @@
         {
           "id": "collection:home-top-10-today",
           "name": "Home: Top 10 Today",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        }
+      ]
+    },
+    {
+      "url": "https://scalablecontentengine.site/WnVM9YFN1/pl/H4sIAAAAAAAAAw3OwXKCMBRA0V8KQRS7pEA62KAQkkB28BKLEpHWDChfX1d35qzuGQHa4s5g884O4OzvW4PDLfLAhBq2H8daZfktowKnrmH7oxyLl8J9ShOXt0RXFVYxt_rAYntqB4uaQR2YRD5PwhVsHzAZLmL8WfTIscZPn47lpauLQH6ltRbNXOC8By.lbOzndrURveq4sv31G3mqI94Tbq5U13wySTZXJIjefgIieuZPsSHuri_uwbkmkoQvhYqA1rC2Qvy2ssSAHytDdMOQvcu6POR4.eNxs3RDXui6zOjnPuIWPPCSp2QuMglsqptmFXKyG97_Ipr.Aeum.E4hAQAA/master.m3u8",
+      "server": "PlayFast",
+      "kind": "hls",
+      "resolution": "1920x1000",
+      "directPlaybackNoHeaders": true,
+      "canonicalIds": [
+        "movie:1368337"
+      ],
+      "categories": [
+        {
+          "id": "collection:home-trending-in-united-states",
+          "name": "Home: Trending in United States",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        },
+        {
+          "id": "collection:home-popular-movies",
+          "name": "Home: Popular Movies",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        },
+        {
+          "id": "collection:home-action-and-adventure",
+          "name": "Home: Action & Adventure",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        },
+        {
+          "id": "collection:movies-movies",
+          "name": "Movies: Movies",
+          "type": "collection",
+          "surface": "Movies",
+          "url": "https://redflix.co/movies"
+        },
+        {
+          "id": "collection:browse-trending-now",
+          "name": "Browse: TRENDING NOW",
+          "type": "collection",
+          "surface": "Browse",
+          "url": "https://redflix.co/browse"
+        }
+      ]
+    },
+    {
+      "url": "https://scalablecontentengine.site/WnVM9YFN1/pl/H4sIAAAAAAAAAxXN0XaCIBgA4FdCxKW7qylmCz0SiHBH_JUTtTqnmevpt91.N18EZyCWoDhAZBUdo1O8eotjFx5tEp3..P0weWJbh7i4zDDye.OTWU2Q1j00VSuRzQYt8i61YxdUgv5oZO5N2D0dNYi9htJtS6P9UJ0mUDwrsMFsKVViD3k3awE344NPR2HLt.vQvhwykoS1GgbRly_ABbZt98XywR_GsjUZ1UywWUpOZVoTnrOZeboIHI31BKMWuxTUE1diTUwwGKXgQ7RQ2AD2Vft_LYXzj2.NH9jlV8LGpT8ig_chXFnPMKe7THrzBMkZp5zLFhrdN6mZNpVBl6gcgxunG8qxDmQGWS1Q8gv8aP0dQQEAAA--/master.m3u8",
+      "server": "PlayFast",
+      "kind": "hls",
+      "resolution": "1920x1000",
+      "directPlaybackNoHeaders": true,
+      "canonicalIds": [
+        "movie:1368337"
+      ],
+      "categories": [
+        {
+          "id": "collection:home-trending-in-united-states",
+          "name": "Home: Trending in United States",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        },
+        {
+          "id": "collection:home-popular-movies",
+          "name": "Home: Popular Movies",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        },
+        {
+          "id": "collection:home-action-and-adventure",
+          "name": "Home: Action & Adventure",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        },
+        {
+          "id": "collection:movies-movies",
+          "name": "Movies: Movies",
+          "type": "collection",
+          "surface": "Movies",
+          "url": "https://redflix.co/movies"
+        },
+        {
+          "id": "collection:browse-trending-now",
+          "name": "Browse: TRENDING NOW",
+          "type": "collection",
+          "surface": "Browse",
+          "url": "https://redflix.co/browse"
+        }
+      ]
+    },
+    {
+      "url": "https://scalablecontentengine.site/WnVM9YFN1/pl/H4sIAAAAAAAAAwXB3ZKCIBgA0FcSsVb2shF0K5kR.GDjjvxoHX_acnOynn7PCQGTuPnI83i.bFrKtphiuLCM5KxNKcs.TaVoXXQLFt07utuKXBKsxj9rdqR5sWDNaY2glvotrlj63jh5DZMERdu3NErLAkvHReL4Q6rRfxsqS1P4uRmkl6bLNHw9tUFoS5HFoQuHdF3ObkxrenvGEaicCDmmdttWMOsJ.yPZV1GMRewVoOsWXezuOlmVF_Bsp58ZNTu5frfUKc9A2FmWt2ArPykYH9ERiFx44MNaV_LeTKw3fP9qhlUcku6IBn.lFUMw.61_sQMMxP4DcuzyVyEBAAA-/master.m3u8",
+      "server": "PlayFast",
+      "kind": "hls",
+      "resolution": "1920x1000",
+      "directPlaybackNoHeaders": true,
+      "canonicalIds": [
+        "movie:1368337"
+      ],
+      "categories": [
+        {
+          "id": "collection:home-trending-in-united-states",
+          "name": "Home: Trending in United States",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        },
+        {
+          "id": "collection:home-popular-movies",
+          "name": "Home: Popular Movies",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        },
+        {
+          "id": "collection:home-action-and-adventure",
+          "name": "Home: Action & Adventure",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        },
+        {
+          "id": "collection:movies-movies",
+          "name": "Movies: Movies",
+          "type": "collection",
+          "surface": "Movies",
+          "url": "https://redflix.co/movies"
+        },
+        {
+          "id": "collection:browse-trending-now",
+          "name": "Browse: TRENDING NOW",
+          "type": "collection",
+          "surface": "Browse",
+          "url": "https://redflix.co/browse"
+        }
+      ]
+    },
+    {
+      "url": "https://onlineempireblueprint.site/JXjuX4huO/pl/H4sIAAAAAAAAAwXB2XKDIBQA0F9iMYt9bDQmpuBA4Cq8oZgSwUymk7E2X99z.g0iu73HhNzckDuyd9mwHbcY3fajR7vbh0.BmUn.ef0SQ7nOw1QHM_FrU0jcAxyGLmgTk_WxZv6QV56I5QvxrE3JXfCZQpWfLYHGduBUy1mPQwAisSvtUVawqJIrmFPjyfNX6_jjCjupWNNWP7V9pK2Z10UjSGMZKg48QvKXayE2_ZwzhcOGUetYsp_uVFPe8YchNgGWBWuf9_H4JAZx6rVYx0qmfpIv_Q7Gzhn2pVh1lCcTj3ffDct48m9HRcZbUAxpaqGO11iX_M2juOdTo2sAsGYovv_6GKmisAiF8n9CxjO.QQEAAA--/master.m3u8",
+      "server": "PlayFast",
+      "kind": "hls",
+      "resolution": "1920x1080",
+      "directPlaybackNoHeaders": true,
+      "canonicalIds": [
+        "tv:5920:s01:e02"
+      ],
+      "categories": [
+        {
+          "id": "collection:home-trending-in-united-states",
+          "name": "Home: Trending in United States",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        }
+      ]
+    },
+    {
+      "url": "https://onlineempireblueprint.site/JXjuX4huO/pl/H4sIAAAAAAAAAwXB7XqCIBgA0Fvio1rt33zSnC6aKC_CP4E.BeesR51Xv3M22OKLIYRcVtRRY7dotz5vscHIrd_Qxr4DtVSFl5Cx7hscj4q4g6756CpHRcsHI_WLp8lGB.dNW0xs4XlZ97EOAAKySbSeCimohet8TPqpai2ygZVNyukZgCvvl6qLGsBqMMvHIv2VyNoNDWheiOef7bjM6RFzKZCUyd3EK8xTsdIp9LrLpMBuLuEWqXZGLCS_4uG1qJL1OTznL8T3qlaj6Vgu9u7EllsPPppz1Bfuvh2OpJgAZSf2iAh0V9pQxgDFI_O3A08zb2NfCuDfMvX7BiVg_Q9tcB805jnDn0gvaPcPYLGBZEEBAAA-/master.m3u8",
+      "server": "PlayFast",
+      "kind": "hls",
+      "resolution": "1920x1080",
+      "directPlaybackNoHeaders": true,
+      "canonicalIds": [
+        "tv:5920:s01:e02"
+      ],
+      "categories": [
+        {
+          "id": "collection:home-trending-in-united-states",
+          "name": "Home: Trending in United States",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        }
+      ]
+    },
+    {
+      "url": "https://onlineempireblueprint.site/JXjuX4huO/pl/H4sIAAAAAAAAAw3N0XaCIAAA0F9CEdM9ujRXR5aIgLyh1DCwnDqbff12f.Bew51udRhrFIIIoDa6.jsPAei3UehdwvatssZomHqUo5uC8sytoTQd31mOedfHXG7Rs8iTB67lXWXHXwWWFb_Ig9gP.FmjvvKXosuKtevnreRfE6UG6jydaI435cbvpg4COeiZMMfYXp4vQtOOg4AMCF3sceUpm04.nhtIpo65ofV0XYrsefK9tYRmrN24KGH2J2hhzRJCXXIoIF7pTR4oS3ouUtRAPVf2sRFhKLdxJTn4JYOeunsKS05.mCClHopAA6Qo13flyaB8Sdn4KMf_T2OzM3XOUN8t_JAVpWM9E40nXyD.AxUaEohBAQAA/master.m3u8",
+      "server": "PlayFast",
+      "kind": "hls",
+      "resolution": "1920x1080",
+      "directPlaybackNoHeaders": true,
+      "canonicalIds": [
+        "tv:5920:s01:e02"
+      ],
+      "categories": [
+        {
+          "id": "collection:home-trending-in-united-states",
+          "name": "Home: Trending in United States",
           "type": "collection",
           "surface": "Home",
           "url": "https://redflix.co/"

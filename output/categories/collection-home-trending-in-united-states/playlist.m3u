@@ -1,17 +1,29 @@
 #EXTM3U
 # CATEGORY: Home: Trending in United States
-# DISCOVERED: 0
-# PROCESSED: 0
-# SUCCESSFUL: 0
-# FAILED: 0
-# MOVIES: 0
-# SERIES: 0
-# EPISODES: 0
-# BATCH_SIZE: 0
-# BROWSER_SCANNED: 0
+# DISCOVERED: 34
+# PROCESSED: 20
+# SUCCESSFUL: 2
+# FAILED: 18
+# MOVIES: 1
+# SERIES: 1
+# EPISODES: 18
+# BATCH_SIZE: 20
+# BROWSER_SCANNED: 20
 # REUSED: 0
-# STREAM_LINKS: 0
-# UNIQUE_STREAM_URLS: 0
-# REMAINING_NEW_ITEMS: 0
-# NEXT_CATEGORY: Home: Trending in United States
-# LAST_UPDATED: 2026-09-02T10:01:46.768Z
+# STREAM_LINKS: 6
+# UNIQUE_STREAM_URLS: 6
+# REMAINING_NEW_ITEMS: 14
+# NEXT_CATEGORY: Home: New Releases in United States
+# LAST_UPDATED: 2026-09-02T10:18:42.707Z
+#EXTINF:-1 tvg-id="movie:1368337" tvg-logo="https://image.tmdb.org/t/p/w300/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg" group-title="Home: Trending in United States | Home: Popular Movies | Home: Action & Adventure | Movies: Movies | Browse: TRENDING NOW",The Odyssey, TMDB score 8 [PlayFast 1920x1000]
+https://scalablecontentengine.site/WnVM9YFN1/pl/H4sIAAAAAAAAAw3OwXKCMBRA0V8KQRS7pEA62KAQkkB28BKLEpHWDChfX1d35qzuGQHa4s5g884O4OzvW4PDLfLAhBq2H8daZfktowKnrmH7oxyLl8J9ShOXt0RXFVYxt_rAYntqB4uaQR2YRD5PwhVsHzAZLmL8WfTIscZPn47lpauLQH6ltRbNXOC8By.lbOzndrURveq4sv31G3mqI94Tbq5U13wySTZXJIjefgIieuZPsSHuri_uwbkmkoQvhYqA1rC2Qvy2ssSAHytDdMOQvcu6POR4.eNxs3RDXui6zOjnPuIWPPCSp2QuMglsqptmFXKyG97_Ipr.Aeum.E4hAQAA/master.m3u8
+#EXTINF:-1 tvg-id="movie:1368337" tvg-logo="https://image.tmdb.org/t/p/w300/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg" group-title="Home: Trending in United States | Home: Popular Movies | Home: Action & Adventure | Movies: Movies | Browse: TRENDING NOW",The Odyssey, TMDB score 8 [PlayFast 1920x1000]
+https://scalablecontentengine.site/WnVM9YFN1/pl/H4sIAAAAAAAAAxXN0XaCIBgA4FdCxKW7qylmCz0SiHBH_JUTtTqnmevpt91.N18EZyCWoDhAZBUdo1O8eotjFx5tEp3..P0weWJbh7i4zDDye.OTWU2Q1j00VSuRzQYt8i61YxdUgv5oZO5N2D0dNYi9htJtS6P9UJ0mUDwrsMFsKVViD3k3awE344NPR2HLt.vQvhwykoS1GgbRly_ABbZt98XywR_GsjUZ1UywWUpOZVoTnrOZeboIHI31BKMWuxTUE1diTUwwGKXgQ7RQ2AD2Vft_LYXzj2.NH9jlV8LGpT8ig_chXFnPMKe7THrzBMkZp5zLFhrdN6mZNpVBl6gcgxunG8qxDmQGWS1Q8gv8aP0dQQEAAA--/master.m3u8
+#EXTINF:-1 tvg-id="movie:1368337" tvg-logo="https://image.tmdb.org/t/p/w300/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg" group-title="Home: Trending in United States | Home: Popular Movies | Home: Action & Adventure | Movies: Movies | Browse: TRENDING NOW",The Odyssey, TMDB score 8 [PlayFast 1920x1000]
+https://scalablecontentengine.site/WnVM9YFN1/pl/H4sIAAAAAAAAAwXB3ZKCIBgA0FcSsVb2shF0K5kR.GDjjvxoHX_acnOynn7PCQGTuPnI83i.bFrKtphiuLCM5KxNKcs.TaVoXXQLFt07utuKXBKsxj9rdqR5sWDNaY2glvotrlj63jh5DZMERdu3NErLAkvHReL4Q6rRfxsqS1P4uRmkl6bLNHw9tUFoS5HFoQuHdF3ObkxrenvGEaicCDmmdttWMOsJ.yPZV1GMRewVoOsWXezuOlmVF_Bsp58ZNTu5frfUKc9A2FmWt2ArPykYH9ERiFx44MNaV_LeTKw3fP9qhlUcku6IBn.lFUMw.61_sQMMxP4DcuzyVyEBAAA-/master.m3u8
+#EXTINF:-1 tvg-id="tv:5920:s01:e02" tvg-logo="https://image.tmdb.org/t/p/original/qsf9RRhR3G3YsiE8tPwvvxuyupU.jpg" group-title="Home: Trending in United States",The Mentalist S01E02 - Red Hair and Silver Tape [PlayFast 1920x1080]
+https://onlineempireblueprint.site/JXjuX4huO/pl/H4sIAAAAAAAAAwXB2XKDIBQA0F9iMYt9bDQmpuBA4Cq8oZgSwUymk7E2X99z.g0iu73HhNzckDuyd9mwHbcY3fajR7vbh0.BmUn.ef0SQ7nOw1QHM_FrU0jcAxyGLmgTk_WxZv6QV56I5QvxrE3JXfCZQpWfLYHGduBUy1mPQwAisSvtUVawqJIrmFPjyfNX6_jjCjupWNNWP7V9pK2Z10UjSGMZKg48QvKXayE2_ZwzhcOGUetYsp_uVFPe8YchNgGWBWuf9_H4JAZx6rVYx0qmfpIv_Q7Gzhn2pVh1lCcTj3ffDct48m9HRcZbUAxpaqGO11iX_M2juOdTo2sAsGYovv_6GKmisAiF8n9CxjO.QQEAAA--/master.m3u8
+#EXTINF:-1 tvg-id="tv:5920:s01:e02" tvg-logo="https://image.tmdb.org/t/p/original/qsf9RRhR3G3YsiE8tPwvvxuyupU.jpg" group-title="Home: Trending in United States",The Mentalist S01E02 - Red Hair and Silver Tape [PlayFast 1920x1080]
+https://onlineempireblueprint.site/JXjuX4huO/pl/H4sIAAAAAAAAAwXB7XqCIBgA0Fvio1rt33zSnC6aKC_CP4E.BeesR51Xv3M22OKLIYRcVtRRY7dotz5vscHIrd_Qxr4DtVSFl5Cx7hscj4q4g6756CpHRcsHI_WLp8lGB.dNW0xs4XlZ97EOAAKySbSeCimohet8TPqpai2ygZVNyukZgCvvl6qLGsBqMMvHIv2VyNoNDWheiOef7bjM6RFzKZCUyd3EK8xTsdIp9LrLpMBuLuEWqXZGLCS_4uG1qJL1OTznL8T3qlaj6Vgu9u7EllsPPppz1Bfuvh2OpJgAZSf2iAh0V9pQxgDFI_O3A08zb2NfCuDfMvX7BiVg_Q9tcB805jnDn0gvaPcPYLGBZEEBAAA-/master.m3u8
+#EXTINF:-1 tvg-id="tv:5920:s01:e02" tvg-logo="https://image.tmdb.org/t/p/original/qsf9RRhR3G3YsiE8tPwvvxuyupU.jpg" group-title="Home: Trending in United States",The Mentalist S01E02 - Red Hair and Silver Tape [PlayFast 1920x1080]
+https://onlineempireblueprint.site/JXjuX4huO/pl/H4sIAAAAAAAAAw3N0XaCIAAA0F9CEdM9ujRXR5aIgLyh1DCwnDqbff12f.Bew51udRhrFIIIoDa6.jsPAei3UehdwvatssZomHqUo5uC8sytoTQd31mOedfHXG7Rs8iTB67lXWXHXwWWFb_Ig9gP.FmjvvKXosuKtevnreRfE6UG6jydaI435cbvpg4COeiZMMfYXp4vQtOOg4AMCF3sceUpm04.nhtIpo65ofV0XYrsefK9tYRmrN24KGH2J2hhzRJCXXIoIF7pTR4oS3ouUtRAPVf2sRFhKLdxJTn4JYOeunsKS05.mCClHopAA6Qo13flyaB8Sdn4KMf_T2OzM3XOUN8t_JAVpWM9E40nXyD.AxUaEohBAQAA/master.m3u8

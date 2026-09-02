@@ -18,11 +18,11 @@
     "BATCH_SIZE": 0,
     "BROWSER_SCANNED": 0,
     "REUSED": 0,
-    "STREAM_LINKS": 6,
-    "UNIQUE_STREAM_URLS": 6,
+    "STREAM_LINKS": 9,
+    "UNIQUE_STREAM_URLS": 9,
     "REMAINING_NEW_ITEMS": 0,
-    "NEXT_CATEGORY": "Home: Trending in United States",
-    "LAST_UPDATED": "2026-09-02T10:01:46.768Z"
+    "NEXT_CATEGORY": "Home: New Releases in United States",
+    "LAST_UPDATED": "2026-09-02T10:18:42.707Z"
   },
   "items": [
     {
@@ -135,6 +135,62 @@
         "https://futureproofmarketing.site/WxX94jG5M/pl/H4sIAAAAAAAAAw3N3XaCIAAA4FdCtJa7yxY6PeDB.EnuEmzUxNhilj79eoDvfP0p1avN21mf4_Ua6igx6cac9apP0v6k4eZdAUspN6ECaYJdCIdxCzpR_rTOTjgfkm78gg30syq2C7mWpeQ.pxL9EiDUYcxKPgcm8uhB8kEQRzC9KoKj8qgHCuiCnHLorpD95IAI8mEdiTOGeVkIbh2TJWaARhSImce.anZByiOq.l2YSGwz4u4Jh3Zh8OlfNjfQ01qYVnJzowuZlbsBwwfVfYdLK02Nkdj3RRaborm1zNSqaCBB2V.d.6pDdmTOznqfTIQ_C3q5P8xgXvdqwtxGmlupoR.4bAGLPFDRYNUC0n.Qigh9QQEAAA--/master.m3u8",
         "https://futureproofmarketing.site/WxX94jG5M/pl/H4sIAAAAAAAAAw3M3XqCIAAA0FcS1H526YT6bLDxr9ypWCpYq1wrn347D3DWIEng1rWJSzfrYwMbECXQxVFzBHADwfFNnC83.7ovAqW5lhrXivpK2j3ZpUW7twsr21er8OojDj1FKm00g3zJCEEasykdPt83DwHp3S0n0EAAOgQC8WliTNhV0Ed0qh61ChdZZmWTU0mkniRwK2HA3HluucIH7n8XPszf9dhjU.KkQxGgQRs16pc4U8mi51V5fq3PTijob92YxcbTfRPjuS0zdIBWE2SHLg8Tl4VsIRidDjUX88Hm_RdZcFmNjrSmtwRxJBHQVeA5M4XWUwhM2.H_eApT_KiAdy4PlE3bgclo.wfrNAQAQQEAAA--/master.m3u8",
         "https://futureproofmarketing.site/WxX94jG5M/pl/H4sIAAAAAAAAAw3PW3KDIBQA0C2Jmjr2r2nAxFSMCJeGPxVSI2D6oBPj6tsNnJmjkbkY3WUo2wwmjy8oTVEypHG2SaNLhvpngehtkGUFmJy7ib2ZSUk9b4neqVmt7qnmpYW9O0l4WcED1xNZzF5z9fhZjpG.6yI_9iJ44TcrPILVERXt.3gFRHAn8ENzB.Y1kGE6JP.uaK9hd14VSKe88svcFuprwPSXWqiUDZQSdex9811zPTJXziLBSwNwavm2EuCKGsYtk6WT.LPo23wHMztor0t6zVlnXWIK1gjbpDV2Vs4Y0dUmgxWrsmNoUIWYILdGLlThQCSntJvKiVk4mb0DWqSLIvr_.XFnMcSCR_kf_wLuLUEBAAA-/master.m3u8"
+      ]
+    },
+    {
+      "canonicalId": "movie:1368337",
+      "contentType": "movie",
+      "title": "The Odyssey, TMDB score 8",
+      "sourceUrl": "https://redflix.co/play?id=1368337&type=movie",
+      "poster": "https://image.tmdb.org/t/p/w300/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
+      "seriesId": null,
+      "seriesTitle": null,
+      "seasonNumber": null,
+      "episodeNumber": null,
+      "episodeTitle": null,
+      "airDate": null,
+      "categories": [
+        {
+          "id": "collection:home-trending-in-united-states",
+          "name": "Home: Trending in United States",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        },
+        {
+          "id": "collection:home-popular-movies",
+          "name": "Home: Popular Movies",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        },
+        {
+          "id": "collection:home-action-and-adventure",
+          "name": "Home: Action & Adventure",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        },
+        {
+          "id": "collection:movies-movies",
+          "name": "Movies: Movies",
+          "type": "collection",
+          "surface": "Movies",
+          "url": "https://redflix.co/movies"
+        },
+        {
+          "id": "collection:browse-trending-now",
+          "name": "Browse: TRENDING NOW",
+          "type": "collection",
+          "surface": "Browse",
+          "url": "https://redflix.co/browse"
+        }
+      ],
+      "verifiedAt": "2026-09-02T10:11:43.765Z",
+      "streamUrls": [
+        "https://scalablecontentengine.site/WnVM9YFN1/pl/H4sIAAAAAAAAAw3OwXKCMBRA0V8KQRS7pEA62KAQkkB28BKLEpHWDChfX1d35qzuGQHa4s5g884O4OzvW4PDLfLAhBq2H8daZfktowKnrmH7oxyLl8J9ShOXt0RXFVYxt_rAYntqB4uaQR2YRD5PwhVsHzAZLmL8WfTIscZPn47lpauLQH6ltRbNXOC8By.lbOzndrURveq4sv31G3mqI94Tbq5U13wySTZXJIjefgIieuZPsSHuri_uwbkmkoQvhYqA1rC2Qvy2ssSAHytDdMOQvcu6POR4.eNxs3RDXui6zOjnPuIWPPCSp2QuMglsqptmFXKyG97_Ipr.Aeum.E4hAQAA/master.m3u8",
+        "https://scalablecontentengine.site/WnVM9YFN1/pl/H4sIAAAAAAAAAxXN0XaCIBgA4FdCxKW7qylmCz0SiHBH_JUTtTqnmevpt91.N18EZyCWoDhAZBUdo1O8eotjFx5tEp3..P0weWJbh7i4zDDye.OTWU2Q1j00VSuRzQYt8i61YxdUgv5oZO5N2D0dNYi9htJtS6P9UJ0mUDwrsMFsKVViD3k3awE344NPR2HLt.vQvhwykoS1GgbRly_ABbZt98XywR_GsjUZ1UywWUpOZVoTnrOZeboIHI31BKMWuxTUE1diTUwwGKXgQ7RQ2AD2Vft_LYXzj2.NH9jlV8LGpT8ig_chXFnPMKe7THrzBMkZp5zLFhrdN6mZNpVBl6gcgxunG8qxDmQGWS1Q8gv8aP0dQQEAAA--/master.m3u8",
+        "https://scalablecontentengine.site/WnVM9YFN1/pl/H4sIAAAAAAAAAwXB3ZKCIBgA0FcSsVb2shF0K5kR.GDjjvxoHX_acnOynn7PCQGTuPnI83i.bFrKtphiuLCM5KxNKcs.TaVoXXQLFt07utuKXBKsxj9rdqR5sWDNaY2glvotrlj63jh5DZMERdu3NErLAkvHReL4Q6rRfxsqS1P4uRmkl6bLNHw9tUFoS5HFoQuHdF3ObkxrenvGEaicCDmmdttWMOsJ.yPZV1GMRewVoOsWXezuOlmVF_Bsp58ZNTu5frfUKc9A2FmWt2ArPykYH9ERiFx44MNaV_LeTKw3fP9qhlUcku6IBn.lFUMw.61_sQMMxP4DcuzyVyEBAAA-/master.m3u8"
       ]
     }
   ],
@@ -401,6 +457,147 @@
         {
           "id": "collection:home-sci-fi-and-fantasy",
           "name": "Home: Sci-Fi & Fantasy",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        },
+        {
+          "id": "collection:movies-movies",
+          "name": "Movies: Movies",
+          "type": "collection",
+          "surface": "Movies",
+          "url": "https://redflix.co/movies"
+        },
+        {
+          "id": "collection:browse-trending-now",
+          "name": "Browse: TRENDING NOW",
+          "type": "collection",
+          "surface": "Browse",
+          "url": "https://redflix.co/browse"
+        }
+      ]
+    },
+    {
+      "url": "https://scalablecontentengine.site/WnVM9YFN1/pl/H4sIAAAAAAAAAw3OwXKCMBRA0V8KQRS7pEA62KAQkkB28BKLEpHWDChfX1d35qzuGQHa4s5g884O4OzvW4PDLfLAhBq2H8daZfktowKnrmH7oxyLl8J9ShOXt0RXFVYxt_rAYntqB4uaQR2YRD5PwhVsHzAZLmL8WfTIscZPn47lpauLQH6ltRbNXOC8By.lbOzndrURveq4sv31G3mqI94Tbq5U13wySTZXJIjefgIieuZPsSHuri_uwbkmkoQvhYqA1rC2Qvy2ssSAHytDdMOQvcu6POR4.eNxs3RDXui6zOjnPuIWPPCSp2QuMglsqptmFXKyG97_Ipr.Aeum.E4hAQAA/master.m3u8",
+      "server": "PlayFast",
+      "kind": "hls",
+      "resolution": "1920x1000",
+      "directPlaybackNoHeaders": true,
+      "canonicalIds": [
+        "movie:1368337"
+      ],
+      "categories": [
+        {
+          "id": "collection:home-trending-in-united-states",
+          "name": "Home: Trending in United States",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        },
+        {
+          "id": "collection:home-popular-movies",
+          "name": "Home: Popular Movies",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        },
+        {
+          "id": "collection:home-action-and-adventure",
+          "name": "Home: Action & Adventure",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        },
+        {
+          "id": "collection:movies-movies",
+          "name": "Movies: Movies",
+          "type": "collection",
+          "surface": "Movies",
+          "url": "https://redflix.co/movies"
+        },
+        {
+          "id": "collection:browse-trending-now",
+          "name": "Browse: TRENDING NOW",
+          "type": "collection",
+          "surface": "Browse",
+          "url": "https://redflix.co/browse"
+        }
+      ]
+    },
+    {
+      "url": "https://scalablecontentengine.site/WnVM9YFN1/pl/H4sIAAAAAAAAAxXN0XaCIBgA4FdCxKW7qylmCz0SiHBH_JUTtTqnmevpt91.N18EZyCWoDhAZBUdo1O8eotjFx5tEp3..P0weWJbh7i4zDDye.OTWU2Q1j00VSuRzQYt8i61YxdUgv5oZO5N2D0dNYi9htJtS6P9UJ0mUDwrsMFsKVViD3k3awE344NPR2HLt.vQvhwykoS1GgbRly_ABbZt98XywR_GsjUZ1UywWUpOZVoTnrOZeboIHI31BKMWuxTUE1diTUwwGKXgQ7RQ2AD2Vft_LYXzj2.NH9jlV8LGpT8ig_chXFnPMKe7THrzBMkZp5zLFhrdN6mZNpVBl6gcgxunG8qxDmQGWS1Q8gv8aP0dQQEAAA--/master.m3u8",
+      "server": "PlayFast",
+      "kind": "hls",
+      "resolution": "1920x1000",
+      "directPlaybackNoHeaders": true,
+      "canonicalIds": [
+        "movie:1368337"
+      ],
+      "categories": [
+        {
+          "id": "collection:home-trending-in-united-states",
+          "name": "Home: Trending in United States",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        },
+        {
+          "id": "collection:home-popular-movies",
+          "name": "Home: Popular Movies",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        },
+        {
+          "id": "collection:home-action-and-adventure",
+          "name": "Home: Action & Adventure",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        },
+        {
+          "id": "collection:movies-movies",
+          "name": "Movies: Movies",
+          "type": "collection",
+          "surface": "Movies",
+          "url": "https://redflix.co/movies"
+        },
+        {
+          "id": "collection:browse-trending-now",
+          "name": "Browse: TRENDING NOW",
+          "type": "collection",
+          "surface": "Browse",
+          "url": "https://redflix.co/browse"
+        }
+      ]
+    },
+    {
+      "url": "https://scalablecontentengine.site/WnVM9YFN1/pl/H4sIAAAAAAAAAwXB3ZKCIBgA0FcSsVb2shF0K5kR.GDjjvxoHX_acnOynn7PCQGTuPnI83i.bFrKtphiuLCM5KxNKcs.TaVoXXQLFt07utuKXBKsxj9rdqR5sWDNaY2glvotrlj63jh5DZMERdu3NErLAkvHReL4Q6rRfxsqS1P4uRmkl6bLNHw9tUFoS5HFoQuHdF3ObkxrenvGEaicCDmmdttWMOsJ.yPZV1GMRewVoOsWXezuOlmVF_Bsp58ZNTu5frfUKc9A2FmWt2ArPykYH9ERiFx44MNaV_LeTKw3fP9qhlUcku6IBn.lFUMw.61_sQMMxP4DcuzyVyEBAAA-/master.m3u8",
+      "server": "PlayFast",
+      "kind": "hls",
+      "resolution": "1920x1000",
+      "directPlaybackNoHeaders": true,
+      "canonicalIds": [
+        "movie:1368337"
+      ],
+      "categories": [
+        {
+          "id": "collection:home-trending-in-united-states",
+          "name": "Home: Trending in United States",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        },
+        {
+          "id": "collection:home-popular-movies",
+          "name": "Home: Popular Movies",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        },
+        {
+          "id": "collection:home-action-and-adventure",
+          "name": "Home: Action & Adventure",
           "type": "collection",
           "surface": "Home",
           "url": "https://redflix.co/"

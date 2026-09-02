@@ -9,11 +9,11 @@ EPISODES: 0
 BATCH_SIZE: 0
 BROWSER_SCANNED: 0
 REUSED: 0
-STREAM_LINKS: 24
-UNIQUE_STREAM_URLS: 24
+STREAM_LINKS: 27
+UNIQUE_STREAM_URLS: 27
 REMAINING_NEW_ITEMS: 0
-NEXT_CATEGORY: Home: Trending in United States
-LAST_UPDATED: 2026-09-02T10:01:46.768Z
+NEXT_CATEGORY: Home: New Releases in United States
+LAST_UPDATED: 2026-09-02T10:18:42.707Z
 
 Title: Watch Now
 Canonical ID: movie:1386315
@@ -254,4 +254,34 @@ Server: PlayFast
 Resolution: 1920x800
 Type: hls
 URL: https://futureproofmarketing.site/WxX94jG5M/pl/H4sIAAAAAAAAAw3PW3KDIBQA0C2Jmjr2r2nAxFSMCJeGPxVSI2D6oBPj6tsNnJmjkbkY3WUo2wwmjy8oTVEypHG2SaNLhvpngehtkGUFmJy7ib2ZSUk9b4neqVmt7qnmpYW9O0l4WcED1xNZzF5z9fhZjpG.6yI_9iJ44TcrPILVERXt.3gFRHAn8ENzB.Y1kGE6JP.uaK9hd14VSKe88svcFuprwPSXWqiUDZQSdex9811zPTJXziLBSwNwavm2EuCKGsYtk6WT.LPo23wHMztor0t6zVlnXWIK1gjbpDV2Vs4Y0dUmgxWrsmNoUIWYILdGLlThQCSntJvKiVk4mb0DWqSLIvr_.XFnMcSCR_kf_wLuLUEBAAA-/master.m3u8
+
+Title: The Odyssey, TMDB score 8
+Canonical ID: movie:1368337
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg
+Categories: Home: Trending in United States, Home: Popular Movies, Home: Action & Adventure, Movies: Movies, Browse: TRENDING NOW
+Server: PlayFast
+Resolution: 1920x1000
+Type: hls
+URL: https://scalablecontentengine.site/WnVM9YFN1/pl/H4sIAAAAAAAAAw3OwXKCMBRA0V8KQRS7pEA62KAQkkB28BKLEpHWDChfX1d35qzuGQHa4s5g884O4OzvW4PDLfLAhBq2H8daZfktowKnrmH7oxyLl8J9ShOXt0RXFVYxt_rAYntqB4uaQR2YRD5PwhVsHzAZLmL8WfTIscZPn47lpauLQH6ltRbNXOC8By.lbOzndrURveq4sv31G3mqI94Tbq5U13wySTZXJIjefgIieuZPsSHuri_uwbkmkoQvhYqA1rC2Qvy2ssSAHytDdMOQvcu6POR4.eNxs3RDXui6zOjnPuIWPPCSp2QuMglsqptmFXKyG97_Ipr.Aeum.E4hAQAA/master.m3u8
+
+Title: The Odyssey, TMDB score 8
+Canonical ID: movie:1368337
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg
+Categories: Home: Trending in United States, Home: Popular Movies, Home: Action & Adventure, Movies: Movies, Browse: TRENDING NOW
+Server: PlayFast
+Resolution: 1920x1000
+Type: hls
+URL: https://scalablecontentengine.site/WnVM9YFN1/pl/H4sIAAAAAAAAAxXN0XaCIBgA4FdCxKW7qylmCz0SiHBH_JUTtTqnmevpt91.N18EZyCWoDhAZBUdo1O8eotjFx5tEp3..P0weWJbh7i4zDDye.OTWU2Q1j00VSuRzQYt8i61YxdUgv5oZO5N2D0dNYi9htJtS6P9UJ0mUDwrsMFsKVViD3k3awE344NPR2HLt.vQvhwykoS1GgbRly_ABbZt98XywR_GsjUZ1UywWUpOZVoTnrOZeboIHI31BKMWuxTUE1diTUwwGKXgQ7RQ2AD2Vft_LYXzj2.NH9jlV8LGpT8ig_chXFnPMKe7THrzBMkZp5zLFhrdN6mZNpVBl6gcgxunG8qxDmQGWS1Q8gv8aP0dQQEAAA--/master.m3u8
+
+Title: The Odyssey, TMDB score 8
+Canonical ID: movie:1368337
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg
+Categories: Home: Trending in United States, Home: Popular Movies, Home: Action & Adventure, Movies: Movies, Browse: TRENDING NOW
+Server: PlayFast
+Resolution: 1920x1000
+Type: hls
+URL: https://scalablecontentengine.site/WnVM9YFN1/pl/H4sIAAAAAAAAAwXB3ZKCIBgA0FcSsVb2shF0K5kR.GDjjvxoHX_acnOynn7PCQGTuPnI83i.bFrKtphiuLCM5KxNKcs.TaVoXXQLFt07utuKXBKsxj9rdqR5sWDNaY2glvotrlj63jh5DZMERdu3NErLAkvHReL4Q6rRfxsqS1P4uRmkl6bLNHw9tUFoS5HFoQuHdF3ObkxrenvGEaicCDmmdttWMOsJ.yPZV1GMRewVoOsWXezuOlmVF_Bsp58ZNTu5frfUKc9A2FmWt2ArPykYH9ERiFx44MNaV_LeTKw3fP9qhlUcku6IBn.lFUMw.61_sQMMxP4DcuzyVyEBAAA-/master.m3u8
 
