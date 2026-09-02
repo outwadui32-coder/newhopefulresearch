@@ -13,6 +13,11 @@ on:
           - "10"
           - "5"
           - "1"
+      category:
+        description: "Optional manual category: exact name, category ID, or 1-based index. Leave blank for automatic rotation."
+        required: false
+        default: ""
+        type: string
   schedule:
     - cron: "17 */6 * * *"
 
@@ -33,6 +38,7 @@ jobs:
       TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
       OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
       BATCH_SIZE: ${{ inputs.batch_size || '20' }}
+      CATEGORY_SELECTION: ${{ inputs.category || '' }}
 
     steps:
       - name: Checkout persistent scanner state
@@ -67,7 +73,16 @@ jobs:
       - name: Run one selected-category batch
         id: scanner
         continue-on-error: true
-        run: xvfb-run -a npm run scan:github -- --max-items "$BATCH_SIZE" --workers 3 --title-timeout 90 --headed
+        shell: bash
+        run: |
+          ARGS=(--max-items "$BATCH_SIZE" --workers 3 --title-timeout 90 --headed)
+          if [ -n "$CATEGORY_SELECTION" ]; then
+            ARGS+=(--category "$CATEGORY_SELECTION")
+            echo "Manual category requested: $CATEGORY_SELECTION"
+          else
+            echo "Automatic category rotation requested."
+          fi
+          xvfb-run -a npm run scan:github -- "${ARGS[@]}"
 
       - name: Preserve valid unfinished state after a scanner failure
         if: steps.scanner.outcome == 'failure'
@@ -99,7 +114,13 @@ jobs:
           const types = { movie: 0, series: 0, episode: 0 };
           for (const id of b.items) types[s.catalog[id].contentType] += 1;
           const fields = {
+            'Selection Mode': b.selectionMode,
             'Selected Category': b.categoryName,
+            'Category ID': b.categoryId,
+            'Previously Processed In Category': b.categoryProcessedBefore,
+            'Previously Processed Movies': b.previousTypeCounts.movies,
+            'Previously Processed Series': b.previousTypeCounts.series,
+            'Previously Processed Episodes': b.previousTypeCounts.episodes,
             'Discovered': b.discovered,
             'New Items Found': b.newItemsFound,
             'Batch Items': b.items.length,
@@ -113,12 +134,28 @@ jobs:
             'Approved Streams': b.approvedStreams,
             'Rejected Streams': b.rejectedStreams,
             'Unique URLs': require('./output/master/catalog.json').streams.length,
+            'Category Processed After Batch': b.categoryProcessedAfter,
+            'New Successful Items Added To Master': b.masterItemsAdded,
+            'Master Items': b.masterItemsBefore + ' before -> ' + b.masterItemsAfter + ' after',
+            'Master Streams': b.masterStreamsBefore + ' before -> ' + b.masterStreamsAfter + ' after',
+            'Pushed Category Output': b.categoryOutput,
+            'Pointer Advanced': b.pointerAdvanced,
             'Next Category': s.categoryOrder[s.nextCategoryIndex]?.name,
             'Git Commit': 'created after validation',
             'Push Status': 'created after validation'
           };
           console.log('## Real verification report');
           for (const [key, value] of Object.entries(fields)) console.log('- ' + key + ': ' + value);
+          console.log('\n## Scanned item details');
+          console.log('| # | Type | Movie / Series / Episode name | Mode | Result | Approved | Rejected |');
+          console.log('|---:|---|---|---|---|---:|---:|');
+          b.items.forEach((id, index) => {
+            const item = b.itemResults[id];
+            const safeTitle = String(item.title).replace(/\|/g, '\\|');
+            console.log('| ' + (index + 1) + ' | ' + item.contentType + ' | ' + safeTitle +
+              ' | ' + item.mode + ' | ' + (item.success ? 'SUCCESS' : 'FAILED') +
+              ' | ' + item.approvedStreams + ' | ' + item.rejectedStreams + ' |');
+          });
           NODE
 
       - name: Commit and push only the validated complete batch
@@ -129,5 +166,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add output
           COUNT=$(node -p "require('./output/state/scanner-state.json').lastBatch.items.length")
-          git commit -m "scanner: Action batch complete - $COUNT processed" || exit 0
+          CATEGORY=$(node -p "require('./output/state/scanner-state.json').lastBatch.categoryName")
+          MODE=$(node -p "require('./output/state/scanner-state.json').lastBatch.selectionMode")
+          git commit -m "scanner: $MODE $CATEGORY batch complete - $COUNT processed" || exit 0
           git push

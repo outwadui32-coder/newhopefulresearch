@@ -23,6 +23,7 @@ function parseArgs(argv) {
       else if (arg === '--workers') options.workers = Number(value);
       else if (arg === '--title-timeout') options.titleTimeout = Number(value);
       else if (arg === '--max-surfaces') options.maxSurfaces = Number(value);
+      else if (arg === '--category') options.category = value.trim();
       else throw new Error('Unknown option ' + arg);
       index += 1;
     }
@@ -31,6 +32,77 @@ function parseArgs(argv) {
   if (!Number.isInteger(options.workers) || options.workers < 1 || options.workers > 5) throw new Error('--workers must be 1-5');
   if (!Number.isFinite(options.titleTimeout) || options.titleTimeout < 20) throw new Error('--title-timeout must be at least 20 seconds');
   return options;
+}
+
+function categoryItemCounts(state) {
+  const counts = Object.fromEntries((state.categoryOrder || []).map((entry) => [entry.id, 0]));
+  for (const item of Object.values(state.catalog || {})) {
+    for (const category of item.categories || []) {
+      if (Object.prototype.hasOwnProperty.call(counts, category.id)) counts[category.id] += 1;
+    }
+  }
+  return counts;
+}
+
+function countContentTypes(state, canonicalIds) {
+  const counts = { movies: 0, series: 0, episodes: 0 };
+  for (const id of canonicalIds || []) {
+    const type = core.contentType(state.catalog[id] || { canonicalId: id });
+    if (type === 'movie') counts.movies += 1;
+    else if (type === 'series') counts.series += 1;
+    else if (type === 'episode') counts.episodes += 1;
+  }
+  return counts;
+}
+
+function showCategoryIndex(state) {
+  const counts = categoryItemCounts(state);
+  console.log('\n================ AVAILABLE CATEGORIES ================');
+  state.categoryOrder.forEach((category, index) => {
+    const processed = (state.categoryHistory[category.id] || []).length;
+    console.log(
+      '[' + String(index + 1).padStart(2, '0') + '] ' + category.name +
+      ' | ID=' + category.id + ' | DISCOVERED=' + (counts[category.id] || 0) +
+      ' | PREVIOUSLY PROCESSED=' + processed
+    );
+  });
+  console.log('======================================================\n');
+}
+
+function resolveCategorySelection(state, selector) {
+  if (!selector) return core.selectedCategory(state);
+  const value = String(selector).trim();
+  if (/^\d+$/.test(value)) {
+    const index = Number(value) - 1;
+    if (index >= 0 && index < state.categoryOrder.length) return state.categoryOrder[index];
+  }
+  const lower = value.toLowerCase();
+  const exact = state.categoryOrder.find((entry) =>
+    entry.id.toLowerCase() === lower || entry.name.toLowerCase() === lower
+  );
+  if (exact) return exact;
+  const partial = state.categoryOrder.filter((entry) =>
+    entry.id.toLowerCase().includes(lower) || entry.name.toLowerCase().includes(lower)
+  );
+  if (partial.length === 1) return partial[0];
+  if (partial.length > 1) {
+    throw new Error('Manual category is ambiguous: ' + partial.map((entry) => entry.name).join(' | '));
+  }
+  throw new Error('Manual category not found: ' + value + '. Use the displayed name, ID, or 1-based index.');
+}
+
+function showBatchQueue(state, batch) {
+  console.log('\n================ SELECTED BATCH ITEMS ================');
+  if (!batch.items.length) console.log('[EMPTY] No new unprocessed item was found in this category.');
+  batch.items.forEach((id, index) => {
+    const item = state.catalog[id];
+    const mode = core.canReuse(state, id) ? 'GLOBAL REUSE' : 'NEW BROWSER SCAN';
+    console.log(
+      '[' + String(index + 1).padStart(2, '0') + '/' + String(batch.items.length).padStart(2, '0') + '] ' +
+      mode + ' | ' + String(core.contentType(item)).toUpperCase() + ' | ' + item.title + ' | ' + id
+    );
+  });
+  console.log('======================================================\n');
 }
 
 function sourceConfig() {
@@ -267,6 +339,12 @@ async function processWithCoordinator(state, batch, source, options, paths) {
   let serial = 0;
   function startOne(canonical) {
     const item = state.catalog[canonical];
+    const plannedMode = core.canReuse(state, canonical) ? 'GLOBAL REUSE' : 'BROWSER SCAN';
+    console.log(
+      '[ITEM START] CATEGORY="' + batch.categoryName + '" | ' + plannedMode +
+      ' | TYPE=' + String(core.contentType(item)).toUpperCase() +
+      ' | TITLE="' + item.title + '" | ID=' + canonical
+    );
     const resultPath = path.join(paths.stateDir, '.worker-' + process.pid + '-' + serial++ + '.json');
     const promise = (async () => {
       await enrichPoster(item);
@@ -284,13 +362,26 @@ async function processWithCoordinator(state, batch, source, options, paths) {
     const completed = await Promise.race([...active.values()]);
     active.delete(completed.canonical);
     core.checkpointBatchItem(state, completed.canonical, completed.scan, completed.mode);
+    const itemResult = batch.itemResults[completed.canonical];
     core.saveState(paths.state, state);
     core.appendHistory(__dirname, {
       event: completed.mode === 'reuse' ? 'item-reused' : 'item-scanned',
       categoryId: batch.categoryId, canonicalId: completed.canonical,
       success: state.results[completed.canonical].verified
     });
-    console.log('[CHECKPOINT] ' + batch.completedItems.length + '/' + batch.items.length + ' ' + completed.canonical);
+    console.log(
+      '[ITEM RESULT] CATEGORY="' + batch.categoryName + '" | TITLE="' + itemResult.title +
+      '" | TYPE=' + itemResult.contentType.toUpperCase() +
+      ' | MODE=' + itemResult.mode.toUpperCase() +
+      ' | STATUS=' + (itemResult.success ? 'SUCCESS' : 'FAILED') +
+      ' | APPROVED=' + itemResult.approvedStreams + ' | REJECTED=' + itemResult.rejectedStreams
+    );
+    console.log(
+      '[CHECKPOINT] COMPLETED=' + batch.completedItems.length + '/' + batch.items.length +
+      ' | PENDING=' + batch.pendingItems.length +
+      ' | BROWSER=' + batch.browserScanned + ' | REUSED=' + batch.globallyReused +
+      ' | SUCCESS=' + batch.successful + ' | FAILED=' + batch.failed
+    );
     if (pending.length) startOne(pending.shift());
   }
 }
@@ -308,13 +399,27 @@ function realReport(state) {
     for (const stream of (result && result.scan && result.scan.finalStreams || []).filter(core.streamIsPublishable)) uniqueUrls.add(stream.url);
   }
   return {
-    'Selected Category': batch.categoryName, 'Discovered': batch.discovered,
+    'Selection Mode': batch.selectionMode || 'automatic',
+    'Selected Category': batch.categoryName, 'Category ID': batch.categoryId,
+    'Previously Processed In Category': batch.categoryProcessedBefore || 0,
+    'Previously Processed Movies': (batch.previousTypeCounts && batch.previousTypeCounts.movies) || 0,
+    'Previously Processed Series': (batch.previousTypeCounts && batch.previousTypeCounts.series) || 0,
+    'Previously Processed Episodes': (batch.previousTypeCounts && batch.previousTypeCounts.episodes) || 0,
+    'Discovered': batch.discovered,
     'New Items Found': batch.newItemsFound, 'Batch Items': batch.items.length,
     'Movies': itemTypes.movie, 'Series': itemTypes.series, 'Episodes': itemTypes.episode,
     'Browser Scanned': batch.browserScanned, 'Globally Reused': batch.globallyReused,
     'Successful': batch.successful, 'Failed': batch.failed,
     'Approved Streams': batch.approvedStreams, 'Rejected Streams': batch.rejectedStreams,
     'Unique URLs': uniqueUrls.size,
+    'Category Processed After Batch': batch.categoryProcessedAfter || 0,
+    'New Successful Items Added To Master': batch.masterItemsAdded || 0,
+    'Master Items Before': batch.masterItemsBefore || 0,
+    'Master Items After': batch.masterItemsAfter || 0,
+    'Master Streams Before': batch.masterStreamsBefore || 0,
+    'Master Streams After': batch.masterStreamsAfter || 0,
+    'Pushed Category Output': batch.categoryOutput || '',
+    'Pointer Advanced': batch.pointerAdvanced,
     'Next Category': state.categoryOrder[state.nextCategoryIndex] && state.categoryOrder[state.nextCategoryIndex].name
   };
 }
@@ -328,35 +433,92 @@ async function main() {
   try {
     const state = core.loadState(paths.state, source.rootUrl);
     core.migrateLegacyOnce(__dirname, state);
+    showCategoryIndex(state);
     let selected;
     let freshItems = [];
+    let selectionMode = options.category ? 'manual' : 'automatic';
+    const beforeOutputs = core.aggregateOutputs(state);
     if (!state.categoryOrder.length) {
       const index = await initializeCategoryIndex(source, options);
       if (!index.categories.length) throw new Error('No source categories discovered');
       core.mergeCategoryOrder(state, index.categories);
       core.mergeDiscoveredItems(state, index.items);
+      showCategoryIndex(state);
     }
     if (state.activeBatch) {
       selected = state.categoryOrder.find((entry) => entry.id === state.activeBatch.categoryId);
       if (!selected) throw new Error('Active batch category is missing');
+      if (options.category && resolveCategorySelection(state, options.category).id !== selected.id) {
+        throw new Error('An unfinished batch exists for ' + selected.name + '; finish it before manually selecting another category.');
+      }
+      selectionMode = state.activeBatch.selectionMode || 'resume';
       freshItems = state.activeBatch.items.map((id) => state.catalog[id]).filter(Boolean);
-      console.log('[RESUME] ' + state.activeBatch.categoryName + ': ' + state.activeBatch.pendingItems.length + ' remaining');
+      console.log('[RESUME BATCH] CATEGORY="' + state.activeBatch.categoryName + '" | COMPLETED=' +
+        state.activeBatch.completedItems.length + ' | PENDING=' + state.activeBatch.pendingItems.length);
     } else {
-      selected = core.selectedCategory(state);
-      console.log('[FRESH CATEGORY] ' + selected.name + ' from top: ' + selected.url);
+      selected = resolveCategorySelection(state, options.category);
+      console.log('\n================ SCAN SELECTION ======================');
+      console.log('MODE: ' + selectionMode.toUpperCase());
+      console.log('CATEGORY: ' + selected.name);
+      console.log('CATEGORY ID: ' + selected.id);
+      console.log('SOURCE PAGE: ' + selected.url);
+      console.log('PREVIOUSLY PROCESSED: ' + (state.categoryHistory[selected.id] || []).length);
+      console.log('======================================================');
+      console.log('[FRESH DISCOVERY] Reading selected category from the top...');
       freshItems = await discoverSelectedCategory(selected, options);
       freshItems = await expandSeriesLazily(freshItems, selected, state.categoryHistory[selected.id], options.maxItems);
+      console.log('[FRESH DISCOVERY COMPLETE] CATEGORY="' + selected.name + '" | ITEMS SEEN=' +
+        freshItems.length + ' | PREVIOUSLY PROCESSED=' + (state.categoryHistory[selected.id] || []).length);
     }
     const batch = core.prepareActiveBatch(state, selected, freshItems, options.maxItems);
+    if (!batch.selectionMode) batch.selectionMode = selectionMode;
+    if (batch.categoryProcessedBefore === undefined) {
+      batch.categoryProcessedBefore = (state.categoryHistory[selected.id] || []).length;
+      batch.masterItemsBefore = beforeOutputs.items.length;
+      batch.masterStreamsBefore = beforeOutputs.streams.length;
+    }
+    if (!batch.previousTypeCounts) {
+      batch.previousTypeCounts = countContentTypes(state, state.categoryHistory[selected.id] || []);
+    }
+    batch.batchTypeCounts = countContentTypes(state, batch.items);
+    showBatchQueue(state, batch);
+    console.log('[BATCH SUMMARY BEFORE SCAN] CATEGORY="' + selected.name +
+      '" | PREVIOUSLY PROCESSED=' + batch.categoryProcessedBefore +
+      ' (MOVIES=' + batch.previousTypeCounts.movies + ', SERIES=' + batch.previousTypeCounts.series +
+      ', EPISODES=' + batch.previousTypeCounts.episodes + ')' +
+      ' | DISCOVERED NOW=' + batch.discovered + ' | NEW FOUND=' + batch.newItemsFound +
+      ' | SELECTED=' + batch.items.length +
+      ' (MOVIES=' + batch.batchTypeCounts.movies + ', SERIES=' + batch.batchTypeCounts.series +
+      ', EPISODES=' + batch.batchTypeCounts.episodes + ')' +
+      ' | PENDING=' + batch.pendingItems.length);
     core.saveState(paths.state, state);
-    core.appendHistory(__dirname, { event: 'batch-start', categoryId: selected.id, batchId: batch.id, itemCount: batch.items.length });
+    core.appendHistory(__dirname, {
+      event: 'batch-start', selectionMode: batch.selectionMode, categoryId: selected.id,
+      categoryName: selected.name, batchId: batch.id, itemCount: batch.items.length
+    });
     if (batch.pendingItems.length) await processWithCoordinator(state, batch, source, options, paths);
-    core.completeBatch(state);
+    core.completeBatch(state, { advancePointer: batch.selectionMode !== 'manual' });
     state.updatedAt = new Date().toISOString();
     core.writeOutputs(__dirname, state);
+    const afterOutputs = core.aggregateOutputs(state);
+    state.lastBatch.masterItemsAfter = afterOutputs.items.length;
+    state.lastBatch.masterStreamsAfter = afterOutputs.streams.length;
+    state.lastBatch.masterItemsAdded = afterOutputs.items.length - state.lastBatch.masterItemsBefore;
+    state.lastBatch.masterStreamsAdded = afterOutputs.streams.length - state.lastBatch.masterStreamsBefore;
+    state.lastBatch.categoryOutput = 'output/categories/' + core.slugify(selected.type + '-' + selected.name) + '/';
+    state.categoryLastBatch[selected.id] = state.lastBatch;
     core.saveState(paths.state, state);
     core.appendHistory(__dirname, { event: 'batch-complete', categoryId: selected.id, batch: state.lastBatch });
     const report = realReport(state);
+    console.log('\n================ OUTPUT PUSH DATA ====================');
+    console.log('CATEGORY OUTPUT: ' + state.lastBatch.categoryOutput);
+    console.log('MASTER ITEMS: ' + state.lastBatch.masterItemsBefore + ' BEFORE -> ' +
+      state.lastBatch.masterItemsAfter + ' AFTER | ADDED=' + state.lastBatch.masterItemsAdded);
+    console.log('MASTER STREAMS: ' + state.lastBatch.masterStreamsBefore + ' BEFORE -> ' +
+      state.lastBatch.masterStreamsAfter + ' AFTER | ADDED=' + state.lastBatch.masterStreamsAdded);
+    console.log('CATEGORY HISTORY: ' + state.lastBatch.categoryProcessedBefore + ' BEFORE -> ' +
+      state.lastBatch.categoryProcessedAfter + ' AFTER');
+    console.log('======================================================');
     console.log('\nREAL VERIFICATION REPORT');
     for (const [key, value] of Object.entries(report)) console.log(key + ': ' + (value === undefined ? '' : value));
     console.log('Git Commit: pending workflow validation');
@@ -374,6 +536,6 @@ if (require.main === module) {
 }
 
 module.exports = {
-  parseArgs, sourceConfig, surfaceSeeds, extractSurface, initializeCategoryIndex, discoverSelectedCategory,
-  expandSeriesLazily, processWithCoordinator, realReport
+  parseArgs, categoryItemCounts, countContentTypes, resolveCategorySelection, sourceConfig, surfaceSeeds, extractSurface,
+  initializeCategoryIndex, discoverSelectedCategory, expandSeriesLazily, processWithCoordinator, realReport
 };

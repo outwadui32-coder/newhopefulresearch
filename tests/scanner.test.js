@@ -6,6 +6,7 @@ const os = require('node:os');
 const path = require('node:path');
 const core = require('../lib/scanner-core');
 const collector = require('../collector');
+const scanner = require('../site-scanner');
 const validator = require('../scripts/validate-output');
 
 const passed = [];
@@ -200,6 +201,26 @@ test('legacy migration runs once and never imports fabricated stream data', () =
   assert.equal(core.migrateLegacyOnce(directory, state).imported, 1);
   assert.equal(core.migrateLegacyOnce(directory, state).skipped, true);
   assert.equal(Object.keys(state.results).length, 0);
+});
+
+test('manual category name ID or index selects correctly without moving automatic pointer', () => {
+  const state = core.emptyState('https://source.example/');
+  const a = category('Action');
+  const b = category('Drama');
+  core.mergeCategoryOrder(state, [a, b]);
+  assert.equal(scanner.resolveCategorySelection(state, '2').id, b.id);
+  assert.equal(scanner.resolveCategorySelection(state, 'Drama').id, b.id);
+  assert.equal(scanner.resolveCategorySelection(state, b.id).id, b.id);
+  const options = scanner.parseArgs(['--category', 'Drama', '--max-items', '5']);
+  assert.equal(options.category, 'Drama');
+  core.prepareActiveBatch(state, b, [item('movie:55', [b], 'movie')], 5);
+  core.checkpointBatchItem(state, 'movie:55', scan('https://media.example/55.m3u8'), 'browser');
+  core.completeBatch(state, { advancePointer: false });
+  assert.equal(state.nextCategoryIndex, 0);
+  assert.equal(state.lastBatch.pointerAdvanced, false);
+  assert.deepEqual(scanner.countContentTypes(state, state.categoryHistory[b.id]), {
+    movies: 1, series: 0, episodes: 0
+  });
 });
 
 console.log('\n' + passed.length + ' integration checks passed.');
