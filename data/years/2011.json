@@ -10,7 +10,7 @@
     "release_date": "2011-12-07",
     "rating": 6.2,
     "vote_count": 162,
-    "popularity": 112.9,
+    "popularity": 96.3,
     "runtime_minutes": null,
     "runtime_formatted": null,
     "genres": [
@@ -39,6 +39,6 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/82023/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:25.968608+00:00"
+    "updated_at": "2026-09-02T06:02:30.082154+00:00"
   }
 ]

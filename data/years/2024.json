@@ -8,9 +8,9 @@
     "tagline": "",
     "release_year": 2024,
     "release_date": "2024-07-06",
-    "rating": 6.2,
-    "vote_count": 4,
-    "popularity": 228.9,
+    "rating": 5.2,
+    "vote_count": 5,
+    "popularity": 270.8,
     "runtime_minutes": null,
     "runtime_formatted": null,
     "genres": [
@@ -38,7 +38,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1285366/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:25.844239+00:00"
+    "updated_at": "2026-09-02T06:02:29.972072+00:00"
   },
   {
     "id": 1232449,
@@ -51,7 +51,7 @@
     "release_date": "2024-10-26",
     "rating": 8.6,
     "vote_count": 306,
-    "popularity": 20.9,
+    "popularity": 20.8,
     "runtime_minutes": null,
     "runtime_formatted": null,
     "genres": [
@@ -80,6 +80,6 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1232449/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:26.205773+00:00"
+    "updated_at": "2026-09-02T06:02:30.302450+00:00"
   }
 ]

@@ -9,8 +9,8 @@
     "release_year": 2016,
     "release_date": "2016-07-01",
     "rating": 8.5,
-    "vote_count": 12931,
-    "popularity": 27.2,
+    "vote_count": 12932,
+    "popularity": 29.7,
     "runtime_minutes": null,
     "runtime_formatted": null,
     "genres": [
@@ -40,6 +40,6 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/372058/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:26.326640+00:00"
+    "updated_at": "2026-09-02T06:02:30.416260+00:00"
   }
 ]

@@ -9,8 +9,8 @@
     "release_year": 1954,
     "release_date": "1954-04-26",
     "rating": 8.5,
-    "vote_count": 4346,
-    "popularity": 15.2,
+    "vote_count": 4347,
+    "popularity": 17.6,
     "runtime_minutes": null,
     "runtime_formatted": null,
     "genres": [
@@ -39,6 +39,6 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/346/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:26.326718+00:00"
+    "updated_at": "2026-09-02T06:02:30.416331+00:00"
   }
 ]

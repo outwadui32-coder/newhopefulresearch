@@ -9,8 +9,8 @@
     "release_year": 2026,
     "release_date": "2026-08-19",
     "rating": 6.4,
-    "vote_count": 251,
-    "popularity": 413.2,
+    "vote_count": 253,
+    "popularity": 412.2,
     "runtime_minutes": 95,
     "runtime_formatted": "1h 35m",
     "genres": [
@@ -45,7 +45,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1288445/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:24.119897+00:00"
+    "updated_at": "2026-09-02T06:02:29.117508+00:00"
   },
   {
     "id": 1621552,
@@ -57,8 +57,8 @@
     "release_year": 2026,
     "release_date": "2026-08-21",
     "rating": 8.9,
-    "vote_count": 444,
-    "popularity": 306.4,
+    "vote_count": 449,
+    "popularity": 275.7,
     "runtime_minutes": 91,
     "runtime_formatted": "1h 31m",
     "genres": [
@@ -94,55 +94,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1621552/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:24.691410+00:00"
-  },
-  {
-    "id": 1339713,
-    "imdb_id": "tt37287335",
-    "type": "movie",
-    "title": "Obsession",
-    "original_title": "Obsession",
-    "tagline": "Be careful who you wish for…",
-    "release_year": 2026,
-    "release_date": "2026-05-13",
-    "rating": 8.2,
-    "vote_count": 5226,
-    "popularity": 232.2,
-    "runtime_minutes": 109,
-    "runtime_formatted": "1h 49m",
-    "genres": [
-      "Horror",
-      "Thriller"
-    ],
-    "overview": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
-    "cast": [
-      "Michael Johnston",
-      "Inde Navarrette",
-      "Cooper Tomlinson",
-      "Megan Lawless",
-      "Andy Richter"
-    ],
-    "trailer_url": "https://www.youtube.com/watch?v=AvLWFCXbVqU",
-    "trailer_youtube_id": "AvLWFCXbVqU",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
-      "original": "https://image.tmdb.org/t/p/original/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/rZfmzpixLKLR3Hg2u0WgC7XLFl8.jpg",
-      "original": "https://image.tmdb.org/t/p/original/rZfmzpixLKLR3Hg2u0WgC7XLFl8.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1339713/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1339713/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1339713/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1339713/index-s1080p-v1-a1.m3u8",
-      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1339713/720/index_308.m3u8"
-    },
-    "health_status": "online",
-    "updated_at": "2026-09-02T00:02:24.119817+00:00"
+    "updated_at": "2026-09-02T06:02:29.524210+00:00"
   },
   {
     "id": 860508,
@@ -153,9 +105,9 @@
     "tagline": "If you leave the door half open, soon you'll hear the whispers spoken.",
     "release_year": 2026,
     "release_date": "2026-08-27",
-    "rating": 6.3,
-    "vote_count": 244,
-    "popularity": 227.7,
+    "rating": 6.4,
+    "vote_count": 258,
+    "popularity": 233.5,
     "runtime_minutes": 114,
     "runtime_formatted": "1h 54m",
     "genres": [
@@ -191,7 +143,55 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/860508/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:24.119725+00:00"
+    "updated_at": "2026-09-02T06:02:29.117361+00:00"
+  },
+  {
+    "id": 1339713,
+    "imdb_id": "tt37287335",
+    "type": "movie",
+    "title": "Obsession",
+    "original_title": "Obsession",
+    "tagline": "Be careful who you wish for…",
+    "release_year": 2026,
+    "release_date": "2026-05-13",
+    "rating": 8.2,
+    "vote_count": 5231,
+    "popularity": 218.7,
+    "runtime_minutes": 109,
+    "runtime_formatted": "1h 49m",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "overview": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
+    "cast": [
+      "Michael Johnston",
+      "Inde Navarrette",
+      "Cooper Tomlinson",
+      "Megan Lawless",
+      "Andy Richter"
+    ],
+    "trailer_url": "https://www.youtube.com/watch?v=AvLWFCXbVqU",
+    "trailer_youtube_id": "AvLWFCXbVqU",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+      "original": "https://image.tmdb.org/t/p/original/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/rZfmzpixLKLR3Hg2u0WgC7XLFl8.jpg",
+      "original": "https://image.tmdb.org/t/p/original/rZfmzpixLKLR3Hg2u0WgC7XLFl8.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1339713/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1339713/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1339713/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1339713/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1339713/720/index_308.m3u8"
+    },
+    "health_status": "online",
+    "updated_at": "2026-09-02T06:02:29.117404+00:00"
   },
   {
     "id": 1323244,
@@ -204,7 +204,7 @@
     "release_date": "2026-08-06",
     "rating": 5.6,
     "vote_count": 56,
-    "popularity": 220.2,
+    "popularity": 198.4,
     "runtime_minutes": null,
     "runtime_formatted": null,
     "genres": [
@@ -234,7 +234,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1323244/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:25.844256+00:00"
+    "updated_at": "2026-09-02T06:02:29.972082+00:00"
   },
   {
     "id": 1393326,
@@ -247,7 +247,7 @@
     "release_date": "2026-04-16",
     "rating": 7.0,
     "vote_count": 38,
-    "popularity": 149.0,
+    "popularity": 159.9,
     "runtime_minutes": null,
     "runtime_formatted": null,
     "genres": [
@@ -277,7 +277,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1393326/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:25.844272+00:00"
+    "updated_at": "2026-09-02T06:02:29.972092+00:00"
   },
   {
     "id": 1514682,
@@ -290,7 +290,7 @@
     "release_date": "2026-07-29",
     "rating": 6.2,
     "vote_count": 10,
-    "popularity": 143.6,
+    "popularity": 148.3,
     "runtime_minutes": 96,
     "runtime_formatted": "1h 36m",
     "genres": [
@@ -327,7 +327,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1514682/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:25.844287+00:00"
+    "updated_at": "2026-09-02T06:02:29.972101+00:00"
   },
   {
     "id": 1130948,
@@ -340,7 +340,7 @@
     "release_date": "2026-04-23",
     "rating": 6.0,
     "vote_count": 32,
-    "popularity": 134.0,
+    "popularity": 127.6,
     "runtime_minutes": null,
     "runtime_formatted": null,
     "genres": [
@@ -370,7 +370,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1130948/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:25.967743+00:00"
+    "updated_at": "2026-09-02T06:02:30.081969+00:00"
   },
   {
     "id": 1384216,
@@ -382,8 +382,8 @@
     "release_year": 2026,
     "release_date": "2026-08-26",
     "rating": 6.7,
-    "vote_count": 151,
-    "popularity": 120.5,
+    "vote_count": 155,
+    "popularity": 117.2,
     "runtime_minutes": 119,
     "runtime_formatted": "1h 59m",
     "genres": [
@@ -419,7 +419,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1384216/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:24.119924+00:00"
+    "updated_at": "2026-09-02T06:02:29.241173+00:00"
   },
   {
     "id": 1275779,
@@ -431,8 +431,8 @@
     "release_year": 2026,
     "release_date": "2026-06-10",
     "rating": 7.5,
-    "vote_count": 3144,
-    "popularity": 118.8,
+    "vote_count": 3147,
+    "popularity": 109.1,
     "runtime_minutes": 146,
     "runtime_formatted": "2h 26m",
     "genres": [
@@ -467,7 +467,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1275779/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:24.248328+00:00"
+    "updated_at": "2026-09-02T06:02:29.524264+00:00"
   },
   {
     "id": 87513,
@@ -479,8 +479,8 @@
     "release_year": 2026,
     "release_date": "2026-07-23",
     "rating": 6.3,
-    "vote_count": 90,
-    "popularity": 108.8,
+    "vote_count": 91,
+    "popularity": 91.6,
     "runtime_minutes": 104,
     "runtime_formatted": "1h 44m",
     "genres": [
@@ -516,7 +516,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/87513/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:24.248233+00:00"
+    "updated_at": "2026-09-02T06:02:29.241301+00:00"
   },
   {
     "id": 1432706,
@@ -529,7 +529,7 @@
     "release_date": "2026-03-06",
     "rating": 6.3,
     "vote_count": 16,
-    "popularity": 102.6,
+    "popularity": 88.3,
     "runtime_minutes": null,
     "runtime_formatted": null,
     "genres": [
@@ -558,56 +558,49 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1432706/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:25.968665+00:00"
+    "updated_at": "2026-09-02T06:02:30.082172+00:00"
   },
   {
-    "id": 1101383,
-    "imdb_id": "tt27165187",
+    "id": 1599993,
+    "imdb_id": null,
     "type": "movie",
-    "title": "The End of Oak Street",
-    "original_title": "The End of Oak Street",
-    "tagline": "Where goes the neighborhood.",
+    "title": "Animals",
+    "original_title": "Animales",
+    "tagline": "",
     "release_year": 2026,
-    "release_date": "2026-08-12",
-    "rating": 6.4,
-    "vote_count": 424,
-    "popularity": 83.4,
-    "runtime_minutes": 99,
-    "runtime_formatted": "1h 39m",
+    "release_date": "2026-02-05",
+    "rating": 6.3,
+    "vote_count": 32,
+    "popularity": 84.9,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
     "genres": [
-      "Sci-Fi",
-      "Mystery",
+      "Comedy",
       "Thriller"
     ],
-    "overview": "After a mysterious cosmic event rips Oak Street from suburbia and transports their neighborhood to someplace unknown, the Platt family soon discovers that their very survival depends on them sticking together as they navigate their now unrecognizable surroundings.",
-    "cast": [
-      "Anne Hathaway",
-      "Ewan McGregor",
-      "Christian Convery",
-      "Maisy Stella",
-      "Jordan Alexa Davis"
-    ],
-    "trailer_url": "https://www.youtube.com/watch?v=gBjcR8FdFc4",
-    "trailer_youtube_id": "gBjcR8FdFc4",
+    "overview": "Four couples sail the thin line between desire and search for authenticity, in a world where truth is as fragile as their relationships.",
+    "cast": [],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
     "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/fYXqpgPmHMphSF2W30GbTeJVIa5.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/fYXqpgPmHMphSF2W30GbTeJVIa5.jpg",
-      "original": "https://image.tmdb.org/t/p/original/fYXqpgPmHMphSF2W30GbTeJVIa5.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w185/9fbZdiOI9fRinl44mNm3CYgEtYR.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/9fbZdiOI9fRinl44mNm3CYgEtYR.jpg",
+      "original": "https://image.tmdb.org/t/p/original/9fbZdiOI9fRinl44mNm3CYgEtYR.jpg"
     },
     "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg",
-      "original": "https://image.tmdb.org/t/p/original/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg"
+      "medium": "https://image.tmdb.org/t/p/w780/3jgATRIFenOrgNKEC9bFv5QqKGf.jpg",
+      "original": "https://image.tmdb.org/t/p/original/3jgATRIFenOrgNKEC9bFv5QqKGf.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1101383/video_main.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1599993/video_main.m3u8",
     "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1101383/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1101383/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1101383/index-s1080p-v1-a1.m3u8",
-      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1101383/720/index_308.m3u8"
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1599993/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1599993/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1599993/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1599993/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:24.248179+00:00"
+    "updated_at": "2026-09-02T06:02:30.192115+00:00"
   },
   {
     "id": 1284041,
@@ -619,8 +612,8 @@
     "release_year": 2026,
     "release_date": "2026-08-06",
     "rating": 6.9,
-    "vote_count": 1186,
-    "popularity": 82.9,
+    "vote_count": 1193,
+    "popularity": 84.6,
     "runtime_minutes": 110,
     "runtime_formatted": "1h 50m",
     "genres": [
@@ -656,7 +649,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1284041/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:24.691245+00:00"
+    "updated_at": "2026-09-02T06:02:29.861814+00:00"
   },
   {
     "id": 1127384,
@@ -668,8 +661,8 @@
     "release_year": 2026,
     "release_date": "2026-04-30",
     "rating": 7.1,
-    "vote_count": 453,
-    "popularity": 81.2,
+    "vote_count": 454,
+    "popularity": 79.1,
     "runtime_minutes": null,
     "runtime_formatted": null,
     "genres": [
@@ -698,49 +691,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1127384/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:26.084874+00:00"
-  },
-  {
-    "id": 1599993,
-    "imdb_id": null,
-    "type": "movie",
-    "title": "Animals",
-    "original_title": "Animales",
-    "tagline": "",
-    "release_year": 2026,
-    "release_date": "2026-02-05",
-    "rating": 6.3,
-    "vote_count": 32,
-    "popularity": 81.2,
-    "runtime_minutes": null,
-    "runtime_formatted": null,
-    "genres": [
-      "Comedy",
-      "Thriller"
-    ],
-    "overview": "Four couples sail the thin line between desire and search for authenticity, in a world where truth is as fragile as their relationships.",
-    "cast": [],
-    "trailer_url": null,
-    "trailer_youtube_id": null,
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/9fbZdiOI9fRinl44mNm3CYgEtYR.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/9fbZdiOI9fRinl44mNm3CYgEtYR.jpg",
-      "original": "https://image.tmdb.org/t/p/original/9fbZdiOI9fRinl44mNm3CYgEtYR.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/3jgATRIFenOrgNKEC9bFv5QqKGf.jpg",
-      "original": "https://image.tmdb.org/t/p/original/3jgATRIFenOrgNKEC9bFv5QqKGf.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1599993/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1599993/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1599993/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1599993/index-s1080p-v1-a1.m3u8",
-      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1599993/720/index_308.m3u8"
-    },
-    "health_status": "online",
-    "updated_at": "2026-09-02T00:02:26.084887+00:00"
+    "updated_at": "2026-09-02T06:02:30.192095+00:00"
   },
   {
     "id": 1631807,
@@ -752,8 +703,8 @@
     "release_year": 2026,
     "release_date": "2026-08-28",
     "rating": 6.3,
-    "vote_count": 38,
-    "popularity": 77.2,
+    "vote_count": 40,
+    "popularity": 78.5,
     "runtime_minutes": 119,
     "runtime_formatted": "1h 59m",
     "genres": [
@@ -789,7 +740,56 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1631807/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:24.248170+00:00"
+    "updated_at": "2026-09-02T06:02:29.117521+00:00"
+  },
+  {
+    "id": 1101383,
+    "imdb_id": "tt27165187",
+    "type": "movie",
+    "title": "The End of Oak Street",
+    "original_title": "The End of Oak Street",
+    "tagline": "Where goes the neighborhood.",
+    "release_year": 2026,
+    "release_date": "2026-08-12",
+    "rating": 6.4,
+    "vote_count": 426,
+    "popularity": 77.1,
+    "runtime_minutes": 99,
+    "runtime_formatted": "1h 39m",
+    "genres": [
+      "Sci-Fi",
+      "Mystery",
+      "Thriller"
+    ],
+    "overview": "After a mysterious cosmic event rips Oak Street from suburbia and transports their neighborhood to someplace unknown, the Platt family soon discovers that their very survival depends on them sticking together as they navigate their now unrecognizable surroundings.",
+    "cast": [
+      "Anne Hathaway",
+      "Ewan McGregor",
+      "Christian Convery",
+      "Maisy Stella",
+      "Jordan Alexa Davis"
+    ],
+    "trailer_url": "https://www.youtube.com/watch?v=gBjcR8FdFc4",
+    "trailer_youtube_id": "gBjcR8FdFc4",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/fYXqpgPmHMphSF2W30GbTeJVIa5.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/fYXqpgPmHMphSF2W30GbTeJVIa5.jpg",
+      "original": "https://image.tmdb.org/t/p/original/fYXqpgPmHMphSF2W30GbTeJVIa5.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg",
+      "original": "https://image.tmdb.org/t/p/original/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1101383/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1101383/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1101383/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1101383/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1101383/720/index_308.m3u8"
+    },
+    "health_status": "online",
+    "updated_at": "2026-09-02T06:02:29.751527+00:00"
   },
   {
     "id": 1291595,
@@ -802,7 +802,7 @@
     "release_date": "2026-08-19",
     "rating": 6.6,
     "vote_count": 95,
-    "popularity": 73.4,
+    "popularity": 70.7,
     "runtime_minutes": 106,
     "runtime_formatted": "1h 46m",
     "genres": [
@@ -837,7 +837,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1291595/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:24.248201+00:00"
+    "updated_at": "2026-09-02T06:02:29.524179+00:00"
   },
   {
     "id": 1727780,
@@ -870,7 +870,7 @@
       "original": "https://image.tmdb.org/t/p/original/wPSOPYy2fV62GjeXpVdKyweZGZu.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1727780/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1727780/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1727780/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1727780/audio_hindi.m3u8",
@@ -878,7 +878,56 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1727780/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.864391+00:00"
+    "updated_at": "2026-09-01T12:02:14.864391+00:00",
+    "last_health_check": "2026-09-02T00:02:27.598284+00:00"
+  },
+  {
+    "id": 1480574,
+    "imdb_id": "tt36948232",
+    "type": "movie",
+    "title": "Just Play Dead",
+    "original_title": "Just Play Dead",
+    "tagline": "Til death do they part.",
+    "release_year": 2026,
+    "release_date": "2026-08-28",
+    "rating": 6.8,
+    "vote_count": 11,
+    "popularity": 54.8,
+    "runtime_minutes": 96,
+    "runtime_formatted": "1h 36m",
+    "genres": [
+      "Thriller",
+      "Crime"
+    ],
+    "overview": "A criminal mastermind plans to fake his death for insurance money while framing his wife's lover. His wife plots to kill him for real and take it all. Both race to outmanoeuvre each other in a deadly battle of wits.",
+    "cast": [
+      "Samuel L. Jackson",
+      "Eva Green",
+      "María Pedraza",
+      "Eoin Macken",
+      "Jason Fernández"
+    ],
+    "trailer_url": "https://www.youtube.com/watch?v=LlAajeOoFBo",
+    "trailer_youtube_id": "LlAajeOoFBo",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/glALx6QaIgw1u4joXsnfHTjWi6D.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/glALx6QaIgw1u4joXsnfHTjWi6D.jpg",
+      "original": "https://image.tmdb.org/t/p/original/glALx6QaIgw1u4joXsnfHTjWi6D.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/tieojVpH6eW44JQOQEWnf8t4khG.jpg",
+      "original": "https://image.tmdb.org/t/p/original/tieojVpH6eW44JQOQEWnf8t4khG.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1480574/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1480574/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1480574/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1480574/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1480574/720/index_308.m3u8"
+    },
+    "health_status": "online",
+    "updated_at": "2026-09-02T06:02:29.117288+00:00"
   },
   {
     "id": 1280738,
@@ -919,7 +968,7 @@
       "original": "https://image.tmdb.org/t/p/original/9XwQphZxNJgGASfjL58mhIkJJpf.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1280738/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1280738/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1280738/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1280738/audio_hindi.m3u8",
@@ -927,7 +976,8 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1280738/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.385759+00:00"
+    "updated_at": "2026-09-01T18:01:54.385759+00:00",
+    "last_health_check": "2026-09-02T00:02:28.167732+00:00"
   },
   {
     "id": 1122573,
@@ -939,8 +989,8 @@
     "release_year": 2026,
     "release_date": "2026-05-13",
     "rating": 7.6,
-    "vote_count": 855,
-    "popularity": 43.6,
+    "vote_count": 857,
+    "popularity": 42.5,
     "runtime_minutes": 97,
     "runtime_formatted": "1h 37m",
     "genres": [
@@ -975,102 +1025,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1122573/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:24.248295+00:00"
-  },
-  {
-    "id": 1101412,
-    "imdb_id": "tt31192372",
-    "type": "movie",
-    "title": "Fall 2: Deadpoint",
-    "original_title": "Fall 2: Deadpoint",
-    "tagline": "Are you down?",
-    "release_year": 2026,
-    "release_date": "2026-09-01",
-    "rating": 5.6,
-    "vote_count": 5,
-    "popularity": 35.7,
-    "runtime_minutes": 98,
-    "runtime_formatted": "1h 38m",
-    "genres": [
-      "Thriller"
-    ],
-    "overview": "On a perilous climb across Thailand's Mount Kwan, two climbers become trapped thousands of feet above the ground, where vertigo-inducing heights, sheer exposure, and impossible odds turn every moment into a fight for survival.",
-    "cast": [
-      "Harriet Slater",
-      "Arsema Thomas",
-      "Tom Brittney",
-      "Einar Haraldsson",
-      "Juju Journey Brener"
-    ],
-    "trailer_url": "https://www.youtube.com/watch?v=FEedno5zWIc",
-    "trailer_youtube_id": "FEedno5zWIc",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/p73G56bJGPa5y52cyqWscHR6NnN.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/p73G56bJGPa5y52cyqWscHR6NnN.jpg",
-      "original": "https://image.tmdb.org/t/p/original/p73G56bJGPa5y52cyqWscHR6NnN.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/g4wdPZlhVioK69H8Q0o9Id5QhNs.jpg",
-      "original": "https://image.tmdb.org/t/p/original/g4wdPZlhVioK69H8Q0o9Id5QhNs.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1101412/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1101412/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1101412/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1101412/index-s1080p-v1-a1.m3u8",
-      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1101412/720/index_308.m3u8"
-    },
-    "health_status": "online",
-    "updated_at": "2026-09-02T00:02:24.248314+00:00"
-  },
-  {
-    "id": 1122030,
-    "imdb_id": "tt28363783",
-    "type": "movie",
-    "title": "Alpha",
-    "original_title": "ऐल्फा",
-    "tagline": "",
-    "release_year": 2026,
-    "release_date": "2026-07-02",
-    "rating": 5.1,
-    "vote_count": 16,
-    "popularity": 33.4,
-    "runtime_minutes": 141,
-    "runtime_formatted": "2h 21m",
-    "genres": [
-      "Action",
-      "Thriller"
-    ],
-    "overview": "When Sita, a highly trained assassin raised in isolation as a super-soldier by a rogue commander, discovers the dark truth about her family and her stolen childhood, she teams up with her long lost sister to take down her creator and his illicit military program.",
-    "cast": [
-      "Alia Bhatt",
-      "Sharvari",
-      "Bobby Deol",
-      "Anil Kapoor",
-      "Dibyendu Bhattacharya"
-    ],
-    "trailer_url": "https://www.youtube.com/watch?v=YP1uSAggr6Y",
-    "trailer_youtube_id": "YP1uSAggr6Y",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/bPtRt3ajQ0EkyeQ1O6iJwAIi9Py.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/bPtRt3ajQ0EkyeQ1O6iJwAIi9Py.jpg",
-      "original": "https://image.tmdb.org/t/p/original/bPtRt3ajQ0EkyeQ1O6iJwAIi9Py.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/b4WXm5ahmtubYXy3wqHUG2nUKoM.jpg",
-      "original": "https://image.tmdb.org/t/p/original/b4WXm5ahmtubYXy3wqHUG2nUKoM.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1122030/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1122030/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1122030/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1122030/index-s1080p-v1-a1.m3u8",
-      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1122030/720/index_308.m3u8"
-    },
-    "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.395864+00:00"
+    "updated_at": "2026-09-02T06:02:29.524280+00:00"
   },
   {
     "id": 1294189,
@@ -1083,7 +1038,7 @@
     "release_date": "2026-10-30",
     "rating": 0.0,
     "vote_count": 0,
-    "popularity": 32.7,
+    "popularity": 39.4,
     "runtime_minutes": 99,
     "runtime_formatted": "1h 39m",
     "genres": [
@@ -1118,57 +1073,102 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1294189/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:24.119802+00:00"
+    "updated_at": "2026-09-02T06:02:29.117453+00:00"
   },
   {
-    "id": 1242332,
-    "imdb_id": "tt31195136",
+    "id": 1101412,
+    "imdb_id": "tt31192372",
     "type": "movie",
-    "title": "Normal",
-    "original_title": "Normal",
-    "tagline": "Small town. Big secret.",
+    "title": "Fall 2: Deadpoint",
+    "original_title": "Fall 2: Deadpoint",
+    "tagline": "Are you down?",
     "release_year": 2026,
-    "release_date": "2026-04-16",
-    "rating": 7.3,
-    "vote_count": 541,
-    "popularity": 30.2,
-    "runtime_minutes": 91,
-    "runtime_formatted": "1h 31m",
+    "release_date": "2026-09-01",
+    "rating": 5.6,
+    "vote_count": 5,
+    "popularity": 36.9,
+    "runtime_minutes": 98,
+    "runtime_formatted": "1h 38m",
     "genres": [
-      "Action",
-      "Crime",
-      "Thriller",
-      "Western"
+      "Thriller"
     ],
-    "overview": "An unassuming substitute sheriff with a troubled past responds to a bank robbery in a small, sleepy town and unknowingly uncovers something far more explosive.",
+    "overview": "On a perilous climb across Thailand's Mount Kwan, two climbers become trapped thousands of feet above the ground, where vertigo-inducing heights, sheer exposure, and impossible odds turn every moment into a fight for survival.",
     "cast": [
-      "Bob Odenkirk",
-      "Henry Winkler",
-      "Lena Headey",
-      "Billy MacLellan",
-      "Ryan Allen"
+      "Harriet Slater",
+      "Arsema Thomas",
+      "Tom Brittney",
+      "Einar Haraldsson",
+      "Juju Journey Brener"
     ],
-    "trailer_url": "https://www.youtube.com/watch?v=7WsdqRuFCYc",
-    "trailer_youtube_id": "7WsdqRuFCYc",
+    "trailer_url": "https://www.youtube.com/watch?v=FEedno5zWIc",
+    "trailer_youtube_id": "FEedno5zWIc",
     "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/t13MdGCKRZvkmrFW2A7Vih3QjwD.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/t13MdGCKRZvkmrFW2A7Vih3QjwD.jpg",
-      "original": "https://image.tmdb.org/t/p/original/t13MdGCKRZvkmrFW2A7Vih3QjwD.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w185/p73G56bJGPa5y52cyqWscHR6NnN.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/p73G56bJGPa5y52cyqWscHR6NnN.jpg",
+      "original": "https://image.tmdb.org/t/p/original/p73G56bJGPa5y52cyqWscHR6NnN.jpg"
     },
     "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/1nHaO4rTv1E6xVJYIMGP9nmLxE9.jpg",
-      "original": "https://image.tmdb.org/t/p/original/1nHaO4rTv1E6xVJYIMGP9nmLxE9.jpg"
+      "medium": "https://image.tmdb.org/t/p/w780/g4wdPZlhVioK69H8Q0o9Id5QhNs.jpg",
+      "original": "https://image.tmdb.org/t/p/original/g4wdPZlhVioK69H8Q0o9Id5QhNs.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1242332/video_main.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1101412/video_main.m3u8",
     "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1242332/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1242332/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1242332/index-s1080p-v1-a1.m3u8",
-      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1242332/720/index_308.m3u8"
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1101412/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1101412/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1101412/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1101412/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:25.404509+00:00"
+    "updated_at": "2026-09-02T06:02:29.410931+00:00"
+  },
+  {
+    "id": 1122030,
+    "imdb_id": "tt28363783",
+    "type": "movie",
+    "title": "Alpha",
+    "original_title": "ऐल्फा",
+    "tagline": "",
+    "release_year": 2026,
+    "release_date": "2026-07-02",
+    "rating": 5.0,
+    "vote_count": 17,
+    "popularity": 34.0,
+    "runtime_minutes": 141,
+    "runtime_formatted": "2h 21m",
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "overview": "When Sita, a highly trained assassin raised in isolation as a super-soldier by a rogue commander, discovers the dark truth about her family and her stolen childhood, she teams up with her long lost sister to take down her creator and his illicit military program.",
+    "cast": [
+      "Alia Bhatt",
+      "Sharvari",
+      "Bobby Deol",
+      "Anil Kapoor",
+      "Dibyendu Bhattacharya"
+    ],
+    "trailer_url": "https://www.youtube.com/watch?v=YP1uSAggr6Y",
+    "trailer_youtube_id": "YP1uSAggr6Y",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/bPtRt3ajQ0EkyeQ1O6iJwAIi9Py.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/bPtRt3ajQ0EkyeQ1O6iJwAIi9Py.jpg",
+      "original": "https://image.tmdb.org/t/p/original/bPtRt3ajQ0EkyeQ1O6iJwAIi9Py.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/b4WXm5ahmtubYXy3wqHUG2nUKoM.jpg",
+      "original": "https://image.tmdb.org/t/p/original/b4WXm5ahmtubYXy3wqHUG2nUKoM.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1122030/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1122030/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1122030/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1122030/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1122030/720/index_308.m3u8"
+    },
+    "health_status": "online",
+    "updated_at": "2026-09-02T06:02:29.861768+00:00"
   },
   {
     "id": 1383731,
@@ -1208,7 +1208,7 @@
       "original": "https://image.tmdb.org/t/p/original/vpuPY4UziUCxv7gYYoaZQ3LX7to.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1383731/video_main.m3u8",
+    "direct_m3u8_url": "https://moon.peakstorm.top/vd/tmdb_1383731/index-s1080p-v1-a1.m3u8",
     "direct_m3u8_streams": {
       "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1383731/video_main.m3u8",
       "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1383731/audio_hindi.m3u8",
@@ -1216,7 +1216,58 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1383731/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.783253+00:00"
+    "updated_at": "2026-09-01T12:02:14.783253+00:00",
+    "last_health_check": "2026-09-02T00:02:29.274237+00:00"
+  },
+  {
+    "id": 1242332,
+    "imdb_id": "tt31195136",
+    "type": "movie",
+    "title": "Normal",
+    "original_title": "Normal",
+    "tagline": "Small town. Big secret.",
+    "release_year": 2026,
+    "release_date": "2026-04-16",
+    "rating": 7.3,
+    "vote_count": 542,
+    "popularity": 27.5,
+    "runtime_minutes": 91,
+    "runtime_formatted": "1h 31m",
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller",
+      "Western"
+    ],
+    "overview": "An unassuming substitute sheriff with a troubled past responds to a bank robbery in a small, sleepy town and unknowingly uncovers something far more explosive.",
+    "cast": [
+      "Bob Odenkirk",
+      "Henry Winkler",
+      "Lena Headey",
+      "Billy MacLellan",
+      "Ryan Allen"
+    ],
+    "trailer_url": "https://www.youtube.com/watch?v=7WsdqRuFCYc",
+    "trailer_youtube_id": "7WsdqRuFCYc",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/t13MdGCKRZvkmrFW2A7Vih3QjwD.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/t13MdGCKRZvkmrFW2A7Vih3QjwD.jpg",
+      "original": "https://image.tmdb.org/t/p/original/t13MdGCKRZvkmrFW2A7Vih3QjwD.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/1nHaO4rTv1E6xVJYIMGP9nmLxE9.jpg",
+      "original": "https://image.tmdb.org/t/p/original/1nHaO4rTv1E6xVJYIMGP9nmLxE9.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1242332/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1242332/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1242332/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1242332/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1242332/720/index_308.m3u8"
+    },
+    "health_status": "online",
+    "updated_at": "2026-09-02T06:02:29.861740+00:00"
   },
   {
     "id": 1263337,
@@ -1229,7 +1280,7 @@
     "release_date": "2026-09-19",
     "rating": 0.0,
     "vote_count": 0,
-    "popularity": 15.8,
+    "popularity": 20.1,
     "runtime_minutes": 101,
     "runtime_formatted": "1h 41m",
     "genres": [
@@ -1262,7 +1313,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1263337/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:24.691138+00:00"
+    "updated_at": "2026-09-02T06:02:29.524320+00:00"
   },
   {
     "id": 1284046,
@@ -1273,9 +1324,9 @@
     "tagline": "They unleashed their deadliest weapon on us.",
     "release_year": 2026,
     "release_date": "2026-09-02",
-    "rating": 0.0,
-    "vote_count": 0,
-    "popularity": 10.3,
+    "rating": 6.0,
+    "vote_count": 2,
+    "popularity": 15.3,
     "runtime_minutes": 92,
     "runtime_formatted": "1h 32m",
     "genres": [
@@ -1311,7 +1362,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1284046/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:24.248121+00:00"
+    "updated_at": "2026-09-02T06:02:29.861833+00:00"
   },
   {
     "id": 192139,
@@ -1324,7 +1375,7 @@
     "release_date": "2026-08-14",
     "rating": 8.0,
     "vote_count": 7,
-    "popularity": 9.7,
+    "popularity": 14.9,
     "runtime_minutes": 117,
     "runtime_formatted": "1h 57m",
     "genres": [
@@ -1361,7 +1412,55 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/192139/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:24.119840+00:00"
+    "updated_at": "2026-09-02T06:02:29.117441+00:00"
+  },
+  {
+    "id": 1742458,
+    "imdb_id": "tt38907741",
+    "type": "movie",
+    "title": "Confinement",
+    "original_title": "Confinement",
+    "tagline": "",
+    "release_year": 2026,
+    "release_date": "2026-09-01",
+    "rating": 8.0,
+    "vote_count": 2,
+    "popularity": 11.1,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Thriller",
+      "Horror"
+    ],
+    "overview": "Pregnant and recently widowed, Stella is taken in by her late husband’s estranged family. But beneath their generosity lies something deeply unsettling, leaving Stella fighting for her life as their obsession with her unborn child turns deadly.",
+    "cast": [
+      "Nathalie Emmanuel",
+      "Eloise Lovell Anderson",
+      "Charlie Hiscock",
+      "Ben Cura",
+      "Tina Gray"
+    ],
+    "trailer_url": "https://www.youtube.com/watch?v=pKD5M0JAH3w",
+    "trailer_youtube_id": "pKD5M0JAH3w",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/i92X6pBSqZgHAvIX28p0AZJU8xz.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/i92X6pBSqZgHAvIX28p0AZJU8xz.jpg",
+      "original": "https://image.tmdb.org/t/p/original/i92X6pBSqZgHAvIX28p0AZJU8xz.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/xQbHmeJdT95pSDMzP92CrvjceBh.jpg",
+      "original": "https://image.tmdb.org/t/p/original/xQbHmeJdT95pSDMzP92CrvjceBh.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1742458/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1742458/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1742458/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1742458/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1742458/720/index_308.m3u8"
+    },
+    "health_status": "online",
+    "updated_at": "2026-09-02T06:02:29.117480+00:00"
   },
   {
     "id": 1380417,
@@ -1374,7 +1473,7 @@
     "release_date": "2026-09-02",
     "rating": 10.0,
     "vote_count": 1,
-    "popularity": 9.0,
+    "popularity": 11.0,
     "runtime_minutes": 107,
     "runtime_formatted": "1h 47m",
     "genres": [
@@ -1410,7 +1509,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1380417/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:24.691187+00:00"
+    "updated_at": "2026-09-02T06:02:29.524200+00:00"
   },
   {
     "id": 1375441,
@@ -1423,7 +1522,7 @@
     "release_date": "2026-09-11",
     "rating": 0.0,
     "vote_count": 0,
-    "popularity": 7.5,
+    "popularity": 10.9,
     "runtime_minutes": 110,
     "runtime_formatted": "1h 50m",
     "genres": [
@@ -1459,103 +1558,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1375441/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:24.846164+00:00"
-  },
-  {
-    "id": 1386315,
-    "imdb_id": "tt34564059",
-    "type": "movie",
-    "title": "The Runner",
-    "original_title": "The Runner",
-    "tagline": "One hour. One chance to save her son.",
-    "release_year": 2026,
-    "release_date": "2026-09-03",
-    "rating": 0.0,
-    "vote_count": 0,
-    "popularity": 6.4,
-    "runtime_minutes": 84,
-    "runtime_formatted": "1h 24m",
-    "genres": [
-      "Action",
-      "Thriller"
-    ],
-    "overview": "A high-powered attorney must race through London, following the cryptic commands of a mysterious caller, as she fights against time to save her abducted son.",
-    "cast": [
-      "Gal Gadot",
-      "Damian Lewis",
-      "Kenton Lloyd Morgan",
-      "Aaron Gill",
-      "Pierre Bergman"
-    ],
-    "trailer_url": "https://www.youtube.com/watch?v=zz4rsZLcauY",
-    "trailer_youtube_id": "zz4rsZLcauY",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg",
-      "original": "https://image.tmdb.org/t/p/original/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/jzBWExXacS33rMQ2zLBrqIVweyG.jpg",
-      "original": "https://image.tmdb.org/t/p/original/jzBWExXacS33rMQ2zLBrqIVweyG.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1386315/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1386315/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1386315/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1386315/index-s1080p-v1-a1.m3u8",
-      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1386315/720/index_308.m3u8"
-    },
-    "health_status": "online",
-    "updated_at": "2026-09-02T00:02:25.019267+00:00"
-  },
-  {
-    "id": 1480574,
-    "imdb_id": "tt36948232",
-    "type": "movie",
-    "title": "Just Play Dead",
-    "original_title": "Just Play Dead",
-    "tagline": "Til death do they part.",
-    "release_year": 2026,
-    "release_date": "2026-08-28",
-    "rating": 7.4,
-    "vote_count": 10,
-    "popularity": 5.0,
-    "runtime_minutes": 96,
-    "runtime_formatted": "1h 36m",
-    "genres": [
-      "Thriller",
-      "Crime"
-    ],
-    "overview": "A criminal mastermind plans to fake his death for insurance money while framing his wife's lover. His wife plots to kill him for real and take it all. Both race to outmanoeuvre each other in a deadly battle of wits.",
-    "cast": [
-      "Samuel L. Jackson",
-      "Eva Green",
-      "María Pedraza",
-      "Eoin Macken",
-      "Jason Fernández"
-    ],
-    "trailer_url": "https://www.youtube.com/watch?v=LlAajeOoFBo",
-    "trailer_youtube_id": "LlAajeOoFBo",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/glALx6QaIgw1u4joXsnfHTjWi6D.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/glALx6QaIgw1u4joXsnfHTjWi6D.jpg",
-      "original": "https://image.tmdb.org/t/p/original/glALx6QaIgw1u4joXsnfHTjWi6D.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/lBWfbmUj9Jw0EM1OYtDXr0B5FPW.jpg",
-      "original": "https://image.tmdb.org/t/p/original/lBWfbmUj9Jw0EM1OYtDXr0B5FPW.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1480574/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1480574/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1480574/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1480574/index-s1080p-v1-a1.m3u8",
-      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1480574/720/index_308.m3u8"
-    },
-    "health_status": "online",
-    "updated_at": "2026-09-02T00:02:24.119679+00:00"
+    "updated_at": "2026-09-02T06:02:29.524303+00:00"
   },
   {
     "id": 1433583,
@@ -1568,7 +1571,7 @@
     "release_date": "2026-09-16",
     "rating": 0.0,
     "vote_count": 0,
-    "popularity": 4.3,
+    "popularity": 9.3,
     "runtime_minutes": 115,
     "runtime_formatted": "1h 55m",
     "genres": [
@@ -1604,55 +1607,55 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1433583/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:24.248211+00:00"
+    "updated_at": "2026-09-02T06:02:29.241157+00:00"
   },
   {
-    "id": 1742458,
-    "imdb_id": "tt38907741",
+    "id": 1386315,
+    "imdb_id": "tt34564059",
     "type": "movie",
-    "title": "Confinement",
-    "original_title": "Confinement",
-    "tagline": "",
+    "title": "The Runner",
+    "original_title": "The Runner",
+    "tagline": "One hour. One chance to save her son.",
     "release_year": 2026,
-    "release_date": "2026-09-01",
-    "rating": 10.0,
-    "vote_count": 1,
-    "popularity": 2.8,
-    "runtime_minutes": null,
-    "runtime_formatted": null,
+    "release_date": "2026-09-03",
+    "rating": 0.0,
+    "vote_count": 0,
+    "popularity": 8.3,
+    "runtime_minutes": 84,
+    "runtime_formatted": "1h 24m",
     "genres": [
-      "Thriller",
-      "Horror"
+      "Action",
+      "Thriller"
     ],
-    "overview": "Pregnant and recently widowed, Stella is taken in by her late husband’s estranged family. But beneath their generosity lies something deeply unsettling, leaving Stella fighting for her life as their obsession with her unborn child turns deadly.",
+    "overview": "A high-powered attorney must race through London, following the cryptic commands of a mysterious caller, as she fights against time to save her abducted son.",
     "cast": [
-      "Nathalie Emmanuel",
-      "Eloise Lovell Anderson",
-      "Charlie Hiscock",
-      "Ben Cura",
-      "Tina Gray"
+      "Gal Gadot",
+      "Damian Lewis",
+      "Kenton Lloyd Morgan",
+      "Aaron Gill",
+      "Pierre Bergman"
     ],
-    "trailer_url": "https://www.youtube.com/watch?v=pKD5M0JAH3w",
-    "trailer_youtube_id": "pKD5M0JAH3w",
+    "trailer_url": "https://www.youtube.com/watch?v=zz4rsZLcauY",
+    "trailer_youtube_id": "zz4rsZLcauY",
     "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/i92X6pBSqZgHAvIX28p0AZJU8xz.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/i92X6pBSqZgHAvIX28p0AZJU8xz.jpg",
-      "original": "https://image.tmdb.org/t/p/original/i92X6pBSqZgHAvIX28p0AZJU8xz.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w185/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg",
+      "original": "https://image.tmdb.org/t/p/original/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg"
     },
     "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/xQbHmeJdT95pSDMzP92CrvjceBh.jpg",
-      "original": "https://image.tmdb.org/t/p/original/xQbHmeJdT95pSDMzP92CrvjceBh.jpg"
+      "medium": "https://image.tmdb.org/t/p/w780/jzBWExXacS33rMQ2zLBrqIVweyG.jpg",
+      "original": "https://image.tmdb.org/t/p/original/jzBWExXacS33rMQ2zLBrqIVweyG.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1742458/video_main.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1386315/video_main.m3u8",
     "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1742458/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1742458/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1742458/index-s1080p-v1-a1.m3u8",
-      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1742458/720/index_308.m3u8"
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1386315/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1386315/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1386315/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1386315/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:24.248084+00:00"
+    "updated_at": "2026-09-02T06:02:29.241261+00:00"
   },
   {
     "id": 755898,
@@ -1664,8 +1667,8 @@
     "release_year": 2025,
     "release_date": "2025-07-29",
     "rating": 4.0,
-    "vote_count": 1114,
-    "popularity": 97.8,
+    "vote_count": 1115,
+    "popularity": 94.8,
     "runtime_minutes": null,
     "runtime_formatted": null,
     "genres": [
@@ -1694,7 +1697,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/755898/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:25.968697+00:00"
+    "updated_at": "2026-09-02T06:02:30.082187+00:00"
   },
   {
     "id": 496243,
@@ -1706,8 +1709,8 @@
     "release_year": 2019,
     "release_date": "2019-05-30",
     "rating": 8.5,
-    "vote_count": 21213,
-    "popularity": 35.5,
+    "vote_count": 21215,
+    "popularity": 36.8,
     "runtime_minutes": null,
     "runtime_formatted": null,
     "genres": [
@@ -1737,7 +1740,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/496243/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:26.205867+00:00"
+    "updated_at": "2026-09-02T06:02:30.302501+00:00"
   },
   {
     "id": 155,
@@ -1749,8 +1752,8 @@
     "release_year": 2008,
     "release_date": "2008-07-16",
     "rating": 8.5,
-    "vote_count": 36564,
-    "popularity": 59.3,
+    "vote_count": 36568,
+    "popularity": 65.1,
     "runtime_minutes": null,
     "runtime_formatted": null,
     "genres": [
@@ -1780,7 +1783,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/155/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:26.205796+00:00"
+    "updated_at": "2026-09-02T06:02:30.302466+00:00"
   },
   {
     "id": 550,
@@ -1792,8 +1795,8 @@
     "release_year": 1999,
     "release_date": "1999-10-15",
     "rating": 8.4,
-    "vote_count": 32759,
-    "popularity": 45.6,
+    "vote_count": 32760,
+    "popularity": 50.4,
     "runtime_minutes": null,
     "runtime_formatted": null,
     "genres": [
@@ -1822,7 +1825,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/550/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:26.326760+00:00"
+    "updated_at": "2026-09-02T06:02:30.416371+00:00"
   },
   {
     "id": 680,
@@ -1835,7 +1838,7 @@
     "release_date": "1994-09-10",
     "rating": 8.5,
     "vote_count": 30770,
-    "popularity": 38.6,
+    "popularity": 42.9,
     "runtime_minutes": null,
     "runtime_formatted": null,
     "genres": [
@@ -1865,6 +1868,6 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/680/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:26.326650+00:00"
+    "updated_at": "2026-09-02T06:02:30.416269+00:00"
   }
 ]

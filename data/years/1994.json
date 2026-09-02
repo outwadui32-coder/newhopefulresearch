@@ -9,8 +9,8 @@
     "release_year": 1994,
     "release_date": "1994-09-23",
     "rating": 8.7,
-    "vote_count": 31196,
-    "popularity": 101.1,
+    "vote_count": 31198,
+    "popularity": 106.0,
     "runtime_minutes": null,
     "runtime_formatted": null,
     "genres": [
@@ -39,7 +39,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/278/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:25.968679+00:00"
+    "updated_at": "2026-09-02T06:02:30.082179+00:00"
   },
   {
     "id": 13,
@@ -51,8 +51,8 @@
     "release_year": 1994,
     "release_date": "1994-06-23",
     "rating": 8.5,
-    "vote_count": 30346,
-    "popularity": 43.0,
+    "vote_count": 30349,
+    "popularity": 52.7,
     "runtime_minutes": null,
     "runtime_formatted": null,
     "genres": [
@@ -82,7 +82,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/13/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:26.326702+00:00"
+    "updated_at": "2026-09-02T06:02:30.416316+00:00"
   },
   {
     "id": 680,
@@ -95,7 +95,7 @@
     "release_date": "1994-09-10",
     "rating": 8.5,
     "vote_count": 30770,
-    "popularity": 38.6,
+    "popularity": 42.9,
     "runtime_minutes": null,
     "runtime_formatted": null,
     "genres": [
@@ -125,6 +125,6 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/680/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:26.326650+00:00"
+    "updated_at": "2026-09-02T06:02:30.416269+00:00"
   }
 ]

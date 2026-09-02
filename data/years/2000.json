@@ -10,7 +10,7 @@
     "release_date": "2000-09-15",
     "rating": 8.4,
     "vote_count": 1238,
-    "popularity": 6.3,
+    "popularity": 6.7,
     "runtime_minutes": null,
     "runtime_formatted": null,
     "genres": [
@@ -41,6 +41,6 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/40096/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:26.326823+00:00"
+    "updated_at": "2026-09-02T06:02:30.416579+00:00"
   }
 ]

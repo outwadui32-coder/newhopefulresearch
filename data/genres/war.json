@@ -10,7 +10,7 @@
     "release_date": "2026-06-26",
     "rating": 7.0,
     "vote_count": 37,
-    "popularity": 86.5,
+    "popularity": 86.2,
     "runtime_minutes": null,
     "runtime_formatted": null,
     "genres": [
@@ -39,7 +39,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1594914/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:25.968727+00:00"
+    "updated_at": "2026-09-02T06:02:30.082209+00:00"
   },
   {
     "id": 1391021,
@@ -50,9 +50,9 @@
     "tagline": "",
     "release_year": 2026,
     "release_date": "2026-08-08",
-    "rating": 9.1,
-    "vote_count": 22,
-    "popularity": 16.6,
+    "rating": 9.2,
+    "vote_count": 23,
+    "popularity": 23.3,
     "runtime_minutes": 140,
     "runtime_formatted": "2h 20m",
     "genres": [
@@ -87,57 +87,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1391021/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:24.248285+00:00"
-  },
-  {
-    "id": 910850,
-    "imdb_id": "tt32915652",
-    "type": "movie",
-    "title": "MOBILE SUIT GUNDAM HATHAWAY The Sorcery of Nymph Circe",
-    "original_title": "機動戦士ガンダム  閃光のハサウェイ キルケーの魔女",
-    "tagline": "",
-    "release_year": 2026,
-    "release_date": "2026-01-30",
-    "rating": 6.8,
-    "vote_count": 16,
-    "popularity": 13.5,
-    "runtime_minutes": 115,
-    "runtime_formatted": "1h 55m",
-    "genres": [
-      "Animation",
-      "Sci-Fi",
-      "War",
-      "Drama"
-    ],
-    "overview": "Haunted by past trauma, Hathaway Noa is drawn to a mysterious girl named Gigi Andalucia, whose strange powers stir memories within him. While swayed by her cryptic words, he continues preparing for Mafty's mission -- the attack on the Adelaide Conference. Meanwhile, Kenneth Sleg of the Earth Federation Forces prepares a defense operation for the Adelaide Conference and a plan to eliminate Mafty and is approached by Handley Yoxon of the Criminal Police Organization with a secret proposal. As Hathaway and Kenneth pursue their respective goals, Gigi also sets off for Hong Kong to fulfill her own role.",
-    "cast": [
-      "Kensho Ono",
-      "Reina Ueda",
-      "Junichi Suwabe",
-      "Soma Saito",
-      "Kenjiro Tsuda"
-    ],
-    "trailer_url": "https://www.youtube.com/watch?v=pD7eBqTy__E",
-    "trailer_youtube_id": "pD7eBqTy__E",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/6YkVpc9Dn1L2FHNlLOybpSKeGc7.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/6YkVpc9Dn1L2FHNlLOybpSKeGc7.jpg",
-      "original": "https://image.tmdb.org/t/p/original/6YkVpc9Dn1L2FHNlLOybpSKeGc7.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/4ZTD67RhUOcI8WVP1Kmd1LFFc7d.jpg",
-      "original": "https://image.tmdb.org/t/p/original/4ZTD67RhUOcI8WVP1Kmd1LFFc7d.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/movies/910850/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/910850/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/910850/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_910850/index-s1080p-v1-a1.m3u8",
-      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/910850/720/index_308.m3u8"
-    },
-    "health_status": "online",
-    "updated_at": "2026-09-02T00:02:24.248266+00:00"
+    "updated_at": "2026-09-02T06:02:29.241276+00:00"
   },
   {
     "id": 192139,
@@ -150,7 +100,7 @@
     "release_date": "2026-08-14",
     "rating": 8.0,
     "vote_count": 7,
-    "popularity": 9.7,
+    "popularity": 14.9,
     "runtime_minutes": 117,
     "runtime_formatted": "1h 57m",
     "genres": [
@@ -187,7 +137,57 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/192139/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:24.119840+00:00"
+    "updated_at": "2026-09-02T06:02:29.117441+00:00"
+  },
+  {
+    "id": 910850,
+    "imdb_id": "tt32915652",
+    "type": "movie",
+    "title": "MOBILE SUIT GUNDAM HATHAWAY The Sorcery of Nymph Circe",
+    "original_title": "機動戦士ガンダム  閃光のハサウェイ キルケーの魔女",
+    "tagline": "",
+    "release_year": 2026,
+    "release_date": "2026-01-30",
+    "rating": 6.8,
+    "vote_count": 16,
+    "popularity": 14.5,
+    "runtime_minutes": 115,
+    "runtime_formatted": "1h 55m",
+    "genres": [
+      "Animation",
+      "Sci-Fi",
+      "War",
+      "Drama"
+    ],
+    "overview": "Haunted by past trauma, Hathaway Noa is drawn to a mysterious girl named Gigi Andalucia, whose strange powers stir memories within him. While swayed by her cryptic words, he continues preparing for Mafty's mission -- the attack on the Adelaide Conference. Meanwhile, Kenneth Sleg of the Earth Federation Forces prepares a defense operation for the Adelaide Conference and a plan to eliminate Mafty and is approached by Handley Yoxon of the Criminal Police Organization with a secret proposal. As Hathaway and Kenneth pursue their respective goals, Gigi also sets off for Hong Kong to fulfill her own role.",
+    "cast": [
+      "Kensho Ono",
+      "Reina Ueda",
+      "Junichi Suwabe",
+      "Soma Saito",
+      "Kenjiro Tsuda"
+    ],
+    "trailer_url": "https://www.youtube.com/watch?v=pD7eBqTy__E",
+    "trailer_youtube_id": "pD7eBqTy__E",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/6YkVpc9Dn1L2FHNlLOybpSKeGc7.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/6YkVpc9Dn1L2FHNlLOybpSKeGc7.jpg",
+      "original": "https://image.tmdb.org/t/p/original/6YkVpc9Dn1L2FHNlLOybpSKeGc7.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/4ZTD67RhUOcI8WVP1Kmd1LFFc7d.jpg",
+      "original": "https://image.tmdb.org/t/p/original/4ZTD67RhUOcI8WVP1Kmd1LFFc7d.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/910850/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/910850/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/910850/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_910850/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/910850/720/index_308.m3u8"
+    },
+    "health_status": "online",
+    "updated_at": "2026-09-02T06:02:29.241292+00:00"
   },
   {
     "id": 1422041,
@@ -200,14 +200,14 @@
     "release_date": "2026-09-25",
     "rating": 0.0,
     "vote_count": 0,
-    "popularity": 5.3,
+    "popularity": 6.7,
     "runtime_minutes": 155,
     "runtime_formatted": "2h 35m",
     "genres": [
       "Drama",
       "War"
     ],
-    "overview": "Set across three timelines — Republican Spain in 1932, the Civil War in 1937, and contemporary Spain in 2017 — the film follows a constellation of interconnected lives centered on three young men, whose emotional and political echoes gradually reveal themselves.",
+    "overview": "The intertwined lives of three men in three different eras, three lives intimately linked by sexuality and desire, pain, and legacy.",
     "cast": [
       "Guitarricadelafuente",
       "Miguel Bernardeau",
@@ -218,9 +218,9 @@
     "trailer_url": "https://www.youtube.com/watch?v=IRHtqjHYPew",
     "trailer_youtube_id": "IRHtqjHYPew",
     "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/jT5SR5qc9KvVg7HUEmjMWEUYMce.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/jT5SR5qc9KvVg7HUEmjMWEUYMce.jpg",
-      "original": "https://image.tmdb.org/t/p/original/jT5SR5qc9KvVg7HUEmjMWEUYMce.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w185/8M46fNFLURpRcbc2Vp0AGjrt5fG.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/8M46fNFLURpRcbc2Vp0AGjrt5fG.jpg",
+      "original": "https://image.tmdb.org/t/p/original/8M46fNFLURpRcbc2Vp0AGjrt5fG.jpg"
     },
     "backdrop": {
       "medium": "https://image.tmdb.org/t/p/w780/wM4LLukeBIfhjn7LcVP6VIced4p.jpg",
@@ -235,7 +235,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1422041/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:24.691398+00:00"
+    "updated_at": "2026-09-02T06:02:29.524273+00:00"
   },
   {
     "id": 424,
@@ -247,8 +247,8 @@
     "release_year": 1993,
     "release_date": "1993-12-15",
     "rating": 8.6,
-    "vote_count": 17833,
-    "popularity": 32.8,
+    "vote_count": 17835,
+    "popularity": 34.4,
     "runtime_minutes": null,
     "runtime_formatted": null,
     "genres": [
@@ -278,7 +278,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/424/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:26.205753+00:00"
+    "updated_at": "2026-09-02T06:02:30.302437+00:00"
   },
   {
     "id": 12477,
@@ -321,6 +321,6 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/12477/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-02T00:02:26.326734+00:00"
+    "updated_at": "2026-09-02T06:02:30.416344+00:00"
   }
 ]

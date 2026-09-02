@@ -7,7 +7,7 @@
     "release_year": 2026,
     "first_air_date": "2026-08-16",
     "rating": 8.3,
-    "vote_count": 235,
+    "vote_count": 236,
     "genres": [
       "Drama",
       "Mystery",
@@ -30,7 +30,7 @@
       "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/95350/1/1/audio_hindi.m3u8",
       "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_95350_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.449977+00:00"
+    "updated_at": "2026-09-02T06:02:30.527758+00:00"
   },
   {
     "id": 125988,
@@ -40,7 +40,7 @@
     "release_year": 2023,
     "first_air_date": "2023-05-04",
     "rating": 8.2,
-    "vote_count": 2539,
+    "vote_count": 2540,
     "genres": [
       "Sci-Fi & Fantasy",
       "Drama"
@@ -62,71 +62,39 @@
       "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/125988/1/1/audio_hindi.m3u8",
       "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_125988_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.450009+00:00"
+    "updated_at": "2026-09-02T06:02:30.527771+00:00"
   },
   {
-    "id": 108978,
+    "id": 97546,
     "type": "tv",
-    "title": "Reacher",
-    "original_title": "Reacher",
-    "release_year": 2022,
-    "first_air_date": "2022-02-03",
-    "rating": 8.1,
-    "vote_count": 3190,
-    "genres": [
-      "Action & Adventure",
-      "Crime"
-    ],
-    "overview": "Jack Reacher, a veteran military police investigator, has just recently entered civilian life. Reacher is a drifter, carrying no phone and the barest of essentials as he travels the country and explores the nation he once served.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
-      "original": "https://image.tmdb.org/t/p/original/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/pF0qkRsrHkdYadPWY9AMeFZfcwk.jpg",
-      "original": "https://image.tmdb.org/t/p/original/pF0qkRsrHkdYadPWY9AMeFZfcwk.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/108978/1/1/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/108978/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/108978/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_108978_s1_e1/index-s1080p-v1-a1.m3u8"
-    },
-    "updated_at": "2026-09-02T00:02:26.450021+00:00"
-  },
-  {
-    "id": 287238,
-    "type": "tv",
-    "title": "Furious",
-    "original_title": "Furious",
-    "release_year": 2026,
-    "first_air_date": "2026-07-27",
-    "rating": 7.1,
-    "vote_count": 80,
+    "title": "Ted Lasso",
+    "original_title": "Ted Lasso",
+    "release_year": 2020,
+    "first_air_date": "2020-08-14",
+    "rating": 8.4,
+    "vote_count": 2609,
     "genres": [
       "Drama",
-      "Crime"
+      "Comedy"
     ],
-    "overview": "FBI agent Alice Black is on the hunt for a mysterious and calculating female serial killer. Both walk their own paths toward justice, and as their lives start to intertwine, the line between right and wrong begins to blur.",
+    "overview": "Ted Lasso, an American football coach, moves to England when he's hired to manage a soccer team—despite having no experience. With cynical players and a doubtful town, will he get them to see the Ted Lasso Way?",
     "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/xnxxrEKtBaIcI1ewq50pLkOMU6u.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/xnxxrEKtBaIcI1ewq50pLkOMU6u.jpg",
-      "original": "https://image.tmdb.org/t/p/original/xnxxrEKtBaIcI1ewq50pLkOMU6u.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w185/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
+      "original": "https://image.tmdb.org/t/p/original/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg"
     },
     "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/iAOPgUlh7inOebFrUFHAjnFRCGS.jpg",
-      "original": "https://image.tmdb.org/t/p/original/iAOPgUlh7inOebFrUFHAjnFRCGS.jpg"
+      "medium": "https://image.tmdb.org/t/p/w780/nE94ejEbzNCU48bW1oju0dqBONz.jpg",
+      "original": "https://image.tmdb.org/t/p/original/nE94ejEbzNCU48bW1oju0dqBONz.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/287238/1/1/video_main.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/97546/1/1/video_main.m3u8",
     "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/287238/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/287238/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_287238_s1_e1/index-s1080p-v1-a1.m3u8"
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/97546/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/97546/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_97546_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.450031+00:00"
+    "updated_at": "2026-09-02T06:02:30.527779+00:00"
   },
   {
     "id": 30984,
@@ -136,7 +104,7 @@
     "release_year": 2004,
     "first_air_date": "2004-10-05",
     "rating": 8.4,
-    "vote_count": 2254,
+    "vote_count": 2255,
     "genres": [
       "Action & Adventure",
       "Animation",
@@ -159,7 +127,39 @@
       "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/30984/1/1/audio_hindi.m3u8",
       "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_30984_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.450043+00:00"
+    "updated_at": "2026-09-02T06:02:30.527789+00:00"
+  },
+  {
+    "id": 108978,
+    "type": "tv",
+    "title": "Reacher",
+    "original_title": "Reacher",
+    "release_year": 2022,
+    "first_air_date": "2022-02-03",
+    "rating": 8.1,
+    "vote_count": 3193,
+    "genres": [
+      "Action & Adventure",
+      "Crime"
+    ],
+    "overview": "Jack Reacher, a veteran military police investigator, has just recently entered civilian life. Reacher is a drifter, carrying no phone and the barest of essentials as he travels the country and explores the nation he once served.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
+      "original": "https://image.tmdb.org/t/p/original/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/pF0qkRsrHkdYadPWY9AMeFZfcwk.jpg",
+      "original": "https://image.tmdb.org/t/p/original/pF0qkRsrHkdYadPWY9AMeFZfcwk.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/108978/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/108978/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/108978/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_108978_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-02T06:02:30.527795+00:00"
   },
   {
     "id": 196322,
@@ -169,7 +169,7 @@
     "release_year": 2024,
     "first_air_date": "2024-05-07",
     "rating": 7.8,
-    "vote_count": 746,
+    "vote_count": 747,
     "genres": [
       "Sci-Fi & Fantasy",
       "Drama"
@@ -191,7 +191,103 @@
       "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/196322/1/1/audio_hindi.m3u8",
       "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_196322_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.450054+00:00"
+    "updated_at": "2026-09-02T06:02:30.527801+00:00"
+  },
+  {
+    "id": 290193,
+    "type": "tv",
+    "title": "Mousetrap",
+    "original_title": "들쥐",
+    "release_year": 2026,
+    "first_air_date": "2026-08-28",
+    "rating": 7.5,
+    "vote_count": 22,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "overview": "A reclusive writer wakes to find his identity stolen — and must ally with a ruthless loan shark to reclaim his life from a man known as \"The Rat.\"",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/2mwgHfOyrFrmvozjFoEXHRdfGhv.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/2mwgHfOyrFrmvozjFoEXHRdfGhv.jpg",
+      "original": "https://image.tmdb.org/t/p/original/2mwgHfOyrFrmvozjFoEXHRdfGhv.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/3bHz9dYSZ5XDxY0zDaBpYgUOhE2.jpg",
+      "original": "https://image.tmdb.org/t/p/original/3bHz9dYSZ5XDxY0zDaBpYgUOhE2.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/290193/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/290193/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/290193/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_290193_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-02T06:02:30.527806+00:00"
+  },
+  {
+    "id": 287238,
+    "type": "tv",
+    "title": "Furious",
+    "original_title": "Furious",
+    "release_year": 2026,
+    "first_air_date": "2026-07-27",
+    "rating": 7.1,
+    "vote_count": 81,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "overview": "FBI agent Alice Black is on the hunt for a mysterious and calculating female serial killer. Both walk their own paths toward justice, and as their lives start to intertwine, the line between right and wrong begins to blur.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/xnxxrEKtBaIcI1ewq50pLkOMU6u.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/xnxxrEKtBaIcI1ewq50pLkOMU6u.jpg",
+      "original": "https://image.tmdb.org/t/p/original/xnxxrEKtBaIcI1ewq50pLkOMU6u.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/iAOPgUlh7inOebFrUFHAjnFRCGS.jpg",
+      "original": "https://image.tmdb.org/t/p/original/iAOPgUlh7inOebFrUFHAjnFRCGS.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/287238/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/287238/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/287238/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_287238_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-02T06:02:30.527816+00:00"
+  },
+  {
+    "id": 299952,
+    "type": "tv",
+    "title": "The Early Spring",
+    "original_title": "早春晴朗",
+    "release_year": 2026,
+    "first_air_date": "2026-08-26",
+    "rating": 6.7,
+    "vote_count": 5,
+    "genres": [
+      "Drama"
+    ],
+    "overview": "New to Beijing, Shang Zhitao crosses paths with Luan Nian, a true creative genius. Bold and open-hearted, she grows stronger step by step and gradually breaks through the defenses around Luan's guarded heart. Drawn to each other, they find themselves caught in an intense, on-again, off-again relationship in the urban jungle. To love is to summon all your courage and leave no regrets, to heal each other, and to grow together. But when love and her career pull her in different directions, she puts her career first. When she has come into her own and he has learned to soften his sharp edges, they finally stand as equals, ready to write a new ending together...",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/yiAzR6wGqjyAotZ4DvFvFeo8QS0.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/yiAzR6wGqjyAotZ4DvFvFeo8QS0.jpg",
+      "original": "https://image.tmdb.org/t/p/original/yiAzR6wGqjyAotZ4DvFvFeo8QS0.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/oUFUvEMCBP80e4eYsfVfxC8n7ih.jpg",
+      "original": "https://image.tmdb.org/t/p/original/oUFUvEMCBP80e4eYsfVfxC8n7ih.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/299952/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/299952/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/299952/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_299952_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-02T06:02:30.527825+00:00"
   },
   {
     "id": 37854,
@@ -224,72 +320,7 @@
       "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/37854/1/1/audio_hindi.m3u8",
       "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_37854_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.450066+00:00"
-  },
-  {
-    "id": 97546,
-    "type": "tv",
-    "title": "Ted Lasso",
-    "original_title": "Ted Lasso",
-    "release_year": 2020,
-    "first_air_date": "2020-08-14",
-    "rating": 8.4,
-    "vote_count": 2608,
-    "genres": [
-      "Drama",
-      "Comedy"
-    ],
-    "overview": "Ted Lasso, an American football coach, moves to England when he's hired to manage a soccer team—despite having no experience. With cynical players and a doubtful town, will he get them to see the Ted Lasso Way?",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
-      "original": "https://image.tmdb.org/t/p/original/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/nE94ejEbzNCU48bW1oju0dqBONz.jpg",
-      "original": "https://image.tmdb.org/t/p/original/nE94ejEbzNCU48bW1oju0dqBONz.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/97546/1/1/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/97546/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/97546/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_97546_s1_e1/index-s1080p-v1-a1.m3u8"
-    },
-    "updated_at": "2026-09-02T00:02:26.450080+00:00"
-  },
-  {
-    "id": 290193,
-    "type": "tv",
-    "title": "Mousetrap",
-    "original_title": "들쥐",
-    "release_year": 2026,
-    "first_air_date": "2026-08-28",
-    "rating": 7.8,
-    "vote_count": 21,
-    "genres": [
-      "Crime",
-      "Drama",
-      "Mystery"
-    ],
-    "overview": "A reclusive writer wakes to find his identity stolen — and must ally with a ruthless loan shark to reclaim his life from a man known as \"The Rat.\"",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/2mwgHfOyrFrmvozjFoEXHRdfGhv.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/2mwgHfOyrFrmvozjFoEXHRdfGhv.jpg",
-      "original": "https://image.tmdb.org/t/p/original/2mwgHfOyrFrmvozjFoEXHRdfGhv.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/3bHz9dYSZ5XDxY0zDaBpYgUOhE2.jpg",
-      "original": "https://image.tmdb.org/t/p/original/3bHz9dYSZ5XDxY0zDaBpYgUOhE2.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/290193/1/1/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/290193/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/290193/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_290193_s1_e1/index-s1080p-v1-a1.m3u8"
-    },
-    "updated_at": "2026-09-02T00:02:26.450101+00:00"
+    "updated_at": "2026-09-02T06:02:30.527832+00:00"
   },
   {
     "id": 113962,
@@ -299,7 +330,7 @@
     "release_year": 2023,
     "first_air_date": "2023-07-23",
     "rating": 8.1,
-    "vote_count": 1447,
+    "vote_count": 1452,
     "genres": [
       "Drama",
       "War & Politics"
@@ -321,7 +352,38 @@
       "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/113962/1/1/audio_hindi.m3u8",
       "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_113962_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.450116+00:00"
+    "updated_at": "2026-09-02T06:02:30.527839+00:00"
+  },
+  {
+    "id": 260458,
+    "type": "tv",
+    "title": "Adults",
+    "original_title": "Adults",
+    "release_year": 2025,
+    "first_air_date": "2025-05-28",
+    "rating": 6.0,
+    "vote_count": 79,
+    "genres": [
+      "Comedy"
+    ],
+    "overview": "A group of twenty-somethings in New York trying to be good people, despite being neither \"good\" nor \"people\" yet.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/oJUoRlVXGl3MJb62Ugi1G08GPbx.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/oJUoRlVXGl3MJb62Ugi1G08GPbx.jpg",
+      "original": "https://image.tmdb.org/t/p/original/oJUoRlVXGl3MJb62Ugi1G08GPbx.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/6skot5l7gcJd6hO6qlKDGGY6LBJ.jpg",
+      "original": "https://image.tmdb.org/t/p/original/6skot5l7gcJd6hO6qlKDGGY6LBJ.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/260458/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/260458/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/260458/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_260458_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-02T06:02:30.527845+00:00"
   },
   {
     "id": 615,
@@ -354,231 +416,7 @@
       "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/615/1/1/audio_hindi.m3u8",
       "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_615_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.450126+00:00"
-  },
-  {
-    "id": 260458,
-    "type": "tv",
-    "title": "Adults",
-    "original_title": "Adults",
-    "release_year": 2025,
-    "first_air_date": "2025-05-28",
-    "rating": 6.0,
-    "vote_count": 79,
-    "genres": [
-      "Comedy"
-    ],
-    "overview": "A group of twenty-somethings in New York trying to be good people, despite being neither \"good\" nor \"people\" yet.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/oJUoRlVXGl3MJb62Ugi1G08GPbx.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/oJUoRlVXGl3MJb62Ugi1G08GPbx.jpg",
-      "original": "https://image.tmdb.org/t/p/original/oJUoRlVXGl3MJb62Ugi1G08GPbx.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/6skot5l7gcJd6hO6qlKDGGY6LBJ.jpg",
-      "original": "https://image.tmdb.org/t/p/original/6skot5l7gcJd6hO6qlKDGGY6LBJ.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/260458/1/1/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/260458/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/260458/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_260458_s1_e1/index-s1080p-v1-a1.m3u8"
-    },
-    "updated_at": "2026-09-02T00:02:26.450135+00:00"
-  },
-  {
-    "id": 94997,
-    "type": "tv",
-    "title": "House of the Dragon",
-    "original_title": "House of the Dragon",
-    "release_year": 2022,
-    "first_air_date": "2022-08-21",
-    "rating": 8.4,
-    "vote_count": 7068,
-    "genres": [
-      "Sci-Fi & Fantasy",
-      "Drama",
-      "Action & Adventure"
-    ],
-    "overview": "The Targaryen dynasty is at the absolute apex of its power, with more than 15 dragons under their yoke. Most empires crumble from such heights. In the case of the Targaryens, their slow fall begins when King Viserys breaks with a century of tradition by naming his daughter Rhaenyra heir to the Iron Throne. But when Viserys later fathers a son, the court is shocked when Rhaenyra retains her status as his heir, and seeds of division sow friction across the realm.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/7V0Ebks0GgpKvQ7QbLAIdX5dos4.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/7V0Ebks0GgpKvQ7QbLAIdX5dos4.jpg",
-      "original": "https://image.tmdb.org/t/p/original/7V0Ebks0GgpKvQ7QbLAIdX5dos4.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/577eXC8wFQT0eUrJcgznSiFPRmk.jpg",
-      "original": "https://image.tmdb.org/t/p/original/577eXC8wFQT0eUrJcgznSiFPRmk.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/94997/1/1/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/94997/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/94997/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_94997_s1_e1/index-s1080p-v1-a1.m3u8"
-    },
-    "updated_at": "2026-09-02T00:02:26.450145+00:00"
-  },
-  {
-    "id": 456,
-    "type": "tv",
-    "title": "The Simpsons",
-    "original_title": "The Simpsons",
-    "release_year": 1989,
-    "first_air_date": "1989-12-17",
-    "rating": 8.0,
-    "vote_count": 10970,
-    "genres": [
-      "Animation",
-      "Comedy"
-    ],
-    "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/uWpG7GqfKGQqX4YMAo3nv5OrglV.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/uWpG7GqfKGQqX4YMAo3nv5OrglV.jpg",
-      "original": "https://image.tmdb.org/t/p/original/uWpG7GqfKGQqX4YMAo3nv5OrglV.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg",
-      "original": "https://image.tmdb.org/t/p/original/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/456/1/1/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/456/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/456/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_456_s1_e1/index-s1080p-v1-a1.m3u8"
-    },
-    "updated_at": "2026-09-02T00:02:26.450153+00:00"
-  },
-  {
-    "id": 278624,
-    "type": "tv",
-    "title": "Lucky",
-    "original_title": "Lucky",
-    "release_year": 2026,
-    "first_air_date": "2026-07-14",
-    "rating": 7.3,
-    "vote_count": 231,
-    "genres": [
-      "Drama",
-      "Crime"
-    ],
-    "overview": "When a multi-million-dollar heist goes sideways, con artist Lucky is forced to go on the run. Pursued by both the FBI and a ruthless crime boss, Lucky must fight for her life—and a way out.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/xsrkiXg8EuNNtbPtbmvCxg95gK7.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/xsrkiXg8EuNNtbPtbmvCxg95gK7.jpg",
-      "original": "https://image.tmdb.org/t/p/original/xsrkiXg8EuNNtbPtbmvCxg95gK7.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/hKXMOOvQwXiL01hfYG5nrkH0tEP.jpg",
-      "original": "https://image.tmdb.org/t/p/original/hKXMOOvQwXiL01hfYG5nrkH0tEP.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/278624/1/1/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/278624/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/278624/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_278624_s1_e1/index-s1080p-v1-a1.m3u8"
-    },
-    "updated_at": "2026-09-02T00:02:26.450165+00:00"
-  },
-  {
-    "id": 60625,
-    "type": "tv",
-    "title": "Rick and Morty",
-    "original_title": "Rick and Morty",
-    "release_year": 2013,
-    "first_air_date": "2013-12-02",
-    "rating": 8.7,
-    "vote_count": 11340,
-    "genres": [
-      "Animation",
-      "Comedy",
-      "Sci-Fi & Fantasy",
-      "Action & Adventure"
-    ],
-    "overview": "Follows a sociopathic genius scientist who drags his inherently timid grandson on adventures across the universe.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/owhkU6KRqdXoUQpjV8uyZGPtX58.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/owhkU6KRqdXoUQpjV8uyZGPtX58.jpg",
-      "original": "https://image.tmdb.org/t/p/original/owhkU6KRqdXoUQpjV8uyZGPtX58.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/iFOkrSrJRwE27PwbyQeYLlMJXzw.jpg",
-      "original": "https://image.tmdb.org/t/p/original/iFOkrSrJRwE27PwbyQeYLlMJXzw.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/60625/1/1/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/60625/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/60625/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_60625_s1_e1/index-s1080p-v1-a1.m3u8"
-    },
-    "updated_at": "2026-09-02T00:02:26.450175+00:00"
-  },
-  {
-    "id": 299952,
-    "type": "tv",
-    "title": "The Early Spring",
-    "original_title": "早春晴朗",
-    "release_year": 2026,
-    "first_air_date": "2026-08-26",
-    "rating": 6.7,
-    "vote_count": 5,
-    "genres": [
-      "Drama"
-    ],
-    "overview": "New to Beijing, Shang Zhitao crosses paths with Luan Nian, a true creative genius. Bold and open-hearted, she grows stronger step by step and gradually breaks through the defenses around Luan's guarded heart. Drawn to each other, they find themselves caught in an intense, on-again, off-again relationship in the urban jungle. To love is to summon all your courage and leave no regrets, to heal each other, and to grow together. But when love and her career pull her in different directions, she puts her career first. When she has come into her own and he has learned to soften his sharp edges, they finally stand as equals, ready to write a new ending together...",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/yiAzR6wGqjyAotZ4DvFvFeo8QS0.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/yiAzR6wGqjyAotZ4DvFvFeo8QS0.jpg",
-      "original": "https://image.tmdb.org/t/p/original/yiAzR6wGqjyAotZ4DvFvFeo8QS0.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/oUFUvEMCBP80e4eYsfVfxC8n7ih.jpg",
-      "original": "https://image.tmdb.org/t/p/original/oUFUvEMCBP80e4eYsfVfxC8n7ih.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/299952/1/1/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/299952/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/299952/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_299952_s1_e1/index-s1080p-v1-a1.m3u8"
-    },
-    "updated_at": "2026-09-02T00:02:26.450185+00:00"
-  },
-  {
-    "id": 246246,
-    "type": "tv",
-    "title": "Beauty in Black",
-    "original_title": "Beauty in Black",
-    "release_year": 2024,
-    "first_air_date": "2024-10-24",
-    "rating": 8.3,
-    "vote_count": 281,
-    "genres": [
-      "Drama"
-    ],
-    "overview": "A stripper's fate takes a turn when she crosses paths with the wealthy, dysfunctional family behind a cosmetics dynasty and a devious trafficking scheme.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/xKk4bFCCpZ9tvjUykvvMYLSBnjo.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/xKk4bFCCpZ9tvjUykvvMYLSBnjo.jpg",
-      "original": "https://image.tmdb.org/t/p/original/xKk4bFCCpZ9tvjUykvvMYLSBnjo.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/ywJcUIMTCjstPLvvyIiPWP3G3m3.jpg",
-      "original": "https://image.tmdb.org/t/p/original/ywJcUIMTCjstPLvvyIiPWP3G3m3.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/246246/1/1/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/246246/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/246246/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_246246_s1_e1/index-s1080p-v1-a1.m3u8"
-    },
-    "updated_at": "2026-09-02T00:02:26.450194+00:00"
+    "updated_at": "2026-09-02T06:02:30.527850+00:00"
   },
   {
     "id": 65942,
@@ -612,7 +450,72 @@
       "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/65942/1/1/audio_hindi.m3u8",
       "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_65942_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.450203+00:00"
+    "updated_at": "2026-09-02T06:02:30.527857+00:00"
+  },
+  {
+    "id": 94997,
+    "type": "tv",
+    "title": "House of the Dragon",
+    "original_title": "House of the Dragon",
+    "release_year": 2022,
+    "first_air_date": "2022-08-21",
+    "rating": 8.4,
+    "vote_count": 7068,
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Action & Adventure"
+    ],
+    "overview": "The Targaryen dynasty is at the absolute apex of its power, with more than 15 dragons under their yoke. Most empires crumble from such heights. In the case of the Targaryens, their slow fall begins when King Viserys breaks with a century of tradition by naming his daughter Rhaenyra heir to the Iron Throne. But when Viserys later fathers a son, the court is shocked when Rhaenyra retains her status as his heir, and seeds of division sow friction across the realm.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/7V0Ebks0GgpKvQ7QbLAIdX5dos4.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/7V0Ebks0GgpKvQ7QbLAIdX5dos4.jpg",
+      "original": "https://image.tmdb.org/t/p/original/7V0Ebks0GgpKvQ7QbLAIdX5dos4.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/577eXC8wFQT0eUrJcgznSiFPRmk.jpg",
+      "original": "https://image.tmdb.org/t/p/original/577eXC8wFQT0eUrJcgznSiFPRmk.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/94997/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/94997/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/94997/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_94997_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-02T06:02:30.527862+00:00"
+  },
+  {
+    "id": 456,
+    "type": "tv",
+    "title": "The Simpsons",
+    "original_title": "The Simpsons",
+    "release_year": 1989,
+    "first_air_date": "1989-12-17",
+    "rating": 8.0,
+    "vote_count": 10970,
+    "genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/uWpG7GqfKGQqX4YMAo3nv5OrglV.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/uWpG7GqfKGQqX4YMAo3nv5OrglV.jpg",
+      "original": "https://image.tmdb.org/t/p/original/uWpG7GqfKGQqX4YMAo3nv5OrglV.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg",
+      "original": "https://image.tmdb.org/t/p/original/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/456/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/456/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/456/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_456_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-02T06:02:30.527867+00:00"
   },
   {
     "id": 305644,
@@ -643,104 +546,7 @@
       "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/305644/1/1/audio_hindi.m3u8",
       "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_305644_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.450212+00:00"
-  },
-  {
-    "id": 305644,
-    "type": "tv",
-    "title": "Four Hands, Two Sonatas",
-    "original_title": "포핸즈",
-    "release_year": 2026,
-    "first_air_date": "2026-08-29",
-    "rating": 9.5,
-    "vote_count": 6,
-    "genres": [
-      "Drama"
-    ],
-    "overview": "When two young pianists from completely different worlds meet at an elite music high school, the melodies of their lives become intimately intertwined.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/a7p6htiJKx68USDAcilJ5rzKAWB.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/a7p6htiJKx68USDAcilJ5rzKAWB.jpg",
-      "original": "https://image.tmdb.org/t/p/original/a7p6htiJKx68USDAcilJ5rzKAWB.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/fYL4I6cezb06BHhQlrNjNhy7jhf.jpg",
-      "original": "https://image.tmdb.org/t/p/original/fYL4I6cezb06BHhQlrNjNhy7jhf.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/305644/1/1/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/305644/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/305644/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_305644_s1_e1/index-s1080p-v1-a1.m3u8"
-    },
-    "updated_at": "2026-09-02T00:02:26.583922+00:00"
-  },
-  {
-    "id": 236235,
-    "type": "tv",
-    "title": "The Gentlemen",
-    "original_title": "The Gentlemen",
-    "release_year": 2024,
-    "first_air_date": "2024-03-07",
-    "rating": 7.8,
-    "vote_count": 849,
-    "genres": [
-      "Comedy",
-      "Drama",
-      "Crime"
-    ],
-    "overview": "When aristocratic Eddie inherits the family estate, he discovers that it's home to an enormous weed empire — and its proprietors aren't going anywhere.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/tw3tzfXaSpmUZIB8ZNqNEGzMBCy.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/tw3tzfXaSpmUZIB8ZNqNEGzMBCy.jpg",
-      "original": "https://image.tmdb.org/t/p/original/tw3tzfXaSpmUZIB8ZNqNEGzMBCy.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/PqIW7PA74YBURz5slZkxc0K5Pl.jpg",
-      "original": "https://image.tmdb.org/t/p/original/PqIW7PA74YBURz5slZkxc0K5Pl.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/236235/1/1/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/236235/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/236235/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_236235_s1_e1/index-s1080p-v1-a1.m3u8"
-    },
-    "updated_at": "2026-09-02T00:02:26.583959+00:00"
-  },
-  {
-    "id": 303351,
-    "type": "tv",
-    "title": "Blood Sacrifice",
-    "original_title": "Blodsoffer",
-    "release_year": 2026,
-    "first_air_date": "2026-08-20",
-    "rating": 6.4,
-    "vote_count": 36,
-    "genres": [
-      "Drama",
-      "Crime",
-      "Mystery"
-    ],
-    "overview": "Following the brutal murder of two police officers, a tenacious detective reluctantly joins forces with his estranged ex-cop father to catch the killer.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/8iFUWLKBAWDrJ9rOunscgIDrGQ1.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/8iFUWLKBAWDrJ9rOunscgIDrGQ1.jpg",
-      "original": "https://image.tmdb.org/t/p/original/8iFUWLKBAWDrJ9rOunscgIDrGQ1.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/z6mnJhvFbAgM1UTL87NWjJLhK26.jpg",
-      "original": "https://image.tmdb.org/t/p/original/z6mnJhvFbAgM1UTL87NWjJLhK26.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/303351/1/1/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/303351/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/303351/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_303351_s1_e1/index-s1080p-v1-a1.m3u8"
-    },
-    "updated_at": "2026-09-02T00:02:26.583984+00:00"
+    "updated_at": "2026-09-02T06:02:30.527872+00:00"
   },
   {
     "id": 207333,
@@ -772,40 +578,39 @@
       "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/207333/1/1/audio_hindi.m3u8",
       "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_207333_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.583996+00:00"
+    "updated_at": "2026-09-02T06:02:30.527879+00:00"
   },
   {
-    "id": 194583,
+    "id": 103516,
     "type": "tv",
-    "title": "The Walking Dead: Dead City",
-    "original_title": "The Walking Dead: Dead City",
-    "release_year": 2023,
-    "first_air_date": "2023-06-18",
+    "title": "Star Trek: Strange New Worlds",
+    "original_title": "Star Trek: Strange New Worlds",
+    "release_year": 2022,
+    "first_air_date": "2022-05-05",
     "rating": 7.9,
-    "vote_count": 785,
+    "vote_count": 829,
     "genres": [
-      "Action & Adventure",
-      "Drama",
-      "Sci-Fi & Fantasy"
+      "Sci-Fi & Fantasy",
+      "Drama"
     ],
-    "overview": "Maggie and Negan travel to post-apocalyptic Manhattan - long ago cut off from the mainland. The crumbling city is filled with the dead and denizens who have made it a world full of anarchy, danger, beauty, and terror.",
+    "overview": "Follow Captain Christopher Pike, Science Officer Spock and Number One in the years before Captain Kirk boarded the U.S.S. Enterprise, as they explore new worlds around the galaxy.",
     "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/wq3vuQzQgbS83zX3malAFWMsSwX.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/wq3vuQzQgbS83zX3malAFWMsSwX.jpg",
-      "original": "https://image.tmdb.org/t/p/original/wq3vuQzQgbS83zX3malAFWMsSwX.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w185/97TTJuqiSMfU0DuXx1B4NG5QNP7.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/97TTJuqiSMfU0DuXx1B4NG5QNP7.jpg",
+      "original": "https://image.tmdb.org/t/p/original/97TTJuqiSMfU0DuXx1B4NG5QNP7.jpg"
     },
     "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/vV5LKWmuysEe5wsuZJGbdiL5XJ2.jpg",
-      "original": "https://image.tmdb.org/t/p/original/vV5LKWmuysEe5wsuZJGbdiL5XJ2.jpg"
+      "medium": "https://image.tmdb.org/t/p/w780/fZJs6xgU9dqIg9phIXjZAZOInzy.jpg",
+      "original": "https://image.tmdb.org/t/p/original/fZJs6xgU9dqIg9phIXjZAZOInzy.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/194583/1/1/video_main.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/103516/1/1/video_main.m3u8",
     "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/194583/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/194583/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_194583_s1_e1/index-s1080p-v1-a1.m3u8"
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/103516/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/103516/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_103516_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.584005+00:00"
+    "updated_at": "2026-09-02T06:02:30.527909+00:00"
   },
   {
     "id": 255358,
@@ -838,39 +643,104 @@
       "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/255358/1/1/audio_hindi.m3u8",
       "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_255358_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.584014+00:00"
+    "updated_at": "2026-09-02T06:02:30.527919+00:00"
   },
   {
-    "id": 292558,
+    "id": 100757,
     "type": "tv",
-    "title": "All the Truth in My Lies",
-    "original_title": "Toda la verdad de mis mentiras",
-    "release_year": 2026,
-    "first_air_date": "2026-08-28",
-    "rating": 7.6,
-    "vote_count": 5,
+    "title": "Outer Banks",
+    "original_title": "Outer Banks",
+    "release_year": 2020,
+    "first_air_date": "2020-04-15",
+    "rating": 8.2,
+    "vote_count": 1252,
     "genres": [
-      "Drama",
-      "Comedy"
+      "Action & Adventure",
+      "Mystery"
     ],
-    "overview": "Two roommates join a bachelorette road trip, where unspoken feelings ignite and shake up their entire friend group.",
+    "overview": "On a North Carolina island of haves and have-nots, John B and his tight-knit crew of friends find mystery and adventure while hunting for lost treasure.",
     "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/2udseY0mzsvkytPcSL4Vp612M1D.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/2udseY0mzsvkytPcSL4Vp612M1D.jpg",
-      "original": "https://image.tmdb.org/t/p/original/2udseY0mzsvkytPcSL4Vp612M1D.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w185/ovDgO2LPfwdVRfvScAqo9aMiIW.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/ovDgO2LPfwdVRfvScAqo9aMiIW.jpg",
+      "original": "https://image.tmdb.org/t/p/original/ovDgO2LPfwdVRfvScAqo9aMiIW.jpg"
     },
     "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/h3QvZs2bqRmN2hfVd1FZ9XrCZDm.jpg",
-      "original": "https://image.tmdb.org/t/p/original/h3QvZs2bqRmN2hfVd1FZ9XrCZDm.jpg"
+      "medium": "https://image.tmdb.org/t/p/w780/fjJ0aqDeDXFzmFXXJ4CF3ryB19b.jpg",
+      "original": "https://image.tmdb.org/t/p/original/fjJ0aqDeDXFzmFXXJ4CF3ryB19b.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/292558/1/1/video_main.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/100757/1/1/video_main.m3u8",
     "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/292558/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/292558/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_292558_s1_e1/index-s1080p-v1-a1.m3u8"
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/100757/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/100757/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_100757_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.584022+00:00"
+    "updated_at": "2026-09-02T06:02:30.638049+00:00"
+  },
+  {
+    "id": 255358,
+    "type": "tv",
+    "title": "THE GHOST IN THE SHELL",
+    "original_title": "攻殻機動隊 THE GHOST IN THE SHELL",
+    "release_year": 2026,
+    "first_air_date": "2026-07-07",
+    "rating": 8.4,
+    "vote_count": 42,
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "overview": "2029, a near-future Japan. The full cyborg Motoko Kusanagi envisions a task force that preemptively strikes emerging threats. She and her team are scouted by Daisuke Aramaki as Public Security Section 9, AKA the \"Shell Squad.\" An international conspiracy hints at a hacker known as The \"Puppet Master.\" What fate awaits Kusanagi? What is the hacker's endgame?",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/nUXjSyXAQZhOf32e6lkLX6C6Rf3.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/nUXjSyXAQZhOf32e6lkLX6C6Rf3.jpg",
+      "original": "https://image.tmdb.org/t/p/original/nUXjSyXAQZhOf32e6lkLX6C6Rf3.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/app8YXZ4NS0hMTYZuIA6zx92xVm.jpg",
+      "original": "https://image.tmdb.org/t/p/original/app8YXZ4NS0hMTYZuIA6zx92xVm.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/255358/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/255358/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/255358/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_255358_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-02T06:02:30.638061+00:00"
+  },
+  {
+    "id": 278624,
+    "type": "tv",
+    "title": "Lucky",
+    "original_title": "Lucky",
+    "release_year": 2026,
+    "first_air_date": "2026-07-14",
+    "rating": 7.3,
+    "vote_count": 231,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "overview": "When a multi-million-dollar heist goes sideways, con artist Lucky is forced to go on the run. Pursued by both the FBI and a ruthless crime boss, Lucky must fight for her life—and a way out.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/xsrkiXg8EuNNtbPtbmvCxg95gK7.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/xsrkiXg8EuNNtbPtbmvCxg95gK7.jpg",
+      "original": "https://image.tmdb.org/t/p/original/xsrkiXg8EuNNtbPtbmvCxg95gK7.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/hKXMOOvQwXiL01hfYG5nrkH0tEP.jpg",
+      "original": "https://image.tmdb.org/t/p/original/hKXMOOvQwXiL01hfYG5nrkH0tEP.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/278624/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/278624/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/278624/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_278624_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-02T06:02:30.638068+00:00"
   },
   {
     "id": 94664,
@@ -903,135 +773,136 @@
       "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/94664/1/1/audio_hindi.m3u8",
       "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_94664_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.584030+00:00"
+    "updated_at": "2026-09-02T06:02:30.638074+00:00"
   },
   {
-    "id": 287620,
+    "id": 294487,
     "type": "tv",
-    "title": "Stuart Fails to Save the Universe",
-    "original_title": "Stuart Fails to Save the Universe",
+    "title": "Remnants of Gold",
+    "original_title": "金色",
     "release_year": 2026,
-    "first_air_date": "2026-07-23",
+    "first_air_date": "2026-08-25",
     "rating": 9.0,
-    "vote_count": 135,
+    "vote_count": 1,
     "genres": [
+      "Drama"
+    ],
+    "overview": "Three hundred thousand taels of gold suddenly surface in the vast desert, where rumor has it that all who seek the treasure are doomed to become vengeful spirits. An officer of the Imperial Guard sent to investigate descends into madness on his very first day. A loyal and courageous deputy envoy who has ventured too far to turn back finds himself torn between desire and honor. After her entire family is slaughtered, a woman immune to all poisons returns to the vast desert, deliberately making herself the prize every faction is determined to seize as she sets out for revenge. Beneath the vast desert's sweeping sands lie an insatiable greed for gold and a carefully laid trap designed to lure her into the deadly game. From a relay station and an armed escort agency to a general's residence, a band of martial heroes becomes entangled in a deadly struggle across the vast and desolate frontier, bringing the spirit and ideals of Eastern wuxia to life in a new light.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/sMU9NjmSYuJKt9t42shkwsMjd0E.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/sMU9NjmSYuJKt9t42shkwsMjd0E.jpg",
+      "original": "https://image.tmdb.org/t/p/original/sMU9NjmSYuJKt9t42shkwsMjd0E.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/xirWeEiatY915u837oq1l2t4oPP.jpg",
+      "original": "https://image.tmdb.org/t/p/original/xirWeEiatY915u837oq1l2t4oPP.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/294487/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/294487/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/294487/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_294487_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-02T06:02:30.638084+00:00"
+  },
+  {
+    "id": 60625,
+    "type": "tv",
+    "title": "Rick and Morty",
+    "original_title": "Rick and Morty",
+    "release_year": 2013,
+    "first_air_date": "2013-12-02",
+    "rating": 8.7,
+    "vote_count": 11341,
+    "genres": [
+      "Animation",
       "Comedy",
-      "Sci-Fi & Fantasy"
+      "Sci-Fi & Fantasy",
+      "Action & Adventure"
     ],
-    "overview": "After accidentally creating a new multiverse, comic book store owner Stuart Bloom must locate a quantum-interference device to restore reality.",
+    "overview": "Follows a sociopathic genius scientist who drags his inherently timid grandson on adventures across the universe.",
     "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/txj8ujTZwGUjpCdhCsQBnTlh4aS.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/txj8ujTZwGUjpCdhCsQBnTlh4aS.jpg",
-      "original": "https://image.tmdb.org/t/p/original/txj8ujTZwGUjpCdhCsQBnTlh4aS.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w185/owhkU6KRqdXoUQpjV8uyZGPtX58.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/owhkU6KRqdXoUQpjV8uyZGPtX58.jpg",
+      "original": "https://image.tmdb.org/t/p/original/owhkU6KRqdXoUQpjV8uyZGPtX58.jpg"
     },
     "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/nW7oUFiJrIWwll4mZ8tYays7XRm.jpg",
-      "original": "https://image.tmdb.org/t/p/original/nW7oUFiJrIWwll4mZ8tYays7XRm.jpg"
+      "medium": "https://image.tmdb.org/t/p/w780/iFOkrSrJRwE27PwbyQeYLlMJXzw.jpg",
+      "original": "https://image.tmdb.org/t/p/original/iFOkrSrJRwE27PwbyQeYLlMJXzw.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/287620/1/1/video_main.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/60625/1/1/video_main.m3u8",
     "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/287620/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/287620/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_287620_s1_e1/index-s1080p-v1-a1.m3u8"
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/60625/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/60625/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_60625_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.584039+00:00"
+    "updated_at": "2026-09-02T06:02:30.638090+00:00"
   },
   {
-    "id": 90521,
+    "id": 2710,
     "type": "tv",
-    "title": "Love Island USA",
-    "original_title": "Love Island USA",
-    "release_year": 2019,
-    "first_air_date": "2019-07-09",
-    "rating": 7.0,
-    "vote_count": 179,
+    "title": "It's Always Sunny in Philadelphia",
+    "original_title": "It's Always Sunny in Philadelphia",
+    "release_year": 2005,
+    "first_air_date": "2005-08-04",
+    "rating": 8.3,
+    "vote_count": 1394,
     "genres": [
-      "Reality"
-    ],
-    "overview": "The matchmaking begins as a group of single \"Islanders\" come together in a stunning villa on a beautiful tropical island, ready to embark on a summer of dating, romance, and ultimately, relationships. Every few days the Islanders pair up and those who are not coupled are at risk of being dumped from the island. Islanders are on the lookout for romance, but the road to love doesn't always run smoothly.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/kU2y21cls8WargMaX7KI47URMjD.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/kU2y21cls8WargMaX7KI47URMjD.jpg",
-      "original": "https://image.tmdb.org/t/p/original/kU2y21cls8WargMaX7KI47URMjD.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/m0TiLZ79RR19Zz0AZruQSBeH39x.jpg",
-      "original": "https://image.tmdb.org/t/p/original/m0TiLZ79RR19Zz0AZruQSBeH39x.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/90521/1/1/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/90521/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/90521/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_90521_s1_e1/index-s1080p-v1-a1.m3u8"
-    },
-    "updated_at": "2026-09-02T00:02:26.584049+00:00"
-  },
-  {
-    "id": 79744,
-    "type": "tv",
-    "title": "The Rookie",
-    "original_title": "The Rookie",
-    "release_year": 2018,
-    "first_air_date": "2018-10-16",
-    "rating": 8.5,
-    "vote_count": 3492,
-    "genres": [
-      "Crime",
-      "Drama",
       "Comedy"
     ],
-    "overview": "Starting over isn't easy, especially for small-town guy John Nolan who, after a life-altering incident, is pursuing his dream of being an LAPD officer. As the force's oldest rookie, he's met with skepticism from some higher-ups who see him as just a walking midlife crisis.",
+    "overview": "Four egocentric friends run a neighborhood Irish pub in Philadelphia and try to find their way through the adult world of work and relationships. Unfortunately, their warped views and precarious judgments often lead them to trouble, creating a myriad of uncomfortable situations that usually only get worse before they get better.",
     "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
-      "original": "https://image.tmdb.org/t/p/original/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w185/o0tMMK33JqmtpcWw0H41cEr9xQB.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/o0tMMK33JqmtpcWw0H41cEr9xQB.jpg",
+      "original": "https://image.tmdb.org/t/p/original/o0tMMK33JqmtpcWw0H41cEr9xQB.jpg"
     },
     "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/6iNWfGVCEfASDdlNb05TP5nG0ll.jpg",
-      "original": "https://image.tmdb.org/t/p/original/6iNWfGVCEfASDdlNb05TP5nG0ll.jpg"
+      "medium": "https://image.tmdb.org/t/p/w780/265v8OtLO4h8XgJu5eDRpJdf9e0.jpg",
+      "original": "https://image.tmdb.org/t/p/original/265v8OtLO4h8XgJu5eDRpJdf9e0.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/79744/1/1/video_main.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/2710/1/1/video_main.m3u8",
     "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/79744/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/79744/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_79744_s1_e1/index-s1080p-v1-a1.m3u8"
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/2710/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/2710/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_2710_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.584063+00:00"
+    "updated_at": "2026-09-02T06:02:30.638095+00:00"
   },
   {
-    "id": 298168,
+    "id": 194583,
     "type": "tv",
-    "title": "The Shards",
-    "original_title": "The Shards",
-    "release_year": 2026,
-    "first_air_date": "2026-08-05",
-    "rating": 7.4,
-    "vote_count": 43,
+    "title": "The Walking Dead: Dead City",
+    "original_title": "The Walking Dead: Dead City",
+    "release_year": 2023,
+    "first_air_date": "2023-06-18",
+    "rating": 7.9,
+    "vote_count": 785,
     "genres": [
+      "Action & Adventure",
       "Drama",
-      "Mystery"
+      "Sci-Fi & Fantasy"
     ],
-    "overview": "17-year-old Bret Easton Ellis is in his final year at the elite Buckley prep school. Upending his world is the arrival of a mysterious new student, Robert Mallory, whose unsettling presence coincides with the activities of a serial killer known as The Trawler.",
+    "overview": "Maggie and Negan travel to post-apocalyptic Manhattan - long ago cut off from the mainland. The crumbling city is filled with the dead and denizens who have made it a world full of anarchy, danger, beauty, and terror.",
     "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/wP0GdqwVu2g1y3q1KzBXuSrdTvX.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/wP0GdqwVu2g1y3q1KzBXuSrdTvX.jpg",
-      "original": "https://image.tmdb.org/t/p/original/wP0GdqwVu2g1y3q1KzBXuSrdTvX.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w185/wq3vuQzQgbS83zX3malAFWMsSwX.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/wq3vuQzQgbS83zX3malAFWMsSwX.jpg",
+      "original": "https://image.tmdb.org/t/p/original/wq3vuQzQgbS83zX3malAFWMsSwX.jpg"
     },
     "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/AhzF2bkYYybcCT4PnqpoagRGBWJ.jpg",
-      "original": "https://image.tmdb.org/t/p/original/AhzF2bkYYybcCT4PnqpoagRGBWJ.jpg"
+      "medium": "https://image.tmdb.org/t/p/w780/vV5LKWmuysEe5wsuZJGbdiL5XJ2.jpg",
+      "original": "https://image.tmdb.org/t/p/original/vV5LKWmuysEe5wsuZJGbdiL5XJ2.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/298168/1/1/video_main.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/194583/1/1/video_main.m3u8",
     "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/298168/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/298168/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_298168_s1_e1/index-s1080p-v1-a1.m3u8"
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/194583/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/194583/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_194583_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.584072+00:00"
+    "updated_at": "2026-09-02T06:02:30.638100+00:00"
   },
   {
     "id": 106449,
@@ -1064,7 +935,71 @@
       "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/106449/1/1/audio_hindi.m3u8",
       "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_106449_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.584079+00:00"
+    "updated_at": "2026-09-02T06:02:30.638105+00:00"
+  },
+  {
+    "id": 90521,
+    "type": "tv",
+    "title": "Love Island USA",
+    "original_title": "Love Island USA",
+    "release_year": 2019,
+    "first_air_date": "2019-07-09",
+    "rating": 7.0,
+    "vote_count": 179,
+    "genres": [
+      "Reality"
+    ],
+    "overview": "The matchmaking begins as a group of single \"Islanders\" come together in a stunning villa on a beautiful tropical island, ready to embark on a summer of dating, romance, and ultimately, relationships. Every few days the Islanders pair up and those who are not coupled are at risk of being dumped from the island. Islanders are on the lookout for romance, but the road to love doesn't always run smoothly.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/kU2y21cls8WargMaX7KI47URMjD.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/kU2y21cls8WargMaX7KI47URMjD.jpg",
+      "original": "https://image.tmdb.org/t/p/original/kU2y21cls8WargMaX7KI47URMjD.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/m0TiLZ79RR19Zz0AZruQSBeH39x.jpg",
+      "original": "https://image.tmdb.org/t/p/original/m0TiLZ79RR19Zz0AZruQSBeH39x.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/90521/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/90521/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/90521/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_90521_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-02T06:02:30.638112+00:00"
+  },
+  {
+    "id": 236235,
+    "type": "tv",
+    "title": "The Gentlemen",
+    "original_title": "The Gentlemen",
+    "release_year": 2024,
+    "first_air_date": "2024-03-07",
+    "rating": 7.8,
+    "vote_count": 849,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Crime"
+    ],
+    "overview": "When aristocratic Eddie inherits the family estate, he discovers that it's home to an enormous weed empire — and its proprietors aren't going anywhere.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/tw3tzfXaSpmUZIB8ZNqNEGzMBCy.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/tw3tzfXaSpmUZIB8ZNqNEGzMBCy.jpg",
+      "original": "https://image.tmdb.org/t/p/original/tw3tzfXaSpmUZIB8ZNqNEGzMBCy.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/PqIW7PA74YBURz5slZkxc0K5Pl.jpg",
+      "original": "https://image.tmdb.org/t/p/original/PqIW7PA74YBURz5slZkxc0K5Pl.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/236235/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/236235/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/236235/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_236235_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-02T06:02:30.638118+00:00"
   },
   {
     "id": 331616,
@@ -1096,39 +1031,71 @@
       "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/331616/1/1/audio_hindi.m3u8",
       "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_331616_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.584086+00:00"
+    "updated_at": "2026-09-02T06:02:30.638125+00:00"
   },
   {
-    "id": 103516,
+    "id": 298168,
     "type": "tv",
-    "title": "Star Trek: Strange New Worlds",
-    "original_title": "Star Trek: Strange New Worlds",
-    "release_year": 2022,
-    "first_air_date": "2022-05-05",
-    "rating": 7.9,
-    "vote_count": 827,
+    "title": "The Shards",
+    "original_title": "The Shards",
+    "release_year": 2026,
+    "first_air_date": "2026-08-05",
+    "rating": 7.4,
+    "vote_count": 43,
     "genres": [
-      "Sci-Fi & Fantasy",
-      "Drama"
+      "Drama",
+      "Mystery"
     ],
-    "overview": "Follow Captain Christopher Pike, Science Officer Spock and Number One in the years before Captain Kirk boarded the U.S.S. Enterprise, as they explore new worlds around the galaxy.",
+    "overview": "17-year-old Bret Easton Ellis is in his final year at the elite Buckley prep school. Upending his world is the arrival of a mysterious new student, Robert Mallory, whose unsettling presence coincides with the activities of a serial killer known as The Trawler.",
     "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/97TTJuqiSMfU0DuXx1B4NG5QNP7.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/97TTJuqiSMfU0DuXx1B4NG5QNP7.jpg",
-      "original": "https://image.tmdb.org/t/p/original/97TTJuqiSMfU0DuXx1B4NG5QNP7.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w185/wP0GdqwVu2g1y3q1KzBXuSrdTvX.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/wP0GdqwVu2g1y3q1KzBXuSrdTvX.jpg",
+      "original": "https://image.tmdb.org/t/p/original/wP0GdqwVu2g1y3q1KzBXuSrdTvX.jpg"
     },
     "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/fZJs6xgU9dqIg9phIXjZAZOInzy.jpg",
-      "original": "https://image.tmdb.org/t/p/original/fZJs6xgU9dqIg9phIXjZAZOInzy.jpg"
+      "medium": "https://image.tmdb.org/t/p/w780/AhzF2bkYYybcCT4PnqpoagRGBWJ.jpg",
+      "original": "https://image.tmdb.org/t/p/original/AhzF2bkYYybcCT4PnqpoagRGBWJ.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/103516/1/1/video_main.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/298168/1/1/video_main.m3u8",
     "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/103516/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/103516/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_103516_s1_e1/index-s1080p-v1-a1.m3u8"
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/298168/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/298168/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_298168_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.584093+00:00"
+    "updated_at": "2026-09-02T06:02:30.638130+00:00"
+  },
+  {
+    "id": 287620,
+    "type": "tv",
+    "title": "Stuart Fails to Save the Universe",
+    "original_title": "Stuart Fails to Save the Universe",
+    "release_year": 2026,
+    "first_air_date": "2026-07-23",
+    "rating": 9.0,
+    "vote_count": 135,
+    "genres": [
+      "Comedy",
+      "Sci-Fi & Fantasy"
+    ],
+    "overview": "After accidentally creating a new multiverse, comic book store owner Stuart Bloom must locate a quantum-interference device to restore reality.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/txj8ujTZwGUjpCdhCsQBnTlh4aS.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/txj8ujTZwGUjpCdhCsQBnTlh4aS.jpg",
+      "original": "https://image.tmdb.org/t/p/original/txj8ujTZwGUjpCdhCsQBnTlh4aS.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/nW7oUFiJrIWwll4mZ8tYays7XRm.jpg",
+      "original": "https://image.tmdb.org/t/p/original/nW7oUFiJrIWwll4mZ8tYays7XRm.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/287620/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/287620/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/287620/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_287620_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-02T06:02:30.638136+00:00"
   },
   {
     "id": 296756,
@@ -1160,335 +1127,70 @@
       "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/296756/1/1/audio_hindi.m3u8",
       "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_296756_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.584103+00:00"
+    "updated_at": "2026-09-02T06:02:30.638140+00:00"
   },
   {
-    "id": 95480,
+    "id": 292558,
     "type": "tv",
-    "title": "Slow Horses",
-    "original_title": "Slow Horses",
-    "release_year": 2022,
-    "first_air_date": "2022-04-01",
-    "rating": 8.0,
-    "vote_count": 950,
+    "title": "All the Truth in My Lies",
+    "original_title": "Toda la verdad de mis mentiras",
+    "release_year": 2026,
+    "first_air_date": "2026-08-28",
+    "rating": 7.0,
+    "vote_count": 6,
     "genres": [
-      "Crime",
       "Drama",
-      "Mystery"
+      "Comedy"
     ],
-    "overview": "Follow a dysfunctional team of MI5 agents—and their obnoxious boss, the notorious Jackson Lamb—as they navigate the espionage world's smoke and mirrors to defend England from sinister forces.",
+    "overview": "Two roommates join a bachelorette road trip, where unspoken feelings ignite and shake up their entire friend group.",
     "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/w2jauz2PeSjFQifDObI3qDen4f7.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/w2jauz2PeSjFQifDObI3qDen4f7.jpg",
-      "original": "https://image.tmdb.org/t/p/original/w2jauz2PeSjFQifDObI3qDen4f7.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w185/2udseY0mzsvkytPcSL4Vp612M1D.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/2udseY0mzsvkytPcSL4Vp612M1D.jpg",
+      "original": "https://image.tmdb.org/t/p/original/2udseY0mzsvkytPcSL4Vp612M1D.jpg"
     },
     "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/bDfboQUb45Cv9MYyVBDZw8M8xSM.jpg",
-      "original": "https://image.tmdb.org/t/p/original/bDfboQUb45Cv9MYyVBDZw8M8xSM.jpg"
+      "medium": "https://image.tmdb.org/t/p/w780/h3QvZs2bqRmN2hfVd1FZ9XrCZDm.jpg",
+      "original": "https://image.tmdb.org/t/p/original/h3QvZs2bqRmN2hfVd1FZ9XrCZDm.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/95480/1/1/video_main.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/292558/1/1/video_main.m3u8",
     "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/95480/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/95480/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_95480_s1_e1/index-s1080p-v1-a1.m3u8"
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/292558/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/292558/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_292558_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.584111+00:00"
+    "updated_at": "2026-09-02T06:02:30.638147+00:00"
   },
   {
-    "id": 2710,
+    "id": 201834,
     "type": "tv",
-    "title": "It's Always Sunny in Philadelphia",
-    "original_title": "It's Always Sunny in Philadelphia",
-    "release_year": 2005,
-    "first_air_date": "2005-08-04",
-    "rating": 8.3,
-    "vote_count": 1394,
+    "title": "ted",
+    "original_title": "ted",
+    "release_year": 2024,
+    "first_air_date": "2024-01-11",
+    "rating": 7.9,
+    "vote_count": 737,
     "genres": [
       "Comedy"
     ],
-    "overview": "Four egocentric friends run a neighborhood Irish pub in Philadelphia and try to find their way through the adult world of work and relationships. Unfortunately, their warped views and precarious judgments often lead them to trouble, creating a myriad of uncomfortable situations that usually only get worse before they get better.",
+    "overview": "It's 1993 and Ted the bear's moment of fame has passed, leaving him living with his best friend, 16-year-old John Bennett, who lives in a working-class Boston home with his parents and cousin. Ted may not be the best influence on John, but when it comes right down to it, he's willing to go out on a limb to help his friend and his family.",
     "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/o0tMMK33JqmtpcWw0H41cEr9xQB.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/o0tMMK33JqmtpcWw0H41cEr9xQB.jpg",
-      "original": "https://image.tmdb.org/t/p/original/o0tMMK33JqmtpcWw0H41cEr9xQB.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w185/cPn71YFDENH0JkWUezlsLyWmLfN.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/cPn71YFDENH0JkWUezlsLyWmLfN.jpg",
+      "original": "https://image.tmdb.org/t/p/original/cPn71YFDENH0JkWUezlsLyWmLfN.jpg"
     },
     "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/265v8OtLO4h8XgJu5eDRpJdf9e0.jpg",
-      "original": "https://image.tmdb.org/t/p/original/265v8OtLO4h8XgJu5eDRpJdf9e0.jpg"
+      "medium": "https://image.tmdb.org/t/p/w780/xaiKpxuf9YGuTsqpdK5HSbD8M8f.jpg",
+      "original": "https://image.tmdb.org/t/p/original/xaiKpxuf9YGuTsqpdK5HSbD8M8f.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/2710/1/1/video_main.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/201834/1/1/video_main.m3u8",
     "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/2710/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/2710/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_2710_s1_e1/index-s1080p-v1-a1.m3u8"
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/201834/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/201834/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_201834_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.584122+00:00"
-  },
-  {
-    "id": 387,
-    "type": "tv",
-    "title": "SpongeBob SquarePants",
-    "original_title": "SpongeBob SquarePants",
-    "release_year": 1999,
-    "first_air_date": "1999-05-01",
-    "rating": 7.7,
-    "vote_count": 3261,
-    "genres": [
-      "Animation",
-      "Comedy",
-      "Family"
-    ],
-    "overview": "Deep down in the Pacific Ocean in the subterranean city of Bikini Bottom lives a square yellow sponge named SpongeBob SquarePants. SpongeBob lives in a pineapple with his pet snail, Gary, loves his job as a fry cook at the Krusty Krab, and has a knack for getting into all kinds of trouble without really trying. When he's not getting on the nerves of his cranky next door neighbor Squidward, SpongeBob can usually be found smack in the middle of all sorts of strange situations with his best buddy, the simple yet lovable starfish, Patrick, or his thrill-seeking surfer-girl squirrel pal, Sandy Cheeks.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/5h0EU2lqBb03dp5vtRuUHJwqzem.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/5h0EU2lqBb03dp5vtRuUHJwqzem.jpg",
-      "original": "https://image.tmdb.org/t/p/original/5h0EU2lqBb03dp5vtRuUHJwqzem.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/3MY7hMWrJ13Xtb1Y4jd7tztyPaZ.jpg",
-      "original": "https://image.tmdb.org/t/p/original/3MY7hMWrJ13Xtb1Y4jd7tztyPaZ.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/387/1/1/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/387/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/387/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_387_s1_e1/index-s1080p-v1-a1.m3u8"
-    },
-    "updated_at": "2026-09-02T00:02:26.584130+00:00"
-  },
-  {
-    "id": 124364,
-    "type": "tv",
-    "title": "FROM",
-    "original_title": "FROM",
-    "release_year": 2022,
-    "first_air_date": "2022-02-20",
-    "rating": 8.5,
-    "vote_count": 4222,
-    "genres": [
-      "Mystery",
-      "Drama",
-      "Sci-Fi & Fantasy"
-    ],
-    "overview": "Unravel the mystery of a nightmarish town in middle America that traps all those who enter. As the unwilling residents fight to keep a sense of normalcy and search for a way out, they must also survive the threats of the surrounding forest – including the terrifying creatures that come out when the sun goes down.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
-      "original": "https://image.tmdb.org/t/p/original/pRtJagIxpfODzzb0T0NAvZSzErC.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/xLdw1xdHocKYFFvx7w41NchXMfJ.jpg",
-      "original": "https://image.tmdb.org/t/p/original/xLdw1xdHocKYFFvx7w41NchXMfJ.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/124364/1/1/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/124364/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/124364/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_124364_s1_e1/index-s1080p-v1-a1.m3u8"
-    },
-    "updated_at": "2026-09-02T00:02:26.584139+00:00"
-  },
-  {
-    "id": 66732,
-    "type": "tv",
-    "title": "Stranger Things",
-    "original_title": "Stranger Things",
-    "release_year": 2016,
-    "first_air_date": "2016-07-15",
-    "rating": 8.6,
-    "vote_count": 21750,
-    "genres": [
-      "Action & Adventure",
-      "Mystery",
-      "Sci-Fi & Fantasy"
-    ],
-    "overview": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
-      "original": "https://image.tmdb.org/t/p/original/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
-      "original": "https://image.tmdb.org/t/p/original/56v2KjBlU4XaOv9rVYEQypROD7P.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/66732/1/1/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/66732/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/66732/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_66732_s1_e1/index-s1080p-v1-a1.m3u8"
-    },
-    "updated_at": "2026-09-02T00:02:26.699681+00:00"
-  },
-  {
-    "id": 209867,
-    "type": "tv",
-    "title": "Frieren: Beyond Journey's End",
-    "original_title": "葬送のフリーレン",
-    "release_year": 2023,
-    "first_air_date": "2023-09-29",
-    "rating": 8.8,
-    "vote_count": 944,
-    "genres": [
-      "Animation",
-      "Action & Adventure",
-      "Drama",
-      "Sci-Fi & Fantasy"
-    ],
-    "overview": "After the party of heroes defeated the Demon King, they restored peace to the land and returned to lives of solitude.  Generations pass, and the elven mage Frieren comes face to face with humanity’s mortality. She takes on a new apprentice and promises to fulfill old friends’ dying wishes. Can an elven mind make peace with the nature of life and death? Frieren embarks on her quest to find out.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/cHhJzdUGcEBq6av4wr9jsIvUITH.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/cHhJzdUGcEBq6av4wr9jsIvUITH.jpg",
-      "original": "https://image.tmdb.org/t/p/original/cHhJzdUGcEBq6av4wr9jsIvUITH.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/rBOnrVlck7BIlGeWVlzYiZeg4l2.jpg",
-      "original": "https://image.tmdb.org/t/p/original/rBOnrVlck7BIlGeWVlzYiZeg4l2.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/209867/1/1/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/209867/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/209867/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_209867_s1_e1/index-s1080p-v1-a1.m3u8"
-    },
-    "updated_at": "2026-09-02T00:02:26.699703+00:00"
-  },
-  {
-    "id": 247718,
-    "type": "tv",
-    "title": "MobLand",
-    "original_title": "MobLand",
-    "release_year": 2025,
-    "first_air_date": "2025-03-30",
-    "rating": 8.3,
-    "vote_count": 813,
-    "genres": [
-      "Crime",
-      "Drama"
-    ],
-    "overview": "Two mob families clash in a war that threatens to topple empires and lives.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/abeH7n5pcuQcwYcTxG6DTZvXLP1.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/abeH7n5pcuQcwYcTxG6DTZvXLP1.jpg",
-      "original": "https://image.tmdb.org/t/p/original/abeH7n5pcuQcwYcTxG6DTZvXLP1.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/tQqbbxBAdW2ql8vbOqMOJbtSQ7O.jpg",
-      "original": "https://image.tmdb.org/t/p/original/tQqbbxBAdW2ql8vbOqMOJbtSQ7O.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/247718/1/1/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/247718/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/247718/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_247718_s1_e1/index-s1080p-v1-a1.m3u8"
-    },
-    "updated_at": "2026-09-02T00:02:26.699712+00:00"
-  },
-  {
-    "id": 283297,
-    "type": "tv",
-    "title": "Sterling Point",
-    "original_title": "Sterling Point",
-    "release_year": 2026,
-    "first_air_date": "2026-08-05",
-    "rating": 8.2,
-    "vote_count": 120,
-    "genres": [
-      "Mystery",
-      "Drama"
-    ],
-    "overview": "After discovering she's inherited a remote island in Canada from the estranged grandfather she was never allowed to meet, 17-year-old Annie Jacobson decides to investigate, pulling her into a world of buried secrets, unexpected sisterhood, and the complicated family history she was never meant to find.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/cThLWEGs6BEqY0QZMbU4FAeWwPT.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/cThLWEGs6BEqY0QZMbU4FAeWwPT.jpg",
-      "original": "https://image.tmdb.org/t/p/original/cThLWEGs6BEqY0QZMbU4FAeWwPT.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/nOWU1NSYQEOXRXcdfZbtJshwRGK.jpg",
-      "original": "https://image.tmdb.org/t/p/original/nOWU1NSYQEOXRXcdfZbtJshwRGK.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/283297/1/1/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/283297/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/283297/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_283297_s1_e1/index-s1080p-v1-a1.m3u8"
-    },
-    "updated_at": "2026-09-02T00:02:26.699719+00:00"
-  },
-  {
-    "id": 220102,
-    "type": "tv",
-    "title": "Spider-Noir",
-    "original_title": "Spider-Noir",
-    "release_year": 2026,
-    "first_air_date": "2026-05-25",
-    "rating": 8.4,
-    "vote_count": 814,
-    "genres": [
-      "Drama",
-      "Mystery",
-      "Crime",
-      "Action & Adventure"
-    ],
-    "overview": "Ben Reilly, an aging and down on his luck private investigator in 1930s New York, is forced to grapple with his past life as the city's one and only superhero.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/oD8WSVqz84ZRfelkr7JPeJwR9Iv.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/oD8WSVqz84ZRfelkr7JPeJwR9Iv.jpg",
-      "original": "https://image.tmdb.org/t/p/original/oD8WSVqz84ZRfelkr7JPeJwR9Iv.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/6t2FvBr9DS8MOq0m5FAwPBCdAW5.jpg",
-      "original": "https://image.tmdb.org/t/p/original/6t2FvBr9DS8MOq0m5FAwPBCdAW5.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/220102/1/1/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/220102/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/220102/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_220102_s1_e1/index-s1080p-v1-a1.m3u8"
-    },
-    "updated_at": "2026-09-02T00:02:26.699735+00:00"
-  },
-  {
-    "id": 95479,
-    "type": "tv",
-    "title": "JUJUTSU KAISEN",
-    "original_title": "呪術廻戦",
-    "release_year": 2020,
-    "first_air_date": "2020-10-03",
-    "rating": 8.6,
-    "vote_count": 4632,
-    "genres": [
-      "Animation",
-      "Action & Adventure",
-      "Sci-Fi & Fantasy"
-    ],
-    "overview": "Yuji Itadori is a boy with tremendous physical strength, though he lives a completely ordinary high school life. One day, to save a classmate who has been attacked by curses, he eats the finger of Ryomen Sukuna, taking the curse into his own soul. From then on, he shares one body with Ryomen Sukuna. Guided by the most powerful of sorcerers, Satoru Gojo, Itadori is admitted to Tokyo Jujutsu High School, an organization that fights the curses... and thus begins the heroic tale of a boy who became a curse to exorcise a curse, a life from which he could never turn back.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
-      "original": "https://image.tmdb.org/t/p/original/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/qpin8cASXEVtwhzNsprHYFiOAGk.jpg",
-      "original": "https://image.tmdb.org/t/p/original/qpin8cASXEVtwhzNsprHYFiOAGk.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/95479/1/1/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/95479/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/95479/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_95479_s1_e1/index-s1080p-v1-a1.m3u8"
-    },
-    "updated_at": "2026-09-02T00:02:26.699741+00:00"
+    "updated_at": "2026-09-02T06:02:30.638152+00:00"
   },
   {
     "id": 82684,
@@ -1522,7 +1224,170 @@
       "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/82684/1/1/audio_hindi.m3u8",
       "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_82684_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.699748+00:00"
+    "updated_at": "2026-09-02T06:02:30.638157+00:00"
+  },
+  {
+    "id": 286988,
+    "type": "tv",
+    "title": "Blossom Through the Cloud",
+    "original_title": "飞到我心上",
+    "release_year": 2026,
+    "first_air_date": "2026-08-31",
+    "rating": 8.0,
+    "vote_count": 1,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "overview": "Once a flight attendant, Ruan Sixian pursues her piloting dream through flight school, later clashing and reconciling with aviation executive Fu Mingyu in a high-stakes race for industry innovation and mutual professional redemption.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/xX825RTjwGqkCiPiUCnJvT4mgxq.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/xX825RTjwGqkCiPiUCnJvT4mgxq.jpg",
+      "original": "https://image.tmdb.org/t/p/original/xX825RTjwGqkCiPiUCnJvT4mgxq.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/aYtWVJ5mUkPRFghrCHbc3I2v4WE.jpg",
+      "original": "https://image.tmdb.org/t/p/original/aYtWVJ5mUkPRFghrCHbc3I2v4WE.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/286988/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/286988/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/286988/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_286988_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-02T06:02:30.638163+00:00"
+  },
+  {
+    "id": 283297,
+    "type": "tv",
+    "title": "Sterling Point",
+    "original_title": "Sterling Point",
+    "release_year": 2026,
+    "first_air_date": "2026-08-05",
+    "rating": 8.2,
+    "vote_count": 121,
+    "genres": [
+      "Mystery",
+      "Drama"
+    ],
+    "overview": "After discovering she's inherited a remote island in Canada from the estranged grandfather she was never allowed to meet, 17-year-old Annie Jacobson decides to investigate, pulling her into a world of buried secrets, unexpected sisterhood, and the complicated family history she was never meant to find.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/cThLWEGs6BEqY0QZMbU4FAeWwPT.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/cThLWEGs6BEqY0QZMbU4FAeWwPT.jpg",
+      "original": "https://image.tmdb.org/t/p/original/cThLWEGs6BEqY0QZMbU4FAeWwPT.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/nOWU1NSYQEOXRXcdfZbtJshwRGK.jpg",
+      "original": "https://image.tmdb.org/t/p/original/nOWU1NSYQEOXRXcdfZbtJshwRGK.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/283297/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/283297/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/283297/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_283297_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-02T06:02:30.638168+00:00"
+  },
+  {
+    "id": 303351,
+    "type": "tv",
+    "title": "Blood Sacrifice",
+    "original_title": "Blodsoffer",
+    "release_year": 2026,
+    "first_air_date": "2026-08-20",
+    "rating": 6.5,
+    "vote_count": 37,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+    ],
+    "overview": "Following the brutal murder of two police officers, a tenacious detective reluctantly joins forces with his estranged ex-cop father to catch the killer.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/8iFUWLKBAWDrJ9rOunscgIDrGQ1.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/8iFUWLKBAWDrJ9rOunscgIDrGQ1.jpg",
+      "original": "https://image.tmdb.org/t/p/original/8iFUWLKBAWDrJ9rOunscgIDrGQ1.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/z6mnJhvFbAgM1UTL87NWjJLhK26.jpg",
+      "original": "https://image.tmdb.org/t/p/original/z6mnJhvFbAgM1UTL87NWjJLhK26.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/303351/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/303351/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/303351/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_303351_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-02T06:02:30.749422+00:00"
+  },
+  {
+    "id": 1413,
+    "type": "tv",
+    "title": "American Horror Story",
+    "original_title": "American Horror Story",
+    "release_year": 2011,
+    "first_air_date": "2011-10-05",
+    "rating": 8.1,
+    "vote_count": 6146,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi & Fantasy"
+    ],
+    "overview": "An anthology horror drama series centering on different characters and locations, including a house with a murderous past, an asylum, a witch coven, a freak show, a hotel, a farmhouse in Roanoke, a cult, the apocalypse and a summer camp.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/x2c3AvZeTyNehRZXabTojAxfDuR.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/x2c3AvZeTyNehRZXabTojAxfDuR.jpg",
+      "original": "https://image.tmdb.org/t/p/original/x2c3AvZeTyNehRZXabTojAxfDuR.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/6TSJRc77dDOesKzcNqkz0KeXdLz.jpg",
+      "original": "https://image.tmdb.org/t/p/original/6TSJRc77dDOesKzcNqkz0KeXdLz.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/1413/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/1413/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/1413/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1413_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-02T06:02:30.749434+00:00"
+  },
+  {
+    "id": 312949,
+    "type": "tv",
+    "title": "Chainsmoker Cat",
+    "original_title": "ヤニねこ",
+    "release_year": 2026,
+    "first_air_date": "2026-07-03",
+    "rating": 8.6,
+    "vote_count": 57,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Sci-Fi & Fantasy"
+    ],
+    "overview": "Catgirl Yani struggles to pay her rent and keep a job while feeding her smoking habit. As her loved ones' concerns grow, she must rethink her future.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/kqeKlSd7o9BCbTraZsDnksRSfxm.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/kqeKlSd7o9BCbTraZsDnksRSfxm.jpg",
+      "original": "https://image.tmdb.org/t/p/original/kqeKlSd7o9BCbTraZsDnksRSfxm.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/4ei68OmZr0XHnN82OjiV8GBqfyN.jpg",
+      "original": "https://image.tmdb.org/t/p/original/4ei68OmZr0XHnN82OjiV8GBqfyN.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/312949/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/312949/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/312949/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_312949_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-02T06:02:30.749441+00:00"
   },
   {
     "id": 76479,
@@ -1554,70 +1419,232 @@
       "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/76479/1/1/audio_hindi.m3u8",
       "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_76479_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.699755+00:00"
+    "updated_at": "2026-09-02T06:02:30.749446+00:00"
   },
   {
-    "id": 201834,
+    "id": 387,
     "type": "tv",
-    "title": "ted",
-    "original_title": "ted",
-    "release_year": 2024,
-    "first_air_date": "2024-01-11",
-    "rating": 7.9,
-    "vote_count": 737,
+    "title": "SpongeBob SquarePants",
+    "original_title": "SpongeBob SquarePants",
+    "release_year": 1999,
+    "first_air_date": "1999-05-01",
+    "rating": 7.7,
+    "vote_count": 3261,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ],
+    "overview": "Deep down in the Pacific Ocean in the subterranean city of Bikini Bottom lives a square yellow sponge named SpongeBob SquarePants. SpongeBob lives in a pineapple with his pet snail, Gary, loves his job as a fry cook at the Krusty Krab, and has a knack for getting into all kinds of trouble without really trying. When he's not getting on the nerves of his cranky next door neighbor Squidward, SpongeBob can usually be found smack in the middle of all sorts of strange situations with his best buddy, the simple yet lovable starfish, Patrick, or his thrill-seeking surfer-girl squirrel pal, Sandy Cheeks.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/5h0EU2lqBb03dp5vtRuUHJwqzem.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/5h0EU2lqBb03dp5vtRuUHJwqzem.jpg",
+      "original": "https://image.tmdb.org/t/p/original/5h0EU2lqBb03dp5vtRuUHJwqzem.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/3MY7hMWrJ13Xtb1Y4jd7tztyPaZ.jpg",
+      "original": "https://image.tmdb.org/t/p/original/3MY7hMWrJ13Xtb1Y4jd7tztyPaZ.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/387/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/387/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/387/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_387_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-02T06:02:30.749451+00:00"
+  },
+  {
+    "id": 66732,
+    "type": "tv",
+    "title": "Stranger Things",
+    "original_title": "Stranger Things",
+    "release_year": 2016,
+    "first_air_date": "2016-07-15",
+    "rating": 8.6,
+    "vote_count": 21752,
+    "genres": [
+      "Action & Adventure",
+      "Mystery",
+      "Sci-Fi & Fantasy"
+    ],
+    "overview": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
+      "original": "https://image.tmdb.org/t/p/original/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
+      "original": "https://image.tmdb.org/t/p/original/56v2KjBlU4XaOv9rVYEQypROD7P.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/66732/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/66732/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/66732/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_66732_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-02T06:02:30.749460+00:00"
+  },
+  {
+    "id": 287496,
+    "type": "tv",
+    "title": "The Road to Splendor",
+    "original_title": "花开锦绣",
+    "release_year": 2026,
+    "first_air_date": "2026-08-09",
+    "rating": 8.0,
+    "vote_count": 6,
+    "genres": [
+      "Drama"
+    ],
+    "overview": "After being falsely accused of a scandal that ruins her reputation, noblewoman Fu Tingyun escapes with the help of salt smuggler Zhao Ling. Together, they expose government corruption and navigate the treacherous world of court politics. As they seek justice and uncover the truth behind her past, their bond deepens, leading them to a new beginning.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/32xB4tvOEixN0XUuL43I8qy9ghg.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/32xB4tvOEixN0XUuL43I8qy9ghg.jpg",
+      "original": "https://image.tmdb.org/t/p/original/32xB4tvOEixN0XUuL43I8qy9ghg.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/zyAFGC97834c2Ld4xPY02uacdQk.jpg",
+      "original": "https://image.tmdb.org/t/p/original/zyAFGC97834c2Ld4xPY02uacdQk.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/287496/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/287496/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/287496/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_287496_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-02T06:02:30.749466+00:00"
+  },
+  {
+    "id": 79744,
+    "type": "tv",
+    "title": "The Rookie",
+    "original_title": "The Rookie",
+    "release_year": 2018,
+    "first_air_date": "2018-10-16",
+    "rating": 8.5,
+    "vote_count": 3493,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Comedy"
+    ],
+    "overview": "Starting over isn't easy, especially for small-town guy John Nolan who, after a life-altering incident, is pursuing his dream of being an LAPD officer. As the force's oldest rookie, he's met with skepticism from some higher-ups who see him as just a walking midlife crisis.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+      "original": "https://image.tmdb.org/t/p/original/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/6iNWfGVCEfASDdlNb05TP5nG0ll.jpg",
+      "original": "https://image.tmdb.org/t/p/original/6iNWfGVCEfASDdlNb05TP5nG0ll.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/79744/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/79744/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/79744/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_79744_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-02T06:02:30.749471+00:00"
+  },
+  {
+    "id": 95479,
+    "type": "tv",
+    "title": "JUJUTSU KAISEN",
+    "original_title": "呪術廻戦",
+    "release_year": 2020,
+    "first_air_date": "2020-10-03",
+    "rating": 8.6,
+    "vote_count": 4632,
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "overview": "Yuji Itadori is a boy with tremendous physical strength, though he lives a completely ordinary high school life. One day, to save a classmate who has been attacked by curses, he eats the finger of Ryomen Sukuna, taking the curse into his own soul. From then on, he shares one body with Ryomen Sukuna. Guided by the most powerful of sorcerers, Satoru Gojo, Itadori is admitted to Tokyo Jujutsu High School, an organization that fights the curses... and thus begins the heroic tale of a boy who became a curse to exorcise a curse, a life from which he could never turn back.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
+      "original": "https://image.tmdb.org/t/p/original/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/qpin8cASXEVtwhzNsprHYFiOAGk.jpg",
+      "original": "https://image.tmdb.org/t/p/original/qpin8cASXEVtwhzNsprHYFiOAGk.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/95479/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/95479/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/95479/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_95479_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-02T06:02:30.749476+00:00"
+  },
+  {
+    "id": 252751,
+    "type": "tv",
+    "title": "Leanne",
+    "original_title": "Leanne",
+    "release_year": 2025,
+    "first_air_date": "2025-07-31",
+    "rating": 7.1,
+    "vote_count": 21,
     "genres": [
       "Comedy"
     ],
-    "overview": "It's 1993 and Ted the bear's moment of fame has passed, leaving him living with his best friend, 16-year-old John Bennett, who lives in a working-class Boston home with his parents and cousin. Ted may not be the best influence on John, but when it comes right down to it, he's willing to go out on a limb to help his friend and his family.",
+    "overview": "When her husband leaves her for another woman, a resilient Southern mom starts over with the support of her loving, but unfiltered family.",
     "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/cPn71YFDENH0JkWUezlsLyWmLfN.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/cPn71YFDENH0JkWUezlsLyWmLfN.jpg",
-      "original": "https://image.tmdb.org/t/p/original/cPn71YFDENH0JkWUezlsLyWmLfN.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w185/ttfk34wnKFTKK4LkoRR4dCV9u5n.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/ttfk34wnKFTKK4LkoRR4dCV9u5n.jpg",
+      "original": "https://image.tmdb.org/t/p/original/ttfk34wnKFTKK4LkoRR4dCV9u5n.jpg"
     },
     "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/xaiKpxuf9YGuTsqpdK5HSbD8M8f.jpg",
-      "original": "https://image.tmdb.org/t/p/original/xaiKpxuf9YGuTsqpdK5HSbD8M8f.jpg"
+      "medium": "https://image.tmdb.org/t/p/w780/2HuHGBzavbM7YTizGabBGpP0Spv.jpg",
+      "original": "https://image.tmdb.org/t/p/original/2HuHGBzavbM7YTizGabBGpP0Spv.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/201834/1/1/video_main.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/252751/1/1/video_main.m3u8",
     "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/201834/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/201834/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_201834_s1_e1/index-s1080p-v1-a1.m3u8"
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/252751/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/252751/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_252751_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.699761+00:00"
+    "updated_at": "2026-09-02T06:02:30.749481+00:00"
   },
   {
-    "id": 126167,
+    "id": 330540,
     "type": "tv",
-    "title": "Vigil",
-    "original_title": "Vigil",
-    "release_year": 2021,
-    "first_air_date": "2021-08-29",
-    "rating": 7.2,
-    "vote_count": 274,
+    "title": "Dalliance",
+    "original_title": "Dalliance",
+    "release_year": 2026,
+    "first_air_date": "2026-08-27",
+    "rating": 0.0,
+    "vote_count": 0,
     "genres": [
-      "Drama",
-      "Crime"
+      "Drama"
     ],
-    "overview": "The mysterious disappearance of a Scottish fishing trawler and a death on-board the submarine HMS Vigil bring the police into conflict with the Navy and British security services. DCI Amy Silva and DS Kirsten Longacre lead an investigation on land and at sea into a conspiracy that goes to the very heart of Britain’s national security.",
+    "overview": "Billy, a former cameraman, encounters Dani on a Sydney Harbour ferry as their different worlds intersect.",
     "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/5zAheY0Upi2MwU3edGtEgb7Ldh3.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/5zAheY0Upi2MwU3edGtEgb7Ldh3.jpg",
-      "original": "https://image.tmdb.org/t/p/original/5zAheY0Upi2MwU3edGtEgb7Ldh3.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w185/oUwy6xIffGNp94bkiqowBDM9W1S.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/oUwy6xIffGNp94bkiqowBDM9W1S.jpg",
+      "original": "https://image.tmdb.org/t/p/original/oUwy6xIffGNp94bkiqowBDM9W1S.jpg"
     },
     "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/bfL7ZRhYJn5rYq9DYZL4Wf5qboL.jpg",
-      "original": "https://image.tmdb.org/t/p/original/bfL7ZRhYJn5rYq9DYZL4Wf5qboL.jpg"
+      "medium": "https://image.tmdb.org/t/p/w780/8Ye9jv4Ibo5xK6GgWihsec8M94A.jpg",
+      "original": "https://image.tmdb.org/t/p/original/8Ye9jv4Ibo5xK6GgWihsec8M94A.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/126167/1/1/video_main.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/330540/1/1/video_main.m3u8",
     "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/126167/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/126167/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_126167_s1_e1/index-s1080p-v1-a1.m3u8"
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/330540/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/330540/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_330540_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.699767+00:00"
+    "updated_at": "2026-09-02T06:02:30.749488+00:00"
   },
   {
     "id": 138502,
@@ -1650,198 +1677,169 @@
       "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/138502/1/1/audio_hindi.m3u8",
       "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_138502_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.699772+00:00"
+    "updated_at": "2026-09-02T06:02:30.749494+00:00"
   },
   {
-    "id": 84773,
+    "id": 215072,
     "type": "tv",
-    "title": "The Lord of the Rings: The Rings of Power",
-    "original_title": "The Lord of the Rings: The Rings of Power",
-    "release_year": 2022,
-    "first_air_date": "2022-09-01",
-    "rating": 7.2,
-    "vote_count": 3879,
+    "title": "A Shop for Killers",
+    "original_title": "킬러들의 쇼핑몰",
+    "release_year": 2024,
+    "first_air_date": "2024-01-17",
+    "rating": 8.5,
+    "vote_count": 230,
     "genres": [
+      "Drama",
       "Action & Adventure",
+      "Mystery"
+    ],
+    "overview": "A niece who lost her parents and grew up in the hands of an uncle who runs a shopping mall faces a new truth after her uncle's sudden death.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/7yUY1HUyQuybbvkAAhLzQ7x1l9g.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/7yUY1HUyQuybbvkAAhLzQ7x1l9g.jpg",
+      "original": "https://image.tmdb.org/t/p/original/7yUY1HUyQuybbvkAAhLzQ7x1l9g.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/mWVeYmtCfA3zvSeZtW5bN2Khe01.jpg",
+      "original": "https://image.tmdb.org/t/p/original/mWVeYmtCfA3zvSeZtW5bN2Khe01.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/215072/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/215072/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/215072/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_215072_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-02T06:02:30.749500+00:00"
+  },
+  {
+    "id": 124364,
+    "type": "tv",
+    "title": "FROM",
+    "original_title": "FROM",
+    "release_year": 2022,
+    "first_air_date": "2022-02-20",
+    "rating": 8.5,
+    "vote_count": 4222,
+    "genres": [
+      "Mystery",
       "Drama",
       "Sci-Fi & Fantasy"
     ],
-    "overview": "Beginning in a time of relative peace, we follow an ensemble cast of characters as they confront the re-emergence of evil to Middle-earth. From the darkest depths of the Misty Mountains, to the majestic forests of Lindon, to the breathtaking island kingdom of Númenor, to the furthest reaches of the map, these kingdoms and characters will carve out legacies that live on long after they are gone.",
+    "overview": "Unravel the mystery of a nightmarish town in middle America that traps all those who enter. As the unwilling residents fight to keep a sense of normalcy and search for a way out, they must also survive the threats of the surrounding forest – including the terrifying creatures that come out when the sun goes down.",
     "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/kf5Hz70tjNAHg4swGDzOr9BfoZ1.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/kf5Hz70tjNAHg4swGDzOr9BfoZ1.jpg",
-      "original": "https://image.tmdb.org/t/p/original/kf5Hz70tjNAHg4swGDzOr9BfoZ1.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w185/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
+      "original": "https://image.tmdb.org/t/p/original/pRtJagIxpfODzzb0T0NAvZSzErC.jpg"
     },
     "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/o2wg8QiSCQrhj91tBfxunE3O5Ba.jpg",
-      "original": "https://image.tmdb.org/t/p/original/o2wg8QiSCQrhj91tBfxunE3O5Ba.jpg"
+      "medium": "https://image.tmdb.org/t/p/w780/xLdw1xdHocKYFFvx7w41NchXMfJ.jpg",
+      "original": "https://image.tmdb.org/t/p/original/xLdw1xdHocKYFFvx7w41NchXMfJ.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/84773/1/1/video_main.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/124364/1/1/video_main.m3u8",
     "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/84773/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/84773/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_84773_s1_e1/index-s1080p-v1-a1.m3u8"
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/124364/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/124364/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_124364_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.699782+00:00"
+    "updated_at": "2026-09-02T06:02:30.749505+00:00"
   },
   {
-    "id": 2190,
+    "id": 296140,
     "type": "tv",
-    "title": "South Park",
-    "original_title": "South Park",
-    "release_year": 1997,
-    "first_air_date": "1997-08-13",
+    "title": "My Bias, My Boss",
+    "original_title": "최애의 사원",
+    "release_year": 2026,
+    "first_air_date": "2026-08-03",
+    "rating": 7.8,
+    "vote_count": 6,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "overview": "A dedicated fangirl lands a job at a fashion company, only to discover it was co-founded by her ultimate idol. Determined to remain professional, she hides her identity, but is quickly thrown off course by the company's workaholic CEO. As secret unrequited feelings and hidden personal struggles entangle the trio, she finds herself torn between her lifelong obsession and an unexpected new connection.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/A4Y4xlDHS4xi2WI9265vRyIYLoo.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/A4Y4xlDHS4xi2WI9265vRyIYLoo.jpg",
+      "original": "https://image.tmdb.org/t/p/original/A4Y4xlDHS4xi2WI9265vRyIYLoo.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/eBD46F44qKGPZiRLffO4q3JF8Hc.jpg",
+      "original": "https://image.tmdb.org/t/p/original/eBD46F44qKGPZiRLffO4q3JF8Hc.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/296140/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/296140/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/296140/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_296140_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-02T06:02:30.749510+00:00"
+  },
+  {
+    "id": 85552,
+    "type": "tv",
+    "title": "Euphoria",
+    "original_title": "Euphoria",
+    "release_year": 2019,
+    "first_air_date": "2019-06-16",
     "rating": 8.3,
-    "vote_count": 5121,
-    "genres": [
-      "Animation",
-      "Comedy"
-    ],
-    "overview": "Follow the misadventures of four irreverent grade-schoolers in the quiet, dysfunctional town of South Park, Colorado.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/1CGwZCFX2qerXaXQJJUB3qUvxq7.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/1CGwZCFX2qerXaXQJJUB3qUvxq7.jpg",
-      "original": "https://image.tmdb.org/t/p/original/1CGwZCFX2qerXaXQJJUB3qUvxq7.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/3UviYOlhn8EgXMBuiT6MnUuo1w9.jpg",
-      "original": "https://image.tmdb.org/t/p/original/3UviYOlhn8EgXMBuiT6MnUuo1w9.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/2190/1/1/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/2190/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/2190/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_2190_s1_e1/index-s1080p-v1-a1.m3u8"
-    },
-    "updated_at": "2026-09-02T00:02:26.699789+00:00"
-  },
-  {
-    "id": 330784,
-    "type": "tv",
-    "title": "Tuzlu Kahve",
-    "original_title": "Tuzlu Kahve",
-    "release_year": 2026,
-    "first_air_date": "2026-09-01",
-    "rating": 0.0,
-    "vote_count": 0,
-    "genres": [
-      "Family",
-      "Comedy"
-    ],
-    "overview": "",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/iXgalcTI4nBc4Dw0Ef4LevCz1Qp.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/iXgalcTI4nBc4Dw0Ef4LevCz1Qp.jpg",
-      "original": "https://image.tmdb.org/t/p/original/iXgalcTI4nBc4Dw0Ef4LevCz1Qp.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/i2C7xDd2Kc22GvQtgnvsFSzxa4T.jpg",
-      "original": "https://image.tmdb.org/t/p/original/i2C7xDd2Kc22GvQtgnvsFSzxa4T.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/330784/1/1/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/330784/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/330784/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_330784_s1_e1/index-s1080p-v1-a1.m3u8"
-    },
-    "updated_at": "2026-09-02T00:02:26.699796+00:00"
-  },
-  {
-    "id": 127716,
-    "type": "tv",
-    "title": "Trigger Point",
-    "original_title": "Trigger Point",
-    "release_year": 2022,
-    "first_air_date": "2022-01-23",
-    "rating": 6.9,
-    "vote_count": 115,
-    "genres": [
-      "Crime",
-      "Drama"
-    ],
-    "overview": "For London's bomb disposal experts, no day is ever the same as they risk their lives protecting the city from harm.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/cjMpwyWL0l1n0EkNw88QyzWRsHW.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/cjMpwyWL0l1n0EkNw88QyzWRsHW.jpg",
-      "original": "https://image.tmdb.org/t/p/original/cjMpwyWL0l1n0EkNw88QyzWRsHW.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/vG3U8t5OKHO2xHap9QqclincYl5.jpg",
-      "original": "https://image.tmdb.org/t/p/original/vG3U8t5OKHO2xHap9QqclincYl5.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/127716/1/1/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/127716/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/127716/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_127716_s1_e1/index-s1080p-v1-a1.m3u8"
-    },
-    "updated_at": "2026-09-02T00:02:26.699802+00:00"
-  },
-  {
-    "id": 330540,
-    "type": "tv",
-    "title": "Dalliance",
-    "original_title": "Dalliance",
-    "release_year": 2026,
-    "first_air_date": "2026-08-27",
-    "rating": 0.0,
-    "vote_count": 0,
+    "vote_count": 11048,
     "genres": [
       "Drama"
     ],
-    "overview": "Billy, a former cameraman, encounters Dani on a Sydney Harbour ferry as their different worlds intersect.",
+    "overview": "A group of high school students navigate love and friendships in a world of drugs, sex, trauma, and social media.",
     "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/oUwy6xIffGNp94bkiqowBDM9W1S.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/oUwy6xIffGNp94bkiqowBDM9W1S.jpg",
-      "original": "https://image.tmdb.org/t/p/original/oUwy6xIffGNp94bkiqowBDM9W1S.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w185/ypmtwojDd751Peszi62DVLytqqC.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/ypmtwojDd751Peszi62DVLytqqC.jpg",
+      "original": "https://image.tmdb.org/t/p/original/ypmtwojDd751Peszi62DVLytqqC.jpg"
     },
     "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/8Ye9jv4Ibo5xK6GgWihsec8M94A.jpg",
-      "original": "https://image.tmdb.org/t/p/original/8Ye9jv4Ibo5xK6GgWihsec8M94A.jpg"
+      "medium": "https://image.tmdb.org/t/p/w780/mez2Z3WqlPKNXpi7mWoiiE5guE9.jpg",
+      "original": "https://image.tmdb.org/t/p/original/mez2Z3WqlPKNXpi7mWoiiE5guE9.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/330540/1/1/video_main.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/85552/1/1/video_main.m3u8",
     "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/330540/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/330540/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_330540_s1_e1/index-s1080p-v1-a1.m3u8"
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/85552/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/85552/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_85552_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.699808+00:00"
+    "updated_at": "2026-09-02T06:02:30.749515+00:00"
   },
   {
-    "id": 247168,
+    "id": 298610,
     "type": "tv",
-    "title": "Chad Powers",
-    "original_title": "Chad Powers",
-    "release_year": 2025,
-    "first_air_date": "2025-09-30",
-    "rating": 7.9,
-    "vote_count": 106,
+    "title": "Spooky in Love",
+    "original_title": "오싹한 연애",
+    "release_year": 2026,
+    "first_air_date": "2026-07-18",
+    "rating": 8.7,
+    "vote_count": 72,
     "genres": [
-      "Comedy"
+      "Comedy",
+      "Sci-Fi & Fantasy",
+      "Drama"
     ],
-    "overview": "Eight years after an unforgivable mistake nukes his promising college football career, hotshot quarterback Russ Holliday tries to resurrect his dreams by disguising himself as Chad Powers - a talented oddball who walks on to the struggling South Georgia Catfish.",
+    "overview": "When a ghost-seeing heir and an ace prosecutor learn that a single touch makes them a strangely effective duo, they team up to crack unsolved murders.",
     "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/wgMS8irQKfMrR6mJhKtK6vbxDTC.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/wgMS8irQKfMrR6mJhKtK6vbxDTC.jpg",
-      "original": "https://image.tmdb.org/t/p/original/wgMS8irQKfMrR6mJhKtK6vbxDTC.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w185/acVOH8Pr5LEZ7WKZCbzwNuHVr9x.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/acVOH8Pr5LEZ7WKZCbzwNuHVr9x.jpg",
+      "original": "https://image.tmdb.org/t/p/original/acVOH8Pr5LEZ7WKZCbzwNuHVr9x.jpg"
     },
     "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/lu4HO4kJx2aZzVgjoRcF9vYPaFI.jpg",
-      "original": "https://image.tmdb.org/t/p/original/lu4HO4kJx2aZzVgjoRcF9vYPaFI.jpg"
+      "medium": "https://image.tmdb.org/t/p/w780/p9tpGftvG18M5y5wsBmPrQpVBsd.jpg",
+      "original": "https://image.tmdb.org/t/p/original/p9tpGftvG18M5y5wsBmPrQpVBsd.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/247168/1/1/video_main.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/298610/1/1/video_main.m3u8",
     "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/247168/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/247168/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_247168_s1_e1/index-s1080p-v1-a1.m3u8"
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/298610/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/298610/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_298610_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.699822+00:00"
+    "updated_at": "2026-09-02T06:02:30.749522+00:00"
   },
   {
     "id": 4614,
@@ -1874,68 +1872,72 @@
       "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/4614/1/1/audio_hindi.m3u8",
       "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_4614_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.699828+00:00"
+    "updated_at": "2026-09-02T06:02:30.749527+00:00"
   },
   {
-    "id": 300388,
+    "id": 204255,
     "type": "tv",
-    "title": "Sins and Roses",
-    "original_title": "Güller ve Günahlar",
-    "release_year": 2025,
-    "first_air_date": "2025-10-11",
-    "rating": 7.9,
-    "vote_count": 8,
+    "title": "Graveyard",
+    "original_title": "Mezarlık",
+    "release_year": 2022,
+    "first_air_date": "2022-06-17",
+    "rating": 7.3,
+    "vote_count": 39,
     "genres": [
-      "Drama"
-    ],
-    "overview": "As a boy, Serhat lost both his father and fortune but built an empire on family and integrity. His world shatters when his wife Berrak hides a devastating secret and falls into a coma. While searching for answers, his heart hardens—until he meets Zeynep, a passionate florist chasing the same truth, igniting a journey of trust, passion, and redemption.",
-    "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/3Qwhs7xxf9LILllWLnxbSaCBNDf.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/3Qwhs7xxf9LILllWLnxbSaCBNDf.jpg",
-      "original": "https://image.tmdb.org/t/p/original/3Qwhs7xxf9LILllWLnxbSaCBNDf.jpg"
-    },
-    "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/e2hpVdY2WVJDz3y0nEHszhtR24q.jpg",
-      "original": "https://image.tmdb.org/t/p/original/e2hpVdY2WVJDz3y0nEHszhtR24q.jpg"
-    },
-    "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/300388/1/1/video_main.m3u8",
-    "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/300388/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/300388/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_300388_s1_e1/index-s1080p-v1-a1.m3u8"
-    },
-    "updated_at": "2026-09-02T00:02:26.699835+00:00"
-  },
-  {
-    "id": 285250,
-    "type": "tv",
-    "title": "The Trembling of Cicada",
-    "original_title": "蝉",
-    "release_year": 2026,
-    "first_air_date": "2026-08-20",
-    "rating": 8.0,
-    "vote_count": 2,
-    "genres": [
+      "Crime",
+      "Drama",
       "Mystery"
     ],
-    "overview": "Three legal professionals with troubled pasts become entangled in complex criminal cases, where psychological warfare, hidden agendas, and long-buried secrets blur the line between hunter and prey.",
+    "overview": "Police Commissioner Önem leads a special investigations unit that solves tough cases involving violence against women.",
     "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/cP9JnNiWbJ0dqPtoy5u4wYLQzKj.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/cP9JnNiWbJ0dqPtoy5u4wYLQzKj.jpg",
-      "original": "https://image.tmdb.org/t/p/original/cP9JnNiWbJ0dqPtoy5u4wYLQzKj.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w185/ye6n3GdSaiSy81hiIRvf3vjVv1N.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/ye6n3GdSaiSy81hiIRvf3vjVv1N.jpg",
+      "original": "https://image.tmdb.org/t/p/original/ye6n3GdSaiSy81hiIRvf3vjVv1N.jpg"
     },
     "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/32quYTPi9s0SUITI6xUVkYR1bwf.jpg",
-      "original": "https://image.tmdb.org/t/p/original/32quYTPi9s0SUITI6xUVkYR1bwf.jpg"
+      "medium": "https://image.tmdb.org/t/p/w780/g9Qn9LBk9fKKgxHtPFqkKnglsm8.jpg",
+      "original": "https://image.tmdb.org/t/p/original/g9Qn9LBk9fKKgxHtPFqkKnglsm8.jpg"
     },
     "stream_format": "direct_m3u8_hls",
-    "direct_m3u8_url": "https://movie.streamrip.fun/tv/285250/1/1/video_main.m3u8",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/204255/1/1/video_main.m3u8",
     "direct_m3u8_streams": {
-      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/285250/1/1/video_main.m3u8",
-      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/285250/1/1/audio_hindi.m3u8",
-      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_285250_s1_e1/index-s1080p-v1-a1.m3u8"
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/204255/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/204255/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_204255_s1_e1/index-s1080p-v1-a1.m3u8"
     },
-    "updated_at": "2026-09-02T00:02:26.699841+00:00"
+    "updated_at": "2026-09-02T06:02:30.749532+00:00"
+  },
+  {
+    "id": 45790,
+    "type": "tv",
+    "title": "JoJo's Bizarre Adventure",
+    "original_title": "ジョジョの奇妙な冒険",
+    "release_year": 2012,
+    "first_air_date": "2012-10-06",
+    "rating": 8.6,
+    "vote_count": 1644,
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "overview": "Follow the intergenerational feud between the Joestar Family and various forces of evil, the most prominent of which is Dio Brando and his followers.",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/ogAWwbh3frWtiTyyXrZaVFtqCgp.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/ogAWwbh3frWtiTyyXrZaVFtqCgp.jpg",
+      "original": "https://image.tmdb.org/t/p/original/ogAWwbh3frWtiTyyXrZaVFtqCgp.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/5mUYDoFjDlPmDvnUWSknhYjGBBh.jpg",
+      "original": "https://image.tmdb.org/t/p/original/5mUYDoFjDlPmDvnUWSknhYjGBBh.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/tv/45790/1/1/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/tv/45790/1/1/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/tv/45790/1/1/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_45790_s1_e1/index-s1080p-v1-a1.m3u8"
+    },
+    "updated_at": "2026-09-02T06:02:30.749537+00:00"
   }
 ]
