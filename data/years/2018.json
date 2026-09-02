@@ -9,7 +9,7 @@
     "release_year": 2018,
     "release_date": "2018-04-25",
     "rating": 8.2,
-    "vote_count": 32768,
+    "vote_count": 32771,
     "popularity": 90.4,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -40,6 +40,6 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/299536/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.797721+00:00"
+    "updated_at": "2026-09-02T00:02:25.968712+00:00"
   }
 ]

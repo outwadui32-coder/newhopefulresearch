@@ -9,7 +9,7 @@
     "release_year": 2026,
     "release_date": "2026-07-29",
     "rating": 7.9,
-    "vote_count": 2338,
+    "vote_count": 2343,
     "popularity": 1028.0,
     "runtime_minutes": 145,
     "runtime_formatted": "2h 25m",
@@ -46,7 +46,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/969681/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.472309+00:00"
+    "updated_at": "2026-09-02T00:02:24.119773+00:00"
   },
   {
     "id": 1368337,
@@ -58,7 +58,7 @@
     "release_year": 2026,
     "release_date": "2026-07-15",
     "rating": 8.0,
-    "vote_count": 3380,
+    "vote_count": 3389,
     "popularity": 585.9,
     "runtime_minutes": 173,
     "runtime_formatted": "2h 53m",
@@ -95,7 +95,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1368337/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.472278+00:00"
+    "updated_at": "2026-09-02T00:02:24.119785+00:00"
   },
   {
     "id": 1288445,
@@ -107,7 +107,7 @@
     "release_year": 2026,
     "release_date": "2026-08-19",
     "rating": 6.4,
-    "vote_count": 247,
+    "vote_count": 251,
     "popularity": 413.2,
     "runtime_minutes": 95,
     "runtime_formatted": "1h 35m",
@@ -143,7 +143,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1288445/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.472372+00:00"
+    "updated_at": "2026-09-02T00:02:24.119897+00:00"
   },
   {
     "id": 1516698,
@@ -155,7 +155,7 @@
     "release_year": 2026,
     "release_date": "2026-08-26",
     "rating": 6.7,
-    "vote_count": 81,
+    "vote_count": 86,
     "popularity": 342.0,
     "runtime_minutes": 107,
     "runtime_formatted": "1h 47m",
@@ -191,7 +191,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1516698/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.472398+00:00"
+    "updated_at": "2026-09-02T00:02:24.120118+00:00"
   },
   {
     "id": 1744462,
@@ -203,7 +203,7 @@
     "release_year": 2026,
     "release_date": "2026-08-27",
     "rating": 8.9,
-    "vote_count": 294,
+    "vote_count": 297,
     "popularity": 318.6,
     "runtime_minutes": 27,
     "runtime_formatted": "0h 27m",
@@ -235,7 +235,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1744462/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.795909+00:00"
+    "updated_at": "2026-09-02T00:02:24.528645+00:00"
   },
   {
     "id": 1621552,
@@ -247,7 +247,7 @@
     "release_year": 2026,
     "release_date": "2026-08-21",
     "rating": 8.9,
-    "vote_count": 437,
+    "vote_count": 444,
     "popularity": 306.4,
     "runtime_minutes": 91,
     "runtime_formatted": "1h 31m",
@@ -284,7 +284,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1621552/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.796101+00:00"
+    "updated_at": "2026-09-02T00:02:24.691410+00:00"
   },
   {
     "id": 1213243,
@@ -295,8 +295,8 @@
     "tagline": "",
     "release_year": 2026,
     "release_date": "2026-08-26",
-    "rating": 7.2,
-    "vote_count": 41,
+    "rating": 7.3,
+    "vote_count": 43,
     "popularity": 283.5,
     "runtime_minutes": 195,
     "runtime_formatted": "3h 15m",
@@ -333,7 +333,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1213243/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.680259+00:00"
+    "updated_at": "2026-09-02T00:02:25.844206+00:00"
   },
   {
     "id": 1339713,
@@ -345,7 +345,7 @@
     "release_year": 2026,
     "release_date": "2026-05-13",
     "rating": 8.2,
-    "vote_count": 5219,
+    "vote_count": 5226,
     "popularity": 232.2,
     "runtime_minutes": 109,
     "runtime_formatted": "1h 49m",
@@ -381,7 +381,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1339713/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.472353+00:00"
+    "updated_at": "2026-09-02T00:02:24.119817+00:00"
   },
   {
     "id": 1232569,
@@ -393,7 +393,7 @@
     "release_year": 2026,
     "release_date": "2026-07-22",
     "rating": 6.7,
-    "vote_count": 70,
+    "vote_count": 71,
     "popularity": 231.4,
     "runtime_minutes": 82,
     "runtime_formatted": "1h 22m",
@@ -430,7 +430,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1232569/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.385741+00:00"
+    "updated_at": "2026-09-02T00:02:24.691228+00:00"
   },
   {
     "id": 860508,
@@ -442,7 +442,7 @@
     "release_year": 2026,
     "release_date": "2026-08-27",
     "rating": 6.3,
-    "vote_count": 229,
+    "vote_count": 244,
     "popularity": 227.7,
     "runtime_minutes": 114,
     "runtime_formatted": "1h 54m",
@@ -479,7 +479,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/860508/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.472256+00:00"
+    "updated_at": "2026-09-02T00:02:24.119725+00:00"
   },
   {
     "id": 1323244,
@@ -490,8 +490,8 @@
     "tagline": "",
     "release_year": 2026,
     "release_date": "2026-08-06",
-    "rating": 5.4,
-    "vote_count": 54,
+    "rating": 5.6,
+    "vote_count": 56,
     "popularity": 220.2,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -522,7 +522,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1323244/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.680280+00:00"
+    "updated_at": "2026-09-02T00:02:25.844256+00:00"
   },
   {
     "id": 1084244,
@@ -534,7 +534,7 @@
     "release_year": 2026,
     "release_date": "2026-06-17",
     "rating": 8.3,
-    "vote_count": 1864,
+    "vote_count": 1875,
     "popularity": 213.4,
     "runtime_minutes": 102,
     "runtime_formatted": "1h 42m",
@@ -572,7 +572,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1084244/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.472414+00:00"
+    "updated_at": "2026-09-02T00:02:24.119876+00:00"
   },
   {
     "id": 1108427,
@@ -622,7 +622,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1108427/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:53.282969+00:00"
+    "updated_at": "2026-09-02T00:02:24.846198+00:00"
   },
   {
     "id": 1375646,
@@ -634,7 +634,7 @@
     "release_year": 2026,
     "release_date": "2026-05-21",
     "rating": 8.1,
-    "vote_count": 659,
+    "vote_count": 661,
     "popularity": 176.5,
     "runtime_minutes": 123,
     "runtime_formatted": "2h 3m",
@@ -671,7 +671,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1375646/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.796023+00:00"
+    "updated_at": "2026-09-02T00:02:24.691211+00:00"
   },
   {
     "id": 1315772,
@@ -722,7 +722,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1315772/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.472389+00:00"
+    "updated_at": "2026-09-02T00:02:24.119887+00:00"
   },
   {
     "id": 1204680,
@@ -733,8 +733,8 @@
     "tagline": "The movie ACME doesn't want you to see.",
     "release_year": 2026,
     "release_date": "2026-08-20",
-    "rating": 7.9,
-    "vote_count": 67,
+    "rating": 7.8,
+    "vote_count": 71,
     "popularity": 173.5,
     "runtime_minutes": 103,
     "runtime_formatted": "1h 43m",
@@ -771,7 +771,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1204680/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.472237+00:00"
+    "updated_at": "2026-09-02T00:02:24.119711+00:00"
   },
   {
     "id": 1560520,
@@ -782,8 +782,8 @@
     "tagline": "",
     "release_year": 2026,
     "release_date": "2026-06-23",
-    "rating": 9.1,
-    "vote_count": 155,
+    "rating": 9.0,
+    "vote_count": 156,
     "popularity": 164.1,
     "runtime_minutes": 79,
     "runtime_formatted": "1h 19m",
@@ -823,7 +823,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1560520/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.219309+00:00"
+    "updated_at": "2026-09-02T00:02:24.248305+00:00"
   },
   {
     "id": 1393326,
@@ -834,8 +834,8 @@
     "tagline": "",
     "release_year": 2026,
     "release_date": "2026-04-16",
-    "rating": 7.1,
-    "vote_count": 37,
+    "rating": 7.0,
+    "vote_count": 38,
     "popularity": 149.0,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -866,7 +866,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1393326/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.680309+00:00"
+    "updated_at": "2026-09-02T00:02:25.844272+00:00"
   },
   {
     "id": 1514682,
@@ -916,7 +916,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1514682/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.680328+00:00"
+    "updated_at": "2026-09-02T00:02:25.844287+00:00"
   },
   {
     "id": 1130948,
@@ -959,7 +959,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1130948/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.797474+00:00"
+    "updated_at": "2026-09-02T00:02:25.967743+00:00"
   },
   {
     "id": 1083381,
@@ -971,7 +971,7 @@
     "release_year": 2026,
     "release_date": "2026-05-27",
     "rating": 7.1,
-    "vote_count": 3076,
+    "vote_count": 3083,
     "popularity": 132.2,
     "runtime_minutes": 111,
     "runtime_formatted": "1h 51m",
@@ -1008,7 +1008,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1083381/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.472598+00:00"
+    "updated_at": "2026-09-02T00:02:24.119931+00:00"
   },
   {
     "id": 1384216,
@@ -1020,7 +1020,7 @@
     "release_year": 2026,
     "release_date": "2026-08-26",
     "rating": 6.7,
-    "vote_count": 141,
+    "vote_count": 151,
     "popularity": 120.5,
     "runtime_minutes": 119,
     "runtime_formatted": "1h 59m",
@@ -1057,7 +1057,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1384216/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.472364+00:00"
+    "updated_at": "2026-09-02T00:02:24.119924+00:00"
   },
   {
     "id": 1275779,
@@ -1069,7 +1069,7 @@
     "release_year": 2026,
     "release_date": "2026-06-10",
     "rating": 7.5,
-    "vote_count": 3139,
+    "vote_count": 3144,
     "popularity": 118.8,
     "runtime_minutes": 146,
     "runtime_formatted": "2h 26m",
@@ -1105,7 +1105,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1275779/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:53.072250+00:00"
+    "updated_at": "2026-09-02T00:02:24.248328+00:00"
   },
   {
     "id": 1284465,
@@ -1148,7 +1148,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1284465/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.797681+00:00"
+    "updated_at": "2026-09-02T00:02:25.968637+00:00"
   },
   {
     "id": 87513,
@@ -1159,8 +1159,8 @@
     "tagline": "Love will drive you mad.",
     "release_year": 2026,
     "release_date": "2026-07-23",
-    "rating": 6.4,
-    "vote_count": 89,
+    "rating": 6.3,
+    "vote_count": 90,
     "popularity": 108.8,
     "runtime_minutes": 104,
     "runtime_formatted": "1h 44m",
@@ -1197,7 +1197,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/87513/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.591086+00:00"
+    "updated_at": "2026-09-02T00:02:24.248233+00:00"
   },
   {
     "id": 687163,
@@ -1209,7 +1209,7 @@
     "release_year": 2026,
     "release_date": "2026-03-15",
     "rating": 8.6,
-    "vote_count": 7476,
+    "vote_count": 7484,
     "popularity": 103.0,
     "runtime_minutes": 157,
     "runtime_formatted": "2h 37m",
@@ -1245,7 +1245,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/687163/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.796082+00:00"
+    "updated_at": "2026-09-02T00:02:24.248189+00:00"
   },
   {
     "id": 1432706,
@@ -1256,8 +1256,8 @@
     "tagline": "",
     "release_year": 2026,
     "release_date": "2026-03-06",
-    "rating": 6.6,
-    "vote_count": 15,
+    "rating": 6.3,
+    "vote_count": 16,
     "popularity": 102.6,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -1287,29 +1287,35 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1432706/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.797691+00:00"
+    "updated_at": "2026-09-02T00:02:25.968665+00:00"
   },
   {
     "id": 1273221,
-    "imdb_id": null,
+    "imdb_id": "tt32093575",
     "type": "movie",
     "title": "Scary Movie",
     "original_title": "Scary Movie",
-    "tagline": "",
+    "tagline": "Every line will be crossed.",
     "release_year": 2026,
     "release_date": "2026-06-03",
     "rating": 6.4,
-    "vote_count": 1771,
+    "vote_count": 1775,
     "popularity": 95.9,
-    "runtime_minutes": null,
-    "runtime_formatted": null,
+    "runtime_minutes": 96,
+    "runtime_formatted": "1h 36m",
     "genres": [
       "Comedy"
     ],
     "overview": "Twenty-six years after outrunning a suspiciously familiar masked killer, the Core Four are back in the killer's crosshairs and no horror movie IP is safe.",
-    "cast": [],
-    "trailer_url": null,
-    "trailer_youtube_id": null,
+    "cast": [
+      "Marlon Wayans",
+      "Shawn Wayans",
+      "Anna Faris",
+      "Regina Hall",
+      "Olivia Rose Keegan"
+    ],
+    "trailer_url": "https://www.youtube.com/watch?v=Cnz2kOZHZZo",
+    "trailer_youtube_id": "Cnz2kOZHZZo",
     "poster": {
       "thumbnail": "https://image.tmdb.org/t/p/w185/znHT8peERZRWG1ME3r0Db0EV8k8.jpg",
       "medium": "https://image.tmdb.org/t/p/w500/znHT8peERZRWG1ME3r0Db0EV8k8.jpg",
@@ -1328,7 +1334,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1273221/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.797714+00:00"
+    "updated_at": "2026-09-02T00:02:25.571959+00:00"
   },
   {
     "id": 1081003,
@@ -1340,7 +1346,7 @@
     "release_year": 2026,
     "release_date": "2026-06-24",
     "rating": 6.7,
-    "vote_count": 2120,
+    "vote_count": 2121,
     "popularity": 90.0,
     "runtime_minutes": 108,
     "runtime_formatted": "1h 48m",
@@ -1377,7 +1383,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1081003/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.912220+00:00"
+    "updated_at": "2026-09-02T00:02:24.248252+00:00"
   },
   {
     "id": 1594914,
@@ -1419,7 +1425,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1594914/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.797744+00:00"
+    "updated_at": "2026-09-02T00:02:25.968727+00:00"
   },
   {
     "id": 1212461,
@@ -1430,8 +1436,8 @@
     "tagline": "",
     "release_year": 2026,
     "release_date": "2026-01-09",
-    "rating": 6.0,
-    "vote_count": 20,
+    "rating": 6.1,
+    "vote_count": 21,
     "popularity": 86.4,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -1462,7 +1468,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1212461/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.797751+00:00"
+    "updated_at": "2026-09-02T00:02:25.968742+00:00"
   },
   {
     "id": 454639,
@@ -1474,7 +1480,7 @@
     "release_year": 2026,
     "release_date": "2026-06-03",
     "rating": 7.2,
-    "vote_count": 2018,
+    "vote_count": 2020,
     "popularity": 84.7,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -1505,7 +1511,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/454639/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.797758+00:00"
+    "updated_at": "2026-09-02T00:02:25.968755+00:00"
   },
   {
     "id": 1212763,
@@ -1517,7 +1523,7 @@
     "release_year": 2026,
     "release_date": "2026-07-07",
     "rating": 7.8,
-    "vote_count": 1383,
+    "vote_count": 1392,
     "popularity": 84.2,
     "runtime_minutes": 110,
     "runtime_formatted": "1h 50m",
@@ -1552,7 +1558,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1212763/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.591066+00:00"
+    "updated_at": "2026-09-02T00:02:24.248277+00:00"
   },
   {
     "id": 1698863,
@@ -1564,7 +1570,7 @@
     "release_year": 2026,
     "release_date": "2026-07-03",
     "rating": 4.0,
-    "vote_count": 433,
+    "vote_count": 437,
     "popularity": 83.9,
     "runtime_minutes": 86,
     "runtime_formatted": "1h 26m",
@@ -1601,7 +1607,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1698863/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:53.611821+00:00"
+    "updated_at": "2026-09-02T00:02:24.691386+00:00"
   },
   {
     "id": 1101383,
@@ -1613,7 +1619,7 @@
     "release_year": 2026,
     "release_date": "2026-08-12",
     "rating": 6.4,
-    "vote_count": 422,
+    "vote_count": 424,
     "popularity": 83.4,
     "runtime_minutes": 99,
     "runtime_formatted": "1h 39m",
@@ -1650,7 +1656,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1101383/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.591059+00:00"
+    "updated_at": "2026-09-02T00:02:24.248179+00:00"
   },
   {
     "id": 1284041,
@@ -1662,7 +1668,7 @@
     "release_year": 2026,
     "release_date": "2026-08-06",
     "rating": 6.9,
-    "vote_count": 1185,
+    "vote_count": 1186,
     "popularity": 82.9,
     "runtime_minutes": 110,
     "runtime_formatted": "1h 50m",
@@ -1699,22 +1705,22 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1284041/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.917826+00:00"
+    "updated_at": "2026-09-02T00:02:24.691245+00:00"
   },
   {
     "id": 980431,
-    "imdb_id": null,
+    "imdb_id": "tt18259538",
     "type": "movie",
     "title": "Avatar Aang: The Last Airbender",
     "original_title": "Avatar Aang: The Last Airbender",
-    "tagline": "",
+    "tagline": "The legacy reawakens.",
     "release_year": 2026,
     "release_date": "2026-07-24",
     "rating": 9.2,
     "vote_count": 1029,
     "popularity": 82.3,
-    "runtime_minutes": null,
-    "runtime_formatted": null,
+    "runtime_minutes": 99,
+    "runtime_formatted": "1h 39m",
     "genres": [
       "Animation",
       "Action",
@@ -1722,9 +1728,15 @@
       "Fantasy"
     ],
     "overview": "Avatar Aang, the world's last Airbender, learns of an ancient power that could save his culture from extinction. With the help of his friends, he embarks on a global quest to find it before it falls into the wrong hands and threatens to upend the peace they sacrificed everything to achieve.",
-    "cast": [],
-    "trailer_url": null,
-    "trailer_youtube_id": null,
+    "cast": [
+      "Eric Nam",
+      "Dave Bautista",
+      "Jessica Matten",
+      "Román Zaragoza",
+      "Steven Yeun"
+    ],
+    "trailer_url": "https://www.youtube.com/watch?v=7b20GRFZBFE",
+    "trailer_youtube_id": "7b20GRFZBFE",
     "poster": {
       "thumbnail": "https://image.tmdb.org/t/p/w185/3sgnSfNT27Bx5O5ukr7B26mhEQq.jpg",
       "medium": "https://image.tmdb.org/t/p/w500/3sgnSfNT27Bx5O5ukr7B26mhEQq.jpg",
@@ -1743,7 +1755,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/980431/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.917836+00:00"
+    "updated_at": "2026-09-02T00:02:25.019188+00:00"
   },
   {
     "id": 1127384,
@@ -1755,7 +1767,7 @@
     "release_year": 2026,
     "release_date": "2026-04-30",
     "rating": 7.1,
-    "vote_count": 451,
+    "vote_count": 453,
     "popularity": 81.2,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -1785,7 +1797,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1127384/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.917844+00:00"
+    "updated_at": "2026-09-02T00:02:26.084874+00:00"
   },
   {
     "id": 1599993,
@@ -1827,7 +1839,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1599993/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.917860+00:00"
+    "updated_at": "2026-09-02T00:02:26.084887+00:00"
   },
   {
     "id": 1631807,
@@ -1839,7 +1851,7 @@
     "release_year": 2026,
     "release_date": "2026-08-28",
     "rating": 6.3,
-    "vote_count": 36,
+    "vote_count": 38,
     "popularity": 77.2,
     "runtime_minutes": 119,
     "runtime_formatted": "1h 59m",
@@ -1876,7 +1888,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1631807/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.472422+00:00"
+    "updated_at": "2026-09-02T00:02:24.248170+00:00"
   },
   {
     "id": 1612018,
@@ -1919,7 +1931,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1612018/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.917876+00:00"
+    "updated_at": "2026-09-02T00:02:26.084972+00:00"
   },
   {
     "id": 1523145,
@@ -1960,7 +1972,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1523145/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.917893+00:00"
+    "updated_at": "2026-09-02T00:02:26.084994+00:00"
   },
   {
     "id": 936075,
@@ -1972,7 +1984,7 @@
     "release_year": 2026,
     "release_date": "2026-04-22",
     "rating": 8.7,
-    "vote_count": 4230,
+    "vote_count": 4232,
     "popularity": 73.9,
     "runtime_minutes": 128,
     "runtime_formatted": "2h 8m",
@@ -2008,7 +2020,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/936075/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.385698+00:00"
+    "updated_at": "2026-09-02T00:02:25.404495+00:00"
   },
   {
     "id": 1291595,
@@ -2020,7 +2032,7 @@
     "release_year": 2026,
     "release_date": "2026-08-19",
     "rating": 6.6,
-    "vote_count": 93,
+    "vote_count": 95,
     "popularity": 73.4,
     "runtime_minutes": 106,
     "runtime_formatted": "1h 46m",
@@ -2056,7 +2068,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1291595/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.591074+00:00"
+    "updated_at": "2026-09-02T00:02:24.248201+00:00"
   },
   {
     "id": 1314481,
@@ -2068,7 +2080,7 @@
     "release_year": 2026,
     "release_date": "2026-04-29",
     "rating": 7.1,
-    "vote_count": 2241,
+    "vote_count": 2242,
     "popularity": 72.5,
     "runtime_minutes": 119,
     "runtime_formatted": "1h 59m",
@@ -2104,7 +2116,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1314481/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.562049+00:00"
+    "updated_at": "2026-09-02T00:02:25.572052+00:00"
   },
   {
     "id": 964849,
@@ -2115,8 +2127,8 @@
     "tagline": "",
     "release_year": 2026,
     "release_date": "2026-07-01",
-    "rating": 6.1,
-    "vote_count": 89,
+    "rating": 6.0,
+    "vote_count": 90,
     "popularity": 69.2,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -2145,7 +2157,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/964849/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.917916+00:00"
+    "updated_at": "2026-09-02T00:02:26.085025+00:00"
   },
   {
     "id": 1226863,
@@ -2157,7 +2169,7 @@
     "release_year": 2026,
     "release_date": "2026-04-01",
     "rating": 8.2,
-    "vote_count": 3585,
+    "vote_count": 3588,
     "popularity": 67.6,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -2190,7 +2202,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1226863/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.917944+00:00"
+    "updated_at": "2026-09-02T00:02:26.085082+00:00"
   },
   {
     "id": 1727780,
@@ -2243,7 +2255,7 @@
     "release_year": 2026,
     "release_date": "2026-05-20",
     "rating": 7.5,
-    "vote_count": 1425,
+    "vote_count": 1428,
     "popularity": 61.8,
     "runtime_minutes": 132,
     "runtime_formatted": "2h 12m",
@@ -2280,7 +2292,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1228710/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.385750+00:00"
+    "updated_at": "2026-09-02T00:02:25.404465+00:00"
   },
   {
     "id": 1003596,
@@ -2329,7 +2341,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1003596/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.795947+00:00"
+    "updated_at": "2026-09-02T00:02:24.248242+00:00"
   },
   {
     "id": 1314826,
@@ -2419,7 +2431,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1729723/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.385721+00:00"
+    "updated_at": "2026-09-02T00:02:25.281331+00:00"
   },
   {
     "id": 950028,
@@ -2431,7 +2443,7 @@
     "release_year": 2026,
     "release_date": "2026-06-25",
     "rating": 7.3,
-    "vote_count": 401,
+    "vote_count": 407,
     "popularity": 56.0,
     "runtime_minutes": 107,
     "runtime_formatted": "1h 47m",
@@ -2468,7 +2480,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/950028/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.591041+00:00"
+    "updated_at": "2026-09-02T00:02:24.248135+00:00"
   },
   {
     "id": 1280738,
@@ -2529,7 +2541,7 @@
     "release_year": 2026,
     "release_date": "2026-04-30",
     "rating": 7.9,
-    "vote_count": 1563,
+    "vote_count": 1567,
     "popularity": 52.9,
     "runtime_minutes": 109,
     "runtime_formatted": "1h 49m",
@@ -2566,7 +2578,56 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1301421/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T12:02:14.783234+00:00"
+    "updated_at": "2026-09-02T00:02:25.572029+00:00"
+  },
+  {
+    "id": 931285,
+    "imdb_id": "tt17490712",
+    "type": "movie",
+    "title": "Mortal Kombat II",
+    "original_title": "Mortal Kombat II",
+    "tagline": "Their fight. Our future.",
+    "release_year": 2026,
+    "release_date": "2026-05-06",
+    "rating": 7.8,
+    "vote_count": 2494,
+    "popularity": 49.0,
+    "runtime_minutes": 116,
+    "runtime_formatted": "1h 56m",
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Adventure"
+    ],
+    "overview": "The fan favorite champions—now joined by Johnny Cage himself—are pitted against one another in the ultimate, no-holds barred, gory battle to defeat the dark rule of Shao Kahn that threatens the very existence of the Earthrealm and its defenders.",
+    "cast": [
+      "Karl Urban",
+      "Adeline Rudolph",
+      "Ludi Lin",
+      "Jessica McNamee",
+      "Josh Lawson"
+    ],
+    "trailer_url": "https://www.youtube.com/watch?v=qGyIEis2T2o",
+    "trailer_youtube_id": "qGyIEis2T2o",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
+      "original": "https://image.tmdb.org/t/p/original/hwRdDFIhaEmpRgoki805YvyyjZf.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/4EAAwpylq313qrDqpCxulUrXBNF.jpg",
+      "original": "https://image.tmdb.org/t/p/original/4EAAwpylq313qrDqpCxulUrXBNF.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/931285/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/931285/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/931285/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_931285/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/931285/720/index_308.m3u8"
+    },
+    "health_status": "online",
+    "updated_at": "2026-09-02T00:02:25.727233+00:00"
   },
   {
     "id": 1007757,
@@ -2578,7 +2639,7 @@
     "release_year": 2026,
     "release_date": "2026-05-01",
     "rating": 8.9,
-    "vote_count": 2147,
+    "vote_count": 2150,
     "popularity": 48.8,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -2610,7 +2671,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1007757/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:55.037288+00:00"
+    "updated_at": "2026-09-02T00:02:26.205592+00:00"
   },
   {
     "id": 1514026,
@@ -2622,7 +2683,7 @@
     "release_year": 2026,
     "release_date": "2026-08-27",
     "rating": 8.5,
-    "vote_count": 22,
+    "vote_count": 23,
     "popularity": 48.4,
     "runtime_minutes": 95,
     "runtime_formatted": "1h 35m",
@@ -2658,7 +2719,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1514026/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.472381+00:00"
+    "updated_at": "2026-09-02T00:02:24.119905+00:00"
   },
   {
     "id": 1122573,
@@ -2670,7 +2731,7 @@
     "release_year": 2026,
     "release_date": "2026-05-13",
     "rating": 7.6,
-    "vote_count": 849,
+    "vote_count": 855,
     "popularity": 43.6,
     "runtime_minutes": 97,
     "runtime_formatted": "1h 37m",
@@ -2706,7 +2767,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1122573/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.796092+00:00"
+    "updated_at": "2026-09-02T00:02:24.248295+00:00"
   },
   {
     "id": 1471168,
@@ -2851,7 +2912,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1101412/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.591111+00:00"
+    "updated_at": "2026-09-02T00:02:24.248314+00:00"
   },
   {
     "id": 1122030,
@@ -2947,7 +3008,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1294189/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.472329+00:00"
+    "updated_at": "2026-09-02T00:02:24.119802+00:00"
   },
   {
     "id": 1433367,
@@ -2958,8 +3019,8 @@
     "tagline": "12 hours can change everything.",
     "release_year": 2026,
     "release_date": "2026-07-28",
-    "rating": 6.9,
-    "vote_count": 54,
+    "rating": 7.0,
+    "vote_count": 57,
     "popularity": 30.4,
     "runtime_minutes": 102,
     "runtime_formatted": "1h 42m",
@@ -2995,7 +3056,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1433367/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:53.447926+00:00"
+    "updated_at": "2026-09-02T00:02:24.691369+00:00"
   },
   {
     "id": 1242332,
@@ -3007,7 +3068,7 @@
     "release_year": 2026,
     "release_date": "2026-04-16",
     "rating": 7.3,
-    "vote_count": 539,
+    "vote_count": 541,
     "popularity": 30.2,
     "runtime_minutes": 91,
     "runtime_formatted": "1h 31m",
@@ -3045,7 +3106,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1242332/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:53.447942+00:00"
+    "updated_at": "2026-09-02T00:02:25.404509+00:00"
   },
   {
     "id": 1383731,
@@ -3105,7 +3166,7 @@
     "release_year": 2026,
     "release_date": "2026-08-06",
     "rating": 6.7,
-    "vote_count": 86,
+    "vote_count": 88,
     "popularity": 24.7,
     "runtime_minutes": 112,
     "runtime_formatted": "1h 52m",
@@ -3142,7 +3203,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1240889/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:53.611848+00:00"
+    "updated_at": "2026-09-02T00:02:24.691356+00:00"
   },
   {
     "id": 1423191,
@@ -3190,7 +3251,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1423191/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.472343+00:00"
+    "updated_at": "2026-09-02T00:02:24.119828+00:00"
   },
   {
     "id": 1632181,
@@ -3232,7 +3293,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1632181/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:55.037299+00:00"
+    "updated_at": "2026-09-02T00:02:26.205578+00:00"
   },
   {
     "id": 1477712,
@@ -3280,7 +3341,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1477712/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:53.778655+00:00"
+    "updated_at": "2026-09-02T00:02:24.248145+00:00"
   },
   {
     "id": 1330021,
@@ -3322,7 +3383,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1330021/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:55.160117+00:00"
+    "updated_at": "2026-09-02T00:02:26.326771+00:00"
   },
   {
     "id": 1302904,
@@ -3359,8 +3420,8 @@
       "original": "https://image.tmdb.org/t/p/original/2lSf1aoZA6UpTEBxVGqnJ7QayIP.jpg"
     },
     "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/Ao7Q6CMDiVheAqVyKV8vUI8yata.jpg",
-      "original": "https://image.tmdb.org/t/p/original/Ao7Q6CMDiVheAqVyKV8vUI8yata.jpg"
+      "medium": "https://image.tmdb.org/t/p/w780/wE6syT1vv6W24iLGfhR4kQHnIDN.jpg",
+      "original": "https://image.tmdb.org/t/p/original/wE6syT1vv6W24iLGfhR4kQHnIDN.jpg"
     },
     "stream_format": "direct_m3u8_hls",
     "direct_m3u8_url": "https://movie.streamrip.fun/movies/1302904/video_main.m3u8",
@@ -3371,7 +3432,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1302904/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.472608+00:00"
+    "updated_at": "2026-09-02T00:02:24.119916+00:00"
   },
   {
     "id": 1305672,
@@ -3514,7 +3575,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1391021/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.591029+00:00"
+    "updated_at": "2026-09-02T00:02:24.248285+00:00"
   },
   {
     "id": 1671548,
@@ -3609,7 +3670,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1263337/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:53.282953+00:00"
+    "updated_at": "2026-09-02T00:02:24.691138+00:00"
   },
   {
     "id": 1288059,
@@ -3621,7 +3682,7 @@
     "release_year": 2026,
     "release_date": "2026-07-29",
     "rating": 6.3,
-    "vote_count": 23,
+    "vote_count": 25,
     "popularity": 14.8,
     "runtime_minutes": 90,
     "runtime_formatted": "1h 30m",
@@ -3656,7 +3717,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1288059/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.472289+00:00"
+    "updated_at": "2026-09-02T00:02:24.119751+00:00"
   },
   {
     "id": 1465063,
@@ -3707,7 +3768,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1465063/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:53.778709+00:00"
+    "updated_at": "2026-09-02T00:02:24.691424+00:00"
   },
   {
     "id": 1550338,
@@ -3755,7 +3816,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1550338/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:53.283003+00:00"
+    "updated_at": "2026-09-02T00:02:25.727286+00:00"
   },
   {
     "id": 910850,
@@ -3805,7 +3866,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/910850/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.795973+00:00"
+    "updated_at": "2026-09-02T00:02:24.248266+00:00"
   },
   {
     "id": 1439808,
@@ -3854,7 +3915,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1439808/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.385768+00:00"
+    "updated_at": "2026-09-02T00:02:25.572072+00:00"
   },
   {
     "id": 445466,
@@ -3999,7 +4060,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1284046/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.591097+00:00"
+    "updated_at": "2026-09-02T00:02:24.248121+00:00"
   },
   {
     "id": 192139,
@@ -4010,8 +4071,8 @@
     "tagline": "Not all battles are fought with bullets.",
     "release_year": 2026,
     "release_date": "2026-08-14",
-    "rating": 7.6,
-    "vote_count": 8,
+    "rating": 8.0,
+    "vote_count": 7,
     "popularity": 9.7,
     "runtime_minutes": 117,
     "runtime_formatted": "1h 57m",
@@ -4049,7 +4110,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/192139/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.591008+00:00"
+    "updated_at": "2026-09-02T00:02:24.119840+00:00"
   },
   {
     "id": 1248832,
@@ -4145,7 +4206,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1380417/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.796125+00:00"
+    "updated_at": "2026-09-02T00:02:24.691187+00:00"
   },
   {
     "id": 1153576,
@@ -4193,7 +4254,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1153576/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:53.282916+00:00"
+    "updated_at": "2026-09-02T00:02:24.120129+00:00"
   },
   {
     "id": 1375441,
@@ -4242,7 +4303,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1375441/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:53.447882+00:00"
+    "updated_at": "2026-09-02T00:02:24.846164+00:00"
   },
   {
     "id": 1519320,
@@ -4352,7 +4413,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1386315/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:53.072210+00:00"
+    "updated_at": "2026-09-02T00:02:25.019267+00:00"
   },
   {
     "id": 1479537,
@@ -4422,7 +4483,7 @@
     "id": 1422041,
     "imdb_id": "tt35511966",
     "type": "movie",
-    "title": "La Bola Negra",
+    "title": "La bola negra",
     "original_title": "La bola negra",
     "tagline": "",
     "release_year": 2026,
@@ -4447,9 +4508,9 @@
     "trailer_url": "https://www.youtube.com/watch?v=IRHtqjHYPew",
     "trailer_youtube_id": "IRHtqjHYPew",
     "poster": {
-      "thumbnail": "https://image.tmdb.org/t/p/w185/ejdmZvrL5eqhQlV1gWWyZAIKDbY.jpg",
-      "medium": "https://image.tmdb.org/t/p/w500/ejdmZvrL5eqhQlV1gWWyZAIKDbY.jpg",
-      "original": "https://image.tmdb.org/t/p/original/ejdmZvrL5eqhQlV1gWWyZAIKDbY.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w185/jT5SR5qc9KvVg7HUEmjMWEUYMce.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/jT5SR5qc9KvVg7HUEmjMWEUYMce.jpg",
+      "original": "https://image.tmdb.org/t/p/original/jT5SR5qc9KvVg7HUEmjMWEUYMce.jpg"
     },
     "backdrop": {
       "medium": "https://image.tmdb.org/t/p/w780/wM4LLukeBIfhjn7LcVP6VIced4p.jpg",
@@ -4464,7 +4525,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1422041/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:53.611784+00:00"
+    "updated_at": "2026-09-02T00:02:24.691398+00:00"
   },
   {
     "id": 1480574,
@@ -4476,7 +4537,7 @@
     "release_year": 2026,
     "release_date": "2026-08-28",
     "rating": 7.4,
-    "vote_count": 8,
+    "vote_count": 10,
     "popularity": 5.0,
     "runtime_minutes": 96,
     "runtime_formatted": "1h 36m",
@@ -4500,8 +4561,8 @@
       "original": "https://image.tmdb.org/t/p/original/glALx6QaIgw1u4joXsnfHTjWi6D.jpg"
     },
     "backdrop": {
-      "medium": "https://image.tmdb.org/t/p/w780/tieojVpH6eW44JQOQEWnf8t4khG.jpg",
-      "original": "https://image.tmdb.org/t/p/original/tieojVpH6eW44JQOQEWnf8t4khG.jpg"
+      "medium": "https://image.tmdb.org/t/p/w780/lBWfbmUj9Jw0EM1OYtDXr0B5FPW.jpg",
+      "original": "https://image.tmdb.org/t/p/original/lBWfbmUj9Jw0EM1OYtDXr0B5FPW.jpg"
     },
     "stream_format": "direct_m3u8_hls",
     "direct_m3u8_url": "https://movie.streamrip.fun/movies/1480574/video_main.m3u8",
@@ -4512,7 +4573,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1480574/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.472204+00:00"
+    "updated_at": "2026-09-02T00:02:24.119679+00:00"
   },
   {
     "id": 1462861,
@@ -4560,7 +4621,55 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1462861/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.591103+00:00"
+    "updated_at": "2026-09-02T00:02:24.248222+00:00"
+  },
+  {
+    "id": 1309396,
+    "imdb_id": "tt36749000",
+    "type": "movie",
+    "title": "The Doll",
+    "original_title": "La Poupée",
+    "tagline": "",
+    "release_year": 2026,
+    "release_date": "2026-04-22",
+    "rating": 6.1,
+    "vote_count": 29,
+    "popularity": 4.4,
+    "runtime_minutes": 100,
+    "runtime_formatted": "1h 40m",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "overview": "Eastern France, nowadays.  Rémi, who has never recovered from a heartbreak, shares his life with a doll called Audrey. But the day his new coworker, Patricia, arrives at his company, Audrey comes to life. The two women will turn Rémi’s life upside down.",
+    "cast": [
+      "Vincent Macaigne",
+      "Cécile de France",
+      "Zoé Marchal",
+      "Adèle Journeaux",
+      "Gilbert Melki"
+    ],
+    "trailer_url": "https://www.youtube.com/watch?v=WVBUUcdHENs",
+    "trailer_youtube_id": "WVBUUcdHENs",
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/beVlVuYI0ZVb9AMyxwbQlUvaiqp.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/beVlVuYI0ZVb9AMyxwbQlUvaiqp.jpg",
+      "original": "https://image.tmdb.org/t/p/original/beVlVuYI0ZVb9AMyxwbQlUvaiqp.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/qNtbEnmHjNDwhdgzgaIhn7BLLk9.jpg",
+      "original": "https://image.tmdb.org/t/p/original/qNtbEnmHjNDwhdgzgaIhn7BLLk9.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1309396/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1309396/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1309396/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1309396/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1309396/720/index_308.m3u8"
+    },
+    "health_status": "online",
+    "updated_at": "2026-09-02T00:02:24.846106+00:00"
   },
   {
     "id": 1433583,
@@ -4609,7 +4718,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1433583/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.796113+00:00"
+    "updated_at": "2026-09-02T00:02:24.248211+00:00"
   },
   {
     "id": 1226699,
@@ -4621,7 +4730,7 @@
     "release_year": 2026,
     "release_date": "2026-08-14",
     "rating": 5.9,
-    "vote_count": 9,
+    "vote_count": 10,
     "popularity": 4.0,
     "runtime_minutes": 99,
     "runtime_formatted": "1h 39m",
@@ -4658,7 +4767,54 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1226699/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.472299+00:00"
+    "updated_at": "2026-09-02T00:02:24.119762+00:00"
+  },
+  {
+    "id": 1257147,
+    "imdb_id": "tt37458193",
+    "type": "movie",
+    "title": "My Best Friend",
+    "original_title": "Minha Melhor Amiga",
+    "tagline": "",
+    "release_year": 2026,
+    "release_date": "2026-09-03",
+    "rating": 0.0,
+    "vote_count": 0,
+    "popularity": 3.3,
+    "runtime_minutes": null,
+    "runtime_formatted": null,
+    "genres": [
+      "Comedy"
+    ],
+    "overview": "The film will talk about women redefining their lives at 50, covering topics such as menopause, changing professions and separation.",
+    "cast": [
+      "Mônica Martelli",
+      "Ingrid Guimarães",
+      "Giulia Benite",
+      "Gabi Amaral",
+      "Gustavo Machado"
+    ],
+    "trailer_url": null,
+    "trailer_youtube_id": null,
+    "poster": {
+      "thumbnail": "https://image.tmdb.org/t/p/w185/wGfTFVeguXDXYrwPQ8QMFsaSK2M.jpg",
+      "medium": "https://image.tmdb.org/t/p/w500/wGfTFVeguXDXYrwPQ8QMFsaSK2M.jpg",
+      "original": "https://image.tmdb.org/t/p/original/wGfTFVeguXDXYrwPQ8QMFsaSK2M.jpg"
+    },
+    "backdrop": {
+      "medium": "https://image.tmdb.org/t/p/w780/1TWjcJmcmhCntrcjwiWbM6jQcni.jpg",
+      "original": "https://image.tmdb.org/t/p/original/1TWjcJmcmhCntrcjwiWbM6jQcni.jpg"
+    },
+    "stream_format": "direct_m3u8_hls",
+    "direct_m3u8_url": "https://movie.streamrip.fun/movies/1257147/video_main.m3u8",
+    "direct_m3u8_streams": {
+      "streamrip_1080p_video": "https://movie.streamrip.fun/movies/1257147/video_main.m3u8",
+      "streamrip_hindi_audio": "https://movie.streamrip.fun/movies/1257147/audio_hindi.m3u8",
+      "peakstorm_1080p_master": "https://moon.peakstorm.top/vd/tmdb_1257147/index-s1080p-v1-a1.m3u8",
+      "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1257147/720/index_308.m3u8"
+    },
+    "health_status": "online",
+    "updated_at": "2026-09-02T00:02:24.691014+00:00"
   },
   {
     "id": 1742458,
@@ -4706,7 +4862,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1742458/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.472406+00:00"
+    "updated_at": "2026-09-02T00:02:24.248084+00:00"
   },
   {
     "id": 1739202,
@@ -4717,8 +4873,8 @@
     "tagline": "",
     "release_year": 2026,
     "release_date": "2026-09-01",
-    "rating": 0.0,
-    "vote_count": 0,
+    "rating": 7.0,
+    "vote_count": 1,
     "popularity": 1.7,
     "runtime_minutes": 72,
     "runtime_formatted": "1h 12m",
@@ -4749,6 +4905,6 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1739202/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.796012+00:00"
+    "updated_at": "2026-09-02T00:02:24.691111+00:00"
   }
 ]

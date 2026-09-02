@@ -40,7 +40,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1612018/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.917876+00:00"
+    "updated_at": "2026-09-02T00:02:26.084972+00:00"
   },
   {
     "id": 1739202,
@@ -51,8 +51,8 @@
     "tagline": "",
     "release_year": 2026,
     "release_date": "2026-09-01",
-    "rating": 0.0,
-    "vote_count": 0,
+    "rating": 7.0,
+    "vote_count": 1,
     "popularity": 1.7,
     "runtime_minutes": 72,
     "runtime_formatted": "1h 12m",
@@ -83,6 +83,6 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1739202/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:52.796012+00:00"
+    "updated_at": "2026-09-02T00:02:24.691111+00:00"
   }
 ]

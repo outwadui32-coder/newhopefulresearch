@@ -9,7 +9,7 @@
     "release_year": 2021,
     "release_date": "2021-12-15",
     "rating": 7.9,
-    "vote_count": 22950,
+    "vote_count": 22960,
     "popularity": 135.8,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -40,7 +40,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/634649/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.680301+00:00"
+    "updated_at": "2026-09-02T00:02:25.844297+00:00"
   },
   {
     "id": 667257,
@@ -82,6 +82,6 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/667257/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:55.160180+00:00"
+    "updated_at": "2026-09-02T00:02:26.326840+00:00"
   }
 ]

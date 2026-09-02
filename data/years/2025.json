@@ -9,7 +9,7 @@
     "release_year": 2025,
     "release_date": "2025-07-29",
     "rating": 4.0,
-    "vote_count": 1113,
+    "vote_count": 1114,
     "popularity": 97.8,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -39,7 +39,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/755898/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.797706+00:00"
+    "updated_at": "2026-09-02T00:02:25.968697+00:00"
   },
   {
     "id": 1311031,
@@ -51,7 +51,7 @@
     "release_year": 2025,
     "release_date": "2025-07-18",
     "rating": 8.8,
-    "vote_count": 2032,
+    "vote_count": 2035,
     "popularity": 83.1,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -82,7 +82,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1311031/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.917801+00:00"
+    "updated_at": "2026-09-02T00:02:26.084822+00:00"
   },
   {
     "id": 83533,
@@ -94,7 +94,7 @@
     "release_year": 2025,
     "release_date": "2025-12-17",
     "rating": 7.7,
-    "vote_count": 4243,
+    "vote_count": 4245,
     "popularity": 78.8,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -125,7 +125,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/83533/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.917869+00:00"
+    "updated_at": "2026-09-02T00:02:26.084899+00:00"
   },
   {
     "id": 1084242,
@@ -170,7 +170,7 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1084242/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:54.917885+00:00"
+    "updated_at": "2026-09-02T00:02:26.084983+00:00"
   },
   {
     "id": 1218925,
@@ -182,7 +182,7 @@
     "release_year": 2025,
     "release_date": "2025-09-19",
     "rating": 8.5,
-    "vote_count": 1146,
+    "vote_count": 1147,
     "popularity": 36.1,
     "runtime_minutes": null,
     "runtime_formatted": null,
@@ -214,6 +214,6 @@
       "kucwn_720p_stream": "https://img1.kucwn.com/hls_mps/1218925/720/index_308.m3u8"
     },
     "health_status": "online",
-    "updated_at": "2026-09-01T18:01:55.037400+00:00"
+    "updated_at": "2026-09-02T00:02:26.205783+00:00"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "total_movies": 145,
+  "total_movies": 148,
   "total_tv_shows": 60,
   "total_genres": 19,
   "years_covered": [
@@ -35,7 +35,7 @@
     1957,
     1954
   ],
-  "last_updated": "2026-09-01T18:01:55.552406+00:00",
+  "last_updated": "2026-09-02T00:02:26.749936+00:00",
   "stream_architecture": "100% Pure Direct .m3u8 Streams (Zero Embeds / Zero Ads)",
   "streams_available": [
     "StreamRip 1080p Video Main (.m3u8)",
