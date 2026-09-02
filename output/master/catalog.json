@@ -1,0 +1,276 @@
+{
+  "summary": {
+    "CATEGORY": "MASTER",
+    "DISCOVERED": 2470,
+    "PROCESSED": 0,
+    "SUCCESSFUL": 0,
+    "FAILED": 0,
+    "MOVIES": 0,
+    "SERIES": 0,
+    "EPISODES": 0,
+    "BATCH_SIZE": 0,
+    "BROWSER_SCANNED": 0,
+    "REUSED": 0,
+    "STREAM_LINKS": 0,
+    "UNIQUE_STREAM_URLS": 0,
+    "REMAINING_NEW_ITEMS": 0,
+    "NEXT_CATEGORY": "Home: The Runner",
+    "LAST_UPDATED": "2026-09-02T09:48:58.428Z"
+  },
+  "categories": [
+    {
+      "id": "collection:home-home",
+      "name": "Home: Home",
+      "type": "collection",
+      "surface": "Home",
+      "url": "https://redflix.co/"
+    },
+    {
+      "id": "collection:home-the-runner",
+      "name": "Home: The Runner",
+      "type": "collection",
+      "surface": "Home",
+      "url": "https://redflix.co/"
+    },
+    {
+      "id": "collection:home-top-10-today",
+      "name": "Home: Top 10 Today",
+      "type": "collection",
+      "surface": "Home",
+      "url": "https://redflix.co/"
+    },
+    {
+      "id": "collection:home-trending-in-united-states",
+      "name": "Home: Trending in United States",
+      "type": "collection",
+      "surface": "Home",
+      "url": "https://redflix.co/"
+    },
+    {
+      "id": "collection:home-new-releases-in-united-states",
+      "name": "Home: New Releases in United States",
+      "type": "collection",
+      "surface": "Home",
+      "url": "https://redflix.co/"
+    },
+    {
+      "id": "collection:home-popular-movies",
+      "name": "Home: Popular Movies",
+      "type": "collection",
+      "surface": "Home",
+      "url": "https://redflix.co/"
+    },
+    {
+      "id": "collection:home-trending-anime",
+      "name": "Home: Trending Anime",
+      "type": "collection",
+      "surface": "Home",
+      "url": "https://redflix.co/"
+    },
+    {
+      "id": "collection:home-k-dramas",
+      "name": "Home: K-Dramas",
+      "type": "collection",
+      "surface": "Home",
+      "url": "https://redflix.co/"
+    },
+    {
+      "id": "collection:home-tv-shows",
+      "name": "Home: TV Shows",
+      "type": "collection",
+      "surface": "Home",
+      "url": "https://redflix.co/"
+    },
+    {
+      "id": "collection:home-horror",
+      "name": "Home: Horror",
+      "type": "collection",
+      "surface": "Home",
+      "url": "https://redflix.co/"
+    },
+    {
+      "id": "collection:home-action-and-adventure",
+      "name": "Home: Action & Adventure",
+      "type": "collection",
+      "surface": "Home",
+      "url": "https://redflix.co/"
+    },
+    {
+      "id": "collection:home-sci-fi-and-fantasy",
+      "name": "Home: Sci-Fi & Fantasy",
+      "type": "collection",
+      "surface": "Home",
+      "url": "https://redflix.co/"
+    },
+    {
+      "id": "collection:home-animation",
+      "name": "Home: Animation",
+      "type": "collection",
+      "surface": "Home",
+      "url": "https://redflix.co/"
+    },
+    {
+      "id": "collection:home-redflix-giveaway",
+      "name": "Home: Redflix Giveaway",
+      "type": "collection",
+      "surface": "Home",
+      "url": "https://redflix.co/"
+    },
+    {
+      "id": "collection:movies-movies",
+      "name": "Movies: Movies",
+      "type": "collection",
+      "surface": "Movies",
+      "url": "https://redflix.co/movies"
+    },
+    {
+      "id": "collection:movies-redflix-giveaway",
+      "name": "Movies: Redflix Giveaway",
+      "type": "collection",
+      "surface": "Movies",
+      "url": "https://redflix.co/movies"
+    },
+    {
+      "id": "collection:movies-sharing-is-caring",
+      "name": "Movies: Sharing is Caring",
+      "type": "collection",
+      "surface": "Movies",
+      "url": "https://redflix.co/movies"
+    },
+    {
+      "id": "collection:tv-shows-tv-shows",
+      "name": "TV Shows: TV Shows",
+      "type": "collection",
+      "surface": "TV Shows",
+      "url": "https://redflix.co/tv-shows"
+    },
+    {
+      "id": "collection:tv-shows-redflix-giveaway",
+      "name": "TV Shows: Redflix Giveaway",
+      "type": "collection",
+      "surface": "TV Shows",
+      "url": "https://redflix.co/tv-shows"
+    },
+    {
+      "id": "collection:anime-anime",
+      "name": "Anime: Anime",
+      "type": "collection",
+      "surface": "Anime",
+      "url": "https://redflix.co/anime"
+    },
+    {
+      "id": "collection:anime-redflix-giveaway",
+      "name": "Anime: Redflix Giveaway",
+      "type": "collection",
+      "surface": "Anime",
+      "url": "https://redflix.co/anime"
+    },
+    {
+      "id": "collection:korean-drama-korean-drama",
+      "name": "Korean Drama: Korean Drama",
+      "type": "collection",
+      "surface": "Korean Drama",
+      "url": "https://redflix.co/asian-dramas?region=KR&sort=popular"
+    },
+    {
+      "id": "collection:korean-drama-asian-drama",
+      "name": "Korean Drama: Asian Drama",
+      "type": "collection",
+      "surface": "Korean Drama",
+      "url": "https://redflix.co/asian-dramas?region=KR&sort=popular"
+    },
+    {
+      "id": "collection:korean-drama-asian-dramas",
+      "name": "Korean Drama: Asian Dramas",
+      "type": "collection",
+      "surface": "Korean Drama",
+      "url": "https://redflix.co/asian-dramas?region=KR&sort=popular"
+    },
+    {
+      "id": "collection:korean-drama-redflix-giveaway",
+      "name": "Korean Drama: Redflix Giveaway",
+      "type": "collection",
+      "surface": "Korean Drama",
+      "url": "https://redflix.co/asian-dramas?region=KR&sort=popular"
+    },
+    {
+      "id": "collection:chinese-drama-chinese-drama",
+      "name": "Chinese Drama: Chinese Drama",
+      "type": "collection",
+      "surface": "Chinese Drama",
+      "url": "https://redflix.co/asian-dramas?region=CN&sort=popular"
+    },
+    {
+      "id": "collection:chinese-drama-asian-drama",
+      "name": "Chinese Drama: Asian Drama",
+      "type": "collection",
+      "surface": "Chinese Drama",
+      "url": "https://redflix.co/asian-dramas?region=CN&sort=popular"
+    },
+    {
+      "id": "collection:chinese-drama-asian-dramas",
+      "name": "Chinese Drama: Asian Dramas",
+      "type": "collection",
+      "surface": "Chinese Drama",
+      "url": "https://redflix.co/asian-dramas?region=CN&sort=popular"
+    },
+    {
+      "id": "collection:chinese-drama-redflix-giveaway",
+      "name": "Chinese Drama: Redflix Giveaway",
+      "type": "collection",
+      "surface": "Chinese Drama",
+      "url": "https://redflix.co/asian-dramas?region=CN&sort=popular"
+    },
+    {
+      "id": "collection:japanese-drama-japanese-drama",
+      "name": "Japanese Drama: Japanese Drama",
+      "type": "collection",
+      "surface": "Japanese Drama",
+      "url": "https://redflix.co/asian-dramas?region=JP&sort=popular"
+    },
+    {
+      "id": "collection:japanese-drama-asian-drama",
+      "name": "Japanese Drama: Asian Drama",
+      "type": "collection",
+      "surface": "Japanese Drama",
+      "url": "https://redflix.co/asian-dramas?region=JP&sort=popular"
+    },
+    {
+      "id": "collection:japanese-drama-asian-dramas",
+      "name": "Japanese Drama: Asian Dramas",
+      "type": "collection",
+      "surface": "Japanese Drama",
+      "url": "https://redflix.co/asian-dramas?region=JP&sort=popular"
+    },
+    {
+      "id": "collection:japanese-drama-redflix-giveaway",
+      "name": "Japanese Drama: Redflix Giveaway",
+      "type": "collection",
+      "surface": "Japanese Drama",
+      "url": "https://redflix.co/asian-dramas?region=JP&sort=popular"
+    },
+    {
+      "id": "collection:browse-browse",
+      "name": "Browse: Browse",
+      "type": "collection",
+      "surface": "Browse",
+      "url": "https://redflix.co/browse"
+    },
+    {
+      "id": "collection:browse-trending-now",
+      "name": "Browse: TRENDING NOW",
+      "type": "collection",
+      "surface": "Browse",
+      "url": "https://redflix.co/browse"
+    },
+    {
+      "id": "collection:browse-redflix-giveaway",
+      "name": "Browse: Redflix Giveaway",
+      "type": "collection",
+      "surface": "Browse",
+      "url": "https://redflix.co/browse"
+    }
+  ],
+  "items": [],
+  "streams": []
+}
