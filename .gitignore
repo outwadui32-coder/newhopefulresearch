@@ -3,14 +3,9 @@
 .env.local
 *.secret
 secrets.json
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-.venv/
-env/
-venv/
+node_modules/
+output/state/scanner.lock
+output/state/.worker-*.json
 
 # OS / IDE
 .DS_Store

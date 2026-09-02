@@ -1,88 +1,53 @@
-# 🎬 DirectMedia DB (OpenPosterDB & Direct Stream Engine)
+# GitHub Category Direct Stream Scanner
 
-[![Deploy GitHub Pages Web Catalog](https://github.com/outwadui32-coder/newhopefulresearch/actions/workflows/deploy_pages.yml/badge.svg)](https://github.com/outwadui32-coder/newhopefulresearch/actions/workflows/deploy_pages.yml)
-[![Auto Sync & Health Repair Engine](https://github.com/outwadui32-coder/newhopefulresearch/actions/workflows/update_data.yml/badge.svg)](https://github.com/outwadui32-coder/newhopefulresearch/actions/workflows/update_data.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Stream Engine](https://img.shields.io/badge/Stream%20Engine-100%25%20Direct%20Media%20(No%20Embeds)-brightgreen)](data/stats.json)
+This repository is a GitHub Actions-only scanner. The workflow discovers one selected category from the top on each run, filters permanent category history, processes at most 20 Movie/Series/Episode items in source order, verifies direct 1080-class-or-higher media without custom headers, validates cumulative outputs, then commits the completed batch.
 
-An open-source, automated high-resolution movie & TV dataset, rating poster database, and **100% Direct Media Stream Source (Zero Iframes, Zero Popup Ads)** powered by GitHub Actions (6-hour cycle) and **jsDelivr Global CDN**.
+## Runtime
 
----
+Use **Actions → Category Direct Stream Scanner → Run workflow**, or let the six-hour schedule run it. There is no local user-facing `npm start` operation.
 
-## 🌐 Live Web Catalog (100% Native HTML5 Player)
+Required GitHub repository secrets:
 
-👉 **Live Catalog:** [https://outwadui32-coder.github.io/newhopefulresearch/](https://outwadui32-coder.github.io/newhopefulresearch/)
+- `MAIN_SOURCE_URL`
+- `TMDB_API_KEY`
+- `TMDB_READ_TOKEN`
+- `OMDB_API_KEY`
 
-- **Zero Iframes / Zero Embeds**: Built using pure HTML5 `<video>` element + `Hls.js`.
-- **Zero Third-Party Ads**: No popup tabs, no redirects, no clickjacking traps.
-- **Multi-Resolution Playback**: 4K Ultra HD, 1080p Full HD, and 720p HD direct streams.
+Credentials are never stored in source files or generated outputs.
 
----
+## Persistent output
 
-## 📺 Multi-Format Live CDN Endpoints (Instant API Access)
-
-| Dataset / Format | Free jsDelivr CDN Endpoint (Cached & Fast) | Raw GitHub Link |
-| :--- | :--- | :--- |
-| **📺 Full M3U Playlist (IPTV/VLC)** | [`/data/playlist.m3u`](https://cdn.jsdelivr.net/gh/outwadui32-coder/newhopefulresearch@main/data/playlist.m3u) | [`Raw M3U`](https://raw.githubusercontent.com/outwadui32-coder/newhopefulresearch/main/data/playlist.m3u) |
-| **⚡ Latest 50 M3U Playlist** | [`/data/latest.m3u`](https://cdn.jsdelivr.net/gh/outwadui32-coder/newhopefulresearch@main/data/latest.m3u) | [`Raw M3U`](https://raw.githubusercontent.com/outwadui32-coder/newhopefulresearch/main/data/latest.m3u) |
-| **📄 Plaintext Dataset (TXT)** | [`/data/movies.txt`](https://cdn.jsdelivr.net/gh/outwadui32-coder/newhopefulresearch@main/data/movies.txt) | [`Raw TXT`](https://raw.githubusercontent.com/outwadui32-coder/newhopefulresearch/main/data/movies.txt) |
-| **🔗 Direct Links Only (TXT)** | [`/data/links.txt`](https://cdn.jsdelivr.net/gh/outwadui32-coder/newhopefulresearch@main/data/links.txt) | [`Raw TXT`](https://raw.githubusercontent.com/outwadui32-coder/newhopefulresearch/main/data/links.txt) |
-| **🎬 All Movies (JSON Master)** | [`/data/movies.json`](https://cdn.jsdelivr.net/gh/outwadui32-coder/newhopefulresearch@main/data/movies.json) | [`Raw JSON`](https://raw.githubusercontent.com/outwadui32-coder/newhopefulresearch/main/data/movies.json) |
-| **⭐ Latest Movies (Top 50)** | [`/data/latest.json`](https://cdn.jsdelivr.net/gh/outwadui32-coder/newhopefulresearch@main/data/latest.json) | [`Raw JSON`](https://raw.githubusercontent.com/outwadui32-coder/newhopefulresearch/main/data/latest.json) |
-| **🔥 Trending This Week** | [`/data/trending.json`](https://cdn.jsdelivr.net/gh/outwadui32-coder/newhopefulresearch@main/data/trending.json) | [`Raw JSON`](https://raw.githubusercontent.com/outwadui32-coder/newhopefulresearch/main/data/trending.json) |
-| **🏆 Top Rated Movies** | [`/data/top_rated.json`](https://cdn.jsdelivr.net/gh/outwadui32-coder/newhopefulresearch@main/data/top_rated.json) | [`Raw JSON`](https://raw.githubusercontent.com/outwadui32-coder/newhopefulresearch/main/data/top_rated.json) |
-| **📺 TV Shows & Series** | [`/data/tv_shows.json`](https://cdn.jsdelivr.net/gh/outwadui32-coder/newhopefulresearch@main/data/tv_shows.json) | [`Raw JSON`](https://raw.githubusercontent.com/outwadui32-coder/newhopefulresearch/main/data/tv_shows.json) |
-| **📊 Database Stats** | [`/data/stats.json`](https://cdn.jsdelivr.net/gh/outwadui32-coder/newhopefulresearch@main/data/stats.json) | [`Raw JSON`](https://raw.githubusercontent.com/outwadui32-coder/newhopefulresearch/main/data/stats.json) |
-
----
-
-## 📦 Direct Media JSON Schema Structure
-
-```json
-{
-  "id": 969681,
-  "imdb_id": "tt22084616",
-  "type": "movie",
-  "title": "Spider-Man: Brand New Day",
-  "release_year": 2026,
-  "rating": 7.9,
-  "runtime_formatted": "2h 25m",
-  "genres": ["Sci-Fi", "Action", "Adventure"],
-  "poster": {
-    "thumbnail": "https://image.tmdb.org/t/p/w185/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
-    "medium": "https://image.tmdb.org/t/p/w500/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
-    "original": "https://image.tmdb.org/t/p/original/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg"
-  },
-  "backdrop": {
-    "medium": "https://image.tmdb.org/t/p/w780/7iwUUcKURMT7aKfCwMy6YnGtchD.jpg",
-    "original": "https://image.tmdb.org/t/p/original/7iwUUcKURMT7aKfCwMy6YnGtchD.jpg"
-  },
-  "quality_supported": ["4K Ultra HD", "1080p FHD", "720p HD", "480p SD"],
-  "stream_type": "direct_hls_media",
-  "direct_stream_url": "https://multiembed.mov/directstream.php?video_id=969681&tmdb=1",
-  "stream_sources": {
-    "primary_hls_stream": "https://multiembed.mov/directstream.php?video_id=969681&tmdb=1",
-    "qualities": {
-      "4K Ultra HD": "https://multiembed.mov/directstream.php?video_id=969681&tmdb=1&res=4k",
-      "1080p Full HD": "https://multiembed.mov/directstream.php?video_id=969681&tmdb=1&res=1080",
-      "720p HD": "https://multiembed.mov/directstream.php?video_id=969681&tmdb=1&res=720"
-    }
-  },
-  "health_status": "online",
-  "updated_at": "2026-09-01T10:34:18Z"
-}
+```text
+output/
+├── state/
+│   └── scanner-state.json
+├── master/
+│   ├── catalog.json
+│   ├── streams.txt
+│   └── playlist.m3u
+├── categories/
+│   └── <stable-category>/
+│       ├── category.json
+│       ├── streams.txt
+│       └── playlist.m3u
+└── history/
+    └── YYYY-MM-DD.jsonl
 ```
 
----
+`scanner-state.json` is the only authoritative state. It stores stable rotation, permanent per-category history, global canonical history, stream freshness flags, and an unfinished `activeBatch` for crash resume.
 
-## 🔒 GitHub Secrets Configuration
+## Publication contract
 
-- `TMDB_API_KEY`: `9a4681358a20ad3919ee10d23d15a80f`
-- `MAIN_SOURCE_URL`: `https://redflix.co`
-- `TMDB_READ_TOKEN`: *(Your TMDB Read Access Token)*
-- `OMDB_API_KEY`: `bcfcab00`
+- Approved servers only: Alpha, Premium, Orion, Ultra, PlayFast.
+- Direct HLS or DASH only; embeds, iframe/player pages, media fragments and header-dependent URLs are excluded.
+- Resolution must be 1080-class or higher, including cinematic widths such as 1920x800.
+- HLS validation checks the master, selected child, media segment, key/map when present, and alternate audio playlist/segment.
+- DASH validation checks the MPD, a 1080-class representation, initialization segment and media segment.
+- Master stream URLs are deduplicated by exact URL while canonical IDs and category memberships are retained.
+- Posters appear in JSON, TXT and M3U `tvg-logo`.
 
----
+## Safety
 
-## 📜 License
-Distributed under the MIT License. See `LICENSE` for more information.
+Every item is atomically checkpointed by the coordinator. The category pointer advances only after the active batch is complete. Validation checks JSON parsing, canonical/URL duplicates, resolution, server allow-list, no-header publication, pointer/state, batch maximum, cumulative output floors, poster presence, and JSON/TXT/M3U count agreement before the workflow pushes.
+
+Automated tests cover rotation and wrap, fresh top/middle/bottom insertions, independent category history, global reuse, mixed Movie/Series/Episode order, crash/resume, 1080 filtering, no-header publication, HLS/DASH parser paths, cumulative output, URL dedupe, count cross-checking and one-time legacy migration.

@@ -1,0 +1,20 @@
+{
+  "name": "github-category-direct-stream-scanner",
+  "version": "2.0.0",
+  "description": "GitHub Actions category rotation scanner with persistent history and direct 1080+ verification",
+  "main": "site-scanner.js",
+  "scripts": {
+    "scan:github": "node site-scanner.js",
+    "validate": "node scripts/validate-output.js",
+    "test": "node --check collector.js && node --check site-scanner.js && node --check lib/scanner-core.js && node --check scripts/validate-output.js && node --check tests/scanner.test.js && node tests/scanner.test.js"
+  },
+  "keywords": [],
+  "author": "outwadui32-coder",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "puppeteer": "^25.9.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}

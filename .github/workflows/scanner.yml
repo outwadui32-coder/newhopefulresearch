@@ -1,0 +1,129 @@
+name: Category Direct Stream Scanner
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: Maximum items for the selected category
+        required: false
+        default: "20"
+        type: choice
+        options:
+          - "20"
+          - "10"
+          - "5"
+          - "1"
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: category-direct-stream-scanner
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      MAIN_SOURCE_URL: ${{ secrets.MAIN_SOURCE_URL }}
+      TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+      TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
+      OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
+      BATCH_SIZE: ${{ inputs.batch_size || '20' }}
+
+    steps:
+      - name: Checkout persistent scanner state
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install locked dependencies and browser
+        run: |
+          npm ci
+          npx puppeteer browsers install chrome
+
+      - name: Automated unit and integration tests
+        run: npm test
+
+      - name: Verify required secret names are configured
+        shell: bash
+        run: |
+          for name in MAIN_SOURCE_URL TMDB_API_KEY TMDB_READ_TOKEN OMDB_API_KEY; do
+            if [ -z "${!name}" ]; then
+              echo "::error::Required repository secret $name is missing"
+              exit 1
+            fi
+          done
+
+      - name: Run one selected-category batch
+        id: scanner
+        continue-on-error: true
+        run: npm run scan:github -- --max-items "$BATCH_SIZE" --workers 3 --title-timeout 90
+
+      - name: Preserve valid unfinished state after a scanner failure
+        if: steps.scanner.outcome == 'failure'
+        shell: bash
+        run: |
+          node -e "const fs=require('fs');const p='output/state/scanner-state.json';const s=JSON.parse(fs.readFileSync(p));if(!s.activeBatch)process.exit(2);if(s.activeBatch.items.length>20)process.exit(3);"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/state/scanner-state.json output/history
+          git commit -m "scanner: preserve unfinished Action batch checkpoint" || true
+          git push
+          exit 1
+
+      - name: Validate generated state and every JSON TXT M3U output
+        if: steps.scanner.outcome == 'success'
+        run: npm run validate
+
+      - name: Write real verification report
+        if: steps.scanner.outcome == 'success'
+        shell: bash
+        run: |
+          node - <<'NODE' >> "$GITHUB_STEP_SUMMARY"
+          const s = require('./output/state/scanner-state.json');
+          const b = s.lastBatch;
+          const types = { movie: 0, series: 0, episode: 0 };
+          for (const id of b.items) types[s.catalog[id].contentType] += 1;
+          const fields = {
+            'Selected Category': b.categoryName,
+            'Discovered': b.discovered,
+            'New Items Found': b.newItemsFound,
+            'Batch Items': b.items.length,
+            'Movies': types.movie,
+            'Series': types.series,
+            'Episodes': types.episode,
+            'Browser Scanned': b.browserScanned,
+            'Globally Reused': b.globallyReused,
+            'Successful': b.successful,
+            'Failed': b.failed,
+            'Approved Streams': b.approvedStreams,
+            'Rejected Streams': b.rejectedStreams,
+            'Unique URLs': require('./output/master/catalog.json').streams.length,
+            'Next Category': s.categoryOrder[s.nextCategoryIndex]?.name,
+            'Git Commit': 'created after validation',
+            'Push Status': 'created after validation'
+          };
+          console.log('## Real verification report');
+          for (const [key, value] of Object.entries(fields)) console.log('- ' + key + ': ' + value);
+          NODE
+
+      - name: Commit and push only the validated complete batch
+        if: steps.scanner.outcome == 'success'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output
+          COUNT=$(node -p "require('./output/state/scanner-state.json').lastBatch.items.length")
+          git commit -m "scanner: Action batch complete - $COUNT processed" || exit 0
+          git push
