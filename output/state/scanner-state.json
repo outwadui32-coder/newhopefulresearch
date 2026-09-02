@@ -3,7 +3,7 @@
   "scanner": "github-category-direct-stream-scanner",
   "sourceUrl": "https://redflix.co/",
   "createdAt": "2026-09-02T09:46:51.688Z",
-  "updatedAt": "2026-09-02T10:18:42.755Z",
+  "updatedAt": "2026-09-02T10:21:58.658Z",
   "categoryOrder": [
     {
       "id": "collection:home-home",
@@ -310,7 +310,9 @@
     ],
     "collection:home-new-releases-in-united-states": [],
     "collection:home-popular-movies": [],
-    "collection:home-trending-anime": [],
+    "collection:home-trending-anime": [
+      "movie:21"
+    ],
     "collection:home-k-dramas": [],
     "collection:home-tv-shows": [],
     "collection:home-horror": [],
@@ -619,6 +621,13 @@
       "processed": true,
       "verified": false,
       "verifiedAt": "2026-09-02T10:18:42.541Z",
+      "streamValid": false,
+      "needsRefresh": true
+    },
+    "movie:21": {
+      "processed": true,
+      "verified": false,
+      "verifiedAt": "2026-09-02T10:21:55.607Z",
       "streamValid": false,
       "needsRefresh": true
     }
@@ -2180,7 +2189,7 @@
       ],
       "canonicalId": "movie:21",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:21:54.147Z"
     },
     "movie:178789": {
       "title": "Mushoku Tensei: Jobless Reincarnation Season 3, TMDB score 8.4",
@@ -2198,7 +2207,7 @@
       ],
       "canonicalId": "movie:178789",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:21:54.147Z"
     },
     "movie:269": {
       "title": "Bleach, TMDB score 7.9",
@@ -2216,7 +2225,7 @@
       ],
       "canonicalId": "movie:269",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:21:54.147Z"
     },
     "movie:187260": {
       "title": "I Want to Love You Till Your Dying Day, TMDB score 7.4",
@@ -2234,7 +2243,7 @@
       ],
       "canonicalId": "movie:187260",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:21:54.147Z"
     },
     "movie:177699": {
       "title": "THE GHOST IN THE SHELL, TMDB score 7.6",
@@ -2252,7 +2261,7 @@
       ],
       "canonicalId": "movie:177699",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:21:54.147Z"
     },
     "movie:182205": {
       "title": "That Time I Got Reincarnated as a Slime Season 4, TMDB score 8.3",
@@ -2270,7 +2279,7 @@
       ],
       "canonicalId": "movie:182205",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:21:54.147Z"
     },
     "movie:195600": {
       "title": "Daemons of the Shadow Realm, TMDB score 7.8",
@@ -2288,7 +2297,7 @@
       ],
       "canonicalId": "movie:195600",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:21:54.147Z"
     },
     "movie:185874": {
       "title": "BLEACH: Thousand-Year Blood War - The Calamity, TMDB score 9",
@@ -2306,7 +2315,7 @@
       ],
       "canonicalId": "movie:185874",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:21:54.147Z"
     },
     "movie:196219": {
       "title": "The Oblivious Saint Can't Contain Her Power, TMDB score 6.3",
@@ -2324,7 +2333,7 @@
       ],
       "canonicalId": "movie:196219",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:21:54.147Z"
     },
     "movie:128757": {
       "title": "Young Ladies Don't Play Fighting Games, TMDB score 7.4",
@@ -2342,7 +2351,7 @@
       ],
       "canonicalId": "movie:128757",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:21:54.147Z"
     },
     "movie:210031": {
       "title": "You and I Are Polar Opposites Season 2, TMDB score 8.2",
@@ -2360,7 +2369,7 @@
       ],
       "canonicalId": "movie:210031",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:21:54.147Z"
     },
     "movie:169583": {
       "title": "Oh Boy, Was I Wrong About Her, TMDB score 7",
@@ -2378,7 +2387,7 @@
       ],
       "canonicalId": "movie:169583",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:21:54.147Z"
     },
     "movie:202269": {
       "title": "Love Unseen Beneath the Clear Night Sky, TMDB score 7.9",
@@ -2396,7 +2405,7 @@
       ],
       "canonicalId": "movie:202269",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:21:54.147Z"
     },
     "movie:196187": {
       "title": "Smoking Behind the Supermarket with You, TMDB score 8.2",
@@ -2414,7 +2423,7 @@
       ],
       "canonicalId": "movie:196187",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:21:54.147Z"
     },
     "movie:185542": {
       "title": "Skeleton Knight in Another World Season 2, TMDB score 6.6",
@@ -2432,7 +2441,7 @@
       ],
       "canonicalId": "movie:185542",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:21:54.147Z"
     },
     "movie:97940": {
       "title": "Black Clover, TMDB score 7.9",
@@ -2450,7 +2459,7 @@
       ],
       "canonicalId": "movie:97940",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:21:54.147Z"
     },
     "movie:199111": {
       "title": "Grand Blue Dreaming Season 3, TMDB score 8.2",
@@ -2468,7 +2477,7 @@
       ],
       "canonicalId": "movie:199111",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:21:54.147Z"
     },
     "movie:189046": {
       "title": "Re:ZERO -Starting Life in Another World- Season 4, TMDB score 9",
@@ -2486,13 +2495,13 @@
       ],
       "canonicalId": "movie:189046",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:21:54.147Z"
     },
     "movie:1735": {
-      "title": "The Mummy: Tomb of the Dragon Emperor, TMDB score 5.5",
-      "url": "https://redflix.co/play?id=1735&type=movie",
-      "poster": "https://image.tmdb.org/t/p/w300/A3acM1lX5PNWQa6r5qeMAJOxbnT.jpg",
-      "heading": "Movies",
+      "title": "Naruto: Shippuden, TMDB score 8.2",
+      "url": "https://redflix.co/play?id=1735&type=anime",
+      "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1735-kGfVm0YqCPcu.png",
+      "heading": "Trending Anime",
       "categories": [
         {
           "id": "collection:home-trending-anime",
@@ -2511,7 +2520,7 @@
       ],
       "canonicalId": "movie:1735",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.880Z"
+      "lastDiscoveredAt": "2026-09-02T10:21:54.147Z"
     },
     "movie:11061": {
       "title": "Hunter x Hunter (2011), TMDB score 8.9",
@@ -2529,7 +2538,7 @@
       ],
       "canonicalId": "movie:11061",
       "contentType": "movie",
-      "lastDiscoveredAt": "2026-09-02T09:48:50.876Z"
+      "lastDiscoveredAt": "2026-09-02T10:21:54.147Z"
     },
     "tv:70672": {
       "title": "Men on a Mission, TMDB score 7.4",
@@ -59967,69 +59976,117 @@
         "streamValid": false,
         "needsRefresh": true
       }
+    },
+    "movie:21": {
+      "title": "ONE PIECE, TMDB score 8.7",
+      "url": "https://redflix.co/play?id=21&type=anime",
+      "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-ELSYx3yMPcKM.jpg",
+      "heading": "Trending Anime",
+      "categories": [
+        {
+          "id": "collection:home-trending-anime",
+          "name": "Home: Trending Anime",
+          "type": "collection",
+          "surface": "Home",
+          "url": "https://redflix.co/"
+        }
+      ],
+      "canonicalId": "movie:21",
+      "contentType": "movie",
+      "lastDiscoveredAt": "2026-09-02T10:21:54.147Z",
+      "processed": true,
+      "verified": false,
+      "verifiedAt": "2026-09-02T10:21:55.607Z",
+      "streamValid": false,
+      "needsRefresh": true,
+      "scan": {
+        "scanner": "direct-final-stream-collector",
+        "startedAt": "2026-09-02T10:21:54.835Z",
+        "finishedAt": "2026-09-02T10:21:55.607Z",
+        "targetUrl": "https://redflix.co/play?id=21&type=anime",
+        "navigationError": null,
+        "success": false,
+        "finalStreams": [],
+        "diagnostics": {
+          "serversDiscovered": [
+            "Redflix Sub",
+            "Redflix Dub",
+            "Orion Sub",
+            "Orion Dub",
+            "Premium Sub",
+            "Premium Dub",
+            "Ultra Sub",
+            "Ultra Dub",
+            "Alpha Sub",
+            "Alpha Dub"
+          ],
+          "providerFrames": [
+            "https://vidbolt.xyz/anime/21/1/sub?theme=E50914&autoPlay=true",
+            "about:blank",
+            "chrome-error://chromewebdata/"
+          ],
+          "note": "providerFrames are diagnostics only; success requires a verified final media URL"
+        },
+        "verifiedAt": "2026-09-02T10:21:55.607Z",
+        "streamValid": false,
+        "needsRefresh": true
+      }
     }
   },
   "activeBatch": null,
   "lastBatch": {
-    "id": "e60c9040-3bfe-416b-a07f-38b23daa79e3",
-    "categoryId": "collection:home-trending-in-united-states",
-    "categoryName": "Home: Trending in United States",
+    "id": "bf91a4e8-8ca5-4a1a-8b9b-b1f9e7a7a8fb",
+    "categoryId": "collection:home-trending-anime",
+    "categoryName": "Home: Trending Anime",
     "items": [
-      "movie:1368337",
-      "tv:5920",
-      "tv:5920:s00:e01",
-      "tv:5920:s00:e02",
-      "tv:5920:s01:e01",
-      "tv:5920:s01:e02",
-      "tv:5920:s01:e03",
-      "tv:5920:s01:e04",
-      "tv:5920:s01:e05",
-      "tv:5920:s01:e06",
-      "tv:5920:s01:e07",
-      "tv:5920:s01:e08",
-      "tv:5920:s01:e09",
-      "tv:5920:s01:e10",
-      "tv:5920:s01:e11",
-      "tv:5920:s01:e12",
-      "tv:5920:s01:e13",
-      "tv:5920:s01:e14",
-      "tv:5920:s01:e15",
-      "tv:5920:s01:e16"
+      "movie:21"
     ],
     "completedItems": [
-      "tv:5920:s00:e01",
-      "tv:5920",
-      "movie:1368337",
-      "tv:5920:s00:e02",
-      "tv:5920:s01:e01",
-      "tv:5920:s01:e02",
-      "tv:5920:s01:e03",
-      "tv:5920:s01:e04",
-      "tv:5920:s01:e05",
-      "tv:5920:s01:e06",
-      "tv:5920:s01:e07",
-      "tv:5920:s01:e08",
-      "tv:5920:s01:e09",
-      "tv:5920:s01:e10",
-      "tv:5920:s01:e11",
-      "tv:5920:s01:e12",
-      "tv:5920:s01:e13",
-      "tv:5920:s01:e14",
-      "tv:5920:s01:e15",
-      "tv:5920:s01:e16"
+      "movie:21"
     ],
     "pendingItems": [],
-    "startedAt": "2026-09-02T10:10:24.977Z",
-    "discovered": 34,
-    "newItemsFound": 34,
-    "browserScanned": 20,
+    "startedAt": "2026-09-02T10:21:54.147Z",
+    "discovered": 20,
+    "newItemsFound": 20,
+    "browserScanned": 1,
     "globallyReused": 0,
-    "successful": 2,
-    "failed": 18,
-    "approvedStreams": 6,
-    "rejectedStreams": 98,
-    "completedAt": "2026-09-02T10:18:42.707Z",
-    "nextCategoryId": "collection:home-new-releases-in-united-states"
+    "successful": 0,
+    "failed": 1,
+    "approvedStreams": 0,
+    "rejectedStreams": 0,
+    "itemResults": {
+      "movie:21": {
+        "title": "ONE PIECE, TMDB score 8.7",
+        "contentType": "movie",
+        "mode": "browser",
+        "success": false,
+        "approvedStreams": 0,
+        "rejectedStreams": 0
+      }
+    },
+    "selectionMode": "manual",
+    "categoryProcessedBefore": 0,
+    "masterItemsBefore": 17,
+    "masterStreamsBefore": 48,
+    "previousTypeCounts": {
+      "movies": 0,
+      "series": 0,
+      "episodes": 0
+    },
+    "batchTypeCounts": {
+      "movies": 1,
+      "series": 0,
+      "episodes": 0
+    },
+    "completedAt": "2026-09-02T10:21:58.632Z",
+    "categoryProcessedAfter": 1,
+    "pointerAdvanced": false,
+    "nextCategoryId": "collection:home-new-releases-in-united-states",
+    "masterItemsAfter": 17,
+    "masterStreamsAfter": 48,
+    "masterItemsAdded": 0,
+    "masterStreamsAdded": 0,
+    "categoryOutput": "output/categories/collection-home-trending-anime/"
   },
   "categoryLastBatch": {
     "collection:home-home": {
@@ -60195,6 +60252,60 @@
       "rejectedStreams": 98,
       "completedAt": "2026-09-02T10:18:42.707Z",
       "nextCategoryId": "collection:home-new-releases-in-united-states"
+    },
+    "collection:home-trending-anime": {
+      "id": "bf91a4e8-8ca5-4a1a-8b9b-b1f9e7a7a8fb",
+      "categoryId": "collection:home-trending-anime",
+      "categoryName": "Home: Trending Anime",
+      "items": [
+        "movie:21"
+      ],
+      "completedItems": [
+        "movie:21"
+      ],
+      "pendingItems": [],
+      "startedAt": "2026-09-02T10:21:54.147Z",
+      "discovered": 20,
+      "newItemsFound": 20,
+      "browserScanned": 1,
+      "globallyReused": 0,
+      "successful": 0,
+      "failed": 1,
+      "approvedStreams": 0,
+      "rejectedStreams": 0,
+      "itemResults": {
+        "movie:21": {
+          "title": "ONE PIECE, TMDB score 8.7",
+          "contentType": "movie",
+          "mode": "browser",
+          "success": false,
+          "approvedStreams": 0,
+          "rejectedStreams": 0
+        }
+      },
+      "selectionMode": "manual",
+      "categoryProcessedBefore": 0,
+      "masterItemsBefore": 17,
+      "masterStreamsBefore": 48,
+      "previousTypeCounts": {
+        "movies": 0,
+        "series": 0,
+        "episodes": 0
+      },
+      "batchTypeCounts": {
+        "movies": 1,
+        "series": 0,
+        "episodes": 0
+      },
+      "completedAt": "2026-09-02T10:21:58.632Z",
+      "categoryProcessedAfter": 1,
+      "pointerAdvanced": false,
+      "nextCategoryId": "collection:home-new-releases-in-united-states",
+      "masterItemsAfter": 17,
+      "masterStreamsAfter": 48,
+      "masterItemsAdded": 0,
+      "masterStreamsAdded": 0,
+      "categoryOutput": "output/categories/collection-home-trending-anime/"
     }
   },
   "migrations": {
