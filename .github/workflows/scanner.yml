@@ -14,10 +14,30 @@ on:
           - "5"
           - "1"
       category:
-        description: "Optional manual category: exact name, category ID, or 1-based index. Leave blank for automatic rotation."
+        description: Select automatic rotation or one category to scan manually
         required: false
-        default: ""
-        type: string
+        default: Automatic Rotation
+        type: choice
+        options:
+          - Automatic Rotation
+          - "Home: The Runner"
+          - "Home: Top 10 Today"
+          - "Home: Trending in United States"
+          - "Home: New Releases in United States"
+          - "Home: Popular Movies"
+          - "Home: Trending Anime"
+          - "Home: K-Dramas"
+          - "Home: TV Shows"
+          - "Home: Horror"
+          - "Home: Action & Adventure"
+          - "Home: Sci-Fi & Fantasy"
+          - "Home: Animation"
+          - "Movies: Movies"
+          - "TV Shows: TV Shows"
+          - "Korean Drama: Asian Dramas"
+          - "Chinese Drama: Asian Dramas"
+          - "Japanese Drama: Asian Dramas"
+          - "Browse: TRENDING NOW"
   schedule:
     - cron: "17 */6 * * *"
 
@@ -38,7 +58,7 @@ jobs:
       TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
       OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
       BATCH_SIZE: ${{ inputs.batch_size || '20' }}
-      CATEGORY_SELECTION: ${{ inputs.category || '' }}
+      CATEGORY_SELECTION: ${{ inputs.category || 'Automatic Rotation' }}
 
     steps:
       - name: Checkout persistent scanner state
@@ -76,7 +96,7 @@ jobs:
         shell: bash
         run: |
           ARGS=(--max-items "$BATCH_SIZE" --workers 3 --title-timeout 90 --headed)
-          if [ -n "$CATEGORY_SELECTION" ]; then
+          if [ "$CATEGORY_SELECTION" != "Automatic Rotation" ]; then
             ARGS+=(--category "$CATEGORY_SELECTION")
             echo "Manual category requested: $CATEGORY_SELECTION"
           else

@@ -6,13 +6,7 @@ This repository is a GitHub Actions-only scanner. The workflow discovers one sel
 
 Use **Actions → Category Direct Stream Scanner → Run workflow**, or let the six-hour schedule run it. There is no local user-facing `npm start` operation.
 
-For automatic rotation, leave the workflow's **category** field blank. For a manual scan, enter any one of:
-
-- the exact displayed category name, for example `Home: Top 10 Today`;
-- its stable ID, for example `collection:home-top-10-today`;
-- its 1-based category index, for example `3`.
-
-A manual run scans only new/unprocessed items in that category and does not change the saved automatic-rotation pointer.
+The workflow's **category** field is a dropdown. Choose **Automatic Rotation** or click the category name you want; nothing needs to be typed or memorized. A manual run scans only new/unprocessed items in that category and does not change the saved automatic-rotation pointer.
 
 The Actions log displays the complete category index, selected mode/category, previous processed count, fresh/new count, every selected Movie/Series/Episode name, browser-versus-reuse mode, per-item result, checkpoint progress, output count changes and the exact category output folder pushed. The same item table is written to the GitHub Actions run summary.
 
