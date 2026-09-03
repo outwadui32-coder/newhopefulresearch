@@ -1,0 +1,61 @@
+CATEGORY: Browse: TRENDING NOW
+New Movies:
+TOTAL MOVIES: 2
+LAST_UPDATED: 2026-09-03 07:00 PM
+PURPOSE: Strictly for educational purposes only and not for commercial use
+
+
+Movie: 01
+------------------------------------
+
+ID         : movie:10001
+MOVIE Name : Demo Movie
+Year       : 2026
+Poster     : https://image.example.com/demo-movie-poster.jpg
+
+SERVER-1: Premium
+
+Quality       : 2K
+Resolution-1  : 2560x1440
+URL           : https://stream.example.com/demo-movie/premium/2k.m3u8
+
+Quality       : 1080p
+Resolution-2  : 1920x1080
+URL           : https://stream.example.com/demo-movie/premium/1080p.m3u8
+
+SERVER-2: Ultra
+
+Quality       : 4K
+Resolution-1  : 3840x2160
+URL           : https://stream.example.com/demo-movie/ultra/4k.m3u8
+
+Quality       : 1080p
+Resolution-2  : 1920x1080
+URL           : https://stream.example.com/demo-movie/ultra/1080p.m3u8
+
+SERVER-3: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://stream.example.com/demo-movie/playfast/1080p.m3u8
+
+
+Movie: 02
+------------------------------------
+
+ID         : movie:10002
+MOVIE Name : Demo Movie Two
+Year       : 2026
+Poster     : https://image.example.com/demo-movie-two-poster.jpg
+
+SERVER-1: Alpha
+
+Quality       : 4K
+Resolution-1  : 3840x2160
+URL           : https://stream.example.com/demo-movie-two/alpha/4k.m3u8
+
+SERVER-2: Ultra
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://stream.example.com/demo-movie-two/ultra/1080p.m3u8

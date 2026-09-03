@@ -6,8 +6,11 @@
   "scripts": {
     "start": "node site-scanner.js",
     "scan": "node collector.js",
-    "test": "node --check collector.js && node --check site-scanner.js && node --check test.js && node --check verify-output.js && node test.js && node collector.js --help",
-    "verify": "node verify-output.js"
+    "test": "node --check collector.js && node --check site-scanner.js && node --check test.js && node --check verify-output.js && node test.js && node collector.js --help && node test/run-all.js",
+    "verify": "node verify-output.js",
+    "test:lib": "node test/run-all.js",
+    "verify:data": "node bin/verify-data.js",
+    "test:e2e": "node test/end-to-end.js"
   },
   "keywords": [],
   "author": "",
