@@ -1,0 +1,21 @@
+{
+  "name": "stream-extractor",
+  "version": "1.0.0",
+  "description": "Browser-based Redflix final media stream scanner",
+  "main": "collector.js",
+  "scripts": {
+    "start": "node site-scanner.js",
+    "scan": "node collector.js",
+    "test": "node --check collector.js && node --check site-scanner.js && node --check test.js && node --check verify-output.js && node test.js && node collector.js --help",
+    "verify": "node verify-output.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "puppeteer": "^25.9.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}

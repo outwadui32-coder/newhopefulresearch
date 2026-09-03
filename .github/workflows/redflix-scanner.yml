@@ -1,0 +1,54 @@
+name: Redflix Category Scanner
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 0 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: redflix-category-scanner
+  cancel-in-progress: false
+
+jobs:
+  scan-one-category:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout cumulative scanner state
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install scanner dependencies
+        run: npm ci
+
+      - name: Validate scanner contract
+        run: npm test
+
+      - name: Scan next category batch in a real Chromium browser
+        run: xvfb-run -a node site-scanner.js
+
+      - name: Validate JSON, TXT, M3U and live direct streams
+        run: node verify-output.js
+
+      - name: Publish cumulative outputs and rotation state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/
+          if git diff --cached --quiet; then
+            echo "No output changes to publish"
+          else
+            git commit -m "scan: publish next Redflix category batch"
+            git push
+          fi

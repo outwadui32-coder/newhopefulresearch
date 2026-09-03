@@ -1,0 +1,8 @@
+node_modules/
+.scanner.lock
+output/state/.scanner.lock
+stream-results.json
+catalog-stream-results.json
+*.worker-*.json
+npm-debug.log*
+clicktv-today-only-one-green-active-button.html
