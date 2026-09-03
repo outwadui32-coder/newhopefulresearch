@@ -1,4 +1,4 @@
-name: Redflix Category Scanner
+name: Main Scanner
 
 on:
   workflow_dispatch:
