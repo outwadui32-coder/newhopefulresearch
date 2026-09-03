@@ -7,79 +7,11 @@
     "successfulNewAddedEpisodes": 0,
     "streamLinks": 3,
     "uniqueStreamUrls": 3,
-    "lastUpdated": "2026-09-03T11:57:44.539Z",
+    "lastUpdated": "2026-09-03T12:05:11.213Z",
     "purpose": "Strictly for educational purposes only and not for commercial use"
   },
   "movies": [],
   "series": [
-    {
-      "seriesId": "tv:97546",
-      "title": "Ted Lasso",
-      "poster": "https://image.tmdb.org/t/p/original/kxJERnlng82qe0HdofkXhAphBLG.jpg",
-      "categoryMemberships": [
-        {
-          "categoryId": "platform:platform-350-tv-genre",
-          "name": "Platform 350 tv GENRE",
-          "type": "platform",
-          "folder": "platform-350-tv-genre"
-        }
-      ],
-      "taxonomy": {
-        "contentType": [],
-        "genres": [],
-        "editorial": [],
-        "regions": [],
-        "platforms": [
-          "Platform 350 tv GENRE"
-        ],
-        "featured": [],
-        "collections": []
-      },
-      "totalEpisodesAdded": 1,
-      "seasons": [
-        {
-          "seasonNumber": 0,
-          "episodes": [
-            {
-              "serial": "Episode-1",
-              "canonicalId": "tv:97546:s00:e01",
-              "title": "Ted Lasso S00E01 - The Missing Christmas Mustache",
-              "poster": "https://image.tmdb.org/t/p/original/kxJERnlng82qe0HdofkXhAphBLG.jpg",
-              "year": 2021,
-              "sourceUrl": "https://redflix.co/play?id=97546&type=tv&season=0&episode=1",
-              "contentType": "episode",
-              "seriesId": "tv:97546",
-              "seriesTitle": "Ted Lasso",
-              "seasonNumber": 0,
-              "episodeNumber": 1,
-              "episodeTitle": "The Missing Christmas Mustache",
-              "airDate": "2021-12-15",
-              "categoryMemberships": [
-                {
-                  "categoryId": "platform:platform-350-tv-genre",
-                  "name": "Platform 350 tv GENRE",
-                  "type": "platform",
-                  "folder": "platform-350-tv-genre"
-                }
-              ],
-              "taxonomy": {
-                "contentType": [],
-                "genres": [],
-                "editorial": [],
-                "regions": [],
-                "platforms": [
-                  "Platform 350 tv GENRE"
-                ],
-                "featured": [],
-                "collections": []
-              },
-              "success": false,
-              "servers": []
-            }
-          ]
-        }
-      ]
-    },
     {
       "seriesId": "tv:125988",
       "title": "Silo",
@@ -109,7 +41,7 @@
           "seasonNumber": 1,
           "episodes": [
             {
-              "serial": "Episode-2",
+              "serial": "Episode-1",
               "canonicalId": "tv:125988:s01:e01",
               "title": "Silo S01E01 - Freedom Day",
               "poster": "https://image.tmdb.org/t/p/original/rpZhJcWPpyLvPC5Vid61GD6JHVu.jpg",
@@ -161,6 +93,74 @@
                   ]
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "tv:97546",
+      "title": "Ted Lasso",
+      "poster": "https://image.tmdb.org/t/p/original/kxJERnlng82qe0HdofkXhAphBLG.jpg",
+      "categoryMemberships": [
+        {
+          "categoryId": "platform:platform-350-tv-genre",
+          "name": "Platform 350 tv GENRE",
+          "type": "platform",
+          "folder": "platform-350-tv-genre"
+        }
+      ],
+      "taxonomy": {
+        "contentType": [],
+        "genres": [],
+        "editorial": [],
+        "regions": [],
+        "platforms": [
+          "Platform 350 tv GENRE"
+        ],
+        "featured": [],
+        "collections": []
+      },
+      "totalEpisodesAdded": 1,
+      "seasons": [
+        {
+          "seasonNumber": 0,
+          "episodes": [
+            {
+              "serial": "Episode-2",
+              "canonicalId": "tv:97546:s00:e01",
+              "title": "Ted Lasso S00E01 - The Missing Christmas Mustache",
+              "poster": "https://image.tmdb.org/t/p/original/kxJERnlng82qe0HdofkXhAphBLG.jpg",
+              "year": 2021,
+              "sourceUrl": "https://redflix.co/play?id=97546&type=tv&season=0&episode=1",
+              "contentType": "episode",
+              "seriesId": "tv:97546",
+              "seriesTitle": "Ted Lasso",
+              "seasonNumber": 0,
+              "episodeNumber": 1,
+              "episodeTitle": "The Missing Christmas Mustache",
+              "airDate": "2021-12-15",
+              "categoryMemberships": [
+                {
+                  "categoryId": "platform:platform-350-tv-genre",
+                  "name": "Platform 350 tv GENRE",
+                  "type": "platform",
+                  "folder": "platform-350-tv-genre"
+                }
+              ],
+              "taxonomy": {
+                "contentType": [],
+                "genres": [],
+                "editorial": [],
+                "regions": [],
+                "platforms": [
+                  "Platform 350 tv GENRE"
+                ],
+                "featured": [],
+                "collections": []
+              },
+              "success": false,
+              "servers": []
             }
           ]
         }

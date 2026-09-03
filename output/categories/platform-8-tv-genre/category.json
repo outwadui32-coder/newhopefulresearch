@@ -5,9 +5,9 @@
     "successfulNewAdded": 0,
     "successfulNewAddedSeries": 0,
     "successfulNewAddedEpisodes": 0,
-    "streamLinks": 0,
-    "uniqueStreamUrls": 0,
-    "lastUpdated": "2026-09-03T11:57:44.539Z",
+    "streamLinks": 3,
+    "uniqueStreamUrls": 3,
+    "lastUpdated": "2026-09-03T12:05:11.213Z",
     "purpose": "Strictly for educational purposes only and not for commercial use"
   },
   "movies": [],
@@ -73,8 +73,31 @@
                 "featured": [],
                 "collections": []
               },
-              "success": false,
-              "servers": []
+              "success": true,
+              "servers": [
+                {
+                  "server": "Ultra",
+                  "links": [
+                    {
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_236235/Season%201/S01E01/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "server": "PlayFast",
+                  "links": [
+                    {
+                      "resolution": "1920x1080",
+                      "url": "https://impactdrivenbrands.site/bBVNvQGOK/pl/H4sIAAAAAAAAAwXBXXeCIBgA4L8ElJm7dAnOxruD8pHcodRRYY01T1v9.j3PJcfOD35Hdufd3g35ZT8OBOfo7HI3kgt6MVco25ombfqbjm1paSBdPVFfwdUT8XSKBq1sJkgxwwJu3CTMY0SSwWxxMt3Vo7HWkW_8w83rw5svZKLWnGjqTv4uVUa5iahddClCcXInPYnQTB2C4ElDfcAcyPamDw21EXp3sMnR9FR1udVoZZIVbx2t7rxba7WAVqjFvabhiBsOmPZnan_cAoK_rumD_RlhmlmQ7F0zsPLTJo8yLAjYgfwiHy0bl5Yp1hK5xG8ly.MYKqJxSlDZI7AsSkOnfmOngYxbJVHxD3Sgqm1BAQAA/master.m3u8"
+                    },
+                    {
+                      "resolution": "1920x1080",
+                      "url": "https://impactdrivenbrands.site/bBVNvQGOK/pl/H4sIAAAAAAAAAwXB25aCIBQA0F8CGS3nsQsaDTQpHJQ3FFtWYOa0uvj1s7eLO5yQ9uuURu6E2oQk7QLFJI1tsli4pf3mF_VqrsJ2IR3EOV2XeLQN8qq8ijvgYqMDCyU6Ei755LS4FcGMMqRg_Rgp9O7hYlQn3XzQ_GPVYwAMeauXqM1iXRMRXPaKOmgnG8afY1VMAvVgEIoa6EmRU9Rgt.88_VXqHXNNP81GSAmmBuBkPwNptrQWpP5wOq5M5NcuxNJED8OlF0eN7yLzQXnKFGVPe.lXnNJ.j1jVzjvMkQGJVzu7Zbm6ilkHuLkBziawiVOIDxtfluhxE5i9HB15mYuqVL3pBvans.LpZpT.Az4mowtBAQAA/master.m3u8"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

@@ -8,21 +8,21 @@
     "processedMovies": 13,
     "processedSeries": 7,
     "processedEpisodes": 7,
-    "successfulTitles": 15,
-    "failedTitles": 5,
+    "successfulTitles": 17,
+    "failedTitles": 3,
     "totalMoviesAdded": 12,
-    "totalSeriesAdded": 3,
-    "totalEpisodesAdded": 3,
-    "totalPlayableItems": 15,
-    "totalCategoriesWithStreams": 13,
-    "totalStreamLinks": 246,
-    "totalUniqueMediaUrls": 72,
-    "verifiedStreams": 72,
+    "totalSeriesAdded": 5,
+    "totalEpisodesAdded": 5,
+    "totalPlayableItems": 17,
+    "totalCategoriesWithStreams": 15,
+    "totalStreamLinks": 273,
+    "totalUniqueMediaUrls": 81,
+    "verifiedStreams": 81,
     "legacySeriesResultsExcluded": 0
   },
   "purpose": "Strictly for educational purposes only and not for commercial use",
   "nextRotationCategory": "Home: In Theatres",
-  "lastUpdated": "2026-09-03T11:57:44.539Z",
+  "lastUpdated": "2026-09-03T12:05:11.213Z",
   "categories": [
     {
       "categoryName": "Home: Top 10 Movies Today",
@@ -35,7 +35,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 57,
       "totalUniqueMediaUrls": 57,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/top-10-movies-today/category.json",
@@ -52,9 +52,9 @@
       "successfulNewAdded": 11,
       "successfulNewAddedSeries": 3,
       "successfulNewAddedEpisodes": 3,
-      "totalStreamLinks": 72,
-      "totalUniqueMediaUrls": 72,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "totalStreamLinks": 81,
+      "totalUniqueMediaUrls": 81,
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/trending-now/category.json",
@@ -63,22 +63,41 @@
       }
     },
     {
-      "categoryName": "Home: In Theatres",
-      "categoryId": "collection:in-theatres",
-      "categoryType": "collection",
-      "folder": "in-theatres",
-      "totalMovies": 5,
+      "categoryName": "Home: Top 10 TV Shows Today",
+      "categoryId": "editorial:top-10-tv-shows-today",
+      "categoryType": "editorial",
+      "folder": "top-10-tv-shows-today",
+      "totalMovies": 0,
       "successfulNewAdded": 0,
       "successfulNewAddedSeries": 0,
       "successfulNewAddedEpisodes": 0,
-      "totalStreamLinks": 24,
-      "totalUniqueMediaUrls": 24,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "totalStreamLinks": 18,
+      "totalUniqueMediaUrls": 18,
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
-        "json": "categories/in-theatres/category.json",
-        "text": "categories/in-theatres/streams.txt",
-        "m3u": "categories/in-theatres/playlist.m3u"
+        "json": "categories/top-10-tv-shows-today/category.json",
+        "text": "categories/top-10-tv-shows-today/streams.txt",
+        "m3u": "categories/top-10-tv-shows-today/playlist.m3u"
+      }
+    },
+    {
+      "categoryName": "Platform 8 tv: GENRE",
+      "categoryId": "platform:platform-8-tv-genre",
+      "categoryType": "platform",
+      "folder": "platform-8-tv-genre",
+      "totalMovies": 0,
+      "successfulNewAdded": 0,
+      "successfulNewAddedSeries": 0,
+      "successfulNewAddedEpisodes": 0,
+      "totalStreamLinks": 3,
+      "totalUniqueMediaUrls": 3,
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
+      "purpose": "Strictly for educational purposes only and not for commercial use",
+      "files": {
+        "json": "categories/platform-8-tv-genre/category.json",
+        "text": "categories/platform-8-tv-genre/streams.txt",
+        "m3u": "categories/platform-8-tv-genre/playlist.m3u"
       }
     },
     {
@@ -92,12 +111,69 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 30,
       "totalUniqueMediaUrls": 30,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/trending-in-united-states/category.json",
         "text": "categories/trending-in-united-states/streams.txt",
         "m3u": "categories/trending-in-united-states/playlist.m3u"
+      }
+    },
+    {
+      "categoryName": "Platform 9 tv: GENRE",
+      "categoryId": "platform:platform-9-tv-genre",
+      "categoryType": "platform",
+      "folder": "platform-9-tv-genre",
+      "totalMovies": 0,
+      "successfulNewAdded": 0,
+      "successfulNewAddedSeries": 0,
+      "successfulNewAddedEpisodes": 0,
+      "totalStreamLinks": 3,
+      "totalUniqueMediaUrls": 3,
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
+      "purpose": "Strictly for educational purposes only and not for commercial use",
+      "files": {
+        "json": "categories/platform-9-tv-genre/category.json",
+        "text": "categories/platform-9-tv-genre/streams.txt",
+        "m3u": "categories/platform-9-tv-genre/playlist.m3u"
+      }
+    },
+    {
+      "categoryName": "Home: In Theatres",
+      "categoryId": "collection:in-theatres",
+      "categoryType": "collection",
+      "folder": "in-theatres",
+      "totalMovies": 5,
+      "successfulNewAdded": 0,
+      "successfulNewAddedSeries": 0,
+      "successfulNewAddedEpisodes": 0,
+      "totalStreamLinks": 24,
+      "totalUniqueMediaUrls": 24,
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
+      "purpose": "Strictly for educational purposes only and not for commercial use",
+      "files": {
+        "json": "categories/in-theatres/category.json",
+        "text": "categories/in-theatres/streams.txt",
+        "m3u": "categories/in-theatres/playlist.m3u"
+      }
+    },
+    {
+      "categoryName": "Platform 337 tv: GENRE",
+      "categoryId": "platform:platform-337-tv-genre",
+      "categoryType": "platform",
+      "folder": "platform-337-tv-genre",
+      "totalMovies": 0,
+      "successfulNewAdded": 0,
+      "successfulNewAddedSeries": 0,
+      "successfulNewAddedEpisodes": 0,
+      "totalStreamLinks": 6,
+      "totalUniqueMediaUrls": 6,
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
+      "purpose": "Strictly for educational purposes only and not for commercial use",
+      "files": {
+        "json": "categories/platform-337-tv-genre/category.json",
+        "text": "categories/platform-337-tv-genre/streams.txt",
+        "m3u": "categories/platform-337-tv-genre/playlist.m3u"
       }
     },
     {
@@ -111,7 +187,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 21,
       "totalUniqueMediaUrls": 21,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/movies/category.json",
@@ -130,12 +206,50 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 6,
       "totalUniqueMediaUrls": 6,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-387-movie-genre/category.json",
         "text": "categories/platform-387-movie-genre/streams.txt",
         "m3u": "categories/platform-387-movie-genre/playlist.m3u"
+      }
+    },
+    {
+      "categoryName": "Platform 350 tv: GENRE",
+      "categoryId": "platform:platform-350-tv-genre",
+      "categoryType": "platform",
+      "folder": "platform-350-tv-genre",
+      "totalMovies": 0,
+      "successfulNewAdded": 0,
+      "successfulNewAddedSeries": 0,
+      "successfulNewAddedEpisodes": 0,
+      "totalStreamLinks": 3,
+      "totalUniqueMediaUrls": 3,
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
+      "purpose": "Strictly for educational purposes only and not for commercial use",
+      "files": {
+        "json": "categories/platform-350-tv-genre/category.json",
+        "text": "categories/platform-350-tv-genre/streams.txt",
+        "m3u": "categories/platform-350-tv-genre/playlist.m3u"
+      }
+    },
+    {
+      "categoryName": "Platform 1899 tv: GENRE",
+      "categoryId": "platform:platform-1899-tv-genre",
+      "categoryType": "platform",
+      "folder": "platform-1899-tv-genre",
+      "totalMovies": 0,
+      "successfulNewAdded": 0,
+      "successfulNewAddedSeries": 0,
+      "successfulNewAddedEpisodes": 0,
+      "totalStreamLinks": 3,
+      "totalUniqueMediaUrls": 3,
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
+      "purpose": "Strictly for educational purposes only and not for commercial use",
+      "files": {
+        "json": "categories/platform-1899-tv-genre/category.json",
+        "text": "categories/platform-1899-tv-genre/streams.txt",
+        "m3u": "categories/platform-1899-tv-genre/playlist.m3u"
       }
     },
     {
@@ -149,7 +263,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 6,
       "totalUniqueMediaUrls": 6,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/trending-on-netflix/category.json",
@@ -168,7 +282,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 6,
       "totalUniqueMediaUrls": 6,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-8-movie-genre/category.json",
@@ -187,7 +301,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/coming-soon/category.json",
@@ -206,7 +320,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-337-movie-genre/category.json",
@@ -225,7 +339,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-1899-movie-genre/category.json",
@@ -244,7 +358,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-9-movie-genre/category.json",
@@ -263,7 +377,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-15-tv-genre/category.json",
@@ -282,31 +396,12 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-2303-tv-genre/category.json",
         "text": "categories/platform-2303-tv-genre/streams.txt",
         "m3u": "categories/platform-2303-tv-genre/playlist.m3u"
-      }
-    },
-    {
-      "categoryName": "Platform 337 tv: GENRE",
-      "categoryId": "platform:platform-337-tv-genre",
-      "categoryType": "platform",
-      "folder": "platform-337-tv-genre",
-      "totalMovies": 0,
-      "successfulNewAdded": 0,
-      "successfulNewAddedSeries": 0,
-      "successfulNewAddedEpisodes": 0,
-      "totalStreamLinks": 0,
-      "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
-      "files": {
-        "json": "categories/platform-337-tv-genre/category.json",
-        "text": "categories/platform-337-tv-genre/streams.txt",
-        "m3u": "categories/platform-337-tv-genre/playlist.m3u"
       }
     },
     {
@@ -320,7 +415,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/popular-on-prime-video/category.json",
@@ -339,7 +434,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-34-movie-genre/category.json",
@@ -358,7 +453,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-15-movie-genre/category.json",
@@ -377,50 +472,12 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-2303-movie-genre/category.json",
         "text": "categories/platform-2303-movie-genre/streams.txt",
         "m3u": "categories/platform-2303-movie-genre/playlist.m3u"
-      }
-    },
-    {
-      "categoryName": "Home: Top 10 TV Shows Today",
-      "categoryId": "editorial:top-10-tv-shows-today",
-      "categoryType": "editorial",
-      "folder": "top-10-tv-shows-today",
-      "totalMovies": 0,
-      "successfulNewAdded": 0,
-      "successfulNewAddedSeries": 0,
-      "successfulNewAddedEpisodes": 0,
-      "totalStreamLinks": 9,
-      "totalUniqueMediaUrls": 9,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
-      "files": {
-        "json": "categories/top-10-tv-shows-today/category.json",
-        "text": "categories/top-10-tv-shows-today/streams.txt",
-        "m3u": "categories/top-10-tv-shows-today/playlist.m3u"
-      }
-    },
-    {
-      "categoryName": "Platform 8 tv: GENRE",
-      "categoryId": "platform:platform-8-tv-genre",
-      "categoryType": "platform",
-      "folder": "platform-8-tv-genre",
-      "totalMovies": 0,
-      "successfulNewAdded": 0,
-      "successfulNewAddedSeries": 0,
-      "successfulNewAddedEpisodes": 0,
-      "totalStreamLinks": 0,
-      "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
-      "files": {
-        "json": "categories/platform-8-tv-genre/category.json",
-        "text": "categories/platform-8-tv-genre/streams.txt",
-        "m3u": "categories/platform-8-tv-genre/playlist.m3u"
       }
     },
     {
@@ -434,7 +491,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-283-tv-genre/category.json",
@@ -453,7 +510,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-283-movie-genre/category.json",
@@ -472,7 +529,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-350-movie-genre/category.json",
@@ -491,7 +548,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-526-movie-genre/category.json",
@@ -510,7 +567,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-99-movie-genre/category.json",
@@ -529,7 +586,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/anime/category.json",
@@ -548,7 +605,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/kr-asian-dramas/category.json",
@@ -567,7 +624,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/cn-asian-dramas/category.json",
@@ -586,50 +643,12 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/jp-asian-dramas/category.json",
         "text": "categories/jp-asian-dramas/streams.txt",
         "m3u": "categories/jp-asian-dramas/playlist.m3u"
-      }
-    },
-    {
-      "categoryName": "Platform 1899 tv: GENRE",
-      "categoryId": "platform:platform-1899-tv-genre",
-      "categoryType": "platform",
-      "folder": "platform-1899-tv-genre",
-      "totalMovies": 0,
-      "successfulNewAdded": 0,
-      "successfulNewAddedSeries": 0,
-      "successfulNewAddedEpisodes": 0,
-      "totalStreamLinks": 3,
-      "totalUniqueMediaUrls": 3,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
-      "files": {
-        "json": "categories/platform-1899-tv-genre/category.json",
-        "text": "categories/platform-1899-tv-genre/streams.txt",
-        "m3u": "categories/platform-1899-tv-genre/playlist.m3u"
-      }
-    },
-    {
-      "categoryName": "Platform 9 tv: GENRE",
-      "categoryId": "platform:platform-9-tv-genre",
-      "categoryType": "platform",
-      "folder": "platform-9-tv-genre",
-      "totalMovies": 0,
-      "successfulNewAdded": 0,
-      "successfulNewAddedSeries": 0,
-      "successfulNewAddedEpisodes": 0,
-      "totalStreamLinks": 3,
-      "totalUniqueMediaUrls": 3,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
-      "files": {
-        "json": "categories/platform-9-tv-genre/category.json",
-        "text": "categories/platform-9-tv-genre/streams.txt",
-        "m3u": "categories/platform-9-tv-genre/playlist.m3u"
       }
     },
     {
@@ -643,7 +662,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-34-tv-genre/category.json",
@@ -662,31 +681,12 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
+      "lastUpdated": "2026-09-03T12:05:11.213Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-526-tv-genre/category.json",
         "text": "categories/platform-526-tv-genre/streams.txt",
         "m3u": "categories/platform-526-tv-genre/playlist.m3u"
-      }
-    },
-    {
-      "categoryName": "Platform 350 tv: GENRE",
-      "categoryId": "platform:platform-350-tv-genre",
-      "categoryType": "platform",
-      "folder": "platform-350-tv-genre",
-      "totalMovies": 0,
-      "successfulNewAdded": 0,
-      "successfulNewAddedSeries": 0,
-      "successfulNewAddedEpisodes": 0,
-      "totalStreamLinks": 3,
-      "totalUniqueMediaUrls": 3,
-      "lastUpdated": "2026-09-03T11:57:44.539Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
-      "files": {
-        "json": "categories/platform-350-tv-genre/category.json",
-        "text": "categories/platform-350-tv-genre/streams.txt",
-        "m3u": "categories/platform-350-tv-genre/playlist.m3u"
       }
     }
   ],
@@ -1678,50 +1678,6 @@
     },
     {
       "serial": "Movie-12",
-      "canonicalId": "movie:1101412",
-      "title": "Fall 2: Deadpoint",
-      "poster": "https://image.tmdb.org/t/p/w342/p73G56bJGPa5y52cyqWscHR6NnN.jpg",
-      "year": 2026,
-      "sourceUrl": "https://redflix.co/play?id=1101412&type=movie",
-      "contentType": "movie",
-      "seriesId": null,
-      "seriesTitle": null,
-      "seasonNumber": null,
-      "episodeNumber": null,
-      "episodeTitle": null,
-      "airDate": null,
-      "categoryMemberships": [
-        {
-          "categoryId": "collection:in-theatres",
-          "name": "In Theatres",
-          "type": "collection",
-          "folder": "in-theatres"
-        },
-        {
-          "categoryId": "editorial:trending-now",
-          "name": "TRENDING NOW",
-          "type": "editorial",
-          "folder": "trending-now"
-        }
-      ],
-      "taxonomy": {
-        "contentType": [],
-        "genres": [],
-        "editorial": [
-          "TRENDING NOW"
-        ],
-        "regions": [],
-        "platforms": [],
-        "featured": [],
-        "collections": [
-          "In Theatres"
-        ]
-      },
-      "success": false,
-      "servers": []
-    },
-    {
-      "serial": "Movie-13",
       "canonicalId": "movie:1288059",
       "title": "I Want Your Sex",
       "poster": "https://image.tmdb.org/t/p/w342/pR7SIX3AwqdoD96OI44oLG98e7g.jpg",
@@ -1800,19 +1756,27 @@
           ]
         }
       ]
-    }
-  ],
-  "series": [
+    },
     {
-      "seriesId": "tv:290234",
-      "title": "Lovesick",
-      "poster": "https://image.tmdb.org/t/p/original/aSqEPe38V34zcsEMbkoXOgNdZGL.jpg",
+      "serial": "Movie-13",
+      "canonicalId": "movie:1101412",
+      "title": "Fall 2: Deadpoint",
+      "poster": "https://image.tmdb.org/t/p/w342/p73G56bJGPa5y52cyqWscHR6NnN.jpg",
+      "year": 2026,
+      "sourceUrl": "https://redflix.co/play?id=1101412&type=movie",
+      "contentType": "movie",
+      "seriesId": null,
+      "seriesTitle": null,
+      "seasonNumber": null,
+      "episodeNumber": null,
+      "episodeTitle": null,
+      "airDate": null,
       "categoryMemberships": [
         {
-          "categoryId": "editorial:top-10-tv-shows-today",
-          "name": "Top 10 TV Shows Today",
-          "type": "editorial",
-          "folder": "top-10-tv-shows-today"
+          "categoryId": "collection:in-theatres",
+          "name": "In Theatres",
+          "type": "collection",
+          "folder": "in-theatres"
         },
         {
           "categoryId": "editorial:trending-now",
@@ -1825,66 +1789,20 @@
         "contentType": [],
         "genres": [],
         "editorial": [
-          "Top 10 TV Shows Today",
           "TRENDING NOW"
         ],
         "regions": [],
         "platforms": [],
         "featured": [],
-        "collections": []
+        "collections": [
+          "In Theatres"
+        ]
       },
-      "totalEpisodesAdded": 1,
-      "seasons": [
-        {
-          "seasonNumber": 1,
-          "episodes": [
-            {
-              "serial": "Episode-1",
-              "canonicalId": "tv:290234:s01:e01",
-              "title": "Lovesick S01E01 - Two Weddings",
-              "poster": "https://image.tmdb.org/t/p/original/aSqEPe38V34zcsEMbkoXOgNdZGL.jpg",
-              "year": 2026,
-              "sourceUrl": "https://redflix.co/play?id=290234&type=tv&season=1&episode=1",
-              "contentType": "episode",
-              "seriesId": "tv:290234",
-              "seriesTitle": "Lovesick",
-              "seasonNumber": 1,
-              "episodeNumber": 1,
-              "episodeTitle": "Two Weddings",
-              "airDate": "2026-09-02",
-              "categoryMemberships": [
-                {
-                  "categoryId": "editorial:top-10-tv-shows-today",
-                  "name": "Top 10 TV Shows Today",
-                  "type": "editorial",
-                  "folder": "top-10-tv-shows-today"
-                },
-                {
-                  "categoryId": "editorial:trending-now",
-                  "name": "TRENDING NOW",
-                  "type": "editorial",
-                  "folder": "trending-now"
-                }
-              ],
-              "taxonomy": {
-                "contentType": [],
-                "genres": [],
-                "editorial": [
-                  "Top 10 TV Shows Today",
-                  "TRENDING NOW"
-                ],
-                "regions": [],
-                "platforms": [],
-                "featured": [],
-                "collections": []
-              },
-              "success": false,
-              "servers": []
-            }
-          ]
-        }
-      ]
-    },
+      "success": false,
+      "servers": []
+    }
+  ],
+  "series": [
     {
       "seriesId": "tv:108978",
       "title": "Reacher",
@@ -1936,7 +1854,7 @@
           "seasonNumber": 1,
           "episodes": [
             {
-              "serial": "Episode-2",
+              "serial": "Episode-1",
               "canonicalId": "tv:108978:s01:e01",
               "title": "Reacher S01E01 - Welcome to Margrave",
               "poster": "https://image.tmdb.org/t/p/original/15xLLZN3LLAdvoiHnYL5DcXlsYu.jpg",
@@ -2016,202 +1934,6 @@
       ]
     },
     {
-      "seriesId": "tv:236235",
-      "title": "The Gentlemen",
-      "poster": "https://image.tmdb.org/t/p/original/ynNv862bKn4P8E4ZATUirwhxnBq.jpg",
-      "categoryMemberships": [
-        {
-          "categoryId": "editorial:top-10-tv-shows-today",
-          "name": "Top 10 TV Shows Today",
-          "type": "editorial",
-          "folder": "top-10-tv-shows-today"
-        },
-        {
-          "categoryId": "editorial:trending-now",
-          "name": "TRENDING NOW",
-          "type": "editorial",
-          "folder": "trending-now"
-        },
-        {
-          "categoryId": "platform:platform-8-tv-genre",
-          "name": "Platform 8 tv GENRE",
-          "type": "platform",
-          "folder": "platform-8-tv-genre"
-        }
-      ],
-      "taxonomy": {
-        "contentType": [],
-        "genres": [],
-        "editorial": [
-          "Top 10 TV Shows Today",
-          "TRENDING NOW"
-        ],
-        "regions": [],
-        "platforms": [
-          "Platform 8 tv GENRE"
-        ],
-        "featured": [],
-        "collections": []
-      },
-      "totalEpisodesAdded": 1,
-      "seasons": [
-        {
-          "seasonNumber": 1,
-          "episodes": [
-            {
-              "serial": "Episode-3",
-              "canonicalId": "tv:236235:s01:e01",
-              "title": "The Gentlemen S01E01 - Refined Aggression",
-              "poster": "https://image.tmdb.org/t/p/original/ynNv862bKn4P8E4ZATUirwhxnBq.jpg",
-              "year": 2024,
-              "sourceUrl": "https://redflix.co/play?id=236235&type=tv&season=1&episode=1",
-              "contentType": "episode",
-              "seriesId": "tv:236235",
-              "seriesTitle": "The Gentlemen",
-              "seasonNumber": 1,
-              "episodeNumber": 1,
-              "episodeTitle": "Refined Aggression",
-              "airDate": "2024-03-07",
-              "categoryMemberships": [
-                {
-                  "categoryId": "editorial:top-10-tv-shows-today",
-                  "name": "Top 10 TV Shows Today",
-                  "type": "editorial",
-                  "folder": "top-10-tv-shows-today"
-                },
-                {
-                  "categoryId": "editorial:trending-now",
-                  "name": "TRENDING NOW",
-                  "type": "editorial",
-                  "folder": "trending-now"
-                },
-                {
-                  "categoryId": "platform:platform-8-tv-genre",
-                  "name": "Platform 8 tv GENRE",
-                  "type": "platform",
-                  "folder": "platform-8-tv-genre"
-                }
-              ],
-              "taxonomy": {
-                "contentType": [],
-                "genres": [],
-                "editorial": [
-                  "Top 10 TV Shows Today",
-                  "TRENDING NOW"
-                ],
-                "regions": [],
-                "platforms": [
-                  "Platform 8 tv GENRE"
-                ],
-                "featured": [],
-                "collections": []
-              },
-              "success": false,
-              "servers": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "seriesId": "tv:247168",
-      "title": "Chad Powers",
-      "poster": "https://image.tmdb.org/t/p/original/yhEiHCU5uK2wotYJjkPSZ0jxruI.jpg",
-      "categoryMemberships": [
-        {
-          "categoryId": "editorial:top-10-tv-shows-today",
-          "name": "Top 10 TV Shows Today",
-          "type": "editorial",
-          "folder": "top-10-tv-shows-today"
-        },
-        {
-          "categoryId": "editorial:trending-now",
-          "name": "TRENDING NOW",
-          "type": "editorial",
-          "folder": "trending-now"
-        },
-        {
-          "categoryId": "platform:platform-337-tv-genre",
-          "name": "Platform 337 tv GENRE",
-          "type": "platform",
-          "folder": "platform-337-tv-genre"
-        }
-      ],
-      "taxonomy": {
-        "contentType": [],
-        "genres": [],
-        "editorial": [
-          "Top 10 TV Shows Today",
-          "TRENDING NOW"
-        ],
-        "regions": [],
-        "platforms": [
-          "Platform 337 tv GENRE"
-        ],
-        "featured": [],
-        "collections": []
-      },
-      "totalEpisodesAdded": 1,
-      "seasons": [
-        {
-          "seasonNumber": 1,
-          "episodes": [
-            {
-              "serial": "Episode-4",
-              "canonicalId": "tv:247168:s01:e01",
-              "title": "Chad Powers S01E01 - 1ST QUARTER",
-              "poster": "https://image.tmdb.org/t/p/original/yhEiHCU5uK2wotYJjkPSZ0jxruI.jpg",
-              "year": 2025,
-              "sourceUrl": "https://redflix.co/play?id=247168&type=tv&season=1&episode=1",
-              "contentType": "episode",
-              "seriesId": "tv:247168",
-              "seriesTitle": "Chad Powers",
-              "seasonNumber": 1,
-              "episodeNumber": 1,
-              "episodeTitle": "1ST QUARTER",
-              "airDate": "2025-09-30",
-              "categoryMemberships": [
-                {
-                  "categoryId": "editorial:top-10-tv-shows-today",
-                  "name": "Top 10 TV Shows Today",
-                  "type": "editorial",
-                  "folder": "top-10-tv-shows-today"
-                },
-                {
-                  "categoryId": "editorial:trending-now",
-                  "name": "TRENDING NOW",
-                  "type": "editorial",
-                  "folder": "trending-now"
-                },
-                {
-                  "categoryId": "platform:platform-337-tv-genre",
-                  "name": "Platform 337 tv GENRE",
-                  "type": "platform",
-                  "folder": "platform-337-tv-genre"
-                }
-              ],
-              "taxonomy": {
-                "contentType": [],
-                "genres": [],
-                "editorial": [
-                  "Top 10 TV Shows Today",
-                  "TRENDING NOW"
-                ],
-                "regions": [],
-                "platforms": [
-                  "Platform 337 tv GENRE"
-                ],
-                "featured": [],
-                "collections": []
-              },
-              "success": false,
-              "servers": []
-            }
-          ]
-        }
-      ]
-    },
-    {
       "seriesId": "tv:125988",
       "title": "Silo",
       "poster": "https://image.tmdb.org/t/p/original/rpZhJcWPpyLvPC5Vid61GD6JHVu.jpg",
@@ -2262,7 +1984,7 @@
           "seasonNumber": 1,
           "episodes": [
             {
-              "serial": "Episode-5",
+              "serial": "Episode-2",
               "canonicalId": "tv:125988:s01:e01",
               "title": "Silo S01E01 - Freedom Day",
               "poster": "https://image.tmdb.org/t/p/original/rpZhJcWPpyLvPC5Vid61GD6JHVu.jpg",
@@ -2392,7 +2114,7 @@
           "seasonNumber": 1,
           "episodes": [
             {
-              "serial": "Episode-6",
+              "serial": "Episode-3",
               "canonicalId": "tv:95350:s01:e01",
               "title": "Lanterns S01E01 - Pilot",
               "poster": "https://image.tmdb.org/t/p/original/eamjkYDnuDcvS1MyynI4B9nE6KL.jpg",
@@ -2466,6 +2188,337 @@
                   ]
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "tv:236235",
+      "title": "The Gentlemen",
+      "poster": "https://image.tmdb.org/t/p/original/ynNv862bKn4P8E4ZATUirwhxnBq.jpg",
+      "categoryMemberships": [
+        {
+          "categoryId": "editorial:top-10-tv-shows-today",
+          "name": "Top 10 TV Shows Today",
+          "type": "editorial",
+          "folder": "top-10-tv-shows-today"
+        },
+        {
+          "categoryId": "editorial:trending-now",
+          "name": "TRENDING NOW",
+          "type": "editorial",
+          "folder": "trending-now"
+        },
+        {
+          "categoryId": "platform:platform-8-tv-genre",
+          "name": "Platform 8 tv GENRE",
+          "type": "platform",
+          "folder": "platform-8-tv-genre"
+        }
+      ],
+      "taxonomy": {
+        "contentType": [],
+        "genres": [],
+        "editorial": [
+          "Top 10 TV Shows Today",
+          "TRENDING NOW"
+        ],
+        "regions": [],
+        "platforms": [
+          "Platform 8 tv GENRE"
+        ],
+        "featured": [],
+        "collections": []
+      },
+      "totalEpisodesAdded": 1,
+      "seasons": [
+        {
+          "seasonNumber": 1,
+          "episodes": [
+            {
+              "serial": "Episode-4",
+              "canonicalId": "tv:236235:s01:e01",
+              "title": "The Gentlemen S01E01 - Refined Aggression",
+              "poster": "https://image.tmdb.org/t/p/original/ynNv862bKn4P8E4ZATUirwhxnBq.jpg",
+              "year": 2024,
+              "sourceUrl": "https://redflix.co/play?id=236235&type=tv&season=1&episode=1",
+              "contentType": "episode",
+              "seriesId": "tv:236235",
+              "seriesTitle": "The Gentlemen",
+              "seasonNumber": 1,
+              "episodeNumber": 1,
+              "episodeTitle": "Refined Aggression",
+              "airDate": "2024-03-07",
+              "categoryMemberships": [
+                {
+                  "categoryId": "editorial:top-10-tv-shows-today",
+                  "name": "Top 10 TV Shows Today",
+                  "type": "editorial",
+                  "folder": "top-10-tv-shows-today"
+                },
+                {
+                  "categoryId": "editorial:trending-now",
+                  "name": "TRENDING NOW",
+                  "type": "editorial",
+                  "folder": "trending-now"
+                },
+                {
+                  "categoryId": "platform:platform-8-tv-genre",
+                  "name": "Platform 8 tv GENRE",
+                  "type": "platform",
+                  "folder": "platform-8-tv-genre"
+                }
+              ],
+              "taxonomy": {
+                "contentType": [],
+                "genres": [],
+                "editorial": [
+                  "Top 10 TV Shows Today",
+                  "TRENDING NOW"
+                ],
+                "regions": [],
+                "platforms": [
+                  "Platform 8 tv GENRE"
+                ],
+                "featured": [],
+                "collections": []
+              },
+              "success": true,
+              "servers": [
+                {
+                  "server": "Ultra",
+                  "links": [
+                    {
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_236235/Season%201/S01E01/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "server": "PlayFast",
+                  "links": [
+                    {
+                      "resolution": "1920x1080",
+                      "url": "https://impactdrivenbrands.site/bBVNvQGOK/pl/H4sIAAAAAAAAAwXBXXeCIBgA4L8ElJm7dAnOxruD8pHcodRRYY01T1v9.j3PJcfOD35Hdufd3g35ZT8OBOfo7HI3kgt6MVco25ombfqbjm1paSBdPVFfwdUT8XSKBq1sJkgxwwJu3CTMY0SSwWxxMt3Vo7HWkW_8w83rw5svZKLWnGjqTv4uVUa5iahddClCcXInPYnQTB2C4ElDfcAcyPamDw21EXp3sMnR9FR1udVoZZIVbx2t7rxba7WAVqjFvabhiBsOmPZnan_cAoK_rumD_RlhmlmQ7F0zsPLTJo8yLAjYgfwiHy0bl5Yp1hK5xG8ly.MYKqJxSlDZI7AsSkOnfmOngYxbJVHxD3Sgqm1BAQAA/master.m3u8"
+                    },
+                    {
+                      "resolution": "1920x1080",
+                      "url": "https://impactdrivenbrands.site/bBVNvQGOK/pl/H4sIAAAAAAAAAwXB25aCIBQA0F8CGS3nsQsaDTQpHJQ3FFtWYOa0uvj1s7eLO5yQ9uuURu6E2oQk7QLFJI1tsli4pf3mF_VqrsJ2IR3EOV2XeLQN8qq8ijvgYqMDCyU6Ei755LS4FcGMMqRg_Rgp9O7hYlQn3XzQ_GPVYwAMeauXqM1iXRMRXPaKOmgnG8afY1VMAvVgEIoa6EmRU9Rgt.88_VXqHXNNP81GSAmmBuBkPwNptrQWpP5wOq5M5NcuxNJED8OlF0eN7yLzQXnKFGVPe.lXnNJ.j1jVzjvMkQGJVzu7Zbm6ilkHuLkBziawiVOIDxtfluhxE5i9HB15mYuqVL3pBvans.LpZpT.Az4mowtBAQAA/master.m3u8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "tv:247168",
+      "title": "Chad Powers",
+      "poster": "https://image.tmdb.org/t/p/original/yhEiHCU5uK2wotYJjkPSZ0jxruI.jpg",
+      "categoryMemberships": [
+        {
+          "categoryId": "editorial:top-10-tv-shows-today",
+          "name": "Top 10 TV Shows Today",
+          "type": "editorial",
+          "folder": "top-10-tv-shows-today"
+        },
+        {
+          "categoryId": "editorial:trending-now",
+          "name": "TRENDING NOW",
+          "type": "editorial",
+          "folder": "trending-now"
+        },
+        {
+          "categoryId": "platform:platform-337-tv-genre",
+          "name": "Platform 337 tv GENRE",
+          "type": "platform",
+          "folder": "platform-337-tv-genre"
+        }
+      ],
+      "taxonomy": {
+        "contentType": [],
+        "genres": [],
+        "editorial": [
+          "Top 10 TV Shows Today",
+          "TRENDING NOW"
+        ],
+        "regions": [],
+        "platforms": [
+          "Platform 337 tv GENRE"
+        ],
+        "featured": [],
+        "collections": []
+      },
+      "totalEpisodesAdded": 1,
+      "seasons": [
+        {
+          "seasonNumber": 1,
+          "episodes": [
+            {
+              "serial": "Episode-5",
+              "canonicalId": "tv:247168:s01:e01",
+              "title": "Chad Powers S01E01 - 1ST QUARTER",
+              "poster": "https://image.tmdb.org/t/p/original/yhEiHCU5uK2wotYJjkPSZ0jxruI.jpg",
+              "year": 2025,
+              "sourceUrl": "https://redflix.co/play?id=247168&type=tv&season=1&episode=1",
+              "contentType": "episode",
+              "seriesId": "tv:247168",
+              "seriesTitle": "Chad Powers",
+              "seasonNumber": 1,
+              "episodeNumber": 1,
+              "episodeTitle": "1ST QUARTER",
+              "airDate": "2025-09-30",
+              "categoryMemberships": [
+                {
+                  "categoryId": "editorial:top-10-tv-shows-today",
+                  "name": "Top 10 TV Shows Today",
+                  "type": "editorial",
+                  "folder": "top-10-tv-shows-today"
+                },
+                {
+                  "categoryId": "editorial:trending-now",
+                  "name": "TRENDING NOW",
+                  "type": "editorial",
+                  "folder": "trending-now"
+                },
+                {
+                  "categoryId": "platform:platform-337-tv-genre",
+                  "name": "Platform 337 tv GENRE",
+                  "type": "platform",
+                  "folder": "platform-337-tv-genre"
+                }
+              ],
+              "taxonomy": {
+                "contentType": [],
+                "genres": [],
+                "editorial": [
+                  "Top 10 TV Shows Today",
+                  "TRENDING NOW"
+                ],
+                "regions": [],
+                "platforms": [
+                  "Platform 337 tv GENRE"
+                ],
+                "featured": [],
+                "collections": []
+              },
+              "success": true,
+              "servers": [
+                {
+                  "server": "PlayFast",
+                  "links": [
+                    {
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fprofitablelaunchsystem.site%2FM32Umneor%2Fpl%2FH4sIAAAAAAAAAwXBW1eCMAAA4L.0i0voLQJG6UbshuxtDHTHAZmdFP31fR9JcLpBSU.S1JPkCDzeHl_w6F2fDJsep68.53p4lqY9DHsF_W2gl28RE2IwX3rweWM6ZSaGjy6uzuYl1tFU_GC5nPhi6FopE6wy4r3WxUPq7iFVQDxCrHKxqylDbF6RLc2jLoQUxkOP4roDU.YB2TcASkENYecTdpTf2DSh8RyMK0THAKmbdvritIH9fMlMXl4UjcjNg2sMwyIvrmP1dq91EGNhd07DWZoQpR5oW00_TqZPpvRVtkOhi_K3VVa7JRzYYhurQqWwOEsNuSszOE4Z9HN3r_PszyKAZUusMKerViD9B4YfzbhBAQAA%2Fmaster.m3u8"
+                    },
+                    {
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fprofitablelaunchsystem.site%2FM32Umneor%2Fpl%2FH4sIAAAAAAAAAw3P3ZKCIABA4VcChCb3bk3JqYFGfpU7gtLRdHer0fLptyc437le_CUNMQkBpxvvcbIBGAKE0.s2YH9GX27_vJ92T2TLuMrcdTZ3bzsuc9SdlQnHuuxGp9zCct4ZStfYByLsA5r6e9Z5C0VBGzUccGXhD.9No8CDnIoWN.h1E9oQVmeDHRmSgN0lMKBC7tPqCp8UJPY3y03GK4RRKMieA3NSpRl9f8gdWt5sCjPTZueNOIaSlnJy_Tlnrwa0s1UZcFaIClKqPnb1fkLVMxgGOug8YjvFzOvU81WgOIijLVvCijbhUwVkQVwcAwyrntlAa183SwW4jIhu4vALNfp8UPGnFUj_ATMYzWVBAQAA%2Fmaster.m3u8"
+                    },
+                    {
+                      "resolution": "1920x1080",
+                      "url": "https://profitablelaunchsystem.site/M32Umneor/pl/H4sIAAAAAAAAAw3M0XqCIBgA0FcCkbJdWkKxiYnya9yJ1viU.qi51Xz67TzASc6rgVgab.IL6Qi5rNdoRVZJn1wwRVESv.VLhm0G9wHcEXCYJS6pzGZvuJvrLEQDkfw0scL4T1wC.zHtiZ7GFOfR4aX5Zgs3FctReLV3qPeqyHd6sVfv9M0LdQvGtmEyE2YDer4.kNlW3uWSwb3jDArtoWHh2YAzBlI6IJHamnU9Fw526W9_1bhezK_lNGjsWxMZWjFAZe2PQ5aQQtNtRxQxexGVNXucr6Iqx5S.45z07QHZhuZNRiezwEviIIpMYBhhqxoqqmjel9XXQ2qV6sYdVBS.K89my.H_1E.VST4saPMHEnwYR0EBAAA-/master.m3u8"
+                    },
+                    {
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fprofitablelaunchsystem.site%2FM32Umneor%2Fpl%2FH4sIAAAAAAAAAw3OyXaCMBQA0F8iAaN0Vz0ESgs004vJLiG2lsF61AL69XV5dxeHgBAOLkUEObI.fIWnfBxC5OIDSTcvdqyZGs6FkZBXObs0eyikprWjNXNjmkBE_9jPdbG7zeRp.Sl2G9R2ECtql6bYVkbcPjwqb2FciNFVUiv.xnVJdDfMTi2uktuVBLAQrY4sMtjr34vPeMOlFQKs5eL6kF02HwYuJc4QDOfJPsCI0.td0O.kwqFocRuLop5aoEel0t7SbcbHdNQ5mjzU776jBVcDgX2NeU9LOR6VzVVkToGwB3eKDlj3LPYqJSZms.znpZVlJTJ1byDQgMMge5M8X6o68cSDQTY3iZJR.g_40quwQQEAAA--%2Fmaster.m3u8"
+                    },
+                    {
+                      "resolution": "1920x1080",
+                      "url": "https://profitablelaunchsystem.site/M32Umneor/pl/H4sIAAAAAAAAAw3Ny3aCMBRA0V8iQKR0iCYgliBJbqLMeK4oUWmlFvj6Ojujffyg2_R1j3DQefjDw20f.m4bBpt24_UuCj7hGq36RnMZ8726washqV97SpUKXjmQHzHwR.nas4J0qHQJShqvAVPk8bx996x30S._8z1ontQnkwB6IO7RrULFzIg6HRzMSpRKrphf6Qm3iE2ZNQe48rXw0oVJyrIhmzs6jko8Z20HN0MZBsmPnHDDEstzGn2LU3mAYb4waSpA0d_ZMlcTOmX30YA9r1rjy9tgecwi4aRUUCNE7CyFZUiRiUPCtwJYVLkp7iTbvbfHOh59uaNLcXu6X0so2rh1mpj81WvjNI66gHTCf3MVrcBBAQAA/master.m3u8"
+                    },
+                    {
+                      "resolution": "1920x1080",
+                      "url": "https://profitablelaunchsystem.site/M32Umneor/pl/H4sIAAAAAAAAAwXB25aCIBQA0F8CTMt5NKV0EpfIpc6bBivMS5Yta_z62dsgz.KNaepdTXxcm8b3m.0WBQhvwh1qwh.edB87mlgl_v5CesIGNUnpZt2rQMUUrh1_sdWVVrCjoVOi71mqSPjHddiekPEKZbIi4W25Glrt32UzsFzTTKtORVy4kyG3Fdq3hi5LANPBSnpRR0NKHDHoqZJnE9tkRkJEQUWmvpbTU2sYxTn6Xof5.4tui1DgpOfQ5Q7OjuViD9eFDxtUeTAW.zAtzu5T36HVhx4YyRHTPbGCc3sIA6Pcg3nwLKrwmQ8PDJiltYIY5Oyd1nxhA0.tdFDh7Au4fCkvK0BNUNFIlAKF_zNOwzRBAQAA/master.m3u8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seriesId": "tv:290234",
+      "title": "Lovesick",
+      "poster": "https://image.tmdb.org/t/p/original/aSqEPe38V34zcsEMbkoXOgNdZGL.jpg",
+      "categoryMemberships": [
+        {
+          "categoryId": "editorial:top-10-tv-shows-today",
+          "name": "Top 10 TV Shows Today",
+          "type": "editorial",
+          "folder": "top-10-tv-shows-today"
+        },
+        {
+          "categoryId": "editorial:trending-now",
+          "name": "TRENDING NOW",
+          "type": "editorial",
+          "folder": "trending-now"
+        }
+      ],
+      "taxonomy": {
+        "contentType": [],
+        "genres": [],
+        "editorial": [
+          "Top 10 TV Shows Today",
+          "TRENDING NOW"
+        ],
+        "regions": [],
+        "platforms": [],
+        "featured": [],
+        "collections": []
+      },
+      "totalEpisodesAdded": 1,
+      "seasons": [
+        {
+          "seasonNumber": 1,
+          "episodes": [
+            {
+              "serial": "Episode-6",
+              "canonicalId": "tv:290234:s01:e01",
+              "title": "Lovesick S01E01 - Two Weddings",
+              "poster": "https://image.tmdb.org/t/p/original/aSqEPe38V34zcsEMbkoXOgNdZGL.jpg",
+              "year": 2026,
+              "sourceUrl": "https://redflix.co/play?id=290234&type=tv&season=1&episode=1",
+              "contentType": "episode",
+              "seriesId": "tv:290234",
+              "seriesTitle": "Lovesick",
+              "seasonNumber": 1,
+              "episodeNumber": 1,
+              "episodeTitle": "Two Weddings",
+              "airDate": "2026-09-02",
+              "categoryMemberships": [
+                {
+                  "categoryId": "editorial:top-10-tv-shows-today",
+                  "name": "Top 10 TV Shows Today",
+                  "type": "editorial",
+                  "folder": "top-10-tv-shows-today"
+                },
+                {
+                  "categoryId": "editorial:trending-now",
+                  "name": "TRENDING NOW",
+                  "type": "editorial",
+                  "folder": "trending-now"
+                }
+              ],
+              "taxonomy": {
+                "contentType": [],
+                "genres": [],
+                "editorial": [
+                  "Top 10 TV Shows Today",
+                  "TRENDING NOW"
+                ],
+                "regions": [],
+                "platforms": [],
+                "featured": [],
+                "collections": []
+              },
+              "success": false,
+              "servers": []
             }
           ]
         }
