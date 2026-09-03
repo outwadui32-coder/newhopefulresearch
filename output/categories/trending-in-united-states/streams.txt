@@ -1,11 +1,11 @@
 CATEGORY: Home: Trending in United States
-TOTAL MOVIES: 7
+TOTAL MOVIES: 8
 SUCCESSFUL NEW ADDED: 0
 SUCCESSFUL NEW ADDED SERIES: 0
 SUCCESSFUL NEW ADDED EPISODES: 0
-STREAM_LINKS: 57
-UNIQUE_STREAM_URLS: 57
-LAST_UPDATED: 2026-09-03T02:38:16.545Z
+STREAM_LINKS: 60
+UNIQUE_STREAM_URLS: 60
+LAST_UPDATED: 2026-09-03T02:49:34.675Z
 PURPOSE: Strictly for educational purposes only and not for commercial use
 
 Movie-1
@@ -69,6 +69,18 @@ Resolution-3: 1920x960
 URL: https://scalablecontentengine.site/8DZ5WpsK6/pl/H4sIAAAAAAAAAw3PUZaCIBQA0C2BocX8TamVHWl6KiR_Ap4sRO3kpOPqp7uDqzD1CTablcJUrYmvzIboQGvsV6aqNtUXoNnJfTmrqA3SwiSFR8vctpgd.nfqYJV5BMN9rC7ceoWAX2kNzx6xD2HjCzE02uv_WDSP0mMhQ8lTWQrysD2plZ6BDyPsxq5cbhN3M2HhFskoCcS.cRVmuIjoT1bQZ4lvU.b1U23xEe70db4OoXE.VyEnBvWT9PCRuRnpaOxS23LeNonYD..6.14K0SDIaKARP1_axlaF9LkzsUTxnD1gd46A5bwVadsQ6Ziso_hzglQcDDkh0.lH8jI5W9RV5sZCWIcXlF4B68_bLIj.A_XT8qtBAQAA/master.m3u8
 
 Movie-6
+Title: Colony
+Year: 2026
+Category: Trending in United States
+Server-1: PlayFast
+Resolution-1: 1920x804
+URL: https://conversionfocusedstudio.site/TvthTexVJ/pl/H4sIAAAAAAAAAwXBa3eCIAAA0L8E0iz3bZ58xBJTXsk3hjRKKddhZ8av3727BGyhBhd0gUYjY7dbAMf07bJLEw0B0u.2JJSALPQzTkwx_2imiJHDSkTOVdkg6vGec6ytd1iXTrW1Y510gE4Bal.gIebBshIfI_5tmWopAM8xccee9VEl5jX4ZbH3Q7Q0S7tYBlOtG377iAzhqbtNsYFLY.XhSaHLdRXo6GExcIW_ChFZvWyavbtaRj7HikTq4WoqUVCupIH5SRXqodAs2Pz9ItXcyjpnDXJc7UdBfXanNKREjMfhTlaBRN3BadNPS8NBmUo_JNILb_3S8rP462sXTS2cqNSDofnErkFyBrJ_6zcEBUEBAAA-/master.m3u8
+Resolution-2: 1920x804
+URL: https://conversionfocusedstudio.site/TvthTexVJ/pl/H4sIAAAAAAAAAwXB25aCIBQA0F8CS8t5mxIyJ3CJgsYbik3q0Vxll.HrZ2_vgi3216vLaoOaTeDX2xB5JmiaOvC2FxN8FdPvR8Zqb4GzkoSdJMPdTCItQTDV67eoKDWK3.shPOnie5VXqjPdwrJuwZJqsAdKCwRVPl5zNarhDPMzVSqyNCFyENigB.Z4fjM05.WU7FQkX8IdcSbFy8Icc6KPNdg.8z4iLxcjJQ9qoK6J4dbK5ab3j1dD.TuNlFRjSCxQViC1NiRD7WHtGKJV0es_jvCexRApxys.Lq4dF6g9_86ljXJIgP8tT.vNzx.3u7IDmKbSXUphl0qKeHwtRM_8M9CJkeRjJn1qYzpqh8J_YaV3E0EBAAA-/master.m3u8
+Resolution-3: 1920x804
+URL: https://conversionfocusedstudio.site/TvthTexVJ/pl/H4sIAAAAAAAAAw3My3KDIABA0V9SgYx2aX0kJGJVHsoORcMISW1r2ujXN4u7OjMXomlCUQAVGqMp9D3gqakfQw1HNU19qN5Ia25ljpMmKL4rayodyB9tI9UBuytPPhlbTmwLvWp3nyPtNh5kRucLJcwYleoD37UkjFu9W7_Is4Bu67HJslvHcDCIcO.5KQseJ0IwUIH4vQhOv4VAcEziw5A__QvgH1IstzIxf6_v5dVCOXmUzZprZo60HXZhIzjcF0RTaUSKIckwHJ18DoB0nVgNf3kzk1rNMRJ3kojMGXWUZ5aQR.1fN93GBZ8JkgDj3ue8TzFoHMe1X196S1Y2X6F2jsmct4zVjqSnXd_JV0W96B9pnjHbQQEAAA--/master.m3u8
+
+Movie-7
 Title: Toy Story 5
 Year: 2026
 Category: Trending in United States
