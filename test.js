@@ -106,6 +106,13 @@ assert.equal(
   collector.serverRoute('https://redflix.co/play?id=1&type=movie', 'PlayFast'),
   'https://redflix.co/play?id=1&type=movie'
 );
+assert.deepEqual(
+  collector.mediaUrlsFromText(
+    '{"file":"https:\\/\\/cdn.example\\/api\\/master.m3u8?token=abc"}',
+    'https://provider.example/player'
+  ),
+  ['https://cdn.example/api/master.m3u8?token=abc']
+);
 
 const resumeCatalog = Array.from({ length: 5 }, (_, index) => ({
   url: `https://test/resume/${index + 1}`, title: `Resume ${index + 1}`, categories: ['Resume Category'],

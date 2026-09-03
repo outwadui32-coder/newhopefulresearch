@@ -250,6 +250,20 @@ function is1080ClassResolution(value) {
   return Boolean(dimensions && (dimensions.width >= 1920 || dimensions.height >= 1080));
 }
 
+function mediaUrlsFromText(text, baseUrl) {
+  if (!text || (!/m3u8|\.mpd/i.test(text))) return [];
+  const normalized = text.replace(/\\u002f/gi, '/').replace(/\\\//g, '/');
+  const matches = normalized.match(/(?:https?:\/\/[^\s"'<>]+|(?:\.\.\/|\.\/|\/)[^\s"'<>]+)\.(?:m3u8|mpd)(?:\?[^\s"'<>]*)?/gi) || [];
+  const urls = [];
+  for (const match of matches) {
+    try {
+      const url = new URL(match, baseUrl).href;
+      if (!urls.includes(url)) urls.push(url);
+    } catch (_) {}
+  }
+  return urls;
+}
+
 async function runPool(items, concurrency, worker) {
   let cursor = 0;
   const runners = Array.from({ length: Math.min(concurrency, Math.max(1, items.length)) }, async () => {
@@ -325,12 +339,16 @@ async function probeCandidate(candidate) {
     const variants = verifiedKind === 'hls' ? parseHlsVariants(prefix, response.url) : [];
     const selectedVariant = highest1080ClassVariant(variants);
     let mediaProbe = null;
-    let resolution = selectedVariant?.resolution || null;
+    let resolution = selectedVariant?.resolution || candidate.observedResolution || null;
 
     if (verifiedKind === 'hls' && selectedVariant) {
       const child = await fetchPrefix(selectedVariant.url);
       const childManifest = child.body.toString('utf8');
       const mediaUrl = child.ok ? firstHlsMediaUrl(childManifest, child.url) : null;
+      mediaProbe = mediaUrl ? await fetchPrefix(mediaUrl, { range: true, limit: 4096 }) : null;
+    }
+    if (verifiedKind === 'hls' && !selectedVariant && is1080ClassResolution(resolution)) {
+      const mediaUrl = firstHlsMediaUrl(prefix, response.url);
       mediaProbe = mediaUrl ? await fetchPrefix(mediaUrl, { range: true, limit: 4096 }) : null;
     }
 
@@ -344,7 +362,7 @@ async function probeCandidate(candidate) {
     }
 
     const qualityVerified = verifiedKind === 'hls'
-      ? Boolean(selectedVariant && mediaProbe?.ok && mediaProbe.body.length > 0)
+      ? Boolean(is1080ClassResolution(resolution) && mediaProbe?.ok && mediaProbe.body.length > 0)
       : verifiedKind === 'dash'
         ? is1080ClassResolution(resolution)
         : false;
@@ -393,6 +411,33 @@ async function triggerPlayback(page) {
       // A provider frame can be blank or detach while it redirects.
     }
   }
+}
+
+async function pageVideoResolution(page) {
+  const dimensions = [];
+  for (const frame of page.frames()) {
+    try {
+      dimensions.push(...await frame.evaluate(() => [...document.querySelectorAll('video')]
+        .map((video) => ({ width: video.videoWidth, height: video.videoHeight }))
+        .filter((item) => item.width > 0 && item.height > 0)));
+    } catch (_) {}
+  }
+  const best = dimensions.sort((left, right) =>
+    (right.width * right.height) - (left.width * left.height)
+  )[0];
+  return best ? `${best.width}x${best.height}` : null;
+}
+
+async function performanceMediaUrls(page) {
+  const urls = [];
+  for (const frame of page.frames()) {
+    try {
+      for (const value of await frame.evaluate(() => performance.getEntriesByType('resource').map((entry) => entry.name))) {
+        if (mediaKind(value) && !urls.includes(value)) urls.push(value);
+      }
+    } catch (_) {}
+  }
+  return urls;
 }
 
 async function sourceLabels(page) {
@@ -548,7 +593,9 @@ async function startScanner(options) {
         }, server);
       }
 
-      if (!kind && looksLikeManifestCandidate(url, type, contentType)) {
+      if (!kind && (looksLikeManifestCandidate(url, type, contentType) || ['xhr', 'fetch'].includes(type))) {
+        const contentLength = Number(headers['content-length']) || 0;
+        if (contentLength > 2 * 1024 * 1024) return;
         const inspection = response.buffer()
           .then((body) => {
             const prefix = body.subarray(0, 8192).toString('utf8');
@@ -558,6 +605,12 @@ async function startScanner(options) {
                 url, kind: bodyKind, status: response.status(), contentType,
                 resourceType: type, headers: cleanHeaders(request.headers()),
                 detectedBy: 'response-body',
+              }, server);
+            }
+            for (const mediaUrl of mediaUrlsFromText(body.subarray(0, 2 * 1024 * 1024).toString('utf8'), url)) {
+              saveCandidate({
+                url: mediaUrl, kind: mediaKind(mediaUrl), status: response.status(), contentType,
+                resourceType: type, headers: cleanHeaders(request.headers()), detectedBy: 'response-payload-url',
               }, server);
             }
           })
@@ -643,7 +696,18 @@ async function startScanner(options) {
         const sourceDeadline = Date.now() + Math.min(sourceWindow, 12000);
         while (Date.now() < sourceDeadline) {
           await triggerPlayback(sourcePage);
+          status.observedVideoResolution = await pageVideoResolution(sourcePage) || status.observedVideoResolution || null;
           await sleep(1500);
+        }
+        for (const mediaUrl of await performanceMediaUrls(sourcePage)) {
+          saveCandidate({ url: mediaUrl, kind: mediaKind(mediaUrl), detectedBy: 'performance-resource' }, label);
+        }
+        if (status.observedVideoResolution) {
+          for (const candidate of candidates.values()) {
+            if (candidate.server === label && !candidate.observedResolution) {
+              candidate.observedResolution = status.observedVideoResolution;
+            }
+          }
         }
       } catch (error) {
         status.error = error.message;
@@ -681,7 +745,7 @@ async function startScanner(options) {
     console.log(`[SERVER RESULT] ${status.server} | SOURCE=${status.sourceLabel} | ` +
       `SELECTED=${status.selected ? 'YES' : 'NO'} | CAPTURED=${captured.length} | ` +
       `VERIFIED=${verified.length} | RESOLUTIONS=${status.verifiedResolutions.join(',') || 'none'} | ` +
-      `ERROR=${status.error || 'none'}`);
+      `VIDEO=${status.observedVideoResolution || 'unknown'} | ERROR=${status.error || 'none'}`);
   }
 
   const payload = {
@@ -736,5 +800,5 @@ if (require.main === module) main();
 module.exports = {
   parseArgs, mediaKind, isSegment, parseHlsVariants, is1080ClassResolution,
   highest1080ClassVariant, probeCandidate, sourceLabels, sourceState, selectSource,
-  isActivatedSourceState, attributedServer, resolveSourcePlan, serverRoute,
+  isActivatedSourceState, attributedServer, resolveSourcePlan, serverRoute, mediaUrlsFromText,
 };
