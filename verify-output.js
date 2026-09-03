@@ -108,10 +108,23 @@ function verifyCategory(entry) {
 }
 
 async function probe(url) {
-  const response = await fetch(url, { signal: AbortSignal.timeout(20000), redirect: 'follow' });
-  if (!response.ok) fail(`Direct URL returned HTTP ${response.status}: ${url}`);
-  const body = await response.text();
-  if (!body.includes('#EXTM3U')) fail(`Direct URL is not an HLS playlist: ${url}`);
+  let lastError = null;
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    try {
+      const response = await fetch(url, { signal: AbortSignal.timeout(30000), redirect: 'follow' });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const body = await response.text();
+      if (!body.includes('#EXTM3U')) throw new Error('response is not an HLS playlist');
+      return;
+    } catch (error) {
+      lastError = error;
+      if (attempt < 3) {
+        process.stdout.write(`[LIVE RETRY ${attempt}/3] ${url}\n`);
+        await new Promise((resolve) => setTimeout(resolve, 1000 * attempt));
+      }
+    }
+  }
+  fail(`Direct URL failed after 3 attempts (${lastError?.message || 'unknown error'}): ${url}`);
 }
 
 async function runPool(items, concurrency, worker) {
