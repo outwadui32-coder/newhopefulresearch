@@ -6,5 +6,4 @@ SUCCESSFUL NEW ADDED EPISODES: 0
 STREAM_LINKS: 0
 UNIQUE_STREAM_URLS: 0
 LAST_UPDATED: 2026-09-03T12:05:11.213Z
-PURPOSE: Strictly for educational purposes only and not for commercial use
 

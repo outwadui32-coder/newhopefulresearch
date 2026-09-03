@@ -277,7 +277,7 @@ assert.match(reportText, /^SUCCESSFUL NEW ADDED EPISODES: 0$/m);
 assert.match(reportText, /^STREAM_LINKS: 3$/m);
 assert.match(reportText, /^UNIQUE_STREAM_URLS: 3$/m);
 assert.match(reportText, /^LAST_UPDATED: 2026-09-02T12:31:22.138Z$/m);
-assert.match(reportText, /^PURPOSE: Strictly for educational purposes only and not for commercial use$/m);
+assert.doesNotMatch(reportText, /^PURPOSE:/m);
 assert.match(reportText, /^Movie-1$/m);
 assert.match(reportText, /^Title: The Odyssey$/m);
 assert.match(reportText, /^Year: 2026$/m);
@@ -301,10 +301,7 @@ assert.deepEqual(Object.keys(nestedRecord.servers[0].links[0]), ['resolution', '
 assert.equal('streams' in nestedRecord, false);
 
 const paths = scanner.outputPaths(process.cwd());
-if (
-  fs.existsSync(paths.checkpoint) && fs.existsSync(paths.masterJson) &&
-  fs.readFileSync(paths.masterJson, 'utf8').includes('Strictly for educational purposes only')
-) {
+if (fs.existsSync(paths.checkpoint) && fs.existsSync(paths.masterJson)) {
   const json = JSON.parse(fs.readFileSync(paths.checkpoint, 'utf8'));
   const master = JSON.parse(fs.readFileSync(paths.masterJson, 'utf8'));
   const text = fs.readFileSync(paths.masterText, 'utf8');
@@ -313,8 +310,9 @@ if (
   const declaredMasterLinks = Number(text.match(/^STREAM_LINKS: (\d+)$/m)?.[1]);
   assert.equal(declaredMasterLinks, extInfCount);
   assert.match(text, /^CATEGORY: MASTER$/m);
-  assert.match(text, /^PURPOSE: Strictly for educational purposes only and not for commercial use$/m);
-  assert.match(m3u, /^# PURPOSE: Strictly for educational purposes only and not for commercial use$/m);
+  assert.doesNotMatch(text, /^PURPOSE:/m);
+  assert.doesNotMatch(m3u, /^# PURPOSE:/m);
+  assert.equal(Object.prototype.hasOwnProperty.call(master, 'purpose'), false);
   for (const [category, data] of Object.entries(json.categoryData)) {
     if (data.totalMoviesAdded === 0) continue;
     assert.ok(data.results.every((result) => Array.isArray(result.streams)));
@@ -347,7 +345,7 @@ if (
     const categoryText = fs.readFileSync(`${directory}/streams.txt`, 'utf8');
     const categoryM3u = fs.readFileSync(`${directory}/playlist.m3u`, 'utf8');
     assert.equal(categoryJson.metadata.category, category.categoryName);
-    assert.equal(categoryJson.metadata.purpose, 'Strictly for educational purposes only and not for commercial use');
+    assert.equal(Object.prototype.hasOwnProperty.call(categoryJson.metadata, 'purpose'), false);
     const categoryRecords = [
       ...(categoryJson.movies || []),
       ...(categoryJson.series || []).flatMap((series) => series.seasons.flatMap((season) => season.episodes)),

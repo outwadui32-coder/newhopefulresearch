@@ -27,7 +27,7 @@ output/
     `-- scan-history.jsonl
 ```
 
-Each category output begins with its category, total movie count, newly added movie/series/episode counts, stream counts, update time, and educational-use purpose. Items are numbered `Movie-N`, `Series-N`, or `Episode-N`, include clean title, year, and poster, and group resolutions beneath each server. Posters come from the source page first, TMDB second, and OMDb as a fallback; configure `TMDB_API_KEY`, `TMDB_READ_TOKEN`, and `OMDB_API_KEY` as repository variables or secrets.
+Each category output begins with its category, total movie count, newly added movie/series/episode counts, stream counts, and update time. Items are numbered `Movie-N`, `Series-N`, or `Episode-N`, include clean title, year, and poster, and group resolutions beneath each server. Posters come from the source page first, TMDB second, and OMDb as a fallback; configure `TMDB_API_KEY`, `TMDB_READ_TOKEN`, and `OMDB_API_KEY` as repository variables or secrets.
 
 Only direct, no-custom-header media from Alpha, Premium, Orion, Ultra, or PlayFast is eligible. Links below 1080-class are excluded. Embed/player URLs, `Type: hls`, custom headers, and TMDB scores are not published.
 

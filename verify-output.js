@@ -5,7 +5,6 @@ const path = require('path');
 
 const OUTPUT_ROOT = path.resolve('output');
 const CATEGORY_ROOT = path.join(OUTPUT_ROOT, 'categories');
-const REQUIRED_PURPOSE = 'Strictly for educational purposes only and not for commercial use';
 const REQUIRED_SERVERS = ['Alpha', 'Premium', 'Orion', 'Ultra', 'PlayFast'];
 const FORBIDDEN_OUTPUT_KEYS = new Set(['kind', 'headers', 'tmdbScore', 'score']);
 
@@ -61,7 +60,7 @@ function verifyCategory(entry) {
 
   if (!fs.existsSync(entry.txt) || !fs.existsSync(entry.m3u)) fail(`${entry.folder}: TXT/M3U missing`);
   if (!metadata.category) fail(`${entry.folder}: category missing`);
-  if (metadata.purpose !== REQUIRED_PURPOSE) fail(`${entry.folder}: purpose mismatch`);
+  if (Object.prototype.hasOwnProperty.call(metadata, 'purpose')) fail(`${entry.folder}: purpose field must not be present`);
   if (metadata.totalMovies !== movies.length) fail(`${entry.folder}: totalMovies mismatch`);
   const playableMovies = successful.filter((movie) => movie.contentType === 'movie').length;
   const newlyAddedMovies = Number(metadata.successfulNewAdded || 0);
@@ -99,11 +98,11 @@ function verifyCategory(entry) {
     `SUCCESSFUL NEW ADDED: ${metadata.successfulNewAdded}`,
     `STREAM_LINKS: ${metadata.streamLinks}`,
     `UNIQUE_STREAM_URLS: ${metadata.uniqueStreamUrls}`,
-    `PURPOSE: ${REQUIRED_PURPOSE}`,
   ]) {
     if (!txt.includes(token)) fail(`${entry.folder}: TXT header missing ${token}`);
     if (!m3u.includes(token)) fail(`${entry.folder}: M3U header missing ${token}`);
   }
+  if (/^#?\s*PURPOSE:/mi.test(`${txt}\n${m3u}`)) fail(`${entry.folder}: purpose line must not be present`);
   if (/Type:\s*hls|Headers:|TMDB\s*Score/i.test(`${txt}\n${m3u}`)) fail(`${entry.folder}: forbidden display field`);
 
   return { entry, metadata, movies, series, episodes, records, links };

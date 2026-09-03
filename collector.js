@@ -702,6 +702,30 @@ async function startScanner(options) {
         for (const mediaUrl of await performanceMediaUrls(sourcePage)) {
           saveCandidate({ url: mediaUrl, kind: mediaKind(mediaUrl), detectedBy: 'performance-resource' }, label);
         }
+        if (![...candidates.values()].some((item) => item.server === label)) {
+          console.log(`[PROVIDER TOP-LEVEL FALLBACK] ${label} -> ${shortUrl(selection.iframeUrl)}`);
+          const providerPage = await browser.newPage();
+          pageServers.set(providerPage, label);
+          providerAllowedPages.add(providerPage);
+          inspectPage(providerPage);
+          try {
+            await providerPage.setExtraHTTPHeaders({ referer: exactSourceRoute });
+            await providerPage.goto(selection.iframeUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+            const directDeadline = Date.now() + 10000;
+            while (Date.now() < directDeadline) {
+              await triggerPlayback(providerPage);
+              status.observedVideoResolution = await pageVideoResolution(providerPage) || status.observedVideoResolution || null;
+              await sleep(1250);
+            }
+            for (const mediaUrl of await performanceMediaUrls(providerPage)) {
+              saveCandidate({ url: mediaUrl, kind: mediaKind(mediaUrl), detectedBy: 'top-level-performance-resource' }, label);
+            }
+          } catch (error) {
+            status.topLevelFallbackError = error.message;
+          } finally {
+            await providerPage.close().catch(() => {});
+          }
+        }
         if (status.observedVideoResolution) {
           for (const candidate of candidates.values()) {
             if (candidate.server === label && !candidate.observedResolution) {
@@ -745,7 +769,8 @@ async function startScanner(options) {
     console.log(`[SERVER RESULT] ${status.server} | SOURCE=${status.sourceLabel} | ` +
       `SELECTED=${status.selected ? 'YES' : 'NO'} | CAPTURED=${captured.length} | ` +
       `VERIFIED=${verified.length} | RESOLUTIONS=${status.verifiedResolutions.join(',') || 'none'} | ` +
-      `VIDEO=${status.observedVideoResolution || 'unknown'} | ERROR=${status.error || 'none'}`);
+      `VIDEO=${status.observedVideoResolution || 'unknown'} | ` +
+      `ERROR=${status.error || status.topLevelFallbackError || 'none'}`);
   }
 
   const payload = {

@@ -10,7 +10,6 @@ const OUTPUT_JSON = 'catalog-stream-results.json';
 const DEFAULT_SOURCE_URL = 'https://redflix.co/';
 const PREFERRED_SERVERS = ['Alpha', 'Premium', 'Orion', 'Ultra', 'PlayFast'];
 const STREAM_MAX_AGE_MS = 4 * 60 * 60 * 1000;
-const EDUCATIONAL_PURPOSE = 'Strictly for educational purposes only and not for commercial use';
 
 function parseArgs(argv) {
   const options = {
@@ -642,7 +641,6 @@ function saveTextReport(payload, outputPath, metadata = null) {
     `STREAM_LINKS: ${rows.length}`,
     `UNIQUE_STREAM_URLS: ${new Set(rows.map((row) => row.url)).size}`,
     `LAST_UPDATED: ${metadata.lastUpdated}`,
-    `PURPOSE: ${EDUCATIONAL_PURPOSE}`,
     '',
   ] : [
     'REDFLIX MASTER STREAM EXPORT',
@@ -721,7 +719,6 @@ function saveM3uReport(payload, outputPath, metadata = null) {
     `# STREAM_LINKS: ${rows.length}`,
     `# UNIQUE_STREAM_URLS: ${new Set(rows.map((row) => row.url)).size}`,
     `# LAST_UPDATED: ${metadata.lastUpdated}`,
-    `# PURPOSE: ${EDUCATIONAL_PURPOSE}`,
   ] : [
     '#EXTM3U',
     `# TOTAL-MOVIES-DISCOVERED: ${catalogStats.discoveredMovies}`,
@@ -1326,7 +1323,6 @@ function saveCheckpoint(payload, jsonPath, textPath, m3uPath) {
     totalStreamLinks: masterRows.length,
     totalUniqueMediaUrls: new Set(masterRows.map((row) => row.url)).size,
     lastUpdated: payload.updatedAt,
-    purpose: EDUCATIONAL_PURPOSE,
   };
   saveTextReport(masterReportPayload, textPath, masterMetadata);
   if (m3uPath) saveM3uReport(masterReportPayload, m3uPath, masterMetadata);
@@ -1462,7 +1458,6 @@ function categoryMetadata(payload, group, subset, batchSize = 20) {
     totalStreamLinks: rows.length,
     totalUniqueMediaUrls: new Set(rows.map((row) => row.url)).size,
     lastUpdated: payload.updatedAt,
-    purpose: EDUCATIONAL_PURPOSE,
   };
 }
 
@@ -1558,7 +1553,6 @@ function writeCategoryOutputs(payload, paths, batchSize = 20) {
         streamLinks: metadata.totalStreamLinks,
         uniqueStreamUrls: metadata.totalUniqueMediaUrls,
         lastUpdated: metadata.lastUpdated,
-        purpose: EDUCATIONAL_PURPOSE,
       },
       movies: splitRecords.movies,
       series: splitRecords.series,
@@ -1578,7 +1572,6 @@ function writeCategoryOutputs(payload, paths, batchSize = 20) {
       totalStreamLinks: metadata.totalStreamLinks,
       totalUniqueMediaUrls: metadata.totalUniqueMediaUrls,
       lastUpdated: metadata.lastUpdated,
-      purpose: EDUCATIONAL_PURPOSE,
       files: {
         json: `categories/${group.folder}/category.json`,
         text: `categories/${group.folder}/streams.txt`,
@@ -1618,7 +1611,6 @@ function saveOutputTree(payload, paths, options = {}) {
   const splitRecords = splitContentRecords(records);
   const masterJson = {
     summary: payload.summary,
-    purpose: EDUCATIONAL_PURPOSE,
     nextRotationCategory: payload.scheduler?.categoryOrder?.[payload.scheduler.nextCategoryIndex] || null,
     lastUpdated: payload.updatedAt,
     categories,

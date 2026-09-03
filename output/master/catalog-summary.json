@@ -20,7 +20,6 @@
     "verifiedStreams": 81,
     "legacySeriesResultsExcluded": 0
   },
-  "purpose": "Strictly for educational purposes only and not for commercial use",
   "nextRotationCategory": "Home: In Theatres",
   "lastUpdated": "2026-09-03T12:05:11.213Z",
   "categories": [
@@ -36,7 +35,6 @@
       "totalStreamLinks": 57,
       "totalUniqueMediaUrls": 57,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/top-10-movies-today/category.json",
         "text": "categories/top-10-movies-today/streams.txt",
@@ -55,7 +53,6 @@
       "totalStreamLinks": 81,
       "totalUniqueMediaUrls": 81,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/trending-now/category.json",
         "text": "categories/trending-now/streams.txt",
@@ -74,7 +71,6 @@
       "totalStreamLinks": 18,
       "totalUniqueMediaUrls": 18,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/top-10-tv-shows-today/category.json",
         "text": "categories/top-10-tv-shows-today/streams.txt",
@@ -93,7 +89,6 @@
       "totalStreamLinks": 3,
       "totalUniqueMediaUrls": 3,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-8-tv-genre/category.json",
         "text": "categories/platform-8-tv-genre/streams.txt",
@@ -112,7 +107,6 @@
       "totalStreamLinks": 30,
       "totalUniqueMediaUrls": 30,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/trending-in-united-states/category.json",
         "text": "categories/trending-in-united-states/streams.txt",
@@ -131,7 +125,6 @@
       "totalStreamLinks": 3,
       "totalUniqueMediaUrls": 3,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-9-tv-genre/category.json",
         "text": "categories/platform-9-tv-genre/streams.txt",
@@ -150,7 +143,6 @@
       "totalStreamLinks": 24,
       "totalUniqueMediaUrls": 24,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/in-theatres/category.json",
         "text": "categories/in-theatres/streams.txt",
@@ -169,7 +161,6 @@
       "totalStreamLinks": 6,
       "totalUniqueMediaUrls": 6,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-337-tv-genre/category.json",
         "text": "categories/platform-337-tv-genre/streams.txt",
@@ -188,7 +179,6 @@
       "totalStreamLinks": 21,
       "totalUniqueMediaUrls": 21,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/movies/category.json",
         "text": "categories/movies/streams.txt",
@@ -207,7 +197,6 @@
       "totalStreamLinks": 6,
       "totalUniqueMediaUrls": 6,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-387-movie-genre/category.json",
         "text": "categories/platform-387-movie-genre/streams.txt",
@@ -226,7 +215,6 @@
       "totalStreamLinks": 3,
       "totalUniqueMediaUrls": 3,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-350-tv-genre/category.json",
         "text": "categories/platform-350-tv-genre/streams.txt",
@@ -245,7 +233,6 @@
       "totalStreamLinks": 3,
       "totalUniqueMediaUrls": 3,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-1899-tv-genre/category.json",
         "text": "categories/platform-1899-tv-genre/streams.txt",
@@ -264,7 +251,6 @@
       "totalStreamLinks": 6,
       "totalUniqueMediaUrls": 6,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/trending-on-netflix/category.json",
         "text": "categories/trending-on-netflix/streams.txt",
@@ -283,7 +269,6 @@
       "totalStreamLinks": 6,
       "totalUniqueMediaUrls": 6,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-8-movie-genre/category.json",
         "text": "categories/platform-8-movie-genre/streams.txt",
@@ -302,7 +287,6 @@
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/coming-soon/category.json",
         "text": "categories/coming-soon/streams.txt",
@@ -321,7 +305,6 @@
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-337-movie-genre/category.json",
         "text": "categories/platform-337-movie-genre/streams.txt",
@@ -340,7 +323,6 @@
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-1899-movie-genre/category.json",
         "text": "categories/platform-1899-movie-genre/streams.txt",
@@ -359,7 +341,6 @@
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-9-movie-genre/category.json",
         "text": "categories/platform-9-movie-genre/streams.txt",
@@ -378,7 +359,6 @@
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-15-tv-genre/category.json",
         "text": "categories/platform-15-tv-genre/streams.txt",
@@ -397,7 +377,6 @@
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-2303-tv-genre/category.json",
         "text": "categories/platform-2303-tv-genre/streams.txt",
@@ -416,7 +395,6 @@
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/popular-on-prime-video/category.json",
         "text": "categories/popular-on-prime-video/streams.txt",
@@ -435,7 +413,6 @@
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-34-movie-genre/category.json",
         "text": "categories/platform-34-movie-genre/streams.txt",
@@ -454,7 +431,6 @@
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-15-movie-genre/category.json",
         "text": "categories/platform-15-movie-genre/streams.txt",
@@ -473,7 +449,6 @@
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-2303-movie-genre/category.json",
         "text": "categories/platform-2303-movie-genre/streams.txt",
@@ -492,7 +467,6 @@
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-283-tv-genre/category.json",
         "text": "categories/platform-283-tv-genre/streams.txt",
@@ -511,7 +485,6 @@
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-283-movie-genre/category.json",
         "text": "categories/platform-283-movie-genre/streams.txt",
@@ -530,7 +503,6 @@
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-350-movie-genre/category.json",
         "text": "categories/platform-350-movie-genre/streams.txt",
@@ -549,7 +521,6 @@
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-526-movie-genre/category.json",
         "text": "categories/platform-526-movie-genre/streams.txt",
@@ -568,7 +539,6 @@
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-99-movie-genre/category.json",
         "text": "categories/platform-99-movie-genre/streams.txt",
@@ -587,7 +557,6 @@
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/anime/category.json",
         "text": "categories/anime/streams.txt",
@@ -606,7 +575,6 @@
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/kr-asian-dramas/category.json",
         "text": "categories/kr-asian-dramas/streams.txt",
@@ -625,7 +593,6 @@
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/cn-asian-dramas/category.json",
         "text": "categories/cn-asian-dramas/streams.txt",
@@ -644,7 +611,6 @@
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/jp-asian-dramas/category.json",
         "text": "categories/jp-asian-dramas/streams.txt",
@@ -663,7 +629,6 @@
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-34-tv-genre/category.json",
         "text": "categories/platform-34-tv-genre/streams.txt",
@@ -682,7 +647,6 @@
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
       "lastUpdated": "2026-09-03T12:05:11.213Z",
-      "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/platform-526-tv-genre/category.json",
         "text": "categories/platform-526-tv-genre/streams.txt",

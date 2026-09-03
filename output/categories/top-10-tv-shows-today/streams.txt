@@ -6,7 +6,6 @@ SUCCESSFUL NEW ADDED EPISODES: 0
 STREAM_LINKS: 18
 UNIQUE_STREAM_URLS: 18
 LAST_UPDATED: 2026-09-03T12:05:11.213Z
-PURPOSE: Strictly for educational purposes only and not for commercial use
 
 Episode-1
 Title: The Gentlemen S01E01 - Refined Aggression
