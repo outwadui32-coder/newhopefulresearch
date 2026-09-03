@@ -49,6 +49,29 @@ and authorized sample manifests.
 | `lib/queue.js` | Batch scheduler. A series costs one title slot and contributes all of its aired episodes. |
 | `lib/paths.js`, `lib/output.js` | The `data/<category>/{movies,series}/` layout and the six writers. |
 | `lib/verify.js` | Checks a written tree against every published-output rule. |
+| `lib/index.js` | Single entry point re-exporting the whole chain. |
+
+### The chain
+
+```js
+const lib = require('./lib');
+
+// 1. a manifest becomes stream entries for one server
+const streams = lib.streamsFromManifest('Alpha', manifestText, manifestUrl, { verified: true });
+
+// 2. items become the one normalized model
+const model = lib.buildCategoryModel({ category, lastUpdated, purpose, items });
+
+// 3. the model becomes the six files
+lib.writeCategoryOutputs(model, { baseDirectory: 'data' });
+
+// 4. the written tree is checked
+const report = lib.verifyDataTree('data');
+```
+
+Batch scheduling is independent: `lib.buildBatch({ titles, maxTitles })` decides
+which titles a run processes, a series counting as one title slot and
+contributing all of its aired episodes.
 
 ### Output layout
 
@@ -76,7 +99,8 @@ never printed.
 ### Commands
 
 ```bash
-npm run test:lib                 # all nine library suites
+npm run test:lib                 # all eleven library suites
+npm run test:e2e                 # end-to-end checklist only
 npm run verify:data              # verify ./data
 node bin/verify-data.js <dir>    # verify another tree
 ```
