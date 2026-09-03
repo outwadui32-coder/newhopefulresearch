@@ -1,12 +1,12 @@
 # Redflix Category Stream Scanner
 
-This repository scans one Redflix category per GitHub Actions run. Each run processes at most 20 new movies, series, or episodes with three parallel browser workers, saves the cumulative state, then stops. The next run automatically moves to the next category; after the final category it wraps to the first and skips items already recorded in that category's history.
+This repository scans one Redflix category per GitHub Actions run. Each run refreshes only the selected category, puts newly discovered content ahead of its saved backlog, and processes at most 20 movies, series, or episodes. Two title workers run concurrently and each title attempts Alpha, Premium, Orion, Ultra, and PlayFast with up to five parallel server workers. Existing verified output is preserved while expired links are scheduled for refresh.
 
 ## Run from GitHub
 
-Open **Actions -> Redflix Category Scanner -> Run workflow**. No source URL, category name, or local command is required. The source URL is built into the scanner.
+Open **Actions -> Redflix Category Scanner -> Run workflow**. Automatic mode uses the saved rotation. Manual mode accepts an exact category name, category ID, folder, or 1-based category index without moving the automatic pointer. **Refresh category list** performs the slower complete site discovery only when explicitly requested; normal runs refresh only the selected category.
 
-The workflow also runs once daily. GitHub concurrency prevents two scanner runs from updating the same state simultaneously.
+The workflow also runs once daily. GitHub concurrency prevents two scanner runs from updating the same state simultaneously. Real browser diagnostics are uploaded as a short-lived artifact if a run fails before it can publish state.
 
 ## Output
 

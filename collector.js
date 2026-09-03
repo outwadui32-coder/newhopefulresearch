@@ -68,6 +68,7 @@ function parseArgs(argv) {
     timeout: DEFAULT_TIMEOUT_SECONDS,
     headless: false,
     output: DEFAULT_OUTPUT,
+    serverWorkers: 5,
   };
 
   for (let i = 0; i < argv.length; i += 1) {
@@ -88,11 +89,15 @@ function parseArgs(argv) {
   if (options.help) return options;
 
   options.timeout = Number(options.timeout);
+  options.serverWorkers = Number(options['server-workers'] || options.serverWorkers);
   if (!Number.isFinite(options.timeout) || options.timeout < 10) {
     throw new Error('--timeout must be at least 10 seconds');
   }
   if (!['movie', 'tv', 'anime'].includes(options.type)) {
     throw new Error('--type must be movie, tv, or anime');
+  }
+  if (!Number.isInteger(options.serverWorkers) || options.serverWorkers < 1 || options.serverWorkers > 5) {
+    throw new Error('--server-workers must be an integer from 1 to 5');
   }
   if (!options.url && !options.id) throw new Error('Provide either --url or --id');
 
@@ -200,7 +205,18 @@ function resolutionDimensions(value) {
 
 function is1080ClassResolution(value) {
   const dimensions = resolutionDimensions(value);
-  return Boolean(dimensions && (dimensions.width >= 1900 || dimensions.height >= 1080));
+  return Boolean(dimensions && (dimensions.width >= 1920 || dimensions.height >= 1080));
+}
+
+async function runPool(items, concurrency, worker) {
+  let cursor = 0;
+  const runners = Array.from({ length: Math.min(concurrency, Math.max(1, items.length)) }, async () => {
+    while (cursor < items.length) {
+      const index = cursor++;
+      await worker(items[index], index);
+    }
+  });
+  await Promise.all(runners);
 }
 
 function highest1080ClassVariant(variants) {
@@ -281,7 +297,7 @@ async function probeCandidate(candidate) {
         .map((match) => ({ width: Number(match[1] || match[4]), height: Number(match[2] || match[3]) }))
         .filter((item) => item.width && item.height)
         .sort((left, right) => (right.width * right.height) - (left.width * left.height));
-      const best = representations.find((item) => item.width >= 1900 || item.height >= 1080);
+      const best = representations.find((item) => item.width >= 1920 || item.height >= 1080);
       if (best) resolution = `${best.width}x${best.height}`;
     }
 
@@ -430,15 +446,17 @@ async function startScanner(options) {
   const pendingInspections = new Set();
   const providerHosts = new Map();
   const frameServers = new WeakMap();
-  let activeServer = null;
-  let allowProviderNavigation = false;
+  const pageServers = new WeakMap();
+  const providerAllowedPages = new WeakSet();
 
   function requestServer(request) {
     const frame = request.frame();
-    return frameServers.get(frame) || attributedServer(frame?.url(), activeServer, providerHosts);
+    const ownerPage = typeof frame?.page === 'function' ? frame.page() : null;
+    const fallback = pageServers.get(ownerPage) || null;
+    return frameServers.get(frame) || attributedServer(frame?.url(), fallback, providerHosts);
   }
 
-  function saveCandidate(data, server = activeServer) {
+  function saveCandidate(data, server = null) {
     if (!server || !data.kind || isSegment(data.url)) return;
     const key = `${server}\n${data.url}`;
     const existing = candidates.get(key);
@@ -467,7 +485,7 @@ async function startScanner(options) {
         blockProvider = request.isNavigationRequest() &&
           request.frame() !== page.mainFrame() &&
           !/(^|\.)redflix\.co$/i.test(hostname) &&
-          !allowProviderNavigation;
+          !providerAllowedPages.has(page);
       } catch (_) {}
       (blockProvider ? request.abort() : request.continue()).catch(() => {});
     });
@@ -510,7 +528,13 @@ async function startScanner(options) {
 
   browser.on('targetcreated', async (target) => {
     const targetPage = await target.page().catch(() => null);
-    if (targetPage) inspectPage(targetPage);
+    if (targetPage) {
+      const opener = target.opener();
+      const openerPage = opener ? await opener.page().catch(() => null) : null;
+      const openerServer = openerPage ? pageServers.get(openerPage) : null;
+      if (openerServer) pageServers.set(targetPage, openerServer);
+      inspectPage(targetPage);
+    }
   });
 
   const [page] = await browser.pages();
@@ -518,6 +542,7 @@ async function startScanner(options) {
   const startedAt = new Date().toISOString();
   let navigationError = null;
   let discoveredServers = [];
+  let serverResults = [];
 
   try {
     console.log('[1/4] Opening the exact Redflix play route...');
@@ -536,46 +561,52 @@ async function startScanner(options) {
       discoveredServers.some((server) => server.toLowerCase() === preferred.toLowerCase())
     );
     console.log(`[PREFERRED SOURCES] ${sourcePlan.join(', ') || 'none available'}`);
-    const sourceWindow = Math.max(5000, Math.min(12000, Math.floor((options.timeout * 1000) / sourcePlan.length)));
-
-    for (const label of sourcePlan) {
-      activeServer = null;
-      allowProviderNavigation = false;
-      await page.goto(options.targetUrl, { waitUntil: 'domcontentloaded', timeout: 60000 });
-      await page.waitForSelector('#watch-streaming-sources button, iframe', { timeout: 20000 }).catch(() => null);
-      allowProviderNavigation = true;
-      activeServer = label;
-      const selection = await selectSource(page, label);
-      if (!selection.selected) {
-        activeServer = null;
-        const state = await page.evaluate(() => ({
-          url: location.href,
-          sourceButtons: document.querySelectorAll('#watch-streaming-sources button').length,
-        })).catch((error) => ({ error: error.message }));
-        console.log(`[SOURCE NOT ACTIVATED] ${label} ${JSON.stringify({ selection, state })}`);
-        continue;
-      }
-      console.log(`[SOURCE] ${label} -> ${selection.iframeUrl}`);
+    const sourceWindow = Math.max(8000, Math.min(20000, options.timeout * 1000));
+    serverResults = [];
+    await runPool(sourcePlan, options.serverWorkers, async (label) => {
+      const sourcePage = await browser.newPage();
+      pageServers.set(sourcePage, label);
+      inspectPage(sourcePage);
+      const status = { server: label, selected: false, iframeUrl: null, error: null };
       try {
-        const providerHost = new URL(selection.iframeUrl).hostname;
-        providerHosts.set(providerHost, label);
-        for (const frame of page.frames()) {
-          const frameHost = new URL(frame.url()).hostname;
-          if (frameHost === providerHost || frameHost.endsWith(`.${providerHost}`)) frameServers.set(frame, label);
+        await sourcePage.goto(options.targetUrl, { waitUntil: 'domcontentloaded', timeout: 60000 });
+        await sourcePage.waitForSelector('#watch-streaming-sources button, iframe', { timeout: 20000 }).catch(() => null);
+        providerAllowedPages.add(sourcePage);
+        const selection = await selectSource(sourcePage, label);
+        status.selected = Boolean(selection.selected);
+        status.iframeUrl = selection.iframeUrl || null;
+        if (!selection.selected) {
+          const state = await sourcePage.evaluate(() => ({
+            url: location.href,
+            sourceButtons: document.querySelectorAll('#watch-streaming-sources button').length,
+          })).catch((error) => ({ error: error.message }));
+          status.error = 'source-not-activated';
+          console.log(`[SOURCE NOT ACTIVATED] ${label} ${JSON.stringify({ selection, state })}`);
+          return;
         }
-      } catch (_) {}
-      await sleep(1500);
-
-      const sourceDeadline = Date.now() + sourceWindow;
-      while (Date.now() < sourceDeadline) {
-        for (const openPage of await browser.pages()) {
-          inspectPage(openPage);
-          await triggerPlayback(openPage);
-        }
+        console.log(`[SOURCE PARALLEL] ${label} -> ${selection.iframeUrl}`);
+        try {
+          const providerHost = new URL(selection.iframeUrl).hostname;
+          providerHosts.set(providerHost, label);
+          for (const frame of sourcePage.frames()) {
+            const frameHost = new URL(frame.url()).hostname;
+            if (frameHost === providerHost || frameHost.endsWith(`.${providerHost}`)) frameServers.set(frame, label);
+          }
+        } catch (_) {}
         await sleep(1500);
+        const sourceDeadline = Date.now() + sourceWindow;
+        while (Date.now() < sourceDeadline) {
+          await triggerPlayback(sourcePage);
+          await sleep(1500);
+        }
+      } catch (error) {
+        status.error = error.message;
+        console.log(`[SOURCE FAILED] ${label}: ${error.message}`);
+      } finally {
+        serverResults.push(status);
+        await sourcePage.close().catch(() => {});
       }
-      activeServer = null;
-    }
+    });
     if (candidates.size > 0) await sleep(5000);
     await Promise.race([
       Promise.allSettled([...pendingInspections]),
@@ -588,11 +619,11 @@ async function startScanner(options) {
 
   console.log('[4/4] Probing captured final-media candidates...');
   const results = [];
-  for (const candidate of candidates.values()) {
+  await runPool([...candidates.values()], 5, async (candidate) => {
     const probe = await probeCandidate(candidate);
     results.push({ ...candidate, probe });
-    console.log(`[${probe.ok ? 'VERIFIED' : 'UNVERIFIED'}] ${candidate.url}`);
-  }
+    console.log(`[${probe.ok ? 'VERIFIED' : 'UNVERIFIED'}] ${candidate.server} ${candidate.url}`);
+  });
 
   const payload = {
     scanner: 'redflix-final-stream-scanner', startedAt,
@@ -600,6 +631,8 @@ async function startScanner(options) {
     navigationError, success: results.some((item) => item.probe.ok), finalStreams: results,
     diagnostics: {
       serversDiscovered: discoveredServers,
+      serverAttempts: serverResults,
+      verifiedServers: [...new Set(results.filter((item) => item.probe.ok).map((item) => item.server))],
       providerFrames: [...embeds].filter(Boolean),
       note: 'providerFrames are diagnostics only; success requires a verified final media URL',
     },

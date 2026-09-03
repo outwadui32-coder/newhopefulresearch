@@ -81,7 +81,7 @@ function verifyCategory(entry) {
       fail(`${entry.folder}: unsupported server ${link.server}`);
     }
     const match = /^(\d+)x(\d+)$/.exec(String(link.resolution || ''));
-    if (!match || (Number(match[1]) < 1900 && Number(match[2]) < 1080)) {
+    if (!match || (Number(match[1]) < 1920 && Number(match[2]) < 1080)) {
       fail(`${entry.folder}: resolution below 1080-class: ${link.resolution}`);
     }
     if (!/^https?:\/\//.test(link.url || '')) fail(`${entry.folder}: invalid direct URL`);
@@ -114,7 +114,9 @@ async function probe(url) {
       const response = await fetch(url, { signal: AbortSignal.timeout(30000), redirect: 'follow' });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const body = await response.text();
-      if (!body.includes('#EXTM3U')) throw new Error('response is not an HLS playlist');
+      if (!body.includes('#EXTM3U') && !/<MPD\b/i.test(body)) {
+        throw new Error('response is not an HLS or DASH manifest');
+      }
       return;
     } catch (error) {
       lastError = error;
@@ -140,16 +142,17 @@ async function runPool(items, concurrency, worker) {
 
 async function main() {
   const verified = categoryFiles().map(verifyCategory);
-  const nonEmpty = verified.filter((item) => item.links.length > 0);
-  if (!nonEmpty.length) fail('No category contains verified stream links');
 
   const checkpointPath = path.join(OUTPUT_ROOT, 'state', 'scan-checkpoint.json');
   const checkpoint = JSON.parse(fs.readFileSync(checkpointPath, 'utf8'));
   const selectedCategory = checkpoint.scheduler?.lastCategory;
-  const selected = nonEmpty.find((item) => item.metadata.category === selectedCategory);
-  if (!selected) fail(`Selected category output is missing or empty: ${selectedCategory || 'unknown'}`);
+  const selected = verified.find((item) => item.metadata.category === selectedCategory);
+  if (!selected) fail(`Selected category output is missing: ${selectedCategory || 'unknown'}`);
 
-  const uniqueSelectedUrls = [...new Set(selected.links.map((link) => link.url))];
+  const latestBatch = checkpoint.scheduler?.lastBatchByCategory?.[selectedCategory] || {};
+  const successfulItemUrls = new Set(latestBatch.successfulItemUrls || []);
+  const latestRecords = selected.records.filter((record) => successfulItemUrls.has(record.sourceUrl));
+  const uniqueSelectedUrls = [...new Set(flattenLinks(latestRecords).map((link) => link.url))];
   await runPool(uniqueSelectedUrls, 8, async (url, index) => {
     await probe(url);
     process.stdout.write(`[LIVE ${index + 1}/${uniqueSelectedUrls.length}] OK\n`);

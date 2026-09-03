@@ -16,13 +16,16 @@ function parseArgs(argv) {
   const options = {
     maxTitles: 20,
     titleTimeout: 90,
-    maxSurfaces: 8,
+    maxSurfaces: 30,
     retries: 2,
-    workers: 3,
+    workers: 2,
+    serverWorkers: 5,
     discoverOnly: false,
     fresh: false,
     retryFailed: false,
     refreshCatalog: false,
+    refreshCategoryList: false,
+    category: null,
   };
   for (let index = 0; index < argv.length; index += 1) {
     const arg = argv[index];
@@ -30,6 +33,7 @@ function parseArgs(argv) {
     else if (arg === '--fresh') options.fresh = true;
     else if (arg === '--retry-failed') options.retryFailed = true;
     else if (arg === '--refresh-catalog') options.refreshCatalog = true;
+    else if (arg === '--refresh-category-list') options.refreshCategoryList = true;
     else if (arg.startsWith('--')) {
       const value = argv[index + 1];
       if (!value || value.startsWith('--')) throw new Error(`Missing value for ${arg}`);
@@ -39,6 +43,8 @@ function parseArgs(argv) {
       else if (arg === '--max-surfaces') options.maxSurfaces = Number(value);
       else if (arg === '--retries') options.retries = Number(value);
       else if (arg === '--workers') options.workers = Number(value);
+      else if (arg === '--server-workers') options.serverWorkers = Number(value);
+      else if (arg === '--category') options.category = value;
       else throw new Error(`Unknown option: ${arg}`);
       index += 1;
     } else if (!options.url) options.url = arg;
@@ -58,6 +64,9 @@ function parseArgs(argv) {
   }
   if (!Number.isInteger(options.workers) || options.workers < 1 || options.workers > 5) {
     throw new Error('--workers must be an integer from 1 to 5');
+  }
+  if (!Number.isInteger(options.serverWorkers) || options.serverWorkers < 1 || options.serverWorkers > 5) {
+    throw new Error('--server-workers must be an integer from 1 to 5');
   }
   return options;
 }
@@ -118,7 +127,7 @@ function surfaceName(urlString) {
   return url.pathname.slice(1).replace(/-/g, ' ').replace(/\b\w/g, (letter) => letter.toUpperCase());
 }
 
-async function discoverSite(rootUrl, origin, maxSurfaces) {
+async function discoverSite(rootUrl, origin, maxSurfaces, requestedSeedUrls = null) {
   const browser = await puppeteer.launch({
     headless: false,
     defaultViewport: null,
@@ -126,7 +135,7 @@ async function discoverSite(rootUrl, origin, maxSurfaces) {
   });
   try {
     const [page] = await browser.pages();
-    const seedUrls = [
+    const seedUrls = requestedSeedUrls || [
       rootUrl,
       `${origin}/movies`,
       `${origin}/tv-shows`,
@@ -155,6 +164,10 @@ async function discoverSite(rootUrl, origin, maxSurfaces) {
         try {
           const response = await page.goto(surfaceUrl, { waitUntil: 'domcontentloaded', timeout: 60000 });
           if (response && [403, 429].includes(response.status())) throw new Error(`HTTP ${response.status()}`);
+          await page.waitForFunction(
+            () => document.querySelectorAll('a[href*="/play"],a[href*="/movie/"],a[href*="/tv/"]').length > 0,
+            { timeout: 20000 }
+          ).catch(() => null);
           await scrollWholePage(page);
           loaded = true;
         } catch (attemptError) {
@@ -224,6 +237,7 @@ function runTitleScanner(title, options, resultPath) {
       '--url', title.url,
       '--timeout', String(options.titleTimeout),
       '--output', resultPath,
+      '--server-workers', String(options.serverWorkers),
     ];
     const child = spawn(process.execPath, args, { cwd: __dirname, stdio: 'inherit' });
     let settled = false;
@@ -298,7 +312,7 @@ function inferQuality(url, kind) {
 
 function is1080ClassResolution(value) {
   const dimensions = String(value || '').match(/^(\d+)x(\d+)$/i);
-  if (dimensions) return Number(dimensions[1]) >= 1900 || Number(dimensions[2]) >= 1080;
+  if (dimensions) return Number(dimensions[1]) >= 1920 || Number(dimensions[2]) >= 1080;
   const progressive = String(value || '').match(/^(\d+)p$/i);
   return Boolean(progressive && Number(progressive[1]) >= 1080);
 }
@@ -319,7 +333,97 @@ function isPublishableStream(stream) {
 }
 
 function isPublishableScan(scan) {
-  return Boolean(isFreshScan(scan) && (scan?.finalStreams || []).some(isPublishableStream));
+  return Boolean((scan?.finalStreams || []).some(isPublishableStream));
+}
+
+function resolveCategorySelection(scheduler, selector = null) {
+  const order = scheduler?.categoryOrder || [];
+  if (order.length === 0) return null;
+  if (!selector) return order[scheduler.nextCategoryIndex % order.length];
+  const wanted = String(selector).trim();
+  if (/^\d+$/.test(wanted)) {
+    const index = Number(wanted) - 1;
+    if (order[index]) return order[index];
+  }
+  const match = order.find((category) => {
+    const descriptor = categoryDescriptor(category);
+    return [category, descriptor.name, descriptor.categoryId, descriptor.folder]
+      .some((value) => String(value).toLowerCase() === wanted.toLowerCase());
+  });
+  if (!match) throw new Error(`Unknown category: ${selector}. Available: ${order.join(' | ')}`);
+  return match;
+}
+
+function surfaceUrlForCategory(category, surfaces, rootUrl, origin) {
+  const surface = String(category || '').split(':', 1)[0].trim();
+  const saved = (surfaces || []).find((entry) => entry.name === surface && entry.url);
+  if (saved) return saved.url;
+  const known = {
+    Home: rootUrl,
+    Movies: `${origin}/movies`,
+    'Tv Shows': `${origin}/tv-shows`,
+    Anime: `${origin}/anime`,
+    Browse: `${origin}/browse`,
+    'Asian Dramas KR': `${origin}/asian-dramas?region=KR&sort=popular`,
+    'Asian Dramas CN': `${origin}/asian-dramas?region=CN&sort=popular`,
+    'Asian Dramas JP': `${origin}/asian-dramas?region=JP&sort=popular`,
+  };
+  if (known[surface]) return known[surface];
+  if (/^Platform \d+ (movie|tv)$/i.test(surface)) {
+    const [, id, type] = surface.match(/^Platform (\d+) (movie|tv)$/i);
+    return `${origin}/platforms/${id}/${type.toLowerCase()}`;
+  }
+  throw new Error(`No source surface URL is known for category ${category}`);
+}
+
+function mergeRefreshedCategory(savedCatalog, refreshedItems, category) {
+  if (!refreshedItems.length) throw new Error(`Selected category returned zero items: ${category}`);
+  const savedByUrl = new Map((savedCatalog || []).map((item) => [item.url, item]));
+  const merged = [];
+  const seen = new Set();
+  for (const item of refreshedItems) {
+    const previous = savedByUrl.get(item.url);
+    const categories = [...new Set([...(previous?.categories || []), ...(item.categories || []), category])];
+    merged.push({ ...previous, ...item, categories });
+    seen.add(item.url);
+  }
+  for (const item of savedCatalog || []) {
+    if (!seen.has(item.url)) merged.push(item);
+  }
+  return merged;
+}
+
+function restoreExpandedEpisodes(baseCatalog, previous) {
+  if (!previous) return baseCatalog;
+  const cachedMetadata = new Map((previous.seriesMetadata || [])
+    .filter((item) => item.status === 'expanded')
+    .map((item) => [item.seriesId, item]));
+  const cachedEpisodes = new Map();
+  for (const item of previous.catalog || []) {
+    if (!isEpisodeItem(item)) continue;
+    if (!cachedEpisodes.has(item.seriesId)) cachedEpisodes.set(item.seriesId, []);
+    cachedEpisodes.get(item.seriesId).push(item);
+  }
+  const restored = [];
+  for (const item of baseCatalog) {
+    if (!isUnscopedSeriesItem(item)) {
+      restored.push(item);
+      continue;
+    }
+    const identity = urlContentIdentity(item.url);
+    const seriesId = `tv:${identity.id}`;
+    const episodes = cachedMetadata.has(seriesId) ? (cachedEpisodes.get(seriesId) || []) : [];
+    if (episodes.length > 0) restored.push(...episodes.map((episode) => ({
+      ...episode,
+      categories: [...new Set([...(episode.categories || []), ...(item.categories || [])])],
+    })));
+    else restored.push(item);
+  }
+  return restored;
+}
+
+function isReusableScan(scan) {
+  return Boolean(isFreshScan(scan) && isPublishableScan(scan));
 }
 
 function pruneExpiredProcessedItems(payload) {
@@ -350,11 +454,35 @@ function sanitizeScan(scan) {
   return scan;
 }
 
+function mergeScanResults(previousScan, attemptedScan) {
+  const prior = sanitizeScan(previousScan ? { ...previousScan, finalStreams: [...(previousScan.finalStreams || [])] } : null);
+  const attempted = sanitizeScan(attemptedScan ? { ...attemptedScan, finalStreams: [...(attemptedScan.finalStreams || [])] } : null);
+  if (!prior) return attempted;
+  if (!attempted) return { ...prior, lastAttemptAt: new Date().toISOString(), lastAttemptSucceeded: false };
+  const mergedStreams = [];
+  const seen = new Set();
+  for (const stream of [...(attempted.finalStreams || []), ...(prior.finalStreams || [])]) {
+    if (!isPublishableStream(stream)) continue;
+    const key = [String(stream.server || '').toLowerCase(), stream.probe?.resolution, stream.url].join('\n');
+    if (seen.has(key)) continue;
+    seen.add(key);
+    mergedStreams.push(stream);
+  }
+  return sanitizeScan({
+    ...prior,
+    ...attempted,
+    finalStreams: mergedStreams,
+    finishedAt: attempted.success ? attempted.finishedAt : prior.finishedAt,
+    lastAttemptAt: attempted.finishedAt || new Date().toISOString(),
+    lastAttemptSucceeded: Boolean(attempted.success),
+  });
+}
+
 function outputRows(payload) {
   const rows = [];
   const seen = new Set();
   for (const item of payload.results) {
-    if (item.excludedFromOutputs || !isFreshScan(item.scan)) continue;
+    if (item.excludedFromOutputs) continue;
     const streams = [...(item.scan?.finalStreams || [])].sort((left, right) =>
       PREFERRED_SERVERS.findIndex((server) => server.toLowerCase() === String(left.server || '').toLowerCase()) -
       PREFERRED_SERVERS.findIndex((server) => server.toLowerCase() === String(right.server || '').toLowerCase())
@@ -400,7 +528,7 @@ function contentCounts(rows) {
 function successfulBatchCounts(payload, urls) {
   const wanted = new Set(urls || []);
   const items = (payload.results || []).filter(
-    (item) => wanted.has(item.url) && isPublishableScan(item.scan)
+    (item) => wanted.has(item.url) && isPublishableScan(item.scan) && item.scan?.lastAttemptSucceeded !== false
   );
   return {
     successfulNewMovies: new Set(items.filter((item) => !isEpisodeItem(item)).map(canonicalMovieId)).size,
@@ -961,8 +1089,9 @@ function reconcileScheduler(catalog, previous = {}) {
   };
 }
 
-function markItemProcessed(scheduler, item) {
-  for (const category of item.categories || ['Uncategorized']) {
+function markItemProcessed(scheduler, item, selectedCategory = null) {
+  const categories = selectedCategory ? [selectedCategory] : (item.categories || ['Uncategorized']);
+  for (const category of categories) {
     if (!scheduler.processedByCategory[category]) scheduler.processedByCategory[category] = [];
     if (!scheduler.processedByCategory[category].includes(item.url)) {
       scheduler.processedByCategory[category].push(item.url);
@@ -974,10 +1103,13 @@ function markExistingResultsProcessed(payload) {
   for (const item of payload.results || []) markItemProcessed(payload.scheduler, item);
 }
 
-function nextCategoryBatch(payload, batchSize) {
+function nextCategoryBatch(payload, batchSize, categoryOverride = null) {
   const scheduler = payload.scheduler;
   if (scheduler.activeBatch?.category && Array.isArray(scheduler.activeBatch.urls)) {
     const category = scheduler.activeBatch.category;
+    if (categoryOverride && category !== categoryOverride) {
+      throw new Error(`An unfinished batch for ${category} must resume before ${categoryOverride}`);
+    }
     const processed = new Set(scheduler.processedByCategory[category] || []);
     const activeUrls = new Set(scheduler.activeBatch.urls);
     const remaining = payload.catalog.filter(
@@ -988,6 +1120,22 @@ function nextCategoryBatch(payload, batchSize) {
       return { category, titles: remaining.slice(0, batchSize), remainingBeforeBatch: remaining.length, resumed: true };
     }
     scheduler.activeBatch = null;
+  }
+  if (categoryOverride) {
+    const processed = new Set(scheduler.processedByCategory[categoryOverride] || []);
+    const remaining = payload.catalog.filter(
+      (item) => item.categories?.includes(categoryOverride) && !processed.has(item.url)
+    );
+    if (remaining.length === 0) return { category: null, titles: [], remainingBeforeBatch: 0, manual: true };
+    scheduler.lastCategory = categoryOverride;
+    const titles = remaining.slice(0, batchSize);
+    scheduler.activeBatch = {
+      category: categoryOverride,
+      urls: titles.map((item) => item.url),
+      startedAt: new Date().toISOString(),
+      manual: true,
+    };
+    return { category: categoryOverride, titles, remainingBeforeBatch: remaining.length, manual: true };
   }
   const count = scheduler.categoryOrder.length;
   for (let checked = 0; checked < count; checked += 1) {
@@ -1441,7 +1589,7 @@ async function main() {
 
   let baseDiscovery;
   const savedBaseCatalog = previous?.baseCatalog || previous?.catalog?.filter((item) => !isEpisodeItem(item));
-  if (savedBaseCatalog?.length > 0 && !options.refreshCatalog) {
+  if (savedBaseCatalog?.length > 0 && !options.refreshCatalog && !options.refreshCategoryList) {
     baseDiscovery = {
       headings: previous.headings || [],
       surfaces: previous.surfaces || [],
@@ -1454,11 +1602,39 @@ async function main() {
     console.log(`[DISCOVERY] ${baseDiscovery.titles.length} unique titles found across ${baseDiscovery.surfaces.length} surfaces.`);
   }
 
+  if (previous && !options.retryFailed && !options.refreshCatalog && !options.refreshCategoryList) {
+    const previewCatalog = restoreExpandedEpisodes(baseDiscovery.titles, previous);
+    const previewScheduler = reconcileScheduler(previewCatalog, previous.scheduler);
+    const selectedForRefresh = resolveCategorySelection(previewScheduler, options.category);
+    if (selectedForRefresh) {
+      const selectedSurfaceUrl = surfaceUrlForCategory(
+        selectedForRefresh, baseDiscovery.surfaces, options.rootUrl, options.origin
+      );
+      console.log(`[CATEGORY REFRESH] ${selectedForRefresh}: ${selectedSurfaceUrl}`);
+      const refreshed = await discoverSite(
+        selectedSurfaceUrl, options.origin, 1, [selectedSurfaceUrl]
+      );
+      const selectedItems = refreshed.titles.filter(
+        (item) => item.categories?.includes(selectedForRefresh)
+      );
+      baseDiscovery.titles = mergeRefreshedCategory(
+        baseDiscovery.titles, selectedItems, selectedForRefresh
+      );
+      baseDiscovery.headings = [...new Set([...(baseDiscovery.headings || []), ...refreshed.headings])];
+      const refreshedSurfaceNames = new Set(refreshed.surfaces.map((entry) => entry.name));
+      baseDiscovery.surfaces = [
+        ...(baseDiscovery.surfaces || []).filter((entry) => !refreshedSurfaceNames.has(entry.name)),
+        ...refreshed.surfaces,
+      ];
+      console.log(`[CATEGORY REFRESH] ${selectedItems.length} current items merged ahead of saved backlog.`);
+    }
+  }
+
   const canReuseEpisodeCatalog = previous?.episodeCatalogVersion === 1 &&
     Array.isArray(previous.catalog) && Array.isArray(previous.seriesMetadata) &&
-    !options.refreshCatalog;
+    !options.refreshCatalog && !options.refreshCategoryList;
   const episodic = canReuseEpisodeCatalog ? {
-    catalog: previous.catalog,
+    catalog: restoreExpandedEpisodes(baseDiscovery.titles, previous),
     seriesMetadata: previous.seriesMetadata,
     expandedAt: previous.episodeCatalogExpandedAt,
   } : {
@@ -1554,7 +1730,10 @@ async function main() {
         .map((item) => discovery.titles.find((title) => title.url === item.url) || item);
       remainingBeforeBatch = queue.length;
     } else {
-      const batch = nextCategoryBatch(payload, options.maxTitles);
+      const selectedOverride = options.category
+        ? resolveCategorySelection(payload.scheduler, options.category)
+        : null;
+      const batch = nextCategoryBatch(payload, options.maxTitles, selectedOverride);
       selectedCategory = batch.category;
       queue = batch.titles;
       remainingBeforeBatch = batch.remainingBeforeBatch;
@@ -1562,6 +1741,7 @@ async function main() {
 
     const selectedSeries = queue.filter(isUnscopedSeriesItem);
     if (!options.retryFailed && selectedCategory && selectedSeries.length > 0) {
+      const originalQueue = [...queue];
       console.log(`[CATEGORY EPISODES] Expanding ${selectedSeries.length} series only for ${selectedCategory}.`);
       const expanded = await expandEpisodicCatalog(selectedSeries, options.origin);
       const selectedSeriesUrls = new Set(selectedSeries.map((item) => item.url));
@@ -1578,7 +1758,42 @@ async function main() {
       const remaining = payload.catalog.filter(
         (item) => item.categories?.includes(selectedCategory) && !processed.has(item.url)
       );
-      queue = remaining.slice(0, options.maxTitles);
+      const remainingByUrl = new Map(remaining.map((item) => [item.url, item]));
+      const episodesBySeries = new Map();
+      for (const item of remaining.filter(isEpisodeItem)) {
+        if (!episodesBySeries.has(item.seriesId)) episodesBySeries.set(item.seriesId, []);
+        episodesBySeries.get(item.seriesId).push(item);
+      }
+      const fairQueue = [];
+      for (const original of originalQueue) {
+        if (isUnscopedSeriesItem(original)) {
+          const identity = urlContentIdentity(original.url);
+          const episode = episodesBySeries.get(`tv:${identity.id}`)?.shift();
+          if (episode) fairQueue.push(episode);
+        } else if (remainingByUrl.has(original.url)) {
+          fairQueue.push(remainingByUrl.get(original.url));
+        }
+      }
+      const selectedUrls = new Set(fairQueue.map((item) => item.url));
+      const seriesQueues = [...episodesBySeries.values()];
+      while (fairQueue.length < options.maxTitles && seriesQueues.some((items) => items.length > 0)) {
+        for (const items of seriesQueues) {
+          const episode = items.shift();
+          if (episode && !selectedUrls.has(episode.url)) {
+            selectedUrls.add(episode.url);
+            fairQueue.push(episode);
+            if (fairQueue.length === options.maxTitles) break;
+          }
+        }
+      }
+      for (const item of remaining) {
+        if (fairQueue.length === options.maxTitles) break;
+        if (!selectedUrls.has(item.url)) {
+          selectedUrls.add(item.url);
+          fairQueue.push(item);
+        }
+      }
+      queue = fairQueue;
       remainingBeforeBatch = remaining.length;
       syncActiveBatchToQueue(payload.scheduler, selectedCategory, queue);
       saveOutputTree(payload, paths, {
@@ -1607,11 +1822,11 @@ async function main() {
       console.log(`\n[WORKER ${workerId}] [TITLE ${index + 1}/${queue.length}] ${title.title}`);
       console.log(`[CATEGORIES] ${title.categories.join(', ')}`);
       const existing = payload.results.find((item) => item.url === title.url);
-      if (!options.retryFailed && existing && isPublishableScan(existing.scan)) {
+      if (!options.retryFailed && existing && isReusableScan(existing.scan)) {
         existing.title = title.title;
         existing.year = title.year;
         existing.categories = [...new Set([...(existing.categories || []), ...(title.categories || [])])];
-        markItemProcessed(payload.scheduler, existing);
+        markItemProcessed(payload.scheduler, existing, selectedCategory);
         saveOutputTree(payload, paths, {
           batchSize: options.maxTitles,
           historyEvent: 'title-reused',
@@ -1627,17 +1842,20 @@ async function main() {
       const { processResult, scan } = await scanTitleWithRetries(
         title, options, resultPath, index + 1, queue.length
       );
+      const mergedScan = mergeScanResults(existing?.scan, scan);
       payload.results = payload.results.filter((item) => item.url !== title.url);
       payload.results.push({
+        ...existing,
         ...title,
         processExitCode: processResult.exitCode,
         processError: processResult.error,
-        scan,
+        scan: mergedScan,
       });
-      if (!options.retryFailed) markItemProcessed(payload.scheduler, title);
+      if (!options.retryFailed) markItemProcessed(payload.scheduler, title, selectedCategory);
       saveOutputTree(payload, paths, {
         batchSize: options.maxTitles,
-        historyEvent: scan?.success ? 'title-scanned' : 'title-failed',
+        historyEvent: mergedScan?.lastAttemptSucceeded === false ? 'title-refresh-failed-preserved' :
+          (scan?.success ? 'title-scanned' : 'title-failed'),
         historyDetails: { title: title.title, url: title.url, selectedCategory, workerId },
       });
       console.log(
@@ -1651,6 +1869,10 @@ async function main() {
     payload.scheduler.lastBatchByCategory[selectedCategory] = {
       category: selectedCategory,
       ...batchCounts,
+      itemUrls: logicalBatchUrls,
+      successfulItemUrls: payload.results
+        .filter((item) => logicalBatchUrls.includes(item.url) && item.scan?.lastAttemptSucceeded !== false && isPublishableScan(item.scan))
+        .map((item) => item.url),
       completedAt: new Date().toISOString(),
     };
     payload.scheduler.activeBatch = null;
@@ -1694,13 +1916,14 @@ if (require.main === module) {
 
 module.exports = {
   parseArgs, getRootUrl, inferQuality, isMediaFragment, sanitizeScan,
-  is1080ClassResolution, isPublishableStream, isPublishableScan,
+  is1080ClassResolution, isPublishableStream, isPublishableScan, isReusableScan,
   pruneExpiredProcessedItems,
   categoryDescriptor, categoryGroups, canonicalMovieId, urlContentIdentity,
   isEpisodeItem, isUnscopedSeriesItem, expandEpisodicCatalog, taxonomyFor,
   normalizeTitleMetadata, enrichTitleMetadata,
   reconcileScheduler, markItemProcessed, markExistingResultsProcessed,
-  nextCategoryBatch, runWorkerPool, outputRows, contentCounts, catalogCounts, saveCheckpoint,
+  nextCategoryBatch, resolveCategorySelection, mergeRefreshedCategory,
+  runWorkerPool, outputRows, contentCounts, catalogCounts, saveCheckpoint,
   successfulBatchCounts,
   syncActiveBatchToQueue, repairLatestBatchCounts,
   outputPaths, saveOutputTree, saveTextReport, saveM3uReport, canonicalMovieRecord,

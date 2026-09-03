@@ -6,7 +6,9 @@ const scanner = require('./site-scanner');
 const collector = require('./collector');
 
 assert.equal(scanner.parseArgs([]).maxTitles, 20);
-assert.equal(scanner.parseArgs([]).workers, 3);
+assert.equal(scanner.parseArgs([]).workers, 2);
+assert.equal(scanner.parseArgs([]).serverWorkers, 5);
+assert.equal(scanner.parseArgs(['--category', 'Drama']).category, 'Drama');
 assert.equal(scanner.parseArgs(['--workers', '5']).workers, 5);
 assert.equal(scanner.inferQuality('https://cdn/video_1080.m3u8', 'hls'), '1080p');
 assert.equal(
@@ -75,7 +77,9 @@ const rows = scanner.outputRows(multiServerPayload);
 assert.equal(rows.length, 3, 'duplicate within one server collapses, but each selected server remains represented');
 assert.deepEqual(rows.map((row) => row.server), ['Alpha', 'Premium', 'Premium']);
 assert.ok(rows.every((row) => Object.keys(row.headers).length === 0));
+assert.equal(scanner.is1080ClassResolution('1920x1080'), true);
 assert.equal(scanner.is1080ClassResolution('1920x800'), true);
+assert.equal(scanner.is1080ClassResolution('1900x800'), false);
 assert.equal(scanner.is1080ClassResolution('1280x720'), false);
 assert.equal(collector.isActivatedSourceState({ found: true, selected: true, iframeUrl: null }), false);
 assert.equal(collector.isActivatedSourceState({ found: true, selected: true, iframeUrl: 'https://provider/player' }), true);
@@ -348,7 +352,7 @@ async function testParallelWorkers() {
   });
   assert.equal(maximumActive, 3);
   assert.deepEqual(handled.map((entry) => entry.item).sort((a, b) => a - b), [1, 2, 3, 4, 5, 6]);
-  console.log('PASS: one command, one rotated category batch, 3 workers, cumulative JSON/TXT/M3U');
+  console.log('PASS: one command, one rotated category batch, 2 title workers, 5 server workers, cumulative JSON/TXT/M3U');
 }
 
 testParallelWorkers().catch((error) => {

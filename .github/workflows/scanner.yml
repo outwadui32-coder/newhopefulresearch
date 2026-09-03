@@ -2,6 +2,25 @@ name: Redflix Category Scanner
 
 on:
   workflow_dispatch:
+    inputs:
+      mode:
+        description: Scan mode
+        required: true
+        default: automatic
+        type: choice
+        options:
+          - automatic
+          - manual
+          - retry-failed
+      category:
+        description: Exact category name, ID, or 1-based index (manual mode only)
+        required: false
+        type: string
+      refresh_category_list:
+        description: Rebuild the complete category inventory before scanning
+        required: true
+        default: false
+        type: boolean
   schedule:
     - cron: '17 0 * * *'
 
@@ -36,10 +55,38 @@ jobs:
         run: npm test
 
       - name: Scan the next category batch in Chromium
-        run: xvfb-run -a node site-scanner.js
+        shell: bash
+        env:
+          SCAN_MODE: ${{ inputs.mode || 'automatic' }}
+          SCAN_CATEGORY: ${{ inputs.category || '' }}
+          REFRESH_CATEGORY_LIST: ${{ inputs.refresh_category_list || 'false' }}
+        run: |
+          args=(--workers 2 --server-workers 5)
+          if [[ "$SCAN_MODE" == "manual" ]]; then
+            if [[ -z "$SCAN_CATEGORY" ]]; then
+              echo "Manual mode requires a category name, ID, or index" >&2
+              exit 1
+            fi
+            args+=(--category "$SCAN_CATEGORY")
+          elif [[ "$SCAN_MODE" == "retry-failed" ]]; then
+            args+=(--retry-failed)
+          fi
+          if [[ "$REFRESH_CATEGORY_LIST" == "true" ]]; then
+            args+=(--refresh-category-list)
+          fi
+          xvfb-run -a node site-scanner.js "${args[@]}"
 
       - name: Validate JSON, TXT, M3U and live direct streams
         run: node verify-output.js
+
+      - name: Upload real-run diagnostics on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: redflix-scan-diagnostics-${{ github.run_id }}
+          path: output/
+          if-no-files-found: warn
+          retention-days: 7
 
       - name: Publish cumulative outputs and rotation state
         run: |
