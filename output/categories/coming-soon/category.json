@@ -1,15 +1,51 @@
 {
   "metadata": {
     "category": "Home: Coming Soon",
-    "totalMovies": 0,
+    "totalMovies": 1,
     "successfulNewAdded": 0,
     "successfulNewAddedSeries": 0,
     "successfulNewAddedEpisodes": 0,
     "streamLinks": 0,
     "uniqueStreamUrls": 0,
-    "lastUpdated": "2026-09-03T01:44:26.000Z",
+    "lastUpdated": "2026-09-03T02:33:09.974Z",
     "purpose": "Strictly for educational purposes only and not for commercial use"
   },
-  "movies": [],
+  "movies": [
+    {
+      "serial": "Movie-1",
+      "canonicalId": "movie:1423191",
+      "title": "Resident Evil",
+      "year": 2026,
+      "sourceUrl": "https://redflix.co/play?id=1423191&type=movie",
+      "contentType": "movie",
+      "seriesId": null,
+      "seriesTitle": null,
+      "seasonNumber": null,
+      "episodeNumber": null,
+      "episodeTitle": null,
+      "airDate": null,
+      "categoryMemberships": [
+        {
+          "categoryId": "collection:coming-soon",
+          "name": "Coming Soon",
+          "type": "collection",
+          "folder": "coming-soon"
+        }
+      ],
+      "taxonomy": {
+        "contentType": [],
+        "genres": [],
+        "editorial": [],
+        "regions": [],
+        "platforms": [],
+        "featured": [],
+        "collections": [
+          "Coming Soon"
+        ]
+      },
+      "success": false,
+      "servers": []
+    }
+  ],
   "series": []
 }

@@ -1,13 +1,13 @@
 {
   "metadata": {
     "category": "Home: In Theatres",
-    "totalMovies": 4,
+    "totalMovies": 5,
     "successfulNewAdded": 0,
     "successfulNewAddedSeries": 0,
     "successfulNewAddedEpisodes": 0,
-    "streamLinks": 12,
-    "uniqueStreamUrls": 12,
-    "lastUpdated": "2026-09-03T01:44:26.000Z",
+    "streamLinks": 15,
+    "uniqueStreamUrls": 15,
+    "lastUpdated": "2026-09-03T02:33:09.974Z",
     "purpose": "Strictly for educational purposes only and not for commercial use"
   },
   "movies": [
@@ -218,6 +218,59 @@
             {
               "resolution": "1920x1038",
               "url": "https://highincomecreators.site/BOmJJT2bG/pl/H4sIAAAAAAAAAw2Py3KDIAAAfwlQ8ugtGYPmAQwEULmJpLUNGqZJjcnX1.PO7GH30ibe.3TRYggTt_hcLlPsEpxinzTOr_xHrfzeIAlU3_0ekRnbXAI6.JfMddLuQi7zA6UDfRoiC1tQwEjErmcd30Viv1dpk7DgZpdp_zAoMl3Km7mu915dgdePOw1RiOHr5d9h5nUmsw3mlf2TQ_3kJGoGBdSqTqW2oyohUgCiy48FvLQZ0_FYZmY0w21qdDuJK84pFBOD8mCSrtQ9ftuCNHXYTAL6W92Hp8uJpqADDkzTudpWJ0SM60ms393ICTFlL7eiD3dddicHSKeQR7wyC0lsPd_pc84qTsRI9X5uBut_pWI.vkEBAAA-/master.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": "Movie-5",
+      "canonicalId": "movie:1288445",
+      "title": "Mutiny",
+      "year": 2026,
+      "sourceUrl": "https://redflix.co/play?id=1288445&type=movie",
+      "contentType": "movie",
+      "seriesId": null,
+      "seriesTitle": null,
+      "seasonNumber": null,
+      "episodeNumber": null,
+      "episodeTitle": null,
+      "airDate": null,
+      "categoryMemberships": [
+        {
+          "categoryId": "collection:in-theatres",
+          "name": "In Theatres",
+          "type": "collection",
+          "folder": "in-theatres"
+        }
+      ],
+      "taxonomy": {
+        "contentType": [],
+        "genres": [],
+        "editorial": [],
+        "regions": [],
+        "platforms": [],
+        "featured": [],
+        "collections": [
+          "In Theatres"
+        ]
+      },
+      "success": true,
+      "servers": [
+        {
+          "server": "PlayFast",
+          "links": [
+            {
+              "resolution": "1920x960",
+              "url": "https://scalablecontentengine.site/8DZ5WpsK6/pl/H4sIAAAAAAAAAwXB3XaCIAAA4FcCNBe7dAWOAo_Iz.ROpI6n0Ky5tJ5.3.c_AkwxSBA.QXQ.4zQkHredz7Jtl0HYfYphQo7GpyzIXdPu5cY.acz0rej2ZcYAOQizgjxt0Iwc6C9lIf7c6HSDIuQIlhyRe_mTs5KulI.GSRArDn7TMPS7QM3aXPVSj_l8TPI313oRMUzdLjxNwkCwfWZ1vHl6A2okd7WXlVH9s9LTw1mXWMKkQNicrBM2xqaLBpV2w.vC9FbJh9frV31l2luXHRP34pdwMDV..4IQQTeHUzE5T6Wso8hb2wFlyCLp6sLAVK3Xi9CyasF2VZat7WBmt..pHDAtDauCui6VAvgfddD7hkEBAAA-/master.m3u8"
+            },
+            {
+              "resolution": "1920x960",
+              "url": "https://scalablecontentengine.site/8DZ5WpsK6/pl/H4sIAAAAAAAAAw3OW3KDIBQA0C2hhiT0Ly.S2BGLcEH4M0DrBMk4GdtYV9.eFZzb2m0224LcNgTnnmSfvvNhS1Y4FAGTzr3JO6OuVUgftkVoS8XavfHZdeFoWEJUV1kMnMvdL0N8eUeq79DYCrnLqqP5uZ2IcZrWITFlKf0G3Rz04BBc7CucCBZomkWcFJzG0UScKukrfSANKGaMtEnRrxz0pDtpJ0GHKFCVBSh7mfqCA7vIoYRwL8sQycxUv3Dp1y6RTiXLeJxEg.aPGsanbcvG3X3ftPzFFocNsHMj..TQbF2kupbq_2NylwN2ct9BCyv_GBehm2d96StLhwLimFURW3H0L__Yz5DmDiQifzkIYx9BAQAA/master.m3u8"
+            },
+            {
+              "resolution": "1920x960",
+              "url": "https://scalablecontentengine.site/8DZ5WpsK6/pl/H4sIAAAAAAAAAw3PUZaCIBQA0C2BocX8TamVHWl6KiR_Ap4sRO3kpOPqp7uDqzD1CTablcJUrYmvzIboQGvsV6aqNtUXoNnJfTmrqA3SwiSFR8vctpgd.nfqYJV5BMN9rC7ceoWAX2kNzx6xD2HjCzE02uv_WDSP0mMhQ8lTWQrysD2plZ6BDyPsxq5cbhN3M2HhFskoCcS.cRVmuIjoT1bQZ4lvU.b1U23xEe70db4OoXE.VyEnBvWT9PCRuRnpaOxS23LeNonYD..6.14K0SDIaKARP1_axlaF9LkzsUTxnD1gd46A5bwVadsQ6Ziso_hzglQcDDkh0.lH8jI5W9RV5sZCWIcXlF4B68_bLIj.A_XT8qtBAQAA/master.m3u8"
             }
           ]
         }
