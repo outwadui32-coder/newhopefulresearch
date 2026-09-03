@@ -430,7 +430,11 @@ function restoreExpandedEpisodes(baseCatalog, previous) {
 }
 
 function isReusableScan(scan) {
-  return Boolean(isFreshScan(scan) && isPublishableScan(scan));
+  const attemptedServers = new Set((scan?.diagnostics?.serverAttempts || []).map((item) =>
+    String(item.server || '').toLowerCase()
+  ));
+  const allServersAttempted = PREFERRED_SERVERS.every((server) => attemptedServers.has(server.toLowerCase()));
+  return Boolean(isFreshScan(scan) && isPublishableScan(scan) && allServersAttempted);
 }
 
 function pruneExpiredProcessedItems(payload) {
@@ -1923,7 +1927,9 @@ async function main() {
         processError: processResult.error,
         scan: mergedScan,
       });
-      if (!options.retryFailed) markItemProcessed(payload.scheduler, title, selectedCategory);
+      if (!options.retryFailed && isPublishableScan(mergedScan)) {
+        markItemProcessed(payload.scheduler, title, selectedCategory);
+      }
       saveOutputTree(payload, paths, {
         batchSize: options.maxTitles,
         historyEvent: mergedScan?.lastAttemptSucceeded === false ? 'title-refresh-failed-preserved' :

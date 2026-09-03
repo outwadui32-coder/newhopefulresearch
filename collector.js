@@ -15,6 +15,13 @@ const SERVER_ALIASES = Object.freeze({
   Ultra: ['Ultra', 'Vid'],
   PlayFast: ['PlayFast'],
 });
+const SERVER_ROUTE_KEYS = Object.freeze({
+  Alpha: 'vidfast',
+  Premium: 'vidup',
+  Orion: 'vidcore',
+  Ultra: 'vid',
+  PlayFast: null,
+});
 
 // Some ad popups close before puppeteer-extra finishes applying its page hooks.
 // That race is harmless and must not terminate an otherwise successful scan.
@@ -154,6 +161,14 @@ function resolveSourcePlan(discoveredServers) {
     );
     return sourceLabel ? { server, sourceLabel } : null;
   }).filter(Boolean);
+}
+
+function serverRoute(targetUrl, server) {
+  const routeKey = SERVER_ROUTE_KEYS[server];
+  if (!routeKey) return targetUrl;
+  const target = new URL(targetUrl);
+  target.searchParams.set('server', routeKey);
+  return target.href;
 }
 
 function cleanHeaders(headers = {}) {
@@ -596,10 +611,14 @@ async function startScanner(options) {
       inspectPage(sourcePage);
       const status = { server: label, sourceLabel, selected: false, iframeUrl: null, error: null };
       try {
-        await sourcePage.goto(options.targetUrl, { waitUntil: 'domcontentloaded', timeout: 60000 });
-        await sourcePage.waitForSelector('#watch-streaming-sources button, iframe', { timeout: 20000 }).catch(() => null);
+        const exactSourceRoute = serverRoute(options.targetUrl, label);
+        await sourcePage.goto(exactSourceRoute, { waitUntil: 'domcontentloaded', timeout: 45000 });
+        await sourcePage.waitForSelector('#watch-streaming-sources button, iframe', { timeout: 12000 }).catch(() => null);
         providerAllowedPages.add(sourcePage);
-        const selection = await selectSource(sourcePage, sourceLabel);
+        const routedState = await sourceState(sourcePage, sourceLabel);
+        const selection = isActivatedSourceState(routedState)
+          ? { ...routedState, selected: true, routeActivated: true }
+          : await selectSource(sourcePage, sourceLabel);
         status.selected = Boolean(selection.selected);
         status.iframeUrl = selection.iframeUrl || null;
         if (!selection.selected) {
@@ -621,21 +640,11 @@ async function startScanner(options) {
           }
         } catch (_) {}
         await sleep(1500);
-        const sourceDeadline = Date.now() + sourceWindow;
-        let directFallbackUsed = false;
+        const sourceDeadline = Date.now() + Math.min(sourceWindow, 12000);
         while (Date.now() < sourceDeadline) {
           await triggerPlayback(sourcePage);
-          const capturedForServer = [...candidates.values()].filter((item) => item.server === label).length;
-          if (!capturedForServer && !directFallbackUsed && Date.now() > sourceDeadline - (sourceWindow / 2)) {
-            directFallbackUsed = true;
-            console.log(`[SOURCE DIRECT FALLBACK] ${label} -> ${shortUrl(selection.iframeUrl)}`);
-            await sourcePage.goto(selection.iframeUrl, {
-              waitUntil: 'domcontentloaded', timeout: 30000, referer: options.targetUrl,
-            }).catch((error) => { status.directFallbackError = error.message; });
-          }
           await sleep(1500);
         }
-        status.directFallbackUsed = directFallbackUsed;
       } catch (error) {
         status.error = error.message;
         console.log(`[SOURCE FAILED] ${label}: ${error.message}`);
@@ -672,7 +681,7 @@ async function startScanner(options) {
     console.log(`[SERVER RESULT] ${status.server} | SOURCE=${status.sourceLabel} | ` +
       `SELECTED=${status.selected ? 'YES' : 'NO'} | CAPTURED=${captured.length} | ` +
       `VERIFIED=${verified.length} | RESOLUTIONS=${status.verifiedResolutions.join(',') || 'none'} | ` +
-      `ERROR=${status.error || status.directFallbackError || 'none'}`);
+      `ERROR=${status.error || 'none'}`);
   }
 
   const payload = {
@@ -727,5 +736,5 @@ if (require.main === module) main();
 module.exports = {
   parseArgs, mediaKind, isSegment, parseHlsVariants, is1080ClassResolution,
   highest1080ClassVariant, probeCandidate, sourceLabels, sourceState, selectSource,
-  isActivatedSourceState, attributedServer, resolveSourcePlan,
+  isActivatedSourceState, attributedServer, resolveSourcePlan, serverRoute,
 };

@@ -98,6 +98,14 @@ assert.deepEqual(
     { server: 'PlayFast', sourceLabel: 'PlayFast' },
   ]
 );
+assert.equal(
+  collector.serverRoute('https://redflix.co/play?id=1&type=movie', 'Orion'),
+  'https://redflix.co/play?id=1&type=movie&server=vidcore'
+);
+assert.equal(
+  collector.serverRoute('https://redflix.co/play?id=1&type=movie', 'PlayFast'),
+  'https://redflix.co/play?id=1&type=movie'
+);
 
 const resumeCatalog = Array.from({ length: 5 }, (_, index) => ({
   url: `https://test/resume/${index + 1}`, title: `Resume ${index + 1}`, categories: ['Resume Category'],
