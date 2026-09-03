@@ -43,12 +43,19 @@ function flattenLinks(movies) {
     (server.links || []).map((link) => ({ movie, server: server.server, ...link }))));
 }
 
+function flattenSeriesEpisodes(series) {
+  return series.flatMap((item) => (item.seasons || []).flatMap((season) => season.episodes || []));
+}
+
 function verifyCategory(entry) {
   const data = JSON.parse(fs.readFileSync(entry.json, 'utf8'));
   const metadata = data.metadata || {};
   const movies = Array.isArray(data.movies) ? data.movies : [];
-  const links = flattenLinks(movies);
-  const successful = movies.filter((movie) => movie.success && flattenLinks([movie]).length > 0);
+  const series = Array.isArray(data.series) ? data.series : [];
+  const episodes = flattenSeriesEpisodes(series);
+  const records = [...movies, ...episodes];
+  const links = flattenLinks(records);
+  const successful = records.filter((record) => record.success && flattenLinks([record]).length > 0);
   const uniqueUrls = new Set(links.map((link) => link.url));
 
   if (!fs.existsSync(entry.txt) || !fs.existsSync(entry.m3u)) fail(`${entry.folder}: TXT/M3U missing`);
@@ -63,10 +70,10 @@ function verifyCategory(entry) {
   if (metadata.streamLinks !== links.length) fail(`${entry.folder}: streamLinks mismatch`);
   if (metadata.uniqueStreamUrls !== uniqueUrls.size) fail(`${entry.folder}: uniqueStreamUrls mismatch`);
 
-  successful.forEach((movie, index) => {
-    const expected = movie.contentType === 'episode' ? 'Episode-' : movie.contentType === 'series' ? 'Series-' : 'Movie-';
-    if (!String(movie.serial || '').startsWith(expected)) fail(`${entry.folder}: invalid serial for ${movie.title}`);
-    if (!movie.title || !movie.year) fail(`${entry.folder}: title/year missing for successful item ${index + 1}`);
+  successful.forEach((record, index) => {
+    const expected = record.contentType === 'episode' ? 'Episode-' : record.contentType === 'series' ? 'Series-' : 'Movie-';
+    if (!String(record.serial || '').startsWith(expected)) fail(`${entry.folder}: invalid serial for ${record.title}`);
+    if (!record.title || !record.year) fail(`${entry.folder}: title/year missing for successful item ${index + 1}`);
   });
 
   for (const link of links) {
@@ -97,7 +104,7 @@ function verifyCategory(entry) {
   }
   if (/Type:\s*hls|Headers:|TMDB\s*Score/i.test(`${txt}\n${m3u}`)) fail(`${entry.folder}: forbidden display field`);
 
-  return { entry, metadata, movies, links };
+  return { entry, metadata, movies, series, episodes, records, links };
 }
 
 async function probe(url) {
