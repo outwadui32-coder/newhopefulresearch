@@ -3,7 +3,7 @@
   "scanner": "github-category-direct-stream-scanner",
   "sourceUrl": "https://redflix.co/",
   "createdAt": "2026-09-02T09:46:51.688Z",
-  "updatedAt": "2026-09-02T18:28:28.918Z",
+  "updatedAt": "2026-09-03T00:35:25.942Z",
   "categoryOrder": [
     {
       "id": "collection:home-home",
@@ -258,7 +258,7 @@
       "url": "https://redflix.co/browse"
     }
   ],
-  "nextCategoryIndex": 6,
+  "nextCategoryIndex": 7,
   "categoryHistory": {
     "collection:home-home": [],
     "collection:home-the-runner": [
@@ -67919,13 +67919,13 @@
   },
   "activeBatch": null,
   "lastBatch": {
-    "id": "5913ef46-d7a7-4332-b06e-b758c6a1c71e",
-    "categoryId": "collection:home-popular-movies",
-    "categoryName": "Home: Popular Movies",
+    "id": "c487c329-9e9c-4024-a0c1-6f77a21a3120",
+    "categoryId": "collection:home-trending-anime",
+    "categoryName": "Home: Trending Anime",
     "items": [],
     "completedItems": [],
     "pendingItems": [],
-    "startedAt": "2026-09-02T18:28:28.852Z",
+    "startedAt": "2026-09-03T00:35:25.868Z",
     "discovered": 0,
     "newItemsFound": 0,
     "browserScanned": 0,
@@ -67949,15 +67949,15 @@
       "series": 0,
       "episodes": 0
     },
-    "completedAt": "2026-09-02T18:28:28.874Z",
+    "completedAt": "2026-09-03T00:35:25.907Z",
     "categoryProcessedAfter": 1,
     "pointerAdvanced": true,
-    "nextCategoryId": "collection:home-trending-anime",
+    "nextCategoryId": "collection:home-k-dramas",
     "masterItemsAfter": 34,
     "masterStreamsAfter": 99,
     "masterItemsAdded": 0,
     "masterStreamsAdded": 0,
-    "categoryOutput": "output/categories/collection-home-popular-movies/"
+    "categoryOutput": "output/categories/collection-home-trending-anime/"
   },
   "categoryLastBatch": {
     "collection:home-home": {
@@ -68125,55 +68125,42 @@
       "nextCategoryId": "collection:home-new-releases-in-united-states"
     },
     "collection:home-trending-anime": {
-      "id": "bf91a4e8-8ca5-4a1a-8b9b-b1f9e7a7a8fb",
+      "id": "c487c329-9e9c-4024-a0c1-6f77a21a3120",
       "categoryId": "collection:home-trending-anime",
       "categoryName": "Home: Trending Anime",
-      "items": [
-        "movie:21"
-      ],
-      "completedItems": [
-        "movie:21"
-      ],
+      "items": [],
+      "completedItems": [],
       "pendingItems": [],
-      "startedAt": "2026-09-02T10:21:54.147Z",
-      "discovered": 20,
-      "newItemsFound": 20,
-      "browserScanned": 1,
+      "startedAt": "2026-09-03T00:35:25.868Z",
+      "discovered": 0,
+      "newItemsFound": 0,
+      "browserScanned": 0,
       "globallyReused": 0,
       "successful": 0,
-      "failed": 1,
+      "failed": 0,
       "approvedStreams": 0,
       "rejectedStreams": 0,
-      "itemResults": {
-        "movie:21": {
-          "title": "ONE PIECE, TMDB score 8.7",
-          "contentType": "movie",
-          "mode": "browser",
-          "success": false,
-          "approvedStreams": 0,
-          "rejectedStreams": 0
-        }
-      },
-      "selectionMode": "manual",
-      "categoryProcessedBefore": 0,
-      "masterItemsBefore": 17,
-      "masterStreamsBefore": 48,
+      "itemResults": {},
+      "selectionMode": "automatic",
+      "categoryProcessedBefore": 1,
+      "masterItemsBefore": 34,
+      "masterStreamsBefore": 99,
       "previousTypeCounts": {
-        "movies": 0,
-        "series": 0,
-        "episodes": 0
-      },
-      "batchTypeCounts": {
         "movies": 1,
         "series": 0,
         "episodes": 0
       },
-      "completedAt": "2026-09-02T10:21:58.632Z",
+      "batchTypeCounts": {
+        "movies": 0,
+        "series": 0,
+        "episodes": 0
+      },
+      "completedAt": "2026-09-03T00:35:25.907Z",
       "categoryProcessedAfter": 1,
-      "pointerAdvanced": false,
-      "nextCategoryId": "collection:home-new-releases-in-united-states",
-      "masterItemsAfter": 17,
-      "masterStreamsAfter": 48,
+      "pointerAdvanced": true,
+      "nextCategoryId": "collection:home-k-dramas",
+      "masterItemsAfter": 34,
+      "masterStreamsAfter": 99,
       "masterItemsAdded": 0,
       "masterStreamsAdded": 0,
       "categoryOutput": "output/categories/collection-home-trending-anime/"
