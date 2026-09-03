@@ -1,0 +1,167 @@
+CATEGORY: Home: Trending in United States
+DISCOVERED: 34
+PROCESSED: 20
+SUCCESSFUL: 2
+FAILED: 18
+MOVIES: 1
+SERIES: 1
+EPISODES: 18
+BATCH_SIZE: 20
+BROWSER_SCANNED: 20
+REUSED: 0
+STREAM_LINKS: 15
+UNIQUE_STREAM_URLS: 15
+REMAINING_NEW_ITEMS: 14
+NEXT_CATEGORY: Home: K-Dramas
+LAST_UPDATED: 2026-09-03T00:35:25.907Z
+
+Title: The Odyssey, TMDB score 8
+Canonical ID: movie:1368337
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg
+Categories: Home: Trending in United States, Home: Popular Movies, Home: Action & Adventure, Movies: Movies, Browse: TRENDING NOW
+Server: PlayFast
+Resolution: 1920x1000
+Type: hls
+URL: https://scalablecontentengine.site/WnVM9YFN1/pl/H4sIAAAAAAAAAw3OwXKCMBRA0V8KQRS7pEA62KAQkkB28BKLEpHWDChfX1d35qzuGQHa4s5g884O4OzvW4PDLfLAhBq2H8daZfktowKnrmH7oxyLl8J9ShOXt0RXFVYxt_rAYntqB4uaQR2YRD5PwhVsHzAZLmL8WfTIscZPn47lpauLQH6ltRbNXOC8By.lbOzndrURveq4sv31G3mqI94Tbq5U13wySTZXJIjefgIieuZPsSHuri_uwbkmkoQvhYqA1rC2Qvy2ssSAHytDdMOQvcu6POR4.eNxs3RDXui6zOjnPuIWPPCSp2QuMglsqptmFXKyG97_Ipr.Aeum.E4hAQAA/master.m3u8
+
+Title: The Odyssey, TMDB score 8
+Canonical ID: movie:1368337
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg
+Categories: Home: Trending in United States, Home: Popular Movies, Home: Action & Adventure, Movies: Movies, Browse: TRENDING NOW
+Server: PlayFast
+Resolution: 1920x1000
+Type: hls
+URL: https://scalablecontentengine.site/WnVM9YFN1/pl/H4sIAAAAAAAAAxXN0XaCIBgA4FdCxKW7qylmCz0SiHBH_JUTtTqnmevpt91.N18EZyCWoDhAZBUdo1O8eotjFx5tEp3..P0weWJbh7i4zDDye.OTWU2Q1j00VSuRzQYt8i61YxdUgv5oZO5N2D0dNYi9htJtS6P9UJ0mUDwrsMFsKVViD3k3awE344NPR2HLt.vQvhwykoS1GgbRly_ABbZt98XywR_GsjUZ1UywWUpOZVoTnrOZeboIHI31BKMWuxTUE1diTUwwGKXgQ7RQ2AD2Vft_LYXzj2.NH9jlV8LGpT8ig_chXFnPMKe7THrzBMkZp5zLFhrdN6mZNpVBl6gcgxunG8qxDmQGWS1Q8gv8aP0dQQEAAA--/master.m3u8
+
+Title: The Odyssey, TMDB score 8
+Canonical ID: movie:1368337
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg
+Categories: Home: Trending in United States, Home: Popular Movies, Home: Action & Adventure, Movies: Movies, Browse: TRENDING NOW
+Server: PlayFast
+Resolution: 1920x1000
+Type: hls
+URL: https://scalablecontentengine.site/WnVM9YFN1/pl/H4sIAAAAAAAAAwXB3ZKCIBgA0FcSsVb2shF0K5kR.GDjjvxoHX_acnOynn7PCQGTuPnI83i.bFrKtphiuLCM5KxNKcs.TaVoXXQLFt07utuKXBKsxj9rdqR5sWDNaY2glvotrlj63jh5DZMERdu3NErLAkvHReL4Q6rRfxsqS1P4uRmkl6bLNHw9tUFoS5HFoQuHdF3ObkxrenvGEaicCDmmdttWMOsJ.yPZV1GMRewVoOsWXezuOlmVF_Bsp58ZNTu5frfUKc9A2FmWt2ArPykYH9ERiFx44MNaV_LeTKw3fP9qhlUcku6IBn.lFUMw.61_sQMMxP4DcuzyVyEBAAA-/master.m3u8
+
+Title: The Mentalist S01E02 - Red Hair and Silver Tape
+Canonical ID: tv:5920:s01:e02
+Content Type: episode
+Poster: https://image.tmdb.org/t/p/original/qsf9RRhR3G3YsiE8tPwvvxuyupU.jpg
+Categories: Home: Trending in United States
+Server: PlayFast
+Resolution: 1920x1080
+Type: hls
+URL: https://onlineempireblueprint.site/JXjuX4huO/pl/H4sIAAAAAAAAAwXB2XKDIBQA0F9iMYt9bDQmpuBA4Cq8oZgSwUymk7E2X99z.g0iu73HhNzckDuyd9mwHbcY3fajR7vbh0.BmUn.ef0SQ7nOw1QHM_FrU0jcAxyGLmgTk_WxZv6QV56I5QvxrE3JXfCZQpWfLYHGduBUy1mPQwAisSvtUVawqJIrmFPjyfNX6_jjCjupWNNWP7V9pK2Z10UjSGMZKg48QvKXayE2_ZwzhcOGUetYsp_uVFPe8YchNgGWBWuf9_H4JAZx6rVYx0qmfpIv_Q7Gzhn2pVh1lCcTj3ffDct48m9HRcZbUAxpaqGO11iX_M2juOdTo2sAsGYovv_6GKmisAiF8n9CxjO.QQEAAA--/master.m3u8
+
+Title: The Mentalist S01E02 - Red Hair and Silver Tape
+Canonical ID: tv:5920:s01:e02
+Content Type: episode
+Poster: https://image.tmdb.org/t/p/original/qsf9RRhR3G3YsiE8tPwvvxuyupU.jpg
+Categories: Home: Trending in United States
+Server: PlayFast
+Resolution: 1920x1080
+Type: hls
+URL: https://onlineempireblueprint.site/JXjuX4huO/pl/H4sIAAAAAAAAAwXB7XqCIBgA0Fvio1rt33zSnC6aKC_CP4E.BeesR51Xv3M22OKLIYRcVtRRY7dotz5vscHIrd_Qxr4DtVSFl5Cx7hscj4q4g6756CpHRcsHI_WLp8lGB.dNW0xs4XlZ97EOAAKySbSeCimohet8TPqpai2ygZVNyukZgCvvl6qLGsBqMMvHIv2VyNoNDWheiOef7bjM6RFzKZCUyd3EK8xTsdIp9LrLpMBuLuEWqXZGLCS_4uG1qJL1OTznL8T3qlaj6Vgu9u7EllsPPppz1Bfuvh2OpJgAZSf2iAh0V9pQxgDFI_O3A08zb2NfCuDfMvX7BiVg_Q9tcB805jnDn0gvaPcPYLGBZEEBAAA-/master.m3u8
+
+Title: The Mentalist S01E02 - Red Hair and Silver Tape
+Canonical ID: tv:5920:s01:e02
+Content Type: episode
+Poster: https://image.tmdb.org/t/p/original/qsf9RRhR3G3YsiE8tPwvvxuyupU.jpg
+Categories: Home: Trending in United States
+Server: PlayFast
+Resolution: 1920x1080
+Type: hls
+URL: https://onlineempireblueprint.site/JXjuX4huO/pl/H4sIAAAAAAAAAw3N0XaCIAAA0F9CEdM9ujRXR5aIgLyh1DCwnDqbff12f.Bew51udRhrFIIIoDa6.jsPAei3UehdwvatssZomHqUo5uC8sytoTQd31mOedfHXG7Rs8iTB67lXWXHXwWWFb_Ig9gP.FmjvvKXosuKtevnreRfE6UG6jydaI435cbvpg4COeiZMMfYXp4vQtOOg4AMCF3sceUpm04.nhtIpo65ofV0XYrsefK9tYRmrN24KGH2J2hhzRJCXXIoIF7pTR4oS3ouUtRAPVf2sRFhKLdxJTn4JYOeunsKS05.mCClHopAA6Qo13flyaB8Sdn4KMf_T2OzM3XOUN8t_JAVpWM9E40nXyD.AxUaEohBAQAA/master.m3u8
+
+Title: Colony, TMDB score 8.1
+Canonical ID: movie:1375646
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/tN799oUR0f1gUKDYdMNrDaY7I51.jpg
+Categories: Home: Trending in United States, Home: Popular Movies, Home: Horror, Home: Action & Adventure, Home: Sci-Fi & Fantasy, Movies: Movies
+Server: PlayFast
+Resolution: 1920x804
+Type: hls
+URL: https://conversionfocusedstudio.site/TvthTexVJ/pl/H4sIAAAAAAAAAw3M0ZKCIBQA0F8Cycp9bBInN1lFBL1vEDaEZG5ZU3797vmAc96sDU5WxER4jVCkkY7xubea6HOCt3j7JQR7AKYPEzFWDPOLDXFZ.PAoIj7yNH0BmmulgrIpOItcAQt3_TiVpuUfiCZSYOcksgvLcMdb3srAZ42nA6D4rUegkvLiiHDDwq4wkrKmTtxJnlY6k177Dh0XuPUpC5zArwl23w3TR6n52XjKNMmfMPDRUNvxNGbVgN_C73hHKiwW.V15dxXX.SAGW4IIugkyhyud630uob1F_.eh9_JYEXdnY4MNzkvb5KRToTIqiVUWSi74hTX43rW01gu7VJH7sR6yUwgfWFDyB5.qOQBBAQAA/master.m3u8
+
+Title: Colony, TMDB score 8.1
+Canonical ID: movie:1375646
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/tN799oUR0f1gUKDYdMNrDaY7I51.jpg
+Categories: Home: Trending in United States, Home: Popular Movies, Home: Horror, Home: Action & Adventure, Home: Sci-Fi & Fantasy, Movies: Movies
+Server: PlayFast
+Resolution: 1920x804
+Type: hls
+URL: https://conversionfocusedstudio.site/TvthTexVJ/pl/H4sIAAAAAAAAAxXPyXaCMBQA0F9KIqB215YEqSY9xAzwdkByRImKQwvl69uu7.q2frlcEU.aZrmK66Txa4KTqE088jHC2L2AdUXVT5lk8qL7YaEW7KgpjPuZ3cCGqkFPo9IANv2IgBm6w8B4.Rr583R3NGCl4fFpBrXD3buYWaT2TyuD3AmKx3rTx40RmaBStqf8324G5bjAQ6JOEPnQfVcarp_UXRR1oy8PE9ed9GeXQVpMDWIRZ1LtmXm2RH5xFaotYqim5ugWISjTCVfmSJzXFT_1I0cH1GbiKtAgqwsgYQWpdYUEExuZjT.FFTGfDbcp3EE55SnO9cweW4JiTeDx9ySyfMtkKTbODqAVWv8CZygsPkEBAAA-/master.m3u8
+
+Title: Colony, TMDB score 8.1
+Canonical ID: movie:1375646
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/tN799oUR0f1gUKDYdMNrDaY7I51.jpg
+Categories: Home: Trending in United States, Home: Popular Movies, Home: Horror, Home: Action & Adventure, Home: Sci-Fi & Fantasy, Movies: Movies
+Server: PlayFast
+Resolution: 1920x804
+Type: hls
+URL: https://conversionfocusedstudio.site/TvthTexVJ/pl/H4sIAAAAAAAAAw3Jy3KCMBQA0F_KA1rpkhGkUkITcm.G7AJBGYmK1qr49e3ZnsiTHePx0L8nXde90TcSdWwXUxevhsi75MPhXEsyz8OG1sMmd2hw0kfx25L9FRmaHui63qwicUibHtS95.eoPfpYFOkIBpsasOpOvmhQsCYjrDoEsBgqxZ6Z5OKqXsE4guthoro1wkmG5XBSGaxt5nO7NWHPkI0XEWQMoSctDZHUE4VgHU5iETAa.RL_f16GLK9NkfLmmHMLOcUluekp.VLcWuTqYU9pofl49dPoPGwvMsyHksx1yX4WhOetgooous3sa1y3OE5A8azp58MHyaRO796E0tL5W8Ej6gqbSU2SP62VbQZBAQAA/master.m3u8
+
+Title: Mutiny, TMDB score 6.4
+Canonical ID: movie:1288445
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/pu2VxGlpGwffOx292w18b1tv96j.jpg
+Categories: Home: Trending in United States, Home: Popular Movies, Home: Action & Adventure, Movies: Movies
+Server: PlayFast
+Resolution: 1920x960
+Type: hls
+URL: https://scalablecontentengine.site/8DZ5WpsK6/pl/H4sIAAAAAAAAAw3O0XaCIBgA4FcC1I7sdpLLAhcKKHfh7zmWzFw5U59.vcB3PkTdzhFKIAYXx2Hb0oDuYgpkB0BJ7D7OVxoWw36yhKHajBE3MjwROZh.RPAFU9PvuVOHudBalBVgYHVg0.UPiF41yiIwXam8veYpjmosT23fv2DfyWbzi9g6dCTZjxksK8g4SwWZY.NUsCVozHQXm0Acgxcm.3W9nY6IPmTAX4aNeVtCYlNB3nYuS3uSlfAXrxOFu_Byy75rVM9F1ZMm6R4aHbDYYOXDuBgves6yVWGZ28ELleLPYjuvOYNO3cSTK7uBoQ.XdPfL4GdNRtHqBhumU4vfjzR6FjdQDcGT3RD9B_yF2B9BAQAA/master.m3u8
+
+Title: Mutiny, TMDB score 6.4
+Canonical ID: movie:1288445
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/pu2VxGlpGwffOx292w18b1tv96j.jpg
+Categories: Home: Trending in United States, Home: Popular Movies, Home: Action & Adventure, Movies: Movies
+Server: PlayFast
+Resolution: 1920x960
+Type: hls
+URL: https://scalablecontentengine.site/8DZ5WpsK6/pl/H4sIAAAAAAAAAw3M0XqCIBgA0FcChb7cZVNoNbQQfss7ApohWqtvy3z67TzAoeZMqD8vLaXpkiwST7Cl1hiEUpyQJHuzGldOw6AP3cKh7i5iSdTBLeCSET1uqOQMqR4HDZvJ9NNO4dvFRuhEgbGP7FL308PwR2JUhw2_YqtgkD2rFSqnGm7PFsPDqxhMXhDdlEaO7C5TkTaDIB7kExJBxdyOldZ3qVxrc_lq.gz26ovsEWv_j4_TgG_H4Yih2Xz6dQwibYPVBa3Xqy0kTkCQ79u5RGbssC90KoZp1EgqFRyuDuynyVeh6dlTRmdaznKbdt9q6HYncLWK15cI8dfz61yOEIRmvIJi1jlwN6PsDz5wOkpBAQAA/master.m3u8
+
+Title: Mutiny, TMDB score 6.4
+Canonical ID: movie:1288445
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/pu2VxGlpGwffOx292w18b1tv96j.jpg
+Categories: Home: Trending in United States, Home: Popular Movies, Home: Action & Adventure, Movies: Movies
+Server: PlayFast
+Resolution: 1920x960
+Type: hls
+URL: https://scalablecontentengine.site/8DZ5WpsK6/pl/H4sIAAAAAAAAAwXB0ZKCIBQA0F8CTct9dBVNEwfwovJmwowTWE7btuHX7zlTgJCJjblGATYm1sckOZyCEJsDCo4hjr5ET1coN0mdtDNme400mXtVseHs25JnM3bPBlfEAFedT6ZplSsFnjLYzi1QOyLrZ5z7ZqCXzn5.jNQtOMcbt6wCp05bHkurnhC6v1ZSOhebZHi5XfAi1KprtmoJO6WUkK4r.HkqtrrNF.C9zsQtjUdnMS9Vf0Unr7L8qe0rY5IPAnRoSnIT2VKPd.aZrWroVc4zosR9S5t7unAkf3Xwqkf4RLRQPXT6LYCAyhXwgDz64i_i6.d1RQ9f783bkHRU34lvB1mpgGK1o.QfDT7Id0EBAAA-/master.m3u8
+
+Title: Facing El Chapo, TMDB score 8.9
+Canonical ID: movie:1621552
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/z8eF0ACFFKtIZ4pUeo02PCzxRVO.jpg
+Categories: Home: Trending in United States, Home: Popular Movies, Home: Action & Adventure, Movies: Movies
+Server: PlayFast
+Resolution: 1920x960
+Type: hls
+URL: https://hiddenmountaintravelstories.site/IOUITZg96/pl/H4sIAAAAAAAAAwXB7XqCIBgA0FsSpJX72YOYLtgkPvT9p2AzP4q1rD1e_c5B6Bw3LdkSjFC3OaMY77qO7N5i3.HERdt3b8LCBzkYZohHUNfj7d7pkErq76raZyJ70HIQl.bKidERUvpvqXGfu0N_rJGkMIYKqvxlWc8thbXR01OmL2QnsIbBhR9YVSuxcMQytxZ_LnWozeSPpYwKHGhbmY_aJqk7JblTPW5HhD.zJOdjofnMoMWFKDVq.OxTFyVapNPTREGcdDg2c4hcRFY_hS_A_SLtN.Fa3uRUTKcVHoIBEQNYjh2CtIh59rseEVv07O.8MpRfIYbYPNUBcjcHpRQngvlTU.3Lcrxt_Bol__DyxxNBAQAA/master.m3u8
+
+Title: Facing El Chapo, TMDB score 8.9
+Canonical ID: movie:1621552
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/z8eF0ACFFKtIZ4pUeo02PCzxRVO.jpg
+Categories: Home: Trending in United States, Home: Popular Movies, Home: Action & Adventure, Movies: Movies
+Server: PlayFast
+Resolution: 1920x960
+Type: hls
+URL: https://hiddenmountaintravelstories.site/IOUITZg96/pl/H4sIAAAAAAAAAwXB23KCMBAA0F.KXBzTR0cSBiXokg2Gt8C2tSQCozi1fH3P2Tn.lcSOb2PGWMJcwoh3_bZjrud8x9OPJsxLl4W2wkXiKjZ0h4qy5x.hGDG7PIzYrwrLpMxgaaMQ1YcgNZa_NBRvE5lUR2GxPvzYWBy7qxCXQKvJIYMVVM3gpAfDkN3AhqDtoCQipda02NdcOiMqwvBCU8g6FuHTp1rLt.0wWY2nYz0optl8KIWZ3PXm7FgI2Ewr3bPVxfOZ_DOCBuoe54qkgEqHR5.Jmq5T0nl1QqGgy81U5mJoxuJXeTKk93eQS.5icFUOVS.LG_jiXLLvpD3QVnnz6ps3azftiJrxf02oGxVBAQAA/master.m3u8
+
+Title: Facing El Chapo, TMDB score 8.9
+Canonical ID: movie:1621552
+Content Type: movie
+Poster: https://image.tmdb.org/t/p/w300/z8eF0ACFFKtIZ4pUeo02PCzxRVO.jpg
+Categories: Home: Trending in United States, Home: Popular Movies, Home: Action & Adventure, Movies: Movies
+Server: PlayFast
+Resolution: 1920x960
+Type: hls
+URL: https://hiddenmountaintravelstories.site/IOUITZg96/pl/H4sIAAAAAAAAAw3NW46CMBQA0C21VBDmU1NQRmro4_L4aykjQ4saMonY1Y8bOAebFJn9mPzEo9WJ1mS3HzKdJXGG08Ri9NU7f1Ezi2uUxop6Ui83whtGTeM2VdBgWiiqgp2tYwe1uLdtcAHOI7FMfHB_1XAqj4LUcac2BQQ6BtPGJXtr6qWSPFYubySqdlz1cx95BMX2HlvPuffimoPvCCgJkNTRU_S_2aMDOHaKvfjyPOg7BHmi.BtXGCg_i9wedJQGCSx05GMU9SrkbZVhepjA8qbtW0Oz9VrkNaAdqcj0qIjCn3kRfprHxSJJypXd.8Dvw8tEvh1nf2E.B02tMIE_.5z5bi7bBsDZgLJ_YxLaLEEBAAA-/master.m3u8
+
