@@ -1,57 +1,32 @@
-# GitHub Category Direct Stream Scanner
+# Redflix Category Stream Scanner
 
-This repository is a GitHub Actions-only scanner. The workflow discovers one selected category from the top on each run, filters permanent category history, processes at most 20 Movie/Series/Episode items in source order, verifies direct 1080-class-or-higher media without custom headers, validates cumulative outputs, then commits the completed batch.
+This repository scans one Redflix category per GitHub Actions run. Each run processes at most 20 new movies, series, or episodes with three parallel browser workers, saves the cumulative state, then stops. The next run automatically moves to the next category; after the final category it wraps to the first and skips items already recorded in that category's history.
 
-## Runtime
+## Run from GitHub
 
-Use **Actions → Category Direct Stream Scanner → Run workflow**, or let the six-hour schedule run it. There is no local user-facing `npm start` operation.
+Open **Actions -> Redflix Category Scanner -> Run workflow**. No source URL, category name, or local command is required. The source URL is built into the scanner.
 
-The workflow's **category** field is a dropdown. Choose **Automatic Rotation** or click the category name you want; nothing needs to be typed or memorized. A manual run scans only new/unprocessed items in that category and does not change the saved automatic-rotation pointer.
+The workflow also runs once daily. GitHub concurrency prevents two scanner runs from updating the same state simultaneously.
 
-The Actions log displays the complete category index, selected mode/category, previous processed count, fresh/new count, every selected Movie/Series/Episode name, browser-versus-reuse mode, per-item result, checkpoint progress, output count changes and the exact category output folder pushed. The same item table is written to the GitHub Actions run summary.
-
-Required GitHub repository secrets:
-
-- `MAIN_SOURCE_URL`
-- `TMDB_API_KEY`
-- `TMDB_READ_TOKEN`
-- `OMDB_API_KEY`
-
-Credentials are never stored in source files or generated outputs.
-
-## Persistent output
+## Output
 
 ```text
 output/
-├── state/
-│   └── scanner-state.json
-├── master/
-│   ├── catalog.json
-│   ├── streams.txt
-│   └── playlist.m3u
-├── categories/
-│   └── <stable-category>/
-│       ├── category.json
-│       ├── streams.txt
-│       └── playlist.m3u
-└── history/
-    └── YYYY-MM-DD.jsonl
+|-- master/
+|   |-- catalog-summary.json
+|   |-- all-streams.txt
+|   `-- all-streams.m3u
+|-- categories/
+|   `-- <category>/
+|       |-- category.json
+|       |-- streams.txt
+|       `-- playlist.m3u
+|-- state/
+|   `-- scan-checkpoint.json
+`-- history/
+    `-- scan-history.jsonl
 ```
 
-`scanner-state.json` is the only authoritative state. It stores stable rotation, permanent per-category history, global canonical history, stream freshness flags, and an unfinished `activeBatch` for crash resume.
+Each category output begins with its category, total movie count, newly added movie/series/episode counts, stream counts, update time, and educational-use purpose. Items are numbered `Movie-N`, `Series-N`, or `Episode-N`, include clean title and year, and group resolutions beneath each server.
 
-## Publication contract
-
-- Approved servers only: Alpha, Premium, Orion, Ultra, PlayFast.
-- Direct HLS or DASH only; embeds, iframe/player pages, media fragments and header-dependent URLs are excluded.
-- Resolution must be 1080-class or higher, including cinematic widths such as 1920x800.
-- HLS validation checks the master, selected child, media segment, key/map when present, and alternate audio playlist/segment.
-- DASH validation checks the MPD, a 1080-class representation, initialization segment and media segment.
-- Master stream URLs are deduplicated by exact URL while canonical IDs and category memberships are retained.
-- Posters appear in JSON, TXT and M3U `tvg-logo`.
-
-## Safety
-
-Every item is atomically checkpointed by the coordinator. The category pointer advances only after the active batch is complete. Validation checks JSON parsing, canonical/URL duplicates, resolution, server allow-list, no-header publication, pointer/state, batch maximum, cumulative output floors, poster presence, and JSON/TXT/M3U count agreement before the workflow pushes.
-
-Automated tests cover rotation and wrap, fresh top/middle/bottom insertions, independent category history, global reuse, mixed Movie/Series/Episode order, crash/resume, 1080 filtering, no-header publication, HLS/DASH parser paths, cumulative output, URL dedupe, count cross-checking and one-time legacy migration.
+Only direct, no-custom-header media from Alpha, Premium, Orion, Ultra, or PlayFast is eligible. Links below 1080-class are excluded. Embed/player URLs, `Type: hls`, custom headers, and TMDB scores are not published.
