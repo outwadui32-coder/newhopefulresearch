@@ -1,0 +1,228 @@
+{
+  "metadata": {
+    "category": "Home: In Theatres",
+    "totalMovies": 4,
+    "successfulNewAdded": 0,
+    "successfulNewAddedSeries": 0,
+    "successfulNewAddedEpisodes": 0,
+    "streamLinks": 12,
+    "uniqueStreamUrls": 12,
+    "lastUpdated": "2026-09-03T01:44:26.000Z",
+    "purpose": "Strictly for educational purposes only and not for commercial use"
+  },
+  "movies": [
+    {
+      "serial": "Movie-1",
+      "canonicalId": "movie:1204680",
+      "title": "Coyote vs. Acme",
+      "year": 2026,
+      "sourceUrl": "https://redflix.co/play?id=1204680&type=movie",
+      "contentType": "movie",
+      "seriesId": null,
+      "seriesTitle": null,
+      "seasonNumber": null,
+      "episodeNumber": null,
+      "episodeTitle": null,
+      "airDate": null,
+      "categoryMemberships": [
+        {
+          "categoryId": "collection:in-theatres",
+          "name": "In Theatres",
+          "type": "collection",
+          "folder": "in-theatres"
+        }
+      ],
+      "taxonomy": {
+        "contentType": [],
+        "genres": [],
+        "editorial": [],
+        "regions": [],
+        "platforms": [],
+        "featured": [],
+        "collections": [
+          "In Theatres"
+        ]
+      },
+      "success": true,
+      "servers": [
+        {
+          "server": "PlayFast",
+          "links": [
+            {
+              "resolution": "1920x794",
+              "url": "https://leadgenerationblueprint.site/7or07NZrA/pl/H4sIAAAAAAAAAw3H3XaCIAAA4FcS1Mpd1lCPGzSM_zsEm0swT3Wa.fTbd_ft0u7sd5tNAX3vdjDrsiT3222_zTcFyNz5zYwjNHw4WCGYQGEgzNfk4j.oaDOCvlcL_f3_FxOHYNKwnmK4WtYqtzaZVi0z4rryEDiehj2WS2RJnvJ3UfPUvU4qoF4JhMF8w1VYcDUjfbpDGYupj.X9yHjO.Jh4vmAqG.sUh91E9jpcgWeN6uII7djMNJoJo.bI6pJ3CDw0n59ENdT.FDWR4mmgAA56TJBJ.ounZqV5L7x10EgMSsIYXTQ0X200lY1h_7ki0Cb65qF5YAkGPdJfPOYHuzYll4WSYpC90i_KkuIPf5PLU0EBAAA-/master.m3u8"
+            },
+            {
+              "resolution": "1920x794",
+              "url": "https://leadgenerationblueprint.site/7or07NZrA/pl/H4sIAAAAAAAAAwXBW3aDIBQAwC2JaB79VIrUGC0I18gfiomnkkejaS2r78w.RgM2ZtuhzgSbHcbxdkDnXRSeUdBve_PGoUwKbz8kU7FqYqXJ.Doguhy8Tu0t9wrnkQxtOrj.aaQoGpJENrhE8v3uNYVZK8HspJ28XkJF7M14XfeMfh__5tWwcaqo.JXo4bmjKQ8nL0m_dtJyGZYbQALVanlWRLQq01Rfx6LwyWY40bgh_M.SPm5OSSqy_GVYngLkc0XcT60gHxT15kvfINMPEZa4uXIss3ZViH4KDFPNnIGMLsK5kOMcjAIKIdAWl3PJwGsiSi2hBXdfzbSQYzNqzbjv2FjJhibHjM5cBvt_8.oohkEBAAA-/master.m3u8"
+            },
+            {
+              "resolution": "1920x794",
+              "url": "https://leadgenerationblueprint.site/7or07NZrA/pl/H4sIAAAAAAAAAw3Ky3KDIBQA0F.6oHZCd01V8gA6onITdgoxTiTGaTKt.vXtWZ.k81FCGFzIhnRvbdz5jjIaeeIh3jSevctdnlmYbQOvs8sYtKAbY6ZU4nRS6MHxsBZGzSUO8VdquYgCbfLwVPxBFa.hHlWiFlYVmPza0PNzJSNZW1INc9pm_Q5Pjvp7MjhUgOhviD3gLpRlOP.40C_1qvP_yws6feq6Xz34wi5PkNWe2NVsj9RyxVlZgKmOxI4OBtpkRqqB3F2q6HF5_qhbuJv0oJrsGuvTdRarIzqa8HLLtSJhtWhFOR7KqnLQDqQUkT3oMH1LMxmZvR7efMwXboVELeS4tZ4yFDTf.xXYH.YfcGtBAQAA/master.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": "Movie-2",
+      "canonicalId": "movie:969681",
+      "title": "Spider-Man: Brand New Day",
+      "year": 2026,
+      "sourceUrl": "https://redflix.co/play2?id=969681&type=movie",
+      "contentType": "movie",
+      "seriesId": null,
+      "seriesTitle": null,
+      "seasonNumber": null,
+      "episodeNumber": null,
+      "episodeTitle": null,
+      "airDate": null,
+      "categoryMemberships": [
+        {
+          "categoryId": "collection:in-theatres",
+          "name": "In Theatres",
+          "type": "collection",
+          "folder": "in-theatres"
+        }
+      ],
+      "taxonomy": {
+        "contentType": [],
+        "genres": [],
+        "editorial": [],
+        "regions": [],
+        "platforms": [],
+        "featured": [],
+        "collections": [
+          "In Theatres"
+        ]
+      },
+      "success": true,
+      "servers": [
+        {
+          "server": "PlayFast",
+          "links": [
+            {
+              "resolution": "1920x800",
+              "url": "https://futureproofmarketing.site/WxX94jG5M/pl/H4sIAAAAAAAAAw3P25KCIAAA0F8SvKzsY62UrtCKXIQ3jGYMMZtym_Trd88fHBBlMAcWJHEfXZIPcEEXlCc2QyDLY5vkn6Z9JqZwbcPprLoqFYG9JLwLLrDoIVood407AK9HF6jAyQmHI4VuZAckZKQfNmYnrRYg16Vui6B5jOfzrVqJrwLf3JeIzYMpB8lN.rMMhYaG2ILG_cQy4mVtxVIKYFbjqyvheOIi7aSv6r54QnYMJfFs0pKmvd9NzYh2dr_smhXFFA7tN3C_mrOadFhosXAn53fvpXdjOjf_bbkNrzoKwH4NP1yOqwaDdGooLcbYXNG9mcq3EiQyhTypo9Hudk9UN1z7je7JOLRmi9Af225FIUEBAAA-/master.m3u8"
+            },
+            {
+              "resolution": "1920x800",
+              "url": "https://futureproofmarketing.site/WxX94jG5M/pl/H4sIAAAAAAAAAw3Gy3aCMBAA0F9KRqTSpeUlLSKBGSQ7IHgoJpjToqBf397VVW7PHdj0zYW7F9fj_aV5a6DbsV273TDF3zHcmz6wso2Hc47kkpaiJflQvr7nZj1LsxpxVU1q5lWwmyMxQRnY6eslZG1EUkzhkoW3Te.nIEn6BOvYjcOC19n8v6xGkabR75O.Z7cPhqmK5hnDoc7Hg1OA_SiNsxRoHx3oBc9JLJlEBfOxrlQhTPBso3UpRy0.OUKh7ZRXVrdEIaHXSEqc9rqWNeq7iIctxZpEubcE9lSPgnX8AEcIKWdrjtPeR9gyKvVSQDJn6PyIUb1aI7LKDBwjm1WT9jvwTseAQ8Fui3wx7w9TxsZlQQEAAA--/master.m3u8"
+            },
+            {
+              "resolution": "1920x800",
+              "url": "https://futureproofmarketing.site/WxX94jG5M/pl/H4sIAAAAAAAAAwXB25JDMAAA0F9KQnTsY1dDbcWKXMhbiI4hNDu9qa_fc2AYBzhCfYiRsRgOsENdHw7gAM3VhMH1SyL7ZMiNSkpOT9tqTiTtlL0ImJtePe4a2qzMJFbLGOmGZRd0.1wAAYzQRk0at8Gx5TOmdjq9exW.i6n4dIsTurltKvW.TH0kVhf87PJVq5yUpEJ1QysduLVSMTcK39kce.YqyCc5Dpn3ff2IiomaWtJf5uRKAaVcjKF2JNEIB1LQXBOfsCl_DM35XSbiUyfHyApYi3RrVArPTG3PYdHKwHnXmdt7Ql8W6rZY4p3C8VtPbuSI_NXSEo404G5M2uUMREYLDrweZtjqHcT_RLK_eUEBAAA-/master.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": "Movie-3",
+      "canonicalId": "movie:1480574",
+      "title": "Just Play Dead",
+      "year": 2026,
+      "sourceUrl": "https://redflix.co/play?id=1480574&type=movie",
+      "contentType": "movie",
+      "seriesId": null,
+      "seriesTitle": null,
+      "seasonNumber": null,
+      "episodeNumber": null,
+      "episodeTitle": null,
+      "airDate": null,
+      "categoryMemberships": [
+        {
+          "categoryId": "collection:in-theatres",
+          "name": "In Theatres",
+          "type": "collection",
+          "folder": "in-theatres"
+        }
+      ],
+      "taxonomy": {
+        "contentType": [],
+        "genres": [],
+        "editorial": [],
+        "regions": [],
+        "platforms": [],
+        "featured": [],
+        "collections": [
+          "In Theatres"
+        ]
+      },
+      "success": true,
+      "servers": [
+        {
+          "server": "PlayFast",
+          "links": [
+            {
+              "resolution": "1920x800",
+              "url": "https://brandpositioningstudio.site/yhqxaIjWt/pl/H4sIAAAAAAAAAw3NW3KDIBQA0C0B1kT7mYo6Rmm8Cgp_AsmYBF8dJ5quvj0bOPqojQlvptOBuerbIbj6BOHDEd0CPzh0wSc8xYsTu3QIp9LFd5OeREdhLPhaisgRK_hWUJezNI5sW_x2xFbWg8Wkau6S9WFaRiTvFSR7xzHLoJ1_GNk8jrOP2llPNnGtqEHlsL8lV0gkagaUcUZXKmtWXRu3Wcoc0LXP0byUbvLKlu_2Hk4aTW.ooRAJNGfkD9C4kRFxsQme5eCrJnIn3cxYp.xisfhmqXgoT.w5.R85QJGsi6IMnZEA1fZfVQ138w5fpgq2auiloioHMae2Zhl79qUcWW_4hKXohY3ikdco_AO7OZfXQQEAAA--/master.m3u8"
+            },
+            {
+              "resolution": "1920x800",
+              "url": "https://brandpositioningstudio.site/yhqxaIjWt/pl/H4sIAAAAAAAAAwXB25KCIBgA4FfiEKV7uSmZJa4IPwt3CU2OmTXt5Onp9_tIRLcRIhfSxDu_ISim2wbhCDG6iWKPdl96bUGYnLhBcJeyRR82qEF5KlC1lpplAdkJjORWhaPjMAdyHM2drQ6hOfQhEUa8romloQvsTIG6fVwH2neew6S0e1yH1l7u0SiH77fGUloyv09YssLMpsZPJO7T6AHWGnPpuCxB5WNIW9sooKrntu5vE2Ao5ZBvrX7BJZNLqUQGnV3Mr5_cgfXu0X6KlX8Uladm8FNFhA29W84YXs7A3mf8p0buqVG8h8SV14cjBZZp3d1GkVTjefVTk.WdNDlz5G8Mh3gudI8rheJ_1hCOEEEBAAA-/master.m3u8"
+            },
+            {
+              "resolution": "1920x800",
+              "url": "https://brandpositioningstudio.site/yhqxaIjWt/pl/H4sIAAAAAAAAAwXBYXOCIBgA4L_EC1m5b7kkosBCAfWbgjt3au523jR._Z6HANoDQR3qDjGK9uSIAOMOfPyFMDnsyEcL_T2jiciK5OpfMzLpVrtB3jO9os6Oa13S4Ya21QzR2mkBbqBJy3jToJpIS6XAcSKnmWjcB_GOH8rK5RYUllhAY6_BDybNzLC1IYWG0HeDjXIpf9TTEAlI5k5Hi7Lb24c6kuGERPnTu0L_Kt1ToWeQpSqMVqHC_dKMNDi929QkRWVhbC8xbrGZqlJdpTbsiekrZ.MjR1DmmDduHM9WQ26ZuXu9MPniOktBVub05y68EMgwS_m5vqhvQ3vwzCcSeP_U_NNNo_ABxf.kOHlEQQEAAA--/master.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": "Movie-4",
+      "canonicalId": "movie:1288059",
+      "title": "I Want Your Sex",
+      "year": 2026,
+      "sourceUrl": "https://redflix.co/play?id=1288059&type=movie",
+      "contentType": "movie",
+      "seriesId": null,
+      "seriesTitle": null,
+      "seasonNumber": null,
+      "episodeNumber": null,
+      "episodeTitle": null,
+      "airDate": null,
+      "categoryMemberships": [
+        {
+          "categoryId": "collection:in-theatres",
+          "name": "In Theatres",
+          "type": "collection",
+          "folder": "in-theatres"
+        }
+      ],
+      "taxonomy": {
+        "contentType": [],
+        "genres": [],
+        "editorial": [],
+        "regions": [],
+        "platforms": [],
+        "featured": [],
+        "collections": [
+          "In Theatres"
+        ]
+      },
+      "success": true,
+      "servers": [
+        {
+          "server": "PlayFast",
+          "links": [
+            {
+              "resolution": "1920x1038",
+              "url": "https://highincomecreators.site/BOmJJT2bG/pl/H4sIAAAAAAAAAw3M63aCIAAA4FfipuV.mlLSwkDE4h.K53hBs21l6.m37wG.2rYRcTBw9cYiXEPbgqDeNraFNiAk3Hw4xLyY_VSnp6cbukfZf7_sPijEIF5ujklOl4yDEjX99i1_f5bqsCRqDEI3sYep_CQT.tXqlDRDjB1y5ggXbDC7KcxWnvhroVmnRg.aXbRWIzzUfUQLwM5WxWF.cfj_gWqvQ44obbULW71kRR_tCiDjXOu7ThkqBz3mmmfCS9.MnW2QtwKAlxmMar0gBi4TVzGUNHtWYzTWyJvrzG6uZJgP2covEpezIU1JSJW6u0y6y_Ed9.6tU11JpaflbA5enCa9Kk8lf3ePT0CfQoHoD1_qOFxBAQAA/master.m3u8"
+            },
+            {
+              "resolution": "1920x1038",
+              "url": "https://highincomecreators.site/BOmJJT2bG/pl/H4sIAAAAAAAAAwXBy3KCMBQA0F_KA6bYJU5BYwklkBvILiFxEIIyStXy9T3HI2rOH2ebEBeh3sXIEoxMco486X3ik0.gIS4VIubKK4tWJakbBAnhe5PI1A.iJpzaq54cYsjncWrlcOvDjdpxKDjtNls_ng1lv4XaKT_zVSheNvs1MiEbm1GLRnEuW93ael3KJpN2Bl2FZd.j2HSoekK.vE0T7p1agxyPd53rWk5r5BVW5pDOFQjp5RADgaqT.iUwnBxlLxNC6HN8dCOnrmUXk6XYTe.LCYydtmE285JBDgIU..mUfPb0.BIte3AoiFS7Qh0yYelyKijMLtclgOMGS8zb_q.B9MvKrNYb2v0DeNnqzUEBAAA-/master.m3u8"
+            },
+            {
+              "resolution": "1920x1038",
+              "url": "https://highincomecreators.site/BOmJJT2bG/pl/H4sIAAAAAAAAAw2Py3KDIAAAfwlQ8ugtGYPmAQwEULmJpLUNGqZJjcnX1.PO7GH30ibe.3TRYggTt_hcLlPsEpxinzTOr_xHrfzeIAlU3_0ekRnbXAI6.JfMddLuQi7zA6UDfRoiC1tQwEjErmcd30Viv1dpk7DgZpdp_zAoMl3Km7mu915dgdePOw1RiOHr5d9h5nUmsw3mlf2TQ_3kJGoGBdSqTqW2oyohUgCiy48FvLQZ0_FYZmY0w21qdDuJK84pFBOD8mCSrtQ9ftuCNHXYTAL6W92Hp8uJpqADDkzTudpWJ0SM60ms393ICTFlL7eiD3dddicHSKeQR7wyC0lsPd_pc84qTsRI9X5uBut_pWI.vkEBAAA-/master.m3u8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "series": []
+}
