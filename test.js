@@ -88,6 +88,16 @@ assert.equal(
   'Orion'
 );
 assert.equal(collector.attributedServer('about:blank', 'PlayFast', new Map()), 'PlayFast');
+assert.deepEqual(
+  collector.resolveSourcePlan(['Vid', 'PlayFast', 'Orion', 'Premium', 'Alpha']),
+  [
+    { server: 'Alpha', sourceLabel: 'Alpha' },
+    { server: 'Premium', sourceLabel: 'Premium' },
+    { server: 'Orion', sourceLabel: 'Orion' },
+    { server: 'Ultra', sourceLabel: 'Vid' },
+    { server: 'PlayFast', sourceLabel: 'PlayFast' },
+  ]
+);
 
 const resumeCatalog = Array.from({ length: 5 }, (_, index) => ({
   url: `https://test/resume/${index + 1}`, title: `Resume ${index + 1}`, categories: ['Resume Category'],
@@ -111,6 +121,11 @@ const cleanedMovie = scanner.normalizeTitleMetadata(
 );
 assert.equal(cleanedMovie.title, 'The Odyssey');
 assert.equal(cleanedMovie.year, 2026);
+const movieWithPoster = scanner.normalizeTitleMetadata(
+  { url: cleanedMovie.url, title: cleanedMovie.title, categories: cleanedMovie.categories },
+  { title: 'The Odyssey', release_date: '2026-07-17', poster_path: '/odyssey.jpg' }
+);
+assert.equal(movieWithPoster.poster, 'https://image.tmdb.org/t/p/original/odyssey.jpg');
 
 const cleanedEpisode = scanner.normalizeTitleMetadata(
   {

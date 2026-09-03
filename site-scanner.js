@@ -193,12 +193,14 @@ async function discoverSite(rootUrl, origin, maxSurfaces, requestedSeedUrls = nu
           }
           if (!titlePattern.test(element.href)) continue;
           const rawText = element.innerText?.trim().replace(/\s+/g, ' ') || '';
-          const imageTitle = element.querySelector('img[alt]')?.alt?.trim() || '';
+          const image = element.querySelector('img');
+          const imageTitle = image?.alt?.trim() || '';
           const isHero = /watch now/i.test(rawText);
           items.push({
             url: element.href,
             title: isHero ? category : (imageTitle || rawText || 'Untitled'),
             localCategory: isHero ? 'Hero' : category,
+            poster: image?.currentSrc || image?.src || '',
           });
         }
         return {
@@ -214,8 +216,13 @@ async function discoverSite(rootUrl, origin, maxSurfaces, requestedSeedUrls = nu
       for (const item of data.items) {
         const category = `${name}: ${item.localCategory}`;
         const existing = uniqueTitles.get(item.url);
-        if (!existing) uniqueTitles.set(item.url, { url: item.url, title: item.title, categories: [category] });
-        else if (!existing.categories.includes(category)) existing.categories.push(category);
+        if (!existing) uniqueTitles.set(item.url, {
+          url: item.url, title: item.title, poster: item.poster || '', categories: [category],
+        });
+        else {
+          if (!existing.categories.includes(category)) existing.categories.push(category);
+          if (!existing.poster && item.poster) existing.poster = item.poster;
+        }
       }
       for (const href of data.links) {
         const normalized = normalizeSurfaceUrl(href, origin);
@@ -876,6 +883,11 @@ function normalizeTitleMetadata(item, details = null) {
   const detectedYear = Number(String(date).slice(0, 4)) ||
     Number(String(item.title || '').match(/\b(19|20)\d{2}\b(?=\s*$)/)?.[0]) || null;
 
+  const tmdbPoster = details?.poster_path
+    ? `https://image.tmdb.org/t/p/original${details.poster_path}`
+    : '';
+  const poster = item.poster || tmdbPoster || '';
+
   if (isEpisodeItem(item)) {
     const seriesTitle = details?.name || item.seriesTitle || item.title || `Series ${identity.id}`;
     const episodeTitle = item.episodeTitle || `Episode ${identity.episode}`;
@@ -884,6 +896,7 @@ function normalizeTitleMetadata(item, details = null) {
       title: `${seriesTitle} S${String(identity.season).padStart(2, '0')}E${String(identity.episode).padStart(2, '0')} - ${episodeTitle}`,
       seriesTitle,
       year: detectedYear,
+      poster,
     };
   }
 
@@ -894,28 +907,70 @@ function normalizeTitleMetadata(item, details = null) {
     .replace(/^(?:TOP\s*10|RECENTLY\s+ADDED|NEW|TRENDING)\s+/i, '')
     .replace(/\s+\b(?:19|20)\d{2}\b\s*$/, '')
     .trim() || 'Untitled';
-  return { ...item, title: String(apiTitle || fallback).trim(), year: detectedYear };
+  return { ...item, title: String(apiTitle || fallback).trim(), year: detectedYear, poster };
+}
+
+async function fetchTmdbDetails(identity) {
+  const token = process.env.TMDB_READ_TOKEN;
+  const apiKey = process.env.TMDB_API_KEY;
+  if (!token && !apiKey) return null;
+  const target = new URL(`https://api.themoviedb.org/3/${identity.type === 'tv' ? 'tv' : 'movie'}/${identity.id}`);
+  target.searchParams.set('language', 'en-US');
+  if (!token) target.searchParams.set('api_key', apiKey);
+  return fetchJsonWithRetry(target.href, 3, token ? {
+    authorization: `Bearer ${token}`,
+    accept: 'application/json',
+  } : { accept: 'application/json' });
+}
+
+async function fetchOmdbPoster(item, identity) {
+  const apiKey = process.env.OMDB_API_KEY;
+  if (!apiKey || !item.title) return '';
+  const target = new URL('https://www.omdbapi.com/');
+  target.searchParams.set('apikey', apiKey);
+  target.searchParams.set('t', item.seriesTitle || item.title);
+  target.searchParams.set('type', identity.type === 'tv' ? 'series' : 'movie');
+  if (item.year) target.searchParams.set('y', String(item.year));
+  const details = await fetchJsonWithRetry(target.href, 2);
+  return details?.Response !== 'False' && /^https?:\/\//i.test(details?.Poster || '') ? details.Poster : '';
 }
 
 async function enrichTitleMetadata(item, origin) {
-  if (item.year && item.title && !/^\d+(?:\.\d+)?\s/.test(item.title)) return item;
   const identity = urlContentIdentity(item.url);
   if (!identity.id) return normalizeTitleMetadata(item);
+  let enriched = normalizeTitleMetadata(item);
   try {
-    const details = await fetchJsonWithRetry(
-      `${origin}/api/tmdb/${identity.type === 'tv' ? 'tv' : 'movie'}/${identity.id}?api_key=&language=en-US`,
-      3
+    const details = await fetchTmdbDetails(identity) || await fetchJsonWithRetry(
+      `${origin}/api/tmdb/${identity.type === 'tv' ? 'tv' : 'movie'}/${identity.id}?api_key=&language=en-US`, 3
     );
-    return normalizeTitleMetadata(item, details);
+    enriched = normalizeTitleMetadata(item, details);
   } catch (error) {
     console.log(`[METADATA FALLBACK] ${item.title}: ${error.message}`);
-    return normalizeTitleMetadata(item);
   }
+  if (!enriched.poster) {
+    try { enriched.poster = await fetchOmdbPoster(enriched, identity); }
+    catch (error) { console.log(`[POSTER FALLBACK] ${item.title}: ${error.message}`); }
+  }
+  console.log(`[POSTER] ${enriched.title}: ${enriched.poster ? 'FOUND' : 'NOT FOUND'}`);
+  return enriched;
+}
+
+async function backfillResultPosters(payload, origin) {
+  const missing = (payload.results || []).filter((item) => !item.poster);
+  if (!missing.length) return;
+  console.log(`[POSTER BACKFILL] Enriching ${missing.length} previously saved playable items.`);
+  await runWorkerPool(missing, 4, async (item) => {
+    const enriched = await enrichTitleMetadata(item, origin);
+    item.title = enriched.title;
+    item.year = enriched.year;
+    item.poster = enriched.poster || '';
+  });
+  console.log(`[POSTER BACKFILL] ${missing.filter((item) => item.poster).length}/${missing.length} posters found.`);
 }
 
 let nextMetadataRequestAt = 0;
 
-async function fetchJsonWithRetry(url, attempts = 6) {
+async function fetchJsonWithRetry(url, attempts = 6, extraHeaders = {}) {
   let lastError;
   for (let attempt = 1; attempt <= attempts; attempt += 1) {
     try {
@@ -923,7 +978,10 @@ async function fetchJsonWithRetry(url, attempts = 6) {
       nextMetadataRequestAt = Math.max(Date.now(), nextMetadataRequestAt) + 750;
       if (waitMs > 0) await new Promise((resolve) => setTimeout(resolve, waitMs));
       const response = await fetch(url, {
-        headers: { 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari/537.36' },
+        headers: {
+          'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari/537.36',
+          ...extraHeaders,
+        },
       });
       if (!response.ok) {
         const error = new Error(`HTTP ${response.status}`);
@@ -1010,6 +1068,9 @@ async function expandEpisodicCatalog(baseCatalog, origin, previous = null) {
             episodeTitle: episode.name || `Episode ${episode.episode_number}`,
             airDate: episode.air_date,
             stillPath: episode.still_path || null,
+            poster: episode.still_path
+              ? `https://image.tmdb.org/t/p/original${episode.still_path}`
+              : (seriesItem.poster || (details.poster_path ? `https://image.tmdb.org/t/p/original${details.poster_path}` : '')),
           });
         }
       }
@@ -1023,6 +1084,7 @@ async function expandEpisodicCatalog(baseCatalog, origin, previous = null) {
         totalSeasons: details.number_of_seasons || seasons.length,
         totalEpisodes: details.number_of_episodes || 0,
         airedEpisodes: airedEpisodes.length,
+        poster: seriesItem.poster || (details.poster_path ? `https://image.tmdb.org/t/p/original${details.poster_path}` : ''),
         status: 'expanded',
       });
       console.log(`[EPISODES ${index + 1}/${pendingSeriesItems.length}] ${details.name || seriesItem.title}: ${airedEpisodes.length} aired`);
@@ -1414,6 +1476,7 @@ function canonicalMovieRecord(item, rows, serial = null) {
     serial: serial || null,
     canonicalId: canonicalMovieId(item),
     title: item.title,
+    poster: item.poster || null,
     year: item.year || (item.airDate ? Number(String(item.airDate).slice(0, 4)) : null),
     sourceUrl: item.url,
     contentType: isEpisodeItem(item) ? 'episode' : 'movie',
@@ -1437,11 +1500,13 @@ function splitContentRecords(records) {
     const series = seriesMap.get(episode.seriesId) || {
       seriesId: episode.seriesId,
       title: episode.seriesTitle,
+      poster: episode.poster || null,
       categoryMemberships: episode.categoryMemberships,
       taxonomy: episode.taxonomy,
       totalEpisodesAdded: 0,
       seasons: [],
     };
+    if (!series.poster && episode.poster) series.poster = episode.poster;
     let season = series.seasons.find((item) => item.seasonNumber === episode.seasonNumber);
     if (!season) {
       season = { seasonNumber: episode.seasonNumber, episodes: [] };
@@ -1707,6 +1772,8 @@ async function main() {
     }
   }
 
+  await backfillResultPosters(payload, options.origin);
+
   if (previous && repairLatestBatchCounts(payload, paths.history)) {
     console.log('[STATE REPAIR] Recovered movie, series, and episode counts for the latest completed batch.');
   }
@@ -1814,6 +1881,10 @@ async function main() {
     console.log(`[CATEGORY REMAINING] ${remainingBeforeBatch} before this batch.`);
     console.log(`[BATCH SIZE] ${queue.length}/${options.maxTitles}`);
     console.log(`[PARALLEL WORKERS] ${Math.min(options.workers, queue.length)}`);
+    console.log('[BATCH ITEMS]');
+    queue.forEach((item, index) => console.log(
+      `  ${index + 1}. ${isEpisodeItem(item) ? 'EPISODE' : 'MOVIE'} | ${item.title} | ${item.url}`
+    ));
     console.log('==================================================');
 
     await runWorkerPool(queue, options.workers, async (title, index, workerId) => {
@@ -1825,6 +1896,7 @@ async function main() {
       if (!options.retryFailed && existing && isReusableScan(existing.scan)) {
         existing.title = title.title;
         existing.year = title.year;
+        existing.poster = title.poster || existing.poster || '';
         existing.categories = [...new Set([...(existing.categories || []), ...(title.categories || [])])];
         markItemProcessed(payload.scheduler, existing, selectedCategory);
         saveOutputTree(payload, paths, {
@@ -1862,6 +1934,14 @@ async function main() {
         `[CHECKPOINT] ${payload.summary.processed}/${payload.summary.discovered} processed; ` +
         `${payload.summary.verifiedStreams} verified streams.`
       );
+      const verifiedByServer = Object.fromEntries(PREFERRED_SERVERS.map((server) => [server,
+        (mergedScan?.finalStreams || []).filter((stream) =>
+          stream.server?.toLowerCase() === server.toLowerCase() && isPublishableStream(stream)
+        ).length
+      ]));
+      console.log(`[TITLE RESULT ${index + 1}/${queue.length}] ${title.title} | ` +
+        `STATUS=${isPublishableScan(mergedScan) ? 'SUCCESS' : 'FAILED'} | POSTER=${title.poster ? 'YES' : 'NO'} | ` +
+        `VERIFIED=${JSON.stringify(verifiedByServer)}`);
     });
 
     const logicalBatchUrls = payload.scheduler.activeBatch?.urls || queue.map((item) => item.url);

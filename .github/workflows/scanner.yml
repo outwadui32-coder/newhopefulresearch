@@ -60,6 +60,9 @@ jobs:
           SCAN_MODE: ${{ inputs.mode || 'automatic' }}
           SCAN_CATEGORY: ${{ inputs.category || '' }}
           REFRESH_CATEGORY_LIST: ${{ inputs.refresh_category_list || 'false' }}
+          TMDB_API_KEY: ${{ vars.TMDB_API_KEY || secrets.TMDB_API_KEY }}
+          TMDB_READ_TOKEN: ${{ vars.TMDB_READ_TOKEN || secrets.TMDB_READ_TOKEN }}
+          OMDB_API_KEY: ${{ vars.OMDB_API_KEY || secrets.OMDB_API_KEY }}
         run: |
           args=(--workers 2 --server-workers 5)
           if [[ "$SCAN_MODE" == "manual" ]]; then

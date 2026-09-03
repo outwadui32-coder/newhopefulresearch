@@ -6,6 +6,7 @@ const path = require('path');
 const OUTPUT_ROOT = path.resolve('output');
 const CATEGORY_ROOT = path.join(OUTPUT_ROOT, 'categories');
 const REQUIRED_PURPOSE = 'Strictly for educational purposes only and not for commercial use';
+const REQUIRED_SERVERS = ['Alpha', 'Premium', 'Orion', 'Ultra', 'PlayFast'];
 const FORBIDDEN_OUTPUT_KEYS = new Set(['kind', 'headers', 'tmdbScore', 'score']);
 
 function fail(message) {
@@ -74,6 +75,7 @@ function verifyCategory(entry) {
     const expected = record.contentType === 'episode' ? 'Episode-' : record.contentType === 'series' ? 'Series-' : 'Movie-';
     if (!String(record.serial || '').startsWith(expected)) fail(`${entry.folder}: invalid serial for ${record.title}`);
     if (!record.title || !record.year) fail(`${entry.folder}: title/year missing for successful item ${index + 1}`);
+    if (!/^https?:\/\//.test(record.poster || '')) fail(`${entry.folder}: poster missing for successful item ${index + 1}`);
   });
 
   for (const link of links) {
@@ -152,6 +154,15 @@ async function main() {
   const latestBatch = checkpoint.scheduler?.lastBatchByCategory?.[selectedCategory] || {};
   const successfulItemUrls = new Set(latestBatch.successfulItemUrls || []);
   const latestRecords = selected.records.filter((record) => successfulItemUrls.has(record.sourceUrl));
+  if (successfulItemUrls.size && latestRecords.length !== successfulItemUrls.size) {
+    fail(`Latest successful item count mismatch: expected ${successfulItemUrls.size}, found ${latestRecords.length}`);
+  }
+  for (const sourceUrl of successfulItemUrls) {
+    const result = (checkpoint.results || []).find((item) => item.url === sourceUrl);
+    const attempts = new Set((result?.scan?.diagnostics?.serverAttempts || []).map((item) => item.server));
+    const missing = REQUIRED_SERVERS.filter((server) => !attempts.has(server));
+    if (missing.length) fail(`${result?.title || sourceUrl}: servers not attempted: ${missing.join(', ')}`);
+  }
   const uniqueSelectedUrls = [...new Set(flattenLinks(latestRecords).map((link) => link.url))];
   await runPool(uniqueSelectedUrls, 8, async (url, index) => {
     await probe(url);
