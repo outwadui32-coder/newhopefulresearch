@@ -4789,7 +4789,7 @@
   "scanner": "root-site-multi-server-stream-scanner",
   "sourceUrl": "https://redflix.co/",
   "startedAt": "2026-09-03T01:38:23.555Z",
-  "updatedAt": "2026-09-03T02:33:09.974Z",
+  "updatedAt": "2026-09-03T02:38:16.545Z",
   "headings": [
     "Home: Watch free movies & TV shows online in HD",
     "Home: The Runner",
@@ -26336,8 +26336,8 @@
       "Browse: TRENDING NOW": {
         "category": "Browse: TRENDING NOW",
         "successfulNewMovies": 3,
-        "successfulNewSeries": 0,
-        "successfulNewEpisodes": 0,
+        "successfulNewSeries": 2,
+        "successfulNewEpisodes": 13,
         "completedAt": "2026-09-03T02:33:09.914Z"
       }
     },

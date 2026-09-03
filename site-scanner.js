@@ -409,6 +409,61 @@ function successfulBatchCounts(payload, urls) {
   };
 }
 
+function syncActiveBatchToQueue(scheduler, category, queue) {
+  if (!scheduler || !category || !Array.isArray(queue)) return;
+  const previous = scheduler.activeBatch;
+  scheduler.activeBatch = {
+    category,
+    urls: queue.map((item) => item.url),
+    startedAt: previous?.category === category && previous.startedAt
+      ? previous.startedAt
+      : new Date().toISOString(),
+  };
+}
+
+function repairLatestBatchCounts(payload, historyPath) {
+  if (!payload?.scheduler?.lastBatchByCategory || !fs.existsSync(historyPath)) return false;
+  let events;
+  try {
+    events = fs.readFileSync(historyPath, 'utf8')
+      .split(/\r?\n/)
+      .filter(Boolean)
+      .map((line) => JSON.parse(line));
+  } catch (_) {
+    return false;
+  }
+  const completionIndex = events.findLastIndex((item) => item.event === 'category-batch-complete');
+  if (completionIndex < 0) return false;
+  const completion = events[completionIndex];
+  const category = completion.selectedCategory || completion.category;
+  if (!category || !payload.scheduler.lastBatchByCategory[category]) return false;
+  let runStartIndex = -1;
+  for (let index = completionIndex - 1; index >= 0; index -= 1) {
+    if (events[index].event === 'run-start') {
+      runStartIndex = index;
+      break;
+    }
+  }
+  const urls = events.slice(runStartIndex + 1, completionIndex)
+    .filter((item) => ['title-scanned', 'title-failed', 'title-reused'].includes(item.event))
+    .filter((item) => (item.selectedCategory || item.category) === category)
+    .map((item) => item.url)
+    .filter(Boolean);
+  if (urls.length === 0) return false;
+  const counts = successfulBatchCounts(payload, urls);
+  const previous = payload.scheduler.lastBatchByCategory[category];
+  const changed = previous.successfulNewMovies !== counts.successfulNewMovies ||
+    previous.successfulNewSeries !== counts.successfulNewSeries ||
+    previous.successfulNewEpisodes !== counts.successfulNewEpisodes;
+  if (!changed) return false;
+  payload.scheduler.lastBatchByCategory[category] = {
+    category,
+    ...counts,
+    completedAt: previous.completedAt || completion.timestamp || new Date().toISOString(),
+  };
+  return true;
+}
+
 function groupStreamRowsByServer(rows) {
   const groups = new Map();
   for (const row of rows) {
@@ -1476,6 +1531,9 @@ async function main() {
     }
   }
 
+  if (previous && repairLatestBatchCounts(payload, paths.history)) {
+    console.log('[STATE REPAIR] Recovered movie, series, and episode counts for the latest completed batch.');
+  }
   saveOutputTree(payload, paths, { batchSize: options.maxTitles, historyEvent: 'run-start' });
   if (options.discoverOnly) {
     console.log(`[DONE] Discovery saved to ${paths.checkpoint}`);
@@ -1522,6 +1580,7 @@ async function main() {
       );
       queue = remaining.slice(0, options.maxTitles);
       remainingBeforeBatch = remaining.length;
+      syncActiveBatchToQueue(payload.scheduler, selectedCategory, queue);
       saveOutputTree(payload, paths, {
         batchSize: options.maxTitles,
         historyEvent: 'category-series-expanded',
@@ -1643,5 +1702,6 @@ module.exports = {
   reconcileScheduler, markItemProcessed, markExistingResultsProcessed,
   nextCategoryBatch, runWorkerPool, outputRows, contentCounts, catalogCounts, saveCheckpoint,
   successfulBatchCounts,
+  syncActiveBatchToQueue, repairLatestBatchCounts,
   outputPaths, saveOutputTree, saveTextReport, saveM3uReport, canonicalMovieRecord,
 };

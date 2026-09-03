@@ -22,7 +22,7 @@
   },
   "purpose": "Strictly for educational purposes only and not for commercial use",
   "nextRotationCategory": "Home: In Theatres",
-  "lastUpdated": "2026-09-03T02:33:09.974Z",
+  "lastUpdated": "2026-09-03T02:38:16.545Z",
   "categories": [
     {
       "categoryName": "Home: Top 10 Movies Today",
@@ -35,7 +35,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 30,
       "totalUniqueMediaUrls": 30,
-      "lastUpdated": "2026-09-03T02:33:09.974Z",
+      "lastUpdated": "2026-09-03T02:38:16.545Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/top-10-movies-today/category.json",
@@ -50,11 +50,11 @@
       "folder": "trending-now",
       "totalMovies": 15,
       "successfulNewAdded": 3,
-      "successfulNewAddedSeries": 0,
-      "successfulNewAddedEpisodes": 0,
+      "successfulNewAddedSeries": 2,
+      "successfulNewAddedEpisodes": 13,
       "totalStreamLinks": 78,
       "totalUniqueMediaUrls": 78,
-      "lastUpdated": "2026-09-03T02:33:09.974Z",
+      "lastUpdated": "2026-09-03T02:38:16.545Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/trending-now/category.json",
@@ -73,7 +73,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 15,
       "totalUniqueMediaUrls": 15,
-      "lastUpdated": "2026-09-03T02:33:09.974Z",
+      "lastUpdated": "2026-09-03T02:38:16.545Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/in-theatres/category.json",
@@ -92,7 +92,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 57,
       "totalUniqueMediaUrls": 57,
-      "lastUpdated": "2026-09-03T02:33:09.974Z",
+      "lastUpdated": "2026-09-03T02:38:16.545Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/trending-in-united-states/category.json",
@@ -111,7 +111,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 18,
       "totalUniqueMediaUrls": 18,
-      "lastUpdated": "2026-09-03T02:33:09.974Z",
+      "lastUpdated": "2026-09-03T02:38:16.545Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/movies/category.json",
@@ -130,7 +130,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 3,
       "totalUniqueMediaUrls": 3,
-      "lastUpdated": "2026-09-03T02:33:09.974Z",
+      "lastUpdated": "2026-09-03T02:38:16.545Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/trending-on-netflix/category.json",
@@ -149,7 +149,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T02:33:09.974Z",
+      "lastUpdated": "2026-09-03T02:38:16.545Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/coming-soon/category.json",
@@ -168,7 +168,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T02:33:09.974Z",
+      "lastUpdated": "2026-09-03T02:38:16.545Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/popular-on-prime-video/category.json",
@@ -187,7 +187,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 39,
       "totalUniqueMediaUrls": 39,
-      "lastUpdated": "2026-09-03T02:33:09.974Z",
+      "lastUpdated": "2026-09-03T02:38:16.545Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/top-10-tv-shows-today/category.json",
@@ -206,7 +206,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T02:33:09.974Z",
+      "lastUpdated": "2026-09-03T02:38:16.545Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/kr-asian-dramas/category.json",
@@ -225,7 +225,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T02:33:09.974Z",
+      "lastUpdated": "2026-09-03T02:38:16.545Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/cn-asian-dramas/category.json",
@@ -244,7 +244,7 @@
       "successfulNewAddedEpisodes": 0,
       "totalStreamLinks": 0,
       "totalUniqueMediaUrls": 0,
-      "lastUpdated": "2026-09-03T02:33:09.974Z",
+      "lastUpdated": "2026-09-03T02:38:16.545Z",
       "purpose": "Strictly for educational purposes only and not for commercial use",
       "files": {
         "json": "categories/jp-asian-dramas/category.json",

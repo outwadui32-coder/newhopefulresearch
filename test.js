@@ -145,6 +145,82 @@ assert.deepEqual(scanner.successfulBatchCounts(reportPayload, [cleanedMovie.url]
   successfulNewSeries: 0,
   successfulNewEpisodes: 0,
 });
+
+const episodeOne = scanner.normalizeTitleMetadata({
+  url: 'https://redflix.co/play?id=95350&type=tv&season=1&episode=1',
+  seriesId: '95350',
+  seriesTitle: 'Lanterns',
+  episodeTitle: 'Pilot',
+  airDate: '2026-01-01',
+  categories: ['Browse: TRENDING NOW'],
+}, null);
+const episodeTwo = scanner.normalizeTitleMetadata({
+  url: 'https://redflix.co/play?id=95350&type=tv&season=1&episode=2',
+  seriesId: '95350',
+  seriesTitle: 'Lanterns',
+  episodeTitle: 'Trust Fall',
+  airDate: '2026-01-08',
+  categories: ['Browse: TRENDING NOW'],
+}, null);
+const expandedScheduler = {
+  activeBatch: {
+    category: 'Browse: TRENDING NOW',
+    urls: ['https://redflix.co/tv/95350'],
+    startedAt: '2026-09-03T02:20:00.000Z',
+  },
+};
+scanner.syncActiveBatchToQueue(
+  expandedScheduler,
+  'Browse: TRENDING NOW',
+  [episodeOne, episodeTwo]
+);
+assert.deepEqual(expandedScheduler.activeBatch, {
+  category: 'Browse: TRENDING NOW',
+  urls: [episodeOne.url, episodeTwo.url],
+  startedAt: '2026-09-03T02:20:00.000Z',
+});
+
+const repairedPayload = {
+  results: [
+    { ...cleanedMovie, scan: reportPayload.results[0].scan },
+    { ...episodeOne, scan: reportPayload.results[0].scan },
+    { ...episodeTwo, scan: { success: false, finalStreams: [] } },
+  ],
+  scheduler: {
+    lastCategory: 'Browse: TRENDING NOW',
+    lastBatchByCategory: {
+      'Browse: TRENDING NOW': {
+        category: 'Browse: TRENDING NOW',
+        successfulNewMovies: 0,
+        successfulNewSeries: 0,
+        successfulNewEpisodes: 0,
+        completedAt: '2026-09-03T02:33:09.974Z',
+      },
+    },
+  },
+};
+const repairDirectory = fs.mkdtempSync(path.join(os.tmpdir(), 'redflix-batch-repair-test-'));
+const repairHistory = path.join(repairDirectory, 'scan-history.jsonl');
+fs.writeFileSync(repairHistory, [
+  { timestamp: '2026-09-03T02:19:54.373Z', event: 'run-start' },
+  { timestamp: '2026-09-03T02:21:50.643Z', event: 'title-scanned', selectedCategory: 'Browse: TRENDING NOW', url: cleanedMovie.url },
+  { timestamp: '2026-09-03T02:24:16.839Z', event: 'title-scanned', selectedCategory: 'Browse: TRENDING NOW', url: episodeOne.url },
+  { timestamp: '2026-09-03T02:25:00.000Z', event: 'title-failed', selectedCategory: 'Browse: TRENDING NOW', url: episodeTwo.url },
+  { timestamp: '2026-09-03T02:33:09.974Z', event: 'category-batch-complete', selectedCategory: 'Browse: TRENDING NOW' },
+  { timestamp: '2026-09-03T02:33:10.025Z', event: 'run-complete' },
+].map((item) => JSON.stringify(item)).join('\n') + '\n');
+assert.equal(scanner.repairLatestBatchCounts(repairedPayload, repairHistory), true);
+assert.deepEqual(
+  repairedPayload.scheduler.lastBatchByCategory['Browse: TRENDING NOW'],
+  {
+    category: 'Browse: TRENDING NOW',
+    successfulNewMovies: 1,
+    successfulNewSeries: 1,
+    successfulNewEpisodes: 1,
+    completedAt: '2026-09-03T02:33:09.974Z',
+  }
+);
+fs.rmSync(repairDirectory, { recursive: true, force: true });
 const reportMetadata = {
   categoryName: 'Home: Action & Adventure',
   totalMoviesAdded: 1,
