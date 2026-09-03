@@ -123,21 +123,25 @@ async function main() {
   const nonEmpty = verified.filter((item) => item.links.length > 0);
   if (!nonEmpty.length) fail('No category contains verified stream links');
 
-  const latest = nonEmpty.sort((a, b) =>
-    Date.parse(b.metadata.lastUpdated || 0) - Date.parse(a.metadata.lastUpdated || 0))[0];
-  const uniqueLatestUrls = [...new Set(latest.links.map((link) => link.url))];
-  await runPool(uniqueLatestUrls, 8, async (url, index) => {
+  const checkpointPath = path.join(OUTPUT_ROOT, 'state', 'scan-checkpoint.json');
+  const checkpoint = JSON.parse(fs.readFileSync(checkpointPath, 'utf8'));
+  const selectedCategory = checkpoint.scheduler?.lastCategory;
+  const selected = nonEmpty.find((item) => item.metadata.category === selectedCategory);
+  if (!selected) fail(`Selected category output is missing or empty: ${selectedCategory || 'unknown'}`);
+
+  const uniqueSelectedUrls = [...new Set(selected.links.map((link) => link.url))];
+  await runPool(uniqueSelectedUrls, 8, async (url, index) => {
     await probe(url);
-    process.stdout.write(`[LIVE ${index + 1}/${uniqueLatestUrls.length}] OK\n`);
+    process.stdout.write(`[LIVE ${index + 1}/${uniqueSelectedUrls.length}] OK\n`);
   });
 
   console.log(JSON.stringify({
-    category: latest.metadata.category,
-    totalMovies: latest.metadata.totalMovies,
-    successfulNewAdded: latest.metadata.successfulNewAdded,
-    streams: latest.links.length,
-    uniqueUrls: uniqueLatestUrls.length,
-    liveNoHeaderHlsVerified: uniqueLatestUrls.length,
+    category: selected.metadata.category,
+    totalMovies: selected.metadata.totalMovies,
+    successfulNewAdded: selected.metadata.successfulNewAdded,
+    streams: selected.links.length,
+    uniqueUrls: uniqueSelectedUrls.length,
+    liveNoHeaderHlsVerified: uniqueSelectedUrls.length,
   }, null, 2));
 }
 
