@@ -7,9 +7,78 @@
     "successfulNewAddedEpisodes": 0,
     "streamLinks": 0,
     "uniqueStreamUrls": 0,
-    "lastUpdated": "2026-09-03T10:15:25.072Z",
+    "lastUpdated": "2026-09-03T11:57:44.539Z",
     "purpose": "Strictly for educational purposes only and not for commercial use"
   },
   "movies": [],
-  "series": []
+  "series": [
+    {
+      "seriesId": "tv:236235",
+      "title": "The Gentlemen",
+      "poster": "https://image.tmdb.org/t/p/original/ynNv862bKn4P8E4ZATUirwhxnBq.jpg",
+      "categoryMemberships": [
+        {
+          "categoryId": "platform:platform-8-tv-genre",
+          "name": "Platform 8 tv GENRE",
+          "type": "platform",
+          "folder": "platform-8-tv-genre"
+        }
+      ],
+      "taxonomy": {
+        "contentType": [],
+        "genres": [],
+        "editorial": [],
+        "regions": [],
+        "platforms": [
+          "Platform 8 tv GENRE"
+        ],
+        "featured": [],
+        "collections": []
+      },
+      "totalEpisodesAdded": 1,
+      "seasons": [
+        {
+          "seasonNumber": 1,
+          "episodes": [
+            {
+              "serial": "Episode-1",
+              "canonicalId": "tv:236235:s01:e01",
+              "title": "The Gentlemen S01E01 - Refined Aggression",
+              "poster": "https://image.tmdb.org/t/p/original/ynNv862bKn4P8E4ZATUirwhxnBq.jpg",
+              "year": 2024,
+              "sourceUrl": "https://redflix.co/play?id=236235&type=tv&season=1&episode=1",
+              "contentType": "episode",
+              "seriesId": "tv:236235",
+              "seriesTitle": "The Gentlemen",
+              "seasonNumber": 1,
+              "episodeNumber": 1,
+              "episodeTitle": "Refined Aggression",
+              "airDate": "2024-03-07",
+              "categoryMemberships": [
+                {
+                  "categoryId": "platform:platform-8-tv-genre",
+                  "name": "Platform 8 tv GENRE",
+                  "type": "platform",
+                  "folder": "platform-8-tv-genre"
+                }
+              ],
+              "taxonomy": {
+                "contentType": [],
+                "genres": [],
+                "editorial": [],
+                "regions": [],
+                "platforms": [
+                  "Platform 8 tv GENRE"
+                ],
+                "featured": [],
+                "collections": []
+              },
+              "success": false,
+              "servers": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

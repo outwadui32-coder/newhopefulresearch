@@ -3,8 +3,25 @@ TOTAL MOVIES: 0
 SUCCESSFUL NEW ADDED: 0
 SUCCESSFUL NEW ADDED SERIES: 0
 SUCCESSFUL NEW ADDED EPISODES: 0
-STREAM_LINKS: 0
-UNIQUE_STREAM_URLS: 0
-LAST_UPDATED: 2026-09-03T10:15:25.072Z
+STREAM_LINKS: 3
+UNIQUE_STREAM_URLS: 3
+LAST_UPDATED: 2026-09-03T11:57:44.539Z
 PURPOSE: Strictly for educational purposes only and not for commercial use
+
+Episode-1
+Title: Lanterns S01E01 - Pilot
+Year: 2026
+Category: Platform 1899 tv GENRE
+Series: Lanterns
+Season: 1
+Episode: 1
+Episode Title: Pilot
+Air Date: 2026-08-16
+Server-1: PlayFast
+Resolution-1: 1920x960
+URL: https://highperformancebrands.site/IgBCTApFy/pl/H4sIAAAAAAAAAwXB3ZKCIBgA0FcCDVv30kk0N2hQ.UDuQNyxwp9payqffs8ZfIJjkgzI7QdPdj7FCfbpb4ySxO37Pv3uKbuf9XJvrjx3YHbnkkZ1yOo6.iJCPYpWctbexs9ZQyPaOpP5beN0ffbSlK40OzuRQlzhz.nj5lpDjKY_QpkOJoqaKTylSpNmqmWDlpeQIPxMxzoSL3YdY4fQh0GPuCKFLdbYzebFJQErTaV0h01eXfxUH1k5PpwimQzZOlweT4urY4cMti0j7sCXVtHgb.nBq_Rt5iCEer.hrOZ2Cx8Xwd3qrHQQNtAAJ4SJiMPYKC9OyDBehKibfABNY6WzxUMWAcqxQKs1G0r_Af6zeyxBAQAA/master.m3u8
+Resolution-2: 1920x960
+URL: https://highperformancebrands.site/IgBCTApFy/pl/H4sIAAAAAAAAAw3N3W6CMBgA0FdqCyyyS4Wy1IDrR38sd6Xg0LZIdImMp5_nBc7lkuwI6RNkyS7P09GOOLVuTIacDDnefXz2Rce5htVu059Te.aiI.amhA0UA_l5AWbXk6yzWsPdzPtKSIq1bsAE.hRfi2gJtkZ0iZSstpESoSeu47BYvUxQKqz9tB7JdBg9CIWa2c3L8XSGUle44jHTslqxkdkvtPm5xYPQHrymzQMqFaTn2ejZsz3DJNF6rZNQNwhSTemjDmBNXK0oWAGKGVvylyp8aun0jvgGJUPv884lq1zVCRHcq58D6m_dt0CNVnEwEDPWaba5kh26bUidCr4n2b4l09PEbuk2lP8DmpRCBkEBAAA-/master.m3u8
+Resolution-3: 1920x960
+URL: https://highperformancebrands.site/IgBCTApFy/pl/H4sIAAAAAAAAAw3OQVKDMBQA0CtBE6K4EyEgmjCE_B9gF5K2DDCdihUZTq_vBC.OL4xRwtgTI2F8cYN17kJsSKKB.mdmXyw8UKblh.eCummkbuboQBVnjhIxWz1EX13w6OtgnIZ8Xw0uxE2qNG_xD9zGHxeoT20wMYW0tlWbnq_EHUmiD1WKIGxVoBJc_G7bfm34vdGQ0eGQttJYdIBtBaWBQx7eRLVrfWBz_1ulYyQWubq8ZzZNbue82zUpCwFL4w8Oasq2PhRrk4pdLPUqQU4QvlKjufw_vVeGnjThDWJCO7KI2sQMYNc6vH_LuRfNCXU3qdSAr9Wt24b5vuGEJbRSyUyCyK4n0zxYrYP4DxSAIqNBAQAA/master.m3u8
 

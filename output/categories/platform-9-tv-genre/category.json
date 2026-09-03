@@ -5,11 +5,98 @@
     "successfulNewAdded": 0,
     "successfulNewAddedSeries": 0,
     "successfulNewAddedEpisodes": 0,
-    "streamLinks": 0,
-    "uniqueStreamUrls": 0,
-    "lastUpdated": "2026-09-03T10:15:25.072Z",
+    "streamLinks": 3,
+    "uniqueStreamUrls": 3,
+    "lastUpdated": "2026-09-03T11:57:44.539Z",
     "purpose": "Strictly for educational purposes only and not for commercial use"
   },
   "movies": [],
-  "series": []
+  "series": [
+    {
+      "seriesId": "tv:108978",
+      "title": "Reacher",
+      "poster": "https://image.tmdb.org/t/p/original/15xLLZN3LLAdvoiHnYL5DcXlsYu.jpg",
+      "categoryMemberships": [
+        {
+          "categoryId": "platform:platform-9-tv-genre",
+          "name": "Platform 9 tv GENRE",
+          "type": "platform",
+          "folder": "platform-9-tv-genre"
+        }
+      ],
+      "taxonomy": {
+        "contentType": [],
+        "genres": [],
+        "editorial": [],
+        "regions": [],
+        "platforms": [
+          "Platform 9 tv GENRE"
+        ],
+        "featured": [],
+        "collections": []
+      },
+      "totalEpisodesAdded": 1,
+      "seasons": [
+        {
+          "seasonNumber": 1,
+          "episodes": [
+            {
+              "serial": "Episode-1",
+              "canonicalId": "tv:108978:s01:e01",
+              "title": "Reacher S01E01 - Welcome to Margrave",
+              "poster": "https://image.tmdb.org/t/p/original/15xLLZN3LLAdvoiHnYL5DcXlsYu.jpg",
+              "year": 2022,
+              "sourceUrl": "https://redflix.co/play?id=108978&type=tv&season=1&episode=1",
+              "contentType": "episode",
+              "seriesId": "tv:108978",
+              "seriesTitle": "Reacher",
+              "seasonNumber": 1,
+              "episodeNumber": 1,
+              "episodeTitle": "Welcome to Margrave",
+              "airDate": "2022-02-03",
+              "categoryMemberships": [
+                {
+                  "categoryId": "platform:platform-9-tv-genre",
+                  "name": "Platform 9 tv GENRE",
+                  "type": "platform",
+                  "folder": "platform-9-tv-genre"
+                }
+              ],
+              "taxonomy": {
+                "contentType": [],
+                "genres": [],
+                "editorial": [],
+                "regions": [],
+                "platforms": [
+                  "Platform 9 tv GENRE"
+                ],
+                "featured": [],
+                "collections": []
+              },
+              "success": true,
+              "servers": [
+                {
+                  "server": "PlayFast",
+                  "links": [
+                    {
+                      "resolution": "1920x1080",
+                      "url": "https://highincomecreators.site/L02HE60pQ/pl/H4sIAAAAAAAAAw3LXXuCIBgA0L8koit3Nwt0zY9AXyzuVCxUImc96dOv3879wdvLR7Ptug3qfOQ3gY9dBytv03WqvtT48imsHnMwL_nWvz.O8IXNFnCFTukhAZS9.N70Yvx.gxExjHKRcF9rQ3ecEq.NdJHHk8MEPcF4XVJMFrl7JpIwB2LtSWQGEHIqSOtzULioxKMhz7WIdJ_gESu4zsyE53wfTrXVhJ3YXO6CLIskE0a5LbBXHgW8GWTVUH6sY_5QSK6l_b8xcVL0NbNxNQnWuB2lp6g.cEPT6oYgjw.2G_RQuH5_tlOYuPyjwXriVPflKTxmkbBQTbgi90Uh8.hudFbuFjdIlZUQ09nwAUon.AOHDh4jQQEAAA--/master.m3u8"
+                    },
+                    {
+                      "resolution": "1920x1080",
+                      "url": "https://highincomecreators.site/L02HE60pQ/pl/H4sIAAAAAAAAAwXB2XKCMBQA0F9KWLT2rZUg1SYMl3CBvIUYm5FFxlHEfH3PoVG3JRdjCQ2CgOzohdr4sgkDY7pos7X0EzIlMCkWi_O.C4S2COo8DcnJ87AiVOtRpN2EAI0bOZ2zQv4FLbpeyO.9TG.vsu.pruFmBjdAcxS_vl3V.EEqD04j3gUrPJcs1Mng7WEX2AnfQAGMHGLD4GYTBzUWkaQ_cXs1oaldj9f0leOXVyPUholSVW6FSTxs4.68xmdRQSvqY4941kpCXrHXeiYsbgldeOMiHs6gQ3yanoquXpdC4pSzecMxhdZXvmzm4fR.FCW2kTnEb5UOqkzgmWeuMf2c8mneSxYtypPdP5mIuSBBAQAA/master.m3u8"
+                    },
+                    {
+                      "resolution": "1920x1080",
+                      "url": "https://highincomecreators.site/L02HE60pQ/pl/H4sIAAAAAAAAAw3N3XqCIAAA0FfiJ9fc3WqAOaUJAsKdhn41sazcLJ9.Oy9wcARbv45x23Rd3MZd673HEHaHpoMdWoO3koihJePTEP9lge4VmTQHdyD6aLtnx0gmQXNMv2VQsyLpybCQKTDjDDljjF20gicdHMrD8VoO6ak45ze5uBdDeVZASpvK_5rkfa4xJUU_FZqpp0Ix27NokZpmbdKv8mVT18kOOpaSA.NTHSwskEaGPKoc.aNjU.60u9fydS4r_vN_IlFSKBR_8f3qZrX7qBPKLeAyB36x5o5qKITZxrodQiWXw8xx4AKNFwUD.gT04vrxIRKXOmKxNLEyYaPFebw0Q7gWwO1FsrsVJYj_AIJ3boJBAQAA/master.m3u8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

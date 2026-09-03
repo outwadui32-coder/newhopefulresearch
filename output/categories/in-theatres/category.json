@@ -1,13 +1,13 @@
 {
   "metadata": {
     "category": "Home: In Theatres",
-    "totalMovies": 4,
+    "totalMovies": 5,
     "successfulNewAdded": 0,
     "successfulNewAddedSeries": 0,
     "successfulNewAddedEpisodes": 0,
-    "streamLinks": 12,
-    "uniqueStreamUrls": 12,
-    "lastUpdated": "2026-09-03T10:15:25.072Z",
+    "streamLinks": 24,
+    "uniqueStreamUrls": 24,
+    "lastUpdated": "2026-09-03T11:57:44.539Z",
     "purpose": "Strictly for educational purposes only and not for commercial use"
   },
   "movies": [
@@ -15,6 +15,7 @@
       "serial": "Movie-1",
       "canonicalId": "movie:1204680",
       "title": "Coyote vs. Acme",
+      "poster": "https://image.tmdb.org/t/p/w342/vhv7lBWYM0DUuNU2a0V7Rhq21dD.jpg",
       "year": 2026,
       "sourceUrl": "https://redflix.co/play?id=1204680&type=movie",
       "contentType": "movie",
@@ -50,6 +51,18 @@
           "links": [
             {
               "resolution": "1920x794",
+              "url": "https://leadgenerationblueprint.site/7or07NZrA/pl/H4sIAAAAAAAAAw3KyXaCMBQA0F8KpKjprijglLSBTGQXeViEMBxrOcrXt3d9XbXG9SYARNYVumIXXDGEpHaYOLQKr5t32keLRXQuBBuFfpYQHpDO7MC9OllJtjaj8wl_L.L1wCzboM_0I2LB0VPtHTVqLE3D9WB7tuPBGT0ahqpZdNOK63ThC9yYGV9OPjgMh_li4rdiUAO0zVl4K6S2o9PkoNu8KRJ7c0v6LEU.AVL2f3W2I3eKvK1w3IDwslbTUyV.CzfyxcLjr.uivmibSGIl8iwaoSej7IKYd9FUeH7PFXi1Yy.aqk7vp5Ehea.TJoZs.hGmDGULK6lZyvvcKnPc2yxB0E9naTwthxLDgsgf..corUEBAAA-/master.m3u8"
+            },
+            {
+              "resolution": "1920x794",
+              "url": "https://leadgenerationblueprint.site/7or07NZrA/pl/H4sIAAAAAAAAAwXB0VaDIAAA0F8CHU579Azk2BETBBxvKpoJLlu2Ob..e9EIxgS0cT.GAbBxFCAwwPaMTm0chfEYvdWh_RCOzYKqtKZp0cEUWU0K3kzRQNJbqXhhl99DkjSUzmfcY9Ri3nC1TtpZyEn_1Bo9hISOBZ6qgxkOdidpBbl8vq6LmewCDwtW3InNMc22wZuNzXwaLg7KQ6Uiq9A1qFB_WxcJWCsu5lZevOlFEtWZfWdA4TLzP0Ll1DZpdW3Ybhf0LBy8M2q.B0K4BclkdA7lawulhJR7M9VyvzPdn7pZrb0DJ6Pwow0.kc3gn_Y5FkseduFacwy_TLa35rClkYR2xE4W77M5QPIP1D3s0kEBAAA-/master.m3u8"
+            },
+            {
+              "resolution": "1920x794",
+              "url": "https://leadgenerationblueprint.site/7or07NZrA/pl/H4sIAAAAAAAAAw3O25aCIABA0V8CkS7zqJKoI62QS_ImylSC5cxqZfX10w.cfYZhA.3PerXB68G5PrIo3trB9etVBFZR3305wYsKqpnJue5JDAfwvFj_XBqkUHuVsSXhctAM92LXNp5V4lj.Wb88tC9lhwZpRXjUYxF3gOed4LgBdyrf7CJGs7DIHPioqDuWNzmxtJGfTj4njswFk1tdRbuzUPOiwOll3iGV1D9Exp4GhrSPMK6zOu5FwjoSRkO5NnonGYF7G865msqaX7mw0T3tNF8MLalFvKqRf32e8xZ8HJoUMhi5z9vFTCdsgTGOsN_Ge.jye8m8Km1QL5axukHJ5DT.luSGBTSZkgQNb7D9B2L4HixBAQAA/master.m3u8"
+            },
+            {
+              "resolution": "1920x794",
               "url": "https://leadgenerationblueprint.site/7or07NZrA/pl/H4sIAAAAAAAAAw3N0XZDMBgA4FeShpVddohZwxHJT9yRnzqV1ulqHZ5..17gOx7dwT32Q.th7_e.g4NHg.Dt4FOfDBjQd_MRaMOWuWHoooKPcgq.q0RsXeWdscZd15ddqrEEBY.MihAjLCFaQKnxp2Ei_HKASCg2frXWKPLEiDs8vGydss.eTZ6m.KkJ5CLJWkn0Zu4z7WOA7CpeRo3Q3QgAsf.XzUpnCY1MH9zCyZTLaq5i5fd4LyTUeQSZrOGQObB3VES60gexLUUTK._skLlk4iHDTPMdTznMK0_StVULAKRbC5ho24wS9IoMlWLF2lAr8jpeush31U27zbSeTDX95klai4q_yglDJZ3gD6NdEx1BAQAA/master.m3u8"
             },
             {
@@ -68,6 +81,7 @@
       "serial": "Movie-2",
       "canonicalId": "movie:969681",
       "title": "Spider-Man: Brand New Day",
+      "poster": "https://image.tmdb.org/t/p/w342/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
       "year": 2026,
       "sourceUrl": "https://redflix.co/play2?id=969681&type=movie",
       "contentType": "movie",
@@ -103,6 +117,18 @@
           "links": [
             {
               "resolution": "1920x800",
+              "url": "https://futureproofmarketing.site/WxX94jG5M/pl/H4sIAAAAAAAAAw3M0XaCIBgA4FcClU7sbqbYscGZgD_FXYg7TrB1Gmvl02_fA3yO5h_ZJncee4yHLfHYEecLhCjajJT4F1k_JrGjJc_YBhSdbbRSY1_zSopBx14byQYmUpe3R7GXk8va7G31q4ISm3g986orYH4tYLGpi.UvX1nydY8ta4muyW3A12zcJaT60403dPUNWWBJdkBs7_eilQauGolKYDiIOTx5DkTOAs46Bo0lchWbQEOm_g.Y2x_VkPZ08d9n7I1uuud4DHf1SUGEdHR9TAfMhK48F01UroqLrHkBCJ8ElO9cJduv_DmGHrm6rQ5ZuPPLZGxjkwzYOEO_1PK4WRPWXrPar4j.Ab805w5BAQAA/master.m3u8"
+            },
+            {
+              "resolution": "1920x800",
+              "url": "https://futureproofmarketing.site/WxX94jG5M/pl/H4sIAAAAAAAAAwXB2VKDMBQA0F8Kmy2.SZElDhd7m9xA3iDB6UCoThct.XrPsel.DENmrQmNCdjua9glacDil_0UsmmMX4dquYoA81bdNljTBWe3QnE.KGVis_7UkvDxEUIiK_4wgjN5uF.V7CN8j1lT2n70GGKuZ_TL0zA9qMPtz85ZcBJ2o44TRE5A2Tyh4t8tYTSthRpLUMiAg6daOGiPzPGpg0x6raacEpRJZzvMTKc5SbwKZ1vKQdsFPo..eUrF8xMt21Blc1Nk3Lhmk0wry.hhCue0f9v6zpUQctequ0d5bvXlfMEoq.l0_5Wn1BtVBzKi1V7szZSBbhU5IyiRpBlWsIqg_5OCpf8uWmHfQQEAAA--/master.m3u8"
+            },
+            {
+              "resolution": "1920x800",
+              "url": "https://futureproofmarketing.site/WxX94jG5M/pl/H4sIAAAAAAAAAw3M3VqDIBgA4FtCAZsdlsNtz2BT.VA5A3GZkPk0249XX.8FvAQn2CTUXhx1nY0iRKyjXUw6Qi5x8oJfT1Va2VgwXitqslLaZv8jmfOcOWTxcK7QY.2ZaI4oPE.yXM0Id.nDp_0ajiV83LgcrsBCUmaC8viBarhHFZCn2i6k9uy7YwNTE8sAHonabnDF4HmCZbG.pJXiK_dust6Jdgqx9oKLkfkOO6yxMk6GpArzm0BMuOCaHg7BTOWoITTQMNP_P71vic4Pv7LRhYp4VECqOezjPhe70hc32ImzyTdI53TomjnSNVC5sgVGNsvASZ2nrcrnrI3C9ZSppHxf2nobbiZmhVtR.ge5MEVMQQEAAA--/master.m3u8"
+            },
+            {
+              "resolution": "1920x800",
               "url": "https://futureproofmarketing.site/WxX94jG5M/pl/H4sIAAAAAAAAAw3IXVeDIBgA4L8ELC2622b4saD8gNdxh.JpR3HpDsXmr6_n8hmeaB9ZQmg8mCjCFqMOkX5A3Q7bl2czvAIU32bCAmThAXShCF36o497LNZO3osSIqVawWpYjJ1l0GRJy9mDYfw2gDZ6DrcPiZWQZ9S1X8EQRmpUPoQqRgu0GVK6luAO_ZEW4JafOtlje7UTn_NNTCLm7pA2U3Tj0h17Jrxs.QapL7k6P.R2.e1aPZmxymVSZWfndjpbPFz3SBEeSndoeLbkdmSVAMYFFOK0VZ5jgWqsdDNfkLoqbxm7dFl.f0dhp1C1gvRJ6f4f5EO_hdA1FpSkCU9sbGe2mtR_wqhOdkP0Dwb2MS5BAQAA/master.m3u8"
             },
             {
@@ -121,6 +147,7 @@
       "serial": "Movie-3",
       "canonicalId": "movie:1480574",
       "title": "Just Play Dead",
+      "poster": "https://image.tmdb.org/t/p/w342/e0WaDBrrBAMcq2stAXCR7rXEsiw.jpg",
       "year": 2026,
       "sourceUrl": "https://redflix.co/play?id=1480574&type=movie",
       "contentType": "movie",
@@ -156,6 +183,18 @@
           "links": [
             {
               "resolution": "1920x800",
+              "url": "https://brandpositioningstudio.site/yhqxaIjWt/pl/H4sIAAAAAAAAAw3L0XaCIBgA4FcC0Trsbi214wma6Q_GnUCLiZYrK.Pp13f_xahdtiahsW2NXhJK46VOSGSIwYsjQj8fgMZURxnY5jSrIKYK0quGaVVhh0Re.F1mQQ7ZHxAxapmtpUzWXCa3WhSRGdTDgi139WfMsL.2GyBy455WFMgMMwOEH62cQQ82l75_qDy7M1SceRRHoi6qbUSRgSdmtevEgM8WEm97O7Ovac0aV_LOddvgExXN.AAqlMKdReDpProE8x5VOioe.GgGDsKnr1qcnsdhbAzgQ.lvL9m4q_VUQcaCJW7FPG14x.b3m_Z5_20rOtm.uKmu_7WEx8JfEg1AVM3vWs4LFRD9BzXG6mdBAQAA/master.m3u8"
+            },
+            {
+              "resolution": "1920x800",
+              "url": "https://brandpositioningstudio.site/yhqxaIjWt/pl/H4sIAAAAAAAAAwXB2XKCMBQA0F8iCxV8tICIBiVkgbwBF8bRgNhOJfD1PYfuhh1FXRjg_svvvDZow2EYSEMgwAHphz0TimjLfY4Zah6dgwejF5RJkXIBiN_OuHMy7RY9GQcY3QHBsUWzZxLzp0d74xXbihFQs2W83EzFNFyZtLFBz0.J4dXGiprISlblglluwOZn7sGln.5E2WyF0aYFKYgof5d.DCc5uqLT80lW8zuXgWPo5AmvWw3mqfoOnMIO65hf6zU8FCL2TSSpjhckUjMXUtFaZT_KWlVi6koy637Ko1qrF2zKGrnQ2pq1xcmbo.wuq0PWxv5TJ0awkR.1Mh.dQNRsT9zauYHNC_8BXIu8RkEBAAA-/master.m3u8"
+            },
+            {
+              "resolution": "1920x800",
+              "url": "https://brandpositioningstudio.site/yhqxaIjWt/pl/H4sIAAAAAAAAAw3I3XaCIAAA4FcClBW7bIm1KQ0VUO746cwSzbV.jjz9uvrO.VbAAODAijjn0wRD6x1YW0LSI0hR6vA7g5vvciCGj1VjTrfFKvLG1Sx17O910i91JpWDEuqke1RN4AXq30pEWi4E9pJOYqCZVfOX3nnd5JIepfyz9AcZKrc.XyddDJBBiRtBH3KcCyUq7hNtqi29CAArO4inP_trKUSssznUI8Em9MBMHB7aS7Sgf9aKFVyWiYssd0NYunMVSxhEg1LsWord1iMeOFb05ekmdJgnttucDgJ_HrIOWbqPHm72NdJJAfXdDXK2Y5_anDHzcVvYGK5csvb1z.M51N1EWdeEXx8B.QckYm6YQQEAAA--/master.m3u8"
+            },
+            {
+              "resolution": "1920x800",
               "url": "https://brandpositioningstudio.site/yhqxaIjWt/pl/H4sIAAAAAAAAAwXB2XKDIBQA0F9CXKJ9TMzVUsUoCsIbihni0pkmtEn8.p7jR1PoH6Ipjqc40OgaB_6YmCkZdBhcx6v_oTN3ZBhch7xQ3FzPgDO6eG.J.YNh16mMlG1nytojslxgUz29jD3VHbeiFfSnQO71hUJdC7VLjxYG6FvuFiisVYtrzDZ.mTJoynO4Vb1a5XzcxqVG1LeRyNyfAOubjFLVr6qceToKl8ud_Jr806sXsjLxKkfR2GYBNewrG1Kq9Wyz1j_f9clFVavyQTxRlUPDNrtJRNvuljjdrk.eq0506F5xfqk4MJMSVaAAFx6fR.zlDKCeviGsOLHNSjEThDf58VRu7mFSqM2Okn.FlksCQQEAAA--/master.m3u8"
             },
             {
@@ -172,8 +211,45 @@
     },
     {
       "serial": "Movie-4",
+      "canonicalId": "movie:1101412",
+      "title": "Fall 2: Deadpoint",
+      "poster": "https://image.tmdb.org/t/p/w342/p73G56bJGPa5y52cyqWscHR6NnN.jpg",
+      "year": 2026,
+      "sourceUrl": "https://redflix.co/play?id=1101412&type=movie",
+      "contentType": "movie",
+      "seriesId": null,
+      "seriesTitle": null,
+      "seasonNumber": null,
+      "episodeNumber": null,
+      "episodeTitle": null,
+      "airDate": null,
+      "categoryMemberships": [
+        {
+          "categoryId": "collection:in-theatres",
+          "name": "In Theatres",
+          "type": "collection",
+          "folder": "in-theatres"
+        }
+      ],
+      "taxonomy": {
+        "contentType": [],
+        "genres": [],
+        "editorial": [],
+        "regions": [],
+        "platforms": [],
+        "featured": [],
+        "collections": [
+          "In Theatres"
+        ]
+      },
+      "success": false,
+      "servers": []
+    },
+    {
+      "serial": "Movie-5",
       "canonicalId": "movie:1288059",
       "title": "I Want Your Sex",
+      "poster": "https://image.tmdb.org/t/p/w342/pR7SIX3AwqdoD96OI44oLG98e7g.jpg",
       "year": 2026,
       "sourceUrl": "https://redflix.co/play?id=1288059&type=movie",
       "contentType": "movie",
@@ -207,6 +283,18 @@
         {
           "server": "PlayFast",
           "links": [
+            {
+              "resolution": "1920x1038",
+              "url": "https://highincomecreators.site/BOmJJT2bG/pl/H4sIAAAAAAAAAw3MS3KDIAAA0CshfhK7tMEkpuIIAspOwA5RMZlOPsrpm.XbPBAn.x4EKgz2aZKAnR4U_IWp0SrcxSmAX1WbPS.QvTngqGttRZyZMJsxFtGG22wZhDnx4PYn5_KlDsQL9A7VoWAK3jxDM9LLndZhUdUO1z2QWB_ylRz1qhHa.olHfCFguD6ulSgWNhqraBo24lFop0Ps7EVwK9T3g1Eutw4GE2P4iIWNzMcERls3Zwkd7c_ATWcceTdjdhcsdkacvfSz1Kc6EnkXd42xHM2jnmRV5lnfBVb2ogS0_UxzuRKPNnkqiBK8V6O8cCF97fiTgvXZoMIbsEYU2InmpuLwfmNwerEGpP_hpRKUQQEAAA--/master.m3u8"
+            },
+            {
+              "resolution": "1920x1038",
+              "url": "https://highincomecreators.site/BOmJJT2bG/pl/H4sIAAAAAAAAAw3Ky5aCIAAA0F_y1ZyY3ZiiUVohD2MHaKkgdpos6.tn7vp.hZEGwI.ay0qBQLcXqdo1WPnKV2vQSv2tHX4Lh0cydBuVY8GhKKjpOHbI6RSmO_.WF0NjJAVjaTpUcBRXRDzlYDmuT4v2xV7mcENTHQlzfcp8CsvB9i1Dc5minmevu2LbD_WW4DyiEENGcRKfS9egU3BbZA.M6kFMSZwr93MveAerMN63lkXam0Jp7IGZyS9IY4QtPsTaWdZo19bxkQYPqJLizYbmyB1k2oNG0Clq6utSeQxpd8v.34y9dCHZaqaEbWhmyYGwhw6v_ok.XofEpiVsEub9LipjTlRgoE7szoaNlHjgD_RsxKpBAQAA/master.m3u8"
+            },
+            {
+              "resolution": "1920x1038",
+              "url": "https://highincomecreators.site/BOmJJT2bG/pl/H4sIAAAAAAAAAw3I0XaCIBgA4FdCUDvurs2kWtJR8Te5UygNlHmcJ5On377LT0a.xLtdGIWSNA8v8u_tzkftQ4WhF_hN9FGV76y2grc23RgOQFVqVCZ5FoTZHEe4PQ5TdYRzOUYLjzsCZY.UFkXhTnOtz1euIWQec8ywt_D2KP9aZgby1VqYm3LyGUVbbdjp2316UOVZOnROjJBdUO64Zk.p_..4XyFRY2Zrj9thkaafG9qHOWZ5ioWRh6RXrqf3qtsAIb8wMHEHTTEGVlGlWQIro4vNnksKFHRB1ATarGBgk1SSlkzFBf84Rn_fOe03aQ.BGkUMcf0CK8rKeKvAw6F2KuZETFd.QtdbN2ccRX.pRUBMQQEAAA--/master.m3u8"
+            },
             {
               "resolution": "1920x1038",
               "url": "https://highincomecreators.site/BOmJJT2bG/pl/H4sIAAAAAAAAAw3MS3KDIAAA0CsJarRd4viJKVgRMLALEscqWlI7mnj69h3geTrug7DXYaADD5r.FEcxvPe9H8M.6k7Re8dBIn2bsNTtciacZ9jT1ylsivJiWorrq8kb.Ny5pamey4fmZcNmuVHPBZUoFzOmgVqGyUxrwPnzVcNu53ANyJjRpg2Te0sfcha.4MLdZ7yZZci6Qjhe2J.mJUMn0Cf3HJXzcMOpSUga7h9ArZKD2_.LcC4BW9yomCqwtWln1YsBwSh8nulhK1LUvvQNlZAq6SOos2.AfbXy9ux10xRWefwSLdhuACGSK0wE2jRUFh9laAAaxYEumJWiyh0hoyXMIse.fkE9m1Qd3tsfn.RMbUEBAAA-/master.m3u8"

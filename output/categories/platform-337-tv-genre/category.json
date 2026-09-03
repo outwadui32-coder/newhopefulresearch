@@ -7,9 +7,78 @@
     "successfulNewAddedEpisodes": 0,
     "streamLinks": 0,
     "uniqueStreamUrls": 0,
-    "lastUpdated": "2026-09-03T10:15:25.072Z",
+    "lastUpdated": "2026-09-03T11:57:44.539Z",
     "purpose": "Strictly for educational purposes only and not for commercial use"
   },
   "movies": [],
-  "series": []
+  "series": [
+    {
+      "seriesId": "tv:247168",
+      "title": "Chad Powers",
+      "poster": "https://image.tmdb.org/t/p/original/yhEiHCU5uK2wotYJjkPSZ0jxruI.jpg",
+      "categoryMemberships": [
+        {
+          "categoryId": "platform:platform-337-tv-genre",
+          "name": "Platform 337 tv GENRE",
+          "type": "platform",
+          "folder": "platform-337-tv-genre"
+        }
+      ],
+      "taxonomy": {
+        "contentType": [],
+        "genres": [],
+        "editorial": [],
+        "regions": [],
+        "platforms": [
+          "Platform 337 tv GENRE"
+        ],
+        "featured": [],
+        "collections": []
+      },
+      "totalEpisodesAdded": 1,
+      "seasons": [
+        {
+          "seasonNumber": 1,
+          "episodes": [
+            {
+              "serial": "Episode-1",
+              "canonicalId": "tv:247168:s01:e01",
+              "title": "Chad Powers S01E01 - 1ST QUARTER",
+              "poster": "https://image.tmdb.org/t/p/original/yhEiHCU5uK2wotYJjkPSZ0jxruI.jpg",
+              "year": 2025,
+              "sourceUrl": "https://redflix.co/play?id=247168&type=tv&season=1&episode=1",
+              "contentType": "episode",
+              "seriesId": "tv:247168",
+              "seriesTitle": "Chad Powers",
+              "seasonNumber": 1,
+              "episodeNumber": 1,
+              "episodeTitle": "1ST QUARTER",
+              "airDate": "2025-09-30",
+              "categoryMemberships": [
+                {
+                  "categoryId": "platform:platform-337-tv-genre",
+                  "name": "Platform 337 tv GENRE",
+                  "type": "platform",
+                  "folder": "platform-337-tv-genre"
+                }
+              ],
+              "taxonomy": {
+                "contentType": [],
+                "genres": [],
+                "editorial": [],
+                "regions": [],
+                "platforms": [
+                  "Platform 337 tv GENRE"
+                ],
+                "featured": [],
+                "collections": []
+              },
+              "success": false,
+              "servers": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
