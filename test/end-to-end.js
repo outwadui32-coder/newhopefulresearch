@@ -41,6 +41,9 @@ build('Top 10 TV Shows', plan.series);
 build('Latest', plan.items);
 
 const read = (file) => fs.readFileSync(file, 'utf8');
+// A Windows checkout may rewrite the golden fixtures to CRLF; the writers
+// always emit LF, so goldens are compared with normalized line endings.
+const readLf = (file) => read(file).split('\r\n').join('\n');
 const categories = fs.readdirSync(base).sort();
 
 check('verifier reports zero problems across every category', () => {
@@ -215,8 +218,8 @@ check('TXT layout on disk stays byte-identical to the approved goldens', () => {
       }),
       { baseDirectory: goldenBase }
     );
-    assert.equal(read(result.paths.moviesText), read(path.join(__dirname, 'fixtures', 'golden-movies.txt')));
-    assert.equal(read(result.paths.seriesText), read(path.join(__dirname, 'fixtures', 'golden-series.txt')));
+    assert.equal(read(result.paths.moviesText), readLf(path.join(__dirname, 'fixtures', 'golden-movies.txt')));
+    assert.equal(read(result.paths.seriesText), readLf(path.join(__dirname, 'fixtures', 'golden-series.txt')));
   } finally {
     fs.rmSync(goldenBase, { recursive: true, force: true });
   }

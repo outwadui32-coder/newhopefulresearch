@@ -1,0 +1,4 @@
+# The writers always emit LF, and the golden fixtures are compared to their
+# output byte for byte. Without this, a Windows checkout rewrites the fixtures
+# to CRLF and the format tests fail on a clean clone.
+* text=auto eol=lf

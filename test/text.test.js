@@ -9,7 +9,11 @@ const { buildMoviesText, buildSeriesText, SEPARATOR } = require('../lib/writers/
 const plan = require('./fixtures/plan-example');
 const messy = require('./fixtures/items');
 
-const golden = (name) => fs.readFileSync(path.join(__dirname, 'fixtures', name), 'utf8');
+// Golden files are compared with normalized line endings, because a Windows
+// checkout may rewrite them to CRLF. That the writers themselves emit LF only
+// is asserted separately below.
+const toLf = (value) => value.split('\r\n').join('\n');
+const golden = (name) => toLf(fs.readFileSync(path.join(__dirname, 'fixtures', name), 'utf8'));
 
 const planModel = buildCategoryModel({
   category: plan.CATEGORY, lastUpdated: plan.LAST_UPDATED, purpose: plan.PURPOSE, items: plan.items,
@@ -18,6 +22,10 @@ const planModel = buildCategoryModel({
 // --- byte-for-byte against the hand-written golden layouts ---------------
 assert.equal(buildMoviesText(planModel), golden('golden-movies.txt'));
 assert.equal(buildSeriesText(planModel), golden('golden-series.txt'));
+
+// The writers emit LF only, on every platform.
+assert.ok(!buildMoviesText(planModel).includes('\r'), 'movies TXT must not contain CR');
+assert.ok(!buildSeriesText(planModel).includes('\r'), 'series TXT must not contain CR');
 
 // --- structural guarantees ----------------------------------------------
 const moviesText = buildMoviesText(planModel);
