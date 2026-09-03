@@ -15,6 +15,7 @@ const SUITES = [
   'text.test.js',
   'm3u.test.js',
   'verify.test.js',
+  'end-to-end.js',
 ];
 
 let failed = 0;
