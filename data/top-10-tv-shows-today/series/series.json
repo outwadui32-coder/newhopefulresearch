@@ -2,49 +2,12 @@
   "metadata": {
     "category": "Home: Top 10 TV Shows Today",
     "totalSeries": 7,
-    "lastUpdated": "2026-09-05T06:58:25.861Z",
+    "lastUpdated": "2026-09-05T07:41:17.374Z",
     "purpose": "Strictly for educational purposes only and not for commercial use"
   },
   "series": [
     {
       "serial": 1,
-      "id": "tv:95350",
-      "title": "Lanterns",
-      "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w342/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
-      "totalSeasons": 1,
-      "totalEpisodes": 3,
-      "seasons": [
-        {
-          "seasonNumber": 1,
-          "seasonName": "Season 1",
-          "totalEpisodes": 3,
-          "episodes": [
-            {
-              "episodeNumber": 1,
-              "episodeCode": "S01E01",
-              "episodeName": "Pilot",
-              "airDate": "2026-08-16",
-              "poster": "https://image.tmdb.org/t/p/original/eamjkYDnuDcvS1MyynI4B9nE6KL.jpg",
-              "servers": [
-                {
-                  "name": "PlayFast",
-                  "qualities": [
-                    {
-                      "quality": "1080p",
-                      "resolution": "1920x1080",
-                      "url": "https://highperformancebrands.site/IgBCTApFy/pl/H4sIAAAAAAAAAwXB3ZKCIBgA0FcCDVv30kk0N2hQ.UDuQNyxwp9payqffs8ZfIJjkgzI7QdPdj7FCfbpb4ySxO37Pv3uKbuf9XJvrjx3YHbnkkZ1yOo6.iJCPYpWctbexs9ZQyPaOpP5beN0ffbSlK40OzuRQlzhz.nj5lpDjKY_QpkOJoqaKTylSpNmqmWDlpeQIPxMxzoSL3YdY4fQh0GPuCKFLdbYzebFJQErTaV0h01eXfxUH1k5PpwimQzZOlweT4urY4cMti0j7sCXVtHgb.nBq_Rt5iCEer.hrOZ2Cx8Xwd3qrHQQNtAAJ4SJiMPYKC9OyDBehKibfABNY6WzxUMWAcqxQKs1G0r_Af6zeyxBAQAA/master.m3u8"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "serial": 2,
       "id": "tv:236235",
       "title": "The Gentlemen",
       "year": 2026,
@@ -70,7 +33,7 @@
                     {
                       "quality": "1080p",
                       "resolution": "1920x1080",
-                      "url": "https://media.vidrift.in/tv_236235/Season%201/S01E01/vod.m3u8"
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fimpactdrivenbrands.site%2FbBVNvQGOK%2Fpl%2FH4sIAAAAAAAAAw3N3W6DIBgA0FcCrBp32VVwLMWI8KHeqbRhxb_aru18.vX.JKdPdmfbBfEpjs9J0qI4asMoIvGpP6O2j6IPkTkiYXC5qtc.gFWyNADcoz6DxRyo6PwtOKVO1Hiv21SONeGlopx9IzebjBsxpGGxyULreYNqSRW6Hwr9RWrS7HKT5CLQD0D4VVzstb4Ayw1cpV9K8OGvwn4zlZzEtOcFXj4Vdn9ik_cGw2aVfB29.AG27DuNcMm4NyOdoJK0n.zcVLwARNe3GwXBmQqGZ3dwTT2lDyCWCuqcHuUsx_AotF2VGpiFIReYjqKanyUuwtzIvKTWl0zK98i0Ei.NmhsQHlo13JoNJf82DlcLQQEAAA--%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%7D"
                     }
                   ]
                 },
@@ -80,7 +43,7 @@
                     {
                       "quality": "1080p",
                       "resolution": "1920x1080",
-                      "url": "https://impactdrivenbrands.site/bBVNvQGOK/pl/H4sIAAAAAAAAAwXBXXeCIBgA4L8ElJm7dAnOxruD8pHcodRRYY01T1v9.j3PJcfOD35Hdufd3g35ZT8OBOfo7HI3kgt6MVco25ombfqbjm1paSBdPVFfwdUT8XSKBq1sJkgxwwJu3CTMY0SSwWxxMt3Vo7HWkW_8w83rw5svZKLWnGjqTv4uVUa5iahddClCcXInPYnQTB2C4ElDfcAcyPamDw21EXp3sMnR9FR1udVoZZIVbx2t7rxba7WAVqjFvabhiBsOmPZnan_cAoK_rumD_RlhmlmQ7F0zsPLTJo8yLAjYgfwiHy0bl5Yp1hK5xG8ly.MYKqJxSlDZI7AsSkOnfmOngYxbJVHxD3Sgqm1BAQAA/master.m3u8"
+                      "url": "https://impactdrivenbrands.site/bBVNvQGOK/pl/H4sIAAAAAAAAAw3O0XaCIAAA0F8SxYy9rSlYKU4QVN6Y2JgadWYr8.vX_YIb.chEne5OYdj7.oQCtIk2kb8F2juFCPZvjOBCJ1enh9IrcAvFIO7H53Yxw0Hm4zRQVwJBWJk36mgqU7bjDBWfQyHtWMe7vYqNony.G4F_WifrzKNMfKCRkgtswTvUk6G6YVC6b58Btqi4DcvVboS8XsoVt7LaBUJc805grPCU98n2yUaZ0tSudTI_eENd7.zEUqsluf3V5PLozzKrzwgUdbhocfisPAW5k5YGLO0JCHgCoUlwcgSGsOpwk2DKDMGvh9prLK2adr_d1AWco4ISfOtjQ0v_EWhvyTIfkK9VNpWAd7V66B.19GoNQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
                     }
                   ]
                 }
@@ -102,6 +65,16 @@
                       "url": "https://media.vidrift.in/tv_236235/Season%201/S01E02/vod.m3u8"
                     }
                   ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://profitablelaunchsystem.site/st6OwScbT/pl/H4sIAAAAAAAAAw3O0XaCIAAA0F9S0Iw9ZoDHghkiBG8q7piY4yy3lV._3S.4PWp30S7pYdcjAPYJyjIAsv6jTZxDKerezgBDBg_A6aAUiHEzkTv3T6b9YzOyxGweE9agwjVibCmOtXKBQfftihl3MBhJ00pNbhro7KUyX_Y65oPnn8zHq4lIzunjpwZjrgoiObZTe5ynFlshqM0HiqiNeck2culpqKwWL9fsEwsJMDBot6lU4zLhE3nv7uuillGIKMQau4pDEk6x8GYrdR2lNzm7XX13qgFOKK1.xVE8jRJrL3vY_F9YQSq54LQGxNdS3Qb8vOjikHSY57VGhmtSnl9rxK4KiGWeax9OFxmhP0cN.ChBAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
+                    }
+                  ]
                 }
               ]
             },
@@ -118,7 +91,17 @@
                     {
                       "quality": "1080p",
                       "resolution": "1920x1080",
-                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fboldvisionstrategy.site%2Fsv5pAoPea%2Fpl%2FH4sIAAAAAAAAAw3L0XaCIBgA4FcClJW7ixNqemSF_lDcKdDJDI9zW0uffvvuv22EiaXObqJks4mT1rvIbjuP4ivFzuLrO5Cp8RmsBh2ibpCqQfKoAYsmZZ8CPShgN1uS3k0mJ33fzZDzRXMU2T3LHeLUcP6sg8hgL2c7FJkK_2MVBxumI4AhlzMjPntgGKdLrV.0Ct9ZGckacLWo5evVNrIQOTNdPomSxEsdKaz3AnugBxhU6Prk5lLG1chRnacXn8uPSjnqU9FXIPsSP04lLt5aLpS6s596eCm7FoslJm.Q.61ASQ9pq0ZVNaP4VSHGHTrNcE5vZgRcE3W24cbsymjbJ5PWUuhx9xRBNGZFyR8CSqteQQEAAA--%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%7D"
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fboldvisionstrategy.site%2Fsv5pAoPea%2Fpl%2FH4sIAAAAAAAAAw3G0XaCIBgA4FdCMY_ubiVolJSC_MUdAs6TztiOO7WefvuuvmGwDhkc9XGcDplFSZJtsjTPs8R7jPvhrZ1DKiq1.JI3Mhp_lVgNv7CDV062Nxu3lKEThMO1462JrtiLXFvQpIHxrilNmsv.1Zf5LCe2FyR7mKUlLWFcXbY_nuSiK_hDU_uQcgtW6Z1T_HzAXNSfUaphTgys5v8VlGOhyBMLssanjhXmprDf5Z2Z7Qam0IFytYjGMxTvsYSA6oo2dZn81ksTy8592WlMLQTsp1GqglUn6nA_b9cG0TsHWmukmUWOdvBcrVJBv_hiiAo12ShBuQbCjnYKjYk.vttlpEc8IfdC.R95BQ6hQQEAAA--%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://boldvisionstrategy.site/sv5pAoPea/pl/H4sIAAAAAAAAAwXB23KCMBAA0F9igRTpW5UBipIZQzbIvuXWUiBIp86gf99zzEFnWRrbPIWD9f6QRQysZaBd5CHTX..ETxDI7rIWG5Xu2uGi.0C1CCX4ipEqPphRjRIJH2WBqQEL5lZe3Ope2PPQypHrgga_fsd6zidR5dMAR5LxVnXl2PbYnHgg6oI4a0m_ohiVVC7pVnGmZYS.bhO38re23BaqHqmOtp3m59UE2gw.Zt3zmIpmtKCKLgboA7BOLhNHhg4_d4Kj9KUYZfzES_RozG3YbY2sXd0Rg5h5URZtz5FOfzsq.1RzPoiE0jM0LzmpHwos8Ys6UeRWj.I.JNuLrxRMwjeUUf4PyHWUuUEBAAA-/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
                     }
                   ]
                 }
@@ -140,6 +123,16 @@
                       "url": "https://media.vidrift.in/tv_236235/Season%201/S01E04/vod.m3u8"
                     }
                   ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://empoweredfreelancerhub.site/BTfHWu0Sm/pl/H4sIAAAAAAAAAwXB25aCIBQA0F8Sb8W85UgppSVy8PKGYLmUYVpdzPHrZ2_VyWvYXbf6uvE17nWPtn4oFQ4d7OtNIL_AagpW.bLeuY3HXtyLnioxFzHCLFE7ZsRH2qFWTK_yiKJvKei7Q_QgBDtlRH00oCl375QhdipGnR49cLqf5SzWBnHbLCIms4zVXP7hgls2t.U2YBDUvBZP7rGgccijre6yBRNm60A7QFU_sUWZIWUEP3m9W0.rTsWBVmD2bmHYAu4wyAoBgHIBcr.o9m1f4lkmWsrE_Cr35khOHrCyS2nzixzzQSfGy1Z2h3107OvJVUSXbKQfSOgB6nRurMkars_FFMRdHL1FYihwB_8DT_LECkEBAAA-/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
+                    }
+                  ]
                 }
               ]
             },
@@ -157,6 +150,16 @@
                       "quality": "1080p",
                       "resolution": "1920x1080",
                       "url": "https://media.vidrift.in/tv_236235/Season%201/S01E05/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://contentmonetizationlab.site/6PGjsLVO1/pl/H4sIAAAAAAAAAw3LXXeCIBgA4L8koq12Nz_QbLIDwUtwh2BrifZxOun269dz_1i_RjZdo_Wb77FLj9gdU7xy3tnNsU9Q_C5rejMTKEEaUKO.qzKlEGAlhI7MgLjAV8ygKQX5.OsqCq6EGYrAmNxIrdBZHuhzPy65K4lx5aPufx6HTkKpB6jV4TsxxSnqEL_Qqbl1xPxaAjsXsfl1M6h9oCCfQoXcjTIRwRcg6evqlE6ecWzqlmSJKa.5CQO2wTMXBfRVENbJR66x2XkStmLkKy7nRY0JpvFSsTNduLrcbWQqS67CkOy5Fyy2AnI9kcJMhtLKzFC1MY9PexufhjYin666pL1odIuzLUd.JUW0.QfOqyjxQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
                     }
                   ]
                 }
@@ -183,7 +186,7 @@
                     {
                       "quality": "1080p",
                       "resolution": "1920x1080",
-                      "url": "https://automatedrevenuehub.site/wCosQC4lH/pl/H4sIAAAAAAAAAwXBYXdDMBQA0L.UVJyxj1phWsyLvJBvkthM6bHO2fDrd69n2QcJ_BeP.WFITOiZ0PWMedQZ1gXMvdrZ5VbarZppopNC3vawdukQ2SSLjKKkb1CalK8FWaGL_Sdc0OsnzkFS0B7PrWJ.h0tVJlOJdbFX8yDyGZSZNJFfPzT3hptVLra47OLEz3W8jRhPkYvXP9FkGcR4lzXImkBWjajMWCxKZu9wKXIp1rRU2VVwYMjds2_4WpNhgcTfNC5U0Gw3PDrrA387GRBMPv8EoigmR80poMjh26k7aUctZILr7UR8IPTZHu3Wzozmh65hdG8F4QvORQoNPPr7di3TQcDDRfog4T.18fmsQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
+                      "url": "https://automatedrevenuehub.site/wCosQC4lH/pl/H4sIAAAAAAAAAw3PwZKCIAAA0F9SWCr3WIpFSisICDcV3FRynXKm7Ou3.7u8MHCg69oIgc3ObdoWhBHYNC7otp3bfqHttx7Mg6b4x8a0qkeP3K14ZW95VyM.sT66qJL2tdcrh_tDIz2UATnr0q7seFobcJUmxsYMJGD9kumJGTnhUYQEM0n2drDLOfSxmaxwntT2SJ5KYGA.Wof7NR9HUN9MVqgdEmOoypitrUApTzxqJoJ4YmAOEKfpL7KVnHXglxp4yNOwLsb2RSvG83cBndKQpjmQOEGqEkhA7GVCEw0WzIQZsmBWerrGtn_AsmILV.Zp5OluJ_xHFYatWMAFzwcnrvoMyP3zAtzPsSiD6B.ls_JpQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
                     }
                   ]
                 }
@@ -202,7 +205,7 @@
                     {
                       "quality": "1080p",
                       "resolution": "1920x1080",
-                      "url": "https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly9lZmZlcnZlc2NlbnRlcGhlbWVyYS5zcGFjZS9wbC9INHNJQUFBQUFBQUFBd1hCYlk5RE1BQUE0TF9VRjNGY3NpOUNtV2xkclNfMEd5MnhZYmZJVHFTX19wNG5IQjBhSi5SNkMxQVVUcEdMQVl5d20uSXZpR0ljdUcuYXVVT3Y3c29BRkJXZUgwMUwuQ0NTb3M0czZuTlM2cFRRVHBDS1EzUHlkdkZzNlk1aEsxOGRUS0QxYW1kS1BSMEMuTzdYMU9idjJtQnk2LkhhOU5ETWNuSHZJVFVIVmQxcE51NU4ybnlVWklId0t1dTJzM0F2UnBVa3Z5TlJXbUpTU1RGRGZmOVF0aWJNb3ZKaEMzTnp5N3hMeEVKWkpIaGMyYk1IRGRmUzViV2NfX2c5M3ZUSzJwR1FqV1VFUzYuVVdvTGRTSGdWT1FWRDFoME5wTUVQdjF6LkFaVm9KU2dKQVFBQS85ZTUyM2FlMTViNjFkYzc2NmY1YzgxODcyNjg4MWVjZi9pbmRleC5tM3U4P3Rva2VuPWV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSklVekkxTmlKOS5leUpwYzNNaU9pSnRlUzFoZFhSb0lpd2lhV0YwSWpveE56ZzRORGczTWpnNExDSnVZbVlpT2pFM09EZzBPRGN5T0Rnc0ltVjRjQ0k2TVRjNE9EVXdNVFk0T0N3aWFYQmZZMmxrY2lJNklqRTROUzR5TVRNdU1UVTFMakF2TWpRaWZRLkduNGU1dVNEZmhfazlCSkpPTUtFYW1BcGJ3NGFxLWkwYkZFMGpfTjN1aWM&s=vidsrc~Y8ie-lqUXXUY2bSg7Sjz-I6xKZy&k=p"
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fstrategicgrowthpartners.site%2F3ZhTMda1H%2Fpl%2FH4sIAAAAAAAAAw3Py3KCMBQA0F8KICpdokRkSKZcyIPsSKKlJFBUplK_vu7O9mh7TTptr9t9Eu4uJt7HZr8zb.td0tmr_ShDf.5ymGwWBILN2y6jhT6tsmMUM9yHlqch_C2EYei5UBvq.IsKPwHrVyHm2OapNMgi5vwKvB8oewbEg9Qu_mwn.G4cHe1EIsP5oUToTnIWCQejwfPYvCokfPpTRvzGZBWxMb4ZTgP16h.cZ2st4Q7R11NI_Fu5otQZTS9HCLtJHVvfL9WUbmAg0YXPuEEq6HK3abI51twjM_raNEVunRJM9mchsCuRPbTD.yvxo5VKKQwhGaCuM1jssYgan3oiFVLcLlQsc9Wg5B_W5tImQQEAAA--%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%7D"
                     }
                   ]
                 },
@@ -212,7 +215,7 @@
                     {
                       "quality": "1080p",
                       "resolution": "1920x1080",
-                      "url": "https://strategicgrowthpartners.site/3ZhTMda1H/pl/H4sIAAAAAAAAAw3M3XqCIBgA4FtCiRU7y9LQUgPlQzkDcWv.VPNZzXn16wLel1q7oYiuGmI2vllvDFk3Hz6l1vNWliDzblT8lH50T5XrBQt_yxEg328nt1wiO2RzCvdDu0.k8QDbAULH9PXohUu7o_uyqnFWbXEbkkeGvDe.6Fx90Up7NbF4uMq9vr0.0VSRFArOOQPZ.Bo4iiZT3XkrfwpAybfFIoBOyHockFSff9A1c3FontDp7uVPvJ9nh7K.LC.ZU7Nv0FBY5ZRF89BC9OA9mUwYP09LMFkVL7kk51Y2K9vVMx.TRy7d7YiDk2DRzlYphm6o1Y766fWSSBWjkrleyggE00xgTorR05YFGS8R_QcpzkA6QQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
+                      "url": "https://strategicgrowthpartners.site/3ZhTMda1H/pl/H4sIAAAAAAAAAw3OW5aCIAAA0C2pYNl8Wop5EpOXxh.CZUHmqY6jrn7mruCCLtgG4WbXemG3gW0EQq9TW7_zNIyuV61_WtQ3cs2tsuJY.TG7CEcUwmc9aFhmY8kSiU5rDwj_HozDzvjjp0jGnoAilI_bwnn.VsiNnN9AZeHM6O5s9p.5BealWPyiophOQbjo2jCdkUFa_v7PXPAwTtgjH81d0j1ydAJuTzInqtr4YshXllW_FEVT9RRVkeGcPHvbOlMTYQLZHKG8f2diC88wh3RNZp4Wi7IRpCAtRJNAWpO8s75Snkkxi1P5SNZ2uKwlD1_Uj_c06zEZOMCJJOXhOInGvQ2Ci3Fi5Wiuuf1Ss3q7P8kt2p1BAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
                     }
                   ]
                 }
@@ -238,7 +241,17 @@
                     {
                       "quality": "1080p",
                       "resolution": "1920x1080",
-                      "url": "https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly9wYXJhbGxheHBhbnRvbWltZS5zcGFjZS9wbC9INHNJQUFBQUFBQUFBdzNPMFc2RElCUUEwRjhDUWRjdDZRdW1ZbTNMS3NoVjd4c0t6U0oyYTdQTTJYNzlkcjdnY0o2R0xQVWp5X3psRXBJc0RVUFlYRmppLmNnY0N5OXZmU3pBRllyb2J2NEpFaHpHanh4S2Y5YmtpeWhacjU3UXMyWXo3eWM4bWtUXzJzY3J1QmFiSUdfcmlSUW5NOWtuSnVONmVGWjBJTWhWQkd3bXlORi5KMWFtdExWZzZrLmhobXRxZlZsRU4uMG9rc2hEcTlIdWJoVGs1ai5pd0ZuSzhGcFZ4LlNXdmR0SzFBU1hJZXJGeWMzaW9pSjlKeDQ0N3hZRHN6Q05tRVl5dDFET2U5MVV1YUphR29EN2dZbTlMc1FkT3NCUXF0NFN6M0dxeExuZWJ2OEFoZ3pYelFrQkFBQS0vOWU1MjNhZTE1YjYxZGM3NjZmNWM4MTg3MjY4ODFlY2YvaW5kZXgubTN1OD90b2tlbj1leUowZVhBaU9pSktWMVFpTENKaGJHY2lPaUpJVXpJMU5pSjkuZXlKcGMzTWlPaUp0ZVMxaGRYUm9JaXdpYVdGMElqb3hOemc0TkRnM016YzFMQ0p1WW1ZaU9qRTNPRGcwT0Rjek56VXNJbVY0Y0NJNk1UYzRPRFV3TVRjM05Td2lhWEJmWTJsa2NpSTZJakU0TlM0eU1UTXVNVFUxTGpBdk1qUWlmUS41OEVFYmtnZzAyRDJTZFk4YlFjNUtFWXdIOVY4enVwaUQ4ZDFUNWxWU1Jv&s=vidsrc~YV_Z2vehDnCaGd_12PhLuIqzhBI&k=p"
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fecommerceprofitlab.site%2FoQ8YtfB8F%2Fpl%2FH4sIAAAAAAAAAwXB7XpDMBgA0FtKRD.ynypRRvrgzYf8S7BZ0fZZN2VXv3OoJ7Q9Irz3NAz3x7Al_kDJfrfDvXMUfbzZmSaKKH5hcvNoyqogxZLRwRpLaiYWgG4poQxqWd39SNNutGUB3V_Bskyge.j1kPsrx.1N8Oo6NToehiKeUD.uvwIi7ZMufA9.SDOmxCWrkipjlnHkINsgtqcm.HzlSPBaZ9.OTLIEi2G2owVlLEqRY2sjYrXBJIwLHraNBZL8kfTmcel5pKq5IRAo7XnF4ESHTtunNsr4mZ_VvNqcVFN5tUtxFl_qloZixlFvpl0peZ0jtdZKRL3unvn2xBDzpecthoSHjtGXBET_AffcwjlBAQAA%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://ecommerceprofitlab.site/oQ8YtfB8F/pl/H4sIAAAAAAAAAw3O7XaCIBgA4FsClMr9y5O4WtICfQn_gdoxv_IsV8HVb88VPBt8xc21Wa_pxppoHV6DqlpRagheYWoa9GELduMEOHTs1SSzaqAcVVKPzW545KolZuCjJYxrX2Cb7B0PYq67Q54FiYMEpialvkiZK93mqRFIgYZvScSUqeItYaYGSl8rGoJCzuzO_uiWl522P5Ltib1scXURO.mZMcDuvA.9vbCY3xYsCW0z6J85ev.KNOqtWwpRvEKBh_j_1Wmy90cSCd4_gpxgfEpLmuXDpwbuwS1tRuZe9KUE0gYaxyab.F2PbyXg7GtUByaY0SnRtByZNGkkq7SNvzzr8rSgEh0OPMGn0qPoD.S.jdtBAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
                     }
                   ]
                 }
@@ -330,6 +343,16 @@
                       "url": "https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly9vYnNpZGlhbm9iZnVzY2F0aW9uLnNwYWNlL3BsL0g0c0lBQUFBQUFBQUF3WEIzVzZESUJnQTBGY0NXbi4ycEJkckN0bzJrSW9DNmgzeTJUQ250bkd1Ymp6OXpzRjlla2RKMTF1TUNickhlSV9TNUI1SG5RTklVLnlTZDRkbzBObTZGb0Z4R1B5M0RlTEhqZndGN0x4VHJOa0tyTE1XUmFQTjZXSk9icWRIYU13OC5vYlEzd3BoWVhPUFhIVU14ZXpqUHBNRHo2RnNNd2lLMHRCUFg1dFd1b1JLU2p0ZmdsSlAwUThmaXlhWHhnN3dXYUkzMFUxRlpNMWxaM0pkODFwZXVSR1pwSENGazFoa1VIdWVlOFlOcnF0Si5tcUVKMWNxQ0xQOXlmbFlDc0p1VjdKeXAxdGltRnNrRmNyVjRzSDFnNVM2d1MwR0ppZnh1aFdId3o4dlkuZlFDUUVBQUEtLS85ZTUyM2FlMTViNjFkYzc2NmY1YzgxODcyNjg4MWVjZi9pbmRleC5tM3U4P3Rva2VuPWV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSklVekkxTmlKOS5leUpwYzNNaU9pSnRlUzFoZFhSb0lpd2lhV0YwSWpveE56ZzRORGcyTmpJMkxDSnVZbVlpT2pFM09EZzBPRFkyTWpZc0ltVjRjQ0k2TVRjNE9EVXdNVEF5Tml3aWFYQmZZMmxrY2lJNklqRTROUzR5TVRNdU1UVTFMakF2TWpRaWZRLklfUV9qcXdtWlpsTzBRLWphSmV5UlE4MEw2T2pIdnVwRW1CY2w1ejNGVGc&s=vidsrc~jR9U39lbOr6sCWeppQX5nUL6poc&k=p"
                     }
                   ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://creativeentrepreneurhub.site/uptTsQ9hB/pl/H4sIAAAAAAAAAw3O0ZKCIBQA0F.6SG65bxmipdGggOkbitYmGlPOTvr1u.cLTt8Z7Xtt_9X3u3bbeX0DO4MBAt3utgDNtyHhj5I3XA3DbzM4ZKbq00lbXJI9tOPsOuk2zXh8aXz_ZWCwWN6Lpvyl4w3kskJmDICLkDWePRSD8VTplCA2zdH9VMb1MY_pU.DIU7FdjJxnGVNirg61U_jR4JdcfmZJ9z4jLJMRekihphpOSV4EqBlNUv_fihgpLvabFLvrhdK0iAIkQFm1Kj_DOS.l4jq.LSnYUCAqtXyuWuSVRIycKT1wz70ZBJkh9bkb50nAKRMPpqsrU9xr0RnlhzJyq3mE7xpbJpKjr1ZDuIDgD292jHhBAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
+                    }
+                  ]
                 }
               ]
             }
@@ -338,7 +361,7 @@
       ]
     },
     {
-      "serial": 3,
+      "serial": 2,
       "id": "tv:247168",
       "title": "Chad Powers",
       "year": 2025,
@@ -364,7 +387,7 @@
                     {
                       "quality": "1080p",
                       "resolution": "1920x1080",
-                      "url": "https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly9pbmVmZmFibGVpbnF1ZXN0LndlYnNpdGUvcGwvSDRzSUFBQUFBQUFBQXdYQjBWYURJQmdBNEZjQ2NadDJ6bTVjazdJakRnVlU3dEJfaGhPYnBiUGwwX2Q5VFdkUVp5QUFIX2FFWUJPRTVub0lPbTlQV2tMOEEzN1JXNzdJMHYzeUczdTlLcGh6d1ZmbElxcEZoR0RZSmEwOEkwT3RMWERVaV9KejVTbzVLU2Y5Zkp5OVVqQ3VDUHRqYUVMcEZfQ0NUbXN6YWxfY2JBWUl5eUtHYjRhZFM0bWRQNUNtUUpsWHlxa0daNWVVaGoyanowdEtsNVBlNG9ralBlY3F1b3ZOU2o2b1J5bmpSRlp4ejBmM0ZBNzJXWlZRNVpKRlNQdmVlRURUd1QxcUVubkd3UzUxY1ZaVWsyb0h6TTFiX1ZOdjhWMFhTOVo0WWMxTEhGMzQ4ZmdQaFE4WE13a0JBQUEtLzllNTIzYWUxNWI2MWRjNzY2ZjVjODE4NzI2ODgxZWNmL2luZGV4Lm0zdTg_dG9rZW49ZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SnBjM01pT2lKdGVTMWhkWFJvSWl3aWFXRjBJam94TnpnNE5EZzJOREV3TENKdVltWWlPakUzT0RnME9EWTBNVEFzSW1WNGNDSTZNVGM0T0RVd01EZ3hNQ3dpYVhCZlkybGtjaUk2SWpFNE5TNHlNVE11TVRVMUxqQXZNalFpZlEuMnZKQWV3cDV5czhYbU56SGFCNTY3X1FrQmJ2Q3M5dzRobW9oMWhZUmNWYw&s=vidsrc~Oh-oByVHlIZlwRbdt_sA_J_E50z&k=p"
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fprofitablelaunchsystem.site%2FM32Umneor%2Fpl%2FH4sIAAAAAAAAAwXBW3aCMBQAwC3xUqF_VSCUGpCQB_AXufGkEpCi1sjqO9PvLsq5BF4YbC6Ogl2g_DBUUbh1t5Hju_LjjG4vYNxyoU8s6zd9TBrZQKkGYxmDoI77hZmcwgDjcS1yKuy9MvunROGGCOsRV.eUfgaVx.8wRN_czPveaNL6MKmMt_WqtTL7kWTpgk2O2pHbMyctfj9.ZfzllofIIwyoTApUIPInkGbYwMjdmfJ31OBJF703XxWyRhqeQaKt5F1CXXIrG1JKkdjeqxbBYMI8FXQiT3wtanUtDop2AieRw1ze1GZeIHncuUeOck2fani9y7gbwcF.xWd2bvSDIjhVE_wopiucprpbnegfUfRysEEBAAA-%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%7D"
                     }
                   ]
                 },
@@ -374,7 +397,7 @@
                     {
                       "quality": "1080p",
                       "resolution": "1920x1080",
-                      "url": "https://profitablelaunchsystem.site/M32Umneor/pl/H4sIAAAAAAAAAw3M23qCIAAA4FcCFJe7yxTNlaUCincc7CDYZ4ct59Nv_wP8sNcIeid_tToFAcDYB_KEPrAGMtQyUPqzG6qDbsjQxLkTIEy7mMtmKO5V.vI0jwJjQyrcNNTA3Xu3_qGIHCrIIb2GGXNkpC0ZlYXQNHjHb1u_a4tWD_lLJitYJ2JW47zRqBASFZB5EStSMh1SnChQHUt49mriEmrxL7PTltbhQ0HyYjBahC0o57xVbjrKjLgvNEcqdu8SXiRjEzHxGov_jSZ5SV3xTbPzmy_dYni1l40r1a177tD86Gl.UUMJzCa8sPGJ63H_oO48U8QFh8TbQ9OVLvJ55ioF7Ltaormn5MYsuZoFhH8cni1PQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
+                      "url": "https://profitablelaunchsystem.site/M32Umneor/pl/H4sIAAAAAAAAAwXBXXeCIBgA4L.EkKm7WxMpS5qAr.adSDst1FjH8uPX73nw1Q_wlugWBSFusQ6DDULhT6ixZ7aINB8lg.M15kuTGM8wfxAVHEsWdde4JZxlkyndXaLxpb3a1_CJoERvvQp5rnZCxOakWPKqrRO17YjG06bsZ6to2uh91zRDopQHpCweU074wHtzacllanuLajquJ5QmguwG_RvNEm4V2FG2NKpVbJzAfg.xKAR1Sq3pn1TZU5DbCh6fSuYs70XW0Bk4zRfBsqfEM2gMcU7y5Swjbmw6wj17Nop_1Ul6kBT5BXXfuYzYpWs9cU88tURFXqVvs4eDZqMDSOSZ3vYcpY8cnK1XFP0DJ1.nbUEBAAA-/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
                     }
                   ]
                 }
@@ -412,7 +435,17 @@
                     {
                       "quality": "1080p",
                       "resolution": "1920x1080",
-                      "url": "https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly9nb3NzYW1lcmdsb3Nzb2xhbGlhLnNwYWNlL3BsL0g0c0lBQUFBQUFBQUF4WEwwVzZESUJoQTRWY0MwVVdYOU1aR3NWcnBSUHVMM0Nsb3lIQ01waTd0ZlBwMWQuZmlPMG04Sk5NU2prUk5TNHlKVHBZd1ZGRTh2bUd0Q2NIaC4wUTFQZThTR2l5TkNyNkQ4MTZpMmlZQlI1SXd1MmE5R1BhMjROdHMyYWFGTEs5T2s0cmt0dzZ2dE92cTM3SGRhbFUwXzRaT3ViOHJrbGJjOHNmUWwwMkZVX042c2xjRE9PNUguMnhhbXZ5QU14dTNfblBLcEJfd0NZSHpYeGRoaENwTXgzZHBBSldYV2FTYm9vbGpOTW9sNUVmb24xc1ZsUGVLc0xIdVZqYlpOV0pRUG1aSW9SYjZwQndqYlBWSGh1UnRDUElyOUNZRHNGZ2hoRDZhdy5FUGJxRGI5UWtCQUFBLS85ZTUyM2FlMTViNjFkYzc2NmY1YzgxODcyNjg4MWVjZi9pbmRleC5tM3U4P3Rva2VuPWV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSklVekkxTmlKOS5leUpwYzNNaU9pSnRlUzFoZFhSb0lpd2lhV0YwSWpveE56ZzRORGczTVRNeUxDSnVZbVlpT2pFM09EZzBPRGN4TXpJc0ltVjRjQ0k2TVRjNE9EVXdNVFV6TWl3aWFYQmZZMmxrY2lJNklqRTROUzR5TVRNdU1UVTFMakF2TWpRaWZRLjczQi1hcEdiTGxfR2JkUUo3ckZHaV9qUXQ0T3pLckE4bGR2VGFiV0RscEE&s=vidsrc~Do14NCPaSvkDdWqQpUV9rR4ZUar&k=p"
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fsmartmarketingacademy.site%2F2WEH1EW2I%2Fpl%2FH4sIAAAAAAAAAwXB0XpDMBgA0FdKYtra7cSUJobk1.RORIugvn6qm6ffObVvjvhgj6053BpD2lMboCPx8OFkb9jc8KeQ5798gpjPvBeTXRTi6QUBk9MiTHVHRi4bXOEFu.7FOD4UGd9Az6Su1pTRxzurrGr64Et.4x_RB6rwlpJFXV0iqw3he0Z9r4BEqjmJmthKHo6DiPiL7ZxlkSPM.YO58iVF.SYnm.Zzca1jvepKES7HVz5rJ7GFDDpahA7rgV8MSjZG.apDPpqYPouwG.XgPIuAMOk.uFvXEvO4JDmBWdMGdQns0Zkh.5SwRK2ws5L.Jit4Mlr8gouEHZK6jO9eGRYXIbRuY_nOBQr.AReJuPdBAQAA%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://smartmarketingacademy.site/2WEH1EW2I/pl/H4sIAAAAAAAAAwXB0ZKCIBQA0F8SUDf3LdtsY0JHvaDypkKxKWbmaPn1ew7RAamv3ld73bW.W..Q4yDd1PW10Ri5WH833MyFiFZpvRezcpWYZhLoU.KeyWicWmTSGlSfn.h22VTIbH8BcvMgOr.hiGpVhqkk5o_jIEx.FeTH2AerIO7ErPrKrVDoJbz7AGeLOgQ5E_HM79VUlDesBT3wglrJ0fOyZaW.Z50cRqJ_DGL5bs0K6QMYy1BFeJG.BVZuO2QE7saruhXVp_kTlyNNIFvizjNqGBGDdC1OzE3F6KfDkWgeTxzt37GlfmZfC4seC8MoTgR3c0ecWWlkg_YT_6GfzGk3eYwsdO8HoAjk5gT_P2fz60EBAAA-/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
                     }
                   ]
                 }
@@ -431,7 +464,7 @@
                     {
                       "quality": "1080p",
                       "resolution": "1920x1080",
-                      "url": "https://digitalnomadventures.site/uCYTtwbCY/pl/H4sIAAAAAAAAAxXNzXKCMBRA4Ve6BKiTLtXgT0ksMTcx2SWAMoiMMo4gT1.7PJvvVPEZCKkX9SL9KuPgI3pOqhoWwddlCIF.l2u59WjffqtdCdPBEzrnkVwqM7mDeWbHtsklNu.itVAa3YQ2u_q.a02vp6JziSPZIygbixVFw2hhsYz9bAdFqtmZZ6eVyBErLfrqJW4p92RPyk8hm1YOmw2Hy8RR3O2RFpIlA7ZyOPZ7ww3l6gap2cj0_63IOGjWWQHPpOgylhMem3ZJ.Cnb1KrqBYxjYM3Dtft1WGvloev5LE.iF8xqPiLQGeHj6h3BazRodERGF.Bk2gYYp5DJmyLiUbP7r5.XPx7YCxXQP6ey41VBAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
+                      "url": "https://digitalnomadventures.site/uCYTtwbCY/pl/H4sIAAAAAAAAAw3PQXKCMBQA0CvxA1LorrEEp5U4gEnq34UkDoVggyNFPX17g_c0WGfThIDJHMRJ9pKAhbPJ0iTVMTlnr1qGXguceSEXQ8TVlfn3Ma6IEwaqL1mod_rTlVZ3LPzykkv7RFrFPjIizI3KH12ULwLCoMXm5naNwgGvfBTksHtbTxPgQYZFT33qBrN2Kug94NaNm6U.et0yiS3hi5O0UYKDIL025E540fg6uq.NYh.nge2R9Q8EyuSlTzvCx1aGshqTRBSyRtLMRgaKjJ040FoOSC2ItVb45OUtaT29_v_0v5FU4qbwYqCbrBeT3X8CPVjRpxbCRnofcLxvj0w23LMZLyHCZ5T_AYyhmLhBAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
                     }
                   ]
                 }
@@ -450,7 +483,17 @@
                     {
                       "quality": "1080p",
                       "resolution": "1920x1080",
-                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fhighincomecreators.site%2FGOsQFbDna%2Fpl%2FH4sIAAAAAAAAAw3HXXuCIBgA0L8Eon3ssgmWG6.V8DK5Q7CamnOtZ5m_fjt3hzZ0TVwcM7d0pzqOWCCn4ON4yU7Jom5WLwWCaQwlfhCy2MKbJiOUndiUWxiQYWx5SA.kmrWQrFa2BJ4nPrKuyTxRPX7p_rL_f1pwOzmC2ZHnrsaNLXlOK3VB016o7I6vQYkEZv4EM_2EWcSS33fv1BJ4rqJCnH8lHSsYuglT3Ks2MJ3lGkxvPE92Lrt_FployzZPD0NvQg_fKqsm4FPXDPkerzjXyjOMoHN8umIvRhvlECIxVgx5iR2RxmpPYVdofZN65D46Do4dZ_txJpJZLbebm.5BFhgWmsNDXh.RVmT9B0E_S9xBAQAA%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%7D"
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fhighincomecreators.site%2FGOsQFbDna%2Fpl%2FH4sIAAAAAAAAAw3OzXKCMBRA4VdCQCpdFghOWi4lCRdhlx.YCAFtbUebp69n_82cdIyM3stDkkxJECWHZ2qc0mT3MpnpEOnXHiHUOez1ajsx0z8oYW3Lnxt0cJfFNW7n4WZc42vC1o_gkfXCfkI.yPFEA4NwaQJSa0IzPuO1x.ZhdvbcFaZ.j0g2uEG0K_AmpGeFbpMInG.YccE6vVUhE_ir1osXJZ5YZDdzbOLx6KwqLVcEoufTm86rWJyWGHJGZOnOzdNLYf.axXzVHQ0ZT.mwmLsJcVEz80gck7NJZKG98m0oEH3bOiKOZumDW6w3oGIGWq1toLo0wtktY.EKsaEfSsj6zvZVmQ6Sp9_GB.k_BLWngkEBAAA-%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://highincomecreators.site/GOsQFbDna/pl/H4sIAAAAAAAAAwXB206DMAAA0F8qvejwzUjLAKmhN1jfSstCoGCDM277es.BIQ8nDP0ERwcmCNDp1ZMcn_AVuWm6oje52EsbZ9PTbxjo7VeCH.ghK7o4V21WIQETDTpuX0V8uMF049OuUtfDyOqbZqnu9kBEyWcBmfElxg3wuF3M3haGyJIpu4luXKJrQEh.JaRBNn7CjHlVZZcsObOINK530y.caFqv7mwfDtylyKIya3qRKFUdZMQjQwNIqR3esUT8sJmVwrSHWsPsi.45RlEqYCq3zXt_jiQYQftePHzUd_2RNxdl07gxyxF9qvKPSCVkGPgREO85zaXbwotcxabK2.xo2nURD61A_g8nlKhUQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
                     }
                   ]
                 }
@@ -464,12 +507,22 @@
               "poster": "https://image.tmdb.org/t/p/original/ymn37pd1ZzRXcPdyqkrfifmukG2.jpg",
               "servers": [
                 {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_247168/Season%201/S01E06/vod.m3u8"
+                    }
+                  ]
+                },
+                {
                   "name": "PlayFast",
                   "qualities": [
                     {
                       "quality": "1080p",
                       "resolution": "1920x1080",
-                      "url": "https://remoteconsultinggroup.site/PhLyBsOA1/pl/H4sIAAAAAAAAAwXBXXeCIBgA4L8EuDyyS09oc_maH4BwF2BhknOrNevX73kIGdzmFJ0osXFMXUwtRslxM5gYDUkSo3eZNw_DwqSCWiHHQU_6WUewaxj.lizMVqSdvMDYdJAbXhzlxXsr6QS9k0Z4YQLbVMwpjpfaZFmpyO1p0McP5NobnJZudkjkOK6kmLrdOTJo9d3Wsa69vTU5fLmrLvY4rVxvHxUT0PL1IBAttEiLmt8LECET0ZkA8qNDbm6zYq_kJqt7S2C87y1ZKj3SMGxdpHCWVv3Cga.es0UJLOo2LL9idi8uEwLX5cn7tG5yStyrKeTs63KCTzVNkSU4uJ3_K69ohT4cWqJL_UL0HwpPInxBAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
+                      "url": "https://remoteconsultinggroup.site/PhLyBsOA1/pl/H4sIAAAAAAAAAw3O0XaCIAAA0F9C1Dru0QYZBiYINN4Q5lwyD5vtZH79dr_g5kOfve8KX9i9dykYMgCHXeHAvh96lxf.xeEW6JvL6mexnKFZOeKwTfmbgQQz5CDTp028.otShApAdgy3CQ30yYPH5kZKLvNTh9SFV_GiZqx15Y1QEXYyfmqJlZ1w4iXNhUa5CjE7Qz7TqyINKhYT.K.omDXotNnpnoqZPGygP7Zij0aNaz8luZnUQfwfGFitS5ShM5n5lDSyIkeTBs2P0TrEVifZIpLRGMgfrCPR4PDdqpCewcdWp56qbTx4XFKnx2s7l0.JohYVAjVYtuYYx.bVS_uFS4tNXm_43qUxMxso_gCksaanQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
                     }
                   ]
                 }
@@ -490,12 +543,22 @@
               "poster": "https://image.tmdb.org/t/p/original/dKlSsW3aHYdDREGzqhuMiYZKkqs.jpg",
               "servers": [
                 {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fcontentmonetizationlab.site%2FjOdQAm1rd%2Fpl%2FH4sIAAAAAAAAAw3O0XZDMBgA4FciRGuXncS2NnFIIvx3CCeHUDu10T799j3BF0UtiswJRYM5tWc8nOIw6lHnN0PYDjjCb4KWBLzjBvMh5Qt8RiiXZPevAX8abapmNKqv.FHor6BZiCeem2wqZ2E0U_OxeprAhfvumy_3IJ9j3i3lS0.PsFUhYtKlWYptibatQN3eiM0BtSz38A.bt5ch9J5V_L2XUEPJDj0d_117GM0Jm0GwheddinXpOFyfsTOJGfkCdyUvkiUwt5T_9tRMoFfSziYX4uxnCX9kdNWdKotMwmeWrhOkvgSF3Q3loUCWCfTAprSHQuFezNsK07ob4t.KpA5aZy1XAPV4oUp68R9zoAkAQQEAAA--%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%22Origin%22%3A%22https%3A%2F%2Fnextgencloudfabric.com%22%2C%22Referer%22%3A%22https%3A%2F%2Fnextgencloudfabric.com%2F%22%2C%22User-Agent%22%3A%22Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F124.0.0.0%20Safari%2F537.36%22%2C%22Accept%22%3A%22*%2F*%22%7D"
+                    }
+                  ]
+                },
+                {
                   "name": "PlayFast",
                   "qualities": [
                     {
                       "quality": "1080p",
                       "resolution": "1920x1080",
-                      "url": "https://contentmonetizationlab.site/jOdQAm1rd/pl/H4sIAAAAAAAAAw3K3XqCIAAA0Ffix1buLlI0_cAkBOVOpL5Scs1aOZ9.O9fHhm3bhmgFWgDwGawtPn.4bgU2eN2eN2jzaSBBXQUHu3vepKRUjPexlFxaoH54YnrpRV4k7qYjNnf9HpXoOTFKAj0I0izbQNJuZaJqkRF9O7wNipTgRmezVNnEEjiZWkXHYXVwdfeW0lQiFYGlGZRQFToW38Xu.cu8mrQXX80wt847oaMGNIuvWEq8rM3ejlneju7y_0BFyavsKbM6wKfUEXULXrLODhbNDb.GROjHVKL7wmP.MNDMZiExT2B6pP5XjtWUw.6lsLvyVC2yusQsaoIc32HV8ysDHumEwyOl5NSrSylB.AfCOwulQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
+                      "url": "https://contentmonetizationlab.site/jOdQAm1rd/pl/H4sIAAAAAAAAAwXB2XKDIBQA0F8CjJ3QtyZxCUlJwnJR3hR0rKLj2Gmb8PU9x_tdR9u.a_sepw57hxtCOtr1b13a7xF9vyA2ugkqVeqnQunOa6abki1eCeSLb2xmelBhGEXOoktgA5Je1Qk0LwejZn5pjc1aAwnEjwiE_imNmcwot5Iio6B2p2zjE8Atwz8mhLWDQ2Jm9pIGGx9zJgxXUNmTyxBRy2odGY7NNFxUUm.dflag6kTOAV8jJ26BQut1cXplFrNZL_ZuDMyPUUy8zFNZsUQWVgIaxiYPIAn7aubhXuPwy6PebhkEfaSijqJwo91ZzTY75i9O2LmtfC2m8PKIffJqOHM4rA.F6D.F.meuQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
                     }
                   ]
                 }
@@ -524,7 +587,7 @@
                     {
                       "quality": "1080p",
                       "resolution": "1920x1080",
-                      "url": "https://boldvisionstrategy.site/z5mWC0SpD/pl/H4sIAAAAAAAAAxXMy3KCMBQA0F_KQ6J0SRt8DbFeSALZxcQRIdBIHcW_r92d1Vmm1KZ2RTxLlgn1J4aJO58dcosVcQ6zj_NX1pS5ih49cROM0nV7PaHIQXNkhvR.HC.TGj2uan_To1vsEUxVLfbHLmwVFw9B40.xfk5S95Pi5gFUFILuQOqkeduKV6qOMm9LEpmjwEUVmN2YrFIRSWm2huMb5GYAmeP_F4bLq5Htp8X9LMcQHQ2FHML.kBttCNxLHb9Nnf36TQxAVlPRp3kz7jCsZ.7rtiuJ6v37slU4CIkZ8JmpGrKmv3euj8agnT3IpD11rdbDbP8AZrhhJSEBAAA-/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
+                      "url": "https://boldvisionstrategy.site/z5mWC0SpD/pl/H4sIAAAAAAAAAw3K2XKDIBQA0F8Crk5r37oIial2ClxU3gQ6w8QlTtLE5evb83wSDz4JjhGfEgIkOHgG.uQ7zzrwWeJevvecOW2gEqt2fZHLs11LIYn5iFUJOUiKm5.i9uRXdmdkBgpT87D9_1EbZGqPd4OGK8gXT2Rlm3moz3HpDjxRtHhoM19lz9Mgjg87yVHWNFHIMSAuFcu4MpbLybRfjbnpmq9.rN4t9ktJ4l3tr2APuNfNMClxATf0V.zTrRNBO0YfHc73EwmdB9zLwR6NiElL5fKjC1JCvOgxvIWJT3VjiOM9bWEmddNuiHZwAlMnUvVJZirH2.pGu.rdRM3mi9XV6URbYneS_QFGp_KWQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
                     }
                   ]
                 }
@@ -538,12 +601,22 @@
               "poster": "https://image.tmdb.org/t/p/original/7YaGFkgxmYerPRSFRrtLqFkb26T.jpg",
               "servers": [
                 {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fprofitablelaunchsystem.site%2FyhqxaIjWt%2Fpl%2FH4sIAAAAAAAAAw3PW3KDIABA0S0hxFT6aX2kaWEqAip_CEyJYuI0mcSw.mYDd859G9GYJRpnDkHkYLbfZUlm9zs3QpMajd5ZtzHX06vpaGkg3YhYJyZXbs7iqeAGmDRRPnE00AtSrbnsP3dy9pLO9sNN6qcV_sqXdKOFR6ZkUc9HIRb70If5rs8hN_LYqSI_SXEB9BAODbInJxLyHdlmyiqy2v8JFASp0y8qVs8nuUiAUycegHNPbRU6DfBlLIe7mn4RA6wlZWjHekCsWh.q8KksKGWBpCTYQaBjJOUN6i4sDc8V7.kytBjwhCYEKs2D3fPaD0aoJ3992ZeFzXhtuO0J8ldZsZstm1fLDyoC_A9d3FQHQQEAAA--%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
                   "name": "PlayFast",
                   "qualities": [
                     {
                       "quality": "1080p",
                       "resolution": "1920x1080",
-                      "url": "https://profitablelaunchsystem.site/yhqxaIjWt/pl/H4sIAAAAAAAAAw3Iy3KCMBQA0F_KA4p06Yg8lHQIuQncHRAp0wSHKlbq17dneeIu3u26gfCOx1HI6Gj78b8IH0ca2yh6Lw8.Q_DesvWhjLzjvCS9WxdwLW_nTdegtw7ENLgVtT7OHZ2eqrELvIpvcd075a2wTcI.0gXOFOvStAFoUQ5ukq1ZTn06Sc3s6cwTroi.SbMoSe7BcMVAZAOz6f15SfElTUGFX95aFlbWhLk0UyO0ONgrUshsCw3mpfKV4sXRujBE.KTKABHgHwDxVhFRC9A3ofNNH_Z1NR_TIV2n0hS3mtnqkuFv6XzewzOAL6xtEmPLPEUSdlLvZ0zDQHH8KZ149LOejE8ovkj8B4w5XdlBAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fprofitablelaunchsystem.site%2FyhqxaIjWt%2Fpl%2FH4sIAAAAAAAAAw3PW3KDIABA0S0hxFT6aX2kaWEqAip_CEyJYuI0mcSw.mYDd859G9GYJRpnDkHkYLbfZUlm9zs3QpMajd5ZtzHX06vpaGkg3YhYJyZXbs7iqeAGmDRRPnE00AtSrbnsP3dy9pLO9sNN6qcV_sqXdKOFR6ZkUc9HIRb70If5rs8hN_LYqSI_SXEB9BAODbInJxLyHdlmyiqy2v8JFASp0y8qVs8nuUiAUycegHNPbRU6DfBlLIe7mn4RA6wlZWjHekCsWh.q8KksKGWBpCTYQaBjJOUN6i4sDc8V7.kytBjwhCYEKs2D3fPaD0aoJ3992ZeFzXhtuO0J8ldZsZstm1fLDyoC_A9d3FQHQQEAAA--%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%7D"
                     }
                   ]
                 }
@@ -570,7 +643,7 @@
                     {
                       "quality": "1080p",
                       "resolution": "1920x1080",
-                      "url": "https://modernconsultinglab.site/giwCCAWDg/pl/H4sIAAAAAAAAAw3NwXKCMBRA0V8KQRC6K0NBaYECeS.GXUzASCJtLU7Fr6_7O.fqIKBRHCp_8LUfRNtxHLdER4O_iemo4uhFee1P4xVl5.OiZiw.qPDgLbsNE6wSlkLa5W_gnq13hvVU.4pZos5LgXmAgp4eCGZtZ3dFCG6QJqaakCGgFF5yqNN.RS.zpXslMk3CztmNvGimQRPm69_yEtxKYqCj_V7O7tnie88NPdI.kfxeC0Qi3Nejom1eTv1VQXCGx4nCGnnNtF9bNHZI3SdPT1f.dNs8IpBVnDEsGtJQlfdT9RYngDoUB9Mc10U0tDqLQ9J2cN9JlvA6K1KY0TwfYZe2FonuhC2.tXM1MBL_AwQl9ntBAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
+                      "url": "https://modernconsultinglab.site/giwCCAWDg/pl/H4sIAAAAAAAAAwXB25KCIAAA0F9C1CZ727bQKJnhXr4p6Jgpsa5txtfvOSmIt1EDYAubprXbziabBnabNOnSDpq22dlAdOP8LIe9IHA51Q.Gb5AmBGaEjuxUOltc4DslcvloCYI4jjGHy0tOZq2c5UzLmRX2Wd.zPROnteW_s3D43I7kR7u.YKoPvFAHlVeco_HbRngoAwJ1bFKrl1BpM7OR4OqBQT1Fj0qro1JkokHlEvqLVRaLwiOZ25cY0ELAWnPXAzqgYKRfqH7HTSEjAtm5hCmuP1nJJ0b4YBWf0PUc0Ee7r9CiKpCrTShYcy0zZJyPbXSMmSCDifqJKb.5if1T3TNHpK_NAf9RAbJ_45rnR0EBAAA-/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
                     }
                   ]
                 }
@@ -589,7 +662,7 @@
                     {
                       "quality": "1080p",
                       "resolution": "1920x1080",
-                      "url": "https://highincomecreators.site/L02HE60pQ/pl/H4sIAAAAAAAAAwXB21KDMBAA0F9iw6Xim0qAMpBKSjZp3lK2FkkZ0Vph.HrPSXeR6wmIuZh9RNSnSeiSIGEuIYp2O_Z8UDDpCWpRxCvp340m.Wc5B6Hy7ZCJR80sKO0DnfGw3prVKliIi1KG5Prs1tpSZJeRlNXXHwmvbxTiXQbXhcyA52mtHF_C89iwjuWq91ChisAV2J3NXODb04ZoS6nx7jTdHIjHsauWVu3ji29iG85F40k7bh8dk6UyYhXwAg5tLEGs2sehMh6EGUrHPbRjPpMWpskFdgw13miPI99OplI9S99PjGTN1u04DtORD5vkMSc9S63XLwywOmCzaJN_C.ajy1R9tl2Q_gOhNWtlQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
+                      "url": "https://highincomecreators.site/L02HE60pQ/pl/H4sIAAAAAAAAAwXBy3KCMBQA0F_Ko6h0qQYcFJxg7g1khwmKEwS0VChf33N4tQ5Wq8re2PrGax4w4laObqijjtPN.vZdownqOCokv3MAjC2blkrnPC3ac057YhW89SPs1DNoLmw4GZEYZPN44U6cFTJE_GTi_qd9uCqfQ2ke4zkvhqai2VyS6JXSnFwpEMUiqTHnSMKj2WctRltmIfEIY4fUVPZpmNF3BgfTX2M7a8yG2gc_SsilhJ5XKjsqkX4BbV9QNFId2q3ZjZPT_UcL46.LUXnUzKqT79JLWmISaJHsQIwnic1kY79gG50qlLOJ_bss7AwdqtTTXb5PP7VofoE6CXQobOwKIOnkFhL.A4h_aQ9BAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
                     }
                   ]
                 }
@@ -600,33 +673,7 @@
       ]
     },
     {
-      "serial": 4,
-      "id": "tv:290234",
-      "title": "Lovesick",
-      "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w342/91s80WxRqIirFSpGVtiXJoS1GA5.jpg",
-      "totalSeasons": 1,
-      "totalEpisodes": 7,
-      "seasons": [
-        {
-          "seasonNumber": 1,
-          "seasonName": "Season 1",
-          "totalEpisodes": 7,
-          "episodes": [
-            {
-              "episodeNumber": 1,
-              "episodeCode": "S01E01",
-              "episodeName": "Two Weddings",
-              "airDate": "2026-09-02",
-              "poster": "https://image.tmdb.org/t/p/original/aSqEPe38V34zcsEMbkoXOgNdZGL.jpg",
-              "servers": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "serial": 5,
+      "serial": 3,
       "id": "tv:97546",
       "title": "Ted Lasso",
       "year": 2021,
@@ -652,7 +699,7 @@
       ]
     },
     {
-      "serial": 6,
+      "serial": 4,
       "id": "tv:125988",
       "title": "Silo",
       "year": 2023,
@@ -702,12 +749,22 @@
               "poster": "https://image.tmdb.org/t/p/original/bRYHFClG8YkTJTy8fx73hgCd8Ac.jpg",
               "servers": [
                 {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Flifestylefreedomlab.site%2FWnVM9YFN1%2Fpl%2FH4sIAAAAAAAAAw3O0W6DIBQA0F8CWl3coxHqXGXzChfDG4otqbq6ronEr1_PF5zMHy4DHUfqkqMfWHo5puTylvUsHX2SefcOXW6aLhhPg9U6sY7wpKEeWoOqZiv3QqhRhwKYvZ1ZVTmx_nyVVQCNUB8mNip5N4VsrbC_NZ8eGvOIJpaOQByQb8Ay7JmOisjoDbT9gh3wWaHIAyj50cyWDBQVCFz9ft2bCZ.uCEFROA0cT9BdH_Y2F3qKiyz5bsR6loREe_LOM1mo9smHcl5tITfLtsTt9lOazL0OME7V64_fssyFLX3Sm_muNK1a8repHWq1XPd_4DRsoiEBAAA-%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
                   "name": "PlayFast",
                   "qualities": [
                     {
                       "quality": "1080p",
                       "resolution": "1920x1080",
-                      "url": "https://lifestylefreedomlab.site/WnVM9YFN1/pl/H4sIAAAAAAAAAw3D2XKDIAAAwF8C1LT0USO5Ki0oEnlDwNGAmTS19fj6dmc22hmMMMA70CVR0gGn2y4x7SuwDrgXF79xaWYObKNh8Pb.6LXHjRMAulu4ORnHVJCsFHz6r4yAX9IvK0XNsxbJJ0VzXFYscT4R5Vggi.xJrXjj0fnOBrzoMQwl6kMLxKL3fVZt1rd1GrQHUeEV0.NCLZqEzhXj5LzazT9dTn7cQV3fI4ouIDAq2dx4kheenCnqs2aYTmbff5f5vKoRHzV87IsD5Lyigm8kbWt6MDJwPuLCHGmqrqnnIqQKNr8fFRH8RrcLJKyWj7HNA_sDc9VM0iEBAAA-/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                      "url": "https://lifestylefreedomlab.site/WnVM9YFN1/pl/H4sIAAAAAAAAAw3OyXaCMBQA0F8ieaKlyx5AK02QIQPZhYQWJca0WuTw9e3.Lq62n7aH7XZn7ZBolPQJBogBdrDD27hHr_bqmPH1r91XoLJ6aaLwrbLk3Ej7IP4tHrzi7drNZDpiCpwV61gOgs0m5YU6v8ztQWHq3UWtZrbRJu7duPl3M4EJSPO4V2Chi.pDL0cqsoQqQV0VKcan29L4nDfsgTsenta7VEc36P37jxZjQ1AtBpeXBQoH0x6vnaRMiCUmYhH6QlGdh1OBQ6n_1zqawGTH3FxdKGWQFebsA_jJpnkpzknervzOJSVGoEAlf9YtV2Kv0gJ9LX9hY5NMIQEAAA--/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
                     }
                   ]
                 }
@@ -727,6 +784,16 @@
                       "quality": "1080p",
                       "resolution": "1920x1080",
                       "url": "https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly9pbWJyb2dsaW9pZ2xvby5zaXRlL3BsL0g0c0lBQUFBQUFBQUF4M08zVzZDTUJnQTBGZWlCUmRaNGcxcWk4cVlsdjdSdTdZZnlyQTRRNUF3bm43TGJzX1ZjZWtWWHdFUzVPTFVOckJxRUNUT1c1ZXNuY1dSYmQ3TEhINHNoaFBmdFpIaTRlZzZraGd0VmZVd3ltcjVxRFZrbjlzMUV2ZDA4QjM3aGp4d0h1UVhFLldrYUlpQkhuQXB6VXJrZnJGN1EwRURMZjZrNmR1b3VvOFZsOWw0V1VnUTJwd2hKbS4xWWdmSXljcWk1LlI3azZsd205ak9MUDhIakY2MWZoWkZ4S3pwbVBWMG5zdWNUVVlhNVBvMjQ5SWo2TXJCNjViS0NHVkN5WmVpOVdJZUxmclloUzNzeDBIZy5lUVcwbm84QzBVSnNwd2N6NWZONWhkeFJ6RW5DUUVBQUEtLS84MTU2YWFhY2Q0OWFkNWE2MmQyMTY3ZTk5YjZmMTdmYy9pbmRleC5tM3U4P3Rva2VuPWV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSklVekkxTmlKOS5leUpwYzNNaU9pSnRlUzFoZFhSb0lpd2lhV0YwSWpveE56ZzRORGc0TVRFNExDSnVZbVlpT2pFM09EZzBPRGd4TVRnc0ltVjRjQ0k2TVRjNE9EVXdNalV4T0N3aWFYQmZZMmxrY2lJNklqRTROUzR5TVRNdU1UVTFMakF2TWpRaWZRLmhsbmNLNng3VFBMaER1cjdkYVpwYUYwUHZEOGx3SWhfVk5TdUhkZy1oQUE&s=vidsrc~VZWy534wS2Y_SFYbl5gUTLOryVv&k=p"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://onlinecoursecreator.site/KI4A15DKB/pl/H4sIAAAAAAAAAw3Ny3KCMBQA0F.CBKx0V4pRsGDBmwfZkQSb4TWMpYL5.ro6yxPsQ_WG25vZNzhUt8h7gfY40JG3C9oofDdjNShcCMX9kSKftGDXcpgb1af3GugGnqllEl9Lx875YM81lwP488UQ6sruByvGZE7D.7XPdlQMK7D4QcfVlb1cNCJNPZmRMRpWicRG2E5DdlKH.cnQ4BeJrPmYdflh.8z7dNXcc18.wQVn3LjUAZ.7Eg8FnzRihyW4UmJLIMUFZN2CRpLP9.oovYpXf.3xdwVvedRTGkBSbRLZkxIEaKKxmWJbJcZSYb9b8YFAZE0r2FZQBowXj5zbQE_E52O.vm7XPJe4mRiSzov.AY2RT7pBAQAA/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
                     }
                   ]
                 }
@@ -756,6 +823,16 @@
                       "url": "https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly9sYWJ5cmludGhpbmVsb2dhcml0aG0uc3BhY2UvcGwvSDRzSUFBQUFBQUFBQXczTTBXNkRJQlFBMEY4Q3FYWXU2WXVLV0ROd0loZFMzeFExTG9KMXFWbFh2MzQ3SDNCQ2JDZlVUU0dPMEpuRUdLRWdpckcxRnAuRGdRelI5SzZwdXpYcGJneTdFNjduR3J4elRXRlBqZGtTVGJIUWE1bHdKeGFsU3RmckxWQkxqSUZJT1JhaXN2N3RaSmJ0WVh6Y05wNGpkY3lQM3JTN1lMOEtrRnR0SVBEX0U4bU1QZ0VFRmN2MlhURjVWNlFtbzlzNmkuWlhTOHJLNWtuS1Y3MERwYVRMNXc4TjE2TTN1Lm16M0hPenVaR1ZUQlk4QUNXRE1ZT3c5eWdjVE9rYWx0OUF6VC5HdFJXay43VmJ4UUUwNXNEbWwxaGtJNTM0NGg0OVAudkw1UV9MZ3M5MUNRRUFBQS0tLzgxNTZhYWFjZDQ5YWQ1YTYyZDIxNjdlOTliNmYxN2ZjL2luZGV4Lm0zdTg_dG9rZW49ZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SnBjM01pT2lKdGVTMWhkWFJvSWl3aWFXRjBJam94TnpnNE5EZzFPVGsyTENKdVltWWlPakUzT0RnME9EVTVPVFlzSW1WNGNDSTZNVGM0T0RVd01ETTVOaXdpYVhCZlkybGtjaUk2SWpFNE5TNHlNVE11TVRVMUxqQXZNalFpZlEubXVtc2xTUVJ6TzhVTXpkcDhhdkxaNS1oVkhwRFE0NURXM0g2VkJLbC1Ocw&s=vidsrc~AuC5FLf4bwXkFdn5Yfz6aNU05Tq&k=p"
                     }
                   ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://startupscalingsystem.site/pagW2CMDx/pl/H4sIAAAAAAAAAw3Ky3KCMBQA0F_K5TGV7nRIQKixhOSC2YVEhzGg9TFF8_XtWZ_0CMSkCYGPLDZZSk4G3CkyqXUrB8bEn8gmJSjOtrumNm5A9ei5n_wBRiriUbgLLkORgY5V3NIFbE7vKt_dBfK9nKf_Uz044UXrH_EwP2dBULqLG5uAWzc_gs3HXpZTjZTpxiMaBbd2JrBnVzh68t4xlmvldA0YGeJwKHWr6JI0_SbXUaZdL6410Rtd8m.p0oRLXVmaFQLWQcKGKr8LtuR71VVfTdCan7fJUMCPLXQnoarbM19kP3ET1r_m4uShe1EZkGLAQzuPNyTsZid2V4oJHnmCvnqad7bV79VLSZL9AURDIllBAQAA/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
                 }
               ]
             },
@@ -781,6 +858,16 @@
                       "quality": "1080p",
                       "resolution": "1920x1080",
                       "url": "https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly9wcm9waW5xdWl0eXBvc3R1bGF0ZS53ZWJzaXRlL3BsL0g0c0lBQUFBQUFBQUF3WEIyMjZESUFBQTBGOFNrVTZYOU1Vb1dxZGtNaTdLR3lJZEU5dWExdFhPcjk4NUVUekVVV0JnbUF5SHMwWTJObFpIYnpIUU1iUjJpTV92NHpVTlJfa05DWFo0WUFLMk13VXFvemMuVmFjR1Y3a0NUalJlX09pX2xUWXdEY2lFSHhJNy5BRlNNT1o0VWxkeTQwVjdWNTFZV1RnN3drbkxlZi5TLlhxeE10OTB1QkxTVlhqTURMTGVsV3JLTjFhcXlnQ0J0S2VRRkVsRy5McjBuUUFVbUx2d2ZMT01CRXdpcGdQOHE3NlNuZTl6MXU2dWFzckt0Wkk4UjJ3UTNjVkZZUVdaN3dHVFM2MTRFOVU3T1VtUEZqNWpWQWZvYVlvSG9Qd0ZQOXZqOFI5S0JuSnVDUUVBQUEtLS84MTU2YWFhY2Q0OWFkNWE2MmQyMTY3ZTk5YjZmMTdmYy9pbmRleC5tM3U4P3Rva2VuPWV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSklVekkxTmlKOS5leUpwYzNNaU9pSnRlUzFoZFhSb0lpd2lhV0YwSWpveE56ZzRORGczT1RJeExDSnVZbVlpT2pFM09EZzBPRGM1TWpFc0ltVjRjQ0k2TVRjNE9EVXdNak15TVN3aWFYQmZZMmxrY2lJNklqRTROUzR5TVRNdU1UVTFMakF2TWpRaWZRLlZobWlMOUJIOXNEYm1ydDZXMlhBWmJ3a2NUMWFJcklTOHQ4UHBFU2F0Z3M&s=vidsrc~dPk4M_dKUv1KwvlEyErxxrrOH82&k=p"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://premiumcontentengine.site/Ygu4uHrIF/pl/H4sIAAAAAAAAAwXB2XKDIAAAwF_iqEnoo6NoTQIjCihvCE5tMdY0Ngdf310CCNztgUMHNO4hsQc8egt3fiSHnScgea_DbOtFWafhn9PmJuNsFKgaWbi3tlxVCxwY8CdSOZldxm7jIu7sm22nOD1Guj51J.9Wbj_DZe5r6BAvXOIWqlhWbQ1dOS_I15DLRGS.OsJZMUR0C4XWF2Y19bEpc8zm2QrEeBPTxXemMK_tqpWYBppGiU025A67UnSMVi2jAffhA7DlHHmb9qdIr01giJesMjK8Gux.6y7Npdy4Rwk4RUG58phn6e0IyPUcAjIwDefSyCbzXEJTM2qezWJ43a2BqR4IVU2WTo.6BeQfbixf7UEBAAA-/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
                     }
                   ]
                 }
@@ -809,7 +896,7 @@
                     {
                       "quality": "1080p",
                       "resolution": "1920x1080",
-                      "url": "https://impactdrivenbrands.site/7or07NZrA/pl/H4sIAAAAAAAAAw3BXXuCIBQA4L.EaF.7dCqNAqZ5jsmdgM0pVs_mlvnrt_d17bbZGmov4cXZyy5o1224.WdpY9ZktXlRMH2JNJuKpEgt81eduR9knpgkvls2nfPeFwp4b1MO2ucrTW5R03Ow3jMJHSuv3SIC_mjC.jcP4lCVHOUeJ5G44URXVyjjNxuibCCTNfhvmblADEhxKEZD_WiWWFTjDIeA32XV7Q2IR8PmtUznvIFJaMpvR7ISkE6JZORZ9ZyUI1A7dKDS4v1E82dO7weViKXNvDd4ixQ6XqM.Yvox12U8QLV9FlCotkKwrxNp2bxoxM.q0jmM7uDOUuHYJZoG2pAoUiwLsfdcL2T3Bz6hkjFBAQAA/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                      "url": "https://impactdrivenbrands.site/7or07NZrA/pl/H4sIAAAAAAAAAwXB226CMAAA0F9qC0XZIymoiEVKL9C3XsjMWggxThlfv3Ps0WGEfJJgf8AW2eNxyg.ZwR5lBzcB8KXmy0bDuFFSbow8fliydhK6J9tp6mPNp1P6NkGfvWKLmvOzUA6M4Bt3sUJ8zhWL7tMlWlixtv1AU0fog0d9YlW801KfLKm3HtLdoLg6UhEeGBhnmbkZv0YUngJg1g114XZ97kCNuAh_UtRvwat7K1ghBPhYBNJ.qSQPVUthlFcYQZPExlVFZAHfdCmvVyh1yz3RgP7yUhateq39UhMvXquFOjGLSCc.IgPXRg3F3w3KYPaIenBJGxh3C6U0JMbbUGRGet3srBEc5P_euptaQQEAAA--/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
                     }
                   ]
                 }
@@ -837,6 +924,16 @@
                       "quality": "1080p",
                       "resolution": "1920x1080",
                       "url": "https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly96aWdndXJhdHpvZXRyb3BlLnNpdGUvcGwvSDRzSUFBQUFBQUFBQXdYQjIyNkRJQUFBMEY4Q0ZGT1c5TVhOUzVteVNRR1ZONFEyV0p5YTFXVGFyOTg1LkdZaVJ4eEo3alk1bmFEQkZqazgyRGk2UndBYVI5NGFKUC5HRjJYeTVfSnFBNVBYTnNCVy5uZWJjU0h5QmZlUENYRkpLUmQwZEVLdHJsd2htMzB5bFBaWEFYQmNaeTdyY1hzTmloNHFUNWNhYlgyRGNOcXJGR3ZrWWRNU29BR3VUUERCSUJ6cmZOV2ZLQjhyRUI5MXNTcmI2bDFKUWxYbVpqdHA3d1FydmtxT2RlYWZFcEJJWnpwbmlEMkdMaDh0Z01tdHUud01VR09DcS5vUDJqQzV4eHhPU01yMWFjSzBXRUNGTG5hdU1scXFqSGNEMktMdjVuei5CN2gwbzV3SkFRQUEvODE1NmFhYWNkNDlhZDVhNjJkMjE2N2U5OWI2ZjE3ZmMvaW5kZXgubTN1OD90b2tlbj1leUowZVhBaU9pSktWMVFpTENKaGJHY2lPaUpJVXpJMU5pSjkuZXlKcGMzTWlPaUp0ZVMxaGRYUm9JaXdpYVdGMElqb3hOemc0TkRnNE5qTTVMQ0p1WW1ZaU9qRTNPRGcwT0RnMk16a3NJbVY0Y0NJNk1UYzRPRFV3TXpBek9Td2lhWEJmWTJsa2NpSTZJakU0TlM0eU1UTXVNVFUxTGpBdk1qUWlmUS5hMElqTi1GZy1mb05yUW4xZ0JGclNsWnM0RUdiQUgxZkY3RF9VbmV4LTFj&s=vidsrc~A1wpGwp_d3pQaLo73M6BVDsNcnF&k=p"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://remoteincomeformula.site/DolNixLO8/pl/H4sIAAAAAAAAAwXBy3KDIBQA0F_yamlMd_VZteAoApEdiB3GqDGJk6hf33P8T6V67.TBGVyktXbcznQInZR37vWfZ74ad3zr2aJuyB6mSSgGjswYZIWDlspBVCUyoiMGCgsV1wXkwQVPeSGHoCRpfi3DteVg98KJtzKSWTcHDxJ9793FhBJMQ9PnVjfB0Q71XQ9GYG4F87IPFS8VS81RXwj9de2PDH3AfATF6iee5Z3FJGGhv6lpnVVa3wiTbzFkr2oYn.2.ki6Wis14b2a7YrZZwtCbRvWBpzzH7lhrN8FmtI1g8MIsFxiuR.FIJCKykun26nly0xFhFUjOwOb9BCWG4K5SmWKoHi1vXdY453_fW5YdQQEAAA--/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
                     }
                   ]
                 }
@@ -1021,7 +1118,7 @@
       ]
     },
     {
-      "serial": 7,
+      "serial": 5,
       "id": "tv:108978",
       "title": "Reacher",
       "year": 2022,
@@ -1057,7 +1154,7 @@
                     {
                       "quality": "1080p",
                       "resolution": "1920x1080",
-                      "url": "https://highincomecreators.site/L02HE60pQ/pl/H4sIAAAAAAAAAw3LXXuCIBgA0L8koit3Nwt0zY9AXyzuVCxUImc96dOv3879wdvLR7Ptug3qfOQ3gY9dBytv03WqvtT48imsHnMwL_nWvz.O8IXNFnCFTukhAZS9.N70Yvx.gxExjHKRcF9rQ3ecEq.NdJHHk8MEPcF4XVJMFrl7JpIwB2LtSWQGEHIqSOtzULioxKMhz7WIdJ_gESu4zsyE53wfTrXVhJ3YXO6CLIskE0a5LbBXHgW8GWTVUH6sY_5QSK6l_b8xcVL0NbNxNQnWuB2lp6g.cEPT6oYgjw.2G_RQuH5_tlOYuPyjwXriVPflKTxmkbBQTbgi90Uh8.hudFbuFjdIlZUQ09nwAUon.AOHDh4jQQEAAA--/master.m3u8"
+                      "url": "https://highincomecreators.site/L02HE60pQ/pl/H4sIAAAAAAAAAw3M0XqCIBgA0FcCzMpdtkSziQMBF3fib5mic.Y3y6ffzgMc3wLC4F3rktjrLthBifd7f1tvK7uzKPDfKn16qd6cWXtgyplHFguRvc9YtzDJMPSggK7sxy3EDpfUTLp_foJOGtZSXh2dMkNzvmggdQfcOtGKfu4yqnwjoc2_6JDLFLEh_c0it9guISmqcB3CXSmzERJ61j_8_18ad0Lg2Mm4juSEPnXRLZWGEVSjIILEDObIyWaVRLfcE.v5Fcwf3vek22Rl9yBKyXjMC8MFFQeG9Qbi25RGnFgKkfT0UBaaFlJENb2tTM35peNLRQJZ9HwxyPdNPKYibH4ueLxrJWJVMMQlCv4ArG8G8kEBAAA-/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
                     }
                   ]
                 }
@@ -1076,7 +1173,17 @@
                     {
                       "quality": "1080p",
                       "resolution": "1920x1080",
-                      "url": "https://media.vidrift.in/tv_108978/Season%201/S01E02/vod.m3u8"
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fautomatedrevenuehub.site%2FwCosQC4lH%2Fpl%2FH4sIAAAAAAAAAw3L3W6DIBgA0FcCrEvdJfGnsoCKIOod.tmYinbrbKs._XZ9cnw8WO_aXf0hINcT8j6sj4LT0PcWn70zCT5VDLmoqdK39GHcWGRxO9rovtsjQhAyVynuVRjqwYipTKqfZonfYh5rO30_rWYU6tT7N5olq8rMtjcovqhlRBUWv8q1OdfAVcIWPcHYz2thJymEYa.iGmWP5Nw5IPwWN8WEn1oJ3IWQWgIxEL.VB535zOYeAdOqMkO07cNC8y5kpY7WDY7YcSPvmaJJp9twSDahSZBkZVCDcbmK7hiIoO0t2jiRs_SoZ8n7Ic26a8N2WFjNsXtxnaJGO6pQdemRK78OTf4PKRQK_gBGoz39QQEAAA--%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fautomatedrevenuehub.site%2FwCosQC4lH%2Fpl%2FH4sIAAAAAAAAAw3L3W6DIBgA0FcCrEvdJfGnsoCKIOod.tmYinbrbKs._XZ9cnw8WO_aXf0hINcT8j6sj4LT0PcWn70zCT5VDLmoqdK39GHcWGRxO9rovtsjQhAyVynuVRjqwYipTKqfZonfYh5rO30_rWYU6tT7N5olq8rMtjcovqhlRBUWv8q1OdfAVcIWPcHYz2thJymEYa.iGmWP5Nw5IPwWN8WEn1oJ3IWQWgIxEL.VB535zOYeAdOqMkO07cNC8y5kpY7WDY7YcSPvmaJJp9twSDahSZBkZVCDcbmK7hiIoO0t2jiRs_SoZ8n7Ic26a8N2WFjNsXtxnaJGO6pQdemRK78OTf4PKRQK_gBGoz39QQEAAA--%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%7D"
                     }
                   ]
                 }
@@ -1096,6 +1203,16 @@
                       "quality": "1080p",
                       "resolution": "1920x1080",
                       "url": "https://media.vidrift.in/tv_108978/Season%201/S01E03/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scalableimpactgroup.site/PhLyBsOA1/pl/H4sIAAAAAAAAAw3O63aCIAAA4FcCyZX7lykWJR0R8PKPwMUAW7djzaffvif44iVY6Xg4Aaj0aWlg9IWWZqXiJFoMgx7QZz8bX4drECN5ly5dNN62MktRJ3VUYiwo7m96S9IGE1C2BPFLjw_g_D5Kj_h8vouQvpS4NsMmKRueXhS3exGCoCNNTyMjZYPnIzZ0cHJXyQ5IF54deMA.2EMnyUbwLpb56lc03VQ1lghIkcrZkzq7qxGh2legbkkr8JV1UXw0hfygnj3YCCbmmdLZeqEyOQtIttWY7CUwfeVo2TvCZcaepcdKFxU0jszcyW_l7GR4f.ftGvBgbrz1QAFWqNxCVuxedab_Bz8TDQQKDpI_9Ebtf0EBAAA-/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
                     }
                   ]
                 }
@@ -1143,11 +1260,916 @@
                     {
                       "quality": "1080p",
                       "resolution": "1920x1080",
-                      "url": "https://solopreneurstrategyguide.site/Y2EGNiCj7/pl/H4sIAAAAAAAAAw3MW3KCMBQA0C3lAa30TwcCMgJNyAP4Izc6CAEZp62U1bdnASe40StEDt1uQfAe9v0bQgcMOAoAW4zC6KNs8k87P16ODRnMLtSp66pGqGIXFaAD6ag3Ap0DqxgtsnUFglcTH1Ex4_5q8K9NOZLJeRe.CLg_GZuJQqYtsVQYmB5hPZcMFta0Xl.uCTxrgpU0pe7Q46cgjpopomrJDXggmgyhSaOnJdumE8FVqscyySupj5uMGZcoHLopih3zo_HTC7zeC8p3rfBd6tMoVbIrJvIaCV7FGrcLOwsEFHx3sRP7bmeFxexWNekGJtE6fArrprz3CnBJvvgFBU..rP93sqlx6NyOoj9x1DMxQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
+                      "url": "https://solopreneurstrategyguide.site/Y2EGNiCj7/pl/H4sIAAAAAAAAAxXN25aCIBQA0F8C0cx5y6V20XAkOApvjDRZoNWsbvr1Uz.wd4s0CfWvnoVmHmgfhft50GKvjQiKZn5IvuTgWDt017a.FYLH1S7tUO7hQi9dpd1hVOl81JMkOtswkcRO2pRQvvBVHwBt0kcrXKyamOzA3Ctnny1RnKKoLBBtFI9PVZ2lOw4eTEpCko3vx.4FXstpgbb4QMyqGwWRE2_isnZ0rZrLgwrWa1BlTrKP0egVO4NzRPVRISeKgKsrWFVqYMcfi4Etcc9TBcbeLhJMLpLK15beJSi9Hc4vtWLe2_Uk6QJDNpBjMxjxiil2f9uEHRXJhvfR1DX.htPhyQEs9VhuJhT9A.qHCehBAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
                     }
                   ]
                 }
               ]
+            },
+            {
+              "episodeNumber": 6,
+              "episodeCode": "S01E06",
+              "episodeName": "Papier",
+              "airDate": "2022-02-03",
+              "poster": "https://image.tmdb.org/t/p/original/3GT2msFS0C4KdEDeD9TR2NPOS1s.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fstartupmomentumengine.site%2FM0ejK42vI%2Fpl%2FH4sIAAAAAAAAAw3M3XqCIBgA4FtCmy526BL7GZWQkJyJH81EeDb1Kezqt_cC3hSvsTHxLdYxNKAx0gglEL3fUpPiFusPhp5BV9he.Nw0F5F8oZnClZyoV1Y6hZrtPlDJnHSk4AU5azGMdbQLUMGu9UOno_0vjVUqbUCnyzHjefdUfT7KghUC5S9D8ofZZA_mjlN5FUkrKSqHLgUrnOqHmMZkZBLuwtlVu2GTEsxXURZgc7QmxzPfkkPtgGn3PxTfI_PdDqIfXl7JyH02HZZpaVHo9IInk7MzeBIqsa.ZB394wcI3XdYM9aPJqzfew0K3A1PxOtSojbToknLIPoWca9MrDndcKFsFisKKWXxSL4T_AO87fqRBAQAA%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://startupmomentumengine.site/M0ejK42vI/pl/H4sIAAAAAAAAAw3OWXKDIAAA0CuxBFP7l8QtizCg4PKHYsa4ponTMJy.fSd4SEMP7f3uvoN6pz3P71qPwHun8Z58YdB8d9PlwfIL18jHN8BtVtjeYMVYSCQvSH9FK5HFlrDwCbQTnLtw16BJZXGK1SBKKsmWJ5EtTttSgdTVUrp2qs8GrFZFR1otwir0wSa0JyOBNXP4oTMgZlJnE8NUTCYwSz_wcbWspMTk6sWiPtAxDK4ATs284nR.vyp0_s3VCLPIVKpcUbGojMYQViD64SN8y4BuMjChVimqZR82.Hhr0duK5FKk7gDy5ICoi4Scn2s9_C8hd00BWVuOn1oSpAKqxNhLPvVZi8WjHQ4vngP_D8q9BA9BAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 7,
+              "episodeCode": "S01E07",
+              "episodeName": "Reacher Said Nothing",
+              "airDate": "2022-02-03",
+              "poster": "https://image.tmdb.org/t/p/original/i9z3J0xwImiuFhu5DQyYqnBxVDC.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_108978/Season%201/S01E07/vod.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 8,
+              "episodeCode": "S01E08",
+              "episodeName": "Pie",
+              "airDate": "2022-02-03",
+              "poster": "https://image.tmdb.org/t/p/original/8Pzg1MpVAAbyBGdfAUmRmfSmAWQ.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_108978/Season%201/S01E08/vod.m3u8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasonNumber": 2,
+          "seasonName": "Season 2",
+          "totalEpisodes": 8,
+          "episodes": [
+            {
+              "episodeNumber": 1,
+              "episodeCode": "S02E01",
+              "episodeName": "ATM",
+              "airDate": "2023-12-14",
+              "poster": "https://image.tmdb.org/t/p/original/j7hYdtMCzXsRtk8oeoynzcB1skZ.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fcontentmonetizationlab.site%2FBLWDuL7aS%2Fpl%2FH4sIAAAAAAAAAw3Ky3KDIBQA0F_iIRPTXZMiiQ8aETGyQ66dTNQmbZ2R8vXtWZ_kg.12kCbI75gfAaWMAKPJ6B0lAxqTlworZgRET_LmvWuTsU2JEfu1iWouSWikPmMb5wjHlPZLEuziQzXZyxCzs.seAbhFTWavapm_BoKdvqpzRflWaVl3xzW4k9z6CMgsJqj2SW3WbnKGSxVBtvhQ2IwnBmV1JWzhRM.kwBRM_auzp3XYfP9f3mNDK.JDb9TadUw7nj9abj4HfStKDHeLzY9Z7MkJWfjrKwKRbzCFi8MZgxYOku.fcgr5QGqq51kMQgU53UrgqzEchEYqlHEinphfd1yPJT7c7XJ7g4j2f6r3QiNBAQAA%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://contentmonetizationlab.site/BLWDuL7aS/pl/H4sIAAAAAAAAAw3NW3KDIBQA0C1dQDK1fzGpGhNIBbmofyidcZQkTRv7YPXt2cAhKSEESAqcksQRB2x4okDBjckwwIY.e7KlI_RUll6bfInjXJmxVBwh3DUN9Sn6R49Z.2b45lwgEdC3nZ1uHYQZG_wReXaXl467gGIoeN2wQETsmW9VcL.P2xHyvL6EVwleqhL3MiqFLOxOMYv1NdtphlG_TOuA0ogok.Zqvjra8Wbf5x741FikpslXZ6esbkT8_1Y_Vx.2IEcfchTohSveF9fKRc5b8DqV56LSapGfHVRWF2rFIpyNCaVCf8A5C5L1hxEU162hnoXENyLRKGc7T3Ew38wasreXKvER0j_nn0xQQQEAAA--/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 2,
+              "episodeCode": "S02E02",
+              "episodeName": "What Happens in Atlantic City",
+              "airDate": "2023-12-14",
+              "poster": "https://image.tmdb.org/t/p/original/qdsegCgx8x5tXL7k1nwiQ0493J6.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fboldvisionstrategy.site%2FBYhrsmpUc%2Fpl%2FH4sIAAAAAAAAAw3JyW6DMBRA0V_yAEjpkgYbZXBk4_dcvAO7FWJIyNCS8PXN6h7pNlnMfiLPMk5TkvKkoTRQwtNA2uQt9oFyc2lB3LVTPfJ5reRAA4PFMPrSvKatHUs8z.oksUToXqqH5LtQzZ4hb9jjVrPxF7ad1dOwNGgojKp_96xWT1W5u4fCC3TeA6SDA0KAeBWncKv6OHnrFwdj3UpDm_eMoqtDObvDGhMkyniIVaC5sKBetlhIcLQIDKnruz.wCvUX5gbS62FFqQl.1dN8OcrnqodxiVthWiukGrsdWlQt0EvszfH0.ejdtNsH8pi0VV2Ep2_4zA48r8wgrpXD3MpUQLFZtCWbf3HDNqxBAQAA%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://boldvisionstrategy.site/BYhrsmpUc/pl/H4sIAAAAAAAAAw3O25KCIACA4VdCUJO964RlSSMnhTuQdh3FcpqyXZ9.u__nmx9GcWzbBKdwZVu8wgiB7DvNnLPYe.SyrytpFyu6kaNj5LbPOz9Uv6UohhKES7l_jlxK2ALMec5mC8JUIZ.LekrPEfm0XS9v9zeD0Zvd1EMPnlc9e1jI4rYvE7WwF88xoTui1VKYtukWWtOPnSGp9kgAiaTsjIuGtx0Nq27Fi4f1rHYslzuaOrGp6p487WHa2H4NxFDU_PADdJ0EDamppY4ZMMADVav6.HeR5sSa6U8RuThIuRj9hYZAlKC9I0qfIj.fF_34_M9sMdOVhOEqlKoachTAnMotTnTTxR4Wexp1QQqA_wEU7gygQQEAAA--/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 3,
+              "episodeCode": "S02E03",
+              "episodeName": "Picture Says a Thousand Words",
+              "airDate": "2023-12-14",
+              "poster": "https://image.tmdb.org/t/p/original/fRqRZZuBRMhxOw6QHIOL97MAj5P.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_108978/Season%202/S02E03/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://profitablelaunchsystem.site/HXST6ZQIP/pl/H4sIAAAAAAAAAw3MW3KCMBQA0C1xAxTppxVQplyHJDcB_vLQoqVoa2YKrr49CzjnlwzSM1iTZTZPMmZOycZnJrXnJDfWm1fstmUf30t3CXroBsD9EEx0T_3eD4bUr4huICgFvZ94z_Kaa7.ixJjWx4pqeDvRkripvsmKTwK2VRPBFSvFGxHIwAHEc_rGr4bJ6iPxFZCKakY6v_KrWtsOCy37H78.Yi_LFuN2.b_7_hMuNCtJ83h087334gEq4rWjcXbFiCe9WVAHHKqlIYajk54fS2ztUxlRhMXGI.Od2qnCk6PaCBaCpWX3voYDaT63Oq89y6MWVPcHMSl_FCEBAAA-/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 4,
+              "episodeCode": "S02E04",
+              "episodeName": "A Night at the Symphony",
+              "airDate": "2023-12-21",
+              "poster": "https://image.tmdb.org/t/p/original/xZMIwWORGokHKxU4DgGSzcrvvJr.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fwealthcreationmethod.site%2FqnSBJsNW2%2Fpl%2FH4sIAAAAAAAAAw3NWXKDIAAA0CshmFj7aQjWZKQjsgT.VIymImmbTTl9.y7wUIrOsD33bw2CyRZGcddsu822j7s4SVDSvdsg9wyMxOQgHKGbuKc3DulegiFol107ol_a08VgxyjWi_Ia1Gr4bTH56bnM.eXOemlV78iTORO1alNW0z5QOU7qcpcMuF17kqj_MCtd00cDQKid.2y802omDScdFDD9FqfDQnEFKzgslrMnR9mOnWxhdmkhvanr3PIWj19SSNwGO1d.fEjoHsYPoZSkOIJy0chsSylZm8uVzpuoc04onD17ZaZaRDGPiqgRNhM4yxthuJht0HAhZTS9Kj.tR3RFKpcHLW7_P8tMAOkf7cFH0kEBAAA-%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%22Origin%22%3A%22https%3A%2F%2Fnextgencloudfabric.com%22%2C%22Referer%22%3A%22https%3A%2F%2Fnextgencloudfabric.com%2F%22%2C%22User-Agent%22%3A%22Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F124.0.0.0%20Safari%2F537.36%22%2C%22Accept%22%3A%22*%2F*%22%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://wealthcreationmethod.site/qnSBJsNW2/pl/H4sIAAAAAAAAAwXB25aCIBQA0F9SkMp5GyewwaCVCkd5w3S0JLVydfHrZ..GEH_9d7IrFNg19jyyWm822G8qXDd13fhfJbTPxO90icxDsGhWvnoLmJEaWAwwbw9bd5d.J_I.DRpoidUGEjRNYmmJWaKHRW0AV45hy7q9FxpDGc56vpKUJ6Vzs4l5UlMCJ5U.rZY7cQ1ltmhSFu4nXehHaY0UmkgO4Se7ugD68SUx19lFjxXyPmXOb.klooaaxDD5LoFjcZ53apC_YpGddVwcgU2W9u8j_n5VBR.F625GG3bIHkGG9FLtnBDxW.kivad09E79TCqYoixO0XFwYOn0gqI777E75JT_6DwdgNV3lXvhP1VeiFhBAQAA/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 5,
+              "episodeCode": "S02E05",
+              "episodeName": "Burial",
+              "airDate": "2023-12-28",
+              "poster": "https://image.tmdb.org/t/p/original/qHoDmkiqipd7u8VzVDNcwVksRfd.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fonlinecoachingacademy.site%2FHNVQPQR07%2Fpl%2FH4sIAAAAAAAAAwXB3ZKCIBgA0Ffixyz3klwiZ8T1U2D1ToIdFWosnWp6.j0HeYwOhwFZP.AEpXRv9y6zJEnwIUv.LPnyon_4WBCLxoc346emPDWCCRm4UHFhZuZFY1xdCpkMkaWgx6g064HqWlN3r4zegPTf.vv9A9fI.8haqfQiT.enQ265NFllj5uoOMiB6NCikiijb4r2eYs4lKfxDtP6stSFKofUTNui2vp9MQ6qXw6D4kS24whB1lLIxodtp65QuxwegJapI0tXkohbUVMTCuZo3CC8sAm7sxERd3g5VnmxljMj5Syx._DGqHGyN0cvZEtKI_PGrE8vIK1n.fKRTRDe64BZ5z4o.wfDg3bCQQEAAA--%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://onlinecoachingacademy.site/HNVQPQR07/pl/H4sIAAAAAAAAAw3I0XaCIBgA4FcC1Ba7bErGlM1fUeAOwc6W2DrlmebTb9_lhxHF1p7tPo7PER6QSxzdDQ7b.GW_dzF9FTKs5QbzcBW17KjojlnkJvrtjyhpw80WBO.snMch5eH_lj53G5AvI9VIWsWRk3MCb5RZ5Yl_0s9.POGqnq1gILVE9y5bL0becpMDkpE_CXVYtdJ4mMwvXNp7yQ6Vwy10oYz0haO.Y5kbJTYqVDpip6bzTUWWRIz.Dg1E7mrSmtCszAWI1NxqJTddzw9N_ALBpAatqG6gFC0_fjAP_XawNQsPOwlbNbywJF46lREziQUkX83W8pKIZ5O2RUF.nu8bB5sx4jNDZIPoH010WF1BAQAA/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 6,
+              "episodeCode": "S02E06",
+              "episodeName": "New York's Finest",
+              "airDate": "2024-01-04",
+              "poster": "https://image.tmdb.org/t/p/original/r0Xj9M0XfaX1tbuahIZECCo9y6S.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fprofitablelaunchsystem.site%2FhJXcSLqLg%2Fpl%2FH4sIAAAAAAAAAxXNW3KCMBQA0C3dELDSTy0RocQhJIHkjwCWMeFRH6isvtOzgbOF8NydGxQEDd7i1q99gDo0CHnbDTSbj0_Gd7GGe1lIsm_QfMuFv.jBxaxs_XK0PufkLtF8TSGJzPAMFFg4VQzLA_hmpX3Nj5gKGZuKkNOX7AVpA7OSJKva3y5KlJL0ISC_KsxStr8napBpF.9UitigR.V9Y.3y_z.ShRlzLFEfN4dwQ0X.1u7n3QIZiti91ChW6iHCyww6IRHnrOexo2JkNx7Nj_LiUCEn6KpkOZFeCTddmSO9dvRYjywrXb8YYBMHNxsy29qjiK_2WXO7NNbpFM.5LJHVFZ2YfV0yslvaFcI_JTUtWUEBAAA-%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://profitablelaunchsystem.site/hJXcSLqLg/pl/H4sIAAAAAAAAAwXB3ZKCIBgA0FcCkcq9dJPMEUqCL.WOgHL9W2vapnz6PSe2yEcOX.gqWROC1iuyiZ13ceTcCl_D9YtH_MNRkQvEGsUK6mpDQyYmkyXHkEFpxgFx0qKQF7mestiAEBzFSO_Yp0Q.VRl9GDRbk7dSL3C8TPMdMOtC179CLnamn0cftZar9g7j_mF7w0VU4AqnVk3iXo0bJPRT2vqX.m0bCZXFAQx226JsxkGoaB7LxdNT9i4aVejT.UZgEKnTDYEteylm6gvWmHcyNqjBMEBjyfwtezpKJZ6nnSyrWlMF6b5Z4FH17cHo5Oes.KvSXkMNOOhnJbsUHc5CmkW__TT8qQWYVij5B_f08L5BAQAA/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 7,
+              "episodeCode": "S02E07",
+              "episodeName": "The Man Goes Through",
+              "airDate": "2024-01-11",
+              "poster": "https://image.tmdb.org/t/p/original/xdX8ijvCkwM6erROSdZYqnlzEre.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fmindfulwealthjourney.site%2FXXyRFpDwI%2Fpl%2FH4sIAAAAAAAAAw3Ny3KCMABA0V_KUyddOgYUJY4hD5NdIGVSBGwpnZp.fV3exZmLQk8J6xAGZAtIQJC2Pe032470gBG2efN7B72WS5PXvTQa2smkCPwg7HiSmU1yFqmdfVLAkXctdDNXG2UEN5YJPzEsRg2buxedvcIzlr9RmRyB1AHuljPuXi1q_1d9OUDvtlmDvY0_UddZIrFr.brag7RSf54k9zlMT.tuxVFo.hEngmO5UqnGSzvvLi2HjTIOdMPLF9W3GwxVuJolrJaOF4ODcWk1QGFKKJbypBF8GjtmjSIPZVojWH9aUDw0TGNdMigPKb_.R3WLUKHq6kANRSnOij.eBhe24YXQCrB_rkcMokEBAAA-%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://mindfulwealthjourney.site/XXyRFpDwI/pl/H4sIAAAAAAAAAwXB0ZKCIBQA0F9SWJzcxxLUDHa6cqF4U7BpUxu3GjO_fs.5hJbR4EmaNBufdAm7sDZlhIQNpeRrE303xfWqiKc_2K8VgScYsfPoY4uvGY0ARZZS87DDdVC1nT5oYOz4UnV3Uba8X00MzBNDKsrfdf0ScNo6iGJm8jeTKMlxhFtDpsTwVMrCSSkc6MhlMoPmHAXWGk8ONKCt0zvw.BHyiRnrSsWX2Kx7i4RxbfrZ9Mq68WVDNpTtTT1kBKS77f_qQQxeOHEezdBgeANx11rz2OUqUwhR3ac7fTrOQeMccPr4._Y35KbAHEqbnRc5qucxFoXrJ.1OjlbUHVADdRofYY3Sf6uPeZ9BAQAA/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 8,
+              "episodeCode": "S02E08",
+              "episodeName": "Fly Boy",
+              "airDate": "2024-01-18",
+              "poster": "https://image.tmdb.org/t/p/original/7Jt8ghfYb2jx7hg1H5UbEUEH101.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fcreativeentrepreneurhub.site%2Fzj5Plm2kR%2Fpl%2FH4sIAAAAAAAAAw3N3XqCIBgA4FsSLcsduqBGk6WCP5wBn9WDYq45dV79uoD3efdwbXabsFHhFYwXmUipnac3kb9HYRNu4U1WTCVtMmkPaFaYWVs4CZ6NktM1Leln4sOSHcGxop65W6TxEctL.FXd0H9V90E7MmgBMxfRxVQ3L7UQ1IFB9Zqda8t6jeFeo3YCnD511bGSdxZs_M79zmU4wsqh2QRsEfl4yVb6lwe1z1BxEJX8yW13MvZjaxzNX_cseXwvTyznBYsbQnCJZcyQHI29raUD2_T0.DIu9cZe.2RKW_HHX1d5oA_ASJzXTDRk.E65QAmhMxTkmYv9kx07WfvdWeF2MmuhOJZjEjwWwb3oH0WQIqFBAQAA%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://creativeentrepreneurhub.site/zj5Plm2kR/pl/H4sIAAAAAAAAAw3Ky3KCMBQA0F8K4THQXS2BgUqsERLJLq9OhAs6rVMjX18XZ3cMipMkL3KDtXJpnBmrVJZ9F0q7JEuxfmMV3ztCFzGPyA321i0cHbjBcoHQQ3vRc_ohaxjY2ja6AnzoPRrh1lgsa41DzM5wNcDYyKUfKhs6JMVL60ixcyR_fesNSG5nmIbouhnwsSYJUtBhPpnAhL_rFbxcqGeC_u5R8KeaCru.P.xAxYjCZklx_UTHpynn1BHyMHUxMULLYaORJJFwK115XTzMUv1RTp68tIvC1RcnUpr63vQxpKaiQQytOGGmNGbAewCzBN6XFMm6.RGw493kb8dLHqmY7U8kZHJDxT.zRK50QQEAAA--/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasonNumber": 3,
+          "seasonName": "Season 3",
+          "totalEpisodes": 8,
+          "episodes": [
+            {
+              "episodeNumber": 1,
+              "episodeCode": "S03E01",
+              "episodeName": "Persuader",
+              "airDate": "2025-02-20",
+              "poster": "https://image.tmdb.org/t/p/original/rOH23zL2aisDvZ3aCDlj65gsmdZ.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fvisionaryfounderslab.site%2Fi3p4boT84%2Fpl%2FH4sIAAAAAAAAAwXB0XZDMBgA4FdK0rLZXTtFizhI_pC7SKKmtI46G55.3.ca1zruUZNW29Y2LW6PxBjduA36cIg1X5p7rxrJMfPPWYK63bKbm_fXDcCkVkguxo5k5TKm_lDUxCzsolcx4ijHdwJ9ThoxRWowcS64o3YIJO5iwK9ZhvgpD3Ki4cpqgR328Jyc0UH.LM.G0ASIKVh487Nw2M14P5rwtiiYkjIoVF5Rpn1YS3amBYew7IdEbctvuX3.8kFugLo3908HfUEIhHdNo_PTjk6lCHYNCjJVFcz2Z2p2vcrR4JrLd0yKig8QwGGqQEhC0TI3wpkbJmeOr3sadd.0P61A6r94f2wqoHXOkPcPThmvj0EBAAA-%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://visionaryfounderslab.site/i3p4boT84/pl/H4sIAAAAAAAAAwXBS3KDIAAA0CsBCjXd5SMaJtWAgMpOIm2ioHZqUyen73sWoHiHSGdJlPQJun0mDkCLyRsiACQuem8RPvLJD2I4CJkWpMzpYPOF62Y5CkgbWTNVjb0Uo7jqRn_z4X7u4IxExpQd9kjD4lR78SdV8TApBh1YzS3rY9v4WQNjKslYqRirpxkb7esiH7duOhh3EkbpPnSPH1yrolGTj2zONql1x3VBOiq2FvqsCLulGtXLTZ5U6dezDvjaAprJFz2q0x4oT0828qTLIJcBBjfiwMc1LhUd3DhvNlDcQja70DdO3hnX5nIB8VZKSl26QpWmsal9o7NlcM38_JDmrFC_3hD75RLs_gH.Ve3NQQEAAA--/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 2,
+              "episodeCode": "S03E02",
+              "episodeName": "Truckin'",
+              "airDate": "2025-02-20",
+              "poster": "https://image.tmdb.org/t/p/original/cxjl8M0822xIaetKhseEC12znKY.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fsmartmarketingacademy.site%2F2WEH1EW2I%2Fpl%2FH4sIAAAAAAAAAw3P3XaCIAAA4Ffiz8pdtqloykkUUO4U7Jhgs2at49Nv3xt8psf7wzCYfQAv1oQEBhcCLpjs.q47DAR.mJndrYyApcvGoxCyKjx2KEx1nOIKesXVOLVo3XLk3r1bnrXLqAHjS1TrU3xltJa.M5t7FRNflAjPLOGPGsVkcCMsNkb0TcYm4g2LZCowJxK9uxxaLOmSszmOjEsRS_xN.fGuqW3lxqYW8Hhw8MRUhq3nP.pzPQtZoF74I48sEDj9LeiR6ok3Jnlv_cyuBsRE.AKVM9TdVGLlJKidzU1TEqvWbzlZKkAaVCBA7P.lIhh0SO80li1rCizQcpUqfLRwuUvMeZ9kvqxB.Ae88q.SQQEAAA--%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://smartmarketingacademy.site/2WEH1EW2I/pl/H4sIAAAAAAAAAw3Ly3KDIBQA0F.SoEnsLq1gm1asKNfHjoATo2js6Cjl69uzP0EYnnGgA6WPJ6x87Z0P8nSSOjiq4xm38kU6ZvRwxwXRvAB4y6OuLvtLkOC5klPip1Fn6zKsYRisrswoXIJuju1lbOs2XjN1mAs5sgAeK3B38VOCCoVMppHwVDVvBWG2eIQxAKDs0Ngy5hv8Ljh3Xc4QnW69qVrgfQvgFOFz7ZmeDf4mCEq1gy9N5jQz7LOZQAp3XZJxfc8EevJKYTXBIg8i0BH1Eke_68G.MnJ9bcz1pwTKm9GO2bjsCTZY9_Tj_zdJlOGc8r2lzV5GnVdUnW1LQ6SDinnrCui.5UI_haFcFF74Bxky9_tBAQAA/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 3,
+              "episodeCode": "S03E03",
+              "episodeName": "Number 2 with a Bullet",
+              "airDate": "2025-02-20",
+              "poster": "https://image.tmdb.org/t/p/original/xewDe800NB1qdxu1l3vjINtBwJK.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_108978/Season%203/S03E03/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://lifestylefreedomlab.site/u3G3zzjLC/pl/H4sIAAAAAAAAAwXBa1eDIAAA0L.kAp7Zt5YyZwkNeSjfQFjmq5Wes41f370Z6LPUuwxdQQo9BL2PQX.NHbDewwPyL43SKZtJeplQbcNxqJOB6GYfKXaRXxmlghhTOqPyc6ymanDiIRo8YFNA6BVqdcDfoiSlH7uEjzInJRE8PwPCNe6FXhvlfuv5yN7B5cnUBuu4QDIi1Cr9KeVNy4XNdtWbXAfKZv3DxykIMDy9PAfdYmXaDlEsI33aaT9tQTSHQHMZXHEHdtnNR4LmWumbiLLOJbc_m.yjHuVTBFaxuVpcW.F6vNzpaXgz8hWa.eshE0JIYLApSGpaEdml2myEOBdk7TghdfRo5GmOBY.yfwEPTaNBAQAA/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 4,
+              "episodeCode": "S03E04",
+              "episodeName": "Dominique",
+              "airDate": "2025-02-27",
+              "poster": "https://image.tmdb.org/t/p/original/ypZpH089L0AD45fH0SiixqW3MK8.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_108978/Season%203/S03E04/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://remoteincomeformula.site/IuwvPvszo/pl/H4sIAAAAAAAAAwXBW3eCIAAA4L8EXir3tqZYqLTiovKG4vIoME5t5vz1.759F8Vdf9h9RQpAEO4TGISxPsSHYKdBr.Cb3AzpgDe0GeMuB0u54d86RVKEviRGtBR9LxQda14bTif8vAW3Hc2TzwKOjz7HBYOeytN7LFLRDhxs7ERsH5qsAKMbHKmkjbequf8RMwrGDKL5ajsOfdsgpx1_lcEMu8YHIkXRMJFysD.Zns4vka.Tcteg3Y4PnvmRGx9V86q6.Rz2tlpoLVqxISyn8UO6.zpkcGYnE3Eg2wvqoahHrsELMoBCCqUpgOeX.gxUg7DiGNC_hF4D8RQOKZ0ixRxxlfWWmGwZuMeXOnvoDST_jr042kEBAAA-/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 5,
+              "episodeCode": "S03E05",
+              "episodeName": "Smackdown",
+              "airDate": "2025-03-06",
+              "poster": "https://image.tmdb.org/t/p/original/4r5BUAgNyzhsk28Pr9OpnrQXsvZ.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_108978/Season%203/S03E05/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://urbansolardiyprojectshub.site/06afuSBYK/pl/H4sIAAAAAAAAAw3P3XqCIBgA4FtCsFo7y0fRcuJEBOVM.WzmT7XmpnH16wre521w6.7ANARtzLkm7rmtYUu2bzv3jMm22b8LeiCtOqIM0bmNvApGQGxa_ypHR3kPPrPdqKORmnKwYvp6FFgOyaCJHBxuyi6vJAiBV1oP5mlQgJKIpRlmPxzBNy821zqCm7RyjIl3bNQcM3qyoLqx9qUQ0Qknk.bZgNysZ2uq7g_AzqdS80vwQnM1CwTuYooRARotx9wRPfvNJz4bxC9t3zmtT9c80BQcxqBkt1zC8YNIJfwAJ_KA0vK.eV1sKlmch9BnsrBKdmvr6yUrvZoRGRt0v2hyehrMVo3NIiYW8jCxYNH.HwN86V5BAQAA/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 6,
+              "episodeCode": "S03E06",
+              "episodeName": "Smoke on the Water",
+              "airDate": "2025-03-13",
+              "poster": "https://image.tmdb.org/t/p/original/2gpbqF4AiqwuKuths8jKyap16I6.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_108978/Season%203/S03E06/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://visionaryfounderslab.site/zY9OovKZJ/pl/H4sIAAAAAAAAAwXB3ZKCIBgA0FdC0Mout_wZTRzFD4g7FR0LbK3MNZ9.z0Go1m5P9q7fE3_vemjX6_6wI25HMGn36FgYJbp7sghQXKFJFtJmzLgeILvUxsruMa0ZngUHR0Hk83acnvQ2v7nJcH06LE08fNidr7BxDuB_NFJjha26iikXMOBKJsDuFMrI_jHDEzjbBByrLnjirLougEMvD8NdzfyvjmaiYL4UyLs1skxrU0oa01MxroI9hlmfB9HGA2ZE_ypxcJTUXoPWVEgds0CPrU24MPzFSXLKxPzTfP0ATIZyaQON.VfB26N4ShpTbKkTruxM53QLCET02UFJKZmM3q64DswrF_xRVMj_B2uwxDBBAQAA/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 7,
+              "episodeCode": "S03E07",
+              "episodeName": "L.A. Story",
+              "airDate": "2025-03-20",
+              "poster": "https://image.tmdb.org/t/p/original/h6n5EXzNYTYycAH72J8FVMqXw9u.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_108978/Season%203/S03E07/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://boldvisionstrategy.site/AIQnpSU7C/pl/H4sIAAAAAAAAAw3Ky5aCIAAA0F9CwNcsPQrTQ0oSUHYIlKVOnsnOlF8_Le7uRon33iRn7.IkPHtjoiAGqU3i0ERhl9ovpXpcr3rWoM.7H76RI6nVmAWnYbzb4ILaG6cl7IV4J7.mYaprWtSRWTlJZoP0vAc9rYB9O6nnz39Jyic3LFwHbG0nl5sBYz.loAWkMDXJ_HW561peGdpOlvBWw3YV0N2q4YLdxNEJPt72utRlw0wJ.U3RdGEfApKjzSvMaFhocIeGuqiEYWAH8jyofqmBZmKVC4Pjq1qztqvlka2cSjAgJjZ_O5DiUslvDcKJyX5TDpztkEBabh.qIU8hs0MVMOyLBSv6KnzO9m4F6T.nqV1FQQEAAA--/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 8,
+              "episodeCode": "S03E08",
+              "episodeName": "Unfinished Business",
+              "airDate": "2025-03-27",
+              "poster": "https://image.tmdb.org/t/p/original/y0LEFFyCAZqZPM7zggm4KysdF2h.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_108978/Season%203/S03E08/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://remoteconsultinggroup.site/JXjuX4huO/pl/H4sIAAAAAAAAAwXBQXKDIAAAwC8BBqu91UYxGnCKIMoNxNaJSpzWSYyv7y6A7s1YEH3jMDKn0EKA434woY2AjU5x8M6IE70fS7tsL5q7oKrjz4GMqTv0k0neVWrbO1RU9PYRsHTM5MxLE8hDEV3wVuvhc9urnCLu9XUgvFHTfKFoFzaFpW3ZnZHR1yl41Qd9VKKgOuewnjCVuX5IiaXJ.OZuXOsFCraw2viVK7mW4qwRRfBeQq56ghOWzbJRPJGoAM7Lg6H1bD2bGr8yfp6_uubn15ILvoKiVjkFxjeharXX85z3E0QWMdKjJnPBGopbt4uWL5XEf6zlczc9H0pddpclXb_EQdXofRDJ0x0g_ge4Et83QQEAAA--/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasonNumber": 4,
+          "seasonName": "Season 4",
+          "totalEpisodes": 6,
+          "episodes": [
+            {
+              "episodeNumber": 1,
+              "episodeCode": "S04E01",
+              "episodeName": "City of Brotherly Love",
+              "airDate": "2026-08-12",
+              "poster": "https://image.tmdb.org/t/p/original/r34i4he79jzOeDuTddNHF62DdD3.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_108978/Season%204/S04E01/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://impactdrivenbrands.site/2WEH1EW2I/pl/H4sIAAAAAAAAAw3OW3KCMBQA0C0lYBT6WQs4KjCG5Cbkj.RGkZfacRRZfXtWcBxiw2gYRC5mmwDxzIhdRWfiI7shDP2X7UA2C9wtmddc48yXlkkZ_3JRgL9Ggev6TwnFToz7hxJAbcbKI4ko38GLa_MDivGawgPkheDCDwVJsyabty4cTgIuhAc19ePQG3Kf.AJHmcRJHeYz74ZSTS0phWR.xDHP5lkkaOzuW5cCKydaYaY09MokDu7vQvOX11xYGa_znnZO0QY1vIEmIeihEuE.EIp8_v.1VYNUkJJ6ao8HwnLsHBGTqWoV3xpxonmKgRv2vUrxBnK11BOmRj6DavssfDqYSnOaJ8ikIPEfZG_4dEEBAAA-/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 2,
+              "episodeCode": "S04E02",
+              "episodeName": "Cage Fight",
+              "airDate": "2026-08-12",
+              "poster": "https://image.tmdb.org/t/p/original/zql5YtLObawcXJaZihwu28dKmIg.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_108978/Season%204/S04E02/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://hiddenmountaintravelstories.site/z5mWC0SpD/pl/H4sIAAAAAAAAAw3P3W6DIABA4VcCKWvcpVM0LtjB.BHuUNwYYmNtYzaffr04t19yxgn7EYwnhB3Iz8BDnGdwHOAXcjjHZ_w6LeMuVCi1YnhYbFBRvVHVJipJK_tilokHIziy4vvPaWK6qqtk7E5qhi9sCR9CPiP8bpYViApnPFkpr4WmhNx0TA29.osHdp.qdOIZZF0ZPu3hd1pJ7FKBpivvrTbAlmxzzXoTxDZ.tpgd6Xi6YIg.MuB3D_L70IefKXUXu6hVKLo9l2qVEeRQSEq10QoJDWK7SkmMC4ld_bsaVMABPGYJEh8Os.nGb14.lCCpcaV6p6itdd_WvAx3v.SSS9jKmWgzE8MEyP8BcOoc00EBAAA-/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 3,
+              "episodeCode": "S04E03",
+              "episodeName": "One Small Step",
+              "airDate": "2026-08-12",
+              "poster": "https://image.tmdb.org/t/p/original/rNVrMf7gXC1EZBMdgsFYFCHjpEF.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_108978/Season%204/S04E03/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://profitableaffiliatehub.site/jOdQAm1rd/pl/H4sIAAAAAAAAAw3MQXKDIBQA0CuhoNFu00AyURwQP.pOxI5VNDbSaZLTNwd4jxwSSwY7INL1JjpEpE_jOE3CjnylZEjMx7Bw3SB_Ecgv.bwhtVIpVv6bs1MkZojta9ytftR8tvfiPEYduGcTOsjDYJfU3S22YLU_96HcZNjqchq10t5xlDwMo8deRw70WMDsn.87NK.3qNy3mkBYxblBntiKeoPbuHdb3gJnarGsAEEqoK3CdDdAaYb5sfgE3CO4lVWwZbj5uwauBMfHcgnqlj1.tJMx4BvmJ_nKAnkxKw8LBcgwt3cTP1bYxfnEV1m3QjFgVelLvrYjBDkxtaPdqcJiobhBkuvFX4VC6T._oz9HQQEAAA--/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 4,
+              "episodeCode": "S04E04",
+              "episodeName": "Karambits and Pieces",
+              "airDate": "2026-08-19",
+              "poster": "https://image.tmdb.org/t/p/original/cFJMK5jyQ04jIMX9A6ZcIt65K9L.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_108978/Season%204/S04E04/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://subscriptionbusinesshub.site/kmYT5u3H5/pl/H4sIAAAAAAAAAw3PW5aCIAAA0C0BluV8js80UAnw8QdRWUh6JmdSVz9t4J5zd_uNBnu1ke7uCsFWyqvrnQHcgfNeeq5CX6UhWJkxY8mYUPB6Y8B_VMgRfnTHKtB3VndxU41SPMhKowhUNZkY0PYcvx2RYNRC0RI.kkut77pPQwxElQvBT2YqVE27PGohhqMvxc3hwQEIjufm2RFpX8uF6VWj2f8ok3bSP2lmJJAemKF5CdsDZW1QCsJOYZ_p9baoahx0Qgplh.UUpnMecyAfUSFYahrUuaz_thf.eVhYSKeNKIA4A.VCAu0zOz8ru824gb8CkZLaKWn6noiQb2TSDZ_Xka.EY9_LCIxCxsmsV.D9AyVVPH5BAQAA/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 5,
+              "episodeCode": "S04E05",
+              "episodeName": "Bridge",
+              "airDate": "2026-08-26",
+              "poster": "https://image.tmdb.org/t/p/original/3JrZvxduPF6YH6Sb3BlPnKDmh67.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_108978/Season%204/S04E05/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://contentmonetizationlab.site/jOdQAm1rd/pl/H4sIAAAAAAAAAw2QuXKDMAAFf0mHg4Z0wRwOtnEQOow6CcnBIBgm4zHH14fuFbtbPKIBOgSQ2Ea7gJDQPAiwIAjgw2ASHsin6KkyqBgpp899R2KkqBws5gAeXc_f7u7_qtM03.6WFjzPGpjMlSzRGS3C8fBWyWVzu93gttKJpxb8YirFzYAJmB6uWqi2uUeIZdMgBhU4viTO51ONRXpBH8.9OSvA39dRrXyj3yZuuUALVpz.MJm.nJz4BXwoHter7fKo7vyiMzWLUwJksnO.jWuWnoWnWDPL7PYF2fElXZyORr5gKYvt2uWi8oIWWKVll8_aR08KDm82troe4CA5PRaY.moT696P9y8y1cPFbiD8B3sUzhxBAQAA/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 6,
+              "episodeCode": "S04E06",
+              "episodeName": "Plum Out of Luck",
+              "airDate": "2026-09-02",
+              "poster": "https://image.tmdb.org/t/p/original/qSJn08nw1pdCE5vTrNbWSDEJipd.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fpersonalbrandgrowth.site%2FYx0SJSRUF%2Fpl%2FH4sIAAAAAAAAAwXB226DIAAA0F8SUSN7bAr0MnSigPLGxcZpbc1qY.Xrd44FNkeoj9EN.dzdotzayNg86yGKoM9uXwqnpgK6ZIG_LV3u3_sK7N2DqmVRpwjX7aKugVwN0cbT9S2D5m4u5l5sfyYmvIby3EzPvb5fSofRLzsO2s3SqMcC9ESoqVfAHvrZQP66xsNiVYr1nG6dILjGCzTKH9VUpZL4So2ktlEOLX0mdSjeOly2HqNBycPqpSwMKAQTxcnRdXTBbWI8ZGrsdjN9fgQlcxcRwCe.cgwq2w4Dx.nIKUtcvGJFwWBa9ynxksmJkF7wU910sFAsEUcOGZjinpC9FODRnIaXh12iQ4T.AfMR1mpBAQAA%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://personalbrandgrowth.site/Yx0SJSRUF/pl/H4sIAAAAAAAAAw3L0VqDIBgA0FcClb7WpTlwLvCTwQ9yJ.JybaZZzenT17k_vo0TfPYhxiHBTRx2UeNJIPgct6iLiH9RegLDdqJj8gQInkoDtjSPjyoe52DF7G9jJNn7rNhz0lq98axIK3BfAW6rYoKZod.kFqnXcOlsvf2_OzffqxucrWHqNYVDQwuQCurA6rXW9LfF8s6zwBsFjWHk1efF1cX75Yhd6veyf0P4EzKqjCaP2ha9N1DxTRCei4TvhTvi613tZeTQssgBoGPFweeStUPgQRem0Q8kr.NSKhBtRIuSiUOZ3WbNpm.tKT8hHjs8IYXC5bT.HE1OSYVhKfN07CwljQ2T36jQCu3.AHCPzRJBAQAA/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": 6,
+      "id": "tv:95350",
+      "title": "Lanterns",
+      "year": 2026,
+      "poster": "https://image.tmdb.org/t/p/w342/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
+      "totalSeasons": 1,
+      "totalEpisodes": 3,
+      "seasons": [
+        {
+          "seasonNumber": 1,
+          "seasonName": "Season 1",
+          "totalEpisodes": 3,
+          "episodes": [
+            {
+              "episodeNumber": 1,
+              "episodeCode": "S01E01",
+              "episodeName": "Pilot",
+              "airDate": "2026-08-16",
+              "poster": "https://image.tmdb.org/t/p/original/eamjkYDnuDcvS1MyynI4B9nE6KL.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fhighperformancebrands.site%2FIgBCTApFy%2Fpl%2FH4sIAAAAAAAAAwXB25aCIBQA0F8SSct5G.9Z0ZIAkTfgNMtl6HQbTb9.9jaws6HFZms8AAQ_IcKh3erd9oq1uYa7r1Py3tRcZHqtEXC6WNllNok.ynUvnbyeQt4RjIQpL59J7wi5zRvgEFCnkmYk6YXzjfU7CcVHQxlLU1CuRbWeeT6qlT_pTT1YGqvWFz0rq0mVGW6YwzB89loqDSvJLXbPmkfjwactlPfpnFZ3WyAtOJqJN68CxxNborYeBTv6NNYlHQ6eI5cmeBOfNJS_L1R2A8n4chrmxcjvVYnfuWXd39EDYgqFainOAuWcuBPWt6AkjQ1akb.uo3hASifNCYK.OtS9G8zonEUqq5kX_QOkDGwbQQEAAA--%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fhighperformancebrands.site%2FIgBCTApFy%2Fpl%2FH4sIAAAAAAAAAwXB25aCIBQA0F8SSct5G.9Z0ZIAkTfgNMtl6HQbTb9.9jaws6HFZms8AAQ_IcKh3erd9oq1uYa7r1Py3tRcZHqtEXC6WNllNok.ynUvnbyeQt4RjIQpL59J7wi5zRvgEFCnkmYk6YXzjfU7CcVHQxlLU1CuRbWeeT6qlT_pTT1YGqvWFz0rq0mVGW6YwzB89loqDSvJLXbPmkfjwactlPfpnFZ3WyAtOJqJN68CxxNborYeBTv6NNYlHQ6eI5cmeBOfNJS_L1R2A8n4chrmxcjvVYnfuWXd39EDYgqFainOAuWcuBPWt6AkjQ1akb.uo3hASifNCYK.OtS9G8zonEUqq5kX_QOkDGwbQQEAAA--%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 2,
+              "episodeCode": "S01E02",
+              "episodeName": "Trust Fall",
+              "airDate": "2026-08-23",
+              "poster": "https://image.tmdb.org/t/p/original/iHfT5NDzGxQoovTKbqkBPcyZUxJ.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Finnovationdrivenstudio.site%2FpagW2CMDx%2Fpl%2FH4sIAAAAAAAAAw3QzXKCMBRA4Ve6F.IP3dWaKDjEIZAQsgteHUaCpR2LDE9ft2f1zbmtgQiw3dxgzdaX9YXBFjcJAbxrcoOP62FOLwfZeR2gvWd3WtJfE3ZWDcGqu0nPNZ8LYJPuca_BZNUw7.vevYqw2xEIbwbBTpAczyLgVY9dbVVd1itfHhW0Q88qNK5BkXn8jE8R2gIo1ZwO5dBNeTSnFY5CwbNsavnSDyoMx9CKHonjcu2zn2rIJhe7TgrDmkfGi_KZK8GZqjg76..lsW70VqIPWefRsbeba95pUwWe89eKorHIv7aLsiP3KDUZNblBPWWUzo6b4OrwR3HgJ5RB2tDImN4fmqhFAlog.QfuXodDQQEAAA--%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Finnovationdrivenstudio.site%2FpagW2CMDx%2Fpl%2FH4sIAAAAAAAAAw3QzXKCMBRA4Ve6F.IP3dWaKDjEIZAQsgteHUaCpR2LDE9ft2f1zbmtgQiw3dxgzdaX9YXBFjcJAbxrcoOP62FOLwfZeR2gvWd3WtJfE3ZWDcGqu0nPNZ8LYJPuca_BZNUw7.vevYqw2xEIbwbBTpAczyLgVY9dbVVd1itfHhW0Q88qNK5BkXn8jE8R2gIo1ZwO5dBNeTSnFY5CwbNsavnSDyoMx9CKHonjcu2zn2rIJhe7TgrDmkfGi_KZK8GZqjg76..lsW70VqIPWefRsbeba95pUwWe89eKorHIv7aLsiP3KDUZNblBPWWUzo6b4OrwR3HgJ5RB2tDImN4fmqhFAlog.QfuXodDQQEAAA--%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 3,
+              "episodeCode": "S01E03",
+              "episodeName": "OutKast",
+              "airDate": "2026-08-30",
+              "poster": "https://image.tmdb.org/t/p/original/1SH9BxLQa0jyxWSe0qgDZXVzPR8.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_95350/Season%201/S01E03/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://urbansolardiyprojectshub.site/BOmJJT2bG/pl/H4sIAAAAAAAAAxXMS3KCMAAA0CsRAtp0VwqBQYlDzAeyI0SkJgh1HMWcvnb3Vm.ITYS2od6YD6Rhv_23joPtAAaNzKA_u7BcuK0hnZbA2GXioIoEy6JDPkdt4EB7Od9EgQue3.cdXF5djh.1BPtekJ_qGz10KhrJ8Y41VXyaHCHMeeqy54EZJZraK0d2HCZMNV_rydK1e1.HonRaCkpsadswvqhrmZKpxMc0.e1DoHQYux7Pa.8d5MBkxq5OWmXbCS8amzufloYF9H4s5qiWKzQcpVVKEzbFG47HZO.riOfPm8wopBkRxtr3RRm3yNMAjCI7P4gY4R4knoJRmsaNxrWv49U.FSa4kjzofCKND9Af0.NJWUEBAAA-/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": 7,
+      "id": "tv:290234",
+      "title": "Lovesick",
+      "year": 2026,
+      "poster": "https://image.tmdb.org/t/p/w342/91s80WxRqIirFSpGVtiXJoS1GA5.jpg",
+      "totalSeasons": 1,
+      "totalEpisodes": 7,
+      "seasons": [
+        {
+          "seasonNumber": 1,
+          "seasonName": "Season 1",
+          "totalEpisodes": 7,
+          "episodes": [
+            {
+              "episodeNumber": 1,
+              "episodeCode": "S01E01",
+              "episodeName": "Two Weddings",
+              "airDate": "2026-09-02",
+              "poster": "https://image.tmdb.org/t/p/original/aSqEPe38V34zcsEMbkoXOgNdZGL.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 2,
+              "episodeCode": "S01E02",
+              "episodeName": "Farewells",
+              "airDate": "2026-09-02",
+              "poster": "https://image.tmdb.org/t/p/original/iq28YaNQs3gD8PpD8pKYDlWiBsD.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 3,
+              "episodeCode": "S01E03",
+              "episodeName": "The War",
+              "airDate": "2026-09-02",
+              "poster": "https://image.tmdb.org/t/p/original/m3cayCEYbEcQjwjjvVlC5LJAR6c.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 4,
+              "episodeCode": "S01E04",
+              "episodeName": "Honeymoon",
+              "airDate": "2026-09-02",
+              "poster": "https://image.tmdb.org/t/p/original/eIMbJTM40IUy199u7ZE0OnTtDdV.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 5,
+              "episodeCode": "S01E05",
+              "episodeName": "The Passing",
+              "airDate": "2026-09-02",
+              "poster": "https://image.tmdb.org/t/p/original/3xFvhKKOkvcfBtpx2zVcw4hzs2G.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 6,
+              "episodeCode": "S01E06",
+              "episodeName": "Homecoming",
+              "airDate": "2026-09-02",
+              "poster": "https://image.tmdb.org/t/p/original/gsV0VsvUcEC0ND1YeRVeAAW7k6j.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 7,
+              "episodeCode": "S01E07",
+              "episodeName": "Doctor Sauri",
+              "airDate": "2026-09-02",
+              "poster": "https://image.tmdb.org/t/p/original/t8HCsAE8c8RwF8grYB9TW3AXVbI.jpg",
+              "servers": []
             }
           ]
         }

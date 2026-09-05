@@ -580,10 +580,15 @@ function expandSelectedSeriesQueue(originalQueue, remaining) {
     episodesBySeries.get(item.seriesId).push(item);
   }
   const queue = [];
+  const expandedSeries = new Set();
   for (const original of originalQueue) {
-    if (isUnscopedSeriesItem(original)) {
-      const identity = urlContentIdentity(original.url);
-      queue.push(...(episodesBySeries.get(`tv:${identity.id}`) || []));
+    const seriesId = isEpisodeItem(original)
+      ? original.seriesId
+      : (isUnscopedSeriesItem(original) ? `tv:${urlContentIdentity(original.url).id}` : null);
+    if (seriesId) {
+      if (expandedSeries.has(seriesId)) continue;
+      expandedSeries.add(seriesId);
+      queue.push(...(episodesBySeries.get(seriesId) || []));
     } else if (remainingByUrl.has(original.url)) {
       queue.push(remainingByUrl.get(original.url));
     }

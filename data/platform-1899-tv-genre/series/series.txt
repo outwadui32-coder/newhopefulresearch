@@ -1,7 +1,7 @@
 CATEGORY: Platform 1899 tv: GENRE
 New Series:
 TOTAL SERIES: 1
-LAST_UPDATED: 2026-09-05T06:58:25.861Z
+LAST_UPDATED: 2026-09-05T07:41:17.374Z
 PURPOSE: Strictly for educational purposes only and not for commercial use
 
 
@@ -33,8 +33,59 @@ Episode Name : Pilot
 Air Date     : 2026-08-16
 Poster       : https://image.tmdb.org/t/p/original/eamjkYDnuDcvS1MyynI4B9nE6KL.jpg
 
-SERVER-1: PlayFast
+SERVER-1: Ultra
 
 Quality       : 1080p
 Resolution-1  : 1920x1080
-URL           : https://highperformancebrands.site/IgBCTApFy/pl/H4sIAAAAAAAAAwXB3ZKCIBgA0FcCDVv30kk0N2hQ.UDuQNyxwp9payqffs8ZfIJjkgzI7QdPdj7FCfbpb4ySxO37Pv3uKbuf9XJvrjx3YHbnkkZ1yOo6.iJCPYpWctbexs9ZQyPaOpP5beN0ffbSlK40OzuRQlzhz.nj5lpDjKY_QpkOJoqaKTylSpNmqmWDlpeQIPxMxzoSL3YdY4fQh0GPuCKFLdbYzebFJQErTaV0h01eXfxUH1k5PpwimQzZOlweT4urY4cMti0j7sCXVtHgb.nBq_Rt5iCEer.hrOZ2Cx8Xwd3qrHQQNtAAJ4SJiMPYKC9OyDBehKibfABNY6WzxUMWAcqxQKs1G0r_Af6zeyxBAQAA/master.m3u8
+URL           : https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fhighperformancebrands.site%2FIgBCTApFy%2Fpl%2FH4sIAAAAAAAAAwXB25aCIBQA0F8SSct5G.9Z0ZIAkTfgNMtl6HQbTb9.9jaws6HFZms8AAQ_IcKh3erd9oq1uYa7r1Py3tRcZHqtEXC6WNllNok.ynUvnbyeQt4RjIQpL59J7wi5zRvgEFCnkmYk6YXzjfU7CcVHQxlLU1CuRbWeeT6qlT_pTT1YGqvWFz0rq0mVGW6YwzB89loqDSvJLXbPmkfjwactlPfpnFZ3WyAtOJqJN68CxxNborYeBTv6NNYlHQ6eI5cmeBOfNJS_L1R2A8n4chrmxcjvVYnfuWXd39EDYgqFainOAuWcuBPWt6AkjQ1akb.uo3hASifNCYK.OtS9G8zonEUqq5kX_QOkDGwbQQEAAA--%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D
+
+
+SERVER-2: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fhighperformancebrands.site%2FIgBCTApFy%2Fpl%2FH4sIAAAAAAAAAwXB25aCIBQA0F8SSct5G.9Z0ZIAkTfgNMtl6HQbTb9.9jaws6HFZms8AAQ_IcKh3erd9oq1uYa7r1Py3tRcZHqtEXC6WNllNok.ynUvnbyeQt4RjIQpL59J7wi5zRvgEFCnkmYk6YXzjfU7CcVHQxlLU1CuRbWeeT6qlT_pTT1YGqvWFz0rq0mVGW6YwzB89loqDSvJLXbPmkfjwactlPfpnFZ3WyAtOJqJN68CxxNborYeBTv6NNYlHQ6eI5cmeBOfNJS_L1R2A8n4chrmxcjvVYnfuWXd39EDYgqFainOAuWcuBPWt6AkjQ1akb.uo3hASifNCYK.OtS9G8zonEUqq5kX_QOkDGwbQQEAAA--%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D
+
+
+Episode: 02
+------------------------------------
+
+Episode Code : S01E02
+Episode Name : Trust Fall
+Air Date     : 2026-08-23
+Poster       : https://image.tmdb.org/t/p/original/iHfT5NDzGxQoovTKbqkBPcyZUxJ.jpg
+
+SERVER-1: Ultra
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Finnovationdrivenstudio.site%2FpagW2CMDx%2Fpl%2FH4sIAAAAAAAAAw3QzXKCMBRA4Ve6F.IP3dWaKDjEIZAQsgteHUaCpR2LDE9ft2f1zbmtgQiw3dxgzdaX9YXBFjcJAbxrcoOP62FOLwfZeR2gvWd3WtJfE3ZWDcGqu0nPNZ8LYJPuca_BZNUw7.vevYqw2xEIbwbBTpAczyLgVY9dbVVd1itfHhW0Q88qNK5BkXn8jE8R2gIo1ZwO5dBNeTSnFY5CwbNsavnSDyoMx9CKHonjcu2zn2rIJhe7TgrDmkfGi_KZK8GZqjg76..lsW70VqIPWefRsbeba95pUwWe89eKorHIv7aLsiP3KDUZNblBPWWUzo6b4OrwR3HgJ5RB2tDImN4fmqhFAlog.QfuXodDQQEAAA--%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D
+
+
+SERVER-2: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Finnovationdrivenstudio.site%2FpagW2CMDx%2Fpl%2FH4sIAAAAAAAAAw3QzXKCMBRA4Ve6F.IP3dWaKDjEIZAQsgteHUaCpR2LDE9ft2f1zbmtgQiw3dxgzdaX9YXBFjcJAbxrcoOP62FOLwfZeR2gvWd3WtJfE3ZWDcGqu0nPNZ8LYJPuca_BZNUw7.vevYqw2xEIbwbBTpAczyLgVY9dbVVd1itfHhW0Q88qNK5BkXn8jE8R2gIo1ZwO5dBNeTSnFY5CwbNsavnSDyoMx9CKHonjcu2zn2rIJhe7TgrDmkfGi_KZK8GZqjg76..lsW70VqIPWefRsbeba95pUwWe89eKorHIv7aLsiP3KDUZNblBPWWUzo6b4OrwR3HgJ5RB2tDImN4fmqhFAlog.QfuXodDQQEAAA--%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D
+
+
+Episode: 03
+------------------------------------
+
+Episode Code : S01E03
+Episode Name : OutKast
+Air Date     : 2026-08-30
+Poster       : https://image.tmdb.org/t/p/original/1SH9BxLQa0jyxWSe0qgDZXVzPR8.jpg
+
+SERVER-1: Ultra
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://media.vidrift.in/tv_95350/Season%201/S01E03/vod.m3u8
+
+
+SERVER-2: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://urbansolardiyprojectshub.site/BOmJJT2bG/pl/H4sIAAAAAAAAAxXMS3KCMAAA0CsRAtp0VwqBQYlDzAeyI0SkJgh1HMWcvnb3Vm.ITYS2od6YD6Rhv_23joPtAAaNzKA_u7BcuK0hnZbA2GXioIoEy6JDPkdt4EB7Od9EgQue3.cdXF5djh.1BPtekJ_qGz10KhrJ8Y41VXyaHCHMeeqy54EZJZraK0d2HCZMNV_rydK1e1.HonRaCkpsadswvqhrmZKpxMc0.e1DoHQYux7Pa.8d5MBkxq5OWmXbCS8amzufloYF9H4s5qiWKzQcpVVKEzbFG47HZO.riOfPm8wopBkRxtr3RRm3yNMAjCI7P4gY4R4knoJRmsaNxrWv49U.FSa4kjzofCKND9Af0.NJWUEBAAA-/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8

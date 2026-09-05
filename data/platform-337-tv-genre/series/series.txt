@@ -1,7 +1,7 @@
 CATEGORY: Platform 337 tv: GENRE
 New Series:
 TOTAL SERIES: 1
-LAST_UPDATED: 2026-09-05T06:58:25.861Z
+LAST_UPDATED: 2026-09-05T07:41:17.374Z
 PURPOSE: Strictly for educational purposes only and not for commercial use
 
 
@@ -37,14 +37,14 @@ SERVER-1: Ultra
 
 Quality       : 1080p
 Resolution-1  : 1920x1080
-URL           : https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly9pbmVmZmFibGVpbnF1ZXN0LndlYnNpdGUvcGwvSDRzSUFBQUFBQUFBQXdYQjBWYURJQmdBNEZjQ2NadDJ6bTVjazdJakRnVlU3dEJfaGhPYnBiUGwwX2Q5VFdkUVp5QUFIX2FFWUJPRTVub0lPbTlQV2tMOEEzN1JXNzdJMHYzeUczdTlLcGh6d1ZmbElxcEZoR0RZSmEwOEkwT3RMWERVaV9KejVTbzVLU2Y5Zkp5OVVqQ3VDUHRqYUVMcEZfQ0NUbXN6YWxfY2JBWUl5eUtHYjRhZFM0bWRQNUNtUUpsWHlxa0daNWVVaGoyanowdEtsNVBlNG9ralBlY3F1b3ZOU2o2b1J5bmpSRlp4ejBmM0ZBNzJXWlZRNVpKRlNQdmVlRURUd1QxcUVubkd3UzUxY1ZaVWsyb0h6TTFiX1ZOdjhWMFhTOVo0WWMxTEhGMzQ4ZmdQaFE4WE13a0JBQUEtLzllNTIzYWUxNWI2MWRjNzY2ZjVjODE4NzI2ODgxZWNmL2luZGV4Lm0zdTg_dG9rZW49ZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SnBjM01pT2lKdGVTMWhkWFJvSWl3aWFXRjBJam94TnpnNE5EZzJOREV3TENKdVltWWlPakUzT0RnME9EWTBNVEFzSW1WNGNDSTZNVGM0T0RVd01EZ3hNQ3dpYVhCZlkybGtjaUk2SWpFNE5TNHlNVE11TVRVMUxqQXZNalFpZlEuMnZKQWV3cDV5czhYbU56SGFCNTY3X1FrQmJ2Q3M5dzRobW9oMWhZUmNWYw&s=vidsrc~Oh-oByVHlIZlwRbdt_sA_J_E50z&k=p
+URL           : https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fprofitablelaunchsystem.site%2FM32Umneor%2Fpl%2FH4sIAAAAAAAAAwXBW3aCMBQAwC3xUqF_VSCUGpCQB_AXufGkEpCi1sjqO9PvLsq5BF4YbC6Ogl2g_DBUUbh1t5Hju_LjjG4vYNxyoU8s6zd9TBrZQKkGYxmDoI77hZmcwgDjcS1yKuy9MvunROGGCOsRV.eUfgaVx.8wRN_czPveaNL6MKmMt_WqtTL7kWTpgk2O2pHbMyctfj9.ZfzllofIIwyoTApUIPInkGbYwMjdmfJ31OBJF703XxWyRhqeQaKt5F1CXXIrG1JKkdjeqxbBYMI8FXQiT3wtanUtDop2AieRw1ze1GZeIHncuUeOck2fani9y7gbwcF.xWd2bvSDIjhVE_wopiucprpbnegfUfRysEEBAAA-%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%7D
 
 
 SERVER-2: PlayFast
 
 Quality       : 1080p
 Resolution-1  : 1920x1080
-URL           : https://profitablelaunchsystem.site/M32Umneor/pl/H4sIAAAAAAAAAw3M23qCIAAA4FcCFJe7yxTNlaUCincc7CDYZ4ct59Nv_wP8sNcIeid_tToFAcDYB_KEPrAGMtQyUPqzG6qDbsjQxLkTIEy7mMtmKO5V.vI0jwJjQyrcNNTA3Xu3_qGIHCrIIb2GGXNkpC0ZlYXQNHjHb1u_a4tWD_lLJitYJ2JW47zRqBASFZB5EStSMh1SnChQHUt49mriEmrxL7PTltbhQ0HyYjBahC0o57xVbjrKjLgvNEcqdu8SXiRjEzHxGov_jSZ5SV3xTbPzmy_dYni1l40r1a177tD86Gl.UUMJzCa8sPGJ63H_oO48U8QFh8TbQ9OVLvJ55ioF7Ltaormn5MYsuZoFhH8cni1PQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8
+URL           : https://profitablelaunchsystem.site/M32Umneor/pl/H4sIAAAAAAAAAwXBXXeCIBgA4L.EkKm7WxMpS5qAr.adSDst1FjH8uPX73nw1Q_wlugWBSFusQ6DDULhT6ixZ7aINB8lg.M15kuTGM8wfxAVHEsWdde4JZxlkyndXaLxpb3a1_CJoERvvQp5rnZCxOakWPKqrRO17YjG06bsZ6to2uh91zRDopQHpCweU074wHtzacllanuLajquJ5QmguwG_RvNEm4V2FG2NKpVbJzAfg.xKAR1Sq3pn1TZU5DbCh6fSuYs70XW0Bk4zRfBsqfEM2gMcU7y5Swjbmw6wj17Nop_1Ul6kBT5BXXfuYzYpWs9cU88tURFXqVvs4eDZqMDSOSZ3vYcpY8cnK1XFP0DJ1.nbUEBAAA-/9e523ae15b61dc766f5c818726881ecf/index.m3u8
 
 
 Episode: 02
@@ -74,7 +74,14 @@ SERVER-1: Ultra
 
 Quality       : 1080p
 Resolution-1  : 1920x1080
-URL           : https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly9nb3NzYW1lcmdsb3Nzb2xhbGlhLnNwYWNlL3BsL0g0c0lBQUFBQUFBQUF4WEwwVzZESUJoQTRWY0MwVVdYOU1aR3NWcnBSUHVMM0Nsb3lIQ01waTd0ZlBwMWQuZmlPMG04Sk5NU2prUk5TNHlKVHBZd1ZGRTh2bUd0Q2NIaC4wUTFQZThTR2l5TkNyNkQ4MTZpMmlZQlI1SXd1MmE5R1BhMjROdHMyYWFGTEs5T2s0cmt0dzZ2dE92cTM3SGRhbFUwXzRaT3ViOHJrbGJjOHNmUWwwMkZVX042c2xjRE9PNUguMnhhbXZ5QU14dTNfblBLcEJfd0NZSHpYeGRoaENwTXgzZHBBSldYV2FTYm9vbGpOTW9sNUVmb24xc1ZsUGVLc0xIdVZqYlpOV0pRUG1aSW9SYjZwQndqYlBWSGh1UnRDUElyOUNZRHNGZ2hoRDZhdy5FUGJxRGI5UWtCQUFBLS85ZTUyM2FlMTViNjFkYzc2NmY1YzgxODcyNjg4MWVjZi9pbmRleC5tM3U4P3Rva2VuPWV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSklVekkxTmlKOS5leUpwYzNNaU9pSnRlUzFoZFhSb0lpd2lhV0YwSWpveE56ZzRORGczTVRNeUxDSnVZbVlpT2pFM09EZzBPRGN4TXpJc0ltVjRjQ0k2TVRjNE9EVXdNVFV6TWl3aWFYQmZZMmxrY2lJNklqRTROUzR5TVRNdU1UVTFMakF2TWpRaWZRLjczQi1hcEdiTGxfR2JkUUo3ckZHaV9qUXQ0T3pLckE4bGR2VGFiV0RscEE&s=vidsrc~Do14NCPaSvkDdWqQpUV9rR4ZUar&k=p
+URL           : https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fsmartmarketingacademy.site%2F2WEH1EW2I%2Fpl%2FH4sIAAAAAAAAAwXB0XpDMBgA0FdKYtra7cSUJobk1.RORIugvn6qm6ffObVvjvhgj6053BpD2lMboCPx8OFkb9jc8KeQ5798gpjPvBeTXRTi6QUBk9MiTHVHRi4bXOEFu.7FOD4UGd9Az6Su1pTRxzurrGr64Et.4x_RB6rwlpJFXV0iqw3he0Z9r4BEqjmJmthKHo6DiPiL7ZxlkSPM.YO58iVF.SYnm.Zzca1jvepKES7HVz5rJ7GFDDpahA7rgV8MSjZG.apDPpqYPouwG.XgPIuAMOk.uFvXEvO4JDmBWdMGdQns0Zkh.5SwRK2ws5L.Jit4Mlr8gouEHZK6jO9eGRYXIbRuY_nOBQr.AReJuPdBAQAA%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%7D
+
+
+SERVER-2: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://smartmarketingacademy.site/2WEH1EW2I/pl/H4sIAAAAAAAAAwXB0ZKCIBQA0F8SUDf3LdtsY0JHvaDypkKxKWbmaPn1ew7RAamv3ld73bW.W..Q4yDd1PW10Ri5WH833MyFiFZpvRezcpWYZhLoU.KeyWicWmTSGlSfn.h22VTIbH8BcvMgOr.hiGpVhqkk5o_jIEx.FeTH2AerIO7ErPrKrVDoJbz7AGeLOgQ5E_HM79VUlDesBT3wglrJ0fOyZaW.Z50cRqJ_DGL5bs0K6QMYy1BFeJG.BVZuO2QE7saruhXVp_kTlyNNIFvizjNqGBGDdC1OzE3F6KfDkWgeTxzt37GlfmZfC4seC8MoTgR3c0ecWWlkg_YT_6GfzGk3eYwsdO8HoAjk5gT_P2fz60EBAAA-/9e523ae15b61dc766f5c818726881ecf/index.m3u8
 
 
 Episode: 04
@@ -89,7 +96,7 @@ SERVER-1: PlayFast
 
 Quality       : 1080p
 Resolution-1  : 1920x1080
-URL           : https://digitalnomadventures.site/uCYTtwbCY/pl/H4sIAAAAAAAAAxXNzXKCMBRA4Ve6BKiTLtXgT0ksMTcx2SWAMoiMMo4gT1.7PJvvVPEZCKkX9SL9KuPgI3pOqhoWwddlCIF.l2u59WjffqtdCdPBEzrnkVwqM7mDeWbHtsklNu.itVAa3YQ2u_q.a02vp6JziSPZIygbixVFw2hhsYz9bAdFqtmZZ6eVyBErLfrqJW4p92RPyk8hm1YOmw2Hy8RR3O2RFpIlA7ZyOPZ7ww3l6gap2cj0_63IOGjWWQHPpOgylhMem3ZJ.Cnb1KrqBYxjYM3Dtft1WGvloev5LE.iF8xqPiLQGeHj6h3BazRodERGF.Bk2gYYp5DJmyLiUbP7r5.XPx7YCxXQP6ey41VBAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8
+URL           : https://digitalnomadventures.site/uCYTtwbCY/pl/H4sIAAAAAAAAAw3PQXKCMBQA0CvxA1LorrEEp5U4gEnq34UkDoVggyNFPX17g_c0WGfThIDJHMRJ9pKAhbPJ0iTVMTlnr1qGXguceSEXQ8TVlfn3Ma6IEwaqL1mod_rTlVZ3LPzykkv7RFrFPjIizI3KH12ULwLCoMXm5naNwgGvfBTksHtbTxPgQYZFT33qBrN2Kug94NaNm6U.et0yiS3hi5O0UYKDIL025E540fg6uq.NYh.nge2R9Q8EyuSlTzvCx1aGshqTRBSyRtLMRgaKjJ040FoOSC2ItVb45OUtaT29_v_0v5FU4qbwYqCbrBeT3X8CPVjRpxbCRnofcLxvj0w23LMZLyHCZ5T_AYyhmLhBAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8
 
 
 Episode: 05
@@ -104,7 +111,14 @@ SERVER-1: Ultra
 
 Quality       : 1080p
 Resolution-1  : 1920x1080
-URL           : https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fhighincomecreators.site%2FGOsQFbDna%2Fpl%2FH4sIAAAAAAAAAw3HXXuCIBgA0L8Eon3ssgmWG6.V8DK5Q7CamnOtZ5m_fjt3hzZ0TVwcM7d0pzqOWCCn4ON4yU7Jom5WLwWCaQwlfhCy2MKbJiOUndiUWxiQYWx5SA.kmrWQrFa2BJ4nPrKuyTxRPX7p_rL_f1pwOzmC2ZHnrsaNLXlOK3VB016o7I6vQYkEZv4EM_2EWcSS33fv1BJ4rqJCnH8lHSsYuglT3Ks2MJ3lGkxvPE92Lrt_FployzZPD0NvQg_fKqsm4FPXDPkerzjXyjOMoHN8umIvRhvlECIxVgx5iR2RxmpPYVdofZN65D46Do4dZ_txJpJZLbebm.5BFhgWmsNDXh.RVmT9B0E_S9xBAQAA%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%7D
+URL           : https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fhighincomecreators.site%2FGOsQFbDna%2Fpl%2FH4sIAAAAAAAAAw3OzXKCMBRA4VdCQCpdFghOWi4lCRdhlx.YCAFtbUebp69n_82cdIyM3stDkkxJECWHZ2qc0mT3MpnpEOnXHiHUOez1ajsx0z8oYW3Lnxt0cJfFNW7n4WZc42vC1o_gkfXCfkI.yPFEA4NwaQJSa0IzPuO1x.ZhdvbcFaZ.j0g2uEG0K_AmpGeFbpMInG.YccE6vVUhE_ir1osXJZ5YZDdzbOLx6KwqLVcEoufTm86rWJyWGHJGZOnOzdNLYf.axXzVHQ0ZT.mwmLsJcVEz80gck7NJZKG98m0oEH3bOiKOZumDW6w3oGIGWq1toLo0wtktY.EKsaEfSsj6zvZVmQ6Sp9_GB.k_BLWngkEBAAA-%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%7D
+
+
+SERVER-2: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://highincomecreators.site/GOsQFbDna/pl/H4sIAAAAAAAAAwXB206DMAAA0F8qvejwzUjLAKmhN1jfSstCoGCDM277es.BIQ8nDP0ERwcmCNDp1ZMcn_AVuWm6oje52EsbZ9PTbxjo7VeCH.ghK7o4V21WIQETDTpuX0V8uMF049OuUtfDyOqbZqnu9kBEyWcBmfElxg3wuF3M3haGyJIpu4luXKJrQEh.JaRBNn7CjHlVZZcsObOINK530y.caFqv7mwfDtylyKIya3qRKFUdZMQjQwNIqR3esUT8sJmVwrSHWsPsi.45RlEqYCq3zXt_jiQYQftePHzUd_2RNxdl07gxyxF9qvKPSCVkGPgREO85zaXbwotcxabK2.xo2nURD61A_g8nlKhUQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8
 
 
 Episode: 06
@@ -115,11 +129,18 @@ Episode Name : 6TH QUARTER
 Air Date     : 2025-10-28
 Poster       : https://image.tmdb.org/t/p/original/ymn37pd1ZzRXcPdyqkrfifmukG2.jpg
 
-SERVER-1: PlayFast
+SERVER-1: Ultra
 
 Quality       : 1080p
 Resolution-1  : 1920x1080
-URL           : https://remoteconsultinggroup.site/PhLyBsOA1/pl/H4sIAAAAAAAAAwXBXXeCIBgA4L8EuDyyS09oc_maH4BwF2BhknOrNevX73kIGdzmFJ0osXFMXUwtRslxM5gYDUkSo3eZNw_DwqSCWiHHQU_6WUewaxj.lizMVqSdvMDYdJAbXhzlxXsr6QS9k0Z4YQLbVMwpjpfaZFmpyO1p0McP5NobnJZudkjkOK6kmLrdOTJo9d3Wsa69vTU5fLmrLvY4rVxvHxUT0PL1IBAttEiLmt8LECET0ZkA8qNDbm6zYq_kJqt7S2C87y1ZKj3SMGxdpHCWVv3Cga.es0UJLOo2LL9idi8uEwLX5cn7tG5yStyrKeTs63KCTzVNkSU4uJ3_K69ohT4cWqJL_UL0HwpPInxBAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8
+URL           : https://media.vidrift.in/tv_247168/Season%201/S01E06/vod.m3u8
+
+
+SERVER-2: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://remoteconsultinggroup.site/PhLyBsOA1/pl/H4sIAAAAAAAAAw3O0XaCIAAA0F9C1Dru0QYZBiYINN4Q5lwyD5vtZH79dr_g5kOfve8KX9i9dykYMgCHXeHAvh96lxf.xeEW6JvL6mexnKFZOeKwTfmbgQQz5CDTp028.otShApAdgy3CQ30yYPH5kZKLvNTh9SFV_GiZqx15Y1QEXYyfmqJlZ1w4iXNhUa5CjE7Qz7TqyINKhYT.K.omDXotNnpnoqZPGygP7Zij0aNaz8luZnUQfwfGFitS5ShM5n5lDSyIkeTBs2P0TrEVifZIpLRGMgfrCPR4PDdqpCewcdWp56qbTx4XFKnx2s7l0.JohYVAjVYtuYYx.bVS_uFS4tNXm_43qUxMxso_gCksaanQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8
 
 
 Season: 02
@@ -138,11 +159,18 @@ Episode Name : 7th Quarter
 Air Date     : 2026-09-03
 Poster       : https://image.tmdb.org/t/p/original/dKlSsW3aHYdDREGzqhuMiYZKkqs.jpg
 
-SERVER-1: PlayFast
+SERVER-1: Ultra
 
 Quality       : 1080p
 Resolution-1  : 1920x1080
-URL           : https://contentmonetizationlab.site/jOdQAm1rd/pl/H4sIAAAAAAAAAw3K3XqCIAAA0Ffix1buLlI0_cAkBOVOpL5Scs1aOZ9.O9fHhm3bhmgFWgDwGawtPn.4bgU2eN2eN2jzaSBBXQUHu3vepKRUjPexlFxaoH54YnrpRV4k7qYjNnf9HpXoOTFKAj0I0izbQNJuZaJqkRF9O7wNipTgRmezVNnEEjiZWkXHYXVwdfeW0lQiFYGlGZRQFToW38Xu.cu8mrQXX80wt847oaMGNIuvWEq8rM3ejlneju7y_0BFyavsKbM6wKfUEXULXrLODhbNDb.GROjHVKL7wmP.MNDMZiExT2B6pP5XjtWUw.6lsLvyVC2yusQsaoIc32HV8ysDHumEwyOl5NSrSylB.AfCOwulQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8
+URL           : https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fcontentmonetizationlab.site%2FjOdQAm1rd%2Fpl%2FH4sIAAAAAAAAAw3O0XZDMBgA4FciRGuXncS2NnFIIvx3CCeHUDu10T799j3BF0UtiswJRYM5tWc8nOIw6lHnN0PYDjjCb4KWBLzjBvMh5Qt8RiiXZPevAX8abapmNKqv.FHor6BZiCeem2wqZ2E0U_OxeprAhfvumy_3IJ9j3i3lS0.PsFUhYtKlWYptibatQN3eiM0BtSz38A.bt5ch9J5V_L2XUEPJDj0d_117GM0Jm0GwheddinXpOFyfsTOJGfkCdyUvkiUwt5T_9tRMoFfSziYX4uxnCX9kdNWdKotMwmeWrhOkvgSF3Q3loUCWCfTAprSHQuFezNsK07ob4t.KpA5aZy1XAPV4oUp68R9zoAkAQQEAAA--%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%22Origin%22%3A%22https%3A%2F%2Fnextgencloudfabric.com%22%2C%22Referer%22%3A%22https%3A%2F%2Fnextgencloudfabric.com%2F%22%2C%22User-Agent%22%3A%22Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F124.0.0.0%20Safari%2F537.36%22%2C%22Accept%22%3A%22*%2F*%22%7D
+
+
+SERVER-2: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://contentmonetizationlab.site/jOdQAm1rd/pl/H4sIAAAAAAAAAwXB2XKDIBQA0F8CjJ3QtyZxCUlJwnJR3hR0rKLj2Gmb8PU9x_tdR9u.a_sepw57hxtCOtr1b13a7xF9vyA2ugkqVeqnQunOa6abki1eCeSLb2xmelBhGEXOoktgA5Je1Qk0LwejZn5pjc1aAwnEjwiE_imNmcwot5Iio6B2p2zjE8Atwz8mhLWDQ2Jm9pIGGx9zJgxXUNmTyxBRy2odGY7NNFxUUm.dflag6kTOAV8jJ26BQut1cXplFrNZL_ZuDMyPUUy8zFNZsUQWVgIaxiYPIAn7aubhXuPwy6PebhkEfaSijqJwo91ZzTY75i9O2LmtfC2m8PKIffJqOHM4rA.F6D.F.meuQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8
 
 
 Episode: 02
@@ -164,7 +192,7 @@ SERVER-2: PlayFast
 
 Quality       : 1080p
 Resolution-1  : 1920x1080
-URL           : https://boldvisionstrategy.site/z5mWC0SpD/pl/H4sIAAAAAAAAAxXMy3KCMBQA0F_KQ6J0SRt8DbFeSALZxcQRIdBIHcW_r92d1Vmm1KZ2RTxLlgn1J4aJO58dcosVcQ6zj_NX1pS5ih49cROM0nV7PaHIQXNkhvR.HC.TGj2uan_To1vsEUxVLfbHLmwVFw9B40.xfk5S95Pi5gFUFILuQOqkeduKV6qOMm9LEpmjwEUVmN2YrFIRSWm2huMb5GYAmeP_F4bLq5Htp8X9LMcQHQ2FHML.kBttCNxLHb9Nnf36TQxAVlPRp3kz7jCsZ.7rtiuJ6v37slU4CIkZ8JmpGrKmv3euj8agnT3IpD11rdbDbP8AZrhhJSEBAAA-/9e523ae15b61dc766f5c818726881ecf/index.m3u8
+URL           : https://boldvisionstrategy.site/z5mWC0SpD/pl/H4sIAAAAAAAAAw3K2XKDIBQA0F8Crk5r37oIial2ClxU3gQ6w8QlTtLE5evb83wSDz4JjhGfEgIkOHgG.uQ7zzrwWeJevvecOW2gEqt2fZHLs11LIYn5iFUJOUiKm5.i9uRXdmdkBgpT87D9_1EbZGqPd4OGK8gXT2Rlm3moz3HpDjxRtHhoM19lz9Mgjg87yVHWNFHIMSAuFcu4MpbLybRfjbnpmq9.rN4t9ktJ4l3tr2APuNfNMClxATf0V.zTrRNBO0YfHc73EwmdB9zLwR6NiElL5fKjC1JCvOgxvIWJT3VjiOM9bWEmddNuiHZwAlMnUvVJZirH2.pGu.rdRM3mi9XV6URbYneS_QFGp_KWQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8
 
 
 Episode: 03
@@ -175,11 +203,18 @@ Episode Name : 9th Quarter
 Air Date     : 2026-09-03
 Poster       : https://image.tmdb.org/t/p/original/7YaGFkgxmYerPRSFRrtLqFkb26T.jpg
 
-SERVER-1: PlayFast
+SERVER-1: Ultra
 
 Quality       : 1080p
 Resolution-1  : 1920x1080
-URL           : https://profitablelaunchsystem.site/yhqxaIjWt/pl/H4sIAAAAAAAAAw3Iy3KCMBQA0F_KA4p06Yg8lHQIuQncHRAp0wSHKlbq17dneeIu3u26gfCOx1HI6Gj78b8IH0ca2yh6Lw8.Q_DesvWhjLzjvCS9WxdwLW_nTdegtw7ENLgVtT7OHZ2eqrELvIpvcd075a2wTcI.0gXOFOvStAFoUQ5ukq1ZTn06Sc3s6cwTroi.SbMoSe7BcMVAZAOz6f15SfElTUGFX95aFlbWhLk0UyO0ONgrUshsCw3mpfKV4sXRujBE.KTKABHgHwDxVhFRC9A3ofNNH_Z1NR_TIV2n0hS3mtnqkuFv6XzewzOAL6xtEmPLPEUSdlLvZ0zDQHH8KZ149LOejE8ovkj8B4w5XdlBAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8
+URL           : https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fprofitablelaunchsystem.site%2FyhqxaIjWt%2Fpl%2FH4sIAAAAAAAAAw3PW3KDIABA0S0hxFT6aX2kaWEqAip_CEyJYuI0mcSw.mYDd859G9GYJRpnDkHkYLbfZUlm9zs3QpMajd5ZtzHX06vpaGkg3YhYJyZXbs7iqeAGmDRRPnE00AtSrbnsP3dy9pLO9sNN6qcV_sqXdKOFR6ZkUc9HIRb70If5rs8hN_LYqSI_SXEB9BAODbInJxLyHdlmyiqy2v8JFASp0y8qVs8nuUiAUycegHNPbRU6DfBlLIe7mn4RA6wlZWjHekCsWh.q8KksKGWBpCTYQaBjJOUN6i4sDc8V7.kytBjwhCYEKs2D3fPaD0aoJ3992ZeFzXhtuO0J8ldZsZstm1fLDyoC_A9d3FQHQQEAAA--%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%7D
+
+
+SERVER-2: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fprofitablelaunchsystem.site%2FyhqxaIjWt%2Fpl%2FH4sIAAAAAAAAAw3PW3KDIABA0S0hxFT6aX2kaWEqAip_CEyJYuI0mcSw.mYDd859G9GYJRpnDkHkYLbfZUlm9zs3QpMajd5ZtzHX06vpaGkg3YhYJyZXbs7iqeAGmDRRPnE00AtSrbnsP3dy9pLO9sNN6qcV_sqXdKOFR6ZkUc9HIRb70If5rs8hN_LYqSI_SXEB9BAODbInJxLyHdlmyiqy2v8JFASp0y8qVs8nuUiAUycegHNPbRU6DfBlLIe7mn4RA6wlZWjHekCsWh.q8KksKGWBpCTYQaBjJOUN6i4sDc8V7.kytBjwhCYEKs2D3fPaD0aoJ3992ZeFzXhtuO0J8ldZsZstm1fLDyoC_A9d3FQHQQEAAA--%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%7D
 
 
 Episode: 04
@@ -204,7 +239,7 @@ SERVER-1: PlayFast
 
 Quality       : 1080p
 Resolution-1  : 1920x1080
-URL           : https://modernconsultinglab.site/giwCCAWDg/pl/H4sIAAAAAAAAAw3NwXKCMBRA0V8KQRC6K0NBaYECeS.GXUzASCJtLU7Fr6_7O.fqIKBRHCp_8LUfRNtxHLdER4O_iemo4uhFee1P4xVl5.OiZiw.qPDgLbsNE6wSlkLa5W_gnq13hvVU.4pZos5LgXmAgp4eCGZtZ3dFCG6QJqaakCGgFF5yqNN.RS.zpXslMk3CztmNvGimQRPm69_yEtxKYqCj_V7O7tnie88NPdI.kfxeC0Qi3Nejom1eTv1VQXCGx4nCGnnNtF9bNHZI3SdPT1f.dNs8IpBVnDEsGtJQlfdT9RYngDoUB9Mc10U0tDqLQ9J2cN9JlvA6K1KY0TwfYZe2FonuhC2.tXM1MBL_AwQl9ntBAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8
+URL           : https://modernconsultinglab.site/giwCCAWDg/pl/H4sIAAAAAAAAAwXB25KCIAAA0F9C1CZ727bQKJnhXr4p6Jgpsa5txtfvOSmIt1EDYAubprXbziabBnabNOnSDpq22dlAdOP8LIe9IHA51Q.Gb5AmBGaEjuxUOltc4DslcvloCYI4jjGHy0tOZq2c5UzLmRX2Wd.zPROnteW_s3D43I7kR7u.YKoPvFAHlVeco_HbRngoAwJ1bFKrl1BpM7OR4OqBQT1Fj0qro1JkokHlEvqLVRaLwiOZ25cY0ELAWnPXAzqgYKRfqH7HTSEjAtm5hCmuP1nJJ0b4YBWf0PUc0Ee7r9CiKpCrTShYcy0zZJyPbXSMmSCDifqJKb.5if1T3TNHpK_NAf9RAbJ_45rnR0EBAAA-/9e523ae15b61dc766f5c818726881ecf/index.m3u8
 
 
 Episode: 06
@@ -219,4 +254,4 @@ SERVER-1: PlayFast
 
 Quality       : 1080p
 Resolution-1  : 1920x1080
-URL           : https://highincomecreators.site/L02HE60pQ/pl/H4sIAAAAAAAAAwXB21KDMBAA0F9iw6Xim0qAMpBKSjZp3lK2FkkZ0Vph.HrPSXeR6wmIuZh9RNSnSeiSIGEuIYp2O_Z8UDDpCWpRxCvp340m.Wc5B6Hy7ZCJR80sKO0DnfGw3prVKliIi1KG5Prs1tpSZJeRlNXXHwmvbxTiXQbXhcyA52mtHF_C89iwjuWq91ChisAV2J3NXODb04ZoS6nx7jTdHIjHsauWVu3ji29iG85F40k7bh8dk6UyYhXwAg5tLEGs2sehMh6EGUrHPbRjPpMWpskFdgw13miPI99OplI9S99PjGTN1u04DtORD5vkMSc9S63XLwywOmCzaJN_C.ajy1R9tl2Q_gOhNWtlQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8
+URL           : https://highincomecreators.site/L02HE60pQ/pl/H4sIAAAAAAAAAwXBy3KCMBQA0F_Ko6h0qQYcFJxg7g1khwmKEwS0VChf33N4tQ5Wq8re2PrGax4w4laObqijjtPN.vZdownqOCokv3MAjC2blkrnPC3ac057YhW89SPs1DNoLmw4GZEYZPN44U6cFTJE_GTi_qd9uCqfQ2ke4zkvhqai2VyS6JXSnFwpEMUiqTHnSMKj2WctRltmIfEIY4fUVPZpmNF3BgfTX2M7a8yG2gc_SsilhJ5XKjsqkX4BbV9QNFId2q3ZjZPT_UcL46.LUXnUzKqT79JLWmISaJHsQIwnic1kY79gG50qlLOJ_bss7AwdqtTTXb5PP7VofoE6CXQobOwKIOnkFhL.A4h_aQ9BAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8

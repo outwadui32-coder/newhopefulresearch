@@ -1,7 +1,7 @@
 CATEGORY: Home: Trending on Netflix
 New Movies:
 TOTAL MOVIES: 1
-LAST_UPDATED: 2026-09-05T06:58:25.861Z
+LAST_UPDATED: 2026-09-05T07:41:17.374Z
 PURPOSE: Strictly for educational purposes only and not for commercial use
 
 
@@ -13,8 +13,14 @@ MOVIE Name : The Whisper Man
 Year       : 2026
 Poster     : https://image.tmdb.org/t/p/w342/6UqflU8Qqkz7Dq4swJPqs0ZJjY4.jpg
 
-SERVER-1: PlayFast
+SERVER-1: Ultra
 
 Quality       : 1080p
 Resolution-1  : 1920x1080
-URL           : https://startupscalingsystem.site/BtG0s01mM/pl/H4sIAAAAAAAAAw3N0W6CMBQA0F.iFBT3NhAoVWpW6C32jbaYRsAQ2FT4.vl.knPDe68LAo0tChEybRTg_S6KPNTZHWqj3ReQOJAinTuYcpn3L8Dlm_thpY.q0rl4XVIL100EHdBRoWxSPmKyWpAi7qz61wzjL2PpROXRshMq8LVxcXenXHl0LVN24g2QLiufqpmcGuLV1ry6SEhabAvrZaSV77Z8xAEb6NOkw_TZsNnUagbHNDDfZCrTIpq174oSQ3LegMiaOyDfcykPiRFhzRFd5Bi62kc9T.2dbayo.pBAQzeecySqyNeCroKY.ZIsWCPV__RW2IaNH7dcm_IpHpbYWv2Z9RCb3DqQXKrNO_wDi4kEq0EBAAA-/master.m3u8
+URL           : https://media.vidrift.in/movie_860508/vod.m3u8
+
+SERVER-2: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://startupscalingsystem.site/BtG0s01mM/pl/H4sIAAAAAAAAAw3My3KCMBQA0F.KPLW7diBU28Ry8yBmFwiWmggoDipfX_dnDkLtMWnDY4ySIIptgiJrkrCN7fqYppu0fpMcTB1QIJ8jZVwOfPGdrjbf4OSTKvwow_JplZyJ.nC28A9S3JREMSeZuwP2ppH21ji6q0UsmNOFEeX8erg5.5lmvtICT8T7fcutsvl0lUV3Nn_TTE5NzHqdQACDZDcQoe.I7y6Ni38qD0TnK0XlaGosB13AwKXPdA9jXdlDq2Bn8zKyJ3ttitXjC_mMoe3C5Kja3l_Ecx29TGaxdFrt9iIsrzrH2ybseuDvdxqQgGM9Mf4bgMODQOtlj4HRDIwJ8XBwsqeS5npBm39SDb4_QQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8

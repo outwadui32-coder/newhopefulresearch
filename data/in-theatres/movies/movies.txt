@@ -1,7 +1,7 @@
 CATEGORY: Home: In Theatres
 New Movies:
 TOTAL MOVIES: 4
-LAST_UPDATED: 2026-09-05T06:58:25.861Z
+LAST_UPDATED: 2026-09-05T07:41:17.374Z
 PURPOSE: Strictly for educational purposes only and not for commercial use
 
 
@@ -43,11 +43,17 @@ MOVIE Name : Spider-Man: Brand New Day
 Year       : 2026
 Poster     : https://image.tmdb.org/t/p/w342/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg
 
-SERVER-1: PlayFast
+SERVER-1: Ultra
 
 Quality       : 1080p
 Resolution-1  : 1920x1080
-URL           : https://futureproofmarketing.site/WxX94jG5M/pl/H4sIAAAAAAAAAwXB25KCIAAA0F8SNCf3kQloLHBFLgtvCDWW2jJll_Xr9xzvizyr.hLGM.w99D7bRpBvwLYEAZx9_yVM1UkISgaTsLe0NAavnUkvb.rFXActVk2MIomryTayLQKJSGHwsbOYWu26MHLRKzdYaV8d0bODMSkotFyHp7iO9xNddgKg1Ep0ZOPyLeim1BgIjsUtztX7kGXv0354MAz0EfBZEYJaSF4RE8pN_dR7cnArV_5nOvZUvxmJDzbW1M.pbHY1tXr4VfiTwqXCHAIbaUX6idSBgoKrDdVmsG5eEFsn6W7IBOpIVJ8UacxdJkTA7u7NsMq1bhpc_B1yZNvLkjFTla3Mqn.xKFpiQQEAAA--/0f9b738af906eb91d8f5b3fab14e78cc/index.m3u8
+URL           : https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Ffutureproofmarketing.site%2FWxX94jG5M%2Fpl%2FH4sIAAAAAAAAAwXByXaCMBQA0F8KgwJd2jJIm7SEDPB2kFfqgYCpVkW.vveSYQj3_fcuThBNNyQm8qJ9HMWRN2DQ770XqljLRviq82vYTxB29nyXCjPZ8Gtl1QP8nzubThPLsOANT2kOJ0rKVeSx3xJ303p1sOCbaaYLFaBEflq0yjxY3F.r7aI2cL3IaCXKpZ3dKHIVKGuIkvjkI3_qFGdMvY175sFJ.mAabrgxp3UGEEAFBAsl7doVJuw2JqoNDsYemErdCrPdyQbdp86qD0LXd8_4KMpfCPjZFBywTi58BG2ELXGWl1qiphZpnR2gzo9bHbBcaOpLCaF5jVdG2K6TKKXHZSvUUQqS_ANpf8aMQQEAAA--%2F0f9b738af906eb91d8f5b3fab14e78cc%2Findex.m3u8&headers=%7B%7D
+
+SERVER-2: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://futureproofmarketing.site/WxX94jG5M/pl/H4sIAAAAAAAAAw3OSXaDIAAA0CsBoi926YBDBOtQVHYqJL4EE5paNZ6._Sf44IJR70DnIl0EoXvCDu57B9sOvjgjdtAHjU3Y1YzWLek6wODZ0miYXV1DPg8h8bilb_Xh.SrkfoZMQWGyUs2.8pgbCkjckztu7k_QtMXa6fEtb.lSzeZOo9Ou_EULcl0FMWsVpjHlzFHzXoygrCRKN4YgEGhiwzF9581SSDJ9DkhnSpOfMWJJeSstGS5IcBmL4GqrIBVnsHNOStQf2pPa._960RDwqELylQfebwn2LLO0z1sxq8ZsmSWPoZ0edYNfZyBoSUwigsRWmm_DvHcqJIQ90pxp85bc2ziyMYdPWzSl_qqB.wdf.pKEQQEAAA--/0f9b738af906eb91d8f5b3fab14e78cc/index.m3u8
 
 
 Movie: 04
@@ -68,4 +74,4 @@ SERVER-2: PlayFast
 
 Quality       : 1080p
 Resolution-1  : 1920x1080
-URL           : https://leadgenerationblueprint.site/7or07NZrA/pl/H4sIAAAAAAAAAw3KyXaCMBQA0F8KpKjprijglLSBTGQXeViEMBxrOcrXt3d9XbXG9SYARNYVumIXXDGEpHaYOLQKr5t32keLRXQuBBuFfpYQHpDO7MC9OllJtjaj8wl_L.L1wCzboM_0I2LB0VPtHTVqLE3D9WB7tuPBGT0ahqpZdNOK63ThC9yYGV9OPjgMh_li4rdiUAO0zVl4K6S2o9PkoNu8KRJ7c0v6LEU.AVL2f3W2I3eKvK1w3IDwslbTUyV.CzfyxcLjr.uivmibSGIl8iwaoSej7IKYd9FUeH7PFXi1Yy.aqk7vp5Ehea.TJoZs.hGmDGULK6lZyvvcKnPc2yxB0E9naTwthxLDgsgf..corUEBAAA-/master.m3u8
+URL           : https://leadgenerationblueprint.site/7or07NZrA/pl/H4sIAAAAAAAAAwXB3XqCIAAA0FcSUtNdOvOvSQsQlDuFikT6.Bxt1tPvnEsMk0TFsZTpmF5lEIyJBFMSyyTYJ8FVfhBYQLGwDVkN2uL8ViRlA_H5BOqtnfF6KcN1YtkBmRsUc9a0VL8mGN2JATU3DTtCT.nBnzsoOgpQpXoD1bvxpFpm1uszY8tzAsUng74YD5or2pBhWQJaoZUYx4h1u8n4FVXLwK06jdAzAfAs7_5noNoRqzPVMywqzYlJv7lxGe_qUFUCDPAvaq2LcBD.ClM8jq80PzGdIwMQNxoxu.X4cVtbmmllw5eyoOSlfx7BbcNUtafeecKjr7EcwrFyAltnu17Vsmh3uEvrjgbpP3ULAo9BAQAA/27da12fde31593831c72d852c1926307/index.m3u8

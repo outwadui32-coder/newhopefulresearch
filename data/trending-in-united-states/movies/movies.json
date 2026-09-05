@@ -2,24 +2,34 @@
   "metadata": {
     "category": "Home: Trending in United States",
     "totalMovies": 4,
-    "lastUpdated": "2026-09-05T06:58:25.861Z",
+    "lastUpdated": "2026-09-05T07:41:17.374Z",
     "purpose": "Strictly for educational purposes only and not for commercial use"
   },
   "movies": [
     {
       "serial": 1,
-      "id": "movie:860508",
-      "title": "The Whisper Man",
+      "id": "movie:969681",
+      "title": "Spider-Man: Brand New Day",
       "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w342/6UqflU8Qqkz7Dq4swJPqs0ZJjY4.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
       "servers": [
+        {
+          "name": "Ultra",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Ffutureproofmarketing.site%2FWxX94jG5M%2Fpl%2FH4sIAAAAAAAAAwXByXaCMBQA0F8KgwJd2jJIm7SEDPB2kFfqgYCpVkW.vveSYQj3_fcuThBNNyQm8qJ9HMWRN2DQ770XqljLRviq82vYTxB29nyXCjPZ8Gtl1QP8nzubThPLsOANT2kOJ0rKVeSx3xJ303p1sOCbaaYLFaBEflq0yjxY3F.r7aI2cL3IaCXKpZ3dKHIVKGuIkvjkI3_qFGdMvY175sFJ.mAabrgxp3UGEEAFBAsl7doVJuw2JqoNDsYemErdCrPdyQbdp86qD0LXd8_4KMpfCPjZFBywTi58BG2ELXGWl1qiphZpnR2gzo9bHbBcaOpLCaF5jVdG2K6TKKXHZSvUUQqS_ANpf8aMQQEAAA--%2F0f9b738af906eb91d8f5b3fab14e78cc%2Findex.m3u8&headers=%7B%7D"
+            }
+          ]
+        },
         {
           "name": "PlayFast",
           "qualities": [
             {
               "quality": "1080p",
               "resolution": "1920x1080",
-              "url": "https://startupscalingsystem.site/BtG0s01mM/pl/H4sIAAAAAAAAAw3N0W6CMBQA0F.iFBT3NhAoVWpW6C32jbaYRsAQ2FT4.vl.knPDe68LAo0tChEybRTg_S6KPNTZHWqj3ReQOJAinTuYcpn3L8Dlm_thpY.q0rl4XVIL100EHdBRoWxSPmKyWpAi7qz61wzjL2PpROXRshMq8LVxcXenXHl0LVN24g2QLiufqpmcGuLV1ry6SEhabAvrZaSV77Z8xAEb6NOkw_TZsNnUagbHNDDfZCrTIpq174oSQ3LegMiaOyDfcykPiRFhzRFd5Bi62kc9T.2dbayo.pBAQzeecySqyNeCroKY.ZIsWCPV__RW2IaNH7dcm_IpHpbYWv2Z9RCb3DqQXKrNO_wDi4kEq0EBAAA-/master.m3u8"
+              "url": "https://futureproofmarketing.site/WxX94jG5M/pl/H4sIAAAAAAAAAw3OSXaDIAAA0CsBoi926YBDBOtQVHYqJL4EE5paNZ6._Sf44IJR70DnIl0EoXvCDu57B9sOvjgjdtAHjU3Y1YzWLek6wODZ0miYXV1DPg8h8bilb_Xh.SrkfoZMQWGyUs2.8pgbCkjckztu7k_QtMXa6fEtb.lSzeZOo9Ou_EULcl0FMWsVpjHlzFHzXoygrCRKN4YgEGhiwzF9581SSDJ9DkhnSpOfMWJJeSstGS5IcBmL4GqrIBVnsHNOStQf2pPa._960RDwqELylQfebwn2LLO0z1sxq8ZsmSWPoZ0edYNfZyBoSUwigsRWmm_DvHcqJIQ90pxp85bc2ziyMYdPWzSl_qqB.wdf.pKEQQEAAA--/0f9b738af906eb91d8f5b3fab14e78cc/index.m3u8"
             }
           ]
         }
@@ -27,25 +37,6 @@
     },
     {
       "serial": 2,
-      "id": "movie:969681",
-      "title": "Spider-Man: Brand New Day",
-      "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w342/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
-      "servers": [
-        {
-          "name": "PlayFast",
-          "qualities": [
-            {
-              "quality": "1080p",
-              "resolution": "1920x1080",
-              "url": "https://futureproofmarketing.site/WxX94jG5M/pl/H4sIAAAAAAAAAwXB25KCIAAA0F8SNCf3kQloLHBFLgtvCDWW2jJll_Xr9xzvizyr.hLGM.w99D7bRpBvwLYEAZx9_yVM1UkISgaTsLe0NAavnUkvb.rFXActVk2MIomryTayLQKJSGHwsbOYWu26MHLRKzdYaV8d0bODMSkotFyHp7iO9xNddgKg1Ep0ZOPyLeim1BgIjsUtztX7kGXv0354MAz0EfBZEYJaSF4RE8pN_dR7cnArV_5nOvZUvxmJDzbW1M.pbHY1tXr4VfiTwqXCHAIbaUX6idSBgoKrDdVmsG5eEFsn6W7IBOpIVJ8UacxdJkTA7u7NsMq1bhpc_B1yZNvLkjFTla3Mqn.xKFpiQQEAAA--/0f9b738af906eb91d8f5b3fab14e78cc/index.m3u8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "serial": 3,
       "id": "movie:1368337",
       "title": "The Odyssey",
       "year": 2026,
@@ -67,14 +58,14 @@
             {
               "quality": "1080p",
               "resolution": "1920x1080",
-              "url": "https://scalablecontentengine.site/WnVM9YFN1/pl/H4sIAAAAAAAAAwXB2XKDIBQA0F8Clyx9i6NAtGBEAeUNvcmYaNJM49Tl63vOsdu5wNvvb67tIAgP4NwRHELogPHN38GXYnbVph_kS4ecnfzc2LSMx0hiEoB_npvnNLSVCoySO.W9kXmdA0fEUjyilyU_W.aJd2tgbZ4h40iw65BsrSH0amCRWH9kFbE8JhqopDKxRecdnfUJLZG4aCVSoMs7jzXraLoVVTcD1plI7EP4_cXGJ5TXEJa0wbwaFknDjBsyWd3MvE6_wdhP6c2Ys7GuGBhRR3M59ktepbxk8l6o7ldt4q9VfZFhaTSdpMZR4ka95jHEGR4v_9K8v4QhAQAA/master.m3u8"
+              "url": "https://scalablecontentengine.site/WnVM9YFN1/pl/H4sIAAAAAAAAAw3K0XaCIAAA0F8C0RZ7LKUyxYmAR95M7JBgY0Vn5tdv9_l.YAQhSDACYBtjhPsN2FzxFuJtNCb42n.egbejy3_HjLrOxisXBhbv51JKM_ep3lGo.wIaMgiAalG_NaCCctddgC.q1h_5egIq07eS.GND_GNAFF2gT5rJsHFmVs5LW6XmpefwYpPbs0ndh7RMdKYOAorHAIKj1u_L1fVspaceGSFbE3P7hDzzfSl3C42cqWGeqShPGMpXOrPqYsO9i.pIWQcV0YVYCaRZgFUbJGu_wZDFb0ZkohD5GiaRiMn8fxgU1z_6qBoBwpmDxZZzODDUrYzTQr5D2sp8Vwt_a4hrag7wHyJsdxZBAQAA/acd823efc024116fcffc4b860d60fe80/index.m3u8"
             }
           ]
         }
       ]
     },
     {
-      "serial": 4,
+      "serial": 3,
       "id": "movie:1339713",
       "title": "Obsession",
       "year": 2026,
@@ -101,7 +92,36 @@
             {
               "quality": "1080p",
               "resolution": "1920x1080",
-              "url": "https://scalablecontentengine.site/8DZ5WpsK6/pl/H4sIAAAAAAAAAw3P0XqCIBgA0FcCjMpd9ikuS1zID.gdiM2vYbPlmvn06w3Owas19pEncdxiut3Em.25891qvT2jyFJH3jTUkULqo1gaYUNL9JWBVQ3VIAKQ_seSHsnnJGvMDzUWa2cC10n7V2h2F_ibglamlntSX9SRp2IlgBeAGZeMHeWgfl3mb1btSZVyapkXXCl9iloCz4mUJlQqy4O9jtK9.7vHfeKW5ua_ZiKvAUDWqEvnXTd8EjfMk9Qje2VQCV5XWZjsoA4vN7WLICcIT5nlEw8ikSyfIWsunfISkmBgmFIw.dCg8OB4d3MDPQhIkWNMcKDBabaURsyF2j0gZWOLxrKKeuMXFP8DY6VPx0EBAAA-/26fb49a349eded2679c5c62035131c94/index.m3u8"
+              "url": "https://scalablecontentengine.site/8DZ5WpsK6/pl/H4sIAAAAAAAAAw3K0XaCIAAA0F8K0KV7q5OUGmwyIORNwOYEy9qW6ddv9_mayLjz2oI4ctEZxi8gTc4usSZdp0mMkvUrA3rk4BPYUzKZrzQXYKscprjlmDJxXdlenqwvdNVLUoURNUJ2utcLOxD04b8fLnSoXPTEs.KXKJc1cGy4_8m0xL4dipu4dO9iCb08YPRxKO7lUshqTiABeWT211jiejYhX5ikvVXjip701YQtIgBfhJ9iqigQPYNMMd_KOmJez2.4KEr47Klie_f_6RBP7S7ACo7EComFB7daxKhSlLR8O5vh.RQ7LUkWFBk6X0kdzCWfJGZlLcLDKXw0fHNnanNvQJjt4qGT.ij4Kv0DmdAPnkEBAAA-/26fb49a349eded2679c5c62035131c94/index.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": 4,
+      "id": "movie:860508",
+      "title": "The Whisper Man",
+      "year": 2026,
+      "poster": "https://image.tmdb.org/t/p/w342/6UqflU8Qqkz7Dq4swJPqs0ZJjY4.jpg",
+      "servers": [
+        {
+          "name": "Ultra",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://media.vidrift.in/movie_860508/vod.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "PlayFast",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://startupscalingsystem.site/BtG0s01mM/pl/H4sIAAAAAAAAAw3My3KCMBQA0F.KPLW7diBU28Ry8yBmFwiWmggoDipfX_dnDkLtMWnDY4ySIIptgiJrkrCN7fqYppu0fpMcTB1QIJ8jZVwOfPGdrjbf4OSTKvwow_JplZyJ.nC28A9S3JREMSeZuwP2ppH21ji6q0UsmNOFEeX8erg5.5lmvtICT8T7fcutsvl0lUV3Nn_TTE5NzHqdQACDZDcQoe.I7y6Ni38qD0TnK0XlaGosB13AwKXPdA9jXdlDq2Bn8zKyJ3ttitXjC_mMoe3C5Kja3l_Ecx29TGaxdFrt9iIsrzrH2ybseuDvdxqQgGM9Mf4bgMODQOtlj4HRDIwJ8XBwsqeS5npBm39SDb4_QQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
             }
           ]
         }

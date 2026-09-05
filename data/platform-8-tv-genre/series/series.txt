@@ -1,7 +1,7 @@
 CATEGORY: Platform 8 tv: GENRE
 New Series:
 TOTAL SERIES: 1
-LAST_UPDATED: 2026-09-05T06:58:25.861Z
+LAST_UPDATED: 2026-09-05T07:41:17.374Z
 PURPOSE: Strictly for educational purposes only and not for commercial use
 
 
@@ -37,14 +37,14 @@ SERVER-1: Ultra
 
 Quality       : 1080p
 Resolution-1  : 1920x1080
-URL           : https://media.vidrift.in/tv_236235/Season%201/S01E01/vod.m3u8
+URL           : https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fimpactdrivenbrands.site%2FbBVNvQGOK%2Fpl%2FH4sIAAAAAAAAAw3N3W6DIBgA0FcCrBp32VVwLMWI8KHeqbRhxb_aru18.vX.JKdPdmfbBfEpjs9J0qI4asMoIvGpP6O2j6IPkTkiYXC5qtc.gFWyNADcoz6DxRyo6PwtOKVO1Hiv21SONeGlopx9IzebjBsxpGGxyULreYNqSRW6Hwr9RWrS7HKT5CLQD0D4VVzstb4Ayw1cpV9K8OGvwn4zlZzEtOcFXj4Vdn9ik_cGw2aVfB29.AG27DuNcMm4NyOdoJK0n.zcVLwARNe3GwXBmQqGZ3dwTT2lDyCWCuqcHuUsx_AotF2VGpiFIReYjqKanyUuwtzIvKTWl0zK98i0Ei.NmhsQHlo13JoNJf82DlcLQQEAAA--%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%7D
 
 
 SERVER-2: PlayFast
 
 Quality       : 1080p
 Resolution-1  : 1920x1080
-URL           : https://impactdrivenbrands.site/bBVNvQGOK/pl/H4sIAAAAAAAAAwXBXXeCIBgA4L8ElJm7dAnOxruD8pHcodRRYY01T1v9.j3PJcfOD35Hdufd3g35ZT8OBOfo7HI3kgt6MVco25ombfqbjm1paSBdPVFfwdUT8XSKBq1sJkgxwwJu3CTMY0SSwWxxMt3Vo7HWkW_8w83rw5svZKLWnGjqTv4uVUa5iahddClCcXInPYnQTB2C4ElDfcAcyPamDw21EXp3sMnR9FR1udVoZZIVbx2t7rxba7WAVqjFvabhiBsOmPZnan_cAoK_rumD_RlhmlmQ7F0zsPLTJo8yLAjYgfwiHy0bl5Yp1hK5xG8ly.MYKqJxSlDZI7AsSkOnfmOngYxbJVHxD3Sgqm1BAQAA/master.m3u8
+URL           : https://impactdrivenbrands.site/bBVNvQGOK/pl/H4sIAAAAAAAAAw3O0XaCIAAA0F8SxYy9rSlYKU4QVN6Y2JgadWYr8.vX_YIb.chEne5OYdj7.oQCtIk2kb8F2juFCPZvjOBCJ1enh9IrcAvFIO7H53Yxw0Hm4zRQVwJBWJk36mgqU7bjDBWfQyHtWMe7vYqNony.G4F_WifrzKNMfKCRkgtswTvUk6G6YVC6b58Btqi4DcvVboS8XsoVt7LaBUJc805grPCU98n2yUaZ0tSudTI_eENd7.zEUqsluf3V5PLozzKrzwgUdbhocfisPAW5k5YGLO0JCHgCoUlwcgSGsOpwk2DKDMGvh9prLK2adr_d1AWco4ISfOtjQ0v_EWhvyTIfkK9VNpWAd7V66B.19GoNQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8
 
 
 Episode: 02
@@ -62,6 +62,13 @@ Resolution-1  : 1920x1080
 URL           : https://media.vidrift.in/tv_236235/Season%201/S01E02/vod.m3u8
 
 
+SERVER-2: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://profitablelaunchsystem.site/st6OwScbT/pl/H4sIAAAAAAAAAw3O0XaCIAAA0F9S0Iw9ZoDHghkiBG8q7piY4yy3lV._3S.4PWp30S7pYdcjAPYJyjIAsv6jTZxDKerezgBDBg_A6aAUiHEzkTv3T6b9YzOyxGweE9agwjVibCmOtXKBQfftihl3MBhJ00pNbhro7KUyX_Y65oPnn8zHq4lIzunjpwZjrgoiObZTe5ynFlshqM0HiqiNeck2culpqKwWL9fsEwsJMDBot6lU4zLhE3nv7uuillGIKMQau4pDEk6x8GYrdR2lNzm7XX13qgFOKK1.xVE8jRJrL3vY_F9YQSq54LQGxNdS3Qb8vOjikHSY57VGhmtSnl9rxK4KiGWeax9OFxmhP0cN.ChBAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8
+
+
 Episode: 03
 ------------------------------------
 
@@ -74,7 +81,14 @@ SERVER-1: Ultra
 
 Quality       : 1080p
 Resolution-1  : 1920x1080
-URL           : https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fboldvisionstrategy.site%2Fsv5pAoPea%2Fpl%2FH4sIAAAAAAAAAw3L0XaCIBgA4FcClJW7ixNqemSF_lDcKdDJDI9zW0uffvvuv22EiaXObqJks4mT1rvIbjuP4ivFzuLrO5Cp8RmsBh2ibpCqQfKoAYsmZZ8CPShgN1uS3k0mJ33fzZDzRXMU2T3LHeLUcP6sg8hgL2c7FJkK_2MVBxumI4AhlzMjPntgGKdLrV.0Ct9ZGckacLWo5evVNrIQOTNdPomSxEsdKaz3AnugBxhU6Prk5lLG1chRnacXn8uPSjnqU9FXIPsSP04lLt5aLpS6s596eCm7FoslJm.Q.61ASQ9pq0ZVNaP4VSHGHTrNcE5vZgRcE3W24cbsymjbJ5PWUuhx9xRBNGZFyR8CSqteQQEAAA--%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%7D
+URL           : https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fboldvisionstrategy.site%2Fsv5pAoPea%2Fpl%2FH4sIAAAAAAAAAw3G0XaCIBgA4FdCMY_ubiVolJSC_MUdAs6TztiOO7WefvuuvmGwDhkc9XGcDplFSZJtsjTPs8R7jPvhrZ1DKiq1.JI3Mhp_lVgNv7CDV062Nxu3lKEThMO1462JrtiLXFvQpIHxrilNmsv.1Zf5LCe2FyR7mKUlLWFcXbY_nuSiK_hDU_uQcgtW6Z1T_HzAXNSfUaphTgys5v8VlGOhyBMLssanjhXmprDf5Z2Z7Qam0IFytYjGMxTvsYSA6oo2dZn81ksTy8592WlMLQTsp1GqglUn6nA_b9cG0TsHWmukmUWOdvBcrVJBv_hiiAo12ShBuQbCjnYKjYk.vttlpEc8IfdC.R95BQ6hQQEAAA--%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%7D
+
+
+SERVER-2: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://boldvisionstrategy.site/sv5pAoPea/pl/H4sIAAAAAAAAAwXB23KCMBAA0F9igRTpW5UBipIZQzbIvuXWUiBIp86gf99zzEFnWRrbPIWD9f6QRQysZaBd5CHTX..ETxDI7rIWG5Xu2uGi.0C1CCX4ipEqPphRjRIJH2WBqQEL5lZe3Ope2PPQypHrgga_fsd6zidR5dMAR5LxVnXl2PbYnHgg6oI4a0m_ohiVVC7pVnGmZYS.bhO38re23BaqHqmOtp3m59UE2gw.Zt3zmIpmtKCKLgboA7BOLhNHhg4_d4Kj9KUYZfzES_RozG3YbY2sXd0Rg5h5URZtz5FOfzsq.1RzPoiE0jM0LzmpHwos8Ys6UeRWj.I.JNuLrxRMwjeUUf4PyHWUuUEBAAA-/9e523ae15b61dc766f5c818726881ecf/index.m3u8
 
 
 Episode: 04
@@ -92,6 +106,13 @@ Resolution-1  : 1920x1080
 URL           : https://media.vidrift.in/tv_236235/Season%201/S01E04/vod.m3u8
 
 
+SERVER-2: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://empoweredfreelancerhub.site/BTfHWu0Sm/pl/H4sIAAAAAAAAAwXB25aCIBQA0F8Sb8W85UgppSVy8PKGYLmUYVpdzPHrZ2_VyWvYXbf6uvE17nWPtn4oFQ4d7OtNIL_AagpW.bLeuY3HXtyLnioxFzHCLFE7ZsRH2qFWTK_yiKJvKei7Q_QgBDtlRH00oCl375QhdipGnR49cLqf5SzWBnHbLCIms4zVXP7hgls2t.U2YBDUvBZP7rGgccijre6yBRNm60A7QFU_sUWZIWUEP3m9W0.rTsWBVmD2bmHYAu4wyAoBgHIBcr.o9m1f4lkmWsrE_Cr35khOHrCyS2nzixzzQSfGy1Z2h3107OvJVUSXbKQfSOgB6nRurMkars_FFMRdHL1FYihwB_8DT_LECkEBAAA-/9e523ae15b61dc766f5c818726881ecf/index.m3u8
+
+
 Episode: 05
 ------------------------------------
 
@@ -105,6 +126,13 @@ SERVER-1: Ultra
 Quality       : 1080p
 Resolution-1  : 1920x1080
 URL           : https://media.vidrift.in/tv_236235/Season%201/S01E05/vod.m3u8
+
+
+SERVER-2: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://contentmonetizationlab.site/6PGjsLVO1/pl/H4sIAAAAAAAAAw3LXXeCIBgA4L8koq12Nz_QbLIDwUtwh2BrifZxOun269dz_1i_RjZdo_Wb77FLj9gdU7xy3tnNsU9Q_C5rejMTKEEaUKO.qzKlEGAlhI7MgLjAV8ygKQX5.OsqCq6EGYrAmNxIrdBZHuhzPy65K4lx5aPufx6HTkKpB6jV4TsxxSnqEL_Qqbl1xPxaAjsXsfl1M6h9oCCfQoXcjTIRwRcg6evqlE6ecWzqlmSJKa.5CQO2wTMXBfRVENbJR66x2XkStmLkKy7nRY0JpvFSsTNduLrcbWQqS67CkOy5Fyy2AnI9kcJMhtLKzFC1MY9PexufhjYin666pL1odIuzLUd.JUW0.QfOqyjxQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8
 
 
 Episode: 06
@@ -129,7 +157,7 @@ SERVER-1: PlayFast
 
 Quality       : 1080p
 Resolution-1  : 1920x1080
-URL           : https://automatedrevenuehub.site/wCosQC4lH/pl/H4sIAAAAAAAAAwXBYXdDMBQA0L.UVJyxj1phWsyLvJBvkthM6bHO2fDrd69n2QcJ_BeP.WFITOiZ0PWMedQZ1gXMvdrZ5VbarZppopNC3vawdukQ2SSLjKKkb1CalK8FWaGL_Sdc0OsnzkFS0B7PrWJ.h0tVJlOJdbFX8yDyGZSZNJFfPzT3hptVLra47OLEz3W8jRhPkYvXP9FkGcR4lzXImkBWjajMWCxKZu9wKXIp1rRU2VVwYMjds2_4WpNhgcTfNC5U0Gw3PDrrA387GRBMPv8EoigmR80poMjh26k7aUctZILr7UR8IPTZHu3Wzozmh65hdG8F4QvORQoNPPr7di3TQcDDRfog4T.18fmsQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8
+URL           : https://automatedrevenuehub.site/wCosQC4lH/pl/H4sIAAAAAAAAAw3PwZKCIAAA0F9SWCr3WIpFSisICDcV3FRynXKm7Ou3.7u8MHCg69oIgc3ObdoWhBHYNC7otp3bfqHttx7Mg6b4x8a0qkeP3K14ZW95VyM.sT66qJL2tdcrh_tDIz2UATnr0q7seFobcJUmxsYMJGD9kumJGTnhUYQEM0n2drDLOfSxmaxwntT2SJ5KYGA.Wof7NR9HUN9MVqgdEmOoypitrUApTzxqJoJ4YmAOEKfpL7KVnHXglxp4yNOwLsb2RSvG83cBndKQpjmQOEGqEkhA7GVCEw0WzIQZsmBWerrGtn_AsmILV.Zp5OluJ_xHFYatWMAFzwcnrvoMyP3zAtzPsSiD6B.ls_JpQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8
 
 
 Episode: 08
@@ -144,14 +172,14 @@ SERVER-1: Ultra
 
 Quality       : 1080p
 Resolution-1  : 1920x1080
-URL           : https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly9lZmZlcnZlc2NlbnRlcGhlbWVyYS5zcGFjZS9wbC9INHNJQUFBQUFBQUFBd1hCYlk5RE1BQUE0TF9VRjNGY3NpOUNtV2xkclNfMEd5MnhZYmZJVHFTX19wNG5IQjBhSi5SNkMxQVVUcEdMQVl5d20uSXZpR0ljdUcuYXVVT3Y3c29BRkJXZUgwMUwuQ0NTb3M0czZuTlM2cFRRVHBDS1EzUHlkdkZzNlk1aEsxOGRUS0QxYW1kS1BSMEMuTzdYMU9idjJtQnk2LkhhOU5ETWNuSHZJVFVIVmQxcE51NU4ybnlVWklId0t1dTJzM0F2UnBVa3Z5TlJXbUpTU1RGRGZmOVF0aWJNb3ZKaEMzTnp5N3hMeEVKWkpIaGMyYk1IRGRmUzViV2NfX2c5M3ZUSzJwR1FqV1VFUzYuVVdvTGRTSGdWT1FWRDFoME5wTUVQdjF6LkFaVm9KU2dKQVFBQS85ZTUyM2FlMTViNjFkYzc2NmY1YzgxODcyNjg4MWVjZi9pbmRleC5tM3U4P3Rva2VuPWV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSklVekkxTmlKOS5leUpwYzNNaU9pSnRlUzFoZFhSb0lpd2lhV0YwSWpveE56ZzRORGczTWpnNExDSnVZbVlpT2pFM09EZzBPRGN5T0Rnc0ltVjRjQ0k2TVRjNE9EVXdNVFk0T0N3aWFYQmZZMmxrY2lJNklqRTROUzR5TVRNdU1UVTFMakF2TWpRaWZRLkduNGU1dVNEZmhfazlCSkpPTUtFYW1BcGJ3NGFxLWkwYkZFMGpfTjN1aWM&s=vidsrc~Y8ie-lqUXXUY2bSg7Sjz-I6xKZy&k=p
+URL           : https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fstrategicgrowthpartners.site%2F3ZhTMda1H%2Fpl%2FH4sIAAAAAAAAAw3Py3KCMBQA0F8KICpdokRkSKZcyIPsSKKlJFBUplK_vu7O9mh7TTptr9t9Eu4uJt7HZr8zb.td0tmr_ShDf.5ymGwWBILN2y6jhT6tsmMUM9yHlqch_C2EYei5UBvq.IsKPwHrVyHm2OapNMgi5vwKvB8oewbEg9Qu_mwn.G4cHe1EIsP5oUToTnIWCQejwfPYvCokfPpTRvzGZBWxMb4ZTgP16h.cZ2st4Q7R11NI_Fu5otQZTS9HCLtJHVvfL9WUbmAg0YXPuEEq6HK3abI51twjM_raNEVunRJM9mchsCuRPbTD.yvxo5VKKQwhGaCuM1jssYgan3oiFVLcLlQsc9Wg5B_W5tImQQEAAA--%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%7D
 
 
 SERVER-2: PlayFast
 
 Quality       : 1080p
 Resolution-1  : 1920x1080
-URL           : https://strategicgrowthpartners.site/3ZhTMda1H/pl/H4sIAAAAAAAAAw3M3XqCIBgA4FtCiRU7y9LQUgPlQzkDcWv.VPNZzXn16wLel1q7oYiuGmI2vllvDFk3Hz6l1vNWliDzblT8lH50T5XrBQt_yxEg328nt1wiO2RzCvdDu0.k8QDbAULH9PXohUu7o_uyqnFWbXEbkkeGvDe.6Fx90Up7NbF4uMq9vr0.0VSRFArOOQPZ.Bo4iiZT3XkrfwpAybfFIoBOyHockFSff9A1c3FontDp7uVPvJ9nh7K.LC.ZU7Nv0FBY5ZRF89BC9OA9mUwYP09LMFkVL7kk51Y2K9vVMx.TRy7d7YiDk2DRzlYphm6o1Y766fWSSBWjkrleyggE00xgTorR05YFGS8R_QcpzkA6QQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8
+URL           : https://strategicgrowthpartners.site/3ZhTMda1H/pl/H4sIAAAAAAAAAw3OW5aCIAAA0C2pYNl8Wop5EpOXxh.CZUHmqY6jrn7mruCCLtgG4WbXemG3gW0EQq9TW7_zNIyuV61_WtQ3cs2tsuJY.TG7CEcUwmc9aFhmY8kSiU5rDwj_HozDzvjjp0jGnoAilI_bwnn.VsiNnN9AZeHM6O5s9p.5BealWPyiophOQbjo2jCdkUFa_v7PXPAwTtgjH81d0j1ydAJuTzInqtr4YshXllW_FEVT9RRVkeGcPHvbOlMTYQLZHKG8f2diC88wh3RNZp4Wi7IRpCAtRJNAWpO8s75Snkkxi1P5SNZ2uKwlD1_Uj_c06zEZOMCJJOXhOInGvQ2Ci3Fi5Wiuuf1Ss3q7P8kt2p1BAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8
 
 
 Season: 02
@@ -174,7 +202,14 @@ SERVER-1: Ultra
 
 Quality       : 1080p
 Resolution-1  : 1920x1080
-URL           : https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly9wYXJhbGxheHBhbnRvbWltZS5zcGFjZS9wbC9INHNJQUFBQUFBQUFBdzNPMFc2RElCUUEwRjhDUWRjdDZRdW1ZbTNMS3NoVjd4c0t6U0oyYTdQTTJYNzlkcjdnY0o2R0xQVWp5X3psRXBJc0RVUFlYRmppLmNnY0N5OXZmU3pBRllyb2J2NEpFaHpHanh4S2Y5YmtpeWhacjU3UXMyWXo3eWM4bWtUXzJzY3J1QmFiSUdfcmlSUW5NOWtuSnVONmVGWjBJTWhWQkd3bXlORi5KMWFtdExWZzZrLmhobXRxZlZsRU4uMG9rc2hEcTlIdWJoVGs1ai5pd0ZuSzhGcFZ4LlNXdmR0SzFBU1hJZXJGeWMzaW9pSjlKeDQ0N3hZRHN6Q05tRVl5dDFET2U5MVV1YUphR29EN2dZbTlMc1FkT3NCUXF0NFN6M0dxeExuZWJ2OEFoZ3pYelFrQkFBQS0vOWU1MjNhZTE1YjYxZGM3NjZmNWM4MTg3MjY4ODFlY2YvaW5kZXgubTN1OD90b2tlbj1leUowZVhBaU9pSktWMVFpTENKaGJHY2lPaUpJVXpJMU5pSjkuZXlKcGMzTWlPaUp0ZVMxaGRYUm9JaXdpYVdGMElqb3hOemc0TkRnM016YzFMQ0p1WW1ZaU9qRTNPRGcwT0Rjek56VXNJbVY0Y0NJNk1UYzRPRFV3TVRjM05Td2lhWEJmWTJsa2NpSTZJakU0TlM0eU1UTXVNVFUxTGpBdk1qUWlmUS41OEVFYmtnZzAyRDJTZFk4YlFjNUtFWXdIOVY4enVwaUQ4ZDFUNWxWU1Jv&s=vidsrc~YV_Z2vehDnCaGd_12PhLuIqzhBI&k=p
+URL           : https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fecommerceprofitlab.site%2FoQ8YtfB8F%2Fpl%2FH4sIAAAAAAAAAwXB7XpDMBgA0FtKRD.ynypRRvrgzYf8S7BZ0fZZN2VXv3OoJ7Q9Irz3NAz3x7Al_kDJfrfDvXMUfbzZmSaKKH5hcvNoyqogxZLRwRpLaiYWgG4poQxqWd39SNNutGUB3V_Bskyge.j1kPsrx.1N8Oo6NToehiKeUD.uvwIi7ZMufA9.SDOmxCWrkipjlnHkINsgtqcm.HzlSPBaZ9.OTLIEi2G2owVlLEqRY2sjYrXBJIwLHraNBZL8kfTmcel5pKq5IRAo7XnF4ESHTtunNsr4mZ_VvNqcVFN5tUtxFl_qloZixlFvpl0peZ0jtdZKRL3unvn2xBDzpecthoSHjtGXBET_AffcwjlBAQAA%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%7D
+
+
+SERVER-2: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://ecommerceprofitlab.site/oQ8YtfB8F/pl/H4sIAAAAAAAAAw3O7XaCIBgA4FsClMr9y5O4WtICfQn_gdoxv_IsV8HVb88VPBt8xc21Wa_pxppoHV6DqlpRagheYWoa9GELduMEOHTs1SSzaqAcVVKPzW545KolZuCjJYxrX2Cb7B0PYq67Q54FiYMEpialvkiZK93mqRFIgYZvScSUqeItYaYGSl8rGoJCzuzO_uiWl522P5Ltib1scXURO.mZMcDuvA.9vbCY3xYsCW0z6J85ev.KNOqtWwpRvEKBh_j_1Wmy90cSCd4_gpxgfEpLmuXDpwbuwS1tRuZe9KUE0gYaxyab.F2PbyXg7GtUByaY0SnRtByZNGkkq7SNvzzr8rSgEh0OPMGn0qPoD.S.jdtBAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8
 
 
 Episode: 02
@@ -260,3 +295,10 @@ SERVER-1: Ultra
 Quality       : 1080p
 Resolution-1  : 1920x1080
 URL           : https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly9vYnNpZGlhbm9iZnVzY2F0aW9uLnNwYWNlL3BsL0g0c0lBQUFBQUFBQUF3WEIzVzZESUJnQTBGY0NXbi4ycEJkckN0bzJrSW9DNmgzeTJUQ250bkd1Ymp6OXpzRjlla2RKMTF1TUNickhlSV9TNUI1SG5RTklVLnlTZDRkbzBObTZGb0Z4R1B5M0RlTEhqZndGN0x4VHJOa0tyTE1XUmFQTjZXSk9icWRIYU13OC5vYlEzd3BoWVhPUFhIVU14ZXpqUHBNRHo2RnNNd2lLMHRCUFg1dFd1b1JLU2p0ZmdsSlAwUThmaXlhWHhnN3dXYUkzMFUxRlpNMWxaM0pkODFwZXVSR1pwSENGazFoa1VIdWVlOFlOcnF0Si5tcUVKMWNxQ0xQOXlmbFlDc0p1VjdKeXAxdGltRnNrRmNyVjRzSDFnNVM2d1MwR0ppZnh1aFdId3o4dlkuZlFDUUVBQUEtLS85ZTUyM2FlMTViNjFkYzc2NmY1YzgxODcyNjg4MWVjZi9pbmRleC5tM3U4P3Rva2VuPWV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSklVekkxTmlKOS5leUpwYzNNaU9pSnRlUzFoZFhSb0lpd2lhV0YwSWpveE56ZzRORGcyTmpJMkxDSnVZbVlpT2pFM09EZzBPRFkyTWpZc0ltVjRjQ0k2TVRjNE9EVXdNVEF5Tml3aWFYQmZZMmxrY2lJNklqRTROUzR5TVRNdU1UVTFMakF2TWpRaWZRLklfUV9qcXdtWlpsTzBRLWphSmV5UlE4MEw2T2pIdnVwRW1CY2w1ejNGVGc&s=vidsrc~jR9U39lbOr6sCWeppQX5nUL6poc&k=p
+
+
+SERVER-2: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://creativeentrepreneurhub.site/uptTsQ9hB/pl/H4sIAAAAAAAAAw3O0ZKCIBQA0F.6SG65bxmipdGggOkbitYmGlPOTvr1u.cLTt8Z7Xtt_9X3u3bbeX0DO4MBAt3utgDNtyHhj5I3XA3DbzM4ZKbq00lbXJI9tOPsOuk2zXh8aXz_ZWCwWN6Lpvyl4w3kskJmDICLkDWePRSD8VTplCA2zdH9VMb1MY_pU.DIU7FdjJxnGVNirg61U_jR4JdcfmZJ9z4jLJMRekihphpOSV4EqBlNUv_fihgpLvabFLvrhdK0iAIkQFm1Kj_DOS.l4jq.LSnYUCAqtXyuWuSVRIycKT1wz70ZBJkh9bkb50nAKRMPpqsrU9xr0RnlhzJyq3mE7xpbJpKjr1ZDuIDgD292jHhBAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8

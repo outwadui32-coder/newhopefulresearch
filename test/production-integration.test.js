@@ -61,6 +61,8 @@ async function main() {
   assert.equal(queue.length, 33);
   assert.deepEqual(queue.slice(0, 32), episodes);
   assert.equal(queue[32], movie);
+  assert.deepEqual(scanner.expandSelectedSeriesQueue([episodes[7]], episodes), episodes,
+    'a resumed episode representative expands every remaining episode in its series');
   assert.equal(scanner.takeLogicalTitles([movie, ...episodes], 2).length, 33,
     'one series consumes one title slot while every episode is queued');
   assert.equal(collector.isExplicitLowQualityUrl('https://cdn.test/hls/720/index.m3u8'), true);
