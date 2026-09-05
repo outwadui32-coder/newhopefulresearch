@@ -2,38 +2,12 @@
   "metadata": {
     "category": "Platform 350 tv: GENRE",
     "totalSeries": 3,
-    "lastUpdated": "2026-09-05T07:41:17.374Z",
+    "lastUpdated": "2026-09-05T10:59:34.174Z",
     "purpose": "Strictly for educational purposes only and not for commercial use"
   },
   "series": [
     {
       "serial": 1,
-      "id": "tv:97546",
-      "title": "Ted Lasso",
-      "year": 2021,
-      "poster": "https://image.tmdb.org/t/p/w342/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
-      "totalSeasons": 5,
-      "totalEpisodes": 40,
-      "seasons": [
-        {
-          "seasonNumber": 0,
-          "seasonName": "Specials",
-          "totalEpisodes": 1,
-          "episodes": [
-            {
-              "episodeNumber": 1,
-              "episodeCode": "S00E01",
-              "episodeName": "The Missing Christmas Mustache",
-              "airDate": "2021-12-15",
-              "poster": "https://image.tmdb.org/t/p/original/kxJERnlng82qe0HdofkXhAphBLG.jpg",
-              "servers": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "serial": 2,
       "id": "tv:125988",
       "title": "Silo",
       "year": 2023,
@@ -452,7 +426,7 @@
       ]
     },
     {
-      "serial": 3,
+      "serial": 2,
       "id": "tv:196322",
       "title": "Dark Matter",
       "year": 2024,
@@ -766,6 +740,1041 @@
                       "quality": "1080p",
                       "resolution": "1920x1080",
                       "url": "https://media.vidrift.in/tv_196322/Season%202/S02E02/vod.m3u8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": 3,
+      "id": "tv:97546",
+      "title": "Ted Lasso",
+      "year": 2020,
+      "poster": "https://image.tmdb.org/t/p/w342/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
+      "totalSeasons": 5,
+      "totalEpisodes": 40,
+      "seasons": [
+        {
+          "seasonNumber": 0,
+          "seasonName": "Specials",
+          "totalEpisodes": 1,
+          "episodes": [
+            {
+              "episodeNumber": 1,
+              "episodeCode": "S00E01",
+              "episodeName": "The Missing Christmas Mustache",
+              "airDate": "2021-12-15",
+              "poster": "https://image.tmdb.org/t/p/original/kxJERnlng82qe0HdofkXhAphBLG.jpg",
+              "servers": []
+            }
+          ]
+        },
+        {
+          "seasonNumber": 1,
+          "seasonName": "Season 1",
+          "totalEpisodes": 10,
+          "episodes": [
+            {
+              "episodeNumber": 1,
+              "episodeCode": "S01E01",
+              "episodeName": "Pilot",
+              "airDate": "2020-08-14",
+              "poster": "https://image.tmdb.org/t/p/original/8YJqx02JNMu9gNX7Ok7qgaNJJgl.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_97546/Season%201/S01E01/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://influencerstrategygroup.site/GSspJ8bAy/pl/H4sIAAAAAAAAAw3LQXaCMBAA0CuRmKh0qQK2mlQCMyPZIeEVgdK08hA9fd3_vxJBvSzXUoSylpKtQr6.CC5FVYbCiXr1Zli_pd6Lgt_l5TqaMvE7.80aRbJ0ex0hsEShno.L2JdDMyEZobC55a25Z4GeCmasDRquWv2LMG5U667VYDyhA8VRQL45peBId6NJsR.L4WPWe2zr3uU1.ZcR04HFg0us1ez9kXc_i4rhjTrZEmmkSJ8z6EHRnLqnM1kEgTnHRqN76sEvK7BIiT3UMO5s5K.A8S1HpyEL._QRgkqcLch3OERPC44f.dcf0MgKaKY8QFbQ60M86n2zVTxMcBefPqM5TnOzdc8g_Afl9HoBQQEAAA--/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 2,
+              "episodeCode": "S01E02",
+              "episodeName": "Biscuits",
+              "airDate": "2020-08-14",
+              "poster": "https://image.tmdb.org/t/p/original/2pNZYWhkY0DdUyVU8FEaYDSSfTW.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_97546/Season%201/S01E02/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://conversionfocusedstudio.site/w8J8Qp6ao/pl/H4sIAAAAAAAAAwXB0VKEIBQA0F9CrtbYW9aCqyuOIKC8oViuolnrlOPXd06HkbWDxdANFgA9dWEEzn08hzGGoHfRiyRb49S268t402IfaxhLuWSh0o5I.XXUS3StYT6kb3_sxIpK.4xT4ovV6P4keS8_saAIdaefJRgi6B8Wa4tNo.58eg0VqMUEiZIkyQXaKcPtb4XHaydZKMCAxQqGS9DUb_Gjv._tDXok_fgYmqwUM9c5ipEAfzfy2Kt65LwxeTe5yM5uLCk7NWUJU0S3K2EcH0alWzLo6NsG21rQA2slz2Hyk_EKioVQhgxpgWwu5b7zKlF6F45mxHpT2pQ0HAVpQch7P_NK1ij.B0whMtpBAQAA/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 3,
+              "episodeCode": "S01E03",
+              "episodeName": "Trent Crimm: The Independent",
+              "airDate": "2020-08-14",
+              "poster": "https://image.tmdb.org/t/p/original/N280y3IWDEEimlOVxmvRljkKIN.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fclaritybusinessacademy.site%2Fxs6QGBzNr%2Fpl%2FH4sIAAAAAAAAAw3NwXKCMBRA0V8Kj1DHLinBgBpqDC.SXQwomujYFsfo19fdXZyZCx.zfpgBSWmfHei7.4xQcG5I6MzCgXxabrxg82QFcbtlWHcea8uSYEn7tAQvwrewT31UV1Ejz0dVyLsqjhlCFhXeTgamqsOKqEXNUD.ejR5_kYVyKGWjv6afzU4uV2ScOph_4Dn3TsdWlccod7no.UjxNN2lNs3y5eg2zf.sN1QUebduhXIMyYAhIDPXjU4efVFji0LINHj3wm_FO4Lgow75xYKB_bmiaxakY_GswPCel1qEsBD8ZkX59uBh04bGsaRaX5GI9_8f7hg4ICEBAAA-%2F542e2e2afae22a966a088893eeaabb40%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://claritybusinessacademy.site/xs6QGBzNr/pl/H4sIAAAAAAAAAw3I3XaCIAAA4FfiR53uso6grlgiIHKHUGOiJ0.17Ozpt._ywxeYgwwluYNJ6rBN3QVan8Mcpm58y4r3EbIfiySysf5VgG9ChL1fyLVXvmtjc.rguljdnM5zeev1F_ATuX2W6daXhh4rn53pWo5o7jl4LExxYXWwYmK1i00m0frsCJlH.XjxSQ0tMqHX_iD6._aBd9euCquIYS_oioe5TS0oYIvU9zDFraOGcdhCofnB0DrptHr66f9K82ojuwugQD_x2lf.aGizE7AJNjarw2YZhI.qK1KJQyWRhI4YamUgFhNjCbOqTJ4eEW1mBv4AZvE7jCEBAAA-/542e2e2afae22a966a088893eeaabb40/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 4,
+              "episodeCode": "S01E04",
+              "episodeName": "For the Children",
+              "airDate": "2020-08-21",
+              "poster": "https://image.tmdb.org/t/p/original/fbWzpmQlFENbnS6GbvHZhzywozo.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_97546/Season%201/S01E04/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://solopreneurstrategyguide.site/Y2EGNiCj7/pl/H4sIAAAAAAAAAwXB0ZKCIBQA0F9CiKn2bd2idNRW5GLwhlChYjo7TlN8_Z5DESHJlqDbBt8xcdZ1W7QjN9J198SQhH7BkP6U0_JpcLUaVs0XWE_V2WW6XzNF_G.Bc9nCO6_79WCgREqEWgIXFyhpK_O1HH2vkbsasoB5ataw_FREXYnBldXEWhEVNsSnJnHXLtSxRtlGHr7_CrTX5uCxRZ5CWGZ4Lqob9FwSza2QCeAa6SnJDN4rGDmX4D828mCYq2pcU4k0FzK8eOQFMG0sKjGg7G1PdBRDOquYqm7kzJ71RwrfuzasPOrUCU.aoyIG08aFxwuSJbXsQc3APMfZy6Dl3U1rdTsG7CLa_wNa0BMeQQEAAA--/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 5,
+              "episodeCode": "S01E05",
+              "episodeName": "Tan Lines",
+              "airDate": "2020-08-28",
+              "poster": "https://image.tmdb.org/t/p/original/p4KDV9hxszklNHdkRm564qWfq9R.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_97546/Season%201/S01E05/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://mindfulwealthjourney.site/29KoWVTX1/pl/H4sIAAAAAAAAAw3PSXaDIAAA0CsJgqndxQQcEvSJgMNOxQyKQ5uksZ6._Tf4yAI2Qh8NrHeNBra.WMiuMcLORTu7nX35TOXjLY_eWOfg0YJ5FTkNO.pBKaK1BMaRfXXMczVU4xUwwmVzcIMMUv.86ZNWOmP.staUvpSM4iRHVmmqsg34M56WuYHGSJvf2bD8ZNaM00L9Sj_EaU.tTnmsBHuohUGyiMLOMMxH11FkeTKllnhcQ91HkPuYt2TGJ7j49aS.2rtLVB8dauHRpIgGOakytalXjcbXag_VdAsqYs5qCt96068kezIReFUirigJStgMauaTIVx4Jv5fNYO7NeYWdISHXFAcFxXJ6PKdEQD0Zrl_4aKRDEEBAAA-/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 6,
+              "episodeCode": "S01E06",
+              "episodeName": "Two Aces",
+              "airDate": "2020-09-04",
+              "poster": "https://image.tmdb.org/t/p/original/o9g5v73OPWNA0lP4R0QrOgTrH0k.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_97546/Season%201/S01E06/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://highperformancebrands.site/rNyXmX1Ap/pl/H4sIAAAAAAAAAw3M3VqDIAAA0FdSQJtd7pvo1sRAgckdf8tSlzZr6tO3i3N7NLIvKAbIxDsfJ1ZHQWINQuh6RTbaxeC1rHYr5e5dd23uOqHthaHzhqnJGZE3dS9AP6qA1C4btUhxZgKMeTr.8mE5yxsJeUeEEm4uD_uxgapXYQuqQaEiaFeOVVEB_uNFG3s5LxK3Zy_7oxCi9fkeCD4_KCdAZBHxhy7i4ATN18ejSMmqA7oasOQsJyVd57TuoqM59MSlS0Ohmt6gatgzsrCNnkqFT5.FcMRly9xc1B.7sZzCE7bDcTWbmLgMv9lGQB2OtOkUNRJPkpPMD8lUQ8frVJEa9mGZkkL0uNTVHagtSP4By_qYyUEBAAA-/542e2e2afae22a966a088893eeaabb40/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 7,
+              "episodeCode": "S01E07",
+              "episodeName": "Make Rebecca Great Again",
+              "airDate": "2020-09-11",
+              "poster": "https://image.tmdb.org/t/p/original/iHc295TFzpmAMstLQvJe00oiF6G.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_97546/Season%201/S01E07/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://subscriptionbusinesshub.site/kmYT5u3H5/pl/H4sIAAAAAAAAAw3OS3KDIAAA0CuJoI3dJQ00sYITIiDuEEydgk7zmRg5fftO8NylQD3KYQ_tJh0u.WWTF0MKkH1DRZrY_N36YnIfm6dOvrNa_VKuQErBduk.naeTQ4YQSbGDElKkDiPRwWcayPNAdtEpsg5EPhssmyqOewFl1LErjQd3pWwcMBOCyE4KJ7kgUAN.6.ftMsykZYIfavxoBSGxafF6TroPBwI1GEED6Wr3471KXwlr5cO1_HYOx8zO5cQaplVgrZOnhAW2uDBWVXQ_jSdGYSe6ubuefJKa2OWDLK_Wi0XC3VrBcmfiSPhUlEZ5xEk40L1.1VIvJ0Cm__dEZ9Z8QXbsA3_VIruJJin.APYlqL5BAQAA/542e2e2afae22a966a088893eeaabb40/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 8,
+              "episodeCode": "S01E08",
+              "episodeName": "The Diamond Dogs",
+              "airDate": "2020-09-18",
+              "poster": "https://image.tmdb.org/t/p/original/bEs22idG5SWG1qObfyMnCGavjMN.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Ffutureproofmarketing.site%2Fstha6fWKM%2Fpl%2FH4sIAAAAAAAAAw3Oy3KDIBQA0F9C0LTprmlEiwNMVC7oDjQZEp9NM9H69c3i7E9wsW_WovN7E112KAzJjhAS7F0YNsgGF_xRpIxaTI8vTFA_Cf0btMQbTf3izAkVZe8dCjJO2Cb6CbU0H.0QqErvCaD8KrX3dbJmcGSyGaonDJHNts.V4zzVaRdZ0tatnn291Ys4whWAh7zvsVViabtwVUO35Go2LoniEsNUk5m.bA78Dkz1B71gaqvuVkelNtPTluwgFa1P42GU6kEtzQeZCu50HEkljIQON3H0XalZ2.T1M.yWEf91LuHB4woXZSt1Fy75zcfu1g4W2A90jxzG.u70tBZEbHxYAz4KrEq0_weN_pIXQQEAAA--%2F542e2e2afae22a966a088893eeaabb40%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://futureproofmarketing.site/stha6fWKM/pl/H4sIAAAAAAAAAw3P3XqCIAAA0FcClMrdzfmTlnwDAZU7RB1NdG25bD79eoNzht0wBGAYBr_HaN8fAuz7O3zYI.jjfet1L2WK7RkluhP5XR_JVy_yRYGHU7NNi0_3TsZ8ZML35QSPauvK01b86DjZmZiwaso8A8mZRAkVsnj0M6t1ZU_VZHUD1nsLVsQuS8jqBhhBfqlwaZfatatizDaZFlNCyJxceYrvcnM1RTg8ITUKsWT9aP4MuGYFf_UanssyClUzZ3_0slR0TjZeX0HJ1ZGIbmLoBvmcf.vIluZtuRkkeVMT2ovRLyqyqMi6ckrWwoWyG51spvxphFWbUq_dDBAAe3r8gFxAa.JAyUjlzwOkHAT_4JsBhEEBAAA-/542e2e2afae22a966a088893eeaabb40/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 9,
+              "episodeCode": "S01E09",
+              "episodeName": "All Apologies",
+              "airDate": "2020-09-25",
+              "poster": "https://image.tmdb.org/t/p/original/rmNyV9dUPi7VeluqxYq0OFFCKNs.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fdigitalnomadventures.site%2F4qxwiL3dO%2Fpl%2FH4sIAAAAAAAAAw3FQXKDIBQA0CupaFK7tArUhJ.KAsouAhmqmLHNTGw9ffs2z5n4GOU2y0Z3RNn4kqWH22200c0kB5Ra82oX3LGgM1XVG5P2cCU5ZmHIRozpIB4IBGdmscTS4ot3fhk.Hxtgr_SdPzoMUon3zRF_ZjQcnLDQKY7bJKZazem191wnq7dI1qyKZ4jtuZtschH5pV3qEhYM0OPeiJ.U05VCCCdF8TqSuuZCf5.iUDYRnyRq0o7EBUv01EgrNRUp66FVwVcCrW9OQSxFjtQcZieL2ZD5x.xF0AQGrUziSv60wQc3sV2q_._F1U4e3CTbjsBTlTqVMaCx2n45qT_GHfrz3iR6j_I_6ortm0EBAAA-%2F542e2e2afae22a966a088893eeaabb40%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fdigitalnomadventures.site%2F4qxwiL3dO%2Fpl%2FH4sIAAAAAAAAAw3FQXKDIBQA0CupaFK7tArUhJ.KAsouAhmqmLHNTGw9ffs2z5n4GOU2y0Z3RNn4kqWH22200c0kB5Ra82oX3LGgM1XVG5P2cCU5ZmHIRozpIB4IBGdmscTS4ot3fhk.Hxtgr_SdPzoMUon3zRF_ZjQcnLDQKY7bJKZazem191wnq7dI1qyKZ4jtuZtschH5pV3qEhYM0OPeiJ.U05VCCCdF8TqSuuZCf5.iUDYRnyRq0o7EBUv01EgrNRUp66FVwVcCrW9OQSxFjtQcZieL2ZD5x.xF0AQGrUziSv60wQc3sV2q_._F1U4e3CTbjsBTlTqVMaCx2n45qT_GHfrz3iR6j_I_6ortm0EBAAA-%2F542e2e2afae22a966a088893eeaabb40%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 10,
+              "episodeCode": "S01E10",
+              "episodeName": "The Hope That Kills You",
+              "airDate": "2020-10-02",
+              "poster": "https://image.tmdb.org/t/p/original/i6AD9UGfac5wyP2wADG5cWS7EIZ.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_97546/Season%201/S01E10/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://ecommerceprofitlab.site/2fiQ35wWM/pl/H4sIAAAAAAAAAw3OWXKDIAAA0CuBSgz9axY1dqTDrvypmKgQ28nSMZy.OcCbeant0_icbHCH2nPaDsN5kyTbHqcw6uPtAD.ayC8sl6BaxsBz98edusk9flKd_dBZsf64NnqxpyqCnEMKO62eX8AHU4yTjfrQ6XEl4PdgQvnUyq2tXMeqULU5WMAKMlnFBJkpILkXVMKXCiZqwSkIgJZWXFYDd5mWvuWBMRlYrVW28hy92usdMfEZdznxb3OsNI5J1MSdKOtGMDTkGSJXVVBtvvswCvPaIukVNRMmDNKECz83XqLKoatxcE.i8djIx04d7KOXp5t2j4l5G3hR8veLE4cnC_08iFLYWt0FMJAKgP8B_21MV0EBAAA-/542e2e2afae22a966a088893eeaabb40/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasonNumber": 2,
+          "seasonName": "Season 2",
+          "totalEpisodes": 12,
+          "episodes": [
+            {
+              "episodeNumber": 1,
+              "episodeCode": "S02E01",
+              "episodeName": "Goodbye Earl",
+              "airDate": "2021-07-23",
+              "poster": "https://image.tmdb.org/t/p/original/aF1iNdd5TPohcgju8Rp2bd1Xw2j.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_97546/Season%202/S02E01/vod.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 2,
+              "episodeCode": "S02E02",
+              "episodeName": "Lavender",
+              "airDate": "2021-07-30",
+              "poster": "https://image.tmdb.org/t/p/original/87k8iaXYpfzpCkHpZ80naE4K6z4.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_97546/Season%202/S02E02/vod.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 3,
+              "episodeCode": "S02E03",
+              "episodeName": "Do the Right-est Thing",
+              "airDate": "2021-08-06",
+              "poster": "https://image.tmdb.org/t/p/original/jkCAUGWBTXC1WCN8qtEV1XXGAIb.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_97546/Season%202/S02E03/vod.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 4,
+              "episodeCode": "S02E04",
+              "episodeName": "Carol of the Bells",
+              "airDate": "2021-08-13",
+              "poster": "https://image.tmdb.org/t/p/original/4QqNRZm2znQqRUR4yfzvhWZTvk6.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fpassiveprofitengine.site%2Fj5wvyzTDu%2Fpl%2FH4sIAAAAAAAAAwXB25ZDMBQA0F9KhKp5VBKLcQySIG.ptKWltXqXr5.9ycYLNDFmGyDvsHHdw9E7osBggn1ng3z_J0PLWbPbXSbxW80Q99Hw6rHKNY5XsICqS9U1bfooWAp1pBC05lMimmmccmBLy.c0BypDyeTYO5NQjizNNZSmCd4NS0tDhoEj.BpudhmZOpOEN05KVKKTrWNa5y2s.XVSlYAEGMjMqrmae2ff9B9tp0mPz1FONJQkjcR0WeW6dYEOjwOlo9kF8z5ZMjhfHGWpx6PyW7Mc8eb5kjY8y8g8fq0qVIPHDCtcXaUrELJFaxIl8J8WoPekigpGWS.etiOnd828pUOYFyK_lxwF_017Q_dBAQAA%2Fmaster.m3u8&headers=%7B%22Origin%22%3A%22https%3A%2F%2Fnextgencloudfabric.com%22%2C%22Referer%22%3A%22https%3A%2F%2Fnextgencloudfabric.com%2F%22%2C%22User-Agent%22%3A%22Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F124.0.0.0%20Safari%2F537.36%22%2C%22Accept%22%3A%22*%2F*%22%7D"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 5,
+              "episodeCode": "S02E05",
+              "episodeName": "Rainbow",
+              "airDate": "2021-08-20",
+              "poster": "https://image.tmdb.org/t/p/original/kgeoLHpUoMu3d51b15HHGGERkol.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_97546/Season%202/S02E05/vod.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 6,
+              "episodeCode": "S02E06",
+              "episodeName": "The Signal",
+              "airDate": "2021-08-27",
+              "poster": "https://image.tmdb.org/t/p/original/9ZTUnRqBUid0GDZXZI5PAS0kcNt.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_97546/Season%202/S02E06/vod.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 7,
+              "episodeCode": "S02E07",
+              "episodeName": "Headspace",
+              "airDate": "2021-09-03",
+              "poster": "https://image.tmdb.org/t/p/original/dc4tFi28QBr88Ceg5gr3a6Hv52k.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fdigitalassetlaunchpad.site%2FYPE91C9Li%2Fpl%2FH4sIAAAAAAAAAw3G25JDMAAA0F9KXLrso1LEJjtyJW.SdMYqrVWj5et3z9Nx9hTFYRR.BNHV9118Cv4XBsYYEIe.tZ_4sDu7UMyKZJF7tJBzTGuOTgbKWfFxpReatb4IddaLCspnV9AnVvZtMxxUB72bIdkwi7.6QqdYwFu7rzMr9CTErJgXt3xI9lrRksNkMNnDY6lkHdRAgHCk5_XXcfTAsL8xgZAVZGmBq7q8L7hvD.HPkIwj0bB8sUL.kDRBxCs3N11GqWQpPSrrSW84fwE8wU1wmvOhPdw0J_oGhRrk.1rMlWvobGA_OkAYmVAuBfyWwCl97xssHotK.3PdIGRA5Ml9nahHsFZr6g4Q_wEQADCcQQEAAA--%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%22Origin%22%3A%22https%3A%2F%2Fnextgencloudfabric.com%22%2C%22Referer%22%3A%22https%3A%2F%2Fnextgencloudfabric.com%2F%22%2C%22User-Agent%22%3A%22Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F124.0.0.0%20Safari%2F537.36%22%2C%22Accept%22%3A%22*%2F*%22%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fdigitalassetlaunchpad.site%2FYPE91C9Li%2Fpl%2FH4sIAAAAAAAAAw3O25KCIAAA0F.SyJJ9bBTKkhK5uLwpuOMEGNnsjvn12xecY80WAASHYbuHBvUI_mQw2e8ARPsMZAh9GY75NfeXgeicOR2ajZ6bYG8M64te7a8m6aGXpRcTVdXmNVNRSkP8QxbZyknEFkfZq1gLJ58aCMBX6.TdaomxVtzPHWDPLi9Ly0_wkhQpBZZxznZsopPkvmtaMTeJmzt5uEoyUumreQgoKhJFRdJTPx2m_khvfZCjSRbNvIWfo2PFMhqBbzK8Vh7iQl165pAtNEnLpohKhzIot8ySMF23MW_aOq3593sQujPHcqeO_mEk5qLJtpaPOyt0ft5Uf_UbqY9xp61bBE_QP6YfH0FBAQAA%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 8,
+              "episodeCode": "S02E08",
+              "episodeName": "Man City",
+              "airDate": "2021-09-10",
+              "poster": "https://image.tmdb.org/t/p/original/dj17acHQ9wz6uaADDzBL1D1mmCp.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_97546/Season%202/S02E08/vod.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 9,
+              "episodeCode": "S02E09",
+              "episodeName": "Beard After Hours",
+              "airDate": "2021-09-17",
+              "poster": "https://image.tmdb.org/t/p/original/2cofiHu8S96oZry9ovOJhIpO8gN.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_97546/Season%202/S02E09/vod.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 10,
+              "episodeCode": "S02E10",
+              "episodeName": "No Weddings and a Funeral",
+              "airDate": "2021-09-24",
+              "poster": "https://image.tmdb.org/t/p/original/1ViXiMxiKH7WYYB6OfQzkoegdK9.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_97546/Season%202/S02E10/vod.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 11,
+              "episodeCode": "S02E11",
+              "episodeName": "Midnight Train to Royston",
+              "airDate": "2021-10-01",
+              "poster": "https://image.tmdb.org/t/p/original/clp0O56bsvz707xQAI44KfSMOft.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_97546/Season%202/S02E11/vod.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 12,
+              "episodeCode": "S02E12",
+              "episodeName": "Inverting the Pyramid of Success",
+              "airDate": "2021-10-08",
+              "poster": "https://image.tmdb.org/t/p/original/rc1YAVoHcTexCtVL8RGqdorzVUP.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_97546/Season%202/S02E12/vod.m3u8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasonNumber": 3,
+          "seasonName": "Season 3",
+          "totalEpisodes": 12,
+          "episodes": [
+            {
+              "episodeNumber": 1,
+              "episodeCode": "S03E01",
+              "episodeName": "Smells Like Mean Spirit",
+              "airDate": "2023-03-14",
+              "poster": "https://image.tmdb.org/t/p/original/hXSVyhVjhSbhGJFHB4rBP7bgqrB.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fvisionaryfounderslab.site%2F4qxwiL3dO%2Fpl%2FH4sIAAAAAAAAAw3OzZKCIAAA4FdCUFf26A.2mZQkoNwUdBzF3NmaLJ5.u33Hr._9cMQ._tJRGIEgQCEegWfGYYwwxhH8FpC5ysbplb.csHami901ZEm3kLmGRAo47VL6rl6OSK0vxGbaVAAjk2fgerChgd46LFtQeMdYEbtxZJxcyYPl7bNPW8CWadKI_ih5zAQMXO1UTBcvLYAFA9Gu53ePoW2XvPXoyl.dpNsJUKDAHcqGhbphSSXMZTgQN9ziS7dOs0hVfibUakHPfMUJbcpn1dA_Q1qvFbaoa_ous92vhToV4CEUUHedPzLz_pirqkXaFzwCfNZPZuOs5NRSp2jJLT8501xvv4laP5sa4H.qqa6_QQEAAA--%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://visionaryfounderslab.site/4qxwiL3dO/pl/H4sIAAAAAAAAAw3NW3KCMBQA0C3lURjTv1oDFgY0kIfkL.Ti4BDAWssgq2_PBs7VdwAdxOzKwLcd9WTnSEwp23XtFTN414c90Tw6GWP7AnNSXe6DTXvrTb8vcXLykkc5Th71jTkdstijSNSbFn74ohqtZ8nhDVAyA01.c9w_lYKxxcmqa.ZkCGuLEAJuhRlsrskahNI3FcqlHqNzgwISmyJ.LH8aU8nKNKu5iMW.nt8OsUEquJlPdi9SnMoD___mTU391CAdA3_mjpdxq.aolR9IEE5bDLKcIJI8nBtSLpXJDAxlarmdJaoOhUnE6RgaMWZBjtlDXWyhN3vvgn8VG3BB95mbtHayl5YOi5CI_QHWJQrzQQEAAA--/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 2,
+              "episodeCode": "S03E02",
+              "episodeName": "(I Don't Want to Go to) Chelsea",
+              "airDate": "2023-03-21",
+              "poster": "https://image.tmdb.org/t/p/original/wpcIswewy5vpcyLQokIUSlVZZaf.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fautomatedrevenuehub.site%2FwzprFJsxb%2Fpl%2FH4sIAAAAAAAAAw3P0XaCIAAA0F8CpRp7yww6LTkDBdE3BJtTMKtVzq_f7h9cvH7DALWRBevWINxG.AwaZDcbiOKzMat3DpNDBmZUl8e90P7VBFeJmIQm9bwK_t5qHjk5X9Qwo6wgvR3YpyxxKodJClkXJ1DnxZgoM5Bn2_uO7X5iScVHETJY.O1vAyBoPDkJeRxZWhs.TrdKK1OOXprAjFhIKoF6ZPQSm9TRlmwXpSfExnrnDl3hwJRZSjo72LlSTFSRReUwZ3LPiIXbWOquN9FKZ9.Y531HFXFJswjDUh4bnXi2eC4CiS1V15yStdPuLkj3EIH9n9mvKclVhknYg39V5VGdoL3ZHD9L.gXdAvAfKH3LikEBAAA-%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://automatedrevenuehub.site/wzprFJsxb/pl/H4sIAAAAAAAAAw3MW3KCMBQA0C2FBBjtX5FHzDTpEMjl8QcklSFBsUVFV18XcI7f7YxHtO606X5wEAbEeMMQ7rA2Id4h_FHUbgW1NhWNbuYcBd15iYfZfxbEYoUWaEp3KR178srddSVrjdBDWkYNTXk.uWtfpVdx2N9yzylTjzeTLVlLRgJIv6_22LsT4RDB4OABdgWNtouk1i8cfCkaRQMWBzklgYnfxq51rpY5f8lNqHYWMXsau46A25IDCzlO_4T1LjqzRCMJBfnEqmKbIroUCNTbToosY6_GrZ8sgmpZ85fdGozuZSKOpk4lnxJfUeVXaftrgHU9YZ2ANpcJ97uZxd_ZmvWJpD06PfIS7f8BVXUJIkEBAAA-/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 3,
+              "episodeCode": "S03E03",
+              "episodeName": "4-5-1",
+              "airDate": "2023-03-28",
+              "poster": "https://image.tmdb.org/t/p/original/AtfVkDAULlQs7paOg29l8GdyOJx.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_97546/Season%203/S03E03/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://smartincomeplaybook.site/2anMY6het/pl/H4sIAAAAAAAAAxXI3XaCIAAA4FfiZ7axuzVBM9FJAsYdAh0zLLfTaebT7.y7_BDe2DdEEodA8Ph0wgBZAk6vwUFkMUTvSsWp7vxNj4q10c_VyOpKJseD3CFJYxrOBJl1awWOlwb6tAREcDl8W1Q9eCyeBjETpsjdxLZymvMSLJZn1WedcnRYjT22BfOtGC2bH23HtABzrGiz8AyKA1o2_.f1IIxksYfDtYRxDDJZ61Ss4kykuiSlo8r2Vwp9tmw9HXY290.pDWgu987I5FezajTM4NC5xEGZtJTwQO.NgyoLTKxuIksf6cNEle2f5Kz1oPawSPdYffX448WuBeK5uplWQRvF1SLxw_HM_QrIHx.NdQVBAQAA/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 4,
+              "episodeCode": "S03E04",
+              "episodeName": "Big Week",
+              "airDate": "2023-04-04",
+              "poster": "https://image.tmdb.org/t/p/original/3D4PRphUaWTkMm6sBDSLcYdTpX2.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fonlinecoursecreator.site%2FyNu577H1U%2Fpl%2FH4sIAAAAAAAAAw3PW3KDIBQA0C0JCR3tX6wSYxLaqlyEPx461oKxGaearL49Ozg40pr0cRR3ne4TTEzc9.bFEhRb02FrXqFwyojEA2JnJzwY4BEvZq2w3BxN71q4k0LQmuOcQaagy0nBQxyZ0WL7tqwWzcBG2qrd4Wky9dOgVBr4vOun852YPyph96Kh6zWUYCEnAlIqd8pbgBMLPuV88GL0Lxzgq27kysbhbvOE2UDKusk3kblWC1bXwe.riV5MxqT6VgvQ8qbwRmQz3LQf0utkV9vOxfuRBJj8lcPhcYkWBs0wdn5AjFYc6KwcLc81UCaEOvNCbnI6YPlYdvD_hGB_JbZr9YhRjRhxzyj5AwEwaT5BAQAA%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://onlinecoursecreator.site/yNu577H1U/pl/H4sIAAAAAAAAAwXB20KDIAAA0F_i4lJ7tNDGxAUDFN5wrNYEd6k24.s7B6Li45CVBXBgdCN8KnB.KAuf5R67EeX5s8YiM9GAXfDKShosWRpFPPWn7qoRHTaJITGHian9wqA2mlyY0SLY1FV7VW4FPqfuJO4clY0GWm.wfqg6rFxjMEMsc6C0RmXZOK2CnivGGv.lBj9t6zU0U73m8BK5PN5U9N_y9TNxBK1IHTj0y40PesfeCLTxgbaNgBpToWR4F4DGFlAsAt3wyMAu_lxNsFyG46.M2tlkK4MtaoG49vOx5f06sVg3IxGdm5bZnshd_5WO1aFV0.qFwyq5SZ_7gWQ9oVzNbJEDe3AJyn9PJL7GQQEAAA--/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 5,
+              "episodeCode": "S03E05",
+              "episodeName": "Signs",
+              "airDate": "2023-04-11",
+              "poster": "https://image.tmdb.org/t/p/original/vpeqM8IlIUfujtCARPyn06dBrBn.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fstartupscalingsystem.site%2FpagW2CMDx%2Fpl%2FH4sIAAAAAAAAAwXB0ZKCIBQA0F9CwZr2bWtEx5QS8CK8aVi2qNXWrMrX7zl2uwlIg1GA7Pbaht0ljHAYbdGVdC2xhHwx9JlA3ohRvSuBRTBoIlO9CsdWkJkQwbeXsKf6pwxtOogqoFSoctG49MoFRiV85QgwVJCamp47N2gZE9IkbmkmSi_D8JCJfWlsHxoRoiZTG7Dnxr09KJ6XQbyI6WlyT_uu6nmOQBV0P0r1xHy8zRAvsxoDn3uLIe0LJrNEhv1s75.DGCmpMDuc6r0rwkwXo92oif6e5CBUCkem2B9UGW_TZ3_0LmKhRWJgRTfSuZjspqU8EVgvPKV3tu4kDynuYlM3yecNk30Zj3b_PSupXkEBAAA-%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://startupscalingsystem.site/pagW2CMDx/pl/H4sIAAAAAAAAAw3N0ZJDMBQA0F9KqGIfS0Kjza6LIG.JmFGp6rRGra_fPT9wQm308eipPuh04PsYaXxUYaC9HvtYO_5XO54kJO.Vj7zI70LlyKzCZecC5et1alHXyBkIjNrKW47w1SQD1b_hm1u7f6dUcZe3fbJYvYtYJiwTBJ5GzAc.hULhU61jcea1R_hocWHvUU.HR9fMh.62MJHQCVyI24e0nZXR__XKXLrJZliqekv7WOACLURObMgbU8CEP2bnP9Iy3rrQVJQJYxlA5dlSnLiK3mtdbReIllvZkEOJwTHpsHG07cKdXVXaFZwthYZ8uol42qJXZZnKsHCKmkKHPAFk.PSjyS7oSasShX8ZpyGcQQEAAA--/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 6,
+              "episodeCode": "S03E06",
+              "episodeName": "Sunflowers",
+              "airDate": "2023-04-18",
+              "poster": "https://image.tmdb.org/t/p/original/dCzd2x3CLkuQHjfBUH0cPlUS1ok.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_97546/Season%203/S03E06/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://passiveprofitengine.site/st6OwScbT/pl/H4sIAAAAAAAAAwXB3XaCIAAA4FdC0IxdZiNzSkfkR7kjqJWAx521o_n0.z54xwmyO2TzPLUoxfCaJyC_Wbtz2MK7_ahhBg2gby1D6qYwXRO_XOShFUdKXGTh2pPZcAs7fl7sqL3qw6Upq10NstOw0Tj0hzcnj9bKNrspVxif8BrNHVMic4EWMmrZlY5q9J2asiJyc1OLmqXh9DTA_dKq7Oim6s22hzDglRnPJI0Yaq8T4atVQMZV8XoOyDUi7lcB8O.Ns98mvmbhKWMjqRnRmwYV5zCwTpEg4z5lUv8NcJZy_ISCWOjKoHj5KDQKulPr2QCX8pP7kmCdZc.4GKm3R8r0E088sIUD.eM2gP8BuCMylEEBAAA-/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 7,
+              "episodeCode": "S03E07",
+              "episodeName": "The Strings That Bind Us",
+              "airDate": "2023-04-25",
+              "poster": "https://image.tmdb.org/t/p/original/sgQ3LVQIpUIGdbmh6cCLpKaLu9i.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fcreativeautomationlab.site%2FxpQeWoJG5%2Fpl%2FH4sIAAAAAAAAAw3N3XqCIAAA0FcC_El22QJXTZo_QHKnYHMBjX26WT79eoFzMpQAfLkMaZogE0eDHnAGYjj0G5yhJNMv6kbjFggi_YFyqu8cOipk.yhWNhkk1hrSv9qKqZLYm_wTldyknXRzK1RZI_algIqOgJZ9PR85FzvlMe_8HBSyQEiScABQu7rxeczKFkv_in9LF96bpnha4zKIAtbX6jlVk_FVaGho.M09TucwmRzvuIen6jGn8i1Y6cYbvxqorfuoyb3RhCUK6qi_Cl.TJRb0sDC7B0ayUZFQHqPtuUNkkXaci0jtWRR4lX_Dstkq5o0wUdhrktg.Z123c1Xv3U9rOWC5UjqHsVkB_gdMFqZqQQEAAA--%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://creativeautomationlab.site/xpQeWoJG5/pl/H4sIAAAAAAAAAw3OXXKCMBRA4S0ZAo70ra0kSiGUS3L5eUsC1kIoyDjWsvqygHPmC_cHvzPUUKJDaqn2Av8SdPRijenC8HB4aR3eEuIkOnHqyjrIVzfJ_pVY7_6WkikAbN4bDhqpwHplvyDxkY.WFMMds5JJxdtzJ_NFDFBbMrtSMYa9OHccFkCGLWd_GfdXWc7fH.QKgs6JHjGA6MpyF98aT_CmiqemF6M4XqWNwsUOz1Q5N.gBMvPj9ilTOzMCgNps3nkpCDKDLk0j99CRXQoubsWY.uYIiKxxW__IyTxl5RypU_tZysG3KobWQVIcWSIryHJvG4ws3qx1vbpIey3N.L2q.y.KZHgarz0puQv_AcZxMwZBAQAA/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 8,
+              "episodeCode": "S03E08",
+              "episodeName": "We'll Never Have Paris",
+              "airDate": "2023-05-02",
+              "poster": "https://image.tmdb.org/t/p/original/8sOFpkpEACy4xF64S1ZKtUy2iAb.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fhighincomecreators.site%2F06afuSBYK%2Fpl%2FH4sIAAAAAAAAAw3MW3KCMBQA0C3lQSn000GCKKFAHiZ_wHVKIVhGqdKsvi7gnBAoiQiNOhxcgIRBBwA0eo8ubUApxvBRMn5SbiBCKFFMG5JSDZqlJWggvY73mimm6G5tnNkk5ZmZno8mUb965kE3LXfw0LRse9i5vlWj3HqiUshcruflDNTgfuSuSOyz9YMXOi3rKz.fEExKDLlxblYJ0HLv3qrJHSsCVqK0qITEpba1GfOXPXhDal8nfOwRng3arECQtyz.kdnu2zqXdc3dC7KEHQuwFaq20_DsUxfK134RoEr9dev8IWhZEVi6q2COj5bZz.K6rDxzQzFyKv_WtZSYap1KuNZKiwMCj.J_snF35kEBAAA-%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fhighincomecreators.site%2F06afuSBYK%2Fpl%2FH4sIAAAAAAAAAw3MW3KCMBQA0C3lQSn000GCKKFAHiZ_wHVKIVhGqdKsvi7gnBAoiQiNOhxcgIRBBwA0eo8ubUApxvBRMn5SbiBCKFFMG5JSDZqlJWggvY73mimm6G5tnNkk5ZmZno8mUb965kE3LXfw0LRse9i5vlWj3HqiUshcruflDNTgfuSuSOyz9YMXOi3rKz.fEExKDLlxblYJ0HLv3qrJHSsCVqK0qITEpba1GfOXPXhDal8nfOwRng3arECQtyz.kdnu2zqXdc3dC7KEHQuwFaq20_DsUxfK134RoEr9dev8IWhZEVi6q2COj5bZz.K6rDxzQzFyKv_WtZSYap1KuNZKiwMCj.J_snF35kEBAAA-%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 9,
+              "episodeCode": "S03E09",
+              "episodeName": "La Locker Room Aux Folles",
+              "airDate": "2023-05-09",
+              "poster": "https://image.tmdb.org/t/p/original/q7XTLOBtk7NN8f98LPDJzobyPVZ.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_97546/Season%203/S03E09/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://highperformancebrands.site/rNyXmX1Ap/pl/H4sIAAAAAAAAAw3MyXKCMAAA0F8KQVB6tCFRnIQGyHoLi9USGNqmin59Pb3bS4Y4PbvN1gEYubgbzrttPCTbYYgzAF681cgHVmeoJpHlunJG9mkt1sUifhPj7k5zZjjwiMHNyiZ2cGNBBWLCIZ82YJ17vMgS7.MOXr5byEgFokLOy0c3hoecwpUCenMzC3KS1Mz7VGG7t9j_ufxzbYmBBhSoV4UVMGNlnhSW9D9SX3gl.kDH6NeIKBHKpvar14IEaK8ZadT67JS_2smbQUW61Pxmml7Lg3_IMYRTvLAKYaimJKlklVBZLC2hEX3ik8x3cSlYaN_DkYul4bCAinjbQXynCnMhsVbj64J.5A3I_gFZs.YlQQEAAA--/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 10,
+              "episodeCode": "S03E10",
+              "episodeName": "International Break",
+              "airDate": "2023-05-16",
+              "poster": "https://image.tmdb.org/t/p/original/nwwJ7vefKslxMRnpKImalnaa3Hy.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fprofitablelaunchsystem.site%2Fj5wvyzTDu%2Fpl%2FH4sIAAAAAAAAAw3QQXKDIBQA0CuBFKtd2kCNrT.DQRB2aExMINZJnIx6.nb7lu_cd4TGOG0JweckxTHqkvfY0SRB3TmJ0UebMyJQeNTSSuWXWTdiM5sqjeaPE3pG_ZdfSsxv9XX.FJvFh6YoIQrE6BqDnonB2Xpo1O.BFZnSdLWeN64egtuJt1PNhSMTMrdiBUZBsWHs_fDz77FCS9au6XhkSgMBCVIhiy6P48h34jqHCqXB4GlzPuyd4k.QfqlYaERU2FaGXYft3Y2AZX55yQC.zrN9h7PgZJGflB0VMVTqEAkJ3y2upEVhUBF3Pc8I1HTv7tWrDLBYhhcYhzuo4dax6XXc.FQqQ1sv_k9Q.gc4CmKpQQEAAA--%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fprofitablelaunchsystem.site%2Fj5wvyzTDu%2Fpl%2FH4sIAAAAAAAAAw3QQXKDIBQA0CuBFKtd2kCNrT.DQRB2aExMINZJnIx6.nb7lu_cd4TGOG0JweckxTHqkvfY0SRB3TmJ0UebMyJQeNTSSuWXWTdiM5sqjeaPE3pG_ZdfSsxv9XX.FJvFh6YoIQrE6BqDnonB2Xpo1O.BFZnSdLWeN64egtuJt1PNhSMTMrdiBUZBsWHs_fDz77FCS9au6XhkSgMBCVIhiy6P48h34jqHCqXB4GlzPuyd4k.QfqlYaERU2FaGXYft3Y2AZX55yQC.zrN9h7PgZJGflB0VMVTqEAkJ3y2upEVhUBF3Pc8I1HTv7tWrDLBYhhcYhzuo4dax6XXc.FQqQ1sv_k9Q.gc4CmKpQQEAAA--%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 11,
+              "episodeCode": "S03E11",
+              "episodeName": "Mom City",
+              "airDate": "2023-05-23",
+              "poster": "https://image.tmdb.org/t/p/original/nAWyJ1tTL8pngx8fNva3yGrwMTI.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fsolopreneurstrategyguide.site%2FRTxjrpcEV%2Fpl%2FH4sIAAAAAAAAAw3O3XpDMBgA4FuSkHV2tpYwbWiQL.RMhEfnZ9qnQ1399l7Bi.o30iCjHXJ4a1r70NYHgzBycFsTC7f6owlIUWJwhB0dzyj9ygKHnBF98N4NIdi8qp9fDKmdj24C0.cWT3OnxvmqQ4rBK3cDZs5lfLrYpVUH6UNn75hh9YqHea38pyP99aUDgYy_qbOlRBPOJynXRSO2VkXH83DAteCLubkx9C7KBgVxv115QX.b8fmT03IFMFyMdMxg4DAqFX9HlwTMom22Z0N0g56Uek8tUcT_i2hhQXdP5JbU3tFOrWiTHnsxAR5IYrGC3tl0FIlPt.rkBlKSmNu0LMfIY_mwsJ0OgLtchGbiueX.AYRzs5lBAQAA%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://solopreneurstrategyguide.site/RTxjrpcEV/pl/H4sIAAAAAAAAAwXBa3eCIBgA4L_0gtpsH11Cs8QDcTnyLcRWgeVapwu_fs_jR3zIkS8WyJewQKUDnOVFdvgos4PPHP4c6VAo_LoxabGicNud2SzRHPVKK2Nsballii6TUoLsJMsd6R8Mrkgl3SjMJkZfvQrItMm.BdiJZ2L2kmlBqlwSnRzNscuaI0v6ykPRalR1HW2wX_28HAiu13UStAnidP8eqUi9rH7Hy2ydtLOMseZTjc252moT3r5uoiY29CF_qHUNrYEn03ojI5tcjTZmGt49lKCmeDSXABZIxzKP9qk6yYB2wvj7Bq7PVh4fbdAdx1ZtQfz1ifEBka8BEPWR36SMtFs1DZew_AecgLWAQQEAAA--/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 12,
+              "episodeCode": "S03E12",
+              "episodeName": "So Long, Farewell",
+              "airDate": "2023-05-30",
+              "poster": "https://image.tmdb.org/t/p/original/20wtnBwy5nRQHgWU89GTCAtTuyc.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fdigitalgrowthblueprint.site%2F6PGjsLVO1%2Fpl%2FH4sIAAAAAAAAAw3OzXZEMBgA0FfCjL_uxhCqEpXxJWQniVNnhE61VD19Z303t9fB2ZK.9AI39GyttQqU7dmd5Vva9_zTyy3LX0k8fPXgjgDkHd8jT1gClSw612ni4gQ2AvZnO5lfbEgsmssOhhZ0ehS1ta_dffC6AzUyHRbSICMdIWRNfmCkK0wEl7XaZGYGxfO1mvUok.GP12jRR4RY6rY4CZaKRRk9sUE3Yi8OhCtzcaoTvWITrWUakuclhTS_dlneqEY3hfOxdxytPFFLywWvYbcVY9_tpF3qhNDPqFMcCeD0oeec3UZado7BLN1bymnUxwM87d7Hgr7ZlIg5X.VBq37WGzvIpBISwxxtUFvhPz1n2itBAQAA%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://digitalgrowthblueprint.site/6PGjsLVO1/pl/H4sIAAAAAAAAAwXB2XKCMBQA0F.CANr0rViWRoiS5QJ5gwRFExymgxX5.p6zQ_uwiwaktQ6Cfd99.F7YaXzpMeouu2j3qSQtS5RadlueUqqqnpbwlFJEJ3yW3vVPw8jUY5RgYRqS8Uyb.cg8KOj2Feg6jUpH115Sv63VSd3Vyp1rTOJOhWeRRjPpM7_RqauEM4S_l1TD7HQG50GGrzYwUOYmEuj60iK2Io_94YYPrHEbteRbNvNbWlzW3.zZ3uGgM5VVlsRsU78cyIFmC2.FEZDhtJq8VTv2Q7dRtmi1VMSkRKRgTcy7nMApMa9qinhpTQtb.tA1PgJQEP68KJFsOpinQVDg.Vi09cqh0W.zefgfvoN.pUEBAAA-/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasonNumber": 4,
+          "seasonName": "Season 4",
+          "totalEpisodes": 5,
+          "episodes": [
+            {
+              "episodeNumber": 1,
+              "episodeCode": "S04E01",
+              "episodeName": "Home",
+              "airDate": "2026-08-04",
+              "poster": "https://image.tmdb.org/t/p/original/xKnpiILK8q0FR1DgNvsYBdKuFDN.jpg",
+              "servers": [
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://profitablelaunchsystem.site/st6OwScbT/pl/H4sIAAAAAAAAAwXByXaCMBQA0F_KYHqku6IyiaFmErIDHpRCAIe2gl_fe1lZo7YhgCnCW9hQjLyWbZuWMq.tGkbfyxA0V91chjaAiD8s8eaUQmxyf1epwzMl3vcRsUTnwXAinpDUIaFEwqeB2h64CTiXgc0rV681sn6mmd9M8BAHs6mmK4KeywLNd0lrIkPYHV_uZfene0ostREQfin.dG8CMQFS4ReulLnJV7KK9eezzGNc4YRqJTZqXKJmEr_1Bd7U_mOxA7tCHi_l6B6m97PCJJGO_CXbn17SXFMdikwHgM.ok3KwqnTzEzSO5cBukriiHGd6ll5XH9xqSDJLai5N7xJDg6ccNVOUd2eFvH8G21QtQQEAAA--/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 2,
+              "episodeCode": "S04E02",
+              "episodeName": "Curiouser and Curiouser!",
+              "airDate": "2026-08-11",
+              "poster": "https://image.tmdb.org/t/p/original/uQh0LIEnvwp4j3Z2Rnab4K1kG0Y.jpg",
+              "servers": [
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://onlinecoachingacademy.site/V65edTwK5/pl/H4sIAAAAAAAAAw3LSW6DMBQA0Ct5IJXpEsEncYIpgwe8MxhKMaFphCqU07dv_0aGY888YRNFDkfj1PeRZ2zyJHbsNEXvTovruHSHMpD2SJzHzM5tPmvbAmmIx.4rdtLwTEgfRpNcyhSIznnppEce4bnCgvr0E0uYVa3E_UZW3OIH6GDfikXtfoOmMo_EbwUqjTIyrzN9TkQnhbwidVSU7222X6ow7__HDO36OyzJy9KZDipEpeR1FfxTGh.VINYCHt.dBNuSuLEBjEtFXss165d6azL4GfRuBgVCa0ns_XTpVHhadKSFVlZtKlxRDKU.PlrsU_dabxICFbBykTPaSd70Spx7UnOVnWb7QvEfvdIsMUEBAAA-/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 3,
+              "episodeCode": "S04E03",
+              "episodeName": "Richmond's Got Talent",
+              "airDate": "2026-08-18",
+              "poster": "https://image.tmdb.org/t/p/original/s0wKqFThue5D6pHAmifyavh0F6G.jpg",
+              "servers": [
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://smartmarketingacademy.site/y5MMCBscf/pl/H4sIAAAAAAAAAwXByXKDIAAA0F8Ct2pvdRQTErEwLMpNxIx1SW1jE.Xr.14cmeDNhrFvDbxBEES3MOkjcDOxgV0MwDtbks1M9sechocBdienNLx6cWAzGVLFmC1WXE6h39xnRCZ68CJwQlrXLgkoeRrJMd1atX8pkTs5r4Iu8JM7ssj549Vz.dcC5hHYPLUij851vyUasOXnXasSapUc1ENPLVNA1V5UarhSgVy_sL0VsjX5sDdcPkogAL0PKxMrsh7aNEp1V.fQTPNT5ziQXoj7EU8XZxvms0KMA7FZeVwgKrib9ypfa8FJZu7fLwt1wH1SdWgt9YQreWybzOSlq9lZSeY3Y8orZHHLraAcJP8Q4C3jQQEAAA--/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 4,
+              "episodeCode": "S04E04",
+              "episodeName": "Greyhounds' Day Off",
+              "airDate": "2026-08-25",
+              "poster": "https://image.tmdb.org/t/p/original/gtiRKXc236bBIsRGt70MFtZBxNf.jpg",
+              "servers": [
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://onlinecoachingacademy.site/v2bQHabXz/pl/H4sIAAAAAAAAAwXBW3aCMBQAwC0lPCr0rxwt.CAIJBfJX0L0RLhYqhGxq..MusQXn0SKmpUx0Tny6CrQfkTOXhhGVJFP1u.e5UgzkYaLpslcNBSVFw_KRwc9hrmHieImKIftm_WbeyXwnVP51COcuC9p_Ve.FOBRN7JU6VTvabKvkbVNYx.6MR8snbasiQNDmcyhCgyWQTdawQmEAqulpHZS6y.iUkgKzg7dGnvY2EN1Sl76Blanbqk9nEFMv.DLtfKNYwKEuuG9SF3foW1hMAP0.VsMuxk8aCRZZri6vtiYH3l9kNbbhXW2XSSwmSOIjrOx5t.CDdjqjXtw3yRdhrYaXNYN7siIlZqIpeQk_geTZV8TQQEAAA--/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 5,
+              "episodeCode": "S04E05",
+              "episodeName": "Riches of Embarrassment",
+              "airDate": "2026-09-01",
+              "poster": "https://image.tmdb.org/t/p/original/cS29Dq8ybdHYfW80E7VkTcWYvCZ.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://media.vidrift.in/tv_97546/Season%204/S04E05/vod.m3u8"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://claritybusinessacademy.site/xs6QGBzNr/pl/H4sIAAAAAAAAAw3PUXeCIBiA4b8kMDy6u5lZx5SOn0LIHQhbU3Su2lb8.nX93jxv_E4ip.MYDSaxEUpRHDuXYksxSXWSJK8qun0aL45awB5wTXuv2p6XD7awXPltqOfy0c20bea752OprS9zM6.YzZQ6DpKR9VvL_sUUHnpSNGqxD9de7zWBhu_PtcFwNEumBikIm9TaBaUVhoMay0MVmsAnS03.LHk5VVGZtVLsrWRjF3zhxo.LlcWZdcUGZnRyszpafL4M3Ee9gJtYsku7RbhCb78GeT9Exc6Q9afBa9522ZUt0Dhuv2BSf4BhsRJ0Pdm2QtlpCHYyO39lz4eB3zbw9HOxbnt8rw4ho2z03IYo_QeSDqRrQQEAAA--/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
                     }
                   ]
                 }

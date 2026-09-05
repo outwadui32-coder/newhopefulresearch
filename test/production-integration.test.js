@@ -68,6 +68,13 @@ async function main() {
   assert.equal(collector.isExplicitLowQualityUrl('https://cdn.test/hls/720/index.m3u8'), true);
   assert.equal(scanner.isExplicitLowQualityUrl('https://cdn.test/hls_mps/x/480/index.m3u8'), true);
   assert.equal(scanner.isExplicitLowQualityUrl('https://cdn.test/hls/1080/index.m3u8'), false);
+  assert.deepEqual(collector.resolveSourcePlan([]), [
+    { server: 'Alpha', sourceLabel: 'Alpha' },
+    { server: 'Premium', sourceLabel: 'Premium' },
+    { server: 'Orion', sourceLabel: 'Orion' },
+    { server: 'Ultra', sourceLabel: 'Vid' },
+    { server: 'PlayFast', sourceLabel: 'PlayFast' },
+  ], 'all canonical routes are attempted even when source discovery is temporarily empty');
   assert.equal(
     collector.ultraFallbackUrl('https://redflix.co/play?id=50&type=tv&season=0&episode=2'),
     'https://media.vidrift.in/tv_50/Season%200/S00E02/vod.m3u8'

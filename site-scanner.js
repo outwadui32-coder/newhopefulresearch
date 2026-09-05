@@ -444,7 +444,11 @@ function pruneExpiredProcessedItems(payload) {
     ).filter((url) => {
       const result = resultsByUrl.get(url);
       const hadCompliantStream = (result?.scan?.finalStreams || []).some(isPublishableStream);
-      return !(hadCompliantStream && !isFreshScan(result.scan));
+      // A playable result is reusable only after every approved provider was
+      // attempted. Put legacy/partial diagnostics back into rotation as well
+      // as expired links; failed provider-less items remain completed attempts
+      // until the explicit retry-failed pass.
+      return !(hadCompliantStream && !isReusableScan(result.scan));
     });
   }
 }

@@ -1,51 +1,13 @@
 {
   "metadata": {
     "category": "Home: In Theatres",
-    "totalMovies": 4,
-    "lastUpdated": "2026-09-05T07:41:17.374Z",
+    "totalMovies": 5,
+    "lastUpdated": "2026-09-05T10:59:34.174Z",
     "purpose": "Strictly for educational purposes only and not for commercial use"
   },
   "movies": [
     {
       "serial": 1,
-      "id": "movie:1480574",
-      "title": "Just Play Dead",
-      "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w342/e0WaDBrrBAMcq2stAXCR7rXEsiw.jpg",
-      "servers": [
-        {
-          "name": "PlayFast",
-          "qualities": [
-            {
-              "quality": "1080p",
-              "resolution": "1920x1080",
-              "url": "https://brandpositioningstudio.site/yhqxaIjWt/pl/H4sIAAAAAAAAAw3L0XaCIBgA4FcC0Trsbi214wma6Q_GnUCLiZYrK.Pp13f_xahdtiahsW2NXhJK46VOSGSIwYsjQj8fgMZURxnY5jSrIKYK0quGaVVhh0Re.F1mQQ7ZHxAxapmtpUzWXCa3WhSRGdTDgi139WfMsL.2GyBy455WFMgMMwOEH62cQQ82l75_qDy7M1SceRRHoi6qbUSRgSdmtevEgM8WEm97O7Ovac0aV_LOddvgExXN.AAqlMKdReDpProE8x5VOioe.GgGDsKnr1qcnsdhbAzgQ.lvL9m4q_VUQcaCJW7FPG14x.b3m_Z5_20rOtm.uKmu_7WEx8JfEg1AVM3vWs4LFRD9BzXG6mdBAQAA/master.m3u8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "serial": 2,
-      "id": "movie:1288059",
-      "title": "I Want Your Sex",
-      "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w342/pR7SIX3AwqdoD96OI44oLG98e7g.jpg",
-      "servers": [
-        {
-          "name": "PlayFast",
-          "qualities": [
-            {
-              "quality": "1080p",
-              "resolution": "1920x1080",
-              "url": "https://highincomecreators.site/BOmJJT2bG/pl/H4sIAAAAAAAAAw3MS3KDIAAA0CshfhK7tMEkpuIIAspOwA5RMZlOPsrpm.XbPBAn.x4EKgz2aZKAnR4U_IWp0SrcxSmAX1WbPS.QvTngqGttRZyZMJsxFtGG22wZhDnx4PYn5_KlDsQL9A7VoWAK3jxDM9LLndZhUdUO1z2QWB_ylRz1qhHa.olHfCFguD6ulSgWNhqraBo24lFop0Ps7EVwK9T3g1Eutw4GE2P4iIWNzMcERls3Zwkd7c_ATWcceTdjdhcsdkacvfSz1Kc6EnkXd42xHM2jnmRV5lnfBVb2ogS0_UxzuRKPNnkqiBK8V6O8cCF97fiTgvXZoMIbsEYU2InmpuLwfmNwerEGpP_hpRKUQQEAAA--/master.m3u8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "serial": 3,
       "id": "movie:969681",
       "title": "Spider-Man: Brand New Day",
       "year": 2026,
@@ -74,7 +36,7 @@
       ]
     },
     {
-      "serial": 4,
+      "serial": 2,
       "id": "movie:1204680",
       "title": "Coyote vs. Acme",
       "year": 2026,
@@ -97,6 +59,93 @@
               "quality": "1080p",
               "resolution": "1920x1080",
               "url": "https://leadgenerationblueprint.site/7or07NZrA/pl/H4sIAAAAAAAAAwXB3XqCIAAA0FcSUtNdOvOvSQsQlDuFikT6.Bxt1tPvnEsMk0TFsZTpmF5lEIyJBFMSyyTYJ8FVfhBYQLGwDVkN2uL8ViRlA_H5BOqtnfF6KcN1YtkBmRsUc9a0VL8mGN2JATU3DTtCT.nBnzsoOgpQpXoD1bvxpFpm1uszY8tzAsUng74YD5or2pBhWQJaoZUYx4h1u8n4FVXLwK06jdAzAfAs7_5noNoRqzPVMywqzYlJv7lxGe_qUFUCDPAvaq2LcBD.ClM8jq80PzGdIwMQNxoxu.X4cVtbmmllw5eyoOSlfx7BbcNUtafeecKjr7EcwrFyAltnu17Vsmh3uEvrjgbpP3ULAo9BAQAA/27da12fde31593831c72d852c1926307/index.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": 3,
+      "id": "movie:1514026",
+      "title": "Buddy",
+      "year": 2026,
+      "poster": "https://image.tmdb.org/t/p/w342/6Lh4ZlsAISFQFVfLZ90sE9ycVnN.jpg",
+      "servers": [
+        {
+          "name": "Ultra",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://media.vidrift.in/movie_1514026/vod.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "PlayFast",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://profitablecreatorvault.site/yNu577H1U/pl/H4sIAAAAAAAAAwXB25KCIBgA4FcC0c32sgk0CxwRSblDfxo38dBhds2n3..Lux2EQRiFEeywDckXhGgX3wDH5NYh134L0qztwB78mK0VWmY3QS3Y_LzgmeRM1PKKK0tjpKfhY5L3rxvgyBM9tqkZ3LhoMxpyDozgo8ZyM6Qd9qU7.lfrIbejxzYdNk7flyrwQitgioBQCeRqYvkFn1aXrKHW2ZNvB9pguXDVTxU1UqPIOKonUS8nCDJfbLLWqUcQ4E.J_LNN.F.DmOKo32wVJTIVn7LK1jJlymp4XUeQVrGTo91m79lDa2859T8w9r1OfOHK_Vum5tzcO9JWkdCU8ev9UHbTvBbIIEEhKhTa_wMdJbLRQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": 4,
+      "id": "movie:1480574",
+      "title": "Just Play Dead",
+      "year": 2026,
+      "poster": "https://image.tmdb.org/t/p/w342/e0WaDBrrBAMcq2stAXCR7rXEsiw.jpg",
+      "servers": [
+        {
+          "name": "Ultra",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://media.vidrift.in/movie_1480574/vod.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "PlayFast",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://brandpositioningstudio.site/yhqxaIjWt/pl/H4sIAAAAAAAAAw3NUZKCIAAA0CuBaNb.rlBp6oqAxh8CO6ZE5ji2efrtAu_tdggEKoxNvIv3vzHYKwRQbFQQIm1hpL.6xHHGzJEm4q6PfciROauBFBqeg9z334KQXMO01Uy8raeZ4WSRw3WmkK4FjkSeUNA4ubD6gKpWNhzitUvoyDGY7UhD6j7m._DqABGF0OEFyadqCa4T.ZT8z39Ob0nKGRG3C0rnDOFNNpQqx8MKTFyeXC64qSxeEj4WdSWm4eoNVHxca0eRbSXTW.86OOGSw6o8pSvd.or5FJQJcbk3F8pcpFG16Y3.2DHKNJyGWrhVN4_NODMr3L_tbfFmdC9.fwTcCaIaWJoNHP4BOa4REEEBAAA-/0f9b738af906eb91d8f5b3fab14e78cc/index.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": 5,
+      "id": "movie:1288059",
+      "title": "I Want Your Sex",
+      "year": 2026,
+      "poster": "https://image.tmdb.org/t/p/w342/pR7SIX3AwqdoD96OI44oLG98e7g.jpg",
+      "servers": [
+        {
+          "name": "Ultra",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://media.vidrift.in/movie_1288059/vod.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "PlayFast",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://highincomecreators.site/BOmJJT2bG/pl/H4sIAAAAAAAAAw3N0W6DIBQA0F8CXKvukQlaW2lVuA7eVFyNomlco6tfv76f5DRB45MGBccDan9wQLrWx2Ho177_0YaIBJ_Z9LjVM2Xmm9.AQG9A4JzgSXK7Z4P5KlS6NImrmsnFmvxdMnlfa5ZvJeZJx7hqsFnayayVoxkkDyFHyLKBroW0v8BzBLxXV7gjPT1WORkoRpdor9.6iqGOhVuGoLQRVyYOXyWccO1obmar3seikdnq2Hm2sodr.UyLkTMTAdUzjerdvjQKnfJcYsZiuJATLkh_LkCjM.6PZjBMSEPqaNy6SJwhYSR_i1LSqN3TtK2eCmZYmtilYhTCTgIraams2CKZS68gXnZH4T.hUK.wQQEAAA--/1a489963d7656acb9327bf9124035ba9/index.m3u8"
             }
           ]
         }

@@ -165,8 +165,12 @@ function resolveSourcePlan(discoveredServers) {
     const sourceLabel = discoveredServers.find((label) =>
       aliases.some((alias) => alias.toLowerCase() === label.toLowerCase())
     );
-    return sourceLabel ? { server, sourceLabel } : null;
-  }).filter(Boolean);
+    // The source-button surface can load late or be temporarily absent while
+    // the deterministic ?server= routes still work. Keep every canonical
+    // server in the plan so a missing discovery result never becomes a
+    // silently skipped provider attempt. Ultra's current UI label is "Vid".
+    return { server, sourceLabel: sourceLabel || aliases[aliases.length - 1] };
+  });
 }
 
 function serverRoute(targetUrl, server) {

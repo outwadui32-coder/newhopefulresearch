@@ -1,8 +1,8 @@
 {
   "metadata": {
     "category": "Home: Trending in United States",
-    "totalMovies": 4,
-    "lastUpdated": "2026-09-05T07:41:17.374Z",
+    "totalMovies": 6,
+    "lastUpdated": "2026-09-05T10:59:34.174Z",
     "purpose": "Strictly for educational purposes only and not for commercial use"
   },
   "movies": [
@@ -122,6 +122,44 @@
               "quality": "1080p",
               "resolution": "1920x1080",
               "url": "https://startupscalingsystem.site/BtG0s01mM/pl/H4sIAAAAAAAAAw3My3KCMBQA0F.KPLW7diBU28Ry8yBmFwiWmggoDipfX_dnDkLtMWnDY4ySIIptgiJrkrCN7fqYppu0fpMcTB1QIJ8jZVwOfPGdrjbf4OSTKvwow_JplZyJ.nC28A9S3JREMSeZuwP2ppH21ji6q0UsmNOFEeX8erg5.5lmvtICT8T7fcutsvl0lUV3Nn_TTE5NzHqdQACDZDcQoe.I7y6Ni38qD0TnK0XlaGosB13AwKXPdA9jXdlDq2Bn8zKyJ3ttitXjC_mMoe3C5Kja3l_Ecx29TGaxdFrt9iIsrzrH2ybseuDvdxqQgGM9Mf4bgMODQOtlj4HRDIwJ8XBwsqeS5npBm39SDb4_QQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": 5,
+      "id": "movie:1315772",
+      "title": "Minions & Monsters",
+      "year": 2026,
+      "poster": "https://image.tmdb.org/t/p/w342/4LwvU9SZc8QQzW1X1FAPhNbXnEU.jpg",
+      "servers": [
+        {
+          "name": "Ultra",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://media.vidrift.in/movie_1315772/vod.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": 6,
+      "id": "movie:1084244",
+      "title": "Toy Story 5",
+      "year": 2026,
+      "poster": "https://image.tmdb.org/t/p/w342/9VWplgfRcYkUao9QGQXUP3rWQK7.jpg",
+      "servers": [
+        {
+          "name": "PlayFast",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://onlinevisibilitysystem.site/SBzuCY2ts/pl/H4sIAAAAAAAAAw3J0XpDMBgA0FdKpFXd3aqC9cNSyU9yJ6KzitZXhnn67dwe93BzPYJNTWq0JxX2jjd9wEey0zviGM990yVF4iw37ezXJhhmIIZyzPDV2tJEsPJ8igVpL_ohSC4s1pFSqv.4aJ7uOXoiRWmgt9PnxbGQUJh1773k4_.7KzaPNMxoQtJ7gIpu8itCUwXpAn0ymw0i3q1uForZ.JNMrHIkh7C274uG05aH69gInGcwDFcCPu_gWQQCZcFQNlx9Q6FawM9fCcOkLCBWTGPlj2vVo1cq4oU5QJvoNDY2IayDc2XlCjAUyRZjudWIW_VjeItlP1jWm45t8aLyaan6L0fd1cKxbRlHxz8ylKY2QQEAAA--/1a489963d7656acb9327bf9124035ba9/index.m3u8"
             }
           ]
         }

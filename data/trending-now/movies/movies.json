@@ -1,51 +1,13 @@
 {
   "metadata": {
     "category": "Browse: TRENDING NOW",
-    "totalMovies": 13,
-    "lastUpdated": "2026-09-05T07:41:17.374Z",
+    "totalMovies": 20,
+    "lastUpdated": "2026-09-05T10:59:34.174Z",
     "purpose": "Strictly for educational purposes only and not for commercial use"
   },
   "movies": [
     {
       "serial": 1,
-      "id": "movie:1480574",
-      "title": "Just Play Dead",
-      "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w342/e0WaDBrrBAMcq2stAXCR7rXEsiw.jpg",
-      "servers": [
-        {
-          "name": "PlayFast",
-          "qualities": [
-            {
-              "quality": "1080p",
-              "resolution": "1920x1080",
-              "url": "https://brandpositioningstudio.site/yhqxaIjWt/pl/H4sIAAAAAAAAAw3L0XaCIBgA4FcC0Trsbi214wma6Q_GnUCLiZYrK.Pp13f_xahdtiahsW2NXhJK46VOSGSIwYsjQj8fgMZURxnY5jSrIKYK0quGaVVhh0Re.F1mQQ7ZHxAxapmtpUzWXCa3WhSRGdTDgi139WfMsL.2GyBy455WFMgMMwOEH62cQQ82l75_qDy7M1SceRRHoi6qbUSRgSdmtevEgM8WEm97O7Ovac0aV_LOddvgExXN.AAqlMKdReDpProE8x5VOioe.GgGDsKnr1qcnsdhbAzgQ.lvL9m4q_VUQcaCJW7FPG14x.b3m_Z5_20rOtm.uKmu_7WEx8JfEg1AVM3vWs4LFRD9BzXG6mdBAQAA/master.m3u8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "serial": 2,
-      "id": "movie:1288059",
-      "title": "I Want Your Sex",
-      "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w342/pR7SIX3AwqdoD96OI44oLG98e7g.jpg",
-      "servers": [
-        {
-          "name": "PlayFast",
-          "qualities": [
-            {
-              "quality": "1080p",
-              "resolution": "1920x1080",
-              "url": "https://highincomecreators.site/BOmJJT2bG/pl/H4sIAAAAAAAAAw3MS3KDIAAA0CshfhK7tMEkpuIIAspOwA5RMZlOPsrpm.XbPBAn.x4EKgz2aZKAnR4U_IWp0SrcxSmAX1WbPS.QvTngqGttRZyZMJsxFtGG22wZhDnx4PYn5_KlDsQL9A7VoWAK3jxDM9LLndZhUdUO1z2QWB_ylRz1qhHa.olHfCFguD6ulSgWNhqraBo24lFop0Ps7EVwK9T3g1Eutw4GE2P4iIWNzMcERls3Zwkd7c_ATWcceTdjdhcsdkacvfSz1Kc6EnkXd42xHM2jnmRV5lnfBVb2ogS0_UxzuRKPNnkqiBK8V6O8cCF97fiTgvXZoMIbsEYU2InmpuLwfmNwerEGpP_hpRKUQQEAAA--/master.m3u8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "serial": 3,
       "id": "movie:1386315",
       "title": "The Runner",
       "year": 2026,
@@ -74,7 +36,7 @@
       ]
     },
     {
-      "serial": 4,
+      "serial": 2,
       "id": "movie:969681",
       "title": "Spider-Man: Brand New Day",
       "year": 2026,
@@ -103,7 +65,7 @@
       ]
     },
     {
-      "serial": 5,
+      "serial": 3,
       "id": "movie:1368337",
       "title": "The Odyssey",
       "year": 2026,
@@ -132,7 +94,7 @@
       ]
     },
     {
-      "serial": 6,
+      "serial": 4,
       "id": "movie:1355228",
       "title": "Gandhari",
       "year": 2026,
@@ -161,7 +123,7 @@
       ]
     },
     {
-      "serial": 7,
+      "serial": 5,
       "id": "movie:1339713",
       "title": "Obsession",
       "year": 2026,
@@ -195,7 +157,7 @@
       ]
     },
     {
-      "serial": 8,
+      "serial": 6,
       "id": "movie:1204680",
       "title": "Coyote vs. Acme",
       "year": 2026,
@@ -224,7 +186,7 @@
       ]
     },
     {
-      "serial": 9,
+      "serial": 7,
       "id": "movie:860508",
       "title": "The Whisper Man",
       "year": 2026,
@@ -253,7 +215,7 @@
       ]
     },
     {
-      "serial": 10,
+      "serial": 8,
       "id": "movie:1506560",
       "title": "Clash of the Thundermans",
       "year": 2026,
@@ -272,7 +234,7 @@
       ]
     },
     {
-      "serial": 11,
+      "serial": 9,
       "id": "movie:1731694",
       "title": "LEGO Star Wars: The Mandalorian",
       "year": 2026,
@@ -301,7 +263,7 @@
       ]
     },
     {
-      "serial": 12,
+      "serial": 10,
       "id": "movie:192139",
       "title": "The Brink of War",
       "year": 2026,
@@ -320,7 +282,7 @@
       ]
     },
     {
-      "serial": 13,
+      "serial": 11,
       "id": "movie:1081003",
       "title": "Supergirl",
       "year": 2026,
@@ -343,6 +305,227 @@
               "quality": "1080p",
               "resolution": "1920x1080",
               "url": "https://impactdrivenbrands.site/2WEH1EW2I/pl/H4sIAAAAAAAAAw3D0W6DIBQA0F8CsbXusRG1rmK8eGHwRqSZFXUucZ3t128nOTfmY3o6EeJd7_8757xLbixKfZSQY_JmyLRhoA98ppnmEMQ9NT03e1OAViN89bO9iHL9MdRn78Qe26Ay8RrYlVBdZ5zJiGaKXWK3qINDZECg8ZOJJU53f081hMPWUTEgQ.bnqeyn9XV9hdgudqnnzSIR31atRsoNoesjSYcIuKFY2LKmVQEhj3DOc6fs2c5KdeVa2MnybvncW5JWOIpRUHjcFDzsgtTzXeglUKenxhEQgHCRxe_TF4e8HatYMIVS5a2Ye9pGlWzKmmi0meAwWD58uBL3LqQa1XnEjqR_bUmhyEEBAAA-/0f9b738af906eb91d8f5b3fab14e78cc/index.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": 12,
+      "id": "movie:1137844",
+      "title": "Mayday",
+      "year": 2026,
+      "poster": "https://image.tmdb.org/t/p/w342/hVXjX1jLZ1ljFSNGXpjJfbTUOa7.jpg",
+      "servers": [
+        {
+          "name": "Ultra",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://media.vidrift.in/movie_1137844/vod.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": 13,
+      "id": "movie:1530121",
+      "title": "The Girl in the River",
+      "year": 2026,
+      "poster": "https://image.tmdb.org/t/p/w342/jjTMUmxP3Wu1RRUqvBLGSLcYaee.jpg",
+      "servers": [
+        {
+          "name": "Ultra",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fstrategicgrowthpartners.site%2Fi3p4boT84%2Fpl%2FH4sIAAAAAAAAAwXB25KCIAAA0F8S1Br2LRNwLHElLsmbgm2rZE5rZX79noNQ11oUNTBE7mIRgpdtt.0aEAUoiOKm.RIg2dg1H0TGvjtxHeszyfR.XlTKvOzz1OHrUvgf6CCAtt_BIrhuCpJTkZLJYr9vvAxPlMwO87vFCCiSiFbgUGkwHCDbqDGpiuAet5jV9nemrQaGUzVa6R8GL7I8F4u5qdRm9btIk1UBu6peAn6LpxPkx04RVerccOzjI2BTIxFVK2eGmLGlrJLjPXIhqfggX.3n7yGUm2ux.9gwH7WanhVI3ofVvHTG_CF0tNMcO7J7C6qEVUlfDf6pZd6Xab6oIACl9vwYmtkGPKpEgP4BJt9lh0EBAAA-%2F0f9b738af906eb91d8f5b3fab14e78cc%2Findex.m3u8&headers=%7B%7D"
+            }
+          ]
+        },
+        {
+          "name": "PlayFast",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://strategicgrowthpartners.site/i3p4boT84/pl/H4sIAAAAAAAAAw3IwZZDMBQA0F8SQZllEWomcSQ8mh1pWiXU0U7b8fXT5b04cDu79X2szzvLVajTbhd4WJ2xo_wz3n3pRCLdZM_aZNCOkovxskkDqZr6XAz8yuO3p8PgVk5ESGQwM.x1NLDKKbur9GNiis5iDkP7DSyQtLKex_odquvjt5r3YXv11zyFTeLDn2gIpukSCXJb6QxVTQzTMYpo4n7rJFvKkaUVIj3M7IcPMaKEZHSWL6hOtqz6oSTGKc3CCpzdT4TEhT1abWpEh8yejv2hjpink1N.FA.T10FJDeQs4XE1kkiEwef4qht41RNwGMm9CwOuGhAl7pNuBq.cDk6BFtEO3Fap2uRmBf8RybgDQQEAAA--/0f9b738af906eb91d8f5b3fab14e78cc/index.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": 14,
+      "id": "movie:1479832",
+      "title": "DC",
+      "year": 2026,
+      "poster": "https://image.tmdb.org/t/p/w342/k9AwqfQ9wYtaGew8oZh6GBouvO2.jpg",
+      "servers": [
+        {
+          "name": "Ultra",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://media.vidrift.in/movie_1479832/vod.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "PlayFast",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://subscriptionbusinesshub.site/pagW2CMDx/pl/H4sIAAAAAAAAAwXB3ZKCIBgA0FfiQ21kL3X9TZgF.bC4M3FyCsusadeefs.JGRAHdKS7oB8gPhHmCKWOxnEYsdO4.9rTV9j6pD2VnEq0pN9YisS_9uS8YhH98G4Cc0keSPK3yl4evXs24EKhczmW9n2cl1tbmNuQPanK_af_djnPzxsGCfK5FhxUI30FbblQC67pvUDEKRMpa46XZEVvu8EIcHTYhmsVtRncR.3mEVXhSPYrTP2nkT3aOV5dAbnEOhPaLALjtzRTplNW9oW48mDyDVSR0ImW4Do83KkgIViTdHaWW9fZw5AtqYW6VCBWfhFK.CXsff4wWAXtvEhR.o_qlDXUrLysN6kJ.weW80jAQQEAAA--/0f23fcf79be0e63ab6d07c73d2dcf717/index.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": 15,
+      "id": "movie:1514026",
+      "title": "Buddy",
+      "year": 2026,
+      "poster": "https://image.tmdb.org/t/p/w342/6Lh4ZlsAISFQFVfLZ90sE9ycVnN.jpg",
+      "servers": [
+        {
+          "name": "Ultra",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://media.vidrift.in/movie_1514026/vod.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "PlayFast",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://profitablecreatorvault.site/yNu577H1U/pl/H4sIAAAAAAAAAwXB25KCIBgA4FcC0c32sgk0CxwRSblDfxo38dBhds2n3..Lux2EQRiFEeywDckXhGgX3wDH5NYh134L0qztwB78mK0VWmY3QS3Y_LzgmeRM1PKKK0tjpKfhY5L3rxvgyBM9tqkZ3LhoMxpyDozgo8ZyM6Qd9qU7.lfrIbejxzYdNk7flyrwQitgioBQCeRqYvkFn1aXrKHW2ZNvB9pguXDVTxU1UqPIOKonUS8nCDJfbLLWqUcQ4E.J_LNN.F.DmOKo32wVJTIVn7LK1jJlymp4XUeQVrGTo91m79lDa2859T8w9r1OfOHK_Vum5tzcO9JWkdCU8ev9UHbTvBbIIEEhKhTa_wMdJbLRQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": 16,
+      "id": "movie:1315772",
+      "title": "Minions & Monsters",
+      "year": 2026,
+      "poster": "https://image.tmdb.org/t/p/w342/4LwvU9SZc8QQzW1X1FAPhNbXnEU.jpg",
+      "servers": [
+        {
+          "name": "Ultra",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://media.vidrift.in/movie_1315772/vod.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": 17,
+      "id": "movie:1084244",
+      "title": "Toy Story 5",
+      "year": 2026,
+      "poster": "https://image.tmdb.org/t/p/w342/9VWplgfRcYkUao9QGQXUP3rWQK7.jpg",
+      "servers": [
+        {
+          "name": "PlayFast",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://onlinevisibilitysystem.site/SBzuCY2ts/pl/H4sIAAAAAAAAAw3J0XpDMBgA0FdKpFXd3aqC9cNSyU9yJ6KzitZXhnn67dwe93BzPYJNTWq0JxX2jjd9wEey0zviGM990yVF4iw37ezXJhhmIIZyzPDV2tJEsPJ8igVpL_ohSC4s1pFSqv.4aJ7uOXoiRWmgt9PnxbGQUJh1773k4_.7KzaPNMxoQtJ7gIpu8itCUwXpAn0ymw0i3q1uForZ.JNMrHIkh7C274uG05aH69gInGcwDFcCPu_gWQQCZcFQNlx9Q6FawM9fCcOkLCBWTGPlj2vVo1cq4oU5QJvoNDY2IayDc2XlCjAUyRZjudWIW_VjeItlP1jWm45t8aLyaan6L0fd1cKxbRlHxz8ylKY2QQEAAA--/1a489963d7656acb9327bf9124035ba9/index.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": 18,
+      "id": "movie:1480574",
+      "title": "Just Play Dead",
+      "year": 2026,
+      "poster": "https://image.tmdb.org/t/p/w342/e0WaDBrrBAMcq2stAXCR7rXEsiw.jpg",
+      "servers": [
+        {
+          "name": "Ultra",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://media.vidrift.in/movie_1480574/vod.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "PlayFast",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://brandpositioningstudio.site/yhqxaIjWt/pl/H4sIAAAAAAAAAw3NUZKCIAAA0CuBaNb.rlBp6oqAxh8CO6ZE5ji2efrtAu_tdggEKoxNvIv3vzHYKwRQbFQQIm1hpL.6xHHGzJEm4q6PfciROauBFBqeg9z334KQXMO01Uy8raeZ4WSRw3WmkK4FjkSeUNA4ubD6gKpWNhzitUvoyDGY7UhD6j7m._DqABGF0OEFyadqCa4T.ZT8z39Ob0nKGRG3C0rnDOFNNpQqx8MKTFyeXC64qSxeEj4WdSWm4eoNVHxca0eRbSXTW.86OOGSw6o8pSvd.or5FJQJcbk3F8pcpFG16Y3.2DHKNJyGWrhVN4_NODMr3L_tbfFmdC9.fwTcCaIaWJoNHP4BOa4REEEBAAA-/0f9b738af906eb91d8f5b3fab14e78cc/index.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": 19,
+      "id": "movie:1288059",
+      "title": "I Want Your Sex",
+      "year": 2026,
+      "poster": "https://image.tmdb.org/t/p/w342/pR7SIX3AwqdoD96OI44oLG98e7g.jpg",
+      "servers": [
+        {
+          "name": "Ultra",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://media.vidrift.in/movie_1288059/vod.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "PlayFast",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://highincomecreators.site/BOmJJT2bG/pl/H4sIAAAAAAAAAw3N0W6DIBQA0F8CXKvukQlaW2lVuA7eVFyNomlco6tfv76f5DRB45MGBccDan9wQLrWx2Ho177_0YaIBJ_Z9LjVM2Xmm9.AQG9A4JzgSXK7Z4P5KlS6NImrmsnFmvxdMnlfa5ZvJeZJx7hqsFnayayVoxkkDyFHyLKBroW0v8BzBLxXV7gjPT1WORkoRpdor9.6iqGOhVuGoLQRVyYOXyWccO1obmar3seikdnq2Hm2sodr.UyLkTMTAdUzjerdvjQKnfJcYsZiuJATLkh_LkCjM.6PZjBMSEPqaNy6SJwhYSR_i1LSqN3TtK2eCmZYmtilYhTCTgIraams2CKZS68gXnZH4T.hUK.wQQEAAA--/1a489963d7656acb9327bf9124035ba9/index.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": 20,
+      "id": "movie:1752159",
+      "title": "Turning Point: Generation 9/11",
+      "year": 2026,
+      "poster": "https://image.tmdb.org/t/p/original/fSPbxVI1q5sCS4fegzoFByzE749.jpg",
+      "servers": [
+        {
+          "name": "PlayFast",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://contentmonetizationlab.site/6PGjsLVO1/pl/H4sIAAAAAAAAAwXB25KCIAAA0F8SEN32bTXQtaSBuCRvCjatWtJMk.nX7zmwTzrsYoRQmsCrA75Nepym6RV8YQh3ybf9e.WqwFzLH9hNGrRKzPIO3kyH3Ix0Xw8VcCRGfMtyDavyZIQWYIy66HbRao41oQWTftWkxv3EDjYKTX.fEjXUqI522E16ccT.HsCkJBRVX4hFDtMgpX_pzYfW0Iybj_XUxmfAnmxPjw30p56SuNvokz_oovWt7C7jagcqW0nnXk3RiQjePZpPs9nVQ5FbsiBLNDZlFhwK57pk2OnQ1EWDHfTG6iphlK8W8diPM7RERXIUD3N3m1HBcBOO58KrI2JY0uyjVPxWMtr9A0MSZClBAQAA/0f9b738af906eb91d8f5b3fab14e78cc/index.m3u8"
             }
           ]
         }
