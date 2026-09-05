@@ -1,7 +1,7 @@
 CATEGORY: Home: Popular on Prime Video
 New Movies:
 TOTAL MOVIES: 1
-LAST_UPDATED: 2026-09-05T11:06:27.883Z
+LAST_UPDATED: 2026-09-05T11:20:46.305Z
 PURPOSE: Strictly for educational purposes only and not for commercial use
 
 
@@ -11,7 +11,7 @@ Movie: 01
 ID         : movie:1386315
 MOVIE Name : The Runner
 Year       : 2026
-Poster     : https://image.tmdb.org/t/p/w500/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg
+Poster     : https://image.tmdb.org/t/p/w342/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg
 
 SERVER-1: Ultra
 

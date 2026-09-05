@@ -2,7 +2,7 @@
   "metadata": {
     "category": "Home: Popular on Prime Video",
     "totalMovies": 1,
-    "lastUpdated": "2026-09-05T11:06:27.883Z",
+    "lastUpdated": "2026-09-05T11:20:46.305Z",
     "purpose": "Strictly for educational purposes only and not for commercial use"
   },
   "movies": [
@@ -11,7 +11,7 @@
       "id": "movie:1386315",
       "title": "The Runner",
       "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w500/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg",
+      "poster": "https://image.tmdb.org/t/p/w342/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg",
       "servers": [
         {
           "name": "Ultra",

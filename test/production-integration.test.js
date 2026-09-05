@@ -92,6 +92,16 @@ async function main() {
   assert.deepEqual(revalidated.removedUrls, ['https://cdn.test/dead.m3u8']);
   assert.deepEqual(revalidated.scan.finalStreams.map((stream) => stream.url), ['https://cdn.test/live.m3u8'],
     'dead direct URLs are pruned before a cross-category result is reused');
+  const batchPayload = { results: [{ url: 'https://redflix.co/play?id=1&type=movie', scan: reusable }] };
+  const batchSweep = await scanner.revalidateResultBatch(
+    batchPayload,
+    batchPayload.results.map((item) => item.url),
+    async (url) => { if (url.includes('/dead.')) throw new Error('HTTP 404'); }
+  );
+  assert.equal(batchSweep.checkedUrls, 2);
+  assert.deepEqual(batchSweep.removedUrls, ['https://cdn.test/dead.m3u8']);
+  assert.deepEqual(batchPayload.results[0].scan.finalStreams.map((stream) => stream.url),
+    ['https://cdn.test/live.m3u8'], 'the post-batch sweep removes dead URLs from published results');
   assert.equal(
     collector.ultraFallbackUrl('https://redflix.co/play?id=50&type=tv&season=0&episode=2'),
     'https://media.vidrift.in/tv_50/Season%200/S00E02/vod.m3u8'

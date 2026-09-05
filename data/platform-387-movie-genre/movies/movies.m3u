@@ -2,11 +2,11 @@
 # CATEGORY: Platform 387 movie: GENRE
 # TYPE: MOVIES
 
-#EXTINF:-1 tvg-id="movie:1339713" tvg-name="Obsession" tvg-logo="https://image.tmdb.org/t/p/w500/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg" group-title="GENRE | Movies" server="Ultra" quality="1080p" resolution="1920x1080",Obsession [Ultra] [1080p]
+#EXTINF:-1 tvg-id="movie:1339713" tvg-name="Obsession" tvg-logo="https://image.tmdb.org/t/p/w342/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg" group-title="GENRE | Movies" server="Ultra" quality="1080p" resolution="1920x1080",Obsession [Ultra] [1080p]
 https://media.vidrift.in/movie_1339713/vod.m3u8
 
-#EXTINF:-1 tvg-id="movie:1339713" tvg-name="Obsession" tvg-logo="https://image.tmdb.org/t/p/w500/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg" group-title="GENRE | Movies" server="PlayFast" quality="4K" resolution="3840x2160",Obsession [PlayFast] [4K]
+#EXTINF:-1 tvg-id="movie:1339713" tvg-name="Obsession" tvg-logo="https://image.tmdb.org/t/p/w342/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg" group-title="GENRE | Movies" server="PlayFast" quality="4K" resolution="3840x2160",Obsession [PlayFast] [4K]
 https://hls.shegu.net/m3u8_proxy/video/39135465/video_4k_hdr.m3u8?KEY2=1788514590&KEY0=2&KEY7=febbox_video_quality_list_v4&KEY8=2311677&sign=x7k7BStEs-dn-hNVODW5pg
 
-#EXTINF:-1 tvg-id="movie:1339713" tvg-name="Obsession" tvg-logo="https://image.tmdb.org/t/p/w500/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg" group-title="GENRE | Movies" server="PlayFast" quality="1080p" resolution="1920x1080",Obsession [PlayFast] [1080p]
-https://scalablecontentengine.site/8DZ5WpsK6/pl/H4sIAAAAAAAAAw3K0XaCIAAA0F8K0KV7q5OUGmwyIORNwOYEy9qW6ddv9_mayLjz2oI4ctEZxi8gTc4usSZdp0mMkvUrA3rk4BPYUzKZrzQXYKscprjlmDJxXdlenqwvdNVLUoURNUJ2utcLOxD04b8fLnSoXPTEs.KXKJc1cGy4_8m0xL4dipu4dO9iCb08YPRxKO7lUshqTiABeWT211jiejYhX5ikvVXjip701YQtIgBfhJ9iqigQPYNMMd_KOmJez2.4KEr47Klie_f_6RBP7S7ACo7EComFB7daxKhSlLR8O5vh.RQ7LUkWFBk6X0kdzCWfJGZlLcLDKXw0fHNnanNvQJjt4qGT.ij4Kv0DmdAPnkEBAAA-/26fb49a349eded2679c5c62035131c94/index.m3u8
+#EXTINF:-1 tvg-id="movie:1339713" tvg-name="Obsession" tvg-logo="https://image.tmdb.org/t/p/w342/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg" group-title="GENRE | Movies" server="PlayFast" quality="1080p" resolution="1920x1080",Obsession [PlayFast] [1080p]
+https://scalablecontentengine.site/8DZ5WpsK6/pl/H4sIAAAAAAAAAwXB23KCMBAA0F8iEin0TYsL0mZVZJfLWzDMIAHE1rE2X99zRBvIIOzWkfcmw84EKx0FWhgTatmFa3F5v9he5iNas8vTprw8TxVQyUriFO3PAwomkF2cVTSCjwO7_C_KVCK2ODPWFTZmElfj.pF8_Gir_lVY9axFcyOv_tPziGU6HnG11IeC70joMIaA6Oe7HEHXtPfUlA166uPGe921y2RR9ANV5qsVG9nOOWhYkvwazXoCgZV1ub8wpY3gHS5so9e5XFJlM5.qze9p6i0NtD4k8NlxRizg1gIm.RQ6xbhqnYlp90gMjNwA7rVdjpqtK8o.aT2WDWz94vx4Ksc.g_Kp8KJ_zHsWEUEBAAA-/26fb49a349eded2679c5c62035131c94/index.m3u8

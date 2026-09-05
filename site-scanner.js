@@ -335,6 +335,30 @@ async function revalidateReusableScan(scan, liveProbe = verifyLiveUrl) {
   return { scan: candidate, removedUrls: [...removedUrls] };
 }
 
+async function revalidateResultBatch(payload, itemUrls, liveProbe = verifyLiveUrl) {
+  const selected = new Set(itemUrls);
+  const items = payload.results.filter((item) => selected.has(item.url));
+  const urls = [...new Set(items.flatMap((item) => (item.scan?.finalStreams || [])
+    .filter(isPublishableStream)
+    .map((stream) => stream.url)))];
+  const removedUrls = new Set();
+  await runWorkerPool(urls, 8, async (url) => {
+    try {
+      await liveProbe(url);
+    } catch (_) {
+      removedUrls.add(url);
+    }
+  });
+  if (removedUrls.size > 0) {
+    for (const item of items) {
+      if (!item.scan) continue;
+      item.scan.finalStreams = (item.scan.finalStreams || []).filter((stream) => !removedUrls.has(stream.url));
+      sanitizeScan(item.scan);
+    }
+  }
+  return { checkedUrls: urls.length, removedUrls: [...removedUrls] };
+}
+
 function is1080ClassResolution(value) {
   return Boolean(normalizeQuality(value));
 }
@@ -1728,6 +1752,8 @@ async function main() {
     });
 
     const logicalBatchUrls = payload.scheduler.activeBatch?.urls || queue.map((item) => item.url);
+    const liveSweep = await revalidateResultBatch(payload, payload.results.map((item) => item.url));
+    console.log(`[POST-BATCH LIVE SWEEP] CHECKED=${liveSweep.checkedUrls} REMOVED=${liveSweep.removedUrls.length}`);
     const batchCounts = successfulBatchCounts(payload, logicalBatchUrls);
     payload.scheduler.lastBatchByCategory[selectedCategory] = {
       category: selectedCategory,
@@ -1784,7 +1810,8 @@ module.exports = {
   normalizeTitleMetadata, enrichTitleMetadata,
   reconcileScheduler, markItemProcessed, markExistingResultsProcessed,
   nextCategoryBatch, resolveCategorySelection, mergeRefreshedCategory,
-  runWorkerPool, revalidateReusableScan, outputRows, contentCounts, catalogCounts, saveCheckpoint,
+  runWorkerPool, revalidateReusableScan, revalidateResultBatch,
+  outputRows, contentCounts, catalogCounts, saveCheckpoint,
   successfulBatchCounts,
   syncActiveBatchToQueue, repairLatestBatchCounts,
   expandSelectedSeriesQueue,

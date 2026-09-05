@@ -1,7 +1,7 @@
 CATEGORY: Platform 387 movie: GENRE
 New Movies:
 TOTAL MOVIES: 1
-LAST_UPDATED: 2026-09-05T11:06:27.883Z
+LAST_UPDATED: 2026-09-05T11:20:46.305Z
 PURPOSE: Strictly for educational purposes only and not for commercial use
 
 
@@ -11,7 +11,7 @@ Movie: 01
 ID         : movie:1339713
 MOVIE Name : Obsession
 Year       : 2026
-Poster     : https://image.tmdb.org/t/p/w500/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg
+Poster     : https://image.tmdb.org/t/p/w342/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg
 
 SERVER-1: Ultra
 
@@ -27,4 +27,4 @@ URL           : https://hls.shegu.net/m3u8_proxy/video/39135465/video_4k_hdr.m3u
 
 Quality       : 1080p
 Resolution-2  : 1920x1080
-URL           : https://scalablecontentengine.site/8DZ5WpsK6/pl/H4sIAAAAAAAAAw3K0XaCIAAA0F8K0KV7q5OUGmwyIORNwOYEy9qW6ddv9_mayLjz2oI4ctEZxi8gTc4usSZdp0mMkvUrA3rk4BPYUzKZrzQXYKscprjlmDJxXdlenqwvdNVLUoURNUJ2utcLOxD04b8fLnSoXPTEs.KXKJc1cGy4_8m0xL4dipu4dO9iCb08YPRxKO7lUshqTiABeWT211jiejYhX5ikvVXjip701YQtIgBfhJ9iqigQPYNMMd_KOmJez2.4KEr47Klie_f_6RBP7S7ACo7EComFB7daxKhSlLR8O5vh.RQ7LUkWFBk6X0kdzCWfJGZlLcLDKXw0fHNnanNvQJjt4qGT.ij4Kv0DmdAPnkEBAAA-/26fb49a349eded2679c5c62035131c94/index.m3u8
+URL           : https://scalablecontentengine.site/8DZ5WpsK6/pl/H4sIAAAAAAAAAwXB23KCMBAA0F8iEin0TYsL0mZVZJfLWzDMIAHE1rE2X99zRBvIIOzWkfcmw84EKx0FWhgTatmFa3F5v9he5iNas8vTprw8TxVQyUriFO3PAwomkF2cVTSCjwO7_C_KVCK2ODPWFTZmElfj.pF8_Gir_lVY9axFcyOv_tPziGU6HnG11IeC70joMIaA6Oe7HEHXtPfUlA166uPGe921y2RR9ANV5qsVG9nOOWhYkvwazXoCgZV1ub8wpY3gHS5so9e5XFJlM5.qze9p6i0NtD4k8NlxRizg1gIm.RQ6xbhqnYlp90gMjNwA7rVdjpqtK8o.aT2WDWz94vx4Ksc.g_Kp8KJ_zHsWEUEBAAA-/26fb49a349eded2679c5c62035131c94/index.m3u8
