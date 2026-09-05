@@ -2,7 +2,7 @@
   "metadata": {
     "category": "Platform 387 movie: GENRE",
     "totalMovies": 1,
-    "lastUpdated": "2026-09-05T10:59:34.174Z",
+    "lastUpdated": "2026-09-05T11:06:27.883Z",
     "purpose": "Strictly for educational purposes only and not for commercial use"
   },
   "movies": [
@@ -11,7 +11,7 @@
       "id": "movie:1339713",
       "title": "Obsession",
       "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w342/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
       "servers": [
         {
           "name": "Ultra",

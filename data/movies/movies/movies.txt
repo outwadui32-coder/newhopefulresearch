@@ -1,7 +1,7 @@
 CATEGORY: Movies: Movies
 New Movies:
-TOTAL MOVIES: 7
-LAST_UPDATED: 2026-09-05T10:59:34.174Z
+TOTAL MOVIES: 8
+LAST_UPDATED: 2026-09-05T11:06:27.883Z
 PURPOSE: Strictly for educational purposes only and not for commercial use
 
 
@@ -11,7 +11,7 @@ Movie: 01
 ID         : movie:969681
 MOVIE Name : Spider-Man: Brand New Day
 Year       : 2026
-Poster     : https://image.tmdb.org/t/p/w342/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg
+Poster     : https://image.tmdb.org/t/p/w500/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg
 
 SERVER-1: Ultra
 
@@ -32,7 +32,7 @@ Movie: 02
 ID         : movie:1368337
 MOVIE Name : The Odyssey
 Year       : 2026
-Poster     : https://image.tmdb.org/t/p/w342/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg
+Poster     : https://image.tmdb.org/t/p/w500/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg
 
 SERVER-1: Ultra
 
@@ -53,7 +53,7 @@ Movie: 03
 ID         : movie:1339713
 MOVIE Name : Obsession
 Year       : 2026
-Poster     : https://image.tmdb.org/t/p/w342/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg
+Poster     : https://image.tmdb.org/t/p/w500/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg
 
 SERVER-1: Ultra
 
@@ -78,7 +78,7 @@ Movie: 04
 ID         : movie:860508
 MOVIE Name : The Whisper Man
 Year       : 2026
-Poster     : https://image.tmdb.org/t/p/w342/6UqflU8Qqkz7Dq4swJPqs0ZJjY4.jpg
+Poster     : https://image.tmdb.org/t/p/w500/6UqflU8Qqkz7Dq4swJPqs0ZJjY4.jpg
 
 SERVER-1: Ultra
 
@@ -135,10 +135,31 @@ Movie: 07
 ID         : movie:1084244
 MOVIE Name : Toy Story 5
 Year       : 2026
-Poster     : https://image.tmdb.org/t/p/w342/9VWplgfRcYkUao9QGQXUP3rWQK7.jpg
+Poster     : https://image.tmdb.org/t/p/w500/9VWplgfRcYkUao9QGQXUP3rWQK7.jpg
 
 SERVER-1: PlayFast
 
 Quality       : 1080p
 Resolution-1  : 1920x1080
 URL           : https://onlinevisibilitysystem.site/SBzuCY2ts/pl/H4sIAAAAAAAAAw3J0XpDMBgA0FdKpFXd3aqC9cNSyU9yJ6KzitZXhnn67dwe93BzPYJNTWq0JxX2jjd9wEey0zviGM990yVF4iw37ezXJhhmIIZyzPDV2tJEsPJ8igVpL_ohSC4s1pFSqv.4aJ7uOXoiRWmgt9PnxbGQUJh1773k4_.7KzaPNMxoQtJ7gIpu8itCUwXpAn0ymw0i3q1uForZ.JNMrHIkh7C274uG05aH69gInGcwDFcCPu_gWQQCZcFQNlx9Q6FawM9fCcOkLCBWTGPlj2vVo1cq4oU5QJvoNDY2IayDc2XlCjAUyRZjudWIW_VjeItlP1jWm45t8aLyaan6L0fd1cKxbRlHxz8ylKY2QQEAAA--/1a489963d7656acb9327bf9124035ba9/index.m3u8
+
+
+Movie: 08
+------------------------------------
+
+ID         : movie:1288445
+MOVIE Name : Mutiny
+Year       : 2026
+Poster     : https://image.tmdb.org/t/p/w500/pu2VxGlpGwffOx292w18b1tv96j.jpg
+
+SERVER-1: Ultra
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fscalablecontentengine.site%2F8DZ5WpsK6%2Fpl%2FH4sIAAAAAAAAAw3P3XqCIBgA4FtCsGe6Q_Nnq0ETPjA5E7FpQY8zVrOr3947eK3Fw2aIhzg2L72xKUnJySTkZMnQdVFiXkWz0RSFao_KTjXJIq826lGy9sU8ywsrhZyVKdxPjekdwCJx0UeALKMkY91RBVA676f0oXxyV_kOZM5.W6y8QQG35.xWuwwbKCNTJcvHk29pzg80GqfBva_g2Fj78rNu7N2Q0QtwrckzpeXmyUoejI..xXR7ND6V8qgmWeqHWUPFS1YwkQJU.szJPHVNEKz4wuDTeU8UtKpfNUIL.ED0G8UHNWOGx5smbgees__DAQpecRmwKGxlrmyRmLcdqiN6.dWDt9umcrF.ovQP7ZokmUEBAAA-%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D
+
+SERVER-2: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://scalablecontentengine.site/8DZ5WpsK6/pl/H4sIAAAAAAAAAw3M0XqCIBgA0FcClNLdrS.x2YRg.KPcJVQ20dpW5nr67TzAWUYLRxdxQkjSJjhBZO8ooscjwRFu6dK_SMImXbNCkbmwZD47xtTH02OXhY3F3Qj5TVaYLzyBHfQxVQYEROwhx.Lihhu0wJ.ytvQ9ssgbqCXqZof4VwP.LDbZr1mH0uuiV2tbbSPOtqQbZLg2B4B5P9rYY25thTtFqkejw04AE.7_aAl7KzU7u1pVesCF_iy.RXaKtaF3WRUZhFfMWTaZMYjtc4VF7XcmTydl8F3U1.wwKNGatPQ5ogaANOgUf2Td5RBWvSTNzE06wZorx_ijjMLF5_zmBuhbpLjCoDziP1Kj9A.N0wkMQQEAAA--/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8

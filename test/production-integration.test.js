@@ -75,6 +75,23 @@ async function main() {
     { server: 'Ultra', sourceLabel: 'Vid' },
     { server: 'PlayFast', sourceLabel: 'PlayFast' },
   ], 'all canonical routes are attempted even when source discovery is temporarily empty');
+  const reusable = {
+    finishedAt: new Date().toISOString(),
+    finalStreams: [
+      { server: 'Alpha', url: 'https://cdn.test/live.m3u8', probe: {
+        ok: true, directPlaybackNoHeaders: true, resolution: '1920x1080', exactVariant: true,
+      } },
+      { server: 'PlayFast', url: 'https://cdn.test/dead.m3u8', probe: {
+        ok: true, directPlaybackNoHeaders: true, resolution: '1920x1080', exactVariant: true,
+      } },
+    ],
+  };
+  const revalidated = await scanner.revalidateReusableScan(reusable, async (url) => {
+    if (url.includes('/dead.')) throw new Error('HTTP 404');
+  });
+  assert.deepEqual(revalidated.removedUrls, ['https://cdn.test/dead.m3u8']);
+  assert.deepEqual(revalidated.scan.finalStreams.map((stream) => stream.url), ['https://cdn.test/live.m3u8'],
+    'dead direct URLs are pruned before a cross-category result is reused');
   assert.equal(
     collector.ultraFallbackUrl('https://redflix.co/play?id=50&type=tv&season=0&episode=2'),
     'https://media.vidrift.in/tv_50/Season%200/S00E02/vod.m3u8'

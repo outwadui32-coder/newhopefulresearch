@@ -1,8 +1,8 @@
 {
   "metadata": {
     "category": "Home: In Theatres",
-    "totalMovies": 5,
-    "lastUpdated": "2026-09-05T10:59:34.174Z",
+    "totalMovies": 6,
+    "lastUpdated": "2026-09-05T11:06:27.883Z",
     "purpose": "Strictly for educational purposes only and not for commercial use"
   },
   "movies": [
@@ -11,7 +11,7 @@
       "id": "movie:969681",
       "title": "Spider-Man: Brand New Day",
       "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w342/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
       "servers": [
         {
           "name": "Ultra",
@@ -40,7 +40,7 @@
       "id": "movie:1204680",
       "title": "Coyote vs. Acme",
       "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w342/orkLtdgMGiO9rTVMqJ1kKwrnup1.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/orkLtdgMGiO9rTVMqJ1kKwrnup1.jpg",
       "servers": [
         {
           "name": "Ultra",
@@ -146,6 +146,35 @@
               "quality": "1080p",
               "resolution": "1920x1080",
               "url": "https://highincomecreators.site/BOmJJT2bG/pl/H4sIAAAAAAAAAw3N0W6DIBQA0F8CXKvukQlaW2lVuA7eVFyNomlco6tfv76f5DRB45MGBccDan9wQLrWx2Ho177_0YaIBJ_Z9LjVM2Xmm9.AQG9A4JzgSXK7Z4P5KlS6NImrmsnFmvxdMnlfa5ZvJeZJx7hqsFnayayVoxkkDyFHyLKBroW0v8BzBLxXV7gjPT1WORkoRpdor9.6iqGOhVuGoLQRVyYOXyWccO1obmar3seikdnq2Hm2sodr.UyLkTMTAdUzjerdvjQKnfJcYsZiuJATLkh_LkCjM.6PZjBMSEPqaNy6SJwhYSR_i1LSqN3TtK2eCmZYmtilYhTCTgIraams2CKZS68gXnZH4T.hUK.wQQEAAA--/1a489963d7656acb9327bf9124035ba9/index.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": 6,
+      "id": "movie:1288445",
+      "title": "Mutiny",
+      "year": 2026,
+      "poster": "https://image.tmdb.org/t/p/w500/pu2VxGlpGwffOx292w18b1tv96j.jpg",
+      "servers": [
+        {
+          "name": "Ultra",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fscalablecontentengine.site%2F8DZ5WpsK6%2Fpl%2FH4sIAAAAAAAAAw3P3XqCIBgA4FtCsGe6Q_Nnq0ETPjA5E7FpQY8zVrOr3947eK3Fw2aIhzg2L72xKUnJySTkZMnQdVFiXkWz0RSFao_KTjXJIq826lGy9sU8ywsrhZyVKdxPjekdwCJx0UeALKMkY91RBVA676f0oXxyV_kOZM5.W6y8QQG35.xWuwwbKCNTJcvHk29pzg80GqfBva_g2Fj78rNu7N2Q0QtwrckzpeXmyUoejI..xXR7ND6V8qgmWeqHWUPFS1YwkQJU.szJPHVNEKz4wuDTeU8UtKpfNUIL.ED0G8UHNWOGx5smbgees__DAQpecRmwKGxlrmyRmLcdqiN6.dWDt9umcrF.ovQP7ZokmUEBAAA-%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+            }
+          ]
+        },
+        {
+          "name": "PlayFast",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://scalablecontentengine.site/8DZ5WpsK6/pl/H4sIAAAAAAAAAw3M0XqCIBgA0FcClNLdrS.x2YRg.KPcJVQ20dpW5nr67TzAWUYLRxdxQkjSJjhBZO8ooscjwRFu6dK_SMImXbNCkbmwZD47xtTH02OXhY3F3Qj5TVaYLzyBHfQxVQYEROwhx.Lihhu0wJ.ytvQ9ssgbqCXqZof4VwP.LDbZr1mH0uuiV2tbbSPOtqQbZLg2B4B5P9rYY25thTtFqkejw04AE.7_aAl7KzU7u1pVesCF_iy.RXaKtaF3WRUZhFfMWTaZMYjtc4VF7XcmTydl8F3U1.wwKNGatPQ5ogaANOgUf2Td5RBWvSTNzE06wZorx_ijjMLF5_zmBuhbpLjCoDziP1Kj9A.N0wkMQQEAAA--/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
             }
           ]
         }

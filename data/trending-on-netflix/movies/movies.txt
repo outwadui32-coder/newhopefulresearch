@@ -1,7 +1,7 @@
 CATEGORY: Home: Trending on Netflix
 New Movies:
 TOTAL MOVIES: 1
-LAST_UPDATED: 2026-09-05T10:59:34.174Z
+LAST_UPDATED: 2026-09-05T11:06:27.883Z
 PURPOSE: Strictly for educational purposes only and not for commercial use
 
 
@@ -11,7 +11,7 @@ Movie: 01
 ID         : movie:860508
 MOVIE Name : The Whisper Man
 Year       : 2026
-Poster     : https://image.tmdb.org/t/p/w342/6UqflU8Qqkz7Dq4swJPqs0ZJjY4.jpg
+Poster     : https://image.tmdb.org/t/p/w500/6UqflU8Qqkz7Dq4swJPqs0ZJjY4.jpg
 
 SERVER-1: Ultra
 

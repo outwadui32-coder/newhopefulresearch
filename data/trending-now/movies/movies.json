@@ -2,45 +2,16 @@
   "metadata": {
     "category": "Browse: TRENDING NOW",
     "totalMovies": 20,
-    "lastUpdated": "2026-09-05T10:59:34.174Z",
+    "lastUpdated": "2026-09-05T11:06:27.883Z",
     "purpose": "Strictly for educational purposes only and not for commercial use"
   },
   "movies": [
     {
       "serial": 1,
-      "id": "movie:1386315",
-      "title": "The Runner",
-      "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w342/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg",
-      "servers": [
-        {
-          "name": "Ultra",
-          "qualities": [
-            {
-              "quality": "1080p",
-              "resolution": "1920x1080",
-              "url": "https://media.vidrift.in/movie_1386315/vod.m3u8"
-            }
-          ]
-        },
-        {
-          "name": "PlayFast",
-          "qualities": [
-            {
-              "quality": "1080p",
-              "resolution": "1920x1080",
-              "url": "https://highincomecreators.site/L02HE60pQ/pl/H4sIAAAAAAAAAw3M3VqDIAAA0FcSkZXdbROnFCyRH.cdA8tPnC2zb8rT13mAYwGMnHsGO2ht2gGTutR.GAujJAGpuT69yHz0duS.hT1mcB.oJN9Mlokc2t7k5Kj0SuhEJhq4sXj5aW8j1vK.XaP7.6XZo9anvZ34woq8dBptZ7nWVTic3LYgPlz.nzxRod.dJaldRmMmKOKj3YQgLdfOnzWquPJbl_Efmt8n5hW22q.i4bnLfCLqJbzGCHaN2imFZwVYZTwLvKAPo8FAAZ6ZcKUoDrduOCyq4L9MyFA3LL6M5dp6BGrdV.K4xN0NZC4mnsHyIbE7vcVfs5tUQhv.qCK7uWO6OvgZmJIzD_1aiSj9A2F5EfJBAQAA/26fb49a349eded2679c5c62035131c94/index.m3u8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "serial": 2,
       "id": "movie:969681",
       "title": "Spider-Man: Brand New Day",
       "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w342/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
       "servers": [
         {
           "name": "Ultra",
@@ -65,11 +36,11 @@
       ]
     },
     {
-      "serial": 3,
+      "serial": 2,
       "id": "movie:1368337",
       "title": "The Odyssey",
       "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w342/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
       "servers": [
         {
           "name": "Ultra",
@@ -94,11 +65,11 @@
       ]
     },
     {
-      "serial": 4,
+      "serial": 3,
       "id": "movie:1355228",
       "title": "Gandhari",
       "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w342/hCHei97aPYCCsh4vicz9X0wmdFV.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/aF3IhwS1mrVfvM9OMXmTaXAT0l8.jpg",
       "servers": [
         {
           "name": "Ultra",
@@ -123,11 +94,11 @@
       ]
     },
     {
-      "serial": 5,
+      "serial": 4,
       "id": "movie:1339713",
       "title": "Obsession",
       "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w342/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
       "servers": [
         {
           "name": "Ultra",
@@ -157,11 +128,11 @@
       ]
     },
     {
-      "serial": 6,
+      "serial": 5,
       "id": "movie:1204680",
       "title": "Coyote vs. Acme",
       "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w342/orkLtdgMGiO9rTVMqJ1kKwrnup1.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/orkLtdgMGiO9rTVMqJ1kKwrnup1.jpg",
       "servers": [
         {
           "name": "Ultra",
@@ -186,11 +157,11 @@
       ]
     },
     {
-      "serial": 7,
+      "serial": 6,
       "id": "movie:860508",
       "title": "The Whisper Man",
       "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w342/6UqflU8Qqkz7Dq4swJPqs0ZJjY4.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/6UqflU8Qqkz7Dq4swJPqs0ZJjY4.jpg",
       "servers": [
         {
           "name": "Ultra",
@@ -215,7 +186,7 @@
       ]
     },
     {
-      "serial": 8,
+      "serial": 7,
       "id": "movie:1506560",
       "title": "Clash of the Thundermans",
       "year": 2026,
@@ -234,7 +205,7 @@
       ]
     },
     {
-      "serial": 9,
+      "serial": 8,
       "id": "movie:1731694",
       "title": "LEGO Star Wars: The Mandalorian",
       "year": 2026,
@@ -263,7 +234,7 @@
       ]
     },
     {
-      "serial": 10,
+      "serial": 9,
       "id": "movie:192139",
       "title": "The Brink of War",
       "year": 2026,
@@ -282,7 +253,7 @@
       ]
     },
     {
-      "serial": 11,
+      "serial": 10,
       "id": "movie:1081003",
       "title": "Supergirl",
       "year": 2026,
@@ -311,11 +282,11 @@
       ]
     },
     {
-      "serial": 12,
+      "serial": 11,
       "id": "movie:1137844",
       "title": "Mayday",
       "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w342/hVXjX1jLZ1ljFSNGXpjJfbTUOa7.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/hVXjX1jLZ1ljFSNGXpjJfbTUOa7.jpg",
       "servers": [
         {
           "name": "Ultra",
@@ -330,7 +301,7 @@
       ]
     },
     {
-      "serial": 13,
+      "serial": 12,
       "id": "movie:1530121",
       "title": "The Girl in the River",
       "year": 2026,
@@ -359,7 +330,7 @@
       ]
     },
     {
-      "serial": 14,
+      "serial": 13,
       "id": "movie:1479832",
       "title": "DC",
       "year": 2026,
@@ -388,7 +359,7 @@
       ]
     },
     {
-      "serial": 15,
+      "serial": 14,
       "id": "movie:1514026",
       "title": "Buddy",
       "year": 2026,
@@ -417,7 +388,7 @@
       ]
     },
     {
-      "serial": 16,
+      "serial": 15,
       "id": "movie:1315772",
       "title": "Minions & Monsters",
       "year": 2026,
@@ -436,11 +407,11 @@
       ]
     },
     {
-      "serial": 17,
+      "serial": 16,
       "id": "movie:1084244",
       "title": "Toy Story 5",
       "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w342/9VWplgfRcYkUao9QGQXUP3rWQK7.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/9VWplgfRcYkUao9QGQXUP3rWQK7.jpg",
       "servers": [
         {
           "name": "PlayFast",
@@ -455,7 +426,7 @@
       ]
     },
     {
-      "serial": 18,
+      "serial": 17,
       "id": "movie:1480574",
       "title": "Just Play Dead",
       "year": 2026,
@@ -484,7 +455,7 @@
       ]
     },
     {
-      "serial": 19,
+      "serial": 18,
       "id": "movie:1288059",
       "title": "I Want Your Sex",
       "year": 2026,
@@ -513,7 +484,7 @@
       ]
     },
     {
-      "serial": 20,
+      "serial": 19,
       "id": "movie:1752159",
       "title": "Turning Point: Generation 9/11",
       "year": 2026,
@@ -526,6 +497,35 @@
               "quality": "1080p",
               "resolution": "1920x1080",
               "url": "https://contentmonetizationlab.site/6PGjsLVO1/pl/H4sIAAAAAAAAAwXB25KCIAAA0F8SEN32bTXQtaSBuCRvCjatWtJMk.nX7zmwTzrsYoRQmsCrA75Nepym6RV8YQh3ybf9e.WqwFzLH9hNGrRKzPIO3kyH3Ix0Xw8VcCRGfMtyDavyZIQWYIy66HbRao41oQWTftWkxv3EDjYKTX.fEjXUqI522E16ccT.HsCkJBRVX4hFDtMgpX_pzYfW0Iybj_XUxmfAnmxPjw30p56SuNvokz_oovWt7C7jagcqW0nnXk3RiQjePZpPs9nVQ5FbsiBLNDZlFhwK57pk2OnQ1EWDHfTG6iphlK8W8diPM7RERXIUD3N3m1HBcBOO58KrI2JY0uyjVPxWMtr9A0MSZClBAQAA/0f9b738af906eb91d8f5b3fab14e78cc/index.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": 20,
+      "id": "movie:1386315",
+      "title": "The Runner",
+      "year": 2026,
+      "poster": "https://image.tmdb.org/t/p/w500/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg",
+      "servers": [
+        {
+          "name": "Ultra",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fhighincomecreators.site%2FL02HE60pQ%2Fpl%2FH4sIAAAAAAAAAw3J3XaCIAAA4FcKkspdekStBSUKInfy09zEjvNUGk._fbcfAAbp2x6gm3FxrOHBbDpz222d22m0j.CHCH1b5RlupCVd6mcn6Vj.2CsH5aKhXQ3_ep3B6VPAielxCh1HhHv2VEAVrefvipeQNR7SAgcC1S9Pk6CEmDg8vA1IRJ2dZNuw0mR4JmM0a3B6W8.YzeOIDxS7WnUin_JuS4OTCrnaywteoc3JQiRemjvlbpjmzvughvXpiuxY4XUUtYkszDBLk1KA6VL7ftWjvdZV3JyBaDreX3SukNqqxeTZywzgaL8fiN2TkskEkbEFNFWrluQl.KNSmA60UaTkU1qFfvd_gw2b.A_yNBfJQQEAAA--%2F26fb49a349eded2679c5c62035131c94%2Findex.m3u8&headers=%7B%7D"
+            }
+          ]
+        },
+        {
+          "name": "PlayFast",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://highincomecreators.site/L02HE60pQ/pl/H4sIAAAAAAAAAw3QS3aCMBQA0C0RINR2pgIqPeAhPySz5AWlEFJaEZHVt3cJN8L6qq6e8XzQUYDfwjCMNmAAjPIbtbl.yHX3KLxJmbiNeCBwnu5Q2aPnmRHMvPeaufbEUb5KC3PB7N0EO6qHibLL6UlXO7HLFpf.lDK_vdPKjDw2mPBypkchodv64ExMWObYcZyaDlbdyQestiqqscsH8WCpRGV3W4sh45B.v3KXqcragNoE66_N0gxFZzgglvS_vDcvSJAwVigVyD1FKYOYOFotoRrqWfREMpcu2t1ehC97SMS5GNIaAkk_VzOzRDybA2lJYgeToD1B2VEf7B1c9mNY7ineYorkWDthtT9x_h_wB2Qgp_VBAQAA/26fb49a349eded2679c5c62035131c94/index.m3u8"
             }
           ]
         }

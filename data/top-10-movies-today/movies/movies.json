@@ -1,46 +1,17 @@
 {
   "metadata": {
     "category": "Home: Top 10 Movies Today",
-    "totalMovies": 10,
-    "lastUpdated": "2026-09-05T10:59:34.174Z",
+    "totalMovies": 14,
+    "lastUpdated": "2026-09-05T11:06:27.883Z",
     "purpose": "Strictly for educational purposes only and not for commercial use"
   },
   "movies": [
     {
       "serial": 1,
-      "id": "movie:1386315",
-      "title": "The Runner",
-      "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w342/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg",
-      "servers": [
-        {
-          "name": "Ultra",
-          "qualities": [
-            {
-              "quality": "1080p",
-              "resolution": "1920x1080",
-              "url": "https://media.vidrift.in/movie_1386315/vod.m3u8"
-            }
-          ]
-        },
-        {
-          "name": "PlayFast",
-          "qualities": [
-            {
-              "quality": "1080p",
-              "resolution": "1920x1080",
-              "url": "https://highincomecreators.site/L02HE60pQ/pl/H4sIAAAAAAAAAw3M3VqDIAAA0FcSkZXdbROnFCyRH.cdA8tPnC2zb8rT13mAYwGMnHsGO2ht2gGTutR.GAujJAGpuT69yHz0duS.hT1mcB.oJN9Mlokc2t7k5Kj0SuhEJhq4sXj5aW8j1vK.XaP7.6XZo9anvZ34woq8dBptZ7nWVTic3LYgPlz.nzxRod.dJaldRmMmKOKj3YQgLdfOnzWquPJbl_Efmt8n5hW22q.i4bnLfCLqJbzGCHaN2imFZwVYZTwLvKAPo8FAAZ6ZcKUoDrduOCyq4L9MyFA3LL6M5dp6BGrdV.K4xN0NZC4mnsHyIbE7vcVfs5tUQhv.qCK7uWO6OvgZmJIzD_1aiSj9A2F5EfJBAQAA/26fb49a349eded2679c5c62035131c94/index.m3u8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "serial": 2,
       "id": "movie:969681",
       "title": "Spider-Man: Brand New Day",
       "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w342/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
       "servers": [
         {
           "name": "Ultra",
@@ -65,11 +36,11 @@
       ]
     },
     {
-      "serial": 3,
+      "serial": 2,
       "id": "movie:1368337",
       "title": "The Odyssey",
       "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w342/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
       "servers": [
         {
           "name": "Ultra",
@@ -94,11 +65,40 @@
       ]
     },
     {
+      "serial": 3,
+      "id": "movie:1355228",
+      "title": "Gandhari",
+      "year": 2026,
+      "poster": "https://image.tmdb.org/t/p/w500/aF3IhwS1mrVfvM9OMXmTaXAT0l8.jpg",
+      "servers": [
+        {
+          "name": "Ultra",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://media.vidrift.in/movie_1355228/vod.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "PlayFast",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://authenticbrandbuilders.site/mKTGUdZlu/pl/H4sIAAAAAAAAAw3NSXaDIAAA0CsxhKhdJqKGRvNEBmWHYKdoXusU6.nbf4FvMY6CNwCOMCDHQxB2YYTaKAzBEVscQPLSog3xoZ9MCoB.FMKoftaf0VkmJS6__KHZ2aikpzrricv6RsXNeEu3pYo9ULEX5e_0LOSc82H.kcIgK2fZZmyxO0ONyFdVe2jRZX3FBXfUrIYWuNN3eAUfSaUNyYde5ql_tFotHJmzyL6ZpNCa.nRwkkMBonMFT6Xp.SIFxSpJ9pZGlGvDRM1Mrt8JH7alFCxuAblVKX.43RuB2c3raLLCbT5jheyTZ0UJuWI2cuhRO.TA4YS72NSd4rLaS.Tul1XtJ9oJcy2GaSz_8z_gxWj1QQEAAA--/0f23fcf79be0e63ab6d07c73d2dcf717/index.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "serial": 4,
       "id": "movie:1339713",
       "title": "Obsession",
       "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w342/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
       "servers": [
         {
           "name": "Ultra",
@@ -132,7 +132,7 @@
       "id": "movie:1204680",
       "title": "Coyote vs. Acme",
       "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w342/orkLtdgMGiO9rTVMqJ1kKwrnup1.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/orkLtdgMGiO9rTVMqJ1kKwrnup1.jpg",
       "servers": [
         {
           "name": "Ultra",
@@ -161,7 +161,7 @@
       "id": "movie:860508",
       "title": "The Whisper Man",
       "year": 2026,
-      "poster": "https://image.tmdb.org/t/p/w342/6UqflU8Qqkz7Dq4swJPqs0ZJjY4.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/6UqflU8Qqkz7Dq4swJPqs0ZJjY4.jpg",
       "servers": [
         {
           "name": "Ultra",
@@ -235,6 +235,44 @@
     },
     {
       "serial": 9,
+      "id": "movie:1137844",
+      "title": "Mayday",
+      "year": 2026,
+      "poster": "https://image.tmdb.org/t/p/w500/hVXjX1jLZ1ljFSNGXpjJfbTUOa7.jpg",
+      "servers": [
+        {
+          "name": "Ultra",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://media.vidrift.in/movie_1137844/vod.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": 10,
+      "id": "movie:1084244",
+      "title": "Toy Story 5",
+      "year": 2026,
+      "poster": "https://image.tmdb.org/t/p/w500/9VWplgfRcYkUao9QGQXUP3rWQK7.jpg",
+      "servers": [
+        {
+          "name": "PlayFast",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://onlinevisibilitysystem.site/SBzuCY2ts/pl/H4sIAAAAAAAAAw3J0XpDMBgA0FdKpFXd3aqC9cNSyU9yJ6KzitZXhnn67dwe93BzPYJNTWq0JxX2jjd9wEey0zviGM990yVF4iw37ezXJhhmIIZyzPDV2tJEsPJ8igVpL_ohSC4s1pFSqv.4aJ7uOXoiRWmgt9PnxbGQUJh1773k4_.7KzaPNMxoQtJ7gIpu8itCUwXpAn0ymw0i3q1uForZ.JNMrHIkh7C274uG05aH69gInGcwDFcCPu_gWQQCZcFQNlx9Q6FawM9fCcOkLCBWTGPlj2vVo1cq4oU5QJvoNDY2IayDc2XlCjAUyRZjudWIW_VjeItlP1jWm45t8aLyaan6L0fd1cKxbRlHxz8ylKY2QQEAAA--/1a489963d7656acb9327bf9124035ba9/index.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": 11,
       "id": "movie:1480574",
       "title": "Just Play Dead",
       "year": 2026,
@@ -263,7 +301,7 @@
       ]
     },
     {
-      "serial": 10,
+      "serial": 12,
       "id": "movie:1288059",
       "title": "I Want Your Sex",
       "year": 2026,
@@ -286,6 +324,64 @@
               "quality": "1080p",
               "resolution": "1920x1080",
               "url": "https://highincomecreators.site/BOmJJT2bG/pl/H4sIAAAAAAAAAw3N0W6DIBQA0F8CXKvukQlaW2lVuA7eVFyNomlco6tfv76f5DRB45MGBccDan9wQLrWx2Ho177_0YaIBJ_Z9LjVM2Xmm9.AQG9A4JzgSXK7Z4P5KlS6NImrmsnFmvxdMnlfa5ZvJeZJx7hqsFnayayVoxkkDyFHyLKBroW0v8BzBLxXV7gjPT1WORkoRpdor9.6iqGOhVuGoLQRVyYOXyWccO1obmar3seikdnq2Hm2sodr.UyLkTMTAdUzjerdvjQKnfJcYsZiuJATLkh_LkCjM.6PZjBMSEPqaNy6SJwhYSR_i1LSqN3TtK2eCmZYmtilYhTCTgIraams2CKZS68gXnZH4T.hUK.wQQEAAA--/1a489963d7656acb9327bf9124035ba9/index.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": 13,
+      "id": "movie:1386315",
+      "title": "The Runner",
+      "year": 2026,
+      "poster": "https://image.tmdb.org/t/p/w500/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg",
+      "servers": [
+        {
+          "name": "Ultra",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fhighincomecreators.site%2FL02HE60pQ%2Fpl%2FH4sIAAAAAAAAAw3J3XaCIAAA4FcKkspdekStBSUKInfy09zEjvNUGk._fbcfAAbp2x6gm3FxrOHBbDpz222d22m0j.CHCH1b5RlupCVd6mcn6Vj.2CsH5aKhXQ3_ep3B6VPAielxCh1HhHv2VEAVrefvipeQNR7SAgcC1S9Pk6CEmDg8vA1IRJ2dZNuw0mR4JmM0a3B6W8.YzeOIDxS7WnUin_JuS4OTCrnaywteoc3JQiRemjvlbpjmzvughvXpiuxY4XUUtYkszDBLk1KA6VL7ftWjvdZV3JyBaDreX3SukNqqxeTZywzgaL8fiN2TkskEkbEFNFWrluQl.KNSmA60UaTkU1qFfvd_gw2b.A_yNBfJQQEAAA--%2F26fb49a349eded2679c5c62035131c94%2Findex.m3u8&headers=%7B%7D"
+            }
+          ]
+        },
+        {
+          "name": "PlayFast",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://highincomecreators.site/L02HE60pQ/pl/H4sIAAAAAAAAAw3QS3aCMBQA0C0RINR2pgIqPeAhPySz5AWlEFJaEZHVt3cJN8L6qq6e8XzQUYDfwjCMNmAAjPIbtbl.yHX3KLxJmbiNeCBwnu5Q2aPnmRHMvPeaufbEUb5KC3PB7N0EO6qHibLL6UlXO7HLFpf.lDK_vdPKjDw2mPBypkchodv64ExMWObYcZyaDlbdyQestiqqscsH8WCpRGV3W4sh45B.v3KXqcragNoE66_N0gxFZzgglvS_vDcvSJAwVigVyD1FKYOYOFotoRrqWfREMpcu2t1ehC97SMS5GNIaAkk_VzOzRDybA2lJYgeToD1B2VEf7B1c9mNY7ineYorkWDthtT9x_h_wB2Qgp_VBAQAA/26fb49a349eded2679c5c62035131c94/index.m3u8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": 14,
+      "id": "movie:1288445",
+      "title": "Mutiny",
+      "year": 2026,
+      "poster": "https://image.tmdb.org/t/p/w500/pu2VxGlpGwffOx292w18b1tv96j.jpg",
+      "servers": [
+        {
+          "name": "Ultra",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fscalablecontentengine.site%2F8DZ5WpsK6%2Fpl%2FH4sIAAAAAAAAAw3P3XqCIBgA4FtCsGe6Q_Nnq0ETPjA5E7FpQY8zVrOr3947eK3Fw2aIhzg2L72xKUnJySTkZMnQdVFiXkWz0RSFao_KTjXJIq826lGy9sU8ywsrhZyVKdxPjekdwCJx0UeALKMkY91RBVA676f0oXxyV_kOZM5.W6y8QQG35.xWuwwbKCNTJcvHk29pzg80GqfBva_g2Fj78rNu7N2Q0QtwrckzpeXmyUoejI..xXR7ND6V8qgmWeqHWUPFS1YwkQJU.szJPHVNEKz4wuDTeU8UtKpfNUIL.ED0G8UHNWOGx5smbgees__DAQpecRmwKGxlrmyRmLcdqiN6.dWDt9umcrF.ovQP7ZokmUEBAAA-%2F8156aaacd49ad5a62d2167e99b6f17fc%2Findex.m3u8&headers=%7B%7D"
+            }
+          ]
+        },
+        {
+          "name": "PlayFast",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://scalablecontentengine.site/8DZ5WpsK6/pl/H4sIAAAAAAAAAw3M0XqCIBgA0FcClNLdrS.x2YRg.KPcJVQ20dpW5nr67TzAWUYLRxdxQkjSJjhBZO8ooscjwRFu6dK_SMImXbNCkbmwZD47xtTH02OXhY3F3Qj5TVaYLzyBHfQxVQYEROwhx.Lihhu0wJ.ytvQ9ssgbqCXqZof4VwP.LDbZr1mH0uuiV2tbbSPOtqQbZLg2B4B5P9rYY25thTtFqkejw04AE.7_aAl7KzU7u1pVesCF_iy.RXaKtaF3WRUZhFfMWTaZMYjtc4VF7XcmTydl8F3U1.wwKNGatPQ5ogaANOgUf2Td5RBWvSTNzE06wZorx_ijjMLF5_zmBuhbpLjCoDziP1Kj9A.N0wkMQQEAAA--/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
             }
           ]
         }

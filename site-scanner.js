@@ -3,6 +3,7 @@ const path = require('node:path');
 const { spawn } = require('node:child_process');
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
+const { probe: verifyLiveUrl } = require('./verify-output');
 const {
   CANONICAL_SERVERS,
   normalizeQuality,
@@ -313,6 +314,25 @@ async function runWorkerPool(items, workerCount, handler) {
     { length: Math.min(workerCount, Math.max(1, items.length)) },
     (_, index) => worker(index + 1)
   ));
+}
+
+async function revalidateReusableScan(scan, liveProbe = verifyLiveUrl) {
+  const candidate = sanitizeScan(scan ? { ...scan, finalStreams: [...(scan.finalStreams || [])] } : null);
+  if (!candidate) return { scan: candidate, removedUrls: [] };
+  const urls = [...new Set(candidate.finalStreams.filter(isPublishableStream).map((stream) => stream.url))];
+  const removedUrls = new Set();
+  await runWorkerPool(urls, 8, async (url) => {
+    try {
+      await liveProbe(url);
+    } catch (_) {
+      removedUrls.add(url);
+    }
+  });
+  if (removedUrls.size > 0) {
+    candidate.finalStreams = candidate.finalStreams.filter((stream) => !removedUrls.has(stream.url));
+    sanitizeScan(candidate);
+  }
+  return { scan: candidate, removedUrls: [...removedUrls] };
 }
 
 function is1080ClassResolution(value) {
@@ -1646,6 +1666,13 @@ async function main() {
       console.log(`[CATEGORIES] ${title.categories.join(', ')}`);
       const existing = payload.results.find((item) => item.url === title.url);
       if (!options.retryFailed && existing && isReusableScan(existing.scan)) {
+        const revalidated = await revalidateReusableScan(existing.scan);
+        existing.scan = revalidated.scan;
+        if (revalidated.removedUrls.length > 0) {
+          console.log(`[STALE STREAMS REMOVED] ${revalidated.removedUrls.length} dead direct URL(s).`);
+        }
+      }
+      if (!options.retryFailed && existing && isReusableScan(existing.scan)) {
         existing.title = title.title;
         existing.year = title.year;
         existing.poster = title.poster || existing.poster || '';
@@ -1757,7 +1784,7 @@ module.exports = {
   normalizeTitleMetadata, enrichTitleMetadata,
   reconcileScheduler, markItemProcessed, markExistingResultsProcessed,
   nextCategoryBatch, resolveCategorySelection, mergeRefreshedCategory,
-  runWorkerPool, outputRows, contentCounts, catalogCounts, saveCheckpoint,
+  runWorkerPool, revalidateReusableScan, outputRows, contentCounts, catalogCounts, saveCheckpoint,
   successfulBatchCounts,
   syncActiveBatchToQueue, repairLatestBatchCounts,
   expandSelectedSeriesQueue,

@@ -1,38 +1,17 @@
 CATEGORY: Browse: TRENDING NOW
 New Movies:
 TOTAL MOVIES: 20
-LAST_UPDATED: 2026-09-05T10:59:34.174Z
+LAST_UPDATED: 2026-09-05T11:06:27.883Z
 PURPOSE: Strictly for educational purposes only and not for commercial use
 
 
 Movie: 01
 ------------------------------------
 
-ID         : movie:1386315
-MOVIE Name : The Runner
-Year       : 2026
-Poster     : https://image.tmdb.org/t/p/w342/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg
-
-SERVER-1: Ultra
-
-Quality       : 1080p
-Resolution-1  : 1920x1080
-URL           : https://media.vidrift.in/movie_1386315/vod.m3u8
-
-SERVER-2: PlayFast
-
-Quality       : 1080p
-Resolution-1  : 1920x1080
-URL           : https://highincomecreators.site/L02HE60pQ/pl/H4sIAAAAAAAAAw3M3VqDIAAA0FcSkZXdbROnFCyRH.cdA8tPnC2zb8rT13mAYwGMnHsGO2ht2gGTutR.GAujJAGpuT69yHz0duS.hT1mcB.oJN9Mlokc2t7k5Kj0SuhEJhq4sXj5aW8j1vK.XaP7.6XZo9anvZ34woq8dBptZ7nWVTic3LYgPlz.nzxRod.dJaldRmMmKOKj3YQgLdfOnzWquPJbl_Efmt8n5hW22q.i4bnLfCLqJbzGCHaN2imFZwVYZTwLvKAPo8FAAZ6ZcKUoDrduOCyq4L9MyFA3LL6M5dp6BGrdV.K4xN0NZC4mnsHyIbE7vcVfs5tUQhv.qCK7uWO6OvgZmJIzD_1aiSj9A2F5EfJBAQAA/26fb49a349eded2679c5c62035131c94/index.m3u8
-
-
-Movie: 02
-------------------------------------
-
 ID         : movie:969681
 MOVIE Name : Spider-Man: Brand New Day
 Year       : 2026
-Poster     : https://image.tmdb.org/t/p/w342/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg
+Poster     : https://image.tmdb.org/t/p/w500/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg
 
 SERVER-1: Ultra
 
@@ -47,13 +26,13 @@ Resolution-1  : 1920x1080
 URL           : https://futureproofmarketing.site/WxX94jG5M/pl/H4sIAAAAAAAAAw3OSXaDIAAA0CsBoi926YBDBOtQVHYqJL4EE5paNZ6._Sf44IJR70DnIl0EoXvCDu57B9sOvjgjdtAHjU3Y1YzWLek6wODZ0miYXV1DPg8h8bilb_Xh.SrkfoZMQWGyUs2.8pgbCkjckztu7k_QtMXa6fEtb.lSzeZOo9Ou_EULcl0FMWsVpjHlzFHzXoygrCRKN4YgEGhiwzF9581SSDJ9DkhnSpOfMWJJeSstGS5IcBmL4GqrIBVnsHNOStQf2pPa._960RDwqELylQfebwn2LLO0z1sxq8ZsmSWPoZ0edYNfZyBoSUwigsRWmm_DvHcqJIQ90pxp85bc2ziyMYdPWzSl_qqB.wdf.pKEQQEAAA--/0f9b738af906eb91d8f5b3fab14e78cc/index.m3u8
 
 
-Movie: 03
+Movie: 02
 ------------------------------------
 
 ID         : movie:1368337
 MOVIE Name : The Odyssey
 Year       : 2026
-Poster     : https://image.tmdb.org/t/p/w342/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg
+Poster     : https://image.tmdb.org/t/p/w500/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg
 
 SERVER-1: Ultra
 
@@ -68,13 +47,13 @@ Resolution-1  : 1920x1080
 URL           : https://scalablecontentengine.site/WnVM9YFN1/pl/H4sIAAAAAAAAAw3K0XaCIAAA0F8C0RZ7LKUyxYmAR95M7JBgY0Vn5tdv9_l.YAQhSDACYBtjhPsN2FzxFuJtNCb42n.egbejy3_HjLrOxisXBhbv51JKM_ep3lGo.wIaMgiAalG_NaCCctddgC.q1h_5egIq07eS.GND_GNAFF2gT5rJsHFmVs5LW6XmpefwYpPbs0ndh7RMdKYOAorHAIKj1u_L1fVspaceGSFbE3P7hDzzfSl3C42cqWGeqShPGMpXOrPqYsO9i.pIWQcV0YVYCaRZgFUbJGu_wZDFb0ZkohD5GiaRiMn8fxgU1z_6qBoBwpmDxZZzODDUrYzTQr5D2sp8Vwt_a4hrag7wHyJsdxZBAQAA/acd823efc024116fcffc4b860d60fe80/index.m3u8
 
 
-Movie: 04
+Movie: 03
 ------------------------------------
 
 ID         : movie:1355228
 MOVIE Name : Gandhari
 Year       : 2026
-Poster     : https://image.tmdb.org/t/p/w342/hCHei97aPYCCsh4vicz9X0wmdFV.jpg
+Poster     : https://image.tmdb.org/t/p/w500/aF3IhwS1mrVfvM9OMXmTaXAT0l8.jpg
 
 SERVER-1: Ultra
 
@@ -89,13 +68,13 @@ Resolution-1  : 1920x1080
 URL           : https://authenticbrandbuilders.site/mKTGUdZlu/pl/H4sIAAAAAAAAAw3NSXaDIAAA0CsxhKhdJqKGRvNEBmWHYKdoXusU6.nbf4FvMY6CNwCOMCDHQxB2YYTaKAzBEVscQPLSog3xoZ9MCoB.FMKoftaf0VkmJS6__KHZ2aikpzrricv6RsXNeEu3pYo9ULEX5e_0LOSc82H.kcIgK2fZZmyxO0ONyFdVe2jRZX3FBXfUrIYWuNN3eAUfSaUNyYde5ql_tFotHJmzyL6ZpNCa.nRwkkMBonMFT6Xp.SIFxSpJ9pZGlGvDRM1Mrt8JH7alFCxuAblVKX.43RuB2c3raLLCbT5jheyTZ0UJuWI2cuhRO.TA4YS72NSd4rLaS.Tul1XtJ9oJcy2GaSz_8z_gxWj1QQEAAA--/0f23fcf79be0e63ab6d07c73d2dcf717/index.m3u8
 
 
-Movie: 05
+Movie: 04
 ------------------------------------
 
 ID         : movie:1339713
 MOVIE Name : Obsession
 Year       : 2026
-Poster     : https://image.tmdb.org/t/p/w342/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg
+Poster     : https://image.tmdb.org/t/p/w500/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg
 
 SERVER-1: Ultra
 
@@ -114,13 +93,13 @@ Resolution-2  : 1920x1080
 URL           : https://scalablecontentengine.site/8DZ5WpsK6/pl/H4sIAAAAAAAAAw3K0XaCIAAA0F8K0KV7q5OUGmwyIORNwOYEy9qW6ddv9_mayLjz2oI4ctEZxi8gTc4usSZdp0mMkvUrA3rk4BPYUzKZrzQXYKscprjlmDJxXdlenqwvdNVLUoURNUJ2utcLOxD04b8fLnSoXPTEs.KXKJc1cGy4_8m0xL4dipu4dO9iCb08YPRxKO7lUshqTiABeWT211jiejYhX5ikvVXjip701YQtIgBfhJ9iqigQPYNMMd_KOmJez2.4KEr47Klie_f_6RBP7S7ACo7EComFB7daxKhSlLR8O5vh.RQ7LUkWFBk6X0kdzCWfJGZlLcLDKXw0fHNnanNvQJjt4qGT.ij4Kv0DmdAPnkEBAAA-/26fb49a349eded2679c5c62035131c94/index.m3u8
 
 
-Movie: 06
+Movie: 05
 ------------------------------------
 
 ID         : movie:1204680
 MOVIE Name : Coyote vs. Acme
 Year       : 2026
-Poster     : https://image.tmdb.org/t/p/w342/orkLtdgMGiO9rTVMqJ1kKwrnup1.jpg
+Poster     : https://image.tmdb.org/t/p/w500/orkLtdgMGiO9rTVMqJ1kKwrnup1.jpg
 
 SERVER-1: Ultra
 
@@ -135,13 +114,13 @@ Resolution-1  : 1920x1080
 URL           : https://leadgenerationblueprint.site/7or07NZrA/pl/H4sIAAAAAAAAAwXB3XqCIAAA0FcSUtNdOvOvSQsQlDuFikT6.Bxt1tPvnEsMk0TFsZTpmF5lEIyJBFMSyyTYJ8FVfhBYQLGwDVkN2uL8ViRlA_H5BOqtnfF6KcN1YtkBmRsUc9a0VL8mGN2JATU3DTtCT.nBnzsoOgpQpXoD1bvxpFpm1uszY8tzAsUng74YD5or2pBhWQJaoZUYx4h1u8n4FVXLwK06jdAzAfAs7_5noNoRqzPVMywqzYlJv7lxGe_qUFUCDPAvaq2LcBD.ClM8jq80PzGdIwMQNxoxu.X4cVtbmmllw5eyoOSlfx7BbcNUtafeecKjr7EcwrFyAltnu17Vsmh3uEvrjgbpP3ULAo9BAQAA/27da12fde31593831c72d852c1926307/index.m3u8
 
 
-Movie: 07
+Movie: 06
 ------------------------------------
 
 ID         : movie:860508
 MOVIE Name : The Whisper Man
 Year       : 2026
-Poster     : https://image.tmdb.org/t/p/w342/6UqflU8Qqkz7Dq4swJPqs0ZJjY4.jpg
+Poster     : https://image.tmdb.org/t/p/w500/6UqflU8Qqkz7Dq4swJPqs0ZJjY4.jpg
 
 SERVER-1: Ultra
 
@@ -156,7 +135,7 @@ Resolution-1  : 1920x1080
 URL           : https://startupscalingsystem.site/BtG0s01mM/pl/H4sIAAAAAAAAAw3My3KCMBQA0F.KPLW7diBU28Ry8yBmFwiWmggoDipfX_dnDkLtMWnDY4ySIIptgiJrkrCN7fqYppu0fpMcTB1QIJ8jZVwOfPGdrjbf4OSTKvwow_JplZyJ.nC28A9S3JREMSeZuwP2ppH21ji6q0UsmNOFEeX8erg5.5lmvtICT8T7fcutsvl0lUV3Nn_TTE5NzHqdQACDZDcQoe.I7y6Ni38qD0TnK0XlaGosB13AwKXPdA9jXdlDq2Bn8zKyJ3ttitXjC_mMoe3C5Kja3l_Ecx29TGaxdFrt9iIsrzrH2ybseuDvdxqQgGM9Mf4bgMODQOtlj4HRDIwJ8XBwsqeS5npBm39SDb4_QQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8
 
 
-Movie: 08
+Movie: 07
 ------------------------------------
 
 ID         : movie:1506560
@@ -171,7 +150,7 @@ Resolution-1  : 1920x1080
 URL           : https://growthmindsetcollective.site/tsVROW9xZ/pl/H4sIAAAAAAAAAxXOW3KCMBQA0C1xE7BjP60JqAXKBS6PP0KYUgJKNVJl9W03cOa8MNdzwYOuc5UCB2DjbFwN3dZpWtXxzaueLMuN3rQljg2LZMp6qYbjVzfgT8W1qIeQtYEO4kDeQziKSCKlxeeiJ6.kvJ7CYObJarxs3C2Kba_J0wo6XyBao6vimBGLEkX0kQ6EmZ_8kA9hzee1JbydeH.LBTXVZPdJ2dcZG7GQs6Fh964CXLDU_49vPaDTBhULz9VTGfehfF2l8gA0XR4nJ4duGCWe6S0xUNcC7Z8VKwM7VTz2bWEh82Gmss9yODbhKCni6BdGLBVQqQ1msW95J_COxjuQsGma2zWl6FmvzvYXYnjY90EBAAA-/9e523ae15b61dc766f5c818726881ecf/index.m3u8
 
 
-Movie: 09
+Movie: 08
 ------------------------------------
 
 ID         : movie:1731694
@@ -192,7 +171,7 @@ Resolution-1  : 1920x1080
 URL           : https://dataanalyticsacademy.site/OkYi2WP3g/pl/H4sIAAAAAAAAAw3NXZaCIBgA0C2BP03OYynmlF.BgMqbAmmKHU9nJsvVTxu4N9oa79qGLdpo_2p9FH2hTeCHGrc4aLdWf585ya1wQy011mkXFikGgYgylfbraf4rq50Pfp_VK1148noUMblRviOcMCjK6KLJ_Kb3.dI6l7UuWxRW4TnpkL07oMhstATISbeI6XdqfCN0Ao8jJqeiMjvqpKqxCenQP5T8XCmJtTBjI6lny9FrblHYHNhTORPDkL8McYK7Hy.Xs2BCeMDJYid2sANL9ajxcYUeEN7XlaPF2mdydWM.gOLli33sgCXzW8YkKUZDpMCBHfMnTDM3lYqhcqdaQCnvfd7so2cbEyo4iv4BaRl0.UEBAAA-/9e523ae15b61dc766f5c818726881ecf/index.m3u8
 
 
-Movie: 10
+Movie: 09
 ------------------------------------
 
 ID         : movie:192139
@@ -207,7 +186,7 @@ Resolution-1  : 1920x1080
 URL           : https://profitableaffiliatehub.site/Wn74UppRP/pl/H4sIAAAAAAAAAw3GwZaCIBQA0F9C0SlnaYpGahP4UNmhOMfCipMeM79.5q5usPN14OkA7_TuN8COVspD.z1WnouxF_jfkNiHIPlyQkMjS1q0MXNy1ye9WZ_5YXK7keGSaK4S6.aVmAQi19bIhadhpuuwEqnd2ru99rV9MxC4cydHw_glMWz63iyCAOrwoFRJj33aIWnIkydMCdi_L5856h.DxxEVYOgCN1lkSA6iJHEl6AHi.dUYEelNbGUi4uJWnDkUpgNwehjTioTr_zcubJ0h356THDdGU55S2jjgM7MuehtfpcvU6TOzvKS24vNPe59cjYaxB7P2EXuw6OIpEh7zeIZOFBlE5sXrZpUbCv4A9whmD0EBAAA-/0f9b738af906eb91d8f5b3fab14e78cc/index.m3u8
 
 
-Movie: 11
+Movie: 10
 ------------------------------------
 
 ID         : movie:1081003
@@ -228,13 +207,13 @@ Resolution-1  : 1920x1080
 URL           : https://impactdrivenbrands.site/2WEH1EW2I/pl/H4sIAAAAAAAAAw3D0W6DIBQA0F8CsbXusRG1rmK8eGHwRqSZFXUucZ3t128nOTfmY3o6EeJd7_8757xLbixKfZSQY_JmyLRhoA98ppnmEMQ9NT03e1OAViN89bO9iHL9MdRn78Qe26Ay8RrYlVBdZ5zJiGaKXWK3qINDZECg8ZOJJU53f081hMPWUTEgQ.bnqeyn9XV9hdgudqnnzSIR31atRsoNoesjSYcIuKFY2LKmVQEhj3DOc6fs2c5KdeVa2MnybvncW5JWOIpRUHjcFDzsgtTzXeglUKenxhEQgHCRxe_TF4e8HatYMIVS5a2Ye9pGlWzKmmi0meAwWD58uBL3LqQa1XnEjqR_bUmhyEEBAAA-/0f9b738af906eb91d8f5b3fab14e78cc/index.m3u8
 
 
-Movie: 12
+Movie: 11
 ------------------------------------
 
 ID         : movie:1137844
 MOVIE Name : Mayday
 Year       : 2026
-Poster     : https://image.tmdb.org/t/p/w342/hVXjX1jLZ1ljFSNGXpjJfbTUOa7.jpg
+Poster     : https://image.tmdb.org/t/p/w500/hVXjX1jLZ1ljFSNGXpjJfbTUOa7.jpg
 
 SERVER-1: Ultra
 
@@ -243,7 +222,7 @@ Resolution-1  : 1920x1080
 URL           : https://media.vidrift.in/movie_1137844/vod.m3u8
 
 
-Movie: 13
+Movie: 12
 ------------------------------------
 
 ID         : movie:1530121
@@ -264,7 +243,7 @@ Resolution-1  : 1920x1080
 URL           : https://strategicgrowthpartners.site/i3p4boT84/pl/H4sIAAAAAAAAAw3IwZZDMBQA0F8SQZllEWomcSQ8mh1pWiXU0U7b8fXT5b04cDu79X2szzvLVajTbhd4WJ2xo_wz3n3pRCLdZM_aZNCOkovxskkDqZr6XAz8yuO3p8PgVk5ESGQwM.x1NLDKKbur9GNiis5iDkP7DSyQtLKex_odquvjt5r3YXv11zyFTeLDn2gIpukSCXJb6QxVTQzTMYpo4n7rJFvKkaUVIj3M7IcPMaKEZHSWL6hOtqz6oSTGKc3CCpzdT4TEhT1abWpEh8yejv2hjpink1N.FA.T10FJDeQs4XE1kkiEwef4qht41RNwGMm9CwOuGhAl7pNuBq.cDk6BFtEO3Fap2uRmBf8RybgDQQEAAA--/0f9b738af906eb91d8f5b3fab14e78cc/index.m3u8
 
 
-Movie: 14
+Movie: 13
 ------------------------------------
 
 ID         : movie:1479832
@@ -285,7 +264,7 @@ Resolution-1  : 1920x1080
 URL           : https://subscriptionbusinesshub.site/pagW2CMDx/pl/H4sIAAAAAAAAAwXB3ZKCIBgA0FfiQ21kL3X9TZgF.bC4M3FyCsusadeefs.JGRAHdKS7oB8gPhHmCKWOxnEYsdO4.9rTV9j6pD2VnEq0pN9YisS_9uS8YhH98G4Cc0keSPK3yl4evXs24EKhczmW9n2cl1tbmNuQPanK_af_djnPzxsGCfK5FhxUI30FbblQC67pvUDEKRMpa46XZEVvu8EIcHTYhmsVtRncR.3mEVXhSPYrTP2nkT3aOV5dAbnEOhPaLALjtzRTplNW9oW48mDyDVSR0ImW4Do83KkgIViTdHaWW9fZw5AtqYW6VCBWfhFK.CXsff4wWAXtvEhR.o_qlDXUrLysN6kJ.weW80jAQQEAAA--/0f23fcf79be0e63ab6d07c73d2dcf717/index.m3u8
 
 
-Movie: 15
+Movie: 14
 ------------------------------------
 
 ID         : movie:1514026
@@ -306,7 +285,7 @@ Resolution-1  : 1920x1080
 URL           : https://profitablecreatorvault.site/yNu577H1U/pl/H4sIAAAAAAAAAwXB25KCIBgA4FcC0c32sgk0CxwRSblDfxo38dBhds2n3..Lux2EQRiFEeywDckXhGgX3wDH5NYh134L0qztwB78mK0VWmY3QS3Y_LzgmeRM1PKKK0tjpKfhY5L3rxvgyBM9tqkZ3LhoMxpyDozgo8ZyM6Qd9qU7.lfrIbejxzYdNk7flyrwQitgioBQCeRqYvkFn1aXrKHW2ZNvB9pguXDVTxU1UqPIOKonUS8nCDJfbLLWqUcQ4E.J_LNN.F.DmOKo32wVJTIVn7LK1jJlymp4XUeQVrGTo91m79lDa2859T8w9r1OfOHK_Vum5tzcO9JWkdCU8ev9UHbTvBbIIEEhKhTa_wMdJbLRQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8
 
 
-Movie: 16
+Movie: 15
 ------------------------------------
 
 ID         : movie:1315772
@@ -321,13 +300,13 @@ Resolution-1  : 1920x1080
 URL           : https://media.vidrift.in/movie_1315772/vod.m3u8
 
 
-Movie: 17
+Movie: 16
 ------------------------------------
 
 ID         : movie:1084244
 MOVIE Name : Toy Story 5
 Year       : 2026
-Poster     : https://image.tmdb.org/t/p/w342/9VWplgfRcYkUao9QGQXUP3rWQK7.jpg
+Poster     : https://image.tmdb.org/t/p/w500/9VWplgfRcYkUao9QGQXUP3rWQK7.jpg
 
 SERVER-1: PlayFast
 
@@ -336,7 +315,7 @@ Resolution-1  : 1920x1080
 URL           : https://onlinevisibilitysystem.site/SBzuCY2ts/pl/H4sIAAAAAAAAAw3J0XpDMBgA0FdKpFXd3aqC9cNSyU9yJ6KzitZXhnn67dwe93BzPYJNTWq0JxX2jjd9wEey0zviGM990yVF4iw37ezXJhhmIIZyzPDV2tJEsPJ8igVpL_ohSC4s1pFSqv.4aJ7uOXoiRWmgt9PnxbGQUJh1773k4_.7KzaPNMxoQtJ7gIpu8itCUwXpAn0ymw0i3q1uForZ.JNMrHIkh7C274uG05aH69gInGcwDFcCPu_gWQQCZcFQNlx9Q6FawM9fCcOkLCBWTGPlj2vVo1cq4oU5QJvoNDY2IayDc2XlCjAUyRZjudWIW_VjeItlP1jWm45t8aLyaan6L0fd1cKxbRlHxz8ylKY2QQEAAA--/1a489963d7656acb9327bf9124035ba9/index.m3u8
 
 
-Movie: 18
+Movie: 17
 ------------------------------------
 
 ID         : movie:1480574
@@ -357,7 +336,7 @@ Resolution-1  : 1920x1080
 URL           : https://brandpositioningstudio.site/yhqxaIjWt/pl/H4sIAAAAAAAAAw3NUZKCIAAA0CuBaNb.rlBp6oqAxh8CO6ZE5ji2efrtAu_tdggEKoxNvIv3vzHYKwRQbFQQIm1hpL.6xHHGzJEm4q6PfciROauBFBqeg9z334KQXMO01Uy8raeZ4WSRw3WmkK4FjkSeUNA4ubD6gKpWNhzitUvoyDGY7UhD6j7m._DqABGF0OEFyadqCa4T.ZT8z39Ob0nKGRG3C0rnDOFNNpQqx8MKTFyeXC64qSxeEj4WdSWm4eoNVHxca0eRbSXTW.86OOGSw6o8pSvd.or5FJQJcbk3F8pcpFG16Y3.2DHKNJyGWrhVN4_NODMr3L_tbfFmdC9.fwTcCaIaWJoNHP4BOa4REEEBAAA-/0f9b738af906eb91d8f5b3fab14e78cc/index.m3u8
 
 
-Movie: 19
+Movie: 18
 ------------------------------------
 
 ID         : movie:1288059
@@ -378,7 +357,7 @@ Resolution-1  : 1920x1080
 URL           : https://highincomecreators.site/BOmJJT2bG/pl/H4sIAAAAAAAAAw3N0W6DIBQA0F8CXKvukQlaW2lVuA7eVFyNomlco6tfv76f5DRB45MGBccDan9wQLrWx2Ho177_0YaIBJ_Z9LjVM2Xmm9.AQG9A4JzgSXK7Z4P5KlS6NImrmsnFmvxdMnlfa5ZvJeZJx7hqsFnayayVoxkkDyFHyLKBroW0v8BzBLxXV7gjPT1WORkoRpdor9.6iqGOhVuGoLQRVyYOXyWccO1obmar3seikdnq2Hm2sodr.UyLkTMTAdUzjerdvjQKnfJcYsZiuJATLkh_LkCjM.6PZjBMSEPqaNy6SJwhYSR_i1LSqN3TtK2eCmZYmtilYhTCTgIraams2CKZS68gXnZH4T.hUK.wQQEAAA--/1a489963d7656acb9327bf9124035ba9/index.m3u8
 
 
-Movie: 20
+Movie: 19
 ------------------------------------
 
 ID         : movie:1752159
@@ -391,3 +370,24 @@ SERVER-1: PlayFast
 Quality       : 1080p
 Resolution-1  : 1920x1080
 URL           : https://contentmonetizationlab.site/6PGjsLVO1/pl/H4sIAAAAAAAAAwXB25KCIAAA0F8SEN32bTXQtaSBuCRvCjatWtJMk.nX7zmwTzrsYoRQmsCrA75Nepym6RV8YQh3ybf9e.WqwFzLH9hNGrRKzPIO3kyH3Ix0Xw8VcCRGfMtyDavyZIQWYIy66HbRao41oQWTftWkxv3EDjYKTX.fEjXUqI522E16ccT.HsCkJBRVX4hFDtMgpX_pzYfW0Iybj_XUxmfAnmxPjw30p56SuNvokz_oovWt7C7jagcqW0nnXk3RiQjePZpPs9nVQ5FbsiBLNDZlFhwK57pk2OnQ1EWDHfTG6iphlK8W8diPM7RERXIUD3N3m1HBcBOO58KrI2JY0uyjVPxWMtr9A0MSZClBAQAA/0f9b738af906eb91d8f5b3fab14e78cc/index.m3u8
+
+
+Movie: 20
+------------------------------------
+
+ID         : movie:1386315
+MOVIE Name : The Runner
+Year       : 2026
+Poster     : https://image.tmdb.org/t/p/w500/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg
+
+SERVER-1: Ultra
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fhighincomecreators.site%2FL02HE60pQ%2Fpl%2FH4sIAAAAAAAAAw3J3XaCIAAA4FcKkspdekStBSUKInfy09zEjvNUGk._fbcfAAbp2x6gm3FxrOHBbDpz222d22m0j.CHCH1b5RlupCVd6mcn6Vj.2CsH5aKhXQ3_ep3B6VPAielxCh1HhHv2VEAVrefvipeQNR7SAgcC1S9Pk6CEmDg8vA1IRJ2dZNuw0mR4JmM0a3B6W8.YzeOIDxS7WnUin_JuS4OTCrnaywteoc3JQiRemjvlbpjmzvughvXpiuxY4XUUtYkszDBLk1KA6VL7ftWjvdZV3JyBaDreX3SukNqqxeTZywzgaL8fiN2TkskEkbEFNFWrluQl.KNSmA60UaTkU1qFfvd_gw2b.A_yNBfJQQEAAA--%2F26fb49a349eded2679c5c62035131c94%2Findex.m3u8&headers=%7B%7D
+
+SERVER-2: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://highincomecreators.site/L02HE60pQ/pl/H4sIAAAAAAAAAw3QS3aCMBQA0C0RINR2pgIqPeAhPySz5AWlEFJaEZHVt3cJN8L6qq6e8XzQUYDfwjCMNmAAjPIbtbl.yHX3KLxJmbiNeCBwnu5Q2aPnmRHMvPeaufbEUb5KC3PB7N0EO6qHibLL6UlXO7HLFpf.lDK_vdPKjDw2mPBypkchodv64ExMWObYcZyaDlbdyQestiqqscsH8WCpRGV3W4sh45B.v3KXqcragNoE66_N0gxFZzgglvS_vDcvSJAwVigVyD1FKYOYOFotoRrqWfREMpcu2t1ehC97SMS5GNIaAkk_VzOzRDybA2lJYgeToD1B2VEf7B1c9mNY7ineYorkWDthtT9x_h_wB2Qgp_VBAQAA/26fb49a349eded2679c5c62035131c94/index.m3u8
