@@ -321,7 +321,7 @@ async function revalidateReusableScan(scan, liveProbe = verifyLiveUrl) {
   if (!candidate) return { scan: candidate, removedUrls: [] };
   const urls = [...new Set(candidate.finalStreams.filter(isPublishableStream).map((stream) => stream.url))];
   const removedUrls = new Set();
-  await runWorkerPool(urls, 8, async (url) => {
+  await runWorkerPool(urls, 24, async (url) => {
     try {
       await liveProbe(url);
     } catch (_) {
@@ -342,7 +342,7 @@ async function revalidateResultBatch(payload, itemUrls, liveProbe = verifyLiveUr
     .filter(isPublishableStream)
     .map((stream) => stream.url)))];
   const removedUrls = new Set();
-  await runWorkerPool(urls, 8, async (url) => {
+  await runWorkerPool(urls, 24, async (url) => {
     try {
       await liveProbe(url);
     } catch (_) {

@@ -34,7 +34,7 @@ concurrency:
 jobs:
   scan-one-category:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 360
 
     steps:
       - name: Checkout cumulative scanner state
@@ -67,7 +67,7 @@ jobs:
           TMDB_READ_TOKEN: ${{ vars.TMDB_READ_TOKEN || secrets.TMDB_READ_TOKEN }}
           OMDB_API_KEY: ${{ vars.OMDB_API_KEY || secrets.OMDB_API_KEY }}
         run: |
-          args=(--workers 2 --server-workers 5)
+          args=(--workers 5 --server-workers 5)
           if [[ "$SCAN_MODE" == "manual" ]]; then
             if [[ -z "$SCAN_CATEGORY" ]]; then
               echo "Manual mode requires a category name, ID, or index" >&2

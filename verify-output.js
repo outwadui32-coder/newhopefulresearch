@@ -89,7 +89,7 @@ async function probe(url) {
     try {
       const response = await fetch(url, {
         headers: { range: 'bytes=0-65535', accept: '*/*' },
-        signal: AbortSignal.timeout(30000), redirect: 'follow',
+        signal: AbortSignal.timeout(10000), redirect: 'follow',
       });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const contentType = response.headers.get('content-type') || '';
@@ -147,7 +147,7 @@ async function main({ live = true } = {}) {
   const latestUrls = [...new Set(latestResults.flatMap((item) => (item.scan?.finalStreams || [])
     .filter((stream) => stream.probe?.ok && stream.probe?.directPlaybackNoHeaders)
     .map((stream) => stream.url)))];
-  if (live) await runPool(latestUrls, 8, async (url, index) => {
+  if (live) await runPool(latestUrls, 24, async (url, index) => {
     await probe(url);
     process.stdout.write(`[LIVE ${index + 1}/${latestUrls.length}] OK\n`);
   });
