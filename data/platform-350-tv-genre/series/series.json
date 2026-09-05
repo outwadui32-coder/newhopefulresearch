@@ -1,0 +1,405 @@
+{
+  "metadata": {
+    "category": "Platform 350 tv: GENRE",
+    "totalSeries": 2,
+    "lastUpdated": "2026-09-05T06:58:25.861Z",
+    "purpose": "Strictly for educational purposes only and not for commercial use"
+  },
+  "series": [
+    {
+      "serial": 1,
+      "id": "tv:97546",
+      "title": "Ted Lasso",
+      "year": 2021,
+      "poster": "https://image.tmdb.org/t/p/w342/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
+      "totalSeasons": 5,
+      "totalEpisodes": 40,
+      "seasons": [
+        {
+          "seasonNumber": 0,
+          "seasonName": "Specials",
+          "totalEpisodes": 1,
+          "episodes": [
+            {
+              "episodeNumber": 1,
+              "episodeCode": "S00E01",
+              "episodeName": "The Missing Christmas Mustache",
+              "airDate": "2021-12-15",
+              "poster": "https://image.tmdb.org/t/p/original/kxJERnlng82qe0HdofkXhAphBLG.jpg",
+              "servers": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "serial": 2,
+      "id": "tv:125988",
+      "title": "Silo",
+      "year": 2023,
+      "poster": "https://image.tmdb.org/t/p/w342/gMYZZvnkVNTqSVnVCphWbPXwWwb.jpg",
+      "totalSeasons": 3,
+      "totalEpisodes": 30,
+      "seasons": [
+        {
+          "seasonNumber": 1,
+          "seasonName": "Season 1",
+          "totalEpisodes": 10,
+          "episodes": [
+            {
+              "episodeNumber": 1,
+              "episodeCode": "S01E01",
+              "episodeName": "Freedom Day",
+              "airDate": "2023-05-04",
+              "poster": "https://image.tmdb.org/t/p/original/rpZhJcWPpyLvPC5Vid61GD6JHVu.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly9lcGV4ZWdlc2lzZW5naW5lLnNpdGUvcGwvSDRzSUFBQUFBQUFBQXdYQjIyN0NJQUFBMEYuQ1FvMWI0c082Q2lZVE1paVh5aHNVbFZEcU9vMlg5ZXQzenJvRzFSRkFWS01UREdGZHhSV0VQZzU0UUtlQVlJWGZnMzJaQ0o2VmFfbkRqZ0oyVTFLOElpNjJ4akV3XzlwZGt6U05OMWxtYkZXenhESGRnejREa1pQbGxGdEhaZDFSOS5jcmpFMmIuZ0Rpd3N5SVRlWTVndnBMTHhydmxfU2pzc2Fjbko5V09hSkE5RndYNzZjME1SUnZCeVN2VEgwOEpKTDlrYVJwS0dUYW8xUms0WnkxNUg2NEZNT0plTVdMbklXWnIzRXJHMDBMRWoxdl9GaDMzWFplV2Mxd1VPbVRnemQ1ek1ackNtR0FKTHZTdUcueDJmd0Q3QW5rU3drQkFBQS0vODE1NmFhYWNkNDlhZDVhNjJkMjE2N2U5OWI2ZjE3ZmMvaW5kZXgubTN1OD90b2tlbj1leUowZVhBaU9pSktWMVFpTENKaGJHY2lPaUpJVXpJMU5pSjkuZXlKcGMzTWlPaUp0ZVMxaGRYUm9JaXdpYVdGMElqb3hOemc0TlRnMk1URXdMQ0p1WW1ZaU9qRTNPRGcxT0RZeE1UQXNJbVY0Y0NJNk1UYzRPRFl3TURVeE1Dd2lhWEJmWTJsa2NpSTZJakU0TlM0eU1UTXVNVFUxTGpBdk1qUWlmUS5BU3VFbGJwd0VUYVBhTVM0RU1EY0R3MTJjNmZWSkFubGd2UXVlcXF2YnpB&s=vidsrc~wILF6uphLvoIiU3UMKhIytuaNe9&k=p"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://remoteincomeformula.site/wzprFJsxb/pl/H4sIAAAAAAAAAw3P3VqDIBgA4FtCSDc7q2fCcsES.UA5g.Hmk.j6seW8.nrv4PVJyLPU4a3bPGTedR5jf95szz5D522WdI8SaaUmuTo2LwekrZxKE9jSVkgPPEbimf3uInWncZkDscIUkbkmGre_IMnyX0evKKBg6rU_BkzfhDqlYJKdHOIRxvklwFIBFVZQ8eOAlnKyewULsShZO1Otr_gXH1Avgo6G02IVwJNj86wAy88aQtqOlotCVraRFNjwpd61ruJl4WguYNTqgMoRyAeXqBQdiFSyvvW614pY53flTY.6EPf8Xk9XUpvh5ogU_2cQTXQnGkoBNuOJJK1JeHXPr1yV3K5PGIxAoFD.B6D9bD1BAQAA/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 2,
+              "episodeCode": "S01E02",
+              "episodeName": "Holston's Pick",
+              "airDate": "2023-05-04",
+              "poster": "https://image.tmdb.org/t/p/original/bRYHFClG8YkTJTy8fx73hgCd8Ac.jpg",
+              "servers": [
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://lifestylefreedomlab.site/WnVM9YFN1/pl/H4sIAAAAAAAAAw3D2XKDIAAAwF8C1LT0USO5Ki0oEnlDwNGAmTS19fj6dmc22hmMMMA70CVR0gGn2y4x7SuwDrgXF79xaWYObKNh8Pb.6LXHjRMAulu4ORnHVJCsFHz6r4yAX9IvK0XNsxbJJ0VzXFYscT4R5Vggi.xJrXjj0fnOBrzoMQwl6kMLxKL3fVZt1rd1GrQHUeEV0.NCLZqEzhXj5LzazT9dTn7cQV3fI4ouIDAq2dx4kheenCnqs2aYTmbff5f5vKoRHzV87IsD5Lyigm8kbWt6MDJwPuLCHGmqrqnnIqQKNr8fFRH8RrcLJKyWj7HNA_sDc9VM0iEBAAA-/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 3,
+              "episodeCode": "S01E03",
+              "episodeName": "Machines",
+              "airDate": "2023-05-11",
+              "poster": "https://image.tmdb.org/t/p/original/8hQB4jxk9ydj55Mrl9sY95smV7.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly9pbWJyb2dsaW9pZ2xvby5zaXRlL3BsL0g0c0lBQUFBQUFBQUF4M08zVzZDTUJnQTBGZWlCUmRaNGcxcWk4cVlsdjdSdTdZZnlyQTRRNUF3bm43TGJzX1ZjZWtWWHdFUzVPTFVOckJxRUNUT1c1ZXNuY1dSYmQ3TEhINHNoaFBmdFpIaTRlZzZraGd0VmZVd3ltcjVxRFZrbjlzMUV2ZDA4QjM3aGp4d0h1UVhFLldrYUlpQkhuQXB6VXJrZnJGN1EwRURMZjZrNmR1b3VvOFZsOWw0V1VnUTJwd2hKbS4xWWdmSXljcWk1LlI3azZsd205ak9MUDhIakY2MWZoWkZ4S3pwbVBWMG5zdWNUVVlhNVBvMjQ5SWo2TXJCNjViS0NHVkN5WmVpOVdJZUxmclloUzNzeDBIZy5lUVcwbm84QzBVSnNwd2N6NWZONWhkeFJ6RW5DUUVBQUEtLS84MTU2YWFhY2Q0OWFkNWE2MmQyMTY3ZTk5YjZmMTdmYy9pbmRleC5tM3U4P3Rva2VuPWV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSklVekkxTmlKOS5leUpwYzNNaU9pSnRlUzFoZFhSb0lpd2lhV0YwSWpveE56ZzRORGc0TVRFNExDSnVZbVlpT2pFM09EZzBPRGd4TVRnc0ltVjRjQ0k2TVRjNE9EVXdNalV4T0N3aWFYQmZZMmxrY2lJNklqRTROUzR5TVRNdU1UVTFMakF2TWpRaWZRLmhsbmNLNng3VFBMaER1cjdkYVpwYUYwUHZEOGx3SWhfVk5TdUhkZy1oQUE&s=vidsrc~VZWy534wS2Y_SFYbl5gUTLOryVv&k=p"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 4,
+              "episodeCode": "S01E04",
+              "episodeName": "Truth",
+              "airDate": "2023-05-18",
+              "poster": "https://image.tmdb.org/t/p/original/x3fMuXhTx5f91tQgjXNzopo5B5g.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 5,
+              "episodeCode": "S01E05",
+              "episodeName": "The Janitor's Boy",
+              "airDate": "2023-05-25",
+              "poster": "https://image.tmdb.org/t/p/original/yzLUNo2jU82N5rdRG0xZ2A2ed79.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly9sYWJ5cmludGhpbmVsb2dhcml0aG0uc3BhY2UvcGwvSDRzSUFBQUFBQUFBQXczTTBXNkRJQlFBMEY4Q3FYWXU2WXVLV0ROd0loZFMzeFExTG9KMXFWbFh2MzQ3SDNCQ2JDZlVUU0dPMEpuRUdLRWdpckcxRnAuRGdRelI5SzZwdXpYcGJneTdFNjduR3J4elRXRlBqZGtTVGJIUWE1bHdKeGFsU3RmckxWQkxqSUZJT1JhaXN2N3RaSmJ0WVh6Y05wNGpkY3lQM3JTN1lMOEtrRnR0SVBEX0U4bU1QZ0VFRmN2MlhURjVWNlFtbzlzNmkuWlhTOHJLNWtuS1Y3MERwYVRMNXc4TjE2TTN1Lm16M0hPenVaR1ZUQlk4QUNXRE1ZT3c5eWdjVE9rYWx0OUF6VC5HdFJXay43VmJ4UUUwNXNEbWwxaGtJNTM0NGg0OVAudkw1UV9MZ3M5MUNRRUFBQS0tLzgxNTZhYWFjZDQ5YWQ1YTYyZDIxNjdlOTliNmYxN2ZjL2luZGV4Lm0zdTg_dG9rZW49ZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SnBjM01pT2lKdGVTMWhkWFJvSWl3aWFXRjBJam94TnpnNE5EZzFPVGsyTENKdVltWWlPakUzT0RnME9EVTVPVFlzSW1WNGNDSTZNVGM0T0RVd01ETTVOaXdpYVhCZlkybGtjaUk2SWpFNE5TNHlNVE11TVRVMUxqQXZNalFpZlEubXVtc2xTUVJ6TzhVTXpkcDhhdkxaNS1oVkhwRFE0NURXM0g2VkJLbC1Ocw&s=vidsrc~AuC5FLf4bwXkFdn5Yfz6aNU05Tq&k=p"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 6,
+              "episodeCode": "S01E06",
+              "episodeName": "The Relic",
+              "airDate": "2023-06-01",
+              "poster": "https://image.tmdb.org/t/p/original/k5UxYAS4Xmcsn3GZdCklXGMIBMd.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 7,
+              "episodeCode": "S01E07",
+              "episodeName": "The Flamekeepers",
+              "airDate": "2023-06-08",
+              "poster": "https://image.tmdb.org/t/p/original/ukzV8BZbjlIU6WOKdoZqhHMg2yi.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly9wcm9waW5xdWl0eXBvc3R1bGF0ZS53ZWJzaXRlL3BsL0g0c0lBQUFBQUFBQUF3WEIyMjZESUFBQTBGOFNrVTZYOU1Vb1dxZGtNaTdLR3lJZEU5dWExdFhPcjk4NUVUekVVV0JnbUF5SHMwWTJObFpIYnpIUU1iUjJpTV92NHpVTlJfa05DWFo0WUFLMk13VXFvemMuVmFjR1Y3a0NUalJlX09pX2xUWXdEY2lFSHhJNy5BRlNNT1o0VWxkeTQwVjdWNTFZV1RnN3drbkxlZi5TLlhxeE10OTB1QkxTVlhqTURMTGVsV3JLTjFhcXlnQ0J0S2VRRkVsRy5McjBuUUFVbUx2d2ZMT01CRXdpcGdQOHE3NlNuZTl6MXU2dWFzckt0Wkk4UjJ3UTNjVkZZUVdaN3dHVFM2MTRFOVU3T1VtUEZqNWpWQWZvYVlvSG9Qd0ZQOXZqOFI5S0JuSnVDUUVBQUEtLS84MTU2YWFhY2Q0OWFkNWE2MmQyMTY3ZTk5YjZmMTdmYy9pbmRleC5tM3U4P3Rva2VuPWV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSklVekkxTmlKOS5leUpwYzNNaU9pSnRlUzFoZFhSb0lpd2lhV0YwSWpveE56ZzRORGczT1RJeExDSnVZbVlpT2pFM09EZzBPRGM1TWpFc0ltVjRjQ0k2TVRjNE9EVXdNak15TVN3aWFYQmZZMmxrY2lJNklqRTROUzR5TVRNdU1UVTFMakF2TWpRaWZRLlZobWlMOUJIOXNEYm1ydDZXMlhBWmJ3a2NUMWFJcklTOHQ4UHBFU2F0Z3M&s=vidsrc~dPk4M_dKUv1KwvlEyErxxrrOH82&k=p"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 8,
+              "episodeCode": "S01E08",
+              "episodeName": "Hanna",
+              "airDate": "2023-06-15",
+              "poster": "https://image.tmdb.org/t/p/original/sZaeOvZYS4evALQtm2wfC3eJxit.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly9zZXJhcGhpbW9ub2xpdGguc3BhY2UvcGwvSDRzSUFBQUFBQUFBQXczRzBXNkRJQlFBMEY5UzBMWXU2Y00yUldzR3JlQzlkcnlwbUxnVzBXV3RpM3o5ZHA1T0ZQZVU3SHF6andQU2t6NUtEdkZBVEhJSWFFUkRFdEVYVmNpN25CakNWSDUxQlZza1NRck00cVoySlhRUUY5MkUyLkJnNWFCdk9nLnhta3hhT2ZNdUNlN09JRDViWDFLZGpULkM0WW1uZG15ZDJiV1FSRHlQczhycm9MdU96NDRLMVcyUFdhSzFneE5RZTc1V3pialY5emxVaFk0Z0wyZC54VVdqbGY5dmxIdnpZZ3A1cXg3ZjBJeFBiRUxXMXdZQWpHelNjam16VXdDSUpjLnRFcWpYcW1ZWFZkdEZaS0hfSUl6Sm02RVNwTlguOVhkdzZDX1Y4ZmdITmI5VTNBa0JBQUEtLzgxNTZhYWFjZDQ5YWQ1YTYyZDIxNjdlOTliNmYxN2ZjL2luZGV4Lm0zdTg_dG9rZW49ZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SnBjM01pT2lKdGVTMWhkWFJvSWl3aWFXRjBJam94TnpnNE5EZzJPVFF6TENKdVltWWlPakUzT0RnME9EWTVORE1zSW1WNGNDSTZNVGM0T0RVd01UTTBNeXdpYVhCZlkybGtjaUk2SWpFNE5TNHlNVE11TVRVMUxqQXZNalFpZlEuazFBajJsN3hFUXp2dmpJY0F2MXJPdFB6YmNrODhyWVVqMVUxNkJuMDhMOA&s=vidsrc~X-cwntYhyEGlDuRTp2Rn_2VeDoY&k=p"
+                    }
+                  ]
+                },
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://impactdrivenbrands.site/7or07NZrA/pl/H4sIAAAAAAAAAw3BXXuCIBQA4L.EaF.7dCqNAqZ5jsmdgM0pVs_mlvnrt_d17bbZGmov4cXZyy5o1224.WdpY9ZktXlRMH2JNJuKpEgt81eduR9knpgkvls2nfPeFwp4b1MO2ucrTW5R03Ow3jMJHSuv3SIC_mjC.jcP4lCVHOUeJ5G44URXVyjjNxuibCCTNfhvmblADEhxKEZD_WiWWFTjDIeA32XV7Q2IR8PmtUznvIFJaMpvR7ISkE6JZORZ9ZyUI1A7dKDS4v1E82dO7weViKXNvDd4ixQ6XqM.Yvox12U8QLV9FlCotkKwrxNp2bxoxM.q0jmM7uDOUuHYJZoG2pAoUiwLsfdcL2T3Bz6hkjFBAQAA/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "episodeNumber": 9,
+              "episodeCode": "S01E09",
+              "episodeName": "The Getaway",
+              "airDate": "2023-06-22",
+              "poster": "https://image.tmdb.org/t/p/original/mogTf95jiLdvSXwnjpQcIs6Wxh2.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 10,
+              "episodeCode": "S01E10",
+              "episodeName": "Outside",
+              "airDate": "2023-06-29",
+              "poster": "https://image.tmdb.org/t/p/original/qcqkEv0S8Re5V2UV9LFUWzHYyq3.jpg",
+              "servers": [
+                {
+                  "name": "Ultra",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly96aWdndXJhdHpvZXRyb3BlLnNpdGUvcGwvSDRzSUFBQUFBQUFBQXdYQjIyNkRJQUFBMEY4Q0ZGT1c5TVhOUzVteVNRR1ZONFEyV0p5YTFXVGFyOTg1LkdZaVJ4eEo3alk1bmFEQkZqazgyRGk2UndBYVI5NGFKUC5HRjJYeTVfSnFBNVBYTnNCVy5uZWJjU0h5QmZlUENYRkpLUmQwZEVLdHJsd2htMzB5bFBaWEFYQmNaeTdyY1hzTmloNHFUNWNhYlgyRGNOcXJGR3ZrWWRNU29BR3VUUERCSUJ6cmZOV2ZLQjhyRUI5MXNTcmI2bDFKUWxYbVpqdHA3d1FydmtxT2RlYWZFcEJJWnpwbmlEMkdMaDh0Z01tdHUud01VR09DcS5vUDJqQzV4eHhPU01yMWFjSzBXRUNGTG5hdU1scXFqSGNEMktMdjVuei5CN2gwbzV3SkFRQUEvODE1NmFhYWNkNDlhZDVhNjJkMjE2N2U5OWI2ZjE3ZmMvaW5kZXgubTN1OD90b2tlbj1leUowZVhBaU9pSktWMVFpTENKaGJHY2lPaUpJVXpJMU5pSjkuZXlKcGMzTWlPaUp0ZVMxaGRYUm9JaXdpYVdGMElqb3hOemc0TkRnNE5qTTVMQ0p1WW1ZaU9qRTNPRGcwT0RnMk16a3NJbVY0Y0NJNk1UYzRPRFV3TXpBek9Td2lhWEJmWTJsa2NpSTZJakU0TlM0eU1UTXVNVFUxTGpBdk1qUWlmUS5hMElqTi1GZy1mb05yUW4xZ0JGclNsWnM0RUdiQUgxZkY3RF9VbmV4LTFj&s=vidsrc~A1wpGwp_d3pQaLo73M6BVDsNcnF&k=p"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "seasonNumber": 2,
+          "seasonName": "Season 2",
+          "totalEpisodes": 10,
+          "episodes": [
+            {
+              "episodeNumber": 1,
+              "episodeCode": "S02E01",
+              "episodeName": "The Engineer",
+              "airDate": "2024-11-14",
+              "poster": "https://image.tmdb.org/t/p/original/kB5wWdEknKlBJ8iGEYQyTJWTSZv.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 2,
+              "episodeCode": "S02E02",
+              "episodeName": "Order",
+              "airDate": "2024-11-21",
+              "poster": "https://image.tmdb.org/t/p/original/gB2lEpKUvTshTdq00IRjQHFgG4J.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 3,
+              "episodeCode": "S02E03",
+              "episodeName": "Solo",
+              "airDate": "2024-11-26",
+              "poster": "https://image.tmdb.org/t/p/original/dY1nJnRuuhC0stZqNWShBYqk93H.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 4,
+              "episodeCode": "S02E04",
+              "episodeName": "The Harmonium",
+              "airDate": "2024-12-05",
+              "poster": "https://image.tmdb.org/t/p/original/lSsLzD8eVZaju4XUGmoTGSvZq2C.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 5,
+              "episodeCode": "S02E05",
+              "episodeName": "Descent",
+              "airDate": "2024-12-12",
+              "poster": "https://image.tmdb.org/t/p/original/y2KEcaL7GLj5uYXP0t7C0d0R5B6.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 6,
+              "episodeCode": "S02E06",
+              "episodeName": "Barricades",
+              "airDate": "2024-12-19",
+              "poster": "https://image.tmdb.org/t/p/original/aAPo83kOC5mfgcOado49ijWITVo.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 7,
+              "episodeCode": "S02E07",
+              "episodeName": "The Dive",
+              "airDate": "2024-12-26",
+              "poster": "https://image.tmdb.org/t/p/original/z60fohHAWgfhpVjZRZq4M1Itw7Z.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 8,
+              "episodeCode": "S02E08",
+              "episodeName": "The Book of Quinn",
+              "airDate": "2025-01-02",
+              "poster": "https://image.tmdb.org/t/p/original/krzYmEQZ3ugR5MFqOMQJrv2pcnh.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 9,
+              "episodeCode": "S02E09",
+              "episodeName": "The Safeguard",
+              "airDate": "2025-01-09",
+              "poster": "https://image.tmdb.org/t/p/original/aNgT4AEffmGwiabRD03riCz1aWr.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 10,
+              "episodeCode": "S02E10",
+              "episodeName": "Into the Fire",
+              "airDate": "2025-01-16",
+              "poster": "https://image.tmdb.org/t/p/original/coz4XyEQ59IbkJ3UYB9Nr8UW8ur.jpg",
+              "servers": []
+            }
+          ]
+        },
+        {
+          "seasonNumber": 3,
+          "seasonName": "Season 3",
+          "totalEpisodes": 10,
+          "episodes": [
+            {
+              "episodeNumber": 1,
+              "episodeCode": "S03E01",
+              "episodeName": "Who Are You?",
+              "airDate": "2026-07-02",
+              "poster": "https://image.tmdb.org/t/p/original/nIvrv95n7gukebcCEUeZJDy9iEp.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 2,
+              "episodeCode": "S03E02",
+              "episodeName": "It's All Good",
+              "airDate": "2026-07-09",
+              "poster": "https://image.tmdb.org/t/p/original/u4kB03bgyjnwDEIpBkpjqTvdcbz.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 3,
+              "episodeCode": "S03E03",
+              "episodeName": "A Dark Web",
+              "airDate": "2026-07-16",
+              "poster": "https://image.tmdb.org/t/p/original/rlfEJJlIAlFEcw6nNfYpyNUbTPR.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 4,
+              "episodeCode": "S03E04",
+              "episodeName": "Whatever You Do, Don't Go Home",
+              "airDate": "2026-07-23",
+              "poster": "https://image.tmdb.org/t/p/original/pYnJjrdS64krUWUAGB4ckZsqN1r.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 5,
+              "episodeCode": "S03E05",
+              "episodeName": "Memory",
+              "airDate": "2026-07-30",
+              "poster": "https://image.tmdb.org/t/p/original/zcbjuLkbVPHSphOHClKQM0v1Zjf.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 6,
+              "episodeCode": "S03E06",
+              "episodeName": "The Drive",
+              "airDate": "2026-08-06",
+              "poster": "https://image.tmdb.org/t/p/original/hCUVzq1FghJlS75KIG2Ttxua4AL.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 7,
+              "episodeCode": "S03E07",
+              "episodeName": "Radio",
+              "airDate": "2026-08-13",
+              "poster": "https://image.tmdb.org/t/p/original/hT47PUyS6fQrmukmbyXrL9nBgKc.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 8,
+              "episodeCode": "S03E08",
+              "episodeName": "Gray Goo",
+              "airDate": "2026-08-20",
+              "poster": "https://image.tmdb.org/t/p/original/qZiRIiFbjCSttNe3uNHsi6hoxWV.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 9,
+              "episodeCode": "S03E09",
+              "episodeName": "Farewell",
+              "airDate": "2026-08-27",
+              "poster": "https://image.tmdb.org/t/p/original/fl5tbMRYYQ6eWEuU5E5wN3qRXrK.jpg",
+              "servers": []
+            },
+            {
+              "episodeNumber": 10,
+              "episodeCode": "S03E10",
+              "episodeName": "Troy",
+              "airDate": "2026-09-03",
+              "poster": "https://image.tmdb.org/t/p/original/cWfqa602Kcka7zRaLMq9TRhLJkH.jpg",
+              "servers": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

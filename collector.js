@@ -1,12 +1,18 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const readline = require('node:readline/promises');
+const { execFile } = require('node:child_process');
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
+const {
+  CANONICAL_SERVERS,
+  normalizeQuality,
+  qualitiesFromManifest,
+} = require('./lib');
 
 puppeteer.use(StealthPlugin());
 
-const PREFERRED_SERVERS = ['Alpha', 'Premium', 'Orion', 'Ultra', 'PlayFast'];
+const PREFERRED_SERVERS = CANONICAL_SERVERS;
 const SERVER_ALIASES = Object.freeze({
   Alpha: ['Alpha'],
   Premium: ['Premium'],
@@ -214,6 +220,12 @@ function isSegment(url) {
     /(?:^|[/=&])(page|segment|chunk)[-_]?\d+\.html(?:$|[?&#])/i.test(decodedUrl);
 }
 
+function isExplicitLowQualityUrl(url) {
+  let decodedUrl = String(url || '');
+  try { decodedUrl = decodeURIComponent(decodedUrl); } catch (_) {}
+  return /(?:^|[/_.=-])(240|360|480|540|576|720)(?:p|[/_.?&=-]|$)/i.test(decodedUrl);
+}
+
 function parseHlsVariants(manifest, baseUrl) {
   const lines = manifest.split(/\r?\n/);
   const variants = [];
@@ -298,9 +310,40 @@ function firstHlsMediaUrl(manifest, baseUrl) {
   return null;
 }
 
+function ffprobeResolution(url) {
+  return new Promise((resolve) => {
+    execFile('ffprobe', [
+      '-v', 'error', '-select_streams', 'v:0', '-show_entries', 'stream=width,height',
+      '-of', 'csv=s=x:p=0', url,
+    ], { timeout: 10000, windowsHide: true }, (error, stdout) => {
+      if (error) return resolve(null);
+      resolve(String(stdout || '').match(/\b\d{2,5}x\d{2,5}\b/)?.[0] || null);
+    });
+  });
+}
+
+function ultraFallbackUrl(targetUrl) {
+  try {
+    const target = new URL(targetUrl);
+    const id = target.searchParams.get('id');
+    const type = target.searchParams.get('type');
+    if (!id) return null;
+    if (type === 'tv') {
+      const season = Number(target.searchParams.get('season'));
+      const episode = Number(target.searchParams.get('episode'));
+      if (!Number.isInteger(season) || !Number.isInteger(episode)) return null;
+      const code = `S${String(season).padStart(2, '0')}E${String(episode).padStart(2, '0')}`;
+      return `https://media.vidrift.in/tv_${id}/Season%20${season}/${code}/vod.m3u8`;
+    }
+    return `https://media.vidrift.in/movie_${id}/vod.m3u8`;
+  } catch (_) {
+    return null;
+  }
+}
+
 async function fetchPrefix(url, options = {}) {
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), options.timeout || 15000);
+  const timer = setTimeout(() => controller.abort(), options.timeout || 8000);
   try {
     const response = await fetch(url, {
       method: 'GET',
@@ -336,36 +379,40 @@ async function probeCandidate(candidate) {
     const response = await fetchPrefix(candidate.url, { range: candidate.kind === 'video' });
     const prefix = response.body.toString('utf8');
     const verifiedKind = mediaKind(response.url, response.contentType, prefix);
-    const variants = verifiedKind === 'hls' ? parseHlsVariants(prefix, response.url) : [];
-    const selectedVariant = highest1080ClassVariant(variants);
-    let mediaProbe = null;
-    let resolution = selectedVariant?.resolution || candidate.observedResolution || null;
+    const declared = qualitiesFromManifest(prefix, response.url);
+    const verifiedVariants = [];
 
-    if (verifiedKind === 'hls' && selectedVariant) {
-      const child = await fetchPrefix(selectedVariant.url);
-      const childManifest = child.body.toString('utf8');
-      const mediaUrl = child.ok ? firstHlsMediaUrl(childManifest, child.url) : null;
-      mediaProbe = mediaUrl ? await fetchPrefix(mediaUrl, { range: true, limit: 4096 }) : null;
-    }
-    if (verifiedKind === 'hls' && !selectedVariant && is1080ClassResolution(resolution)) {
+    if (verifiedKind === 'hls' && declared.length > 0) {
+      for (const variant of declared) {
+        const child = await fetchPrefix(variant.url);
+        const childManifest = child.body.toString('utf8');
+        const mediaUrl = child.ok ? firstHlsMediaUrl(childManifest, child.url) : null;
+        const mediaProbe = mediaUrl ? await fetchPrefix(mediaUrl, { range: true, limit: 4096 }) : null;
+        if (child.ok && /^\s*#EXTM3U/.test(childManifest) && mediaProbe?.ok && mediaProbe.body.length > 0) {
+          verifiedVariants.push({ ...variant, url: child.url, mediaSegmentStatus: mediaProbe.status });
+        }
+      }
+    } else if (verifiedKind === 'hls') {
+      const measuredResolution = candidate.observedResolution || await ffprobeResolution(response.url);
+      const normalized = normalizeQuality(measuredResolution);
       const mediaUrl = firstHlsMediaUrl(prefix, response.url);
-      mediaProbe = mediaUrl ? await fetchPrefix(mediaUrl, { range: true, limit: 4096 }) : null;
+      const mediaProbe = mediaUrl ? await fetchPrefix(mediaUrl, { range: true, limit: 4096 }) : null;
+      if (normalized && mediaProbe?.ok && mediaProbe.body.length > 0) {
+        verifiedVariants.push({
+          ...normalized,
+          rawResolution: measuredResolution,
+          url: response.url,
+          exactVariant: true,
+          exactStandard: measuredResolution === normalized.resolution,
+          mediaSegmentStatus: mediaProbe.status,
+        });
+      }
+    } else if (verifiedKind === 'dash' && response.ok) {
+      verifiedVariants.push(...declared);
     }
 
-    if (verifiedKind === 'dash') {
-      const representations = [...prefix.matchAll(/<Representation\b[^>]*(?:width="(\d+)"[^>]*height="(\d+)"|height="(\d+)"[^>]*width="(\d+)")[^>]*>/gi)]
-        .map((match) => ({ width: Number(match[1] || match[4]), height: Number(match[2] || match[3]) }))
-        .filter((item) => item.width && item.height)
-        .sort((left, right) => (right.width * right.height) - (left.width * left.height));
-      const best = representations.find((item) => item.width >= 1920 || item.height >= 1080);
-      if (best) resolution = `${best.width}x${best.height}`;
-    }
-
-    const qualityVerified = verifiedKind === 'hls'
-      ? Boolean(is1080ClassResolution(resolution) && mediaProbe?.ok && mediaProbe.body.length > 0)
-      : verifiedKind === 'dash'
-        ? is1080ClassResolution(resolution)
-        : false;
+    const best = verifiedVariants[0] || null;
+    const qualityVerified = verifiedVariants.length > 0;
     return {
       ok: response.ok && Boolean(verifiedKind) && qualityVerified,
       status: response.status,
@@ -373,10 +420,12 @@ async function probeCandidate(candidate) {
       contentType: response.contentType,
       verifiedKind,
       manifestSignature: prefix.trimStart().startsWith('#EXTM3U'),
-      variants,
-      resolution,
+      variants: declared,
+      verifiedVariants,
+      quality: best?.quality || null,
+      resolution: best?.rawResolution || best?.resolution || candidate.observedResolution || null,
       directPlaybackNoHeaders: qualityVerified,
-      mediaSegmentStatus: mediaProbe?.status || null,
+      mediaSegmentStatus: best?.mediaSegmentStatus || null,
       rejectionReason: qualityVerified ? null : 'no directly playable 1080-class-or-higher stream without headers',
     };
   } catch (error) {
@@ -519,11 +568,14 @@ async function startScanner(options) {
 
   const browser = await puppeteer.launch({
     headless: options.headless,
+    ignoreDefaultArgs: ['--disable-popup-blocking'],
     defaultViewport: options.headless ? { width: 1365, height: 768 } : null,
     args: [
       '--no-sandbox', '--disable-setuid-sandbox', '--start-maximized',
       '--autoplay-policy=no-user-gesture-required',
       '--disable-features=IsolateOrigins,site-per-process',
+      '--renderer-process-limit=2', '--disable-gpu', '--disable-extensions',
+      '--disable-background-networking',
     ],
   });
 
@@ -534,7 +586,6 @@ async function startScanner(options) {
   const providerHosts = new Map();
   const frameServers = new WeakMap();
   const pageServers = new WeakMap();
-  const providerAllowedPages = new WeakSet();
 
   function requestServer(request) {
     const frame = request.frame();
@@ -544,7 +595,7 @@ async function startScanner(options) {
   }
 
   function saveCandidate(data, server = null) {
-    if (!server || !data.kind || isSegment(data.url)) return;
+    if (!server || !data.kind || isSegment(data.url) || isExplicitLowQualityUrl(data.url)) return;
     const key = `${server}\n${data.url}`;
     const existing = candidates.get(key);
     candidates.set(key, { ...existing, ...data, server });
@@ -555,7 +606,6 @@ async function startScanner(options) {
     if (pages.has(page)) return;
     pages.add(page);
     page.setUserAgent(USER_AGENT).catch(() => {});
-    page.setRequestInterception(true).catch(() => {});
 
     page.on('request', (request) => {
       const url = request.url();
@@ -565,16 +615,6 @@ async function startScanner(options) {
       const server = requestServer(request);
       if (kind) saveCandidate({ url, kind, resourceType: type, headers, detectedBy: 'request-url' }, server);
       if (request.isNavigationRequest() && request.frame() !== page.mainFrame()) embeds.add(url);
-      if (request.isInterceptResolutionHandled()) return;
-      let blockProvider = false;
-      try {
-        const hostname = new URL(url).hostname;
-        blockProvider = request.isNavigationRequest() &&
-          request.frame() !== page.mainFrame() &&
-          !/(^|\.)redflix\.co$/i.test(hostname) &&
-          !providerAllowedPages.has(page);
-      } catch (_) {}
-      (blockProvider ? request.abort() : request.continue()).catch(() => {});
     });
 
     page.on('response', (response) => {
@@ -656,7 +696,7 @@ async function startScanner(options) {
     console.log(`[PREFERRED SOURCES] ${sourcePlan.map(({ server, sourceLabel }) =>
       server === sourceLabel ? server : `${server}<-${sourceLabel}`
     ).join(', ') || 'none available'}`);
-    const sourceWindow = Math.max(8000, Math.min(20000, options.timeout * 1000));
+    const sourceWindow = Math.max(5000, Math.min(8000, options.timeout * 1000));
     serverResults = [];
     await runPool(sourcePlan, options.serverWorkers, async ({ server: label, sourceLabel }) => {
       const sourcePage = await browser.newPage();
@@ -665,9 +705,8 @@ async function startScanner(options) {
       const status = { server: label, sourceLabel, selected: false, iframeUrl: null, error: null };
       try {
         const exactSourceRoute = serverRoute(options.targetUrl, label);
-        await sourcePage.goto(exactSourceRoute, { waitUntil: 'domcontentloaded', timeout: 45000 });
-        await sourcePage.waitForSelector('#watch-streaming-sources button, iframe', { timeout: 12000 }).catch(() => null);
-        providerAllowedPages.add(sourcePage);
+        await sourcePage.goto(exactSourceRoute, { waitUntil: 'domcontentloaded', timeout: 25000 });
+        await sourcePage.waitForSelector('#watch-streaming-sources button, iframe', { timeout: 8000 }).catch(() => null);
         const routedState = await sourceState(sourcePage, sourceLabel);
         const selection = isActivatedSourceState(routedState)
           ? { ...routedState, selected: true, routeActivated: true }
@@ -693,7 +732,7 @@ async function startScanner(options) {
           }
         } catch (_) {}
         await sleep(1500);
-        const sourceDeadline = Date.now() + Math.min(sourceWindow, 12000);
+        const sourceDeadline = Date.now() + sourceWindow;
         while (Date.now() < sourceDeadline) {
           await triggerPlayback(sourcePage);
           status.observedVideoResolution = await pageVideoResolution(sourcePage) || status.observedVideoResolution || null;
@@ -706,12 +745,11 @@ async function startScanner(options) {
           console.log(`[PROVIDER TOP-LEVEL FALLBACK] ${label} -> ${shortUrl(selection.iframeUrl)}`);
           const providerPage = await browser.newPage();
           pageServers.set(providerPage, label);
-          providerAllowedPages.add(providerPage);
           inspectPage(providerPage);
           try {
             await providerPage.setExtraHTTPHeaders({ referer: exactSourceRoute });
-            await providerPage.goto(selection.iframeUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
-            const directDeadline = Date.now() + 10000;
+            await providerPage.goto(selection.iframeUrl, { waitUntil: 'domcontentloaded', timeout: 15000 });
+            const directDeadline = Date.now() + 5000;
             while (Date.now() < directDeadline) {
               await triggerPlayback(providerPage);
               status.observedVideoResolution = await pageVideoResolution(providerPage) || status.observedVideoResolution || null;
@@ -741,7 +779,7 @@ async function startScanner(options) {
         await sourcePage.close().catch(() => {});
       }
     });
-    if (candidates.size > 0) await sleep(5000);
+    if (candidates.size > 0) await sleep(2000);
     await Promise.race([
       Promise.allSettled([...pendingInspections]),
       sleep(3000),
@@ -752,10 +790,35 @@ async function startScanner(options) {
   }
 
   console.log('[4/4] Probing captured final-media candidates...');
+  const ultraFallback = ultraFallbackUrl(options.targetUrl);
+  if (ultraFallback) {
+    saveCandidate({ url: ultraFallback, kind: 'hls', detectedBy: 'verified-ultra-route-fallback' }, 'Ultra');
+  }
   const results = [];
-  await runPool([...candidates.values()], 5, async (candidate) => {
+  await runPool([...candidates.values()], 12, async (candidate) => {
     const probe = await probeCandidate(candidate);
-    results.push({ ...candidate, probe });
+    if (probe.ok) {
+      for (const variant of probe.verifiedVariants) {
+        results.push({
+          ...candidate,
+          url: variant.url,
+          probe: {
+            ...probe,
+            variants: undefined,
+            verifiedVariants: undefined,
+            quality: variant.quality,
+            resolution: variant.rawResolution || variant.resolution,
+            standardResolution: variant.resolution,
+            bandwidth: variant.bandwidth || 0,
+            exactVariant: variant.exactVariant === true,
+            exactStandard: variant.exactStandard === true,
+            mediaSegmentStatus: variant.mediaSegmentStatus || probe.mediaSegmentStatus,
+          },
+        });
+      }
+    } else {
+      results.push({ ...candidate, probe });
+    }
     console.log(`[${probe.ok ? 'VERIFIED' : 'UNVERIFIED'}] ${candidate.server} ` +
       `${probe.resolution || 'unknown'} ${shortUrl(candidate.url)}${probe.rejectionReason ? ` | ${probe.rejectionReason}` : ''}`);
   });
@@ -788,7 +851,11 @@ async function startScanner(options) {
 
   const outputPath = path.resolve(options.output);
   fs.writeFileSync(outputPath, `${JSON.stringify(payload, null, 2)}\n`, 'utf8');
-  await browser.close();
+  const closed = await Promise.race([
+    browser.close().then(() => true).catch(() => false),
+    sleep(5000).then(() => false),
+  ]);
+  if (!closed) browser.process()?.kill('SIGKILL');
 
   console.log('\n==================================================');
   console.log(payload.success ? 'SUCCESS: FINAL STREAM VERIFIED' : 'NO VERIFIED FINAL STREAM FOUND');
@@ -824,6 +891,8 @@ if (require.main === module) main();
 
 module.exports = {
   parseArgs, mediaKind, isSegment, parseHlsVariants, is1080ClassResolution,
+  isExplicitLowQualityUrl,
+  ffprobeResolution, ultraFallbackUrl,
   highest1080ClassVariant, probeCandidate, sourceLabels, sourceState, selectSource,
   isActivatedSourceState, attributedServer, resolveSourcePlan, serverRoute, mediaUrlsFromText,
 };

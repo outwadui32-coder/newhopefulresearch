@@ -48,13 +48,13 @@ assert.equal(hd.resolution, '1920x1080');
 // 720p and 480p never reach the output.
 assert.ok(!selected.some((item) => /720|480/.test(item.resolution)));
 
-// --- one tier reached by several variants: best bandwidth wins ----------
+// --- one tier reached by several variants: exact standard frame wins -----
 const duplicates = manifest.selectVariantsByTier(
   manifest.parseHlsMaster(fixture('master-duplicate-tiers.m3u8'), BASE), { fallbackUrl: BASE }
 );
 assert.equal(duplicates.length, 1);
 assert.equal(duplicates[0].quality, '1080p');
-assert.equal(duplicates[0].url, 'https://cdn.example.test/assets/demo/cdn-b/1080.m3u8');
+assert.equal(duplicates[0].url, 'https://cdn.example.test/assets/demo/cdn-a/1080.m3u8');
 
 // --- DASH ---------------------------------------------------------------
 const MPD = 'https://cdn.example.test/assets/demo/manifest.mpd';

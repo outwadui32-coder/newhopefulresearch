@@ -16,6 +16,7 @@ const SUITES = [
   'm3u.test.js',
   'verify.test.js',
   'integration.test.js',
+  'production-integration.test.js',
   'end-to-end.js',
 ];
 

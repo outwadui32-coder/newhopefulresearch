@@ -1,0 +1,564 @@
+CATEGORY: Home: Trending in United States
+New Series:
+TOTAL SERIES: 4
+LAST_UPDATED: 2026-09-05T06:58:25.861Z
+PURPOSE: Strictly for educational purposes only and not for commercial use
+
+
+Series: 01
+------------------------------------
+
+TOTAL SEASONS  : 1
+TOTAL EPISODES : 3
+
+ID          : tv:95350
+SERIES Name : Lanterns
+Year        : 2026
+Poster      : https://image.tmdb.org/t/p/w342/gpC7h43xPMEV3goYMQShfJbTtLq.jpg
+
+
+Season: 01
+------------------------------------
+
+Season Name    : Season 1
+Season Number  : 1
+TOTAL EPISODES : 3
+
+
+Episode: 01
+------------------------------------
+
+Episode Code : S01E01
+Episode Name : Pilot
+Air Date     : 2026-08-16
+Poster       : https://image.tmdb.org/t/p/original/eamjkYDnuDcvS1MyynI4B9nE6KL.jpg
+
+SERVER-1: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://highperformancebrands.site/IgBCTApFy/pl/H4sIAAAAAAAAAwXB3ZKCIBgA0FcCDVv30kk0N2hQ.UDuQNyxwp9payqffs8ZfIJjkgzI7QdPdj7FCfbpb4ySxO37Pv3uKbuf9XJvrjx3YHbnkkZ1yOo6.iJCPYpWctbexs9ZQyPaOpP5beN0ffbSlK40OzuRQlzhz.nj5lpDjKY_QpkOJoqaKTylSpNmqmWDlpeQIPxMxzoSL3YdY4fQh0GPuCKFLdbYzebFJQErTaV0h01eXfxUH1k5PpwimQzZOlweT4urY4cMti0j7sCXVtHgb.nBq_Rt5iCEer.hrOZ2Cx8Xwd3qrHQQNtAAJ4SJiMPYKC9OyDBehKibfABNY6WzxUMWAcqxQKs1G0r_Af6zeyxBAQAA/master.m3u8
+
+
+Series: 02
+------------------------------------
+
+TOTAL SEASONS  : 5
+TOTAL EPISODES : 40
+
+ID          : tv:97546
+SERIES Name : Ted Lasso
+Year        : 2021
+Poster      : https://image.tmdb.org/t/p/w342/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg
+
+
+Season: 00
+------------------------------------
+
+Season Name    : Specials
+Season Number  : 0
+TOTAL EPISODES : 1
+
+
+Episode: 01
+------------------------------------
+
+Episode Code : S00E01
+Episode Name : The Missing Christmas Mustache
+Air Date     : 2021-12-15
+Poster       : https://image.tmdb.org/t/p/original/kxJERnlng82qe0HdofkXhAphBLG.jpg
+
+
+
+Series: 03
+------------------------------------
+
+TOTAL SEASONS  : 3
+TOTAL EPISODES : 30
+
+ID          : tv:125988
+SERIES Name : Silo
+Year        : 2023
+Poster      : https://image.tmdb.org/t/p/w342/gMYZZvnkVNTqSVnVCphWbPXwWwb.jpg
+
+
+Season: 01
+------------------------------------
+
+Season Name    : Season 1
+Season Number  : 1
+TOTAL EPISODES : 10
+
+
+Episode: 01
+------------------------------------
+
+Episode Code : S01E01
+Episode Name : Freedom Day
+Air Date     : 2023-05-04
+Poster       : https://image.tmdb.org/t/p/original/rpZhJcWPpyLvPC5Vid61GD6JHVu.jpg
+
+SERVER-1: Ultra
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly9lcGV4ZWdlc2lzZW5naW5lLnNpdGUvcGwvSDRzSUFBQUFBQUFBQXdYQjIyN0NJQUFBMEYuQ1FvMWI0c082Q2lZVE1paVh5aHNVbFZEcU9vMlg5ZXQzenJvRzFSRkFWS01UREdGZHhSV0VQZzU0UUtlQVlJWGZnMzJaQ0o2VmFfbkRqZ0oyVTFLOElpNjJ4akV3XzlwZGt6U05OMWxtYkZXenhESGRnejREa1pQbGxGdEhaZDFSOS5jcmpFMmIuZ0Rpd3N5SVRlWTVndnBMTHhydmxfU2pzc2Fjbko5V09hSkE5RndYNzZjME1SUnZCeVN2VEgwOEpKTDlrYVJwS0dUYW8xUms0WnkxNUg2NEZNT0plTVdMbklXWnIzRXJHMDBMRWoxdl9GaDMzWFplV2Mxd1VPbVRnemQ1ek1ackNtR0FKTHZTdUcueDJmd0Q3QW5rU3drQkFBQS0vODE1NmFhYWNkNDlhZDVhNjJkMjE2N2U5OWI2ZjE3ZmMvaW5kZXgubTN1OD90b2tlbj1leUowZVhBaU9pSktWMVFpTENKaGJHY2lPaUpJVXpJMU5pSjkuZXlKcGMzTWlPaUp0ZVMxaGRYUm9JaXdpYVdGMElqb3hOemc0TlRnMk1URXdMQ0p1WW1ZaU9qRTNPRGcxT0RZeE1UQXNJbVY0Y0NJNk1UYzRPRFl3TURVeE1Dd2lhWEJmWTJsa2NpSTZJakU0TlM0eU1UTXVNVFUxTGpBdk1qUWlmUS5BU3VFbGJwd0VUYVBhTVM0RU1EY0R3MTJjNmZWSkFubGd2UXVlcXF2YnpB&s=vidsrc~wILF6uphLvoIiU3UMKhIytuaNe9&k=p
+
+
+SERVER-2: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://remoteincomeformula.site/wzprFJsxb/pl/H4sIAAAAAAAAAw3P3VqDIBgA4FtCSDc7q2fCcsES.UA5g.Hmk.j6seW8.nrv4PVJyLPU4a3bPGTedR5jf95szz5D522WdI8SaaUmuTo2LwekrZxKE9jSVkgPPEbimf3uInWncZkDscIUkbkmGre_IMnyX0evKKBg6rU_BkzfhDqlYJKdHOIRxvklwFIBFVZQ8eOAlnKyewULsShZO1Otr_gXH1Avgo6G02IVwJNj86wAy88aQtqOlotCVraRFNjwpd61ruJl4WguYNTqgMoRyAeXqBQdiFSyvvW614pY53flTY.6EPf8Xk9XUpvh5ogU_2cQTXQnGkoBNuOJJK1JeHXPr1yV3K5PGIxAoFD.B6D9bD1BAQAA/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8
+
+
+Episode: 02
+------------------------------------
+
+Episode Code : S01E02
+Episode Name : Holston's Pick
+Air Date     : 2023-05-04
+Poster       : https://image.tmdb.org/t/p/original/bRYHFClG8YkTJTy8fx73hgCd8Ac.jpg
+
+SERVER-1: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://lifestylefreedomlab.site/WnVM9YFN1/pl/H4sIAAAAAAAAAw3D2XKDIAAAwF8C1LT0USO5Ki0oEnlDwNGAmTS19fj6dmc22hmMMMA70CVR0gGn2y4x7SuwDrgXF79xaWYObKNh8Pb.6LXHjRMAulu4ORnHVJCsFHz6r4yAX9IvK0XNsxbJJ0VzXFYscT4R5Vggi.xJrXjj0fnOBrzoMQwl6kMLxKL3fVZt1rd1GrQHUeEV0.NCLZqEzhXj5LzazT9dTn7cQV3fI4ouIDAq2dx4kheenCnqs2aYTmbff5f5vKoRHzV87IsD5Lyigm8kbWt6MDJwPuLCHGmqrqnnIqQKNr8fFRH8RrcLJKyWj7HNA_sDc9VM0iEBAAA-/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8
+
+
+Episode: 03
+------------------------------------
+
+Episode Code : S01E03
+Episode Name : Machines
+Air Date     : 2023-05-11
+Poster       : https://image.tmdb.org/t/p/original/8hQB4jxk9ydj55Mrl9sY95smV7.jpg
+
+SERVER-1: Ultra
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly9pbWJyb2dsaW9pZ2xvby5zaXRlL3BsL0g0c0lBQUFBQUFBQUF4M08zVzZDTUJnQTBGZWlCUmRaNGcxcWk4cVlsdjdSdTdZZnlyQTRRNUF3bm43TGJzX1ZjZWtWWHdFUzVPTFVOckJxRUNUT1c1ZXNuY1dSYmQ3TEhINHNoaFBmdFpIaTRlZzZraGd0VmZVd3ltcjVxRFZrbjlzMUV2ZDA4QjM3aGp4d0h1UVhFLldrYUlpQkhuQXB6VXJrZnJGN1EwRURMZjZrNmR1b3VvOFZsOWw0V1VnUTJwd2hKbS4xWWdmSXljcWk1LlI3azZsd205ak9MUDhIakY2MWZoWkZ4S3pwbVBWMG5zdWNUVVlhNVBvMjQ5SWo2TXJCNjViS0NHVkN5WmVpOVdJZUxmclloUzNzeDBIZy5lUVcwbm84QzBVSnNwd2N6NWZONWhkeFJ6RW5DUUVBQUEtLS84MTU2YWFhY2Q0OWFkNWE2MmQyMTY3ZTk5YjZmMTdmYy9pbmRleC5tM3U4P3Rva2VuPWV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSklVekkxTmlKOS5leUpwYzNNaU9pSnRlUzFoZFhSb0lpd2lhV0YwSWpveE56ZzRORGc0TVRFNExDSnVZbVlpT2pFM09EZzBPRGd4TVRnc0ltVjRjQ0k2TVRjNE9EVXdNalV4T0N3aWFYQmZZMmxrY2lJNklqRTROUzR5TVRNdU1UVTFMakF2TWpRaWZRLmhsbmNLNng3VFBMaER1cjdkYVpwYUYwUHZEOGx3SWhfVk5TdUhkZy1oQUE&s=vidsrc~VZWy534wS2Y_SFYbl5gUTLOryVv&k=p
+
+
+Episode: 04
+------------------------------------
+
+Episode Code : S01E04
+Episode Name : Truth
+Air Date     : 2023-05-18
+Poster       : https://image.tmdb.org/t/p/original/x3fMuXhTx5f91tQgjXNzopo5B5g.jpg
+
+
+
+Episode: 05
+------------------------------------
+
+Episode Code : S01E05
+Episode Name : The Janitor's Boy
+Air Date     : 2023-05-25
+Poster       : https://image.tmdb.org/t/p/original/yzLUNo2jU82N5rdRG0xZ2A2ed79.jpg
+
+SERVER-1: Ultra
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly9sYWJ5cmludGhpbmVsb2dhcml0aG0uc3BhY2UvcGwvSDRzSUFBQUFBQUFBQXczTTBXNkRJQlFBMEY4Q3FYWXU2WXVLV0ROd0loZFMzeFExTG9KMXFWbFh2MzQ3SDNCQ2JDZlVUU0dPMEpuRUdLRWdpckcxRnAuRGdRelI5SzZwdXpYcGJneTdFNjduR3J4elRXRlBqZGtTVGJIUWE1bHdKeGFsU3RmckxWQkxqSUZJT1JhaXN2N3RaSmJ0WVh6Y05wNGpkY3lQM3JTN1lMOEtrRnR0SVBEX0U4bU1QZ0VFRmN2MlhURjVWNlFtbzlzNmkuWlhTOHJLNWtuS1Y3MERwYVRMNXc4TjE2TTN1Lm16M0hPenVaR1ZUQlk4QUNXRE1ZT3c5eWdjVE9rYWx0OUF6VC5HdFJXay43VmJ4UUUwNXNEbWwxaGtJNTM0NGg0OVAudkw1UV9MZ3M5MUNRRUFBQS0tLzgxNTZhYWFjZDQ5YWQ1YTYyZDIxNjdlOTliNmYxN2ZjL2luZGV4Lm0zdTg_dG9rZW49ZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SnBjM01pT2lKdGVTMWhkWFJvSWl3aWFXRjBJam94TnpnNE5EZzFPVGsyTENKdVltWWlPakUzT0RnME9EVTVPVFlzSW1WNGNDSTZNVGM0T0RVd01ETTVOaXdpYVhCZlkybGtjaUk2SWpFNE5TNHlNVE11TVRVMUxqQXZNalFpZlEubXVtc2xTUVJ6TzhVTXpkcDhhdkxaNS1oVkhwRFE0NURXM0g2VkJLbC1Ocw&s=vidsrc~AuC5FLf4bwXkFdn5Yfz6aNU05Tq&k=p
+
+
+Episode: 06
+------------------------------------
+
+Episode Code : S01E06
+Episode Name : The Relic
+Air Date     : 2023-06-01
+Poster       : https://image.tmdb.org/t/p/original/k5UxYAS4Xmcsn3GZdCklXGMIBMd.jpg
+
+
+
+Episode: 07
+------------------------------------
+
+Episode Code : S01E07
+Episode Name : The Flamekeepers
+Air Date     : 2023-06-08
+Poster       : https://image.tmdb.org/t/p/original/ukzV8BZbjlIU6WOKdoZqhHMg2yi.jpg
+
+SERVER-1: Ultra
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly9wcm9waW5xdWl0eXBvc3R1bGF0ZS53ZWJzaXRlL3BsL0g0c0lBQUFBQUFBQUF3WEIyMjZESUFBQTBGOFNrVTZYOU1Vb1dxZGtNaTdLR3lJZEU5dWExdFhPcjk4NUVUekVVV0JnbUF5SHMwWTJObFpIYnpIUU1iUjJpTV92NHpVTlJfa05DWFo0WUFLMk13VXFvemMuVmFjR1Y3a0NUalJlX09pX2xUWXdEY2lFSHhJNy5BRlNNT1o0VWxkeTQwVjdWNTFZV1RnN3drbkxlZi5TLlhxeE10OTB1QkxTVlhqTURMTGVsV3JLTjFhcXlnQ0J0S2VRRkVsRy5McjBuUUFVbUx2d2ZMT01CRXdpcGdQOHE3NlNuZTl6MXU2dWFzckt0Wkk4UjJ3UTNjVkZZUVdaN3dHVFM2MTRFOVU3T1VtUEZqNWpWQWZvYVlvSG9Qd0ZQOXZqOFI5S0JuSnVDUUVBQUEtLS84MTU2YWFhY2Q0OWFkNWE2MmQyMTY3ZTk5YjZmMTdmYy9pbmRleC5tM3U4P3Rva2VuPWV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSklVekkxTmlKOS5leUpwYzNNaU9pSnRlUzFoZFhSb0lpd2lhV0YwSWpveE56ZzRORGczT1RJeExDSnVZbVlpT2pFM09EZzBPRGM1TWpFc0ltVjRjQ0k2TVRjNE9EVXdNak15TVN3aWFYQmZZMmxrY2lJNklqRTROUzR5TVRNdU1UVTFMakF2TWpRaWZRLlZobWlMOUJIOXNEYm1ydDZXMlhBWmJ3a2NUMWFJcklTOHQ4UHBFU2F0Z3M&s=vidsrc~dPk4M_dKUv1KwvlEyErxxrrOH82&k=p
+
+
+Episode: 08
+------------------------------------
+
+Episode Code : S01E08
+Episode Name : Hanna
+Air Date     : 2023-06-15
+Poster       : https://image.tmdb.org/t/p/original/sZaeOvZYS4evALQtm2wfC3eJxit.jpg
+
+SERVER-1: Ultra
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly9zZXJhcGhpbW9ub2xpdGguc3BhY2UvcGwvSDRzSUFBQUFBQUFBQXczRzBXNkRJQlFBMEY5UzBMWXU2Y00yUldzR3JlQzlkcnlwbUxnVzBXV3RpM3o5ZHA1T0ZQZVU3SHF6andQU2t6NUtEdkZBVEhJSWFFUkRFdEVYVmNpN25CakNWSDUxQlZza1NRck00cVoySlhRUUY5MkUyLkJnNWFCdk9nLnhta3hhT2ZNdUNlN09JRDViWDFLZGpULkM0WW1uZG15ZDJiV1FSRHlQczhycm9MdU96NDRLMVcyUFdhSzFneE5RZTc1V3pialY5emxVaFk0Z0wyZC54VVdqbGY5dmxIdnpZZ3A1cXg3ZjBJeFBiRUxXMXdZQWpHelNjam16VXdDSUpjLnRFcWpYcW1ZWFZkdEZaS0hfSUl6Sm02RVNwTlguOVhkdzZDX1Y4ZmdITmI5VTNBa0JBQUEtLzgxNTZhYWFjZDQ5YWQ1YTYyZDIxNjdlOTliNmYxN2ZjL2luZGV4Lm0zdTg_dG9rZW49ZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SnBjM01pT2lKdGVTMWhkWFJvSWl3aWFXRjBJam94TnpnNE5EZzJPVFF6TENKdVltWWlPakUzT0RnME9EWTVORE1zSW1WNGNDSTZNVGM0T0RVd01UTTBNeXdpYVhCZlkybGtjaUk2SWpFNE5TNHlNVE11TVRVMUxqQXZNalFpZlEuazFBajJsN3hFUXp2dmpJY0F2MXJPdFB6YmNrODhyWVVqMVUxNkJuMDhMOA&s=vidsrc~X-cwntYhyEGlDuRTp2Rn_2VeDoY&k=p
+
+
+SERVER-2: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://impactdrivenbrands.site/7or07NZrA/pl/H4sIAAAAAAAAAw3BXXuCIBQA4L.EaF.7dCqNAqZ5jsmdgM0pVs_mlvnrt_d17bbZGmov4cXZyy5o1224.WdpY9ZktXlRMH2JNJuKpEgt81eduR9knpgkvls2nfPeFwp4b1MO2ucrTW5R03Ow3jMJHSuv3SIC_mjC.jcP4lCVHOUeJ5G44URXVyjjNxuibCCTNfhvmblADEhxKEZD_WiWWFTjDIeA32XV7Q2IR8PmtUznvIFJaMpvR7ISkE6JZORZ9ZyUI1A7dKDS4v1E82dO7weViKXNvDd4ixQ6XqM.Yvox12U8QLV9FlCotkKwrxNp2bxoxM.q0jmM7uDOUuHYJZoG2pAoUiwLsfdcL2T3Bz6hkjFBAQAA/8156aaacd49ad5a62d2167e99b6f17fc/index.m3u8
+
+
+Episode: 09
+------------------------------------
+
+Episode Code : S01E09
+Episode Name : The Getaway
+Air Date     : 2023-06-22
+Poster       : https://image.tmdb.org/t/p/original/mogTf95jiLdvSXwnjpQcIs6Wxh2.jpg
+
+
+
+Episode: 10
+------------------------------------
+
+Episode Code : S01E10
+Episode Name : Outside
+Air Date     : 2023-06-29
+Poster       : https://image.tmdb.org/t/p/original/qcqkEv0S8Re5V2UV9LFUWzHYyq3.jpg
+
+SERVER-1: Ultra
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly96aWdndXJhdHpvZXRyb3BlLnNpdGUvcGwvSDRzSUFBQUFBQUFBQXdYQjIyNkRJQUFBMEY4Q0ZGT1c5TVhOUzVteVNRR1ZONFEyV0p5YTFXVGFyOTg1LkdZaVJ4eEo3alk1bmFEQkZqazgyRGk2UndBYVI5NGFKUC5HRjJYeTVfSnFBNVBYTnNCVy5uZWJjU0h5QmZlUENYRkpLUmQwZEVLdHJsd2htMzB5bFBaWEFYQmNaeTdyY1hzTmloNHFUNWNhYlgyRGNOcXJGR3ZrWWRNU29BR3VUUERCSUJ6cmZOV2ZLQjhyRUI5MXNTcmI2bDFKUWxYbVpqdHA3d1FydmtxT2RlYWZFcEJJWnpwbmlEMkdMaDh0Z01tdHUud01VR09DcS5vUDJqQzV4eHhPU01yMWFjSzBXRUNGTG5hdU1scXFqSGNEMktMdjVuei5CN2gwbzV3SkFRQUEvODE1NmFhYWNkNDlhZDVhNjJkMjE2N2U5OWI2ZjE3ZmMvaW5kZXgubTN1OD90b2tlbj1leUowZVhBaU9pSktWMVFpTENKaGJHY2lPaUpJVXpJMU5pSjkuZXlKcGMzTWlPaUp0ZVMxaGRYUm9JaXdpYVdGMElqb3hOemc0TkRnNE5qTTVMQ0p1WW1ZaU9qRTNPRGcwT0RnMk16a3NJbVY0Y0NJNk1UYzRPRFV3TXpBek9Td2lhWEJmWTJsa2NpSTZJakU0TlM0eU1UTXVNVFUxTGpBdk1qUWlmUS5hMElqTi1GZy1mb05yUW4xZ0JGclNsWnM0RUdiQUgxZkY3RF9VbmV4LTFj&s=vidsrc~A1wpGwp_d3pQaLo73M6BVDsNcnF&k=p
+
+
+Season: 02
+------------------------------------
+
+Season Name    : Season 2
+Season Number  : 2
+TOTAL EPISODES : 10
+
+
+Episode: 01
+------------------------------------
+
+Episode Code : S02E01
+Episode Name : The Engineer
+Air Date     : 2024-11-14
+Poster       : https://image.tmdb.org/t/p/original/kB5wWdEknKlBJ8iGEYQyTJWTSZv.jpg
+
+
+
+Episode: 02
+------------------------------------
+
+Episode Code : S02E02
+Episode Name : Order
+Air Date     : 2024-11-21
+Poster       : https://image.tmdb.org/t/p/original/gB2lEpKUvTshTdq00IRjQHFgG4J.jpg
+
+
+
+Episode: 03
+------------------------------------
+
+Episode Code : S02E03
+Episode Name : Solo
+Air Date     : 2024-11-26
+Poster       : https://image.tmdb.org/t/p/original/dY1nJnRuuhC0stZqNWShBYqk93H.jpg
+
+
+
+Episode: 04
+------------------------------------
+
+Episode Code : S02E04
+Episode Name : The Harmonium
+Air Date     : 2024-12-05
+Poster       : https://image.tmdb.org/t/p/original/lSsLzD8eVZaju4XUGmoTGSvZq2C.jpg
+
+
+
+Episode: 05
+------------------------------------
+
+Episode Code : S02E05
+Episode Name : Descent
+Air Date     : 2024-12-12
+Poster       : https://image.tmdb.org/t/p/original/y2KEcaL7GLj5uYXP0t7C0d0R5B6.jpg
+
+
+
+Episode: 06
+------------------------------------
+
+Episode Code : S02E06
+Episode Name : Barricades
+Air Date     : 2024-12-19
+Poster       : https://image.tmdb.org/t/p/original/aAPo83kOC5mfgcOado49ijWITVo.jpg
+
+
+
+Episode: 07
+------------------------------------
+
+Episode Code : S02E07
+Episode Name : The Dive
+Air Date     : 2024-12-26
+Poster       : https://image.tmdb.org/t/p/original/z60fohHAWgfhpVjZRZq4M1Itw7Z.jpg
+
+
+
+Episode: 08
+------------------------------------
+
+Episode Code : S02E08
+Episode Name : The Book of Quinn
+Air Date     : 2025-01-02
+Poster       : https://image.tmdb.org/t/p/original/krzYmEQZ3ugR5MFqOMQJrv2pcnh.jpg
+
+
+
+Episode: 09
+------------------------------------
+
+Episode Code : S02E09
+Episode Name : The Safeguard
+Air Date     : 2025-01-09
+Poster       : https://image.tmdb.org/t/p/original/aNgT4AEffmGwiabRD03riCz1aWr.jpg
+
+
+
+Episode: 10
+------------------------------------
+
+Episode Code : S02E10
+Episode Name : Into the Fire
+Air Date     : 2025-01-16
+Poster       : https://image.tmdb.org/t/p/original/coz4XyEQ59IbkJ3UYB9Nr8UW8ur.jpg
+
+
+
+Season: 03
+------------------------------------
+
+Season Name    : Season 3
+Season Number  : 3
+TOTAL EPISODES : 10
+
+
+Episode: 01
+------------------------------------
+
+Episode Code : S03E01
+Episode Name : Who Are You?
+Air Date     : 2026-07-02
+Poster       : https://image.tmdb.org/t/p/original/nIvrv95n7gukebcCEUeZJDy9iEp.jpg
+
+
+
+Episode: 02
+------------------------------------
+
+Episode Code : S03E02
+Episode Name : It's All Good
+Air Date     : 2026-07-09
+Poster       : https://image.tmdb.org/t/p/original/u4kB03bgyjnwDEIpBkpjqTvdcbz.jpg
+
+
+
+Episode: 03
+------------------------------------
+
+Episode Code : S03E03
+Episode Name : A Dark Web
+Air Date     : 2026-07-16
+Poster       : https://image.tmdb.org/t/p/original/rlfEJJlIAlFEcw6nNfYpyNUbTPR.jpg
+
+
+
+Episode: 04
+------------------------------------
+
+Episode Code : S03E04
+Episode Name : Whatever You Do, Don't Go Home
+Air Date     : 2026-07-23
+Poster       : https://image.tmdb.org/t/p/original/pYnJjrdS64krUWUAGB4ckZsqN1r.jpg
+
+
+
+Episode: 05
+------------------------------------
+
+Episode Code : S03E05
+Episode Name : Memory
+Air Date     : 2026-07-30
+Poster       : https://image.tmdb.org/t/p/original/zcbjuLkbVPHSphOHClKQM0v1Zjf.jpg
+
+
+
+Episode: 06
+------------------------------------
+
+Episode Code : S03E06
+Episode Name : The Drive
+Air Date     : 2026-08-06
+Poster       : https://image.tmdb.org/t/p/original/hCUVzq1FghJlS75KIG2Ttxua4AL.jpg
+
+
+
+Episode: 07
+------------------------------------
+
+Episode Code : S03E07
+Episode Name : Radio
+Air Date     : 2026-08-13
+Poster       : https://image.tmdb.org/t/p/original/hT47PUyS6fQrmukmbyXrL9nBgKc.jpg
+
+
+
+Episode: 08
+------------------------------------
+
+Episode Code : S03E08
+Episode Name : Gray Goo
+Air Date     : 2026-08-20
+Poster       : https://image.tmdb.org/t/p/original/qZiRIiFbjCSttNe3uNHsi6hoxWV.jpg
+
+
+
+Episode: 09
+------------------------------------
+
+Episode Code : S03E09
+Episode Name : Farewell
+Air Date     : 2026-08-27
+Poster       : https://image.tmdb.org/t/p/original/fl5tbMRYYQ6eWEuU5E5wN3qRXrK.jpg
+
+
+
+Episode: 10
+------------------------------------
+
+Episode Code : S03E10
+Episode Name : Troy
+Air Date     : 2026-09-03
+Poster       : https://image.tmdb.org/t/p/original/cWfqa602Kcka7zRaLMq9TRhLJkH.jpg
+
+
+
+Series: 04
+------------------------------------
+
+TOTAL SEASONS  : 4
+TOTAL EPISODES : 30
+
+ID          : tv:108978
+SERIES Name : Reacher
+Year        : 2022
+Poster      : https://image.tmdb.org/t/p/w342/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg
+
+
+Season: 01
+------------------------------------
+
+Season Name    : Season 1
+Season Number  : 1
+TOTAL EPISODES : 8
+
+
+Episode: 01
+------------------------------------
+
+Episode Code : S01E01
+Episode Name : Welcome to Margrave
+Air Date     : 2022-02-03
+Poster       : https://image.tmdb.org/t/p/original/15xLLZN3LLAdvoiHnYL5DcXlsYu.jpg
+
+SERVER-1: Ultra
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://media.vidrift.in/tv_108978/Season%201/S01E01/vod.m3u8
+
+
+SERVER-2: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://highincomecreators.site/L02HE60pQ/pl/H4sIAAAAAAAAAw3LXXuCIBgA0L8koit3Nwt0zY9AXyzuVCxUImc96dOv3879wdvLR7Ptug3qfOQ3gY9dBytv03WqvtT48imsHnMwL_nWvz.O8IXNFnCFTukhAZS9.N70Yvx.gxExjHKRcF9rQ3ecEq.NdJHHk8MEPcF4XVJMFrl7JpIwB2LtSWQGEHIqSOtzULioxKMhz7WIdJ_gESu4zsyE53wfTrXVhJ3YXO6CLIskE0a5LbBXHgW8GWTVUH6sY_5QSK6l_b8xcVL0NbNxNQnWuB2lp6g.cEPT6oYgjw.2G_RQuH5_tlOYuPyjwXriVPflKTxmkbBQTbgi90Uh8.hudFbuFjdIlZUQ09nwAUon.AOHDh4jQQEAAA--/master.m3u8
+
+
+Episode: 02
+------------------------------------
+
+Episode Code : S01E02
+Episode Name : First Dance
+Air Date     : 2022-02-03
+Poster       : https://image.tmdb.org/t/p/original/4nfnpqWMX8dHI1bYZcdxLEvy2c9.jpg
+
+SERVER-1: Ultra
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://media.vidrift.in/tv_108978/Season%201/S01E02/vod.m3u8
+
+
+Episode: 03
+------------------------------------
+
+Episode Code : S01E03
+Episode Name : Spoonful
+Air Date     : 2022-02-03
+Poster       : https://image.tmdb.org/t/p/original/6dgLq2bUlEBuXz5SPzr1Dn7UpML.jpg
+
+SERVER-1: Ultra
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://media.vidrift.in/tv_108978/Season%201/S01E03/vod.m3u8
+
+
+Episode: 04
+------------------------------------
+
+Episode Code : S01E04
+Episode Name : In a Tree
+Air Date     : 2022-02-03
+Poster       : https://image.tmdb.org/t/p/original/8AgfxcL0WxcDCiTtanrKG9vGyug.jpg
+
+SERVER-1: Ultra
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://media.vidrift.in/tv_108978/Season%201/S01E04/vod.m3u8
+
+
+Episode: 05
+------------------------------------
+
+Episode Code : S01E05
+Episode Name : No Apologies
+Air Date     : 2022-02-03
+Poster       : https://image.tmdb.org/t/p/original/yvSWomTB7uiVOov0iQXrlmek81l.jpg
+
+SERVER-1: Ultra
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://media.vidrift.in/tv_108978/Season%201/S01E05/vod.m3u8
+
+
+SERVER-2: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://solopreneurstrategyguide.site/Y2EGNiCj7/pl/H4sIAAAAAAAAAw3MW3KCMBQA0C3lAa30TwcCMgJNyAP4Izc6CAEZp62U1bdnASe40StEDt1uQfAe9v0bQgcMOAoAW4zC6KNs8k87P16ODRnMLtSp66pGqGIXFaAD6ag3Ap0DqxgtsnUFglcTH1Ex4_5q8K9NOZLJeRe.CLg_GZuJQqYtsVQYmB5hPZcMFta0Xl.uCTxrgpU0pe7Q46cgjpopomrJDXggmgyhSaOnJdumE8FVqscyySupj5uMGZcoHLopih3zo_HTC7zeC8p3rfBd6tMoVbIrJvIaCV7FGrcLOwsEFHx3sRP7bmeFxexWNekGJtE6fArrprz3CnBJvvgFBU..rP93sqlx6NyOoj9x1DMxQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8

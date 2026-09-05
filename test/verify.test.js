@@ -8,6 +8,7 @@ const path = require('node:path');
 const { buildCategoryModel } = require('../lib/model');
 const { writeCategoryOutputs } = require('../lib/output');
 const { verifyDataTree } = require('../lib/verify');
+const { seriesCompletenessErrors } = require('../verify-output');
 const messy = require('./fixtures/items');
 const plan = require('./fixtures/plan-example');
 
@@ -154,5 +155,12 @@ withTree((base) => {
 
 // A missing tree is reported, not thrown.
 assert.equal(verifyDataTree(path.join(os.tmpdir(), 'redflix-does-not-exist')).errors.length, 1);
+
+assert.equal(seriesCompletenessErrors([{
+  category: 'demo', type: 'series', document: { series: [{
+    id: 'tv:1', totalSeasons: 2, totalEpisodes: 3,
+    seasons: [{ seasonNumber: 1, totalEpisodes: 2, episodes: [{}] }],
+  }] },
+}]).length, 3);
 
 console.log('PASS: data tree verifier enforces servers, qualities, seasons and cross-format agreement');

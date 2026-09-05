@@ -53,12 +53,14 @@ assert.equal(series.seasons[1].seasonName, 'Season 1');
 // Episodes ascending within their own season; no cross-season leakage.
 assert.deepEqual(series.seasons[1].episodes.map((item) => item.episodeNumber), [1, 2, 3]);
 assert.deepEqual(series.seasons[1].episodes.map((item) => item.episodeCode), ['S01E01', 'S01E02', 'S01E03']);
-assert.deepEqual(series.seasons[2].episodes.map((item) => item.episodeCode), ['S02E01']);
+assert.deepEqual(series.seasons[2].episodes.map((item) => item.episodeCode), ['S02E01', 'S02E02']);
 assert.deepEqual(series.seasons[0].episodes.map((item) => item.episodeCode), ['S00E01']);
 
-// A failed episode drops itself only; season 2 and the series survive.
-assert.ok(model.dropped.some((item) => item.id === 'tv:108978:s02:e02'));
-assert.equal(series.seasons[2].episodes.length, 1);
+// A failed provider lookup keeps the aired episode metadata but publishes no
+// unverified server URL.
+assert.ok(!model.dropped.some((item) => item.id === 'tv:108978:s02:e02'));
+assert.equal(series.seasons[2].episodes.length, 2);
+assert.deepEqual(series.seasons[2].episodes[1].servers, []);
 
 // Season-level totals come from season metadata.
 assert.equal(series.seasons[1].totalEpisodes, 8);

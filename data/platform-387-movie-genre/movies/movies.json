@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "category": "Platform 387 movie: GENRE",
+    "totalMovies": 1,
+    "lastUpdated": "2026-09-05T06:58:25.861Z",
+    "purpose": "Strictly for educational purposes only and not for commercial use"
+  },
+  "movies": [
+    {
+      "serial": 1,
+      "id": "movie:1339713",
+      "title": "Obsession",
+      "year": 2026,
+      "poster": "https://image.tmdb.org/t/p/w342/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+      "servers": [
+        {
+          "name": "Ultra",
+          "qualities": [
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://media.vidrift.in/movie_1339713/vod.m3u8"
+            }
+          ]
+        },
+        {
+          "name": "PlayFast",
+          "qualities": [
+            {
+              "quality": "4K",
+              "resolution": "3840x2160",
+              "url": "https://hls.shegu.net/m3u8_proxy/video/39135465/video_4k_hdr.m3u8?KEY2=1788514590&KEY0=2&KEY7=febbox_video_quality_list_v4&KEY8=2311677&sign=x7k7BStEs-dn-hNVODW5pg"
+            },
+            {
+              "quality": "1080p",
+              "resolution": "1920x1080",
+              "url": "https://scalablecontentengine.site/8DZ5WpsK6/pl/H4sIAAAAAAAAAw3P0XqCIBgA0FcCjMpd9ikuS1zID.gdiM2vYbPlmvn06w3Owas19pEncdxiut3Em.25891qvT2jyFJH3jTUkULqo1gaYUNL9JWBVQ3VIAKQ_seSHsnnJGvMDzUWa2cC10n7V2h2F_ibglamlntSX9SRp2IlgBeAGZeMHeWgfl3mb1btSZVyapkXXCl9iloCz4mUJlQqy4O9jtK9.7vHfeKW5ua_ZiKvAUDWqEvnXTd8EjfMk9Qje2VQCV5XWZjsoA4vN7WLICcIT5nlEw8ikSyfIWsunfISkmBgmFIw.dCg8OB4d3MDPQhIkWNMcKDBabaURsyF2j0gZWOLxrKKeuMXFP8DY6VPx0EBAAA-/26fb49a349eded2679c5c62035131c94/index.m3u8"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

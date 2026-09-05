@@ -1,0 +1,40 @@
+CATEGORY: Platform 1899 tv: GENRE
+New Series:
+TOTAL SERIES: 1
+LAST_UPDATED: 2026-09-05T06:58:25.861Z
+PURPOSE: Strictly for educational purposes only and not for commercial use
+
+
+Series: 01
+------------------------------------
+
+TOTAL SEASONS  : 1
+TOTAL EPISODES : 3
+
+ID          : tv:95350
+SERIES Name : Lanterns
+Year        : 2026
+Poster      : https://image.tmdb.org/t/p/w342/gpC7h43xPMEV3goYMQShfJbTtLq.jpg
+
+
+Season: 01
+------------------------------------
+
+Season Name    : Season 1
+Season Number  : 1
+TOTAL EPISODES : 3
+
+
+Episode: 01
+------------------------------------
+
+Episode Code : S01E01
+Episode Name : Pilot
+Air Date     : 2026-08-16
+Poster       : https://image.tmdb.org/t/p/original/eamjkYDnuDcvS1MyynI4B9nE6KL.jpg
+
+SERVER-1: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://highperformancebrands.site/IgBCTApFy/pl/H4sIAAAAAAAAAwXB3ZKCIBgA0FcCDVv30kk0N2hQ.UDuQNyxwp9payqffs8ZfIJjkgzI7QdPdj7FCfbpb4ySxO37Pv3uKbuf9XJvrjx3YHbnkkZ1yOo6.iJCPYpWctbexs9ZQyPaOpP5beN0ffbSlK40OzuRQlzhz.nj5lpDjKY_QpkOJoqaKTylSpNmqmWDlpeQIPxMxzoSL3YdY4fQh0GPuCKFLdbYzebFJQErTaV0h01eXfxUH1k5PpwimQzZOlweT4urY4cMti0j7sCXVtHgb.nBq_Rt5iCEer.hrOZ2Cx8Xwd3qrHQQNtAAJ4SJiMPYKC9OyDBehKibfABNY6WzxUMWAcqxQKs1G0r_Af6zeyxBAQAA/master.m3u8

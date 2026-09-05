@@ -1,0 +1,222 @@
+CATEGORY: Platform 337 tv: GENRE
+New Series:
+TOTAL SERIES: 1
+LAST_UPDATED: 2026-09-05T06:58:25.861Z
+PURPOSE: Strictly for educational purposes only and not for commercial use
+
+
+Series: 01
+------------------------------------
+
+TOTAL SEASONS  : 2
+TOTAL EPISODES : 12
+
+ID          : tv:247168
+SERIES Name : Chad Powers
+Year        : 2025
+Poster      : https://image.tmdb.org/t/p/w342/wgMS8irQKfMrR6mJhKtK6vbxDTC.jpg
+
+
+Season: 01
+------------------------------------
+
+Season Name    : Season 1
+Season Number  : 1
+TOTAL EPISODES : 6
+
+
+Episode: 01
+------------------------------------
+
+Episode Code : S01E01
+Episode Name : 1ST QUARTER
+Air Date     : 2025-09-30
+Poster       : https://image.tmdb.org/t/p/original/yhEiHCU5uK2wotYJjkPSZ0jxruI.jpg
+
+SERVER-1: Ultra
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly9pbmVmZmFibGVpbnF1ZXN0LndlYnNpdGUvcGwvSDRzSUFBQUFBQUFBQXdYQjBWYURJQmdBNEZjQ2NadDJ6bTVjazdJakRnVlU3dEJfaGhPYnBiUGwwX2Q5VFdkUVp5QUFIX2FFWUJPRTVub0lPbTlQV2tMOEEzN1JXNzdJMHYzeUczdTlLcGh6d1ZmbElxcEZoR0RZSmEwOEkwT3RMWERVaV9KejVTbzVLU2Y5Zkp5OVVqQ3VDUHRqYUVMcEZfQ0NUbXN6YWxfY2JBWUl5eUtHYjRhZFM0bWRQNUNtUUpsWHlxa0daNWVVaGoyanowdEtsNVBlNG9ralBlY3F1b3ZOU2o2b1J5bmpSRlp4ejBmM0ZBNzJXWlZRNVpKRlNQdmVlRURUd1QxcUVubkd3UzUxY1ZaVWsyb0h6TTFiX1ZOdjhWMFhTOVo0WWMxTEhGMzQ4ZmdQaFE4WE13a0JBQUEtLzllNTIzYWUxNWI2MWRjNzY2ZjVjODE4NzI2ODgxZWNmL2luZGV4Lm0zdTg_dG9rZW49ZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SnBjM01pT2lKdGVTMWhkWFJvSWl3aWFXRjBJam94TnpnNE5EZzJOREV3TENKdVltWWlPakUzT0RnME9EWTBNVEFzSW1WNGNDSTZNVGM0T0RVd01EZ3hNQ3dpYVhCZlkybGtjaUk2SWpFNE5TNHlNVE11TVRVMUxqQXZNalFpZlEuMnZKQWV3cDV5czhYbU56SGFCNTY3X1FrQmJ2Q3M5dzRobW9oMWhZUmNWYw&s=vidsrc~Oh-oByVHlIZlwRbdt_sA_J_E50z&k=p
+
+
+SERVER-2: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://profitablelaunchsystem.site/M32Umneor/pl/H4sIAAAAAAAAAw3M23qCIAAA4FcCFJe7yxTNlaUCincc7CDYZ4ct59Nv_wP8sNcIeid_tToFAcDYB_KEPrAGMtQyUPqzG6qDbsjQxLkTIEy7mMtmKO5V.vI0jwJjQyrcNNTA3Xu3_qGIHCrIIb2GGXNkpC0ZlYXQNHjHb1u_a4tWD_lLJitYJ2JW47zRqBASFZB5EStSMh1SnChQHUt49mriEmrxL7PTltbhQ0HyYjBahC0o57xVbjrKjLgvNEcqdu8SXiRjEzHxGov_jSZ5SV3xTbPzmy_dYni1l40r1a177tD86Gl.UUMJzCa8sPGJ63H_oO48U8QFh8TbQ9OVLvJ55ioF7Ltaormn5MYsuZoFhH8cni1PQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8
+
+
+Episode: 02
+------------------------------------
+
+Episode Code : S01E02
+Episode Name : 2ND QUARTER
+Air Date     : 2025-09-30
+Poster       : https://image.tmdb.org/t/p/original/luQ25qUqg2FKUgFVjuI7SJGjY4y.jpg
+
+SERVER-1: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://smartincomeplaybook.site/K5juJdgGC/pl/H4sIAAAAAAAAAw3O3XqCIBgA4FtCDK2dzSkrlrhAPtQzhf6EXLYe8_Hqt_cK3qhbHbs4jqL2FJF1FJNTjMITWeOQhAivVm9fgc_arQ2Kj83LlGdi9CVolnNQl1RKzbDBTSJSX9qe7Q6DnVoQlUE1Efo5aZqMovdDE5iHTvlUbD0pSvaUHq4SbaZ8sSrvzaMDKusl0XnmiBk4aioPytnCLhwpfPmUWzvWN_hphvelVqSH0uEupfyYiWsB97scQMuMCusY.X_NFlhU3_jS9ULAIAoB0MrejwpxklfJjjuDOufxHrMdH2jbKRoeq0vfVMC1Z_MeN0.LZywcp5CtkQ3ZN.iZ1Ap.uxS4Uu5lgI2HEm3.APXXHb5BAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8
+
+
+Episode: 03
+------------------------------------
+
+Episode Code : S01E03
+Episode Name : 3RD QUARTER
+Air Date     : 2025-10-07
+Poster       : https://image.tmdb.org/t/p/original/lIvp4XJJCZzkYhCkgdek6Ixplsv.jpg
+
+SERVER-1: Ultra
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly9nb3NzYW1lcmdsb3Nzb2xhbGlhLnNwYWNlL3BsL0g0c0lBQUFBQUFBQUF4WEwwVzZESUJoQTRWY0MwVVdYOU1aR3NWcnBSUHVMM0Nsb3lIQ01waTd0ZlBwMWQuZmlPMG04Sk5NU2prUk5TNHlKVHBZd1ZGRTh2bUd0Q2NIaC4wUTFQZThTR2l5TkNyNkQ4MTZpMmlZQlI1SXd1MmE5R1BhMjROdHMyYWFGTEs5T2s0cmt0dzZ2dE92cTM3SGRhbFUwXzRaT3ViOHJrbGJjOHNmUWwwMkZVX042c2xjRE9PNUguMnhhbXZ5QU14dTNfblBLcEJfd0NZSHpYeGRoaENwTXgzZHBBSldYV2FTYm9vbGpOTW9sNUVmb24xc1ZsUGVLc0xIdVZqYlpOV0pRUG1aSW9SYjZwQndqYlBWSGh1UnRDUElyOUNZRHNGZ2hoRDZhdy5FUGJxRGI5UWtCQUFBLS85ZTUyM2FlMTViNjFkYzc2NmY1YzgxODcyNjg4MWVjZi9pbmRleC5tM3U4P3Rva2VuPWV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSklVekkxTmlKOS5leUpwYzNNaU9pSnRlUzFoZFhSb0lpd2lhV0YwSWpveE56ZzRORGczTVRNeUxDSnVZbVlpT2pFM09EZzBPRGN4TXpJc0ltVjRjQ0k2TVRjNE9EVXdNVFV6TWl3aWFYQmZZMmxrY2lJNklqRTROUzR5TVRNdU1UVTFMakF2TWpRaWZRLjczQi1hcEdiTGxfR2JkUUo3ckZHaV9qUXQ0T3pLckE4bGR2VGFiV0RscEE&s=vidsrc~Do14NCPaSvkDdWqQpUV9rR4ZUar&k=p
+
+
+Episode: 04
+------------------------------------
+
+Episode Code : S01E04
+Episode Name : 4TH QUARTER
+Air Date     : 2025-10-14
+Poster       : https://image.tmdb.org/t/p/original/3Gt6WqnmyFJFmU0c5HeZGga8enC.jpg
+
+SERVER-1: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://digitalnomadventures.site/uCYTtwbCY/pl/H4sIAAAAAAAAAxXNzXKCMBRA4Ve6BKiTLtXgT0ksMTcx2SWAMoiMMo4gT1.7PJvvVPEZCKkX9SL9KuPgI3pOqhoWwddlCIF.l2u59WjffqtdCdPBEzrnkVwqM7mDeWbHtsklNu.itVAa3YQ2u_q.a02vp6JziSPZIygbixVFw2hhsYz9bAdFqtmZZ6eVyBErLfrqJW4p92RPyk8hm1YOmw2Hy8RR3O2RFpIlA7ZyOPZ7ww3l6gap2cj0_63IOGjWWQHPpOgylhMem3ZJ.Cnb1KrqBYxjYM3Dtft1WGvloev5LE.iF8xqPiLQGeHj6h3BazRodERGF.Bk2gYYp5DJmyLiUbP7r5.XPx7YCxXQP6ey41VBAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8
+
+
+Episode: 05
+------------------------------------
+
+Episode Code : S01E05
+Episode Name : 5TH QUARTER
+Air Date     : 2025-10-21
+Poster       : https://image.tmdb.org/t/p/original/hg8bUFST2TTqFp8Iz6mmL5h6DGw.jpg
+
+SERVER-1: Ultra
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://scraper.vidbolt.xyz/proxy/m3u8?url=https%3A%2F%2Fhighincomecreators.site%2FGOsQFbDna%2Fpl%2FH4sIAAAAAAAAAw3HXXuCIBgA0L8Eon3ssgmWG6.V8DK5Q7CamnOtZ5m_fjt3hzZ0TVwcM7d0pzqOWCCn4ON4yU7Jom5WLwWCaQwlfhCy2MKbJiOUndiUWxiQYWx5SA.kmrWQrFa2BJ4nPrKuyTxRPX7p_rL_f1pwOzmC2ZHnrsaNLXlOK3VB016o7I6vQYkEZv4EM_2EWcSS33fv1BJ4rqJCnH8lHSsYuglT3Ks2MJ3lGkxvPE92Lrt_FployzZPD0NvQg_fKqsm4FPXDPkerzjXyjOMoHN8umIvRhvlECIxVgx5iR2RxmpPYVdofZN65D46Do4dZ_txJpJZLbebm.5BFhgWmsNDXh.RVmT9B0E_S9xBAQAA%2F9e523ae15b61dc766f5c818726881ecf%2Findex.m3u8&headers=%7B%7D
+
+
+Episode: 06
+------------------------------------
+
+Episode Code : S01E06
+Episode Name : 6TH QUARTER
+Air Date     : 2025-10-28
+Poster       : https://image.tmdb.org/t/p/original/ymn37pd1ZzRXcPdyqkrfifmukG2.jpg
+
+SERVER-1: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://remoteconsultinggroup.site/PhLyBsOA1/pl/H4sIAAAAAAAAAwXBXXeCIBgA4L8EuDyyS09oc_maH4BwF2BhknOrNevX73kIGdzmFJ0osXFMXUwtRslxM5gYDUkSo3eZNw_DwqSCWiHHQU_6WUewaxj.lizMVqSdvMDYdJAbXhzlxXsr6QS9k0Z4YQLbVMwpjpfaZFmpyO1p0McP5NobnJZudkjkOK6kmLrdOTJo9d3Wsa69vTU5fLmrLvY4rVxvHxUT0PL1IBAttEiLmt8LECET0ZkA8qNDbm6zYq_kJqt7S2C87y1ZKj3SMGxdpHCWVv3Cga.es0UJLOo2LL9idi8uEwLX5cn7tG5yStyrKeTs63KCTzVNkSU4uJ3_K69ohT4cWqJL_UL0HwpPInxBAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8
+
+
+Season: 02
+------------------------------------
+
+Season Name    : Season 2
+Season Number  : 2
+TOTAL EPISODES : 6
+
+
+Episode: 01
+------------------------------------
+
+Episode Code : S02E01
+Episode Name : 7th Quarter
+Air Date     : 2026-09-03
+Poster       : https://image.tmdb.org/t/p/original/dKlSsW3aHYdDREGzqhuMiYZKkqs.jpg
+
+SERVER-1: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://contentmonetizationlab.site/jOdQAm1rd/pl/H4sIAAAAAAAAAw3K3XqCIAAA0Ffix1buLlI0_cAkBOVOpL5Scs1aOZ9.O9fHhm3bhmgFWgDwGawtPn.4bgU2eN2eN2jzaSBBXQUHu3vepKRUjPexlFxaoH54YnrpRV4k7qYjNnf9HpXoOTFKAj0I0izbQNJuZaJqkRF9O7wNipTgRmezVNnEEjiZWkXHYXVwdfeW0lQiFYGlGZRQFToW38Xu.cu8mrQXX80wt847oaMGNIuvWEq8rM3ejlneju7y_0BFyavsKbM6wKfUEXULXrLODhbNDb.GROjHVKL7wmP.MNDMZiExT2B6pP5XjtWUw.6lsLvyVC2yusQsaoIc32HV8ysDHumEwyOl5NSrSylB.AfCOwulQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8
+
+
+Episode: 02
+------------------------------------
+
+Episode Code : S02E02
+Episode Name : 8th Quarter
+Air Date     : 2026-09-03
+Poster       : https://image.tmdb.org/t/p/original/r2HLJFbixiG6ssG3fUEinlQjn1H.jpg
+
+SERVER-1: Ultra
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://proxy.scrapeequalsgayporn.st/api/stream/proxy?u=aHR0cHM6Ly96ZW5pdGhvZnppcmNvbi5zcGFjZS9wbC9INHNJQUFBQUFBQUFBd1hCMjI2RElBQUEwRjlDUURlWDlNVW9WVFBwbEp2aERXU3BGYXF1ZFhidDEuOGNrTHhoakt6OVJzWTVPTVRBRGJIRkpva2NjdGltLktNcFVrNlBZOExua0J1MDRvR1RxWjBvNHVWSWpaZTd1NTZmanRTeG1TWDVSTldmTGx4UUJVQkdWVHREMlUyUmpDaFZsX1RWUGd6Sm1JRkJhSDlfZEp4V0RFYTV1V3pOSUNnNXNmdHVJdUpsVGdVRHRHN0s4OU1lMTVrWDI2X21WRXVQb2ViaTV2dzdzQ3JxV0pfcGs0cUNCS0UzcFp1VVdQWUI2YVdaeHg4dFVpNkkxcW9QV1BzQzhzS19HaEs0RnV0RmVwZTAxMjdsY0pzRjJKWldMdmlyUFJ6LkFlX2N5MW9KQVFBQS85ZTUyM2FlMTViNjFkYzc2NmY1YzgxODcyNjg4MWVjZi9pbmRleC5tM3U4P3Rva2VuPWV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSklVekkxTmlKOS5leUpwYzNNaU9pSnRlUzFoZFhSb0lpd2lhV0YwSWpveE56ZzRORGcwT1RBMExDSnVZbVlpT2pFM09EZzBPRFE1TURRc0ltVjRjQ0k2TVRjNE9EUTVPVE13TkN3aWFYQmZZMmxrY2lJNklqRTROUzR5TVRNdU1UVTFMakF2TWpRaWZRLmdqUnVoQjEydGs5dVZrZ0wxbHJTbjRtdmg0eUJPZkxicFotX2Zuam9LYzg&s=vidsrc~IxV4a7_Sgq5nRXL8StJXIfNuiJw&k=p
+
+
+SERVER-2: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://boldvisionstrategy.site/z5mWC0SpD/pl/H4sIAAAAAAAAAxXMy3KCMBQA0F_KQ6J0SRt8DbFeSALZxcQRIdBIHcW_r92d1Vmm1KZ2RTxLlgn1J4aJO58dcosVcQ6zj_NX1pS5ih49cROM0nV7PaHIQXNkhvR.HC.TGj2uan_To1vsEUxVLfbHLmwVFw9B40.xfk5S95Pi5gFUFILuQOqkeduKV6qOMm9LEpmjwEUVmN2YrFIRSWm2huMb5GYAmeP_F4bLq5Htp8X9LMcQHQ2FHML.kBttCNxLHb9Nnf36TQxAVlPRp3kz7jCsZ.7rtiuJ6v37slU4CIkZ8JmpGrKmv3euj8agnT3IpD11rdbDbP8AZrhhJSEBAAA-/9e523ae15b61dc766f5c818726881ecf/index.m3u8
+
+
+Episode: 03
+------------------------------------
+
+Episode Code : S02E03
+Episode Name : 9th Quarter
+Air Date     : 2026-09-03
+Poster       : https://image.tmdb.org/t/p/original/7YaGFkgxmYerPRSFRrtLqFkb26T.jpg
+
+SERVER-1: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://profitablelaunchsystem.site/yhqxaIjWt/pl/H4sIAAAAAAAAAw3Iy3KCMBQA0F_KA4p06Yg8lHQIuQncHRAp0wSHKlbq17dneeIu3u26gfCOx1HI6Gj78b8IH0ca2yh6Lw8.Q_DesvWhjLzjvCS9WxdwLW_nTdegtw7ENLgVtT7OHZ2eqrELvIpvcd075a2wTcI.0gXOFOvStAFoUQ5ukq1ZTn06Sc3s6cwTroi.SbMoSe7BcMVAZAOz6f15SfElTUGFX95aFlbWhLk0UyO0ONgrUshsCw3mpfKV4sXRujBE.KTKABHgHwDxVhFRC9A3ofNNH_Z1NR_TIV2n0hS3mtnqkuFv6XzewzOAL6xtEmPLPEUSdlLvZ0zDQHH8KZ149LOejE8ovkj8B4w5XdlBAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8
+
+
+Episode: 04
+------------------------------------
+
+Episode Code : S02E04
+Episode Name : 10th Quarter
+Air Date     : 2026-09-03
+Poster       : https://image.tmdb.org/t/p/original/a8I4NnKYY6vw9eMfK78jnzGdK0A.jpg
+
+
+
+Episode: 05
+------------------------------------
+
+Episode Code : S02E05
+Episode Name : 11th Quarter
+Air Date     : 2026-09-03
+Poster       : https://image.tmdb.org/t/p/original/eJ3zFRV3RnMMcHLmFLWzodVahYS.jpg
+
+SERVER-1: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://modernconsultinglab.site/giwCCAWDg/pl/H4sIAAAAAAAAAw3NwXKCMBRA0V8KQRC6K0NBaYECeS.GXUzASCJtLU7Fr6_7O.fqIKBRHCp_8LUfRNtxHLdER4O_iemo4uhFee1P4xVl5.OiZiw.qPDgLbsNE6wSlkLa5W_gnq13hvVU.4pZos5LgXmAgp4eCGZtZ3dFCG6QJqaakCGgFF5yqNN.RS.zpXslMk3CztmNvGimQRPm69_yEtxKYqCj_V7O7tnie88NPdI.kfxeC0Qi3Nejom1eTv1VQXCGx4nCGnnNtF9bNHZI3SdPT1f.dNs8IpBVnDEsGtJQlfdT9RYngDoUB9Mc10U0tDqLQ9J2cN9JlvA6K1KY0TwfYZe2FonuhC2.tXM1MBL_AwQl9ntBAQAA/9e523ae15b61dc766f5c818726881ecf/index.m3u8
+
+
+Episode: 06
+------------------------------------
+
+Episode Code : S02E06
+Episode Name : 12th Quarter
+Air Date     : 2026-09-03
+Poster       : https://image.tmdb.org/t/p/original/vXUG6i3S1xm8Pzky7lIZoPRjbRJ.jpg
+
+SERVER-1: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://highincomecreators.site/L02HE60pQ/pl/H4sIAAAAAAAAAwXB21KDMBAA0F9iw6Xim0qAMpBKSjZp3lK2FkkZ0Vph.HrPSXeR6wmIuZh9RNSnSeiSIGEuIYp2O_Z8UDDpCWpRxCvp340m.Wc5B6Hy7ZCJR80sKO0DnfGw3prVKliIi1KG5Prs1tpSZJeRlNXXHwmvbxTiXQbXhcyA52mtHF_C89iwjuWq91ChisAV2J3NXODb04ZoS6nx7jTdHIjHsauWVu3ji29iG85F40k7bh8dk6UyYhXwAg5tLEGs2sehMh6EGUrHPbRjPpMWpskFdgw13miPI99OplI9S99PjGTN1u04DtORD5vkMSc9S63XLwywOmCzaJN_C.ajy1R9tl2Q_gOhNWtlQQEAAA--/9e523ae15b61dc766f5c818726881ecf/index.m3u8

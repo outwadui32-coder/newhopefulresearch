@@ -1,0 +1,81 @@
+CATEGORY: Movies: Movies
+New Movies:
+TOTAL MOVIES: 4
+LAST_UPDATED: 2026-09-05T06:58:25.861Z
+PURPOSE: Strictly for educational purposes only and not for commercial use
+
+
+Movie: 01
+------------------------------------
+
+ID         : movie:860508
+MOVIE Name : The Whisper Man
+Year       : 2026
+Poster     : https://image.tmdb.org/t/p/w342/6UqflU8Qqkz7Dq4swJPqs0ZJjY4.jpg
+
+SERVER-1: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://startupscalingsystem.site/BtG0s01mM/pl/H4sIAAAAAAAAAw3N0W6CMBQA0F.iFBT3NhAoVWpW6C32jbaYRsAQ2FT4.vl.knPDe68LAo0tChEybRTg_S6KPNTZHWqj3ReQOJAinTuYcpn3L8Dlm_thpY.q0rl4XVIL100EHdBRoWxSPmKyWpAi7qz61wzjL2PpROXRshMq8LVxcXenXHl0LVN24g2QLiufqpmcGuLV1ry6SEhabAvrZaSV77Z8xAEb6NOkw_TZsNnUagbHNDDfZCrTIpq174oSQ3LegMiaOyDfcykPiRFhzRFd5Bi62kc9T.2dbayo.pBAQzeecySqyNeCroKY.ZIsWCPV__RW2IaNH7dcm_IpHpbYWv2Z9RCb3DqQXKrNO_wDi4kEq0EBAAA-/master.m3u8
+
+
+Movie: 02
+------------------------------------
+
+ID         : movie:969681
+MOVIE Name : Spider-Man: Brand New Day
+Year       : 2026
+Poster     : https://image.tmdb.org/t/p/w342/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg
+
+SERVER-1: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://futureproofmarketing.site/WxX94jG5M/pl/H4sIAAAAAAAAAwXB25KCIAAA0F8SNCf3kQloLHBFLgtvCDWW2jJll_Xr9xzvizyr.hLGM.w99D7bRpBvwLYEAZx9_yVM1UkISgaTsLe0NAavnUkvb.rFXActVk2MIomryTayLQKJSGHwsbOYWu26MHLRKzdYaV8d0bODMSkotFyHp7iO9xNddgKg1Ep0ZOPyLeim1BgIjsUtztX7kGXv0354MAz0EfBZEYJaSF4RE8pN_dR7cnArV_5nOvZUvxmJDzbW1M.pbHY1tXr4VfiTwqXCHAIbaUX6idSBgoKrDdVmsG5eEFsn6W7IBOpIVJ8UacxdJkTA7u7NsMq1bhpc_B1yZNvLkjFTla3Mqn.xKFpiQQEAAA--/0f9b738af906eb91d8f5b3fab14e78cc/index.m3u8
+
+
+Movie: 03
+------------------------------------
+
+ID         : movie:1368337
+MOVIE Name : The Odyssey
+Year       : 2026
+Poster     : https://image.tmdb.org/t/p/w342/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg
+
+SERVER-1: Ultra
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://media.vidrift.in/movie_1368337/vod.m3u8
+
+SERVER-2: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://scalablecontentengine.site/WnVM9YFN1/pl/H4sIAAAAAAAAAwXB2XKDIBQA0F8Clyx9i6NAtGBEAeUNvcmYaNJM49Tl63vOsdu5wNvvb67tIAgP4NwRHELogPHN38GXYnbVph_kS4ecnfzc2LSMx0hiEoB_npvnNLSVCoySO.W9kXmdA0fEUjyilyU_W.aJd2tgbZ4h40iw65BsrSH0amCRWH9kFbE8JhqopDKxRecdnfUJLZG4aCVSoMs7jzXraLoVVTcD1plI7EP4_cXGJ5TXEJa0wbwaFknDjBsyWd3MvE6_wdhP6c2Ys7GuGBhRR3M59ktepbxk8l6o7ldt4q9VfZFhaTSdpMZR4ka95jHEGR4v_9K8v4QhAQAA/master.m3u8
+
+
+Movie: 04
+------------------------------------
+
+ID         : movie:1339713
+MOVIE Name : Obsession
+Year       : 2026
+Poster     : https://image.tmdb.org/t/p/w342/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg
+
+SERVER-1: Ultra
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://media.vidrift.in/movie_1339713/vod.m3u8
+
+SERVER-2: PlayFast
+
+Quality       : 4K
+Resolution-1  : 3840x2160
+URL           : https://hls.shegu.net/m3u8_proxy/video/39135465/video_4k_hdr.m3u8?KEY2=1788514590&KEY0=2&KEY7=febbox_video_quality_list_v4&KEY8=2311677&sign=x7k7BStEs-dn-hNVODW5pg
+
+Quality       : 1080p
+Resolution-2  : 1920x1080
+URL           : https://scalablecontentengine.site/8DZ5WpsK6/pl/H4sIAAAAAAAAAw3P0XqCIBgA0FcCjMpd9ikuS1zID.gdiM2vYbPlmvn06w3Owas19pEncdxiut3Em.25891qvT2jyFJH3jTUkULqo1gaYUNL9JWBVQ3VIAKQ_seSHsnnJGvMDzUWa2cC10n7V2h2F_ibglamlntSX9SRp2IlgBeAGZeMHeWgfl3mb1btSZVyapkXXCl9iloCz4mUJlQqy4O9jtK9.7vHfeKW5ua_ZiKvAUDWqEvnXTd8EjfMk9Qje2VQCV5XWZjsoA4vN7WLICcIT5nlEw8ikSyfIWsunfISkmBgmFIw.dCg8OB4d3MDPQhIkWNMcKDBabaURsyF2j0gZWOLxrKKeuMXFP8DY6VPx0EBAAA-/26fb49a349eded2679c5c62035131c94/index.m3u8

@@ -155,9 +155,10 @@ check('season/episode grouping is correct and Specials stay separate', () => {
   assert.deepEqual(series.seasons.map((season) => season.seasonNumber), [0, 1, 2]);
   assert.equal(series.seasons[0].seasonName, 'Specials');
   const codes = series.seasons.flatMap((season) => season.episodes.map((episode) => episode.episodeCode));
-  assert.deepEqual(codes, ['S00E01', 'S01E01', 'S01E02', 'S01E03', 'S02E01']);
+  assert.deepEqual(codes, ['S00E01', 'S01E01', 'S01E02', 'S01E03', 'S02E01', 'S02E02']);
   assert.equal(new Set(codes).size, codes.length, 'an episode appears under two seasons');
-  // Series metadata survives even though one episode had no playable stream.
+  // Series metadata and the unavailable episode both survive without an
+  // invented stream URL.
   assert.equal(series.totalSeasons, 3);
   assert.equal(series.totalEpisodes, 20);
 });

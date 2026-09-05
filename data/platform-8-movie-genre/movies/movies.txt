@@ -1,0 +1,20 @@
+CATEGORY: Platform 8 movie: GENRE
+New Movies:
+TOTAL MOVIES: 1
+LAST_UPDATED: 2026-09-05T06:58:25.861Z
+PURPOSE: Strictly for educational purposes only and not for commercial use
+
+
+Movie: 01
+------------------------------------
+
+ID         : movie:860508
+MOVIE Name : The Whisper Man
+Year       : 2026
+Poster     : https://image.tmdb.org/t/p/w342/6UqflU8Qqkz7Dq4swJPqs0ZJjY4.jpg
+
+SERVER-1: PlayFast
+
+Quality       : 1080p
+Resolution-1  : 1920x1080
+URL           : https://startupscalingsystem.site/BtG0s01mM/pl/H4sIAAAAAAAAAw3N0W6CMBQA0F.iFBT3NhAoVWpW6C32jbaYRsAQ2FT4.vl.knPDe68LAo0tChEybRTg_S6KPNTZHWqj3ReQOJAinTuYcpn3L8Dlm_thpY.q0rl4XVIL100EHdBRoWxSPmKyWpAi7qz61wzjL2PpROXRshMq8LVxcXenXHl0LVN24g2QLiufqpmcGuLV1ry6SEhabAvrZaSV77Z8xAEb6NOkw_TZsNnUagbHNDDfZCrTIpq174oSQ3LegMiaOyDfcykPiRFhzRFd5Bi62kc9T.2dbayo.pBAQzeecySqyNeCroKY.ZIsWCPV__RW2IaNH7dcm_IpHpbYWv2Z9RCb3DqQXKrNO_wDi4kEq0EBAAA-/master.m3u8

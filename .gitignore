@@ -1,6 +1,9 @@
 node_modules/
 .scanner.lock
 output/state/.scanner.lock
+output/state/.diagnostic-*.json
+.data-staging-*/
+.data-previous-*/
 stream-results.json
 catalog-stream-results.json
 *.worker-*.json

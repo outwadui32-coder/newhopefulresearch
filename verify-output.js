@@ -1,130 +1,114 @@
 'use strict';
 
-const fs = require('fs');
-const path = require('path');
+const fs = require('node:fs');
+const path = require('node:path');
+const { verifyDataTree, CANONICAL_SERVERS, QUALITY_ORDER } = require('./lib');
 
-const OUTPUT_ROOT = path.resolve('output');
-const CATEGORY_ROOT = path.join(OUTPUT_ROOT, 'categories');
-const REQUIRED_SERVERS = ['Alpha', 'Premium', 'Orion', 'Ultra', 'PlayFast'];
-const FORBIDDEN_OUTPUT_KEYS = new Set(['kind', 'headers', 'tmdbScore', 'score']);
+const DATA_ROOT = path.resolve('data');
+const CHECKPOINT = path.resolve('output', 'state', 'scan-checkpoint.json');
 
-function fail(message) {
-  throw new Error(message);
-}
+function fail(message) { throw new Error(message); }
 
-function walkKeys(value, location = 'root') {
-  if (!value || typeof value !== 'object') return;
-  if (Array.isArray(value)) {
-    value.forEach((item, index) => walkKeys(item, `${location}[${index}]`));
-    return;
-  }
-  for (const [key, nested] of Object.entries(value)) {
-    if (FORBIDDEN_OUTPUT_KEYS.has(key)) fail(`Forbidden key ${key} at ${location}`);
-    if (key === 'type' && String(nested).toLowerCase() === 'hls') fail(`Forbidden HLS type at ${location}`);
-    walkKeys(nested, `${location}.${key}`);
-  }
-}
-
-function categoryFiles() {
-  if (!fs.existsSync(CATEGORY_ROOT)) fail('output/categories does not exist');
-  return fs.readdirSync(CATEGORY_ROOT, { withFileTypes: true })
-    .filter((entry) => entry.isDirectory())
-    .map((entry) => ({
-      folder: entry.name,
-      json: path.join(CATEGORY_ROOT, entry.name, 'category.json'),
-      txt: path.join(CATEGORY_ROOT, entry.name, 'streams.txt'),
-      m3u: path.join(CATEGORY_ROOT, entry.name, 'playlist.m3u'),
-    }))
-    .filter((entry) => fs.existsSync(entry.json));
-}
-
-function flattenLinks(movies) {
-  return movies.flatMap((movie) => (movie.servers || []).flatMap((server) =>
-    (server.links || []).map((link) => ({ movie, server: server.server, ...link }))));
-}
-
-function flattenSeriesEpisodes(series) {
-  return series.flatMap((item) => (item.seasons || []).flatMap((season) => season.episodes || []));
-}
-
-function verifyCategory(entry) {
-  const data = JSON.parse(fs.readFileSync(entry.json, 'utf8'));
-  const metadata = data.metadata || {};
-  const movies = Array.isArray(data.movies) ? data.movies : [];
-  const series = Array.isArray(data.series) ? data.series : [];
-  const episodes = flattenSeriesEpisodes(series);
-  const records = [...movies, ...episodes];
-  const links = flattenLinks(records);
-  const successful = records.filter((record) => record.success && flattenLinks([record]).length > 0);
-  const uniqueUrls = new Set(links.map((link) => link.url));
-
-  if (!fs.existsSync(entry.txt) || !fs.existsSync(entry.m3u)) fail(`${entry.folder}: TXT/M3U missing`);
-  if (!metadata.category) fail(`${entry.folder}: category missing`);
-  if (Object.prototype.hasOwnProperty.call(metadata, 'purpose')) fail(`${entry.folder}: purpose field must not be present`);
-  if (metadata.totalMovies !== movies.length) fail(`${entry.folder}: totalMovies mismatch`);
-  const playableMovies = successful.filter((movie) => movie.contentType === 'movie').length;
-  const newlyAddedMovies = Number(metadata.successfulNewAdded || 0);
-  if (!Number.isInteger(newlyAddedMovies) || newlyAddedMovies < 0 || newlyAddedMovies > playableMovies) {
-    fail(`${entry.folder}: successful new-added movie count is impossible`);
-  }
-  if (metadata.streamLinks !== links.length) fail(`${entry.folder}: streamLinks mismatch`);
-  if (metadata.uniqueStreamUrls !== uniqueUrls.size) fail(`${entry.folder}: uniqueStreamUrls mismatch`);
-
-  successful.forEach((record, index) => {
-    const expected = record.contentType === 'episode' ? 'Episode-' : record.contentType === 'series' ? 'Series-' : 'Movie-';
-    if (!String(record.serial || '').startsWith(expected)) fail(`${entry.folder}: invalid serial for ${record.title}`);
-    if (!record.title || !record.year) fail(`${entry.folder}: title/year missing for successful item ${index + 1}`);
-    if (!/^https?:\/\//.test(record.poster || '')) fail(`${entry.folder}: poster missing for successful item ${index + 1}`);
-  });
-
-  for (const link of links) {
-    if (!['Alpha', 'Premium', 'Orion', 'Ultra', 'PlayFast'].includes(link.server)) {
-      fail(`${entry.folder}: unsupported server ${link.server}`);
+function publishedDocuments(root = DATA_ROOT) {
+  const documents = [];
+  if (!fs.existsSync(root)) return documents;
+  for (const category of fs.readdirSync(root, { withFileTypes: true }).filter((entry) => entry.isDirectory())) {
+    for (const [type, file] of [['movies', 'movies.json'], ['series', 'series.json']]) {
+      const target = path.join(root, category.name, type, file);
+      if (fs.existsSync(target)) documents.push({ category: category.name, type, target,
+        document: JSON.parse(fs.readFileSync(target, 'utf8')) });
     }
-    const match = /^(\d+)x(\d+)$/.exec(String(link.resolution || ''));
-    if (!match || (Number(match[1]) < 1920 && Number(match[2]) < 1080)) {
-      fail(`${entry.folder}: resolution below 1080-class: ${link.resolution}`);
+  }
+  return documents;
+}
+
+function outputStats(documents) {
+  const stats = {
+    outputMovies: 0, outputSeries: 0, outputSeasons: 0, outputEpisodes: 0,
+    perServer: Object.fromEntries(CANONICAL_SERVERS.map((server) => [server, 0])),
+    perQuality: Object.fromEntries(QUALITY_ORDER.map((quality) => [quality, 0])),
+    urls: [],
+  };
+  const countServers = (servers) => {
+    for (const server of servers || []) {
+      for (const quality of server.qualities || []) {
+        stats.perServer[server.name] += 1;
+        stats.perQuality[quality.quality] += 1;
+        stats.urls.push(quality.url);
+      }
     }
-    if (!/^https?:\/\//.test(link.url || '')) fail(`${entry.folder}: invalid direct URL`);
+  };
+  for (const { type, document } of documents) {
+    if (type === 'movies') {
+      stats.outputMovies += document.movies.length;
+      document.movies.forEach((movie) => countServers(movie.servers));
+    } else {
+      stats.outputSeries += document.series.length;
+      for (const series of document.series) {
+        stats.outputSeasons += series.seasons.length;
+        for (const season of series.seasons) {
+          stats.outputEpisodes += season.episodes.length;
+          season.episodes.forEach((episode) => countServers(episode.servers));
+        }
+      }
+    }
   }
+  stats.uniqueUrls = new Set(stats.urls).size;
+  stats.streams = stats.urls.length;
+  delete stats.urls;
+  return stats;
+}
 
-  walkKeys(data, entry.folder);
-
-  const txt = fs.readFileSync(entry.txt, 'utf8');
-  const m3u = fs.readFileSync(entry.m3u, 'utf8');
-  for (const token of [
-    `CATEGORY: ${metadata.category}`,
-    `TOTAL MOVIES: ${metadata.totalMovies}`,
-    `SUCCESSFUL NEW ADDED: ${metadata.successfulNewAdded}`,
-    `STREAM_LINKS: ${metadata.streamLinks}`,
-    `UNIQUE_STREAM_URLS: ${metadata.uniqueStreamUrls}`,
-  ]) {
-    if (!txt.includes(token)) fail(`${entry.folder}: TXT header missing ${token}`);
-    if (!m3u.includes(token)) fail(`${entry.folder}: M3U header missing ${token}`);
+function seriesCompletenessErrors(documents) {
+  const errors = [];
+  for (const { category, type, document } of documents) {
+    if (type !== 'series') continue;
+    for (const series of document.series) {
+      const seasons = series.seasons || [];
+      const episodes = seasons.reduce((total, season) => total + (season.episodes || []).length, 0);
+      if (series.totalSeasons !== seasons.length) {
+        errors.push(`${category}/${series.id}: ${seasons.length}/${series.totalSeasons} aired seasons present`);
+      }
+      if (series.totalEpisodes !== episodes) {
+        errors.push(`${category}/${series.id}: ${episodes}/${series.totalEpisodes} aired episodes present`);
+      }
+      for (const season of seasons) {
+        if (season.totalEpisodes !== (season.episodes || []).length) {
+          errors.push(`${category}/${series.id}/season-${season.seasonNumber}: ` +
+            `${(season.episodes || []).length}/${season.totalEpisodes} aired episodes present`);
+        }
+      }
+    }
   }
-  if (/^#?\s*PURPOSE:/mi.test(`${txt}\n${m3u}`)) fail(`${entry.folder}: purpose line must not be present`);
-  if (/Type:\s*hls|Headers:|TMDB\s*Score/i.test(`${txt}\n${m3u}`)) fail(`${entry.folder}: forbidden display field`);
-
-  return { entry, metadata, movies, series, episodes, records, links };
+  return errors;
 }
 
 async function probe(url) {
   let lastError = null;
   for (let attempt = 1; attempt <= 3; attempt += 1) {
     try {
-      const response = await fetch(url, { signal: AbortSignal.timeout(30000), redirect: 'follow' });
+      const response = await fetch(url, {
+        headers: { range: 'bytes=0-65535', accept: '*/*' },
+        signal: AbortSignal.timeout(30000), redirect: 'follow',
+      });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      const body = await response.text();
-      if (!body.includes('#EXTM3U') && !/<MPD\b/i.test(body)) {
-        throw new Error('response is not an HLS or DASH manifest');
+      const contentType = response.headers.get('content-type') || '';
+      const reader = response.body?.getReader();
+      let body = Buffer.alloc(0);
+      while (reader && body.length < 128 * 1024) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        if (value) body = Buffer.concat([body, Buffer.from(value)]);
+      }
+      await reader?.cancel().catch(() => {});
+      const prefix = body.toString('utf8');
+      if (!prefix.includes('#EXTM3U') && !/<MPD\b/i.test(prefix) && !/^video\//i.test(contentType)) {
+        throw new Error(`not a playable manifest/video (${contentType || 'unknown type'})`);
       }
       return;
     } catch (error) {
       lastError = error;
-      if (attempt < 3) {
-        process.stdout.write(`[LIVE RETRY ${attempt}/3] ${url}\n`);
-        await new Promise((resolve) => setTimeout(resolve, 1000 * attempt));
-      }
+      if (attempt < 3) await new Promise((resolve) => setTimeout(resolve, 1000 * attempt));
     }
   }
   fail(`Direct URL failed after 3 attempts (${lastError?.message || 'unknown error'}): ${url}`);
@@ -132,53 +116,73 @@ async function probe(url) {
 
 async function runPool(items, concurrency, worker) {
   let cursor = 0;
-  const runners = Array.from({ length: Math.min(concurrency, items.length) }, async () => {
+  await Promise.all(Array.from({ length: Math.min(concurrency, Math.max(items.length, 1)) }, async () => {
     while (cursor < items.length) {
       const index = cursor++;
       await worker(items[index], index);
     }
-  });
-  await Promise.all(runners);
+  }));
 }
 
-async function main() {
-  const verified = categoryFiles().map(verifyCategory);
-
-  const checkpointPath = path.join(OUTPUT_ROOT, 'state', 'scan-checkpoint.json');
-  const checkpoint = JSON.parse(fs.readFileSync(checkpointPath, 'utf8'));
+async function main({ live = true } = {}) {
+  const report = verifyDataTree(DATA_ROOT);
+  if (report.errors.length > 0) fail(report.errors.join('\n'));
+  const documents = publishedDocuments();
+  const stats = outputStats(documents);
+  const completenessErrors = seriesCompletenessErrors(documents);
+  if (completenessErrors.length > 0) fail(completenessErrors.join('\n'));
+  const checkpoint = JSON.parse(fs.readFileSync(CHECKPOINT, 'utf8'));
   const selectedCategory = checkpoint.scheduler?.lastCategory;
-  const selected = verified.find((item) => item.metadata.category === selectedCategory);
-  if (!selected) fail(`Selected category output is missing: ${selectedCategory || 'unknown'}`);
-
-  const latestBatch = checkpoint.scheduler?.lastBatchByCategory?.[selectedCategory] || {};
-  const successfulItemUrls = new Set(latestBatch.successfulItemUrls || []);
-  const latestRecords = selected.records.filter((record) => successfulItemUrls.has(record.sourceUrl));
-  if (successfulItemUrls.size && latestRecords.length !== successfulItemUrls.size) {
-    fail(`Latest successful item count mismatch: expected ${successfulItemUrls.size}, found ${latestRecords.length}`);
+  const latest = checkpoint.scheduler?.lastBatchByCategory?.[selectedCategory] || {};
+  const successful = new Set(latest.successfulItemUrls || []);
+  const latestResults = (checkpoint.results || []).filter((item) => successful.has(item.url));
+  if (successful.size !== latestResults.length) {
+    fail(`Latest successful item count mismatch: expected ${successful.size}, found ${latestResults.length}`);
   }
-  for (const sourceUrl of successfulItemUrls) {
-    const result = (checkpoint.results || []).find((item) => item.url === sourceUrl);
-    const attempts = new Set((result?.scan?.diagnostics?.serverAttempts || []).map((item) => item.server));
-    const missing = REQUIRED_SERVERS.filter((server) => !attempts.has(server));
-    if (missing.length) fail(`${result?.title || sourceUrl}: servers not attempted: ${missing.join(', ')}`);
+  for (const item of latestResults) {
+    const attempts = new Set((item.scan?.diagnostics?.serverAttempts || []).map((entry) => entry.server));
+    const missing = CANONICAL_SERVERS.filter((server) => !attempts.has(server));
+    if (missing.length > 0) fail(`${item.title}: servers not attempted: ${missing.join(', ')}`);
   }
-  const uniqueSelectedUrls = [...new Set(flattenLinks(latestRecords).map((link) => link.url))];
-  await runPool(uniqueSelectedUrls, 8, async (url, index) => {
+  const latestUrls = [...new Set(latestResults.flatMap((item) => (item.scan?.finalStreams || [])
+    .filter((stream) => stream.probe?.ok && stream.probe?.directPlaybackNoHeaders)
+    .map((stream) => stream.url)))];
+  if (live) await runPool(latestUrls, 8, async (url, index) => {
     await probe(url);
-    process.stdout.write(`[LIVE ${index + 1}/${uniqueSelectedUrls.length}] OK\n`);
+    process.stdout.write(`[LIVE ${index + 1}/${latestUrls.length}] OK\n`);
   });
-
-  console.log(JSON.stringify({
-    category: selected.metadata.category,
-    totalMovies: selected.metadata.totalMovies,
-    successfulNewAdded: selected.metadata.successfulNewAdded,
-    streams: selected.links.length,
-    uniqueUrls: uniqueSelectedUrls.length,
-    liveNoHeaderHlsVerified: uniqueSelectedUrls.length,
-  }, null, 2));
+  const result = {
+    categories: report.categories,
+    discoveredMovies: checkpoint.summary?.discoveredMovies || 0,
+    processedMovies: checkpoint.summary?.processedMovies || 0,
+    outputMovies: stats.outputMovies,
+    discoveredSeries: checkpoint.summary?.discoveredSeries || 0,
+    processedSeries: checkpoint.summary?.processedSeries || 0,
+    outputSeries: stats.outputSeries,
+    discoveredSeasons: new Set((checkpoint.catalog || [])
+      .filter((item) => item.seriesId && Number.isInteger(item.seasonNumber))
+      .map((item) => `${item.seriesId}:${item.seasonNumber}`)).size,
+    processedSeasons: new Set((checkpoint.results || [])
+      .filter((item) => !item.excludedFromOutputs && item.seriesId && Number.isInteger(item.seasonNumber))
+      .map((item) => `${item.seriesId}:${item.seasonNumber}`)).size,
+    discoveredEpisodes: checkpoint.summary?.discoveredEpisodes || 0,
+    processedEpisodes: checkpoint.summary?.processedEpisodes || 0,
+    outputSeasons: stats.outputSeasons,
+    outputEpisodes: stats.outputEpisodes,
+    latestBatchItems: (latest.itemUrls || []).length,
+    latestBatchSuccessful: successful.size,
+    latestBatchFailed: Math.max(0, (latest.itemUrls || []).length - successful.size),
+    streams: stats.streams, uniqueUrls: stats.uniqueUrls,
+    perServer: stats.perServer, perQuality: stats.perQuality,
+    liveVerified: live ? latestUrls.length : 0,
+  };
+  console.log(JSON.stringify(result, null, 2));
+  return result;
 }
 
-main().catch((error) => {
+if (require.main === module) main().catch((error) => {
   console.error(`[OUTPUT VERIFICATION FAILED] ${error.message}`);
   process.exitCode = 1;
 });
+
+module.exports = { publishedDocuments, outputStats, seriesCompletenessErrors, probe, main };

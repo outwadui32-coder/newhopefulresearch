@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "category": "Platform 1899 tv: GENRE",
+    "totalSeries": 1,
+    "lastUpdated": "2026-09-05T06:58:25.861Z",
+    "purpose": "Strictly for educational purposes only and not for commercial use"
+  },
+  "series": [
+    {
+      "serial": 1,
+      "id": "tv:95350",
+      "title": "Lanterns",
+      "year": 2026,
+      "poster": "https://image.tmdb.org/t/p/w342/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
+      "totalSeasons": 1,
+      "totalEpisodes": 3,
+      "seasons": [
+        {
+          "seasonNumber": 1,
+          "seasonName": "Season 1",
+          "totalEpisodes": 3,
+          "episodes": [
+            {
+              "episodeNumber": 1,
+              "episodeCode": "S01E01",
+              "episodeName": "Pilot",
+              "airDate": "2026-08-16",
+              "poster": "https://image.tmdb.org/t/p/original/eamjkYDnuDcvS1MyynI4B9nE6KL.jpg",
+              "servers": [
+                {
+                  "name": "PlayFast",
+                  "qualities": [
+                    {
+                      "quality": "1080p",
+                      "resolution": "1920x1080",
+                      "url": "https://highperformancebrands.site/IgBCTApFy/pl/H4sIAAAAAAAAAwXB3ZKCIBgA0FcCDVv30kk0N2hQ.UDuQNyxwp9payqffs8ZfIJjkgzI7QdPdj7FCfbpb4ySxO37Pv3uKbuf9XJvrjx3YHbnkkZ1yOo6.iJCPYpWctbexs9ZQyPaOpP5beN0ffbSlK40OzuRQlzhz.nj5lpDjKY_QpkOJoqaKTylSpNmqmWDlpeQIPxMxzoSL3YdY4fQh0GPuCKFLdbYzebFJQErTaV0h01eXfxUH1k5PpwimQzZOlweT4urY4cMti0j7sCXVtHgb.nBq_Rt5iCEer.hrOZ2Cx8Xwd3qrHQQNtAAJ4SJiMPYKC9OyDBehKibfABNY6WzxUMWAcqxQKs1G0r_Af6zeyxBAQAA/master.m3u8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

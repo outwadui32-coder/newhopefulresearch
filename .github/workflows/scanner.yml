@@ -51,6 +51,9 @@ jobs:
       - name: Install scanner dependencies
         run: npm ci
 
+      - name: Ensure media resolution probe is available
+        run: command -v ffprobe >/dev/null || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+
       - name: Validate scanner contract
         run: npm test
 
@@ -79,7 +82,7 @@ jobs:
           fi
           xvfb-run -a node site-scanner.js "${args[@]}"
 
-      - name: Validate JSON, TXT, M3U and live direct streams
+      - name: Validate normalized JSON, TXT, M3U and live direct streams
         run: node verify-output.js
 
       - name: Upload real-run diagnostics on failure
@@ -87,15 +90,17 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: redflix-scan-diagnostics-${{ github.run_id }}
-          path: output/
+          path: |
+            output/
+            data/
           if-no-files-found: warn
           retention-days: 7
 
-      - name: Publish cumulative outputs and rotation state
+      - name: Publish verified normalized data and rotation state
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/
+          git add data/ output/state/ output/history/
           if git diff --cached --quiet; then
             echo "No output changes to publish"
           else

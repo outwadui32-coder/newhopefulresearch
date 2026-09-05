@@ -3,13 +3,21 @@ const path = require('node:path');
 const { spawn } = require('node:child_process');
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
+const {
+  CANONICAL_SERVERS,
+  normalizeQuality,
+  dedupeStreamEntries,
+  buildCategoryModel,
+  writeCategoryOutputs: writeNormalizedCategoryOutputs,
+  verifyDataTree,
+} = require('./lib');
 
 puppeteer.use(StealthPlugin());
 
-const OUTPUT_JSON = 'catalog-stream-results.json';
 const DEFAULT_SOURCE_URL = 'https://redflix.co/';
-const PREFERRED_SERVERS = ['Alpha', 'Premium', 'Orion', 'Ultra', 'PlayFast'];
+const PREFERRED_SERVERS = CANONICAL_SERVERS;
 const STREAM_MAX_AGE_MS = 4 * 60 * 60 * 1000;
+const OUTPUT_PURPOSE = 'Strictly for educational purposes only and not for commercial use';
 
 function parseArgs(argv) {
   const options = {
@@ -241,6 +249,7 @@ function runTitleScanner(title, options, resultPath) {
     const args = [
       path.join(__dirname, 'collector.js'),
       '--url', title.url,
+      '--headless',
       '--timeout', String(options.titleTimeout),
       '--output', resultPath,
       '--server-workers', String(options.serverWorkers),
@@ -306,21 +315,8 @@ async function runWorkerPool(items, workerCount, handler) {
   ));
 }
 
-function inferQuality(url, kind) {
-  let decodedUrl = url || '';
-  try { decodedUrl = decodeURIComponent(decodedUrl); } catch (_) {}
-  const height = decodedUrl.match(/(?:^|[/_.=-])(2160|1440|1080|720|576|540|480|360|240)(?:p|[/_.?&=-]|$)/i)?.[1];
-  if (height) return `${height}p`;
-  if (kind === 'hls') return 'adaptive/single playlist';
-  if (kind === 'dash') return 'adaptive DASH';
-  return 'direct video (source quality)';
-}
-
 function is1080ClassResolution(value) {
-  const dimensions = String(value || '').match(/^(\d+)x(\d+)$/i);
-  if (dimensions) return Number(dimensions[1]) >= 1920 || Number(dimensions[2]) >= 1080;
-  const progressive = String(value || '').match(/^(\d+)p$/i);
-  return Boolean(progressive && Number(progressive[1]) >= 1080);
+  return Boolean(normalizeQuality(value));
 }
 
 function isFreshScan(scan) {
@@ -329,12 +325,16 @@ function isFreshScan(scan) {
 }
 
 function isPublishableStream(stream) {
+  const normalized = normalizeQuality(
+    stream.probe?.standardResolution || stream.probe?.resolution || stream.quality || stream.resolution
+  );
   return Boolean(
     PREFERRED_SERVERS.some((server) => server.toLowerCase() === String(stream.server || '').toLowerCase()) &&
     stream.probe?.ok &&
     stream.probe?.directPlaybackNoHeaders &&
-    is1080ClassResolution(stream.probe?.resolution) &&
-    !isMediaFragment(stream.url)
+    normalized &&
+    !isMediaFragment(stream.url) &&
+    !isExplicitLowQualityUrl(stream.url)
   );
 }
 
@@ -457,6 +457,12 @@ function isMediaFragment(url) {
     /(?:^|[/=&])(page|segment|chunk)[-_]?\d+\.html(?:$|[?&#])/i.test(decodedUrl);
 }
 
+function isExplicitLowQualityUrl(url) {
+  let decodedUrl = String(url || '');
+  try { decodedUrl = decodeURIComponent(decodedUrl); } catch (_) {}
+  return /(?:^|[/_.=-])(240|360|480|540|576|720)(?:p|[/_.?&=-]|$)/i.test(decodedUrl);
+}
+
 function sanitizeScan(scan) {
   if (!scan || !Array.isArray(scan.finalStreams)) return scan;
   scan.finalStreams = scan.finalStreams.filter((stream) => !isMediaFragment(stream.url));
@@ -493,13 +499,18 @@ function outputRows(payload) {
   const seen = new Set();
   for (const item of payload.results) {
     if (item.excludedFromOutputs) continue;
-    const streams = [...(item.scan?.finalStreams || [])].sort((left, right) =>
-      PREFERRED_SERVERS.findIndex((server) => server.toLowerCase() === String(left.server || '').toLowerCase()) -
-      PREFERRED_SERVERS.findIndex((server) => server.toLowerCase() === String(right.server || '').toLowerCase())
-    );
+    const streams = dedupeStreamEntries((item.scan?.finalStreams || [])
+      .filter(isPublishableStream)
+      .map((stream) => ({
+        server: stream.server,
+        resolution: stream.probe?.standardResolution || stream.probe?.resolution,
+        url: stream.url,
+        bandwidth: stream.probe?.bandwidth,
+        verified: true,
+        exactVariant: stream.probe?.exactVariant,
+        exactStandard: stream.probe?.exactStandard,
+      })), canonicalMovieId(item));
     for (const stream of streams) {
-      if (!isPublishableStream(stream)) continue;
-      const source = { url: stream.url, quality: stream.probe.resolution };
       for (const category of item.categories || ['Uncategorized']) {
         const row = {
           category, title: item.title, pageUrl: item.url,
@@ -512,8 +523,10 @@ function outputRows(payload) {
           episodeNumber: item.episodeNumber ?? null,
           episodeTitle: item.episodeTitle || null,
           airDate: item.airDate || null,
-          server: stream.server || 'unknown', kind: stream.kind,
-          quality: source.quality, url: source.url,
+          server: stream.server,
+          quality: stream.quality,
+          resolution: stream.resolution,
+          url: stream.url,
           headers: {},
         };
         const key = [row.category, row.pageUrl, row.server, row.quality, row.url].join('\n');
@@ -559,6 +572,25 @@ function syncActiveBatchToQueue(scheduler, category, queue) {
   };
 }
 
+function expandSelectedSeriesQueue(originalQueue, remaining) {
+  const remainingByUrl = new Map(remaining.map((item) => [item.url, item]));
+  const episodesBySeries = new Map();
+  for (const item of remaining.filter(isEpisodeItem)) {
+    if (!episodesBySeries.has(item.seriesId)) episodesBySeries.set(item.seriesId, []);
+    episodesBySeries.get(item.seriesId).push(item);
+  }
+  const queue = [];
+  for (const original of originalQueue) {
+    if (isUnscopedSeriesItem(original)) {
+      const identity = urlContentIdentity(original.url);
+      queue.push(...(episodesBySeries.get(`tv:${identity.id}`) || []));
+    } else if (remainingByUrl.has(original.url)) {
+      queue.push(remainingByUrl.get(original.url));
+    }
+  }
+  return queue;
+}
+
 function repairLatestBatchCounts(payload, historyPath) {
   if (!payload?.scheduler?.lastBatchByCategory || !fs.existsSync(historyPath)) return false;
   let events;
@@ -602,19 +634,6 @@ function repairLatestBatchCounts(payload, historyPath) {
   return true;
 }
 
-function groupStreamRowsByServer(rows) {
-  const groups = new Map();
-  for (const row of rows) {
-    const server = row.server || 'unknown';
-    if (!groups.has(server)) groups.set(server, []);
-    const links = groups.get(server);
-    if (!links.some((link) => link.resolution === row.quality && link.url === row.url)) {
-      links.push({ resolution: row.quality, url: row.url });
-    }
-  }
-  return [...groups.entries()].map(([server, links]) => ({ server, links }));
-}
-
 function catalogCounts(payload) {
   const catalog = payload.catalog || [];
   const results = (payload.results || []).filter((item) => !item.excludedFromOutputs);
@@ -626,145 +645,6 @@ function catalogCounts(payload) {
     processedSeries: new Set(results.filter(isEpisodeItem).map((item) => item.seriesId)).size,
     processedEpisodes: new Set(results.filter(isEpisodeItem).map((item) => canonicalMovieId(item))).size,
   };
-}
-
-function saveTextReport(payload, outputPath, metadata = null) {
-  const rows = outputRows(payload);
-  const counts = contentCounts(rows);
-  const catalogStats = catalogCounts(payload);
-  const lines = metadata ? [
-    `CATEGORY: ${metadata.categoryName}`,
-    `TOTAL MOVIES: ${metadata.totalMoviesAdded}`,
-    `SUCCESSFUL NEW ADDED: ${metadata.successfulNewMovies || 0}`,
-    `SUCCESSFUL NEW ADDED SERIES: ${metadata.successfulNewSeries || 0}`,
-    `SUCCESSFUL NEW ADDED EPISODES: ${metadata.successfulNewEpisodes || 0}`,
-    `STREAM_LINKS: ${rows.length}`,
-    `UNIQUE_STREAM_URLS: ${new Set(rows.map((row) => row.url)).size}`,
-    `LAST_UPDATED: ${metadata.lastUpdated}`,
-    '',
-  ] : [
-    'REDFLIX MASTER STREAM EXPORT',
-    `TOTAL MOVIES DISCOVERED: ${catalogStats.discoveredMovies}`,
-    `TOTAL SERIES DISCOVERED: ${catalogStats.discoveredSeries}`,
-    `TOTAL EPISODES DISCOVERED: ${catalogStats.discoveredEpisodes}`,
-    `TOTAL MOVIES PROCESSED: ${catalogStats.processedMovies}`,
-    `TOTAL SERIES PROCESSED: ${catalogStats.processedSeries}`,
-    `TOTAL EPISODES PROCESSED: ${catalogStats.processedEpisodes}`,
-    `TOTAL MOVIES ADDED: ${counts.movies}`,
-    `TOTAL SERIES ADDED: ${counts.series}`,
-    `TOTAL EPISODES ADDED: ${counts.episodes}`,
-    `TOTAL PLAYABLE ITEMS: ${counts.playableItems}`,
-    `TOTAL CATEGORIES: ${new Set(rows.map((row) => row.category)).size}`,
-    `TOTAL STREAM LINKS: ${rows.length}`,
-    `TOTAL UNIQUE MEDIA URLS: ${new Set(rows.map((row) => row.url)).size}`,
-    '',
-  ];
-  const itemGroups = new Map();
-  for (const row of rows) {
-    if (!itemGroups.has(row.pageUrl)) itemGroups.set(row.pageUrl, []);
-    itemGroups.get(row.pageUrl).push(row);
-  }
-  let movieSerial = 0;
-  let episodeSerial = 0;
-  for (const itemRows of itemGroups.values()) {
-    const first = itemRows[0];
-    const isEpisode = first.contentType === 'episode';
-    const serial = isEpisode ? `Episode-${++episodeSerial}` : `Movie-${++movieSerial}`;
-    const identityLines = isEpisode ? [
-      `Series: ${first.seriesTitle}`,
-      `Season: ${first.seasonNumber}`,
-      `Episode: ${first.episodeNumber}`,
-      `Episode Title: ${first.episodeTitle}`,
-      `Air Date: ${first.airDate}`,
-    ] : [];
-    lines.push(
-      serial,
-      `Title: ${first.title}`,
-      `Year: ${first.year || 'Unknown'}`,
-      `Category: ${categoryDescriptor(first.category).name}`,
-      ...identityLines
-    );
-    groupStreamRowsByServer(itemRows).forEach((serverGroup, serverIndex) => {
-      lines.push(`Server-${serverIndex + 1}: ${serverGroup.server}`);
-      serverGroup.links.forEach((link, linkIndex) => lines.push(
-        `Resolution-${linkIndex + 1}: ${link.resolution}`,
-        `URL: ${link.url}`
-      ));
-    });
-    lines.push('');
-  }
-  fs.writeFileSync(outputPath, `${lines.join('\n')}\n`, 'utf8');
-}
-
-function m3uValue(value) {
-  return String(value || '').replace(/["\r\n]/g, ' ').trim();
-}
-
-function saveM3uReport(payload, outputPath, metadata = null) {
-  const rows = outputRows(payload);
-  const counts = contentCounts(rows);
-  const catalogStats = catalogCounts(payload);
-  const grouped = new Map();
-  for (const row of rows) {
-    if (!grouped.has(row.category)) grouped.set(row.category, []);
-    grouped.get(row.category).push(row);
-  }
-  const lines = metadata ? [
-    '#EXTM3U',
-    `# CATEGORY: ${m3uValue(metadata.categoryName)}`,
-    `# TOTAL MOVIES: ${metadata.totalMoviesAdded}`,
-    `# SUCCESSFUL NEW ADDED: ${metadata.successfulNewMovies || 0}`,
-    `# SUCCESSFUL NEW ADDED SERIES: ${metadata.successfulNewSeries || 0}`,
-    `# SUCCESSFUL NEW ADDED EPISODES: ${metadata.successfulNewEpisodes || 0}`,
-    `# STREAM_LINKS: ${rows.length}`,
-    `# UNIQUE_STREAM_URLS: ${new Set(rows.map((row) => row.url)).size}`,
-    `# LAST_UPDATED: ${metadata.lastUpdated}`,
-  ] : [
-    '#EXTM3U',
-    `# TOTAL-MOVIES-DISCOVERED: ${catalogStats.discoveredMovies}`,
-    `# TOTAL-SERIES-DISCOVERED: ${catalogStats.discoveredSeries}`,
-    `# TOTAL-EPISODES-DISCOVERED: ${catalogStats.discoveredEpisodes}`,
-    `# TOTAL-MOVIES-PROCESSED: ${catalogStats.processedMovies}`,
-    `# TOTAL-SERIES-PROCESSED: ${catalogStats.processedSeries}`,
-    `# TOTAL-EPISODES-PROCESSED: ${catalogStats.processedEpisodes}`,
-    `# TOTAL-MOVIES-ADDED: ${counts.movies}`,
-    `# TOTAL-SERIES-ADDED: ${counts.series}`,
-    `# TOTAL-EPISODES-ADDED: ${counts.episodes}`,
-    `# TOTAL-PLAYABLE-ITEMS: ${counts.playableItems}`,
-    `# TOTAL-CATEGORIES: ${grouped.size}`,
-    `# TOTAL-STREAM-LINKS: ${rows.length}`,
-    `# TOTAL-UNIQUE-MEDIA-URLS: ${new Set(rows.map((row) => row.url)).size}`,
-  ];
-  const serialByPage = new Map();
-  let movieSerial = 0;
-  let episodeSerial = 0;
-  for (const [category, categoryRows] of grouped) {
-    if (!metadata) {
-      lines.push(
-        `# CATEGORY: ${m3uValue(category)}`,
-        `# CATEGORY-TOTAL-MOVIES-ADDED: ${contentCounts(categoryRows).movies}`,
-        `# CATEGORY-TOTAL-SERIES-ADDED: ${contentCounts(categoryRows).series}`,
-        `# CATEGORY-TOTAL-EPISODES-ADDED: ${contentCounts(categoryRows).episodes}`,
-        `# CATEGORY-TOTAL-STREAM-LINKS: ${categoryRows.length}`,
-        `# CATEGORY-TOTAL-UNIQUE-MEDIA-URLS: ${new Set(categoryRows.map((row) => row.url)).size}`
-      );
-    }
-    for (const row of categoryRows) {
-      if (!serialByPage.has(row.pageUrl)) {
-        serialByPage.set(row.pageUrl, row.contentType === 'episode'
-          ? `Episode-${++episodeSerial}`
-          : `Movie-${++movieSerial}`);
-      }
-      const year = row.year ? ` (${row.year})` : '';
-      const label = `${serialByPage.get(row.pageUrl)} | ${row.title}${year} | ${row.server} | ${row.quality}`;
-      const groupTitle = row.contentType === 'episode'
-        ? `${row.category} | ${row.seriesTitle} | Season ${String(row.seasonNumber).padStart(2, '0')}`
-        : row.category;
-      lines.push(`#EXTINF:-1 group-title="${m3uValue(groupTitle)}" tvg-name="${m3uValue(label)}",${label}`);
-      lines.push(row.url);
-    }
-  }
-  fs.writeFileSync(outputPath, `${lines.join('\n')}\n`, 'utf8');
 }
 
 function categoryOrder(catalog) {
@@ -1045,11 +925,15 @@ async function expandEpisodicCatalog(baseCatalog, origin, previous = null) {
       const details = await fetchJsonWithRetry(detailsUrl);
       const seasons = (details.seasons || []).filter((season) => Number.isInteger(season.season_number));
       const airedEpisodes = [];
+      const airedSeasonNumbers = new Set();
       for (const season of seasons) {
         const seasonUrl = `${origin}/api/tmdb/tv/${identity.id}/season/${season.season_number}?api_key=&language=en-US`;
         const seasonData = await fetchJsonWithRetry(seasonUrl);
-        for (const episode of seasonData.episodes || []) {
-          if (!episode.air_date || episode.air_date > today) continue;
+        const airedInSeason = (seasonData.episodes || []).filter(
+          (episode) => episode.air_date && episode.air_date <= today
+        );
+        for (const episode of airedInSeason) {
+          airedSeasonNumbers.add(episode.season_number);
           const target = new URL(seriesItem.url);
           target.searchParams.set('id', identity.id);
           target.searchParams.set('type', 'tv');
@@ -1064,9 +948,14 @@ async function expandEpisodicCatalog(baseCatalog, origin, previous = null) {
             canonicalId: episodeId,
             seriesId,
             seriesTitle: details.name || seriesItem.title,
+            seriesYear: Number(String(details.first_air_date || '').slice(0, 4)) || null,
+            seriesPoster: seriesItem.poster || (details.poster_path ? `https://image.tmdb.org/t/p/original${details.poster_path}` : ''),
             seasonNumber: episode.season_number,
+            seasonName: episode.season_number === 0 ? 'Specials' : (seasonData.name || `Season ${episode.season_number}`),
+            seasonTotalEpisodes: airedInSeason.length,
             episodeNumber: episode.episode_number,
             episodeTitle: episode.name || `Episode ${episode.episode_number}`,
+            episodeName: episode.name || `Episode ${episode.episode_number}`,
             airDate: episode.air_date,
             stillPath: episode.still_path || null,
             poster: episode.still_path
@@ -1075,6 +964,10 @@ async function expandEpisodicCatalog(baseCatalog, origin, previous = null) {
           });
         }
       }
+      for (const episode of airedEpisodes) {
+        episode.totalSeasons = airedSeasonNumbers.size;
+        episode.totalEpisodes = airedEpisodes.length;
+      }
       episodeJobs.push(...airedEpisodes);
       seriesMetadata.push({
         seriesId,
@@ -1082,8 +975,8 @@ async function expandEpisodicCatalog(baseCatalog, origin, previous = null) {
         title: details.name || seriesItem.title,
         sourceUrl: seriesItem.url,
         categories: seriesItem.categories,
-        totalSeasons: details.number_of_seasons || seasons.length,
-        totalEpisodes: details.number_of_episodes || 0,
+        totalSeasons: airedSeasonNumbers.size,
+        totalEpisodes: airedEpisodes.length,
         airedEpisodes: airedEpisodes.length,
         poster: seriesItem.poster || (details.poster_path ? `https://image.tmdb.org/t/p/original${details.poster_path}` : ''),
         status: 'expanded',
@@ -1114,22 +1007,6 @@ async function expandEpisodicCatalog(baseCatalog, origin, previous = null) {
     seriesMetadata: seriesMetadata.sort((left, right) => left.seriesId.localeCompare(right.seriesId, undefined, { numeric: true })),
     expandedAt: new Date().toISOString(),
   };
-}
-
-function taxonomyFor(item) {
-  const taxonomy = {
-    contentType: [], genres: [], editorial: [], regions: [], platforms: [], featured: [], collections: [],
-  };
-  const bucketByType = {
-    'content-type': 'contentType', genre: 'genres', editorial: 'editorial',
-    region: 'regions', platform: 'platforms', featured: 'featured', collection: 'collections',
-  };
-  for (const rawCategory of item.categories || ['Uncategorized']) {
-    const descriptor = categoryDescriptor(rawCategory);
-    const bucket = bucketByType[descriptor.type] || 'collections';
-    if (!taxonomy[bucket].includes(descriptor.name)) taxonomy[bucket].push(descriptor.name);
-  }
-  return taxonomy;
 }
 
 function reconcileScheduler(catalog, previous = {}) {
@@ -1166,6 +1043,27 @@ function markExistingResultsProcessed(payload) {
   for (const item of payload.results || []) markItemProcessed(payload.scheduler, item);
 }
 
+function takeLogicalTitles(items, limit) {
+  const selected = [];
+  const selectedSeries = new Set();
+  let logicalTitles = 0;
+  for (const item of items) {
+    if (isEpisodeItem(item)) {
+      if (selectedSeries.has(item.seriesId)) continue;
+      if (logicalTitles >= limit) break;
+      selectedSeries.add(item.seriesId);
+      selected.push(...items.filter((candidate) =>
+        isEpisodeItem(candidate) && candidate.seriesId === item.seriesId));
+      logicalTitles += 1;
+      continue;
+    }
+    if (logicalTitles >= limit) break;
+    selected.push(item);
+    logicalTitles += 1;
+  }
+  return selected;
+}
+
 function nextCategoryBatch(payload, batchSize, categoryOverride = null) {
   const scheduler = payload.scheduler;
   if (scheduler.activeBatch?.category && Array.isArray(scheduler.activeBatch.urls)) {
@@ -1180,7 +1078,7 @@ function nextCategoryBatch(payload, batchSize, categoryOverride = null) {
     );
     if (remaining.length > 0) {
       scheduler.lastCategory = category;
-      return { category, titles: remaining.slice(0, batchSize), remainingBeforeBatch: remaining.length, resumed: true };
+      return { category, titles: remaining, remainingBeforeBatch: remaining.length, resumed: true };
     }
     scheduler.activeBatch = null;
   }
@@ -1191,7 +1089,7 @@ function nextCategoryBatch(payload, batchSize, categoryOverride = null) {
     );
     if (remaining.length === 0) return { category: null, titles: [], remainingBeforeBatch: 0, manual: true };
     scheduler.lastCategory = categoryOverride;
-    const titles = remaining.slice(0, batchSize);
+    const titles = takeLogicalTitles(remaining, batchSize);
     scheduler.activeBatch = {
       category: categoryOverride,
       urls: titles.map((item) => item.url),
@@ -1211,7 +1109,7 @@ function nextCategoryBatch(payload, batchSize, categoryOverride = null) {
     );
     if (remaining.length > 0) {
       scheduler.lastCategory = category;
-      const titles = remaining.slice(0, batchSize);
+      const titles = takeLogicalTitles(remaining, batchSize);
       scheduler.activeBatch = {
         category,
         urls: titles.map((item) => item.url),
@@ -1266,7 +1164,7 @@ function buildCategoryData(payload) {
   return data;
 }
 
-function saveCheckpoint(payload, jsonPath, textPath, m3uPath) {
+function saveCheckpoint(payload, jsonPath) {
   payload.updatedAt = new Date().toISOString();
   payload.categoryData = buildCategoryData(payload);
   const rows = outputRows(payload);
@@ -1303,42 +1201,15 @@ function saveCheckpoint(payload, jsonPath, textPath, m3uPath) {
     ...payload,
   };
   fs.writeFileSync(jsonPath, `${JSON.stringify(filePayload, null, 2)}\n`, 'utf8');
-  const lastBatch = payload.scheduler?.lastBatchByCategory?.[payload.scheduler?.lastCategory] || {};
-  const masterReportPayload = {
-    ...payload,
-    catalog: (payload.catalog || []).map((item) => ({
-      ...item, categories: [item.categories?.[0] || 'Uncategorized'],
-    })),
-    results: (payload.results || []).map((item) => ({
-      ...item, categories: [item.categories?.[0] || 'Uncategorized'],
-    })),
-  };
-  const masterRows = outputRows(masterReportPayload);
-  const masterMetadata = {
-    categoryName: 'MASTER',
-    totalMoviesAdded: catalogStats.processedMovies,
-    successfulNewMovies: lastBatch.successfulNewMovies || 0,
-    successfulNewSeries: lastBatch.successfulNewSeries || 0,
-    successfulNewEpisodes: lastBatch.successfulNewEpisodes || 0,
-    totalStreamLinks: masterRows.length,
-    totalUniqueMediaUrls: new Set(masterRows.map((row) => row.url)).size,
-    lastUpdated: payload.updatedAt,
-  };
-  saveTextReport(masterReportPayload, textPath, masterMetadata);
-  if (m3uPath) saveM3uReport(masterReportPayload, m3uPath, masterMetadata);
 }
 
 function outputPaths(baseDirectory = __dirname) {
   const root = path.join(baseDirectory, 'output');
   return {
     root,
-    masterDirectory: path.join(root, 'master'),
-    categoriesDirectory: path.join(root, 'categories'),
+    dataDirectory: path.join(baseDirectory, 'data'),
     stateDirectory: path.join(root, 'state'),
     historyDirectory: path.join(root, 'history'),
-    masterJson: path.join(root, 'master', 'catalog-summary.json'),
-    masterText: path.join(root, 'master', 'all-streams.txt'),
-    masterM3u: path.join(root, 'master', 'all-streams.m3u'),
     checkpoint: path.join(root, 'state', 'scan-checkpoint.json'),
     currentTitle: path.join(root, 'state', '.current-title-result.json'),
     scannerLock: path.join(root, 'state', '.scanner.lock'),
@@ -1377,8 +1248,7 @@ function acquireScannerLock(paths) {
 
 function ensureOutputDirectories(paths) {
   for (const directory of [
-    paths.root, paths.masterDirectory, paths.categoriesDirectory,
-    paths.stateDirectory, paths.historyDirectory,
+    paths.root, paths.stateDirectory, paths.historyDirectory,
   ]) fs.mkdirSync(directory, { recursive: true });
 }
 
@@ -1408,178 +1278,121 @@ function subsetForCategory(payload, group) {
   };
 }
 
-function uniqueStreams(rows) {
-  const streams = [];
-  const seen = new Set();
-  for (const row of rows) {
-    const key = [row.server, row.quality, row.url].join('\n');
-    if (seen.has(key)) continue;
-    seen.add(key);
-    streams.push({
-      server: row.server, resolution: row.quality, url: row.url,
-    });
-  }
-  return streams;
+function normalizedStreamsForItem(item) {
+  return (item.scan?.finalStreams || [])
+    .filter(isPublishableStream)
+    .map((stream) => ({
+      server: stream.server,
+      resolution: stream.probe?.standardResolution || stream.probe?.resolution,
+      url: stream.url,
+      bandwidth: stream.probe?.bandwidth,
+      verified: true,
+      exactVariant: stream.probe?.exactVariant,
+      exactStandard: stream.probe?.exactStandard,
+    }));
 }
 
-function categoryMetadata(payload, group, subset, batchSize = 20) {
-  const rows = outputRows(subset);
-  const discoveredUrls = new Set(subset.catalog.map((item) => item.url));
-  const processedUrls = new Set();
-  for (const rawCategory of group.rawCategories) {
-    for (const url of payload.scheduler?.processedByCategory?.[rawCategory] || []) {
-      if (discoveredUrls.has(url)) processedUrls.add(url);
-    }
-  }
-  for (const item of subset.results) {
-    if (!item.excludedFromOutputs && discoveredUrls.has(item.url)) processedUrls.add(item.url);
-  }
-  const results = subset.results.filter((item) => !item.excludedFromOutputs);
-  const discoveredMovies = subset.catalog.filter((item) => !isEpisodeItem(item));
-  const discoveredEpisodes = subset.catalog.filter(isEpisodeItem);
-  const processedMovies = results.filter((item) => !isEpisodeItem(item));
-  const processedEpisodes = results.filter(isEpisodeItem);
-  const series = (payload.seriesMetadata || []).filter(
-    (item) => (item.categories || []).some((category) => group.rawCategories.includes(category))
-  );
-  const counts = contentCounts(rows);
-  const batchCandidates = group.rawCategories
-    .map((rawCategory) => payload.scheduler?.lastBatchByCategory?.[rawCategory])
-    .filter(Boolean)
-    .sort((left, right) => String(right.completedAt).localeCompare(String(left.completedAt)));
-  const lastBatch = batchCandidates[0] || {};
-  const remainingPlayableItems = [...discoveredUrls].filter((url) => !processedUrls.has(url)).length;
-  return {
-    categoryName: subset.outputCategoryName || group.rawCategories[0] || group.raw,
-    totalMoviesAdded: new Set(processedMovies.map((item) => canonicalMovieId(item))).size,
-    successfulNewMovies: lastBatch.successfulNewMovies || 0,
-    successfulNewSeries: lastBatch.successfulNewSeries || 0,
-    successfulNewEpisodes: lastBatch.successfulNewEpisodes || 0,
-    totalStreamLinks: rows.length,
-    totalUniqueMediaUrls: new Set(rows.map((row) => row.url)).size,
-    lastUpdated: payload.updatedAt,
-  };
-}
-
-function canonicalMovieRecord(item, rows, serial = null) {
-  const memberships = [...new Map((item.categories || ['Uncategorized']).map((rawCategory) => {
-    const descriptor = categoryDescriptor(rawCategory);
-    return [descriptor.categoryId, {
-      categoryId: descriptor.categoryId,
-      name: descriptor.name,
-      type: descriptor.type,
-      folder: descriptor.folder,
-    }];
-  })).values()];
-  return {
-    serial: serial || null,
-    canonicalId: canonicalMovieId(item),
-    title: item.title,
-    poster: item.poster || null,
-    year: item.year || (item.airDate ? Number(String(item.airDate).slice(0, 4)) : null),
-    sourceUrl: item.url,
-    contentType: isEpisodeItem(item) ? 'episode' : 'movie',
-    seriesId: item.seriesId || null,
-    seriesTitle: item.seriesTitle || null,
-    seasonNumber: item.seasonNumber ?? null,
-    episodeNumber: item.episodeNumber ?? null,
-    episodeTitle: item.episodeTitle || null,
-    airDate: item.airDate || null,
-    categoryMemberships: memberships,
-    taxonomy: taxonomyFor(item),
-    success: Boolean(item.scan?.success),
-    servers: groupStreamRowsByServer(rows.filter((row) => row.pageUrl === item.url)),
-  };
-}
-
-function splitContentRecords(records) {
-  const movies = records.filter((record) => record.contentType !== 'episode');
-  const seriesMap = new Map();
-  for (const episode of records.filter((record) => record.contentType === 'episode')) {
-    const series = seriesMap.get(episode.seriesId) || {
-      seriesId: episode.seriesId,
-      title: episode.seriesTitle,
-      poster: episode.poster || null,
-      categoryMemberships: episode.categoryMemberships,
-      taxonomy: episode.taxonomy,
-      totalEpisodesAdded: 0,
-      seasons: [],
+function normalizedItemsForGroup(payload, group) {
+  const metadataBySeries = new Map((payload.seriesMetadata || [])
+    .map((entry) => [entry.seriesId, entry]));
+  const airedBySeries = new Map();
+  for (const episode of (payload.catalog || []).filter(isEpisodeItem)) {
+    const aired = airedBySeries.get(episode.seriesId) || {
+      seasons: new Set(), episodes: 0, episodesBySeason: new Map(),
     };
-    if (!series.poster && episode.poster) series.poster = episode.poster;
-    let season = series.seasons.find((item) => item.seasonNumber === episode.seasonNumber);
-    if (!season) {
-      season = { seasonNumber: episode.seasonNumber, episodes: [] };
-      series.seasons.push(season);
-    }
-    season.episodes.push(episode);
-    series.totalEpisodesAdded += 1;
-    seriesMap.set(episode.seriesId, series);
+    aired.seasons.add(episode.seasonNumber);
+    aired.episodes += 1;
+    aired.episodesBySeason.set(
+      episode.seasonNumber,
+      (aired.episodesBySeason.get(episode.seasonNumber) || 0) + 1
+    );
+    airedBySeries.set(episode.seriesId, aired);
   }
-  const series = [...seriesMap.values()];
-  for (const item of series) {
-    item.seasons.sort((left, right) => left.seasonNumber - right.seasonNumber);
-    for (const season of item.seasons) {
-      season.episodes.sort((left, right) => left.episodeNumber - right.episodeNumber);
-    }
-  }
-  return { movies, series };
+  return (payload.results || [])
+    .filter((item) => !item.excludedFromOutputs && itemBelongsToGroup(item, group))
+    .map((item) => {
+      const streams = normalizedStreamsForItem(item);
+      if (!isEpisodeItem(item)) {
+        return {
+          id: canonicalMovieId(item),
+          type: 'movie',
+          title: item.title,
+          year: item.year ?? null,
+          poster: item.poster || null,
+          streams,
+        };
+      }
+      const seriesMetadata = metadataBySeries.get(item.seriesId) || {};
+      const aired = airedBySeries.get(item.seriesId);
+      return {
+        type: 'episode',
+        seriesId: item.seriesId,
+        seriesTitle: item.seriesTitle,
+        seriesYear: item.seriesYear ?? item.year ?? null,
+        seriesPoster: item.seriesPoster || seriesMetadata.poster || item.poster || null,
+        totalSeasons: aired?.seasons.size ?? item.totalSeasons ?? seriesMetadata.totalSeasons,
+        totalEpisodes: aired?.episodes ?? item.totalEpisodes ?? seriesMetadata.airedEpisodes,
+        seasonNumber: item.seasonNumber,
+        seasonName: item.seasonName,
+        seasonTotalEpisodes: aired?.episodesBySeason.get(item.seasonNumber) ?? item.seasonTotalEpisodes,
+        episodeNumber: item.episodeNumber,
+        episodeName: item.episodeName || item.episodeTitle,
+        airDate: item.airDate,
+        poster: item.poster || null,
+        streams,
+      };
+    });
 }
 
-function writeCategoryOutputs(payload, paths, batchSize = 20) {
-  const categorySummaries = [];
+function publishNormalizedDataTree(payload, paths) {
+  const destination = path.resolve(paths.dataDirectory);
+  const workspace = path.dirname(destination);
+  if (path.basename(destination) !== 'data' || destination === path.parse(destination).root) {
+    throw new Error(`Refusing unsafe data output path: ${destination}`);
+  }
+  const staging = path.join(workspace, `.data-staging-${process.pid}`);
+  const backup = path.join(workspace, `.data-previous-${process.pid}`);
+  fs.rmSync(staging, { recursive: true, force: true });
+  fs.rmSync(backup, { recursive: true, force: true });
+  fs.mkdirSync(staging, { recursive: true });
+
+  const published = [];
   for (const group of categoryGroups(payload)) {
-    const directory = path.join(paths.categoriesDirectory, group.folder);
-    fs.mkdirSync(directory, { recursive: true });
     const subset = subsetForCategory(payload, group);
-    const metadata = categoryMetadata(payload, group, subset, batchSize);
-    const rows = outputRows(subset);
-    let movieSerial = 0;
-    let episodeSerial = 0;
-    const records = subset.results
-      .filter((item) => !item.excludedFromOutputs)
-      .map((item) => canonicalMovieRecord(
-        item,
-        rows,
-        isEpisodeItem(item) ? `Episode-${++episodeSerial}` : `Movie-${++movieSerial}`
-      ));
-    const splitRecords = splitContentRecords(records);
-    const categoryJson = {
-      metadata: {
-        category: metadata.categoryName,
-        totalMovies: metadata.totalMoviesAdded,
-        successfulNewAdded: metadata.successfulNewMovies,
-        successfulNewAddedSeries: metadata.successfulNewSeries,
-        successfulNewAddedEpisodes: metadata.successfulNewEpisodes,
-        streamLinks: metadata.totalStreamLinks,
-        uniqueStreamUrls: metadata.totalUniqueMediaUrls,
-        lastUpdated: metadata.lastUpdated,
-      },
-      movies: splitRecords.movies,
-      series: splitRecords.series,
-    };
-    fs.writeFileSync(path.join(directory, 'category.json'), `${JSON.stringify(categoryJson, null, 2)}\n`, 'utf8');
-    saveTextReport(subset, path.join(directory, 'streams.txt'), metadata);
-    saveM3uReport(subset, path.join(directory, 'playlist.m3u'), metadata);
-    categorySummaries.push({
-      categoryName: metadata.categoryName,
-      categoryId: group.categoryId,
-      categoryType: group.type,
-      folder: group.folder,
-      totalMovies: metadata.totalMoviesAdded,
-      successfulNewAdded: metadata.successfulNewMovies,
-      successfulNewAddedSeries: metadata.successfulNewSeries,
-      successfulNewAddedEpisodes: metadata.successfulNewEpisodes,
-      totalStreamLinks: metadata.totalStreamLinks,
-      totalUniqueMediaUrls: metadata.totalUniqueMediaUrls,
-      lastUpdated: metadata.lastUpdated,
-      files: {
-        json: `categories/${group.folder}/category.json`,
-        text: `categories/${group.folder}/streams.txt`,
-        m3u: `categories/${group.folder}/playlist.m3u`,
-      },
+    const model = buildCategoryModel({
+      category: subset.outputCategoryName || group.rawCategories[0] || group.raw,
+      lastUpdated: payload.updatedAt,
+      purpose: OUTPUT_PURPOSE,
+      items: normalizedItemsForGroup(payload, group),
+    });
+    model.category.folder = group.folder;
+    if (model.movies.length === 0 && model.series.length === 0) continue;
+    writeNormalizedCategoryOutputs(model, { baseDirectory: staging });
+    published.push({
+      category: model.category.name,
+      folder: model.category.folder,
+      movies: model.movies.length,
+      series: model.series.length,
+      seasons: model.series.reduce((total, series) => total + series.seasons.length, 0),
+      episodes: model.series.reduce((total, series) => total +
+        series.seasons.reduce((count, season) => count + season.episodes.length, 0), 0),
     });
   }
-  return categorySummaries;
+
+  const verification = verifyDataTree(staging);
+  if (verification.errors.length > 0) {
+    fs.rmSync(staging, { recursive: true, force: true });
+    throw new Error(`Normalized data verification failed:\n${verification.errors.join('\n')}`);
+  }
+  if (fs.existsSync(destination)) fs.renameSync(destination, backup);
+  try {
+    fs.renameSync(staging, destination);
+    fs.rmSync(backup, { recursive: true, force: true });
+  } catch (error) {
+    if (!fs.existsSync(destination) && fs.existsSync(backup)) fs.renameSync(backup, destination);
+    throw error;
+  }
+  return { published, verification };
 }
 
 function appendHistory(payload, paths, eventType, details = {}) {
@@ -1596,39 +1409,10 @@ function appendHistory(payload, paths, eventType, details = {}) {
 
 function saveOutputTree(payload, paths, options = {}) {
   ensureOutputDirectories(paths);
-  saveCheckpoint(payload, paths.checkpoint, paths.masterText, paths.masterM3u);
-  const categories = writeCategoryOutputs(payload, paths, options.batchSize || 20);
-  const allRows = outputRows(payload);
-  let masterMovieSerial = 0;
-  let masterEpisodeSerial = 0;
-  const records = payload.results
-    .filter((item) => !item.excludedFromOutputs)
-    .map((item) => canonicalMovieRecord(
-      item,
-      allRows,
-      isEpisodeItem(item) ? `Episode-${++masterEpisodeSerial}` : `Movie-${++masterMovieSerial}`
-    ));
-  const splitRecords = splitContentRecords(records);
-  const masterJson = {
-    summary: payload.summary,
-    nextRotationCategory: payload.scheduler?.categoryOrder?.[payload.scheduler.nextCategoryIndex] || null,
-    lastUpdated: payload.updatedAt,
-    categories,
-    seriesDiscovery: payload.seriesMetadata || [],
-    movies: splitRecords.movies,
-    series: splitRecords.series,
-    excludedLegacySeriesResults: payload.results
-      .filter((item) => item.excludedFromOutputs)
-      .map((item) => ({
-        canonicalId: canonicalMovieId(item),
-        title: item.title,
-        sourceUrl: item.url,
-        reason: item.exclusionReason,
-      })),
-  };
-  fs.writeFileSync(paths.masterJson, `${JSON.stringify(masterJson, null, 2)}\n`, 'utf8');
+  saveCheckpoint(payload, paths.checkpoint);
+  const normalized = publishNormalizedDataTree(payload, paths);
   if (options.historyEvent) appendHistory(payload, paths, options.historyEvent, options.historyDetails);
-  return { categories, masterJson };
+  return normalized;
 }
 
 async function main() {
@@ -1636,8 +1420,7 @@ async function main() {
   console.log(`[SOURCE] ${options.rootUrl} (built into scanner)`);
   const paths = outputPaths(__dirname);
   ensureOutputDirectories(paths);
-  const legacyJsonPath = path.resolve(OUTPUT_JSON);
-  const resumePath = fs.existsSync(paths.checkpoint) ? paths.checkpoint : legacyJsonPath;
+  const resumePath = paths.checkpoint;
   let previous = null;
   if (!options.fresh && fs.existsSync(resumePath)) {
     try {
@@ -1723,7 +1506,7 @@ async function main() {
     baseCatalog: baseDiscovery.titles,
     catalog: discovery.titles,
     episodeCatalogVersion: 1,
-    playbackPolicyVersion: 2,
+    playbackPolicyVersion: 3,
     episodeCatalogExpandedAt: episodic.expandedAt,
     seriesMetadata: episodic.seriesMetadata,
     results: [],
@@ -1746,7 +1529,7 @@ async function main() {
                 : item.exclusionReason,
             };
           });
-        const policyMigration = previous.playbackPolicyVersion !== 2;
+        const policyMigration = previous.playbackPolicyVersion !== 3;
         payload.scheduler = reconcileScheduler(
           discovery.titles,
           policyMigration ? {} : previous.scheduler
@@ -1762,7 +1545,6 @@ async function main() {
         payload.startedAt = previous.startedAt || payload.startedAt;
         const priorSuccesses = payload.results.filter((item) => item.scan?.success).length;
         console.log(`[RESUME] Keeping ${payload.results.length} attempted titles (${priorSuccesses} successful).`);
-        if (resumePath === legacyJsonPath) console.log('[MIGRATION] Importing the legacy checkpoint into output/state/.');
     } catch (_) {
       console.log('[RESUME] Existing checkpoint is invalid; starting a new scan.');
     }
@@ -1821,42 +1603,7 @@ async function main() {
       const remaining = payload.catalog.filter(
         (item) => item.categories?.includes(selectedCategory) && !processed.has(item.url)
       );
-      const remainingByUrl = new Map(remaining.map((item) => [item.url, item]));
-      const episodesBySeries = new Map();
-      for (const item of remaining.filter(isEpisodeItem)) {
-        if (!episodesBySeries.has(item.seriesId)) episodesBySeries.set(item.seriesId, []);
-        episodesBySeries.get(item.seriesId).push(item);
-      }
-      const fairQueue = [];
-      for (const original of originalQueue) {
-        if (isUnscopedSeriesItem(original)) {
-          const identity = urlContentIdentity(original.url);
-          const episode = episodesBySeries.get(`tv:${identity.id}`)?.shift();
-          if (episode) fairQueue.push(episode);
-        } else if (remainingByUrl.has(original.url)) {
-          fairQueue.push(remainingByUrl.get(original.url));
-        }
-      }
-      const selectedUrls = new Set(fairQueue.map((item) => item.url));
-      const seriesQueues = [...episodesBySeries.values()];
-      while (fairQueue.length < options.maxTitles && seriesQueues.some((items) => items.length > 0)) {
-        for (const items of seriesQueues) {
-          const episode = items.shift();
-          if (episode && !selectedUrls.has(episode.url)) {
-            selectedUrls.add(episode.url);
-            fairQueue.push(episode);
-            if (fairQueue.length === options.maxTitles) break;
-          }
-        }
-      }
-      for (const item of remaining) {
-        if (fairQueue.length === options.maxTitles) break;
-        if (!selectedUrls.has(item.url)) {
-          selectedUrls.add(item.url);
-          fairQueue.push(item);
-        }
-      }
-      queue = fairQueue;
+      queue = expandSelectedSeriesQueue(originalQueue, remaining);
       remainingBeforeBatch = remaining.length;
       syncActiveBatchToQueue(payload.scheduler, selectedCategory, queue);
       saveOutputTree(payload, paths, {
@@ -1919,9 +1666,11 @@ async function main() {
         processError: processResult.error,
         scan: mergedScan,
       });
-      if (!options.retryFailed && isPublishableScan(mergedScan)) {
-        markItemProcessed(payload.scheduler, title, selectedCategory);
-      }
+      // Rotation records a completed attempt even when every provider is
+      // unavailable. Explicit --retry-failed remains the path for re-probing
+      // those records; otherwise one dead upstream URL would stall a category
+      // forever and keep the full-series queue from advancing.
+      if (!options.retryFailed) markItemProcessed(payload.scheduler, title, selectedCategory);
       saveOutputTree(payload, paths, {
         batchSize: options.maxTitles,
         historyEvent: mergedScan?.lastAttemptSucceeded === false ? 'title-refresh-failed-preserved' :
@@ -1969,10 +1718,7 @@ async function main() {
   console.log(`Titles discovered: ${payload.summary.discovered}`);
   console.log(`Titles processed: ${payload.summary.processed}`);
   console.log(`Verified streams: ${payload.summary.verifiedStreams}`);
-  console.log(`Master JSON: ${paths.masterJson}`);
-  console.log(`Master links: ${paths.masterText}`);
-  console.log(`Master M3U: ${paths.masterM3u}`);
-  console.log(`Category folders: ${paths.categoriesDirectory}`);
+  console.log(`Verified category data: ${paths.dataDirectory}`);
   console.log(`Checkpoint: ${paths.checkpoint}`);
   console.log(`History: ${paths.history}`);
   console.log('==================================================\n');
@@ -1993,16 +1739,20 @@ if (require.main === module) {
 }
 
 module.exports = {
-  parseArgs, getRootUrl, inferQuality, isMediaFragment, sanitizeScan,
+  parseArgs, getRootUrl, isMediaFragment, sanitizeScan,
+  isExplicitLowQualityUrl,
   is1080ClassResolution, isPublishableStream, isPublishableScan, isReusableScan,
   pruneExpiredProcessedItems,
   categoryDescriptor, categoryGroups, canonicalMovieId, urlContentIdentity,
-  isEpisodeItem, isUnscopedSeriesItem, expandEpisodicCatalog, taxonomyFor,
+  isEpisodeItem, isUnscopedSeriesItem, expandEpisodicCatalog,
   normalizeTitleMetadata, enrichTitleMetadata,
   reconcileScheduler, markItemProcessed, markExistingResultsProcessed,
   nextCategoryBatch, resolveCategorySelection, mergeRefreshedCategory,
   runWorkerPool, outputRows, contentCounts, catalogCounts, saveCheckpoint,
   successfulBatchCounts,
   syncActiveBatchToQueue, repairLatestBatchCounts,
-  outputPaths, saveOutputTree, saveTextReport, saveM3uReport, canonicalMovieRecord,
+  expandSelectedSeriesQueue,
+  takeLogicalTitles,
+  outputPaths, saveOutputTree,
+  normalizedStreamsForItem, normalizedItemsForGroup, publishNormalizedDataTree,
 };
